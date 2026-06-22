@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Knowledge Graph — KnowledgeMaster</title>
+  <link rel="stylesheet" href="../assets/css/main.css"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+  <style>
+    body { overflow: hidden; }
+    #graph-wrap { position: fixed; top: 60px; left: 0; right: 0; bottom: 0; }
+    svg { width: 100%; height: 100%; background: #f8f9fb; }
+    .node circle { stroke-width: 2; cursor: pointer; transition: r .2s; }
+    .node text { font-size: 11px; fill: #1e293b; pointer-events: none; font-weight: 600; }
+    .link { stroke: #cbd5e1; stroke-opacity: .7; }
+    .link.highlighted { stroke: #4f46e5; stroke-opacity: 1; stroke-width: 2.5; }
+    #tooltip {
+      position: fixed; background: white; border: 1px solid #e2e8f0;
+      border-radius: 10px; padding: 1rem; max-width: 260px;
+      box-shadow: 0 8px 32px rgba(0,0,0,.15); pointer-events: none;
+      opacity: 0; transition: opacity .2s; z-index: 50; font-size:.85rem;
+    }
+    #tooltip h4 { font-size:.95rem; margin-bottom:.3rem; color:#4f46e5; }
+    #tooltip .tag { display:inline-block; padding:.1rem .5rem; border-radius:100px; background:#eef2ff; color:#4f46e5; font-size:.7rem; margin-bottom:.4rem; }
+    #controls {
+      position: fixed; top: 70px; right: 10px; display: flex; flex-direction: column;
+      gap: .4rem; z-index: 40;
+    }
+    #controls button { width: 36px; height: 36px; border-radius: 8px; border: 1px solid #e2e8f0; background: white; cursor: pointer; font-size: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+    #legend {
+      position: fixed; bottom: 20px; left: 20px; background: white;
+      border: 1px solid #e2e8f0; border-radius: 10px; padding: .75rem 1rem;
+      font-size: .75rem; z-index: 40; box-shadow: 0 2px 12px rgba(0,0,0,.08);
+    }
+    .legend-item { display: flex; align-items: center; gap: .4rem; margin-bottom: .2rem; }
+    .legend-dot { width: 10px; height: 10px; border-radius: 50%; }
+    #topic-title {
+      position: fixed; top: 68px; left: 50%; transform: translateX(-50%);
+      background: white; border: 1px solid #e2e8f0; border-radius: 100px;
+      padding: .4rem 1.2rem; font-size: .85rem; font-weight: 700; color: #4f46e5;
+      box-shadow: 0 2px 8px rgba(0,0,0,.08); z-index: 40;
+    }
+    .exam-fab {
+      position: fixed; bottom: 20px; right: 20px;
+      background: #10b981; color: white; border: none;
+      border-radius: 100px; padding: .7rem 1.4rem; font-size: .9rem;
+      font-weight: 700; cursor: pointer; box-shadow: 0 4px 16px rgba(16,185,129,.4);
+      z-index: 40; text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <nav id="navbar"></nav>
+  <div id="topic-title">Loading...</div>
+  <div id="graph-wrap"><svg id="graph"></svg></div>
+  <div id="tooltip"></div>
+  <div id="controls">
+    <button onclick="zoom(1.3)" title="Zoom in">+</button>
+    <button onclick="zoom(0.7)" title="Zoom out">−</button>
+    <button onclick="resetZoom()" title="Reset">⌂</button>
+  </div>
+  <div id="legend">
+    <div class="legend-item"><div class="legend-dot" style="background:#4f46e5"></div> Core</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#06b6d4"></div> Concept</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#10b981"></div> Application</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div> Person/Event</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div> Formula/Fact</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#8b5cf6"></div> Example</div>
+  </div>
+  <a id="exam-fab" class="exam-fab" href="#">Take Exam</a>
+
+  <script src="../components/navbar.js"></script>
+  <script>
+    const slug = new URLSearchParams(location.search).get("topic");
+    const dataFile = slug
+      ? `../data/topics/${slug}.json`
+      : `../data/master_graph.json`;
+
+    const colorMap = {
+      core: "#4f46e5", concept: "#06b6d4", application: "#10b981",
+      person: "#f59e0b", event: "#f59e0b", formula: "#ef4444",
+      fact: "#ef4444", example: "#8b5cf6"
+    };
+
+    function nodeColor(type) { return colorMap[type] || "#94a3b8"; }
+    function nodeRadius(importance) { return 6 + (importance || 5) * 2; }
+
+    const svg = d3.select("#graph");
+    const tooltip = document.getElementById("tooltip");
+    let zoomBehavior, gMain;
+
+    async function load() {
+      const res = await fetch(dataFile);
+      const data = await res.json();
+
+      const nodes = slug
+        ? data.nodes.map(n => ({ ...n }))
+        : data.global_nodes.slice(0, 200).map(n => ({ ...n }));
+
+      const edges = slug
+        ? data.edges
+        : data.global_edges.slice(0, 500);
+
+      document.getElementById("topic-title").textContent = data.topic || "Master Knowledge Graph";
+      document.title = (data.topic || "Master Graph") + " — KnowledgeMaster";
+
+      if (slug) {
+        document.getElementById("exam-fab").href = `../exam/quiz.html?topic=${slug}`;
+      } else {
+        document.getElementById("exam-fab").style.display = "none";
+      }
+
+      initGraph(nodes, edges);
+    }
+
+    function initGraph(nodes, links) {
+      const w = window.innerWidth, h = window.innerHeight - 60;
+
+      const sim = d3.forceSimulation(nodes)
+        .force("link", d3.forceLink(links).id(d => d.id).distance(d => 80 + (10 - (d.strength || 5)) * 5))
+        .force("charge", d3.forceManyBody().strength(-200))
+        .force("center", d3.forceCenter(w / 2, h / 2))
+        .force("collision", d3.forceCollide().radius(d => nodeRadius(d.importance) + 4));
+
+      zoomBehavior = d3.zoom().scaleExtent([0.1, 4]).on("zoom", e => gMain.attr("transform", e.transform));
+      svg.call(zoomBehavior);
+
+      gMain = svg.append("g");
+
+      const link = gMain.append("g").selectAll("line").data(links).join("line")
+        .attr("class", "link").attr("stroke-width", d => Math.max(1, (d.strength || 5) / 3));
+
+      const node = gMain.append("g").selectAll("g").data(nodes).join("g")
+        .attr("class", "node")
+        .call(d3.drag()
+          .on("start", (e, d) => { if (!e.active) sim.alphaTarget(.3).restart(); d.fx = d.x; d.fy = d.y; })
+          .on("drag", (e, d) => { d.fx = e.x; d.fy = e.y; })
+          .on("end", (e, d) => { if (!e.active) sim.alphaTarget(0); d.fx = null; d.fy = null; })
+        )
+        .on("mouseover", (e, d) => {
+          tooltip.style.opacity = "1";
+          tooltip.style.left = (e.clientX + 16) + "px";
+          tooltip.style.top = (e.clientY - 20) + "px";
+          tooltip.innerHTML = `
+            <div class="tag">${d.type || "node"}</div>
+            <h4>${d.label}</h4>
+            <p>${d.description || ""}</p>
+            ${d.fun_fact ? `<p style="margin-top:.4rem;color:#4f46e5;font-style:italic">💡 ${d.fun_fact}</p>` : ""}
+          `;
+          link.classed("highlighted", l => l.source.id === d.id || l.target.id === d.id);
+        })
+        .on("mousemove", e => {
+          tooltip.style.left = (e.clientX + 16) + "px";
+          tooltip.style.top = (e.clientY - 20) + "px";
+        })
+        .on("mouseout", () => {
+          tooltip.style.opacity = "0";
+          link.classed("highlighted", false);
+        });
+
+      node.append("circle")
+        .attr("r", d => nodeRadius(d.importance))
+        .attr("fill", d => nodeColor(d.type))
+        .attr("stroke", "#fff");
+
+      node.append("text")
+        .attr("dy", d => -nodeRadius(d.importance) - 3)
+        .attr("text-anchor", "middle")
+        .text(d => d.label.length > 18 ? d.label.slice(0, 16) + "…" : d.label);
+
+      sim.on("tick", () => {
+        link.attr("x1", d => d.source.x).attr("y1", d => d.source.y)
+            .attr("x2", d => d.target.x).attr("y2", d => d.target.y);
+        node.attr("transform", d => `translate(${d.x},${d.y})`);
+      });
+    }
+
+    function zoom(factor) {
+      svg.transition().call(zoomBehavior.scaleBy, factor);
+    }
+    function resetZoom() {
+      svg.transition().call(zoomBehavior.transform, d3.zoomIdentity);
+    }
+
+    load().catch(e => {
+      document.getElementById("topic-title").textContent = "Error loading graph";
+      console.error(e);
+    });
+  </script>
+</body>
+</html>
