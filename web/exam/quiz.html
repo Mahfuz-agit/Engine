@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Exam — KnowledgeMaster</title>
+  <link rel="stylesheet" href="../assets/css/main.css"/>
+  <style>
+    .exam-header { background:linear-gradient(135deg,#667eea,#764ba2); color:white; padding:2rem; text-align:center; }
+    .exam-header h1 { font-size:1.6rem; font-weight:900; }
+    .exam-header p { opacity:.85; margin-top:.3rem; }
+    .difficulty-badge { display:inline-block; padding:.2rem .6rem; border-radius:100px; font-size:.7rem; font-weight:700; text-transform:uppercase; margin-bottom:.5rem; }
+    .easy { background:#d1fae5; color:#065f46; }
+    .medium { background:#fef3c7; color:#92400e; }
+    .hard { background:#fee2e2; color:#991b1b; }
+    .short-answer-input { width:100%; min-height:80px; padding:.8rem; border:2px solid var(--border); border-radius:8px; font-size:.95rem; font-family:inherit; resize:vertical; background:var(--bg); color:var(--text); outline:none; transition:border-color .2s; }
+    .short-answer-input:focus { border-color:var(--accent); }
+    .keyword-hint { display:flex; flex-wrap:wrap; gap:.3rem; margin-top:.5rem; }
+    .keyword { padding:.2rem .6rem; background:#eef2ff; color:var(--accent); border-radius:100px; font-size:.75rem; }
+    .submit-btn { width:100%; padding:1rem; background:var(--accent); color:white; border:none; border-radius:10px; font-size:1rem; font-weight:700; cursor:pointer; margin-top:1rem; transition:background .2s; }
+    .submit-btn:hover { background:#3730a3; }
+    .submit-btn:disabled { background:#94a3b8; cursor:not-allowed; }
+    .exam-progress { max-width:800px; margin:1rem auto; padding:0 1rem; }
+  </style>
+</head>
+<body>
+  <nav id="navbar"></nav>
+  <div class="exam-header">
+    <div id="exam-topic-label" style="font-size:.8rem;text-transform:uppercase;letter-spacing:2px;opacity:.7;margin-bottom:.3rem"></div>
+    <h1 id="exam-title">Loading Exam...</h1>
+    <p id="exam-meta"></p>
+  </div>
+  <div class="exam-progress">
+    <div class="progress-bar" style="margin:1rem 0"><div class="progress-fill" id="progress-fill" style="width:0%"></div></div>
+  </div>
+  <div class="exam-container" id="exam-app">
+    <div class="loading">Loading questions...</div>
+  </div>
+  <script src="../components/navbar.js"></script>
+  <script>
+    const slug = new URLSearchParams(location.search).get("topic");
+    let exam = null, answers = {}, submitted = false;
+
+    async function load() {
+      const res = await fetch(`../data/exams/${slug}_exam.json`);
+      exam = await res.json();
+      document.getElementById("exam-title").textContent = exam.topic;
+      document.getElementById("exam-topic-label").textContent = "Exam";
+      document.getElementById("exam-meta").textContent =
+        `${exam.total_questions} questions · Pass: ${exam.pass_score}%`;
+      document.title = `Exam: ${exam.topic} — KnowledgeMaster`;
+      renderQuestions();
+    }
+
+    function renderQuestions() {
+      const app = document.getElementById("exam-app");
+      app.innerHTML = exam.questions.map((q, i) => `
+        <div class="question-card" id="qcard-${q.id}">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:.5rem">
+            <div class="question-number">Question ${i+1} of ${exam.questions.length}</div>
+            <span class="difficulty-badge ${q.difficulty}">${q.difficulty}</span>
+          </div>
+          <div class="question-text">${q.question}</div>
+          ${q.type === "mcq" ? renderMCQ(q) : renderShort(q)}
+        </div>
+      `).join("") + `<button class="submit-btn" id="submit-btn" onclick="submitExam()">Submit Exam</button>`;
+    }
+
+    function renderMCQ(q) {
+      return Object.entries(q.options).map(([key, val]) => `
+        <button class="option-btn" id="opt-${q.id}-${key}" onclick="selectOption('${q.id}','${key}',this)">
+          <strong>${key}.</strong> ${val}
+        </button>
+      `).join("");
+    }
+
+    function renderShort(q) {
+      return `
+        <textarea class="short-answer-input" id="short-${q.id}"
+          placeholder="Write your answer..." oninput="saveShort('${q.id}',this.value)"></textarea>
+        <div class="keyword-hint">
+          ${(q.keywords||[]).map(k=>`<span class="keyword">${k}</span>`).join("")}
+        </div>
+      `;
+    }
+
+    function selectOption(qid, key, btn) {
+      if (submitted) return;
+      answers[qid] = key;
+      document.querySelectorAll(`[id^='opt-${qid}-']`).forEach(b => b.style.borderColor = "");
+      btn.style.borderColor = "var(--accent)";
+      btn.style.background = "#eef2ff";
+      updateProgress();
+    }
+
+    function saveShort(qid, val) {
+      answers[qid] = val;
+      updateProgress();
+    }
+
+    function updateProgress() {
+      const pct = (Object.keys(answers).length / exam.questions.length) * 100;
+      document.getElementById("progress-fill").style.width = pct + "%";
+    }
+
+    function submitExam() {
+      submitted = true;
+      document.getElementById("submit-btn").disabled = true;
+      let score = 0, total = 0;
+      const weakNodes = [];
+
+      exam.questions.forEach(q => {
+        const userAns = answers[q.id] || "";
+        if (q.type === "mcq") {
+          total += q.points;
+          const correct = userAns === q.correct;
+          if (correct) score += q.points;
+          else weakNodes.push(q.node_id);
+
+          const opts = Object.keys(q.options);
+          opts.forEach(key => {
+            const btn = document.getElementById(`opt-${q.id}-${key}`);
+            if (!btn) return;
+            if (key === q.correct) { btn.className = "option-btn correct"; }
+            else if (key === userAns && !correct) { btn.className = "option-btn wrong"; }
+          });
+
+          const card = document.getElementById(`qcard-${q.id}`);
+          const exp = document.createElement("div");
+          exp.className = "explanation";
+          exp.textContent = q.explanation;
+          card.appendChild(exp);
+
+        } else {
+          total += q.points;
+          const kws = (q.keywords || []).map(k => k.toLowerCase());
+          const ans = userAns.toLowerCase();
+          const matched = kws.filter(k => ans.includes(k)).length;
+          const pts = Math.round((matched / Math.max(kws.length, 1)) * q.points);
+          score += pts;
+          if (pts < q.points * 0.5) weakNodes.push(q.node_id);
+
+          const card = document.getElementById(`qcard-${q.id}`);
+          const exp = document.createElement("div");
+          exp.className = "explanation";
+          exp.innerHTML = `<strong>Sample answer:</strong> ${q.sample_answer}`;
+          card.appendChild(exp);
+        }
+      });
+
+      const pct = Math.round((score / total) * 100);
+      const passed = pct >= exam.pass_score;
+
+      sessionStorage.setItem("exam_result", JSON.stringify({
+        topic: exam.topic, slug, score: pct, passed, weakNodes
+      }));
+
+      setTimeout(() => {
+        window.location.href = `result.html?topic=${slug}&score=${pct}&passed=${passed}`;
+      }, 2000);
+    }
+
+    load().catch(() => {
+      document.getElementById("exam-app").innerHTML =
+        `<p class="empty">No exam found for this topic yet.</p>`;
+    });
+  </script>
+</body>
+</html>
