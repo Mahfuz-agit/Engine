@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>KnowledgeMaster — Learn Everything</title>
+  <link rel="stylesheet" href="assets/css/main.css"/>
+</head>
+<body>
+  <nav id="navbar"></nav>
+
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Knowledge<span class="accent">Master</span></h1>
+      <p class="tagline">Auto-generated knowledge graphs. Learn. Test. Master.</p>
+      <div class="stats" id="stats">
+        <div class="stat"><span id="stat-topics">–</span><label>Topics</label></div>
+        <div class="stat"><span id="stat-nodes">–</span><label>Concepts</label></div>
+        <div class="stat"><span id="stat-edges">–</span><label>Connections</label></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="search-section">
+      <input type="text" id="search" placeholder="Search topics..." autocomplete="off"/>
+      <div id="search-results" class="search-results hidden"></div>
+    </section>
+
+    <section class="categories" id="categories"></section>
+
+    <section class="topic-grid" id="topic-grid">
+      <div class="loading">Loading knowledge graph...</div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Auto-built 24/7 with Groq AI + Wikipedia + OpenAlex + CommonCrawl</p>
+    <p id="last-updated"></p>
+  </footer>
+
+  <script src="components/navbar.js"></script>
+  <script>
+    let master = null;
+
+    async function loadMaster() {
+      const res = await fetch("data/master_graph.json");
+      master = await res.json();
+
+      document.getElementById("stat-topics").textContent = master.total_topics;
+      document.getElementById("stat-nodes").textContent = master.total_nodes.toLocaleString();
+      document.getElementById("stat-edges").textContent = master.total_edges.toLocaleString();
+
+      if (master.last_updated) {
+        document.getElementById("last-updated").textContent =
+          "Last updated: " + new Date(master.last_updated).toLocaleString();
+      }
+
+      renderCategories();
+      renderTopics(master.topics);
+    }
+
+    function renderCategories() {
+      const cats = Object.keys(master.category_map);
+      const el = document.getElementById("categories");
+      el.innerHTML = `<button class="cat-btn active" onclick="filterCategory('all')">All</button>` +
+        cats.map(c => `<button class="cat-btn" onclick="filterCategory('${c}')">${capitalize(c)}</button>`).join("");
+    }
+
+    function renderTopics(topics) {
+      const grid = document.getElementById("topic-grid");
+      if (!topics.length) { grid.innerHTML = "<p class='empty'>No topics yet. Check back soon.</p>"; return; }
+      grid.innerHTML = topics.map(t => `
+        <div class="topic-card" onclick="openTopic('${t.slug}')">
+          <div class="topic-category">${t.category}</div>
+          <h3>${t.topic}</h3>
+          <p>${t.description || ""}</p>
+          <div class="topic-meta">
+            <span>🔵 ${t.node_count} concepts</span>
+            <span>🔗 ${t.edge_count} links</span>
+          </div>
+          <div class="topic-actions">
+            <a href="presentation/slides.html?topic=${t.slug}" class="btn btn-learn">Learn</a>
+            <a href="presentation/graph.html?topic=${t.slug}" class="btn btn-graph">Graph</a>
+            <a href="exam/quiz.html?topic=${t.slug}" class="btn btn-exam">Exam</a>
+          </div>
+        </div>
+      `).join("");
+    }
+
+    function filterCategory(cat) {
+      document.querySelectorAll(".cat-btn").forEach(b => b.classList.remove("active"));
+      event.target.classList.add("active");
+      if (cat === "all") { renderTopics(master.topics); return; }
+      const slugs = master.category_map[cat] || [];
+      renderTopics(master.topics.filter(t => slugs.includes(t.slug)));
+    }
+
+    function openTopic(slug) {
+      window.location.href = `presentation/slides.html?topic=${slug}`;
+    }
+
+    function capitalize(s) { return s.replace(/_/g, " ").replace(/\b\w/g, c => c.toUpperCase()); }
+
+    const searchInput = document.getElementById("search");
+    const searchResults = document.getElementById("search-results");
+    searchInput.addEventListener("input", () => {
+      const q = searchInput.value.toLowerCase().trim();
+      if (!q || !master) { searchResults.classList.add("hidden"); return; }
+      const hits = master.topics.filter(t =>
+        t.topic.toLowerCase().includes(q) || (t.description || "").toLowerCase().includes(q)
+      ).slice(0, 6);
+      if (!hits.length) { searchResults.classList.add("hidden"); return; }
+      searchResults.innerHTML = hits.map(t =>
+        `<a href="presentation/slides.html?topic=${t.slug}" class="search-hit">
+          <strong>${t.topic}</strong><span>${t.category}</span>
+        </a>`
+      ).join("");
+      searchResults.classList.remove("hidden");
+    });
+
+    loadMaster().catch(() => {
+      document.getElementById("topic-grid").innerHTML =
+        "<p class='empty'>No data yet. The pipeline hasn't run.</p>";
+    });
+  </script>
+</body>
+</html>
