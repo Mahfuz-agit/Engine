@@ -1,0 +1,42 @@
+{
+  "groq": {
+    "model": "llama-3.3-70b-versatile",
+    "max_tokens": 4000,
+    "temperature": 0.7,
+    "rpm_limit": 30,
+    "rpd_limit": 14400,
+    "tpm_limit": 6000,
+    "calls_per_run": 3,
+    "retry_attempts": 3,
+    "retry_delay_seconds": 5
+  },
+  "scheduler": {
+    "cron": "0 */2 * * *",
+    "runs_per_day": 12,
+    "topics_per_run": 1
+  },
+  "content": {
+    "min_nodes_per_graph": 15,
+    "max_nodes_per_graph": 40,
+    "min_edges_per_graph": 20,
+    "max_depth": 4,
+    "image_per_topic": 5
+  },
+  "exam": {
+    "questions_per_exam": 10,
+    "mcq_count": 7,
+    "short_answer_count": 3,
+    "pass_score": 70,
+    "max_attempts": 3
+  },
+  "github": {
+    "branch": "main",
+    "data_path": "data",
+    "web_path": "web"
+  },
+  "quality": {
+    "min_quality_score": 80,
+    "regenerate_if_below": true,
+    "max_regenerate_attempts": 2
+  }
+}
