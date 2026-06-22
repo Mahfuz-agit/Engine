@@ -1,0 +1,11 @@
+{
+  "created_at": "2024-01-01T00:00:00",
+  "total_topics": 0,
+  "total_nodes": 0,
+  "total_edges": 0,
+  "topics": [],
+  "global_nodes": [],
+  "global_edges": [],
+  "cross_topic_edges": [],
+  "category_map": {}
+}
