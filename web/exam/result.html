@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Result — KnowledgeMaster</title>
+  <link rel="stylesheet" href="../assets/css/main.css"/>
+  <style>
+    body { background:var(--bg); }
+    .result-page { max-width:700px; margin:0 auto; padding:2rem 1rem; }
+    .result-card { background:var(--surface); border-radius:16px; box-shadow:var(--shadow-lg); padding:3rem 2rem; text-align:center; margin-bottom:1.5rem; }
+    .score-circle { width:160px; height:160px; border-radius:50%; display:flex; align-items:center; justify-content:center; flex-direction:column; margin:0 auto 1.5rem; font-size:2.8rem; font-weight:900; }
+    .score-pass { background:#d1fae5; color:var(--success); border:5px solid var(--success); }
+    .score-fail { background:#fee2e2; color:var(--danger); border:5px solid var(--danger); }
+    .result-card h2 { font-size:1.5rem; margin-bottom:.5rem; }
+    .result-card p { color:var(--text-muted); margin-bottom:1.5rem; }
+    .action-grid { display:grid; grid-template-columns:1fr 1fr; gap:1rem; }
+    .weak-section { background:var(--surface); border-radius:12px; box-shadow:var(--shadow); padding:1.5rem; margin-bottom:1.5rem; }
+    .weak-section h3 { font-size:1rem; margin-bottom:1rem; color:var(--danger); }
+    .weak-node { padding:.6rem 1rem; background:#fff7ed; border-left:3px solid var(--warn); border-radius:4px; margin-bottom:.5rem; font-size:.9rem; }
+    .attempt-badge { display:inline-block; padding:.2rem .8rem; border-radius:100px; background:#eef2ff; color:var(--accent); font-size:.75rem; font-weight:700; margin-bottom:1rem; }
+    .relearn-btn { display:block; width:100%; padding:.9rem; background:#f59e0b; color:white; border:none; border-radius:10px; font-size:1rem; font-weight:700; cursor:pointer; text-decoration:none; text-align:center; margin-bottom:.5rem; transition:background .2s; }
+    .relearn-btn:hover { background:#d97706; }
+  </style>
+</head>
+<body>
+  <nav id="navbar"></nav>
+  <div class="result-page">
+    <div class="result-card" id="result-card">
+      <div class="loading">Loading result...</div>
+    </div>
+    <div id="weak-section"></div>
+    <div class="action-grid" id="action-grid"></div>
+  </div>
+  <script src="../components/navbar.js"></script>
+  <script>
+    const params = new URLSearchParams(location.search);
+    const slug = params.get("topic");
+    const score = parseInt(params.get("score") || "0");
+    const passed = params.get("passed") === "true";
+    const stored = JSON.parse(sessionStorage.getItem("exam_result") || "{}");
+    const weakNodes = stored.weakNodes || [];
+    const topic = stored.topic || slug;
+
+    const attempts = parseInt(localStorage.getItem(`attempts_${slug}`) || "0") + 1;
+    localStorage.setItem(`attempts_${slug}`, attempts);
+
+    document.title = `Result: ${topic} — KnowledgeMaster`;
+
+    const card = document.getElementById("result-card");
+    card.innerHTML = `
+      <div class="attempt-badge">Attempt ${attempts}</div>
+      <div class="score-circle ${passed ? "score-pass" : "score-fail"}">
+        ${score}%
+      </div>
+      <h2>${passed ? "🎉 Excellent! You passed!" : "📚 Keep learning!"}</h2>
+      <p>${passed
+        ? "You have mastered this topic. Move on to the next challenge."
+        : `You scored ${score}% — need ${stored.exam_pass_score || 70}% to pass. Review weak areas and retry.`
+      }</p>
+    `;
+
+    const weakSection = document.getElementById("weak-section");
+    if (!passed && weakNodes.length) {
+      async function loadWeakNodes() {
+        try {
+          const res = await fetch(`../data/topics/${slug}.json`);
+          const data = await res.json();
+          const nodeMap = Object.fromEntries(data.nodes.map(n => [n.id, n]));
+          const weak = weakNodes.filter(id => nodeMap[id]).map(id => nodeMap[id]);
+          if (!weak.length) return;
+          weakSection.innerHTML = `
+            <div class="weak-section">
+              <h3>⚠️ Weak Areas — Review These Concepts</h3>
+              ${weak.map(n => `<div class="weak-node"><strong>${n.label}</strong>: ${n.description}</div>`).join("")}
+              <a class="relearn-btn" href="../presentation/slides.html?topic=${slug}">📖 Re-learn Topic</a>
+            </div>
+          `;
+        } catch (e) {}
+      }
+      loadWeakNodes();
+    }
+
+    document.getElementById("action-grid").innerHTML = `
+      <a href="quiz.html?topic=${slug}" class="btn btn-exam" style="padding:1rem;text-align:center">
+        ${passed ? "Retake Exam" : "Try Again"}
+      </a>
+      <a href="../presentation/slides.html?topic=${slug}" class="btn btn-learn" style="padding:1rem;text-align:center">
+        Review Topic
+      </a>
+      <a href="../presentation/graph.html?topic=${slug}" class="btn btn-graph" style="padding:1rem;text-align:center">
+        View Graph
+      </a>
+      <a href="../index.html" class="btn" style="padding:1rem;text-align:center;background:var(--text-muted);color:white">
+        Next Topic →
+      </a>
+    `;
+  </script>
+</body>
+</html>
