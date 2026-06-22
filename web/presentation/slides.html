@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Learn — KnowledgeMaster</title>
+  <link rel="stylesheet" href="../assets/css/main.css"/>
+  <style>
+    .slide-hero { background: linear-gradient(135deg,#667eea,#764ba2); color:white; border-radius:12px; padding:3rem 2rem; margin-bottom:2rem; text-align:center; }
+    .slide-hero h1 { font-size:2rem; font-weight:900; }
+    .slide-hero p { opacity:.85; margin-top:.5rem; }
+    .slide-body h2 { font-size:1.4rem; margin-bottom:1rem; color:var(--accent); }
+    .node-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(200px,1fr)); gap:1rem; margin-top:1rem; }
+    .node-card { background:var(--bg); border:1px solid var(--border); border-radius:8px; padding:1rem; }
+    .node-card .node-type { font-size:.7rem; text-transform:uppercase; letter-spacing:1px; color:var(--text-muted); margin-bottom:.3rem; }
+    .node-card h4 { font-size:.95rem; margin-bottom:.3rem; }
+    .node-card p { font-size:.8rem; color:var(--text-muted); }
+    .importance-bar { height:3px; border-radius:2px; background:var(--border); margin-top:.5rem; }
+    .importance-fill { height:100%; border-radius:2px; background:linear-gradient(90deg,var(--accent),var(--accent2)); }
+    .image-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(180px,1fr)); gap:1rem; margin:1rem 0; }
+    .image-grid img { width:100%; height:140px; object-fit:cover; border-radius:8px; border:1px solid var(--border); }
+    .source-pill { display:inline-block; padding:.25rem .75rem; border-radius:100px; background:var(--bg); border:1px solid var(--border); font-size:.75rem; color:var(--text-muted); margin:.25rem; text-decoration:none; }
+    .source-pill:hover { border-color:var(--accent); color:var(--accent); }
+    .takeaway-list { list-style:none; }
+    .takeaway-list li { padding:.75rem 1rem; background:var(--bg); border-left:3px solid var(--accent); border-radius:4px; margin-bottom:.5rem; font-size:.95rem; }
+    .slide-tabs { display:flex; gap:.5rem; margin-bottom:1.5rem; flex-wrap:wrap; }
+    .slide-tab { padding:.5rem 1.2rem; border-radius:100px; border:1px solid var(--border); background:var(--surface); cursor:pointer; font-size:.85rem; font-weight:600; transition:all .2s; }
+    .slide-tab.active { background:var(--accent); color:white; border-color:var(--accent); }
+    .slide-panel { display:none; }
+    .slide-panel.active { display:block; }
+    .nav-actions { display:flex; gap:1rem; align-items:center; justify-content:space-between; margin-top:2rem; }
+  </style>
+</head>
+<body>
+  <nav id="navbar"></nav>
+  <div class="slide-container">
+    <div id="app"><div class="loading">Loading presentation...</div></div>
+  </div>
+  <script src="../components/navbar.js"></script>
+  <script>
+    const slug = new URLSearchParams(location.search).get("topic");
+    let topicData = null;
+
+    async function load() {
+      const res = await fetch(`../data/topics/${slug}.json`);
+      topicData = await res.json();
+      render();
+    }
+
+    function render() {
+      const d = topicData;
+      const coreNodes = d.nodes.filter(n => n.type === "core" || n.importance >= 8);
+      const otherNodes = d.nodes.filter(n => n.type !== "core" && n.importance < 8);
+      const images = d.images || [];
+      const sources = d.sources || {};
+
+      document.title = `${d.topic} — KnowledgeMaster`;
+
+      document.getElementById("app").innerHTML = `
+        <div class="slide-hero">
+          <div style="font-size:.8rem;text-transform:uppercase;letter-spacing:2px;opacity:.7;margin-bottom:.5rem">${d.category}</div>
+          <h1>${d.topic}</h1>
+          <p>${d.description}</p>
+        </div>
+
+        <div class="slide-tabs">
+          <button class="slide-tab active" onclick="showPanel('overview',this)">Overview</button>
+          <button class="slide-tab" onclick="showPanel('concepts',this)">Concepts</button>
+          <button class="slide-tab" onclick="showPanel('details',this)">Deep Dive</button>
+          <button class="slide-tab" onclick="showPanel('impact',this)">Impact</button>
+          <button class="slide-tab" onclick="showPanel('sources',this)">Sources</button>
+        </div>
+
+        <div id="panel-overview" class="slide-panel active slide">
+          <div class="slide-body">
+            <h2>Key Takeaways</h2>
+            <ul class="takeaway-list">${(d.key_takeaways||[]).map(t=>`<li>${t}</li>`).join("")}</ul>
+            ${images.length ? `<h2 style="margin-top:1.5rem">Visuals</h2><div class="image-grid">${images.slice(0,4).map(i=>`<img src="${i.url}" alt="${i.title}" loading="lazy" title="${i.title}"/>`).join("")}</div>` : ""}
+          </div>
+        </div>
+
+        <div id="panel-concepts" class="slide-panel slide">
+          <div class="slide-body">
+            <h2>Core Concepts (${coreNodes.length})</h2>
+            <div class="node-grid">${coreNodes.map(n=>`
+              <div class="node-card">
+                <div class="node-type">${n.type}</div>
+                <h4>${n.label}</h4>
+                <p>${n.description}</p>
+                <div class="importance-bar"><div class="importance-fill" style="width:${n.importance*10}%"></div></div>
+              </div>`).join("")}</div>
+          </div>
+        </div>
+
+        <div id="panel-details" class="slide-panel slide">
+          <div class="slide-body">
+            <h2>All Concepts (${d.nodes.length})</h2>
+            <div class="node-grid">${d.nodes.map(n=>`
+              <div class="node-card">
+                <div class="node-type">${n.type}</div>
+                <h4>${n.label}</h4>
+                <p>${n.description}</p>
+                ${n.fun_fact ? `<p style="margin-top:.4rem;font-style:italic;color:var(--accent)">💡 ${n.fun_fact}</p>` : ""}
+              </div>`).join("")}</div>
+          </div>
+        </div>
+
+        <div id="panel-impact" class="slide-panel slide">
+          <div class="slide-body">
+            <h2>Real World Impact</h2>
+            <p style="line-height:1.8">${d.real_world_impact || "No impact data available."}</p>
+          </div>
+        </div>
+
+        <div id="panel-sources" class="slide-panel slide">
+          <div class="slide-body">
+            <h2>Sources</h2>
+            ${sources.wikipedia_url ? `<a class="source-pill" href="${sources.wikipedia_url}" target="_blank">📖 Wikipedia</a>` : ""}
+            ${(sources.papers||[]).map(p=>`<a class="source-pill" href="${p.url}" target="_blank">📄 ${p.title.slice(0,40)}...</a>`).join("")}
+            ${(sources.news||[]).map(n=>`<a class="source-pill" href="${n.url}" target="_blank">📰 ${n.title.slice(0,40)}...</a>`).join("")}
+          </div>
+        </div>
+
+        <div class="nav-actions">
+          <a href="../presentation/graph.html?topic=${slug}" class="btn btn-graph" style="flex:0;padding:.7rem 1.5rem">View Graph</a>
+          <a href="../exam/quiz.html?topic=${slug}" class="btn btn-exam" style="flex:0;padding:.7rem 1.5rem">Take Exam →</a>
+        </div>
+      `;
+    }
+
+    function showPanel(id, btn) {
+      document.querySelectorAll(".slide-panel").forEach(p=>p.classList.remove("active"));
+      document.querySelectorAll(".slide-tab").forEach(b=>b.classList.remove("active"));
+      document.getElementById("panel-"+id).classList.add("active");
+      btn.classList.add("active");
+    }
+
+    load().catch(e => {
+      document.getElementById("app").innerHTML = `<p class='empty'>Topic not found: ${slug}</p>`;
+    });
+  </script>
+</body>
+</html>
