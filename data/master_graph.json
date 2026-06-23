@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 1,
-  "total_nodes": 15,
-  "total_edges": 17,
+  "total_topics": 2,
+  "total_nodes": 31,
+  "total_edges": 35,
   "topics": [
     {
       "topic": "Climate Change",
@@ -12,6 +12,15 @@
       "edge_count": 17,
       "description": "Climate change refers to the long-term warming of the planet, which is primarily caused by human activities such as burning fossil fuels, deforestation, and certain agricultural and industrial practices. This warming is driven by the increasing levels of greenhouse gases in the Earth's atmosphere, which trap heat and lead to rising global temperatures. The consequences of climate change are far-reaching and include more frequent and severe weather events, rising sea levels, and disruptions to ecosystems and biodiversity.",
       "added_at": "2026-06-23T02:58:24.039221"
+    },
+    {
+      "topic": "Evolutionary Biology",
+      "slug": "evolutionary_biology",
+      "category": "biology",
+      "node_count": 16,
+      "edge_count": 18,
+      "description": "Evolutionary biology is a subfield of biology that analyzes the four mechanisms of evolution: natural selection, mutation, genetic drift, and gene flow. It studies how species adapt and evolve over time, and how this process has shaped the diversity of life on Earth. The field combines genetics, ecology, and paleontology to understand the history of life and the relationships between different organisms.",
+      "added_at": "2026-06-23T10:47:12.982354"
     }
   ],
   "global_nodes": [
@@ -179,6 +188,182 @@
       "fun_fact": "This report was a major milestone in the development of climate change science",
       "topic_slug": "climate_change",
       "topic": "Climate Change"
+    },
+    {
+      "id": "evolutionary_biology__evolutionary_biology",
+      "label": "Evolutionary Biology",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of how species adapt and evolve over time",
+      "importance": 10,
+      "fun_fact": "Evolutionary biology has led to numerous medical and agricultural breakthroughs",
+      "topic_slug": "evolutionary_biology",
+      "topic": "Evolutionary Biology"
+    },
+    {
+      "id": "evolutionary_biology__natural_selection",
+      "label": "Natural Selection",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process by which populations of living organisms adapt and evolve over time in response to environmental pressures",
+      "importance": 9,
+      "fun_fact": "Charles Darwin's theory of natural selection was inspired by his observations of finches on the Galapagos Islands",
+      "topic_slug": "evolutionary_biology",
+      "topic": "Evolutionary Biology"
+    },
+    {
+      "id": "evolutionary_biology__genetics",
+      "label": "Genetics",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of heredity and variation in organisms",
+      "importance": 9,
+      "fun_fact": "Gregor Mendel is considered the father of genetics for his discovery of the laws of heredity",
+      "topic_slug": "evolutionary_biology",
+      "topic": "Evolutionary Biology"
+    },
+    {
+      "id": "evolutionary_biology__speciation",
+      "label": "Speciation",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process by which new species emerge from existing ones",
+      "importance": 8,
+      "fun_fact": "Speciation can occur through various mechanisms, including geographic isolation and genetic drift",
+      "topic_slug": "evolutionary_biology",
+      "topic": "Evolutionary Biology"
+    },
+    {
+      "id": "evolutionary_biology__phylogeny",
+      "label": "Phylogeny",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the evolutionary relationships between organisms",
+      "importance": 8,
+      "fun_fact": "Phylogenetic trees can be used to reconstruct the history of life on Earth",
+      "topic_slug": "evolutionary_biology",
+      "topic": "Evolutionary Biology"
+    },
+    {
+      "id": "evolutionary_biology__adaptation",
+      "label": "Adaptation",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process by which organisms become better suited to their environment",
+      "importance": 8,
+      "fun_fact": "Adaptation can occur through various mechanisms, including natural selection and genetic drift",
+      "topic_slug": "evolutionary_biology",
+      "topic": "Evolutionary Biology"
+    },
+    {
+      "id": "evolutionary_biology__charles_darwin",
+      "label": "Charles Darwin",
+      "type": "person",
+      "depth": 2,
+      "description": "English naturalist who proposed the theory of evolution through natural selection",
+      "importance": 9,
+      "fun_fact": "Darwin's book 'On the Origin of Species' is considered one of the most influential scientific books of all time",
+      "topic_slug": "evolutionary_biology",
+      "topic": "Evolutionary Biology"
+    },
+    {
+      "id": "evolutionary_biology__gregor_mendel",
+      "label": "Gregor Mendel",
+      "type": "person",
+      "depth": 2,
+      "description": "Austrian monk who discovered the laws of heredity",
+      "importance": 8,
+      "fun_fact": "Mendel's work on genetics was largely unknown during his lifetime, but it laid the foundation for modern genetics",
+      "topic_slug": "evolutionary_biology",
+      "topic": "Evolutionary Biology"
+    },
+    {
+      "id": "evolutionary_biology__modern_synthesis",
+      "label": "Modern Synthesis",
+      "type": "event",
+      "depth": 2,
+      "description": "The integration of genetics and evolution in the early 20th century, led by R.A. Fisher and others",
+      "importance": 8,
+      "fun_fact": "The modern synthesis provided a comprehensive framework for understanding evolution and has had a profound impact on the field of biology",
+      "topic_slug": "evolutionary_biology",
+      "topic": "Evolutionary Biology"
+    },
+    {
+      "id": "evolutionary_biology__datamonkey",
+      "label": "Datamonkey",
+      "type": "application",
+      "depth": 3,
+      "description": "A suite of phylogenetic analysis tools for evolutionary biology",
+      "importance": 6,
+      "fun_fact": "Datamonkey provides a user-friendly interface for analyzing phylogenetic data and has been widely used in the field",
+      "topic_slug": "evolutionary_biology",
+      "topic": "Evolutionary Biology"
+    },
+    {
+      "id": "evolutionary_biology__mega5",
+      "label": "MEGA5",
+      "type": "application",
+      "depth": 3,
+      "description": "A software package for molecular evolutionary genetics analysis",
+      "importance": 6,
+      "fun_fact": "MEGA5 provides a comprehensive set of tools for analyzing molecular sequence data and has been widely used in the field",
+      "topic_slug": "evolutionary_biology",
+      "topic": "Evolutionary Biology"
+    },
+    {
+      "id": "evolutionary_biology__parasite_evolution",
+      "label": "Parasite Evolution",
+      "type": "example",
+      "depth": 3,
+      "description": "The study of how parasites adapt and evolve in response to their hosts",
+      "importance": 5,
+      "fun_fact": "Parasite evolution has led to the development of new strategies for controlling parasitic diseases",
+      "topic_slug": "evolutionary_biology",
+      "topic": "Evolutionary Biology"
+    },
+    {
+      "id": "evolutionary_biology__evolutionary_medicine",
+      "label": "Evolutionary Medicine",
+      "type": "application",
+      "depth": 3,
+      "description": "The application of evolutionary principles to the study of human disease",
+      "importance": 7,
+      "fun_fact": "Evolutionary medicine has led to new insights into the evolution of diseases and the development of new treatments",
+      "topic_slug": "evolutionary_biology",
+      "topic": "Evolutionary Biology"
+    },
+    {
+      "id": "evolutionary_biology__conservation_biology",
+      "label": "Conservation Biology",
+      "type": "application",
+      "depth": 3,
+      "description": "The application of evolutionary principles to the conservation of species and ecosystems",
+      "importance": 7,
+      "fun_fact": "Conservation biology has led to new strategies for preserving biodiversity and protecting endangered species",
+      "topic_slug": "evolutionary_biology",
+      "topic": "Evolutionary Biology"
+    },
+    {
+      "id": "evolutionary_biology__albert_einstein",
+      "label": "Not Applicable",
+      "type": "person",
+      "depth": 4,
+      "description": "Not Applicable",
+      "importance": 1,
+      "fun_fact": "Not Applicable",
+      "topic_slug": "evolutionary_biology",
+      "topic": "Evolutionary Biology"
+    },
+    {
+      "id": "evolutionary_biology__r_a_fisher",
+      "label": "R.A. Fisher",
+      "type": "person",
+      "depth": 2,
+      "description": "British statistician and evolutionary biologist who contributed to the modern synthesis",
+      "importance": 8,
+      "fun_fact": "Fisher's work on statistical analysis and evolutionary biology has had a lasting impact on the field",
+      "topic_slug": "evolutionary_biology",
+      "topic": "Evolutionary Biology"
     }
   ],
   "global_edges": [
@@ -300,13 +485,142 @@
       "relation": "contributed_to",
       "strength": 6,
       "topic": "Climate Change"
+    },
+    {
+      "source": "evolutionary_biology__evolutionary_biology",
+      "target": "evolutionary_biology__natural_selection",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Evolutionary Biology"
+    },
+    {
+      "source": "evolutionary_biology__evolutionary_biology",
+      "target": "evolutionary_biology__genetics",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Evolutionary Biology"
+    },
+    {
+      "source": "evolutionary_biology__evolutionary_biology",
+      "target": "evolutionary_biology__speciation",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Evolutionary Biology"
+    },
+    {
+      "source": "evolutionary_biology__evolutionary_biology",
+      "target": "evolutionary_biology__phylogeny",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Evolutionary Biology"
+    },
+    {
+      "source": "evolutionary_biology__evolutionary_biology",
+      "target": "evolutionary_biology__adaptation",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Evolutionary Biology"
+    },
+    {
+      "source": "evolutionary_biology__natural_selection",
+      "target": "evolutionary_biology__charles_darwin",
+      "relation": "discovered_by",
+      "strength": 9,
+      "topic": "Evolutionary Biology"
+    },
+    {
+      "source": "evolutionary_biology__genetics",
+      "target": "evolutionary_biology__gregor_mendel",
+      "relation": "discovered_by",
+      "strength": 9,
+      "topic": "Evolutionary Biology"
+    },
+    {
+      "source": "evolutionary_biology__modern_synthesis",
+      "target": "evolutionary_biology__r_a_fisher",
+      "relation": "discovered_by",
+      "strength": 8,
+      "topic": "Evolutionary Biology"
+    },
+    {
+      "source": "evolutionary_biology__datamonkey",
+      "target": "evolutionary_biology__phylogeny",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Evolutionary Biology"
+    },
+    {
+      "source": "evolutionary_biology__mega5",
+      "target": "evolutionary_biology__genetics",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Evolutionary Biology"
+    },
+    {
+      "source": "evolutionary_biology__parasite_evolution",
+      "target": "evolutionary_biology__evolutionary_biology",
+      "relation": "is_type_of",
+      "strength": 5,
+      "topic": "Evolutionary Biology"
+    },
+    {
+      "source": "evolutionary_biology__evolutionary_medicine",
+      "target": "evolutionary_biology__evolutionary_biology",
+      "relation": "is_type_of",
+      "strength": 7,
+      "topic": "Evolutionary Biology"
+    },
+    {
+      "source": "evolutionary_biology__conservation_biology",
+      "target": "evolutionary_biology__evolutionary_biology",
+      "relation": "is_type_of",
+      "strength": 7,
+      "topic": "Evolutionary Biology"
+    },
+    {
+      "source": "evolutionary_biology__charles_darwin",
+      "target": "evolutionary_biology__natural_selection",
+      "relation": "discovered_by",
+      "strength": 9,
+      "topic": "Evolutionary Biology"
+    },
+    {
+      "source": "evolutionary_biology__gregor_mendel",
+      "target": "evolutionary_biology__genetics",
+      "relation": "discovered_by",
+      "strength": 9,
+      "topic": "Evolutionary Biology"
+    },
+    {
+      "source": "evolutionary_biology__r_a_fisher",
+      "target": "evolutionary_biology__modern_synthesis",
+      "relation": "discovered_by",
+      "strength": 8,
+      "topic": "Evolutionary Biology"
+    },
+    {
+      "source": "evolutionary_biology__evolutionary_biology",
+      "target": "evolutionary_biology__evolutionary_medicine",
+      "relation": "enables",
+      "strength": 7,
+      "topic": "Evolutionary Biology"
+    },
+    {
+      "source": "evolutionary_biology__evolutionary_biology",
+      "target": "evolutionary_biology__conservation_biology",
+      "relation": "enables",
+      "strength": 7,
+      "topic": "Evolutionary Biology"
     }
   ],
   "cross_topic_edges": [],
   "category_map": {
     "geography": [
       "climate_change"
+    ],
+    "biology": [
+      "evolutionary_biology"
     ]
   },
-  "last_updated": "2026-06-23T02:58:24.039262"
+  "last_updated": "2026-06-23T10:47:12.982401"
 }

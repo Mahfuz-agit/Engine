@@ -1,0 +1,164 @@
+{
+  "topic": "Evolutionary Biology",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary focus of evolutionary biology?",
+      "options": {
+        "A": "The study of how species adapt and evolve over time",
+        "B": "The study of the structure and function of living organisms",
+        "C": "The study of the environment and ecosystems",
+        "D": "The study of the behavior of animals"
+      },
+      "correct": "A",
+      "explanation": "Evolutionary biology is a subfield of biology that analyzes the four mechanisms of evolution: natural selection, mutation, genetic drift, and gene flow.",
+      "node_id": "Evolutionary Biology",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which of the following is an example of natural selection?",
+      "options": {
+        "A": "The development of antibiotic resistance in bacteria",
+        "B": "The migration of birds to warmer climates during winter",
+        "C": "The hibernation of bears during winter",
+        "D": "The camouflage of chameleons"
+      },
+      "correct": "A",
+      "explanation": "Natural selection is the process by which populations of living organisms adapt and evolve over time in response to environmental pressures. The development of antibiotic resistance in bacteria is an example of natural selection, as the bacteria that are resistant to antibiotics are more likely to survive and reproduce.",
+      "node_id": "Natural Selection",
+      "points": 15
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What is the difference between genetics and evolutionary biology?",
+      "sample_answer": "Genetics is the study of heredity and variation in organisms, while evolutionary biology is the study of how species adapt and evolve over time.",
+      "keywords": [
+        "genetics",
+        "evolutionary biology",
+        "heredity",
+        "variation"
+      ],
+      "node_id": "Genetics",
+      "points": 15
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the process by which new species emerge from existing ones?",
+      "options": {
+        "A": "Speciation",
+        "B": "Adaptation",
+        "C": "Natural selection",
+        "D": "Genetic drift"
+      },
+      "correct": "A",
+      "explanation": "Speciation is the process by which new species emerge from existing ones. This can occur through various mechanisms, including geographic isolation and genetic drift.",
+      "node_id": "Speciation",
+      "points": 20
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "Who is considered the father of genetics?",
+      "options": {
+        "A": "Gregor Mendel",
+        "B": "Charles Darwin",
+        "C": "R.A. Fisher",
+        "D": "Jean-Baptiste Lamarck"
+      },
+      "correct": "A",
+      "explanation": "Gregor Mendel is considered the father of genetics for his discovery of the laws of heredity.",
+      "node_id": "Gregor Mendel",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What is the modern synthesis, and how did it impact the field of biology?",
+      "sample_answer": "The modern synthesis is the integration of genetics and evolution in the early 20th century, led by R.A. Fisher and others. It provided a comprehensive framework for understanding evolution and has had a profound impact on the field of biology.",
+      "keywords": [
+        "modern synthesis",
+        "genetics",
+        "evolution",
+        "R.A. Fisher"
+      ],
+      "node_id": "Modern Synthesis",
+      "points": 15
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the application of evolutionary principles to the study of human disease?",
+      "options": {
+        "A": "Evolutionary medicine",
+        "B": "Conservation biology",
+        "C": "Phylogeny",
+        "D": "Adaptation"
+      },
+      "correct": "A",
+      "explanation": "Evolutionary medicine is the application of evolutionary principles to the study of human disease. It has led to new insights into the evolution of diseases and the development of new treatments.",
+      "node_id": "Evolutionary Medicine",
+      "points": 20
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the study of the evolutionary relationships between organisms?",
+      "options": {
+        "A": "Phylogeny",
+        "B": "Speciation",
+        "C": "Adaptation",
+        "D": "Genetic drift"
+      },
+      "correct": "A",
+      "explanation": "Phylogeny is the study of the evolutionary relationships between organisms. Phylogenetic trees can be used to reconstruct the history of life on Earth.",
+      "node_id": "Phylogeny",
+      "points": 15
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "How does conservation biology apply evolutionary principles to the conservation of species and ecosystems?",
+      "sample_answer": "Conservation biology applies evolutionary principles to the conservation of species and ecosystems by considering the evolutionary history and relationships between organisms, as well as the impact of human activities on the evolution of species and ecosystems.",
+      "keywords": [
+        "conservation biology",
+        "evolutionary principles",
+        "species",
+        "ecosystems"
+      ],
+      "node_id": "Conservation Biology",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "Who is the English naturalist who proposed the theory of evolution through natural selection?",
+      "options": {
+        "A": "Charles Darwin",
+        "B": "Gregor Mendel",
+        "C": "R.A. Fisher",
+        "D": "Jean-Baptiste Lamarck"
+      },
+      "correct": "A",
+      "explanation": "Charles Darwin is the English naturalist who proposed the theory of evolution through natural selection. His book 'On the Origin of Species' is considered one of the most influential scientific books of all time.",
+      "node_id": "Charles Darwin",
+      "points": 10
+    }
+  ]
+}

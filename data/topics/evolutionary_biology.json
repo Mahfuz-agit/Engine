@@ -1,0 +1,336 @@
+{
+  "topic": "Evolutionary Biology",
+  "category": "biology",
+  "description": "Evolutionary biology is a subfield of biology that analyzes the four mechanisms of evolution: natural selection, mutation, genetic drift, and gene flow. It studies how species adapt and evolve over time, and how this process has shaped the diversity of life on Earth. The field combines genetics, ecology, and paleontology to understand the history of life and the relationships between different organisms.",
+  "nodes": [
+    {
+      "id": "evolutionary_biology",
+      "label": "Evolutionary Biology",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of how species adapt and evolve over time",
+      "importance": 10,
+      "fun_fact": "Evolutionary biology has led to numerous medical and agricultural breakthroughs"
+    },
+    {
+      "id": "natural_selection",
+      "label": "Natural Selection",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process by which populations of living organisms adapt and evolve over time in response to environmental pressures",
+      "importance": 9,
+      "fun_fact": "Charles Darwin's theory of natural selection was inspired by his observations of finches on the Galapagos Islands"
+    },
+    {
+      "id": "genetics",
+      "label": "Genetics",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of heredity and variation in organisms",
+      "importance": 9,
+      "fun_fact": "Gregor Mendel is considered the father of genetics for his discovery of the laws of heredity"
+    },
+    {
+      "id": "speciation",
+      "label": "Speciation",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process by which new species emerge from existing ones",
+      "importance": 8,
+      "fun_fact": "Speciation can occur through various mechanisms, including geographic isolation and genetic drift"
+    },
+    {
+      "id": "phylogeny",
+      "label": "Phylogeny",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the evolutionary relationships between organisms",
+      "importance": 8,
+      "fun_fact": "Phylogenetic trees can be used to reconstruct the history of life on Earth"
+    },
+    {
+      "id": "adaptation",
+      "label": "Adaptation",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process by which organisms become better suited to their environment",
+      "importance": 8,
+      "fun_fact": "Adaptation can occur through various mechanisms, including natural selection and genetic drift"
+    },
+    {
+      "id": "charles_darwin",
+      "label": "Charles Darwin",
+      "type": "person",
+      "depth": 2,
+      "description": "English naturalist who proposed the theory of evolution through natural selection",
+      "importance": 9,
+      "fun_fact": "Darwin's book 'On the Origin of Species' is considered one of the most influential scientific books of all time"
+    },
+    {
+      "id": "gregor_mendel",
+      "label": "Gregor Mendel",
+      "type": "person",
+      "depth": 2,
+      "description": "Austrian monk who discovered the laws of heredity",
+      "importance": 8,
+      "fun_fact": "Mendel's work on genetics was largely unknown during his lifetime, but it laid the foundation for modern genetics"
+    },
+    {
+      "id": "modern_synthesis",
+      "label": "Modern Synthesis",
+      "type": "event",
+      "depth": 2,
+      "description": "The integration of genetics and evolution in the early 20th century, led by R.A. Fisher and others",
+      "importance": 8,
+      "fun_fact": "The modern synthesis provided a comprehensive framework for understanding evolution and has had a profound impact on the field of biology"
+    },
+    {
+      "id": "datamonkey",
+      "label": "Datamonkey",
+      "type": "application",
+      "depth": 3,
+      "description": "A suite of phylogenetic analysis tools for evolutionary biology",
+      "importance": 6,
+      "fun_fact": "Datamonkey provides a user-friendly interface for analyzing phylogenetic data and has been widely used in the field"
+    },
+    {
+      "id": "mega5",
+      "label": "MEGA5",
+      "type": "application",
+      "depth": 3,
+      "description": "A software package for molecular evolutionary genetics analysis",
+      "importance": 6,
+      "fun_fact": "MEGA5 provides a comprehensive set of tools for analyzing molecular sequence data and has been widely used in the field"
+    },
+    {
+      "id": "parasite_evolution",
+      "label": "Parasite Evolution",
+      "type": "example",
+      "depth": 3,
+      "description": "The study of how parasites adapt and evolve in response to their hosts",
+      "importance": 5,
+      "fun_fact": "Parasite evolution has led to the development of new strategies for controlling parasitic diseases"
+    },
+    {
+      "id": "evolutionary_medicine",
+      "label": "Evolutionary Medicine",
+      "type": "application",
+      "depth": 3,
+      "description": "The application of evolutionary principles to the study of human disease",
+      "importance": 7,
+      "fun_fact": "Evolutionary medicine has led to new insights into the evolution of diseases and the development of new treatments"
+    },
+    {
+      "id": "conservation_biology",
+      "label": "Conservation Biology",
+      "type": "application",
+      "depth": 3,
+      "description": "The application of evolutionary principles to the conservation of species and ecosystems",
+      "importance": 7,
+      "fun_fact": "Conservation biology has led to new strategies for preserving biodiversity and protecting endangered species"
+    },
+    {
+      "id": "albert_einstein",
+      "label": "Not Applicable",
+      "type": "person",
+      "depth": 4,
+      "description": "Not Applicable",
+      "importance": 1,
+      "fun_fact": "Not Applicable"
+    },
+    {
+      "id": "r_a_fisher",
+      "label": "R.A. Fisher",
+      "type": "person",
+      "depth": 2,
+      "description": "British statistician and evolutionary biologist who contributed to the modern synthesis",
+      "importance": 8,
+      "fun_fact": "Fisher's work on statistical analysis and evolutionary biology has had a lasting impact on the field"
+    }
+  ],
+  "edges": [
+    {
+      "source": "evolutionary_biology",
+      "target": "natural_selection",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Natural selection is a key mechanism of evolution"
+    },
+    {
+      "source": "evolutionary_biology",
+      "target": "genetics",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Genetics is a fundamental aspect of evolutionary biology"
+    },
+    {
+      "source": "evolutionary_biology",
+      "target": "speciation",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Speciation is a key process in evolutionary biology"
+    },
+    {
+      "source": "evolutionary_biology",
+      "target": "phylogeny",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Phylogeny is a key tool for understanding evolutionary relationships"
+    },
+    {
+      "source": "evolutionary_biology",
+      "target": "adaptation",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Adaptation is a key process in evolutionary biology"
+    },
+    {
+      "source": "natural_selection",
+      "target": "charles_darwin",
+      "relation": "discovered_by",
+      "strength": 9,
+      "description": "Darwin proposed the theory of evolution through natural selection"
+    },
+    {
+      "source": "genetics",
+      "target": "gregor_mendel",
+      "relation": "discovered_by",
+      "strength": 9,
+      "description": "Mendel discovered the laws of heredity"
+    },
+    {
+      "source": "modern_synthesis",
+      "target": "r_a_fisher",
+      "relation": "discovered_by",
+      "strength": 8,
+      "description": "Fisher contributed to the modern synthesis"
+    },
+    {
+      "source": "datamonkey",
+      "target": "phylogeny",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "Datamonkey is used for phylogenetic analysis"
+    },
+    {
+      "source": "mega5",
+      "target": "genetics",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "MEGA5 is used for molecular evolutionary genetics analysis"
+    },
+    {
+      "source": "parasite_evolution",
+      "target": "evolutionary_biology",
+      "relation": "is_type_of",
+      "strength": 5,
+      "description": "Parasite evolution is a subfield of evolutionary biology"
+    },
+    {
+      "source": "evolutionary_medicine",
+      "target": "evolutionary_biology",
+      "relation": "is_type_of",
+      "strength": 7,
+      "description": "Evolutionary medicine is an application of evolutionary biology"
+    },
+    {
+      "source": "conservation_biology",
+      "target": "evolutionary_biology",
+      "relation": "is_type_of",
+      "strength": 7,
+      "description": "Conservation biology is an application of evolutionary biology"
+    },
+    {
+      "source": "charles_darwin",
+      "target": "natural_selection",
+      "relation": "discovered_by",
+      "strength": 9,
+      "description": "Darwin proposed the theory of evolution through natural selection"
+    },
+    {
+      "source": "gregor_mendel",
+      "target": "genetics",
+      "relation": "discovered_by",
+      "strength": 9,
+      "description": "Mendel discovered the laws of heredity"
+    },
+    {
+      "source": "r_a_fisher",
+      "target": "modern_synthesis",
+      "relation": "discovered_by",
+      "strength": 8,
+      "description": "Fisher contributed to the modern synthesis"
+    },
+    {
+      "source": "evolutionary_biology",
+      "target": "evolutionary_medicine",
+      "relation": "enables",
+      "strength": 7,
+      "description": "Evolutionary biology informs the field of evolutionary medicine"
+    },
+    {
+      "source": "evolutionary_biology",
+      "target": "conservation_biology",
+      "relation": "enables",
+      "strength": 7,
+      "description": "Evolutionary biology informs the field of conservation biology"
+    }
+  ],
+  "key_takeaways": [
+    "Evolutionary biology is a subfield of biology that analyzes the four mechanisms of evolution: natural selection, mutation, genetic drift, and gene flow",
+    "The field combines genetics, ecology, and paleontology to understand the history of life and the relationships between different organisms",
+    "Evolutionary biology has numerous applications, including evolutionary medicine and conservation biology"
+  ],
+  "real_world_impact": "Evolutionary biology has had a profound impact on our understanding of the natural world and has numerous practical applications. For example, evolutionary principles have been used to develop new treatments for diseases, such as antibiotic resistance, and to conserve endangered species. Additionally, evolutionary biology has informed our understanding of the origins of life on Earth and the diversity of species that exist today. The field continues to be an active area of research, with new discoveries and advances being made regularly.",
+  "images": [],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Evolutionary_biology",
+    "papers": [
+      {
+        "title": "Evolutionary Biology of Parasites",
+        "url": "https://doi.org/10.2307/3280430"
+      },
+      {
+        "title": "Datamonkey 2010: a suite of phylogenetic analysis tools for evolutionary biology",
+        "url": "https://doi.org/10.1093/bioinformatics/btq429"
+      },
+      {
+        "title": "MEGA5: Molecular Evolutionary Genetics Analysis Using Maximum Likelihood, Evolutionary Distance, and Maximum Parsimony Methods",
+        "url": "https://doi.org/10.1093/molbev/msr121"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 18"
+      ],
+      "node_count": 16,
+      "edge_count": 18
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "mutation",
+        "genetic drift",
+        "gene flow"
+      ],
+      "strengths": [
+        "clear representation of key concepts",
+        "good coverage of applications"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

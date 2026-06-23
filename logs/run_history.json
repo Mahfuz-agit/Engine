@@ -11,5 +11,18 @@
     "master_total_topics": 1,
     "ended_at": "2026-06-23T02:58:24.039773",
     "duration_seconds": 39.3
+  },
+  {
+    "started_at": "2026-06-23T10:46:31.895464",
+    "status": "success",
+    "topic": "Evolutionary Biology",
+    "sources_found": 6,
+    "images_found": 0,
+    "quality_score": 87.5,
+    "quality_passed": true,
+    "exam_questions": 10,
+    "master_total_topics": 2,
+    "ended_at": "2026-06-23T10:47:12.983265",
+    "duration_seconds": 41.1
   }
 ]
