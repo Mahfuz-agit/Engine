@@ -1,0 +1,164 @@
+{
+  "topic": "Climate Change",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary cause of climate change?",
+      "options": {
+        "A": "Natural fluctuations in the Earth's orbit",
+        "B": "Human activities such as burning fossil fuels and deforestation",
+        "C": "Volcanic eruptions and other geological events",
+        "D": "Changes in the Earth's magnetic field"
+      },
+      "correct": "B",
+      "explanation": "Human activities such as burning fossil fuels and deforestation are the primary cause of climate change, as they release large amounts of greenhouse gases into the atmosphere.",
+      "node_id": "Climate Change",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the role of carbon dioxide in the greenhouse effect?",
+      "options": {
+        "A": "It absorbs heat from the sun and releases it into space",
+        "B": "It traps heat in the atmosphere, leading to warming",
+        "C": "It reflects sunlight back into space, cooling the planet",
+        "D": "It has no significant impact on the greenhouse effect"
+      },
+      "correct": "B",
+      "explanation": "Carbon dioxide is a key contributor to the greenhouse effect, as it traps heat in the atmosphere and leads to warming.",
+      "node_id": "Greenhouse Effect",
+      "points": 15
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the potential impact of ocean acidification on marine ecosystems?",
+      "options": {
+        "A": "It will have no significant impact on marine ecosystems",
+        "B": "It will lead to an increase in marine biodiversity",
+        "C": "It will have a devastating impact on coral reefs and other marine ecosystems",
+        "D": "It will lead to an increase in ocean temperatures"
+      },
+      "correct": "C",
+      "explanation": "Ocean acidification can have a devastating impact on marine ecosystems, particularly coral reefs, as it reduces the availability of calcium carbonate and makes it harder for organisms to build shells and skeletons.",
+      "node_id": "Ocean Acidification",
+      "points": 20
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary source of energy for human societies?",
+      "options": {
+        "A": "Renewable energy sources such as solar and wind power",
+        "B": "Fossil fuels such as coal, oil, and gas",
+        "C": "Nuclear power",
+        "D": "Hydroelectric power"
+      },
+      "correct": "B",
+      "explanation": "Fossil fuels have been the primary source of energy for human societies for over a century, although this is changing with the increasing use of renewable energy sources.",
+      "node_id": "Fossil Fuels",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the role of the IPCC in addressing climate change?",
+      "options": {
+        "A": "It provides funding for climate change research and mitigation efforts",
+        "B": "It provides scientific guidance on climate change and its impacts",
+        "C": "It develops and implements policies to address climate change",
+        "D": "It raises awareness about climate change through education and outreach"
+      },
+      "correct": "B",
+      "explanation": "The IPCC provides scientific guidance on climate change and its impacts, and its reports are widely used by policymakers and other stakeholders to inform decision-making.",
+      "node_id": "IPCC",
+      "points": 15
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the relationship between ecosystem conservation and climate change?",
+      "options": {
+        "A": "Ecosystem conservation has no impact on climate change",
+        "B": "Ecosystem conservation can help to mitigate the impacts of climate change",
+        "C": "Ecosystem conservation is a major contributor to climate change",
+        "D": "Ecosystem conservation is only relevant to biodiversity, not climate change"
+      },
+      "correct": "B",
+      "explanation": "Ecosystem conservation can help to mitigate the impacts of climate change by preserving natural carbon sinks, such as forests, and promoting biodiversity.",
+      "node_id": "Ecosystem Conservation",
+      "points": 20
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the concept of sustainable development, and how does it relate to climate change?",
+      "options": {
+        "A": "Sustainable development refers to the use of renewable energy sources to reduce greenhouse gas emissions",
+        "B": "Sustainable development refers to the practice of meeting the needs of the present without compromising the ability of future generations to meet their own needs",
+        "C": "Sustainable development refers to the conservation of natural resources for future generations",
+        "D": "Sustainable development refers to the reduction of waste and pollution"
+      },
+      "correct": "B",
+      "explanation": "Sustainable development refers to the practice of meeting the needs of the present without compromising the ability of future generations to meet their own needs, and it is critical for addressing climate change.",
+      "node_id": "Sustainable Development",
+      "points": 15
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What are the potential consequences of climate change for global food systems?",
+      "sample_answer": "Climate change can lead to changes in temperature and precipitation patterns, which can impact crop yields, food availability, and food security. This can have significant consequences for human health, economic stability, and social well-being.",
+      "keywords": [
+        "food systems",
+        "climate change",
+        "crop yields",
+        "food security"
+      ],
+      "node_id": "Climate Change",
+      "points": 20
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "How can renewable energy sources contribute to addressing climate change?",
+      "sample_answer": "Renewable energy sources such as solar and wind power can contribute to addressing climate change by reducing greenhouse gas emissions from energy production, improving air quality, and enhancing energy security. Additionally, renewable energy can create jobs, stimulate local economies, and promote sustainable development.",
+      "keywords": [
+        "renewable energy",
+        "climate change",
+        "greenhouse gas emissions",
+        "energy security"
+      ],
+      "node_id": "Renewable Energy",
+      "points": 25
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What is the role of the greenhouse effect in climate change, and how does it relate to human activities?",
+      "sample_answer": "The greenhouse effect is a natural process that occurs when certain gases in the Earth's atmosphere trap heat, leading to warming. However, human activities such as burning fossil fuels and deforestation have increased the concentration of greenhouse gases in the atmosphere, enhancing the greenhouse effect and leading to climate change.",
+      "keywords": [
+        "greenhouse effect",
+        "climate change",
+        "human activities",
+        "greenhouse gases"
+      ],
+      "node_id": "Greenhouse Effect",
+      "points": 20
+    }
+  ]
+}

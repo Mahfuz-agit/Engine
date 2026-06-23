@@ -1,11 +1,312 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 0,
-  "total_nodes": 0,
-  "total_edges": 0,
-  "topics": [],
-  "global_nodes": [],
-  "global_edges": [],
+  "total_topics": 1,
+  "total_nodes": 15,
+  "total_edges": 17,
+  "topics": [
+    {
+      "topic": "Climate Change",
+      "slug": "climate_change",
+      "category": "geography",
+      "node_count": 15,
+      "edge_count": 17,
+      "description": "Climate change refers to the long-term warming of the planet, which is primarily caused by human activities such as burning fossil fuels, deforestation, and certain agricultural and industrial practices. This warming is driven by the increasing levels of greenhouse gases in the Earth's atmosphere, which trap heat and lead to rising global temperatures. The consequences of climate change are far-reaching and include more frequent and severe weather events, rising sea levels, and disruptions to ecosystems and biodiversity.",
+      "added_at": "2026-06-23T02:58:24.039221"
+    }
+  ],
+  "global_nodes": [
+    {
+      "id": "climate_change__N1",
+      "label": "Climate Change",
+      "type": "core",
+      "depth": 0,
+      "description": "The long-term warming of the planet, primarily caused by human activities",
+      "importance": 10,
+      "fun_fact": "The term 'climate change' was first used in the 1970s",
+      "topic_slug": "climate_change",
+      "topic": "Climate Change"
+    },
+    {
+      "id": "climate_change__N2",
+      "label": "Greenhouse Effect",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process by which certain gases in the Earth's atmosphere trap heat, leading to warming",
+      "importance": 9,
+      "fun_fact": "The greenhouse effect is a natural process that has been occurring for millions of years",
+      "topic_slug": "climate_change",
+      "topic": "Climate Change"
+    },
+    {
+      "id": "climate_change__N3",
+      "label": "Renewable Energy",
+      "type": "concept",
+      "depth": 1,
+      "description": "Energy sources that are sustainable and do not contribute to climate change, such as solar and wind power",
+      "importance": 8,
+      "fun_fact": "Renewable energy sources now account for over 30% of global electricity generation",
+      "topic_slug": "climate_change",
+      "topic": "Climate Change"
+    },
+    {
+      "id": "climate_change__N4",
+      "label": "Sustainable Development",
+      "type": "concept",
+      "depth": 1,
+      "description": "The practice of meeting the needs of the present without compromising the ability of future generations to meet their own needs",
+      "importance": 8,
+      "fun_fact": "The concept of sustainable development was first introduced in the 1980s",
+      "topic_slug": "climate_change",
+      "topic": "Climate Change"
+    },
+    {
+      "id": "climate_change__N5",
+      "label": "Ocean Acidification",
+      "type": "concept",
+      "depth": 1,
+      "description": "The decrease in the pH of the ocean due to the absorption of carbon dioxide from the atmosphere",
+      "importance": 8,
+      "fun_fact": "Ocean acidification can have devastating effects on marine ecosystems, particularly coral reefs",
+      "topic_slug": "climate_change",
+      "topic": "Climate Change"
+    },
+    {
+      "id": "climate_change__N6",
+      "label": "Ecosystem Conservation",
+      "type": "concept",
+      "depth": 1,
+      "description": "The practice of protecting and preserving ecosystems and the biodiversity they support",
+      "importance": 8,
+      "fun_fact": "Ecosystem conservation is critical for maintaining the health of the planet and supporting human well-being",
+      "topic_slug": "climate_change",
+      "topic": "Climate Change"
+    },
+    {
+      "id": "climate_change__N7",
+      "label": "IPCC",
+      "type": "organization",
+      "depth": 2,
+      "description": "The Intergovernmental Panel on Climate Change, which provides scientific guidance on climate change",
+      "importance": 7,
+      "fun_fact": "The IPCC was established in 1988 by the United Nations",
+      "topic_slug": "climate_change",
+      "topic": "Climate Change"
+    },
+    {
+      "id": "climate_change__N8",
+      "label": "El Ni\u00f1o",
+      "type": "event",
+      "depth": 2,
+      "description": "A complex weather pattern that occurs when the surface temperature of the Pacific Ocean warms up",
+      "importance": 6,
+      "fun_fact": "El Ni\u00f1o events can have significant impacts on global climate patterns",
+      "topic_slug": "climate_change",
+      "topic": "Climate Change"
+    },
+    {
+      "id": "climate_change__N9",
+      "label": "Orangutan",
+      "type": "example",
+      "depth": 3,
+      "description": "A species of great ape that is threatened by climate change",
+      "importance": 5,
+      "fun_fact": "Orangutans are one of the most endangered species in the world",
+      "topic_slug": "climate_change",
+      "topic": "Climate Change"
+    },
+    {
+      "id": "climate_change__N10",
+      "label": "James Hansen",
+      "type": "person",
+      "depth": 2,
+      "description": "A climate scientist who has made significant contributions to our understanding of climate change",
+      "importance": 6,
+      "fun_fact": "James Hansen is often referred to as the 'father of climate change awareness'",
+      "topic_slug": "climate_change",
+      "topic": "Climate Change"
+    },
+    {
+      "id": "climate_change__N11",
+      "label": "Carbon Dioxide",
+      "type": "concept",
+      "depth": 2,
+      "description": "A greenhouse gas that is released through human activities such as burning fossil fuels",
+      "importance": 7,
+      "fun_fact": "Carbon dioxide levels have increased by over 40% since the Industrial Revolution",
+      "topic_slug": "climate_change",
+      "topic": "Climate Change"
+    },
+    {
+      "id": "climate_change__N12",
+      "label": "Fossil Fuels",
+      "type": "concept",
+      "depth": 2,
+      "description": "Energy sources such as coal, oil, and gas that are extracted from the earth and contribute to climate change",
+      "importance": 7,
+      "fun_fact": "Fossil fuels have been the primary source of energy for human societies for over a century",
+      "topic_slug": "climate_change",
+      "topic": "Climate Change"
+    },
+    {
+      "id": "climate_change__N13",
+      "label": "Deforestation",
+      "type": "concept",
+      "depth": 2,
+      "description": "The clearance of forests, usually as a result of human activities such as agriculture or urbanization",
+      "importance": 6,
+      "fun_fact": "Deforestation accounts for around 15% of global greenhouse gas emissions",
+      "topic_slug": "climate_change",
+      "topic": "Climate Change"
+    },
+    {
+      "id": "climate_change__N14",
+      "label": "Industrial Revolution",
+      "type": "event",
+      "depth": 2,
+      "description": "A period of significant economic and technological change that occurred in the 18th and 19th centuries",
+      "importance": 6,
+      "fun_fact": "The Industrial Revolution marked the beginning of the widespread use of fossil fuels",
+      "topic_slug": "climate_change",
+      "topic": "Climate Change"
+    },
+    {
+      "id": "climate_change__N15",
+      "label": "Climate Change 2007: The Physical Science Basis",
+      "type": "publication",
+      "depth": 3,
+      "description": "A report published by the IPCC that provides an assessment of the physical science basis of climate change",
+      "importance": 5,
+      "fun_fact": "This report was a major milestone in the development of climate change science",
+      "topic_slug": "climate_change",
+      "topic": "Climate Change"
+    }
+  ],
+  "global_edges": [
+    {
+      "source": "climate_change__N1",
+      "target": "climate_change__N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Climate Change"
+    },
+    {
+      "source": "climate_change__N1",
+      "target": "climate_change__N3",
+      "relation": "contrasts_with",
+      "strength": 8,
+      "topic": "Climate Change"
+    },
+    {
+      "source": "climate_change__N1",
+      "target": "climate_change__N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Climate Change"
+    },
+    {
+      "source": "climate_change__N1",
+      "target": "climate_change__N5",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Climate Change"
+    },
+    {
+      "source": "climate_change__N1",
+      "target": "climate_change__N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Climate Change"
+    },
+    {
+      "source": "climate_change__N2",
+      "target": "climate_change__N11",
+      "relation": "is_type_of",
+      "strength": 7,
+      "topic": "Climate Change"
+    },
+    {
+      "source": "climate_change__N3",
+      "target": "climate_change__N12",
+      "relation": "contrasts_with",
+      "strength": 7,
+      "topic": "Climate Change"
+    },
+    {
+      "source": "climate_change__N4",
+      "target": "climate_change__N13",
+      "relation": "is_part_of",
+      "strength": 6,
+      "topic": "Climate Change"
+    },
+    {
+      "source": "climate_change__N5",
+      "target": "climate_change__N9",
+      "relation": "affects",
+      "strength": 6,
+      "topic": "Climate Change"
+    },
+    {
+      "source": "climate_change__N6",
+      "target": "climate_change__N9",
+      "relation": "protects",
+      "strength": 6,
+      "topic": "Climate Change"
+    },
+    {
+      "source": "climate_change__N7",
+      "target": "climate_change__N15",
+      "relation": "published",
+      "strength": 5,
+      "topic": "Climate Change"
+    },
+    {
+      "source": "climate_change__N8",
+      "target": "climate_change__N1",
+      "relation": "is_part_of",
+      "strength": 6,
+      "topic": "Climate Change"
+    },
+    {
+      "source": "climate_change__N10",
+      "target": "climate_change__N1",
+      "relation": "studied",
+      "strength": 6,
+      "topic": "Climate Change"
+    },
+    {
+      "source": "climate_change__N11",
+      "target": "climate_change__N12",
+      "relation": "released_by",
+      "strength": 7,
+      "topic": "Climate Change"
+    },
+    {
+      "source": "climate_change__N12",
+      "target": "climate_change__N14",
+      "relation": "emerged_during",
+      "strength": 6,
+      "topic": "Climate Change"
+    },
+    {
+      "source": "climate_change__N13",
+      "target": "climate_change__N14",
+      "relation": "occurred_during",
+      "strength": 6,
+      "topic": "Climate Change"
+    },
+    {
+      "source": "climate_change__N14",
+      "target": "climate_change__N1",
+      "relation": "contributed_to",
+      "strength": 6,
+      "topic": "Climate Change"
+    }
+  ],
   "cross_topic_edges": [],
-  "category_map": {}
+  "category_map": {
+    "geography": [
+      "climate_change"
+    ]
+  },
+  "last_updated": "2026-06-23T02:58:24.039262"
 }

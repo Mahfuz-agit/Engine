@@ -1,0 +1,383 @@
+{
+  "topic": "Climate Change",
+  "category": "geography",
+  "description": "Climate change refers to the long-term warming of the planet, which is primarily caused by human activities such as burning fossil fuels, deforestation, and certain agricultural and industrial practices. This warming is driven by the increasing levels of greenhouse gases in the Earth's atmosphere, which trap heat and lead to rising global temperatures. The consequences of climate change are far-reaching and include more frequent and severe weather events, rising sea levels, and disruptions to ecosystems and biodiversity.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Climate Change",
+      "type": "core",
+      "depth": 0,
+      "description": "The long-term warming of the planet, primarily caused by human activities",
+      "importance": 10,
+      "fun_fact": "The term 'climate change' was first used in the 1970s"
+    },
+    {
+      "id": "N2",
+      "label": "Greenhouse Effect",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process by which certain gases in the Earth's atmosphere trap heat, leading to warming",
+      "importance": 9,
+      "fun_fact": "The greenhouse effect is a natural process that has been occurring for millions of years"
+    },
+    {
+      "id": "N3",
+      "label": "Renewable Energy",
+      "type": "concept",
+      "depth": 1,
+      "description": "Energy sources that are sustainable and do not contribute to climate change, such as solar and wind power",
+      "importance": 8,
+      "fun_fact": "Renewable energy sources now account for over 30% of global electricity generation"
+    },
+    {
+      "id": "N4",
+      "label": "Sustainable Development",
+      "type": "concept",
+      "depth": 1,
+      "description": "The practice of meeting the needs of the present without compromising the ability of future generations to meet their own needs",
+      "importance": 8,
+      "fun_fact": "The concept of sustainable development was first introduced in the 1980s"
+    },
+    {
+      "id": "N5",
+      "label": "Ocean Acidification",
+      "type": "concept",
+      "depth": 1,
+      "description": "The decrease in the pH of the ocean due to the absorption of carbon dioxide from the atmosphere",
+      "importance": 8,
+      "fun_fact": "Ocean acidification can have devastating effects on marine ecosystems, particularly coral reefs"
+    },
+    {
+      "id": "N6",
+      "label": "Ecosystem Conservation",
+      "type": "concept",
+      "depth": 1,
+      "description": "The practice of protecting and preserving ecosystems and the biodiversity they support",
+      "importance": 8,
+      "fun_fact": "Ecosystem conservation is critical for maintaining the health of the planet and supporting human well-being"
+    },
+    {
+      "id": "N7",
+      "label": "IPCC",
+      "type": "organization",
+      "depth": 2,
+      "description": "The Intergovernmental Panel on Climate Change, which provides scientific guidance on climate change",
+      "importance": 7,
+      "fun_fact": "The IPCC was established in 1988 by the United Nations"
+    },
+    {
+      "id": "N8",
+      "label": "El Ni\u00f1o",
+      "type": "event",
+      "depth": 2,
+      "description": "A complex weather pattern that occurs when the surface temperature of the Pacific Ocean warms up",
+      "importance": 6,
+      "fun_fact": "El Ni\u00f1o events can have significant impacts on global climate patterns"
+    },
+    {
+      "id": "N9",
+      "label": "Orangutan",
+      "type": "example",
+      "depth": 3,
+      "description": "A species of great ape that is threatened by climate change",
+      "importance": 5,
+      "fun_fact": "Orangutans are one of the most endangered species in the world"
+    },
+    {
+      "id": "N10",
+      "label": "James Hansen",
+      "type": "person",
+      "depth": 2,
+      "description": "A climate scientist who has made significant contributions to our understanding of climate change",
+      "importance": 6,
+      "fun_fact": "James Hansen is often referred to as the 'father of climate change awareness'"
+    },
+    {
+      "id": "N11",
+      "label": "Carbon Dioxide",
+      "type": "concept",
+      "depth": 2,
+      "description": "A greenhouse gas that is released through human activities such as burning fossil fuels",
+      "importance": 7,
+      "fun_fact": "Carbon dioxide levels have increased by over 40% since the Industrial Revolution"
+    },
+    {
+      "id": "N12",
+      "label": "Fossil Fuels",
+      "type": "concept",
+      "depth": 2,
+      "description": "Energy sources such as coal, oil, and gas that are extracted from the earth and contribute to climate change",
+      "importance": 7,
+      "fun_fact": "Fossil fuels have been the primary source of energy for human societies for over a century"
+    },
+    {
+      "id": "N13",
+      "label": "Deforestation",
+      "type": "concept",
+      "depth": 2,
+      "description": "The clearance of forests, usually as a result of human activities such as agriculture or urbanization",
+      "importance": 6,
+      "fun_fact": "Deforestation accounts for around 15% of global greenhouse gas emissions"
+    },
+    {
+      "id": "N14",
+      "label": "Industrial Revolution",
+      "type": "event",
+      "depth": 2,
+      "description": "A period of significant economic and technological change that occurred in the 18th and 19th centuries",
+      "importance": 6,
+      "fun_fact": "The Industrial Revolution marked the beginning of the widespread use of fossil fuels"
+    },
+    {
+      "id": "N15",
+      "label": "Climate Change 2007: The Physical Science Basis",
+      "type": "publication",
+      "depth": 3,
+      "description": "A report published by the IPCC that provides an assessment of the physical science basis of climate change",
+      "importance": 5,
+      "fun_fact": "This report was a major milestone in the development of climate change science"
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "The greenhouse effect is a key component of climate change"
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "contrasts_with",
+      "strength": 8,
+      "description": "Renewable energy is a alternative to fossil fuels and can help mitigate climate change"
+    },
+    {
+      "source": "N1",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Sustainable development is a key aspect of addressing climate change"
+    },
+    {
+      "source": "N1",
+      "target": "N5",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "Climate change can lead to ocean acidification"
+    },
+    {
+      "source": "N1",
+      "target": "N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Ecosystem conservation is critical for addressing climate change"
+    },
+    {
+      "source": "N2",
+      "target": "N11",
+      "relation": "is_type_of",
+      "strength": 7,
+      "description": "Carbon dioxide is a greenhouse gas that contributes to the greenhouse effect"
+    },
+    {
+      "source": "N3",
+      "target": "N12",
+      "relation": "contrasts_with",
+      "strength": 7,
+      "description": "Renewable energy is a alternative to fossil fuels"
+    },
+    {
+      "source": "N4",
+      "target": "N13",
+      "relation": "is_part_of",
+      "strength": 6,
+      "description": "Deforestation is a aspect of unsustainable development"
+    },
+    {
+      "source": "N5",
+      "target": "N9",
+      "relation": "affects",
+      "strength": 6,
+      "description": "Ocean acidification can have devastating effects on marine ecosystems, including orangutans"
+    },
+    {
+      "source": "N6",
+      "target": "N9",
+      "relation": "protects",
+      "strength": 6,
+      "description": "Ecosystem conservation can help protect orangutans and other species"
+    },
+    {
+      "source": "N7",
+      "target": "N15",
+      "relation": "published",
+      "strength": 5,
+      "description": "The IPCC published the report 'Climate Change 2007: The Physical Science Basis'"
+    },
+    {
+      "source": "N8",
+      "target": "N1",
+      "relation": "is_part_of",
+      "strength": 6,
+      "description": "El Ni\u00f1o is a complex weather pattern that can contribute to climate change"
+    },
+    {
+      "source": "N10",
+      "target": "N1",
+      "relation": "studied",
+      "strength": 6,
+      "description": "James Hansen has made significant contributions to our understanding of climate change"
+    },
+    {
+      "source": "N11",
+      "target": "N12",
+      "relation": "released_by",
+      "strength": 7,
+      "description": "Carbon dioxide is released through human activities such as burning fossil fuels"
+    },
+    {
+      "source": "N12",
+      "target": "N14",
+      "relation": "emerged_during",
+      "strength": 6,
+      "description": "Fossil fuels emerged as a primary source of energy during the Industrial Revolution"
+    },
+    {
+      "source": "N13",
+      "target": "N14",
+      "relation": "occurred_during",
+      "strength": 6,
+      "description": "Deforestation occurred during the Industrial Revolution"
+    },
+    {
+      "source": "N14",
+      "target": "N1",
+      "relation": "contributed_to",
+      "strength": 6,
+      "description": "The Industrial Revolution contributed to the emergence of climate change"
+    }
+  ],
+  "key_takeaways": [
+    "Climate change is a complex and multifaceted issue that requires a comprehensive approach",
+    "The greenhouse effect is a key component of climate change, and carbon dioxide is a major contributor to this effect",
+    "Renewable energy and sustainable development are critical for addressing climate change"
+  ],
+  "real_world_impact": "Climate change is having a significant impact on the world, from more frequent and severe weather events to rising sea levels and disruptions to ecosystems and biodiversity. The consequences of climate change are far-reaching and will require a coordinated and sustained effort to address. The transition to renewable energy sources, the protection of ecosystems, and the promotion of sustainable development are all critical components of this effort. By working together, we can mitigate the effects of climate change and create a more sustainable future for all.",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/20200118_Global_warming_and_climate_change_-_vertical_block_diagram_-_causes_effects_feedback.png",
+      "title": "20200118 Global warming and climate change - vertical block diagram - causes effects feedback.png",
+      "license": "CC BY-SA 4.0",
+      "artist": "RCraig09",
+      "description": "Block diagram indicating primary causes and wide-ranging effects, including feedback, of global warming and climate change.\nOf course, other elements and causal paths (arrowed connecting lines) could have been included, but are omitted to keep the diagram reasonably simple for a lay audience.\n\u2014\u2014\u2014\u2014\u2014\u2014",
+      "width": 2104,
+      "height": 2967,
+      "source_query": "Climate Change"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/20200505_Global_warming_variability_-_Northern_vs_Southern_hemispheres.svg",
+      "title": "20200505 Global warming variability - Northern vs Southern hemispheres.svg",
+      "license": "CC BY-SA 4.0",
+      "artist": "RCraig09",
+      "description": "Graphs of average temperature changes for the Northern and Southern hemispheres, demonstrating regional climate variability.\nData source:\nGISS Surface Temperature Analysis (v4) / Annual Mean Temperature Change for Hemispheres. NASA GISS. Archived from the original on April 16, 2020.\nUploader's notes",
+      "width": 835,
+      "height": 600,
+      "source_query": "Climate Change"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/20200505_Global_warming_variability_-_global_vs_Caribbean.svg",
+      "title": "20200505 Global warming variability - global vs Caribbean.svg",
+      "license": "CC BY-SA 4.0",
+      "artist": "RCraig09",
+      "description": "Contrasting global and regional climatic variability, by comparing global average temperature changes with temperature changes in the Caribbean region.\nNative text objects are in hidden SVG layer (to facilitate translations). Text-converted-to-paths are in visible layer.\nSource for data: NOAA\n\nClima",
+      "width": 835,
+      "height": 600,
+      "source_query": "Climate Change"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/2050_Production_risk_of_commodities_due_to_climate_change_-_single_stressor_version.svg",
+      "title": "2050 Production risk of commodities due to climate change - single stressor version.svg",
+      "license": "CC BY-SA 4.0",
+      "artist": "RCraig09",
+      "description": "Chart showing projected production risk due to climate change, for vital metals, critical minerals, and important food crops\nData source: Climate risks to nine key commodities. PWC.com 5. PricewaterhouseCoopers International Limited (PWC) (2024). Archived from the original on 2 May 2024.\nSuggested c",
+      "width": 1100,
+      "height": 675,
+      "source_query": "Climate Change"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/65_Myr_Climate_Change_Chinese_Version.gif",
+      "title": "65 Myr Climate Change Chinese Version.gif",
+      "license": "CC BY-SA 3.0",
+      "artist": "Robert A. RohdeTranslated by MrBingxin",
+      "description": "\u200b\u8fc7\u53bb6500\u4e07\u5e74\u4ee5\u6765\u6c14\u5019\u53d8\u5316\u793a\u610f\u56fe\u3002",
+      "width": 650,
+      "height": 397,
+      "source_query": "Climate Change"
+    }
+  ],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Climate_change",
+    "papers": [
+      {
+        "title": "Climate change 2007: the physical science basis",
+        "url": "https://digital.library.unt.edu/ark:/67531/metadc950228/"
+      },
+      {
+        "title": "Ecological responses to recent climate change",
+        "url": "https://doi.org/10.1038/416389a"
+      },
+      {
+        "title": "Climate Change 2007: Impacts, Adaptation and Vulnerability",
+        "url": "http://cedadocs.ceda.ac.uk/994/1/Climate_change_2007-_Impacts%2C_Adaptation_and_Vulnerability.pdf"
+      }
+    ],
+    "news": [
+      {
+        "title": "Next El Ni\u00f1o could be strongest in decades",
+        "url": "https://www.bbc.com/news/videos/c8e8zzw30zyo?at_medium=RSS&at_campaign=rss"
+      },
+      {
+        "title": "Four days of extreme rain killed 7% of world's rarest orangutans, study says",
+        "url": "https://www.bbc.com/news/articles/ce8jde20v83o?at_medium=RSS&at_campaign=rss"
+      },
+      {
+        "title": "Oceans in Asia smash heat records \u2014 what it means for extreme weather",
+        "url": "https://www.nature.com/articles/d41586-026-01938-2"
+      }
+    ]
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 17"
+      ],
+      "node_count": 15,
+      "edge_count": 17
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Climate Modeling",
+        "Carbon Capture and Storage"
+      ],
+      "strengths": [
+        "Comprehensive coverage of key concepts",
+        "Clear relationships between concepts"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

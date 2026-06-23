@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "started_at": "2026-06-23T02:57:44.737118",
+    "status": "success",
+    "topic": "Climate Change",
+    "sources_found": 9,
+    "images_found": 5,
+    "quality_score": 87.5,
+    "quality_passed": true,
+    "exam_questions": 10,
+    "master_total_topics": 1,
+    "ended_at": "2026-06-23T02:58:24.039773",
+    "duration_seconds": 39.3
+  }
+]
