@@ -1,0 +1,163 @@
+{
+  "topic": "Ecological Conservation",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary goal of ecological conservation?",
+      "options": {
+        "A": "To protect and preserve the natural world, including ecosystems, species, and habitats",
+        "B": "To promote sustainable development and economic growth",
+        "C": "To reduce greenhouse gas emissions and mitigate climate change",
+        "D": "To conserve water and reduce pollution"
+      },
+      "correct": "A",
+      "explanation": "Ecological conservation aims to protect and preserve the natural world, including ecosystems, species, and habitats, to maintain the health of our planet and ensure the long-term survival of all species.",
+      "node_id": "Ecological Conservation",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the variety of different species of plants, animals, and microorganisms that live in an ecosystem or on Earth as a whole?",
+      "options": {
+        "A": "Ecosystem services",
+        "B": "Biodiversity",
+        "C": "Sustainable development",
+        "D": "Conservation biology"
+      },
+      "correct": "B",
+      "explanation": "Biodiversity refers to the variety of different species of plants, animals, and microorganisms that live in an ecosystem or on Earth as a whole.",
+      "node_id": "Biodiversity",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the estimated value of ecosystem services per year?",
+      "options": {
+        "A": "Over $10 trillion",
+        "B": "Over $20 trillion",
+        "C": "Over $33 trillion",
+        "D": "Over $50 trillion"
+      },
+      "correct": "C",
+      "explanation": "Ecosystem services are estimated to be worth over $33 trillion per year, which is more than the global GDP.",
+      "node_id": "Ecosystem Services",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the practice of protecting and conserving wild animals and their habitats?",
+      "options": {
+        "A": "Sustainable development",
+        "B": "Conservation biology",
+        "C": "Wildlife preservation",
+        "D": "Environmental policy"
+      },
+      "correct": "C",
+      "explanation": "Wildlife preservation is the practice of protecting and conserving wild animals and their habitats.",
+      "node_id": "Wildlife Preservation",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the concept of meeting the needs of the present without compromising the ability of future generations to meet their own needs?",
+      "options": {
+        "A": "Sustainable development",
+        "B": "Conservation biology",
+        "C": "Environmental policy",
+        "D": "Ecosystem services"
+      },
+      "correct": "A",
+      "explanation": "Sustainable development is the practice of meeting the needs of the present without compromising the ability of future generations to meet their own needs.",
+      "node_id": "Sustainable Development",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for a species that has a disproportionate impact on its environment and plays a unique role in maintaining the structure and function of its ecosystem?",
+      "options": {
+        "A": "Keystone species",
+        "B": "Indicator species",
+        "C": "Endangered species",
+        "D": "Invasive species"
+      },
+      "correct": "A",
+      "explanation": "A keystone species is a species that has a disproportionate impact on its environment and plays a unique role in maintaining the structure and function of its ecosystem.",
+      "node_id": "Keystone Species",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary role of pollinators in ecosystems?",
+      "options": {
+        "A": "To transfer pollen from one plant to another",
+        "B": "To disperse seeds",
+        "C": "To regulate water cycles",
+        "D": "To maintain soil quality"
+      },
+      "correct": "A",
+      "explanation": "Pollinators play a crucial role in ecosystems by transferring pollen from one plant to another, allowing for fertilization and seed production.",
+      "node_id": "Pollinators",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What are the key components of ecological conservation, and how do they relate to each other?",
+      "sample_answer": "The key components of ecological conservation include biodiversity, ecosystem services, and sustainable development. These components are interconnected and interdependent, and they all play a crucial role in maintaining the health of our planet and ensuring the long-term survival of all species.",
+      "keywords": [
+        "biodiversity",
+        "ecosystem services",
+        "sustainable development"
+      ],
+      "node_id": "Ecological Conservation",
+      "points": 20
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "What is the role of conservation biology in addressing the complex relationships between humans and the environment, and how does it draw on ecology, biology, economics, and social sciences?",
+      "sample_answer": "Conservation biology is an interdisciplinary field that draws on ecology, biology, economics, and social sciences to understand and address the complex relationships between humans and the environment. It plays a crucial role in developing effective conservation strategies and policies that balance human needs with environmental protection.",
+      "keywords": [
+        "conservation biology",
+        "ecology",
+        "biology",
+        "economics",
+        "social sciences"
+      ],
+      "node_id": "Conservation Biology",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What is the significance of the IUCN Red List, and how does it contribute to ecological conservation efforts?",
+      "sample_answer": "The IUCN Red List is a global list of threatened species that provides a comprehensive assessment of the conservation status of species. It plays a crucial role in ecological conservation efforts by providing a framework for conservation planning, research, and policy development, and by raising awareness about the importance of conservation and the need to protect threatened species.",
+      "keywords": [
+        "IUCN Red List",
+        "conservation status",
+        "threatened species"
+      ],
+      "node_id": "IUCN Red List",
+      "points": 20
+    }
+  ]
+}

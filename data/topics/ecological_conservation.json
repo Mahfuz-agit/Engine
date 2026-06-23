@@ -1,0 +1,384 @@
+{
+  "topic": "Ecological Conservation",
+  "category": "biology",
+  "description": "Ecological conservation is the practice of protecting and preserving the natural world, including ecosystems, species, and habitats. It involves understanding the complex relationships between living organisms and their environments, and taking action to prevent harm and promote sustainability. This field is crucial for maintaining the health of our planet and ensuring the long-term survival of all species.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Ecological Conservation",
+      "type": "core",
+      "depth": 0,
+      "description": "The practice of protecting and preserving the natural world, including ecosystems, species, and habitats.",
+      "importance": 10,
+      "fun_fact": "The term 'ecological conservation' was first used in the 1960s, but the concept has been around for centuries."
+    },
+    {
+      "id": "N2",
+      "label": "Biodiversity",
+      "type": "concept",
+      "depth": 1,
+      "description": "The variety of different species of plants, animals, and microorganisms that live in an ecosystem or on Earth as a whole.",
+      "importance": 9,
+      "fun_fact": "The Amazon rainforest is home to over 10% of all known plant and animal species."
+    },
+    {
+      "id": "N3",
+      "label": "Ecosystem Services",
+      "type": "concept",
+      "depth": 1,
+      "description": "The benefits that humans derive from functioning ecosystems, including clean air and water, soil formation, and climate regulation.",
+      "importance": 9,
+      "fun_fact": "Ecosystem services are estimated to be worth over $33 trillion per year, which is more than the global GDP."
+    },
+    {
+      "id": "N4",
+      "label": "Wildlife Preservation",
+      "type": "application",
+      "depth": 2,
+      "description": "The practice of protecting and conserving wild animals and their habitats, including national parks, wildlife reserves, and conservation areas.",
+      "importance": 8,
+      "fun_fact": "The first national park in the world was Yellowstone, established in 1872."
+    },
+    {
+      "id": "N5",
+      "label": "Sustainable Development",
+      "type": "concept",
+      "depth": 1,
+      "description": "The practice of meeting the needs of the present without compromising the ability of future generations to meet their own needs.",
+      "importance": 9,
+      "fun_fact": "The concept of sustainable development was first introduced in the 1980s, but it has its roots in the 1960s and 1970s environmental movement."
+    },
+    {
+      "id": "N6",
+      "label": "Environmental Policy",
+      "type": "application",
+      "depth": 2,
+      "description": "The set of laws, regulations, and guidelines that govern human interactions with the environment, including pollution control, conservation, and sustainability.",
+      "importance": 8,
+      "fun_fact": "The first environmental policy in the United States was the National Environmental Policy Act of 1969."
+    },
+    {
+      "id": "N7",
+      "label": "Keystone Species",
+      "type": "concept",
+      "depth": 2,
+      "description": "A species that has a disproportionate impact on its environment and plays a unique role in maintaining the structure and function of its ecosystem.",
+      "importance": 8,
+      "fun_fact": "The sea otter is a keystone species in the kelp forests of the Pacific coast, as it preys on sea urchins that would otherwise overgraze the kelp."
+    },
+    {
+      "id": "N8",
+      "label": "Pollinators",
+      "type": "concept",
+      "depth": 2,
+      "description": "Animals that transfer pollen from one plant to another, allowing for fertilization and seed production.",
+      "importance": 8,
+      "fun_fact": "Bees are responsible for pollinating over 75% of the world's crop species."
+    },
+    {
+      "id": "N9",
+      "label": "Ecological Restoration",
+      "type": "application",
+      "depth": 3,
+      "description": "The practice of restoring degraded or damaged ecosystems to a healthy and functioning state.",
+      "importance": 7,
+      "fun_fact": "The restoration of the Chesapeake Bay watershed has resulted in a significant increase in water quality and biodiversity."
+    },
+    {
+      "id": "N10",
+      "label": "Conservation Biology",
+      "type": "concept",
+      "depth": 2,
+      "description": "The scientific study of the conservation of nature and the preservation of biodiversity.",
+      "importance": 8,
+      "fun_fact": "Conservation biology is an interdisciplinary field that draws on ecology, biology, economics, and social sciences."
+    },
+    {
+      "id": "N11",
+      "label": "E.O. Wilson",
+      "type": "person",
+      "depth": 3,
+      "description": "An American biologist and conservationist who is known for his work on island biogeography and the theory of species diversity.",
+      "importance": 7,
+      "fun_fact": "E.O. Wilson is the author of over 20 books, including 'The Diversity of Life' and 'Half-Earth'."
+    },
+    {
+      "id": "N12",
+      "label": "Rachel Carson",
+      "type": "person",
+      "depth": 3,
+      "description": "An American marine biologist and conservationist who is known for her book 'Silent Spring', which is credited with advancing the global environmental movement.",
+      "importance": 7,
+      "fun_fact": "Rachel Carson's work on the effects of pesticides on the environment led to the banning of DDT in the United States."
+    },
+    {
+      "id": "N13",
+      "label": "National Park Service",
+      "type": "organization",
+      "depth": 3,
+      "description": "A federal agency in the United States that is responsible for managing and protecting national parks and other conservation areas.",
+      "importance": 7,
+      "fun_fact": "The National Park Service was established in 1916 and is responsible for managing over 400 national parks and conservation areas."
+    },
+    {
+      "id": "N14",
+      "label": "IUCN Red List",
+      "type": "application",
+      "depth": 3,
+      "description": "A global list of threatened species that is maintained by the International Union for Conservation of Nature.",
+      "importance": 7,
+      "fun_fact": "The IUCN Red List is widely recognized as the most comprehensive and authoritative list of threatened species in the world."
+    },
+    {
+      "id": "N15",
+      "label": "Sustainable Agriculture",
+      "type": "application",
+      "depth": 3,
+      "description": "A set of farming practices that prioritize environmental sustainability and social responsibility, including organic farming and permaculture.",
+      "importance": 7,
+      "fun_fact": "Sustainable agriculture can help to reduce greenhouse gas emissions and promote biodiversity."
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Biodiversity is a key component of ecological conservation."
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Ecosystem services are a critical aspect of ecological conservation."
+    },
+    {
+      "source": "N1",
+      "target": "N5",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Sustainable development is a key principle of ecological conservation."
+    },
+    {
+      "source": "N2",
+      "target": "N7",
+      "relation": "is_type_of",
+      "strength": 8,
+      "description": "Keystone species are a type of biodiversity that plays a unique role in maintaining ecosystem function."
+    },
+    {
+      "source": "N3",
+      "target": "N8",
+      "relation": "depends_on",
+      "strength": 8,
+      "description": "Ecosystem services depend on pollinators to function properly."
+    },
+    {
+      "source": "N4",
+      "target": "N9",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "Wildlife preservation can lead to ecological restoration."
+    },
+    {
+      "source": "N5",
+      "target": "N10",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Conservation biology is a key component of sustainable development."
+    },
+    {
+      "source": "N10",
+      "target": "N11",
+      "relation": "discovered_by",
+      "strength": 7,
+      "description": "E.O. Wilson is a prominent conservation biologist who has made significant contributions to the field."
+    },
+    {
+      "source": "N10",
+      "target": "N12",
+      "relation": "influenced_by",
+      "strength": 7,
+      "description": "Rachel Carson's work on environmental conservation has had a lasting impact on the field of conservation biology."
+    },
+    {
+      "source": "N13",
+      "target": "N14",
+      "relation": "uses",
+      "strength": 7,
+      "description": "The National Park Service uses the IUCN Red List to inform conservation decisions."
+    },
+    {
+      "source": "N15",
+      "target": "N5",
+      "relation": "is_part_of",
+      "strength": 7,
+      "description": "Sustainable agriculture is a key component of sustainable development."
+    },
+    {
+      "source": "N1",
+      "target": "N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Environmental policy is a critical aspect of ecological conservation."
+    },
+    {
+      "source": "N6",
+      "target": "N13",
+      "relation": "governs",
+      "strength": 7,
+      "description": "Environmental policy governs the management of national parks and conservation areas."
+    },
+    {
+      "source": "N7",
+      "target": "N8",
+      "relation": "is_type_of",
+      "strength": 7,
+      "description": "Pollinators are a type of keystone species that play a unique role in maintaining ecosystem function."
+    },
+    {
+      "source": "N9",
+      "target": "N15",
+      "relation": "leads_to",
+      "strength": 7,
+      "description": "Ecological restoration can lead to sustainable agriculture practices."
+    },
+    {
+      "source": "N10",
+      "target": "N1",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Conservation biology is a key component of ecological conservation."
+    },
+    {
+      "source": "N11",
+      "target": "N10",
+      "relation": "contributed_to",
+      "strength": 7,
+      "description": "E.O. Wilson's work has contributed significantly to the field of conservation biology."
+    },
+    {
+      "source": "N12",
+      "target": "N10",
+      "relation": "influenced",
+      "strength": 7,
+      "description": "Rachel Carson's work has had a lasting impact on the field of conservation biology."
+    },
+    {
+      "source": "N14",
+      "target": "N13",
+      "relation": "used_by",
+      "strength": 7,
+      "description": "The IUCN Red List is used by the National Park Service to inform conservation decisions."
+    }
+  ],
+  "key_takeaways": [
+    "Ecological conservation is critical for maintaining the health of our planet and ensuring the long-term survival of all species.",
+    "Biodiversity, ecosystem services, and sustainable development are key components of ecological conservation.",
+    "Conservation biology is an interdisciplinary field that draws on ecology, biology, economics, and social sciences to understand and address the complex relationships between humans and the environment."
+  ],
+  "real_world_impact": "Ecological conservation has a significant impact on the real world, from preserving biodiversity and ecosystem services to promoting sustainable development and addressing climate change. For example, the restoration of the Chesapeake Bay watershed has resulted in a significant increase in water quality and biodiversity, while the establishment of national parks and conservation areas has helped to protect and preserve unique and threatened ecosystems. Additionally, sustainable agriculture practices can help to reduce greenhouse gas emissions and promote environmental sustainability, while also supporting local communities and promoting food security.",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Cuadro_expresi%C3%B3n_art%C3%ADstica_cultura_Kogi_-_C%C3%A1tedra_Glaciares_UNAL_Bogot%C3%A1.jpg",
+      "title": "Cuadro expresi\u00f3n art\u00edstica cultura Kogi - C\u00e1tedra Glaciares UNAL Bogot\u00e1.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Manuel Federico Castro Su\u00e1rez",
+      "description": "Ilustraci\u00f3n digital realizada como trabajo para la C\u00e1tedra Nacional \"Glaciares: dimensiones y v\u00ednculos con la cri\u00f3sfera colombiana\" de la Sede Bogot\u00e1 de la Universidad Nacional de Colombia. La obra representa la conexi\u00f3n espiritual entre los Kogui y la Sierra Nevada de Santa Marta, integrando elemen",
+      "width": 2757,
+      "height": 1897,
+      "source_query": "Ecological Conservation"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Fagne_des_Malchamps_-_ein_Venn_in_Belgien._01.jpg",
+      "title": "Fagne des Malchamps - ein Venn in Belgien. 01.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Horst J. Meuter",
+      "description": "The Fagne des Malchamps, in the Domaine de Berinzenne, near Spa, Belgium.",
+      "width": 6000,
+      "height": 4000,
+      "source_query": "Ecological Conservation"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Koenigssee_-_Hirschau_Peninsula_03.jpg",
+      "title": "Koenigssee - Hirschau Peninsula 03.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Martin Falbisoner",
+      "description": "Historical building on Hirschau peninsula, K\u00f6nigssee, Bavaria - part of Berchtesgaden National Park.",
+      "width": 3876,
+      "height": 2895,
+      "source_query": "Ecological Conservation"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Mallee_ringneck_-_Patchewollock_Conservation_Reserve.jpg",
+      "title": "Mallee ringneck - Patchewollock Conservation Reserve.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+      "description": "Mallee ringneck (Barnardius zonarius barnardi), Patchewollock Conservation Reserve, Victoria, Australia",
+      "width": 3787,
+      "height": 3029,
+      "source_query": "Ecological Conservation"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/North_Western_Port_Nature_Conservation_Reserve.jpg",
+      "title": "North Western Port Nature Conservation Reserve.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Srsbb",
+      "description": "Protected Salt marsh nature Reserve of national significance. Habitat of critically endangered Orange bellied parrot.",
+      "width": 640,
+      "height": 480,
+      "source_query": "Ecological Conservation"
+    }
+  ],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Conservation_biology",
+    "papers": [
+      {
+        "title": "Cultural Keystone Species: Implications for Ecological Conservation and Restoration",
+        "url": "https://doi.org/10.5751/es-00669-090301"
+      },
+      {
+        "title": "A checklist for ecological management of landscapes for conservation",
+        "url": "https://doi.org/10.1111/j.1461-0248.2007.01114.x"
+      },
+      {
+        "title": "Pollinator Diversity: Distribution, Ecological Function, and Conservation",
+        "url": "https://doi.org/10.1146/annurev-ecolsys-110316-022919"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 19"
+      ],
+      "node_count": 15,
+      "edge_count": 19
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Climate Change",
+        "Human-Wildlife Conflict"
+      ],
+      "strengths": [
+        "Interdisciplinary approach to ecological conservation",
+        "Inclusion of key concepts and applications"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

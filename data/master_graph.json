@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 3,
-  "total_nodes": 46,
-  "total_edges": 55,
+  "total_topics": 4,
+  "total_nodes": 61,
+  "total_edges": 74,
   "topics": [
     {
       "topic": "Climate Change",
@@ -30,6 +30,15 @@
       "edge_count": 20,
       "description": "Neuroplasticity refers to the brain's ability to reorganize itself in response to new experiences, environments, and learning. This concept challenges the long-held idea that the brain is a fixed, unchangeable entity. Neuroplasticity has significant implications for our understanding of brain development, cognitive rehabilitation, and the treatment of neurological disorders.",
       "added_at": "2026-06-23T19:24:37.021732"
+    },
+    {
+      "topic": "Ecological Conservation",
+      "slug": "ecological_conservation",
+      "category": "biology",
+      "node_count": 15,
+      "edge_count": 19,
+      "description": "Ecological conservation is the practice of protecting and preserving the natural world, including ecosystems, species, and habitats. It involves understanding the complex relationships between living organisms and their environments, and taking action to prevent harm and promote sustainability. This field is crucial for maintaining the health of our planet and ensuring the long-term survival of all species.",
+      "added_at": "2026-06-23T23:38:52.930386"
     }
   ],
   "global_nodes": [
@@ -538,6 +547,171 @@
       "fun_fact": "Advances in neuroscience have greatly expanded our understanding of neuroplasticity and its role in brain function and behavior.",
       "topic_slug": "neuroplasticity",
       "topic": "Neuroplasticity"
+    },
+    {
+      "id": "ecological_conservation__N1",
+      "label": "Ecological Conservation",
+      "type": "core",
+      "depth": 0,
+      "description": "The practice of protecting and preserving the natural world, including ecosystems, species, and habitats.",
+      "importance": 10,
+      "fun_fact": "The term 'ecological conservation' was first used in the 1960s, but the concept has been around for centuries.",
+      "topic_slug": "ecological_conservation",
+      "topic": "Ecological Conservation"
+    },
+    {
+      "id": "ecological_conservation__N2",
+      "label": "Biodiversity",
+      "type": "concept",
+      "depth": 1,
+      "description": "The variety of different species of plants, animals, and microorganisms that live in an ecosystem or on Earth as a whole.",
+      "importance": 9,
+      "fun_fact": "The Amazon rainforest is home to over 10% of all known plant and animal species.",
+      "topic_slug": "ecological_conservation",
+      "topic": "Ecological Conservation"
+    },
+    {
+      "id": "ecological_conservation__N3",
+      "label": "Ecosystem Services",
+      "type": "concept",
+      "depth": 1,
+      "description": "The benefits that humans derive from functioning ecosystems, including clean air and water, soil formation, and climate regulation.",
+      "importance": 9,
+      "fun_fact": "Ecosystem services are estimated to be worth over $33 trillion per year, which is more than the global GDP.",
+      "topic_slug": "ecological_conservation",
+      "topic": "Ecological Conservation"
+    },
+    {
+      "id": "ecological_conservation__N4",
+      "label": "Wildlife Preservation",
+      "type": "application",
+      "depth": 2,
+      "description": "The practice of protecting and conserving wild animals and their habitats, including national parks, wildlife reserves, and conservation areas.",
+      "importance": 8,
+      "fun_fact": "The first national park in the world was Yellowstone, established in 1872.",
+      "topic_slug": "ecological_conservation",
+      "topic": "Ecological Conservation"
+    },
+    {
+      "id": "ecological_conservation__N5",
+      "label": "Sustainable Development",
+      "type": "concept",
+      "depth": 1,
+      "description": "The practice of meeting the needs of the present without compromising the ability of future generations to meet their own needs.",
+      "importance": 9,
+      "fun_fact": "The concept of sustainable development was first introduced in the 1980s, but it has its roots in the 1960s and 1970s environmental movement.",
+      "topic_slug": "ecological_conservation",
+      "topic": "Ecological Conservation"
+    },
+    {
+      "id": "ecological_conservation__N6",
+      "label": "Environmental Policy",
+      "type": "application",
+      "depth": 2,
+      "description": "The set of laws, regulations, and guidelines that govern human interactions with the environment, including pollution control, conservation, and sustainability.",
+      "importance": 8,
+      "fun_fact": "The first environmental policy in the United States was the National Environmental Policy Act of 1969.",
+      "topic_slug": "ecological_conservation",
+      "topic": "Ecological Conservation"
+    },
+    {
+      "id": "ecological_conservation__N7",
+      "label": "Keystone Species",
+      "type": "concept",
+      "depth": 2,
+      "description": "A species that has a disproportionate impact on its environment and plays a unique role in maintaining the structure and function of its ecosystem.",
+      "importance": 8,
+      "fun_fact": "The sea otter is a keystone species in the kelp forests of the Pacific coast, as it preys on sea urchins that would otherwise overgraze the kelp.",
+      "topic_slug": "ecological_conservation",
+      "topic": "Ecological Conservation"
+    },
+    {
+      "id": "ecological_conservation__N8",
+      "label": "Pollinators",
+      "type": "concept",
+      "depth": 2,
+      "description": "Animals that transfer pollen from one plant to another, allowing for fertilization and seed production.",
+      "importance": 8,
+      "fun_fact": "Bees are responsible for pollinating over 75% of the world's crop species.",
+      "topic_slug": "ecological_conservation",
+      "topic": "Ecological Conservation"
+    },
+    {
+      "id": "ecological_conservation__N9",
+      "label": "Ecological Restoration",
+      "type": "application",
+      "depth": 3,
+      "description": "The practice of restoring degraded or damaged ecosystems to a healthy and functioning state.",
+      "importance": 7,
+      "fun_fact": "The restoration of the Chesapeake Bay watershed has resulted in a significant increase in water quality and biodiversity.",
+      "topic_slug": "ecological_conservation",
+      "topic": "Ecological Conservation"
+    },
+    {
+      "id": "ecological_conservation__N10",
+      "label": "Conservation Biology",
+      "type": "concept",
+      "depth": 2,
+      "description": "The scientific study of the conservation of nature and the preservation of biodiversity.",
+      "importance": 8,
+      "fun_fact": "Conservation biology is an interdisciplinary field that draws on ecology, biology, economics, and social sciences.",
+      "topic_slug": "ecological_conservation",
+      "topic": "Ecological Conservation"
+    },
+    {
+      "id": "ecological_conservation__N11",
+      "label": "E.O. Wilson",
+      "type": "person",
+      "depth": 3,
+      "description": "An American biologist and conservationist who is known for his work on island biogeography and the theory of species diversity.",
+      "importance": 7,
+      "fun_fact": "E.O. Wilson is the author of over 20 books, including 'The Diversity of Life' and 'Half-Earth'.",
+      "topic_slug": "ecological_conservation",
+      "topic": "Ecological Conservation"
+    },
+    {
+      "id": "ecological_conservation__N12",
+      "label": "Rachel Carson",
+      "type": "person",
+      "depth": 3,
+      "description": "An American marine biologist and conservationist who is known for her book 'Silent Spring', which is credited with advancing the global environmental movement.",
+      "importance": 7,
+      "fun_fact": "Rachel Carson's work on the effects of pesticides on the environment led to the banning of DDT in the United States.",
+      "topic_slug": "ecological_conservation",
+      "topic": "Ecological Conservation"
+    },
+    {
+      "id": "ecological_conservation__N13",
+      "label": "National Park Service",
+      "type": "organization",
+      "depth": 3,
+      "description": "A federal agency in the United States that is responsible for managing and protecting national parks and other conservation areas.",
+      "importance": 7,
+      "fun_fact": "The National Park Service was established in 1916 and is responsible for managing over 400 national parks and conservation areas.",
+      "topic_slug": "ecological_conservation",
+      "topic": "Ecological Conservation"
+    },
+    {
+      "id": "ecological_conservation__N14",
+      "label": "IUCN Red List",
+      "type": "application",
+      "depth": 3,
+      "description": "A global list of threatened species that is maintained by the International Union for Conservation of Nature.",
+      "importance": 7,
+      "fun_fact": "The IUCN Red List is widely recognized as the most comprehensive and authoritative list of threatened species in the world.",
+      "topic_slug": "ecological_conservation",
+      "topic": "Ecological Conservation"
+    },
+    {
+      "id": "ecological_conservation__N15",
+      "label": "Sustainable Agriculture",
+      "type": "application",
+      "depth": 3,
+      "description": "A set of farming practices that prioritize environmental sustainability and social responsibility, including organic farming and permaculture.",
+      "importance": 7,
+      "fun_fact": "Sustainable agriculture can help to reduce greenhouse gas emissions and promote biodiversity.",
+      "topic_slug": "ecological_conservation",
+      "topic": "Ecological Conservation"
     }
   ],
   "global_edges": [
@@ -925,19 +1099,161 @@
       "relation": "related_to",
       "strength": 7,
       "topic": "Neuroplasticity"
+    },
+    {
+      "source": "ecological_conservation__N1",
+      "target": "ecological_conservation__N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Ecological Conservation"
+    },
+    {
+      "source": "ecological_conservation__N1",
+      "target": "ecological_conservation__N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Ecological Conservation"
+    },
+    {
+      "source": "ecological_conservation__N1",
+      "target": "ecological_conservation__N5",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Ecological Conservation"
+    },
+    {
+      "source": "ecological_conservation__N2",
+      "target": "ecological_conservation__N7",
+      "relation": "is_type_of",
+      "strength": 8,
+      "topic": "Ecological Conservation"
+    },
+    {
+      "source": "ecological_conservation__N3",
+      "target": "ecological_conservation__N8",
+      "relation": "depends_on",
+      "strength": 8,
+      "topic": "Ecological Conservation"
+    },
+    {
+      "source": "ecological_conservation__N4",
+      "target": "ecological_conservation__N9",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Ecological Conservation"
+    },
+    {
+      "source": "ecological_conservation__N5",
+      "target": "ecological_conservation__N10",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Ecological Conservation"
+    },
+    {
+      "source": "ecological_conservation__N10",
+      "target": "ecological_conservation__N11",
+      "relation": "discovered_by",
+      "strength": 7,
+      "topic": "Ecological Conservation"
+    },
+    {
+      "source": "ecological_conservation__N10",
+      "target": "ecological_conservation__N12",
+      "relation": "influenced_by",
+      "strength": 7,
+      "topic": "Ecological Conservation"
+    },
+    {
+      "source": "ecological_conservation__N13",
+      "target": "ecological_conservation__N14",
+      "relation": "uses",
+      "strength": 7,
+      "topic": "Ecological Conservation"
+    },
+    {
+      "source": "ecological_conservation__N15",
+      "target": "ecological_conservation__N5",
+      "relation": "is_part_of",
+      "strength": 7,
+      "topic": "Ecological Conservation"
+    },
+    {
+      "source": "ecological_conservation__N1",
+      "target": "ecological_conservation__N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Ecological Conservation"
+    },
+    {
+      "source": "ecological_conservation__N6",
+      "target": "ecological_conservation__N13",
+      "relation": "governs",
+      "strength": 7,
+      "topic": "Ecological Conservation"
+    },
+    {
+      "source": "ecological_conservation__N7",
+      "target": "ecological_conservation__N8",
+      "relation": "is_type_of",
+      "strength": 7,
+      "topic": "Ecological Conservation"
+    },
+    {
+      "source": "ecological_conservation__N9",
+      "target": "ecological_conservation__N15",
+      "relation": "leads_to",
+      "strength": 7,
+      "topic": "Ecological Conservation"
+    },
+    {
+      "source": "ecological_conservation__N10",
+      "target": "ecological_conservation__N1",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Ecological Conservation"
+    },
+    {
+      "source": "ecological_conservation__N11",
+      "target": "ecological_conservation__N10",
+      "relation": "contributed_to",
+      "strength": 7,
+      "topic": "Ecological Conservation"
+    },
+    {
+      "source": "ecological_conservation__N12",
+      "target": "ecological_conservation__N10",
+      "relation": "influenced",
+      "strength": 7,
+      "topic": "Ecological Conservation"
+    },
+    {
+      "source": "ecological_conservation__N14",
+      "target": "ecological_conservation__N13",
+      "relation": "used_by",
+      "strength": 7,
+      "topic": "Ecological Conservation"
     }
   ],
-  "cross_topic_edges": [],
+  "cross_topic_edges": [
+    {
+      "source": "climate_change__N4",
+      "target": "ecological_conservation__N5",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "sustainable development"
+    }
+  ],
   "category_map": {
     "geography": [
       "climate_change"
     ],
     "biology": [
-      "evolutionary_biology"
+      "evolutionary_biology",
+      "ecological_conservation"
     ],
     "psychology": [
       "neuroplasticity"
     ]
   },
-  "last_updated": "2026-06-23T19:24:37.021771"
+  "last_updated": "2026-06-23T23:38:52.930427"
 }

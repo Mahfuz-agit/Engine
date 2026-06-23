@@ -37,5 +37,18 @@
     "master_total_topics": 3,
     "ended_at": "2026-06-23T19:24:37.022806",
     "duration_seconds": 51.5
+  },
+  {
+    "started_at": "2026-06-23T23:38:16.977608",
+    "status": "success",
+    "topic": "Ecological Conservation",
+    "sources_found": 6,
+    "images_found": 5,
+    "quality_score": 87.5,
+    "quality_passed": true,
+    "exam_questions": 10,
+    "master_total_topics": 4,
+    "ended_at": "2026-06-23T23:38:52.931754",
+    "duration_seconds": 36.0
   }
 ]
