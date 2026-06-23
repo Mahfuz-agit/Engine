@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 2,
-  "total_nodes": 31,
-  "total_edges": 35,
+  "total_topics": 3,
+  "total_nodes": 46,
+  "total_edges": 55,
   "topics": [
     {
       "topic": "Climate Change",
@@ -21,6 +21,15 @@
       "edge_count": 18,
       "description": "Evolutionary biology is a subfield of biology that analyzes the four mechanisms of evolution: natural selection, mutation, genetic drift, and gene flow. It studies how species adapt and evolve over time, and how this process has shaped the diversity of life on Earth. The field combines genetics, ecology, and paleontology to understand the history of life and the relationships between different organisms.",
       "added_at": "2026-06-23T10:47:12.982354"
+    },
+    {
+      "topic": "Neuroplasticity",
+      "slug": "neuroplasticity",
+      "category": "psychology",
+      "node_count": 15,
+      "edge_count": 20,
+      "description": "Neuroplasticity refers to the brain's ability to reorganize itself in response to new experiences, environments, and learning. This concept challenges the long-held idea that the brain is a fixed, unchangeable entity. Neuroplasticity has significant implications for our understanding of brain development, cognitive rehabilitation, and the treatment of neurological disorders.",
+      "added_at": "2026-06-23T19:24:37.021732"
     }
   ],
   "global_nodes": [
@@ -364,6 +373,171 @@
       "fun_fact": "Fisher's work on statistical analysis and evolutionary biology has had a lasting impact on the field",
       "topic_slug": "evolutionary_biology",
       "topic": "Evolutionary Biology"
+    },
+    {
+      "id": "neuroplasticity__N1",
+      "label": "Neuroplasticity",
+      "type": "core",
+      "depth": 0,
+      "description": "The brain's ability to reorganize itself in response to new experiences, environments, and learning.",
+      "importance": 10,
+      "fun_fact": "The concept of neuroplasticity was first introduced by William James in 1890.",
+      "topic_slug": "neuroplasticity",
+      "topic": "Neuroplasticity"
+    },
+    {
+      "id": "neuroplasticity__N2",
+      "label": "Synaptic Pruning",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process of eliminating unnecessary neural connections in the brain.",
+      "importance": 8,
+      "fun_fact": "Synaptic pruning is a critical process in brain development, allowing for more efficient communication between neurons.",
+      "topic_slug": "neuroplasticity",
+      "topic": "Neuroplasticity"
+    },
+    {
+      "id": "neuroplasticity__N3",
+      "label": "Neurogenesis",
+      "type": "concept",
+      "depth": 1,
+      "description": "The growth and development of new neurons in the brain.",
+      "importance": 9,
+      "fun_fact": "Neurogenesis occurs in certain parts of the brain throughout life, including the hippocampus and olfactory bulb.",
+      "topic_slug": "neuroplasticity",
+      "topic": "Neuroplasticity"
+    },
+    {
+      "id": "neuroplasticity__N4",
+      "label": "Hebbian Theory",
+      "type": "concept",
+      "depth": 1,
+      "description": "The idea that neurons that fire together, wire together, and those that fire apart, wire apart.",
+      "importance": 9,
+      "fun_fact": "Hebbian theory was first proposed by Donald Hebb in 1949 and is a fundamental concept in neuroplasticity.",
+      "topic_slug": "neuroplasticity",
+      "topic": "Neuroplasticity"
+    },
+    {
+      "id": "neuroplasticity__N5",
+      "label": "Brain Development",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process by which the brain grows and matures from birth to adulthood.",
+      "importance": 8,
+      "fun_fact": "Brain development is influenced by a combination of genetic and environmental factors.",
+      "topic_slug": "neuroplasticity",
+      "topic": "Neuroplasticity"
+    },
+    {
+      "id": "neuroplasticity__N6",
+      "label": "Cognitive Rehabilitation",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of neuroplasticity-based techniques to improve cognitive function in individuals with brain injuries or disorders.",
+      "importance": 8,
+      "fun_fact": "Cognitive rehabilitation has been shown to be effective in improving cognitive function in individuals with traumatic brain injuries.",
+      "topic_slug": "neuroplasticity",
+      "topic": "Neuroplasticity"
+    },
+    {
+      "id": "neuroplasticity__N7",
+      "label": "Donald Hebb",
+      "type": "person",
+      "depth": 2,
+      "description": "A Canadian psychologist who first proposed the Hebbian theory of neuroplasticity.",
+      "importance": 7,
+      "fun_fact": "Hebb is considered one of the founders of neuropsychology.",
+      "topic_slug": "neuroplasticity",
+      "topic": "Neuroplasticity"
+    },
+    {
+      "id": "neuroplasticity__N8",
+      "label": "William James",
+      "type": "person",
+      "depth": 2,
+      "description": "An American philosopher and psychologist who first introduced the concept of neuroplasticity.",
+      "importance": 7,
+      "fun_fact": "James was a key figure in the development of American psychology.",
+      "topic_slug": "neuroplasticity",
+      "topic": "Neuroplasticity"
+    },
+    {
+      "id": "neuroplasticity__N9",
+      "label": "Stress and Depression",
+      "type": "concept",
+      "depth": 2,
+      "description": "Conditions that can negatively impact neuroplasticity and cognitive function.",
+      "importance": 8,
+      "fun_fact": "Chronic stress and depression can lead to reduced neurogenesis and impaired cognitive function.",
+      "topic_slug": "neuroplasticity",
+      "topic": "Neuroplasticity"
+    },
+    {
+      "id": "neuroplasticity__N10",
+      "label": "Motor Skill Learning",
+      "type": "example",
+      "depth": 3,
+      "description": "A type of learning that relies on neuroplasticity, such as learning to play a musical instrument or ride a bike.",
+      "importance": 6,
+      "fun_fact": "Motor skill learning involves the formation of new neural connections and the strengthening of existing ones.",
+      "topic_slug": "neuroplasticity",
+      "topic": "Neuroplasticity"
+    },
+    {
+      "id": "neuroplasticity__N11",
+      "label": "Neuroplasticity-based Therapies",
+      "type": "application",
+      "depth": 3,
+      "description": "Therapies that aim to harness neuroplasticity to improve cognitive function, such as cognitive training and neurofeedback.",
+      "importance": 8,
+      "fun_fact": "Neuroplasticity-based therapies have shown promise in improving cognitive function in individuals with neurological disorders.",
+      "topic_slug": "neuroplasticity",
+      "topic": "Neuroplasticity"
+    },
+    {
+      "id": "neuroplasticity__N12",
+      "label": "Brain-Computer Interfaces",
+      "type": "application",
+      "depth": 3,
+      "description": "Devices that use neuroplasticity to allow individuals to control devices with their thoughts.",
+      "importance": 7,
+      "fun_fact": "Brain-computer interfaces have the potential to revolutionize the treatment of paralysis and other motor disorders.",
+      "topic_slug": "neuroplasticity",
+      "topic": "Neuroplasticity"
+    },
+    {
+      "id": "neuroplasticity__N13",
+      "label": "Neuroplasticity and Aging",
+      "type": "concept",
+      "depth": 2,
+      "description": "The impact of aging on neuroplasticity and cognitive function.",
+      "importance": 8,
+      "fun_fact": "Aging can lead to reduced neuroplasticity, but certain lifestyle factors, such as exercise and cognitive training, can help to mitigate this decline.",
+      "topic_slug": "neuroplasticity",
+      "topic": "Neuroplasticity"
+    },
+    {
+      "id": "neuroplasticity__N14",
+      "label": "Neuroplasticity and Education",
+      "type": "application",
+      "depth": 3,
+      "description": "The application of neuroplasticity principles to improve learning and education.",
+      "importance": 7,
+      "fun_fact": "Neuroplasticity-based educational approaches have shown promise in improving learning outcomes and reducing educational disparities.",
+      "topic_slug": "neuroplasticity",
+      "topic": "Neuroplasticity"
+    },
+    {
+      "id": "neuroplasticity__N15",
+      "label": "Neuroplasticity and Neuroscience",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the neural mechanisms underlying neuroplasticity.",
+      "importance": 9,
+      "fun_fact": "Advances in neuroscience have greatly expanded our understanding of neuroplasticity and its role in brain function and behavior.",
+      "topic_slug": "neuroplasticity",
+      "topic": "Neuroplasticity"
     }
   ],
   "global_edges": [
@@ -611,6 +785,146 @@
       "relation": "enables",
       "strength": 7,
       "topic": "Evolutionary Biology"
+    },
+    {
+      "source": "neuroplasticity__N1",
+      "target": "neuroplasticity__N2",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Neuroplasticity"
+    },
+    {
+      "source": "neuroplasticity__N1",
+      "target": "neuroplasticity__N3",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Neuroplasticity"
+    },
+    {
+      "source": "neuroplasticity__N1",
+      "target": "neuroplasticity__N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Neuroplasticity"
+    },
+    {
+      "source": "neuroplasticity__N1",
+      "target": "neuroplasticity__N5",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Neuroplasticity"
+    },
+    {
+      "source": "neuroplasticity__N2",
+      "target": "neuroplasticity__N6",
+      "relation": "leads_to",
+      "strength": 7,
+      "topic": "Neuroplasticity"
+    },
+    {
+      "source": "neuroplasticity__N3",
+      "target": "neuroplasticity__N6",
+      "relation": "leads_to",
+      "strength": 7,
+      "topic": "Neuroplasticity"
+    },
+    {
+      "source": "neuroplasticity__N4",
+      "target": "neuroplasticity__N7",
+      "relation": "discovered_by",
+      "strength": 6,
+      "topic": "Neuroplasticity"
+    },
+    {
+      "source": "neuroplasticity__N1",
+      "target": "neuroplasticity__N8",
+      "relation": "discovered_by",
+      "strength": 6,
+      "topic": "Neuroplasticity"
+    },
+    {
+      "source": "neuroplasticity__N9",
+      "target": "neuroplasticity__N1",
+      "relation": "contrasts_with",
+      "strength": 8,
+      "topic": "Neuroplasticity"
+    },
+    {
+      "source": "neuroplasticity__N10",
+      "target": "neuroplasticity__N1",
+      "relation": "is_example_of",
+      "strength": 6,
+      "topic": "Neuroplasticity"
+    },
+    {
+      "source": "neuroplasticity__N11",
+      "target": "neuroplasticity__N1",
+      "relation": "is_application_of",
+      "strength": 8,
+      "topic": "Neuroplasticity"
+    },
+    {
+      "source": "neuroplasticity__N12",
+      "target": "neuroplasticity__N1",
+      "relation": "is_application_of",
+      "strength": 7,
+      "topic": "Neuroplasticity"
+    },
+    {
+      "source": "neuroplasticity__N13",
+      "target": "neuroplasticity__N1",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Neuroplasticity"
+    },
+    {
+      "source": "neuroplasticity__N14",
+      "target": "neuroplasticity__N1",
+      "relation": "is_application_of",
+      "strength": 7,
+      "topic": "Neuroplasticity"
+    },
+    {
+      "source": "neuroplasticity__N15",
+      "target": "neuroplasticity__N1",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Neuroplasticity"
+    },
+    {
+      "source": "neuroplasticity__N5",
+      "target": "neuroplasticity__N15",
+      "relation": "depends_on",
+      "strength": 8,
+      "topic": "Neuroplasticity"
+    },
+    {
+      "source": "neuroplasticity__N6",
+      "target": "neuroplasticity__N11",
+      "relation": "is_type_of",
+      "strength": 8,
+      "topic": "Neuroplasticity"
+    },
+    {
+      "source": "neuroplasticity__N7",
+      "target": "neuroplasticity__N4",
+      "relation": "discovered_by",
+      "strength": 6,
+      "topic": "Neuroplasticity"
+    },
+    {
+      "source": "neuroplasticity__N8",
+      "target": "neuroplasticity__N1",
+      "relation": "discovered_by",
+      "strength": 6,
+      "topic": "Neuroplasticity"
+    },
+    {
+      "source": "neuroplasticity__N9",
+      "target": "neuroplasticity__N13",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Neuroplasticity"
     }
   ],
   "cross_topic_edges": [],
@@ -620,7 +934,10 @@
     ],
     "biology": [
       "evolutionary_biology"
+    ],
+    "psychology": [
+      "neuroplasticity"
     ]
   },
-  "last_updated": "2026-06-23T10:47:12.982401"
+  "last_updated": "2026-06-23T19:24:37.021771"
 }

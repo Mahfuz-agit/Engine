@@ -1,0 +1,161 @@
+{
+  "topic": "Neuroplasticity",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary concept of neuroplasticity?",
+      "options": {
+        "A": "The brain's ability to reorganize itself in response to new experiences, environments, and learning.",
+        "B": "The brain's ability to maintain its structure and function despite changes in the environment.",
+        "C": "The brain's ability to only learn new information through repetition.",
+        "D": "The brain's ability to only adapt to physical changes."
+      },
+      "correct": "A",
+      "explanation": "Neuroplasticity refers to the brain's ability to reorganize itself in response to new experiences, environments, and learning.",
+      "node_id": "Neuroplasticity",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which process is responsible for eliminating unnecessary neural connections in the brain?",
+      "options": {
+        "A": "Synaptic pruning",
+        "B": "Neurogenesis",
+        "C": "Hebbian theory",
+        "D": "Brain development"
+      },
+      "correct": "A",
+      "explanation": "Synaptic pruning is the process of eliminating unnecessary neural connections in the brain, allowing for more efficient communication between neurons.",
+      "node_id": "Synaptic Pruning",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "Who first proposed the concept of neuroplasticity?",
+      "options": {
+        "A": "Donald Hebb",
+        "B": "William James",
+        "C": "Sigmund Freud",
+        "D": "Jean-Pierre Changeux"
+      },
+      "correct": "B",
+      "explanation": "William James first introduced the concept of neuroplasticity in 1890.",
+      "node_id": "William James",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the term for the growth and development of new neurons in the brain?",
+      "options": {
+        "A": "Neuroplasticity",
+        "B": "Neurogenesis",
+        "C": "Synaptic pruning",
+        "D": "Hebbian theory"
+      },
+      "correct": "B",
+      "explanation": "Neurogenesis refers to the growth and development of new neurons in the brain.",
+      "node_id": "Neurogenesis",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the idea that neurons that fire together, wire together, and those that fire apart, wire apart?",
+      "options": {
+        "A": "Hebbian theory",
+        "B": "Synaptic pruning",
+        "C": "Neuroplasticity",
+        "D": "Brain development"
+      },
+      "correct": "A",
+      "explanation": "Hebbian theory states that neurons that fire together, wire together, and those that fire apart, wire apart.",
+      "node_id": "Hebbian Theory",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the use of neuroplasticity-based techniques to improve cognitive function in individuals with brain injuries or disorders?",
+      "options": {
+        "A": "Cognitive rehabilitation",
+        "B": "Neuroplasticity-based therapies",
+        "C": "Brain-computer interfaces",
+        "D": "Neurogenesis"
+      },
+      "correct": "A",
+      "explanation": "Cognitive rehabilitation refers to the use of neuroplasticity-based techniques to improve cognitive function in individuals with brain injuries or disorders.",
+      "node_id": "Cognitive Rehabilitation",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the impact of chronic stress and depression on neuroplasticity and cognitive function?",
+      "options": {
+        "A": "Increased neurogenesis and improved cognitive function",
+        "B": "Reduced neurogenesis and impaired cognitive function",
+        "C": "No impact on neuroplasticity and cognitive function",
+        "D": "Improved synaptic pruning and cognitive function"
+      },
+      "correct": "B",
+      "explanation": "Chronic stress and depression can lead to reduced neurogenesis and impaired cognitive function.",
+      "node_id": "Stress and Depression",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Explain the concept of neuroplasticity and its significance in brain development and cognitive function.",
+      "sample_answer": "Neuroplasticity refers to the brain's ability to reorganize itself in response to new experiences, environments, and learning. This concept is significant in brain development and cognitive function as it allows the brain to adapt and change throughout life, enabling individuals to learn and recover from injuries or disorders.",
+      "keywords": [
+        "neuroplasticity",
+        "brain development",
+        "cognitive function"
+      ],
+      "node_id": "Neuroplasticity",
+      "points": 20
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Discuss the role of Hebbian theory in neuroplasticity and its implications for cognitive rehabilitation.",
+      "sample_answer": "Hebbian theory states that neurons that fire together, wire together, and those that fire apart, wire apart. This theory is significant in neuroplasticity as it provides a framework for understanding how neural connections are formed and modified. In cognitive rehabilitation, Hebbian theory can be applied to develop targeted therapies that promote neural reorganization and improve cognitive function.",
+      "keywords": [
+        "Hebbian theory",
+        "neuroplasticity",
+        "cognitive rehabilitation"
+      ],
+      "node_id": "Hebbian Theory",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Explain the concept of synaptic pruning and its role in brain development and neuroplasticity.",
+      "sample_answer": "Synaptic pruning is the process of eliminating unnecessary neural connections in the brain. This process is critical in brain development as it allows for more efficient communication between neurons and enables the brain to adapt and change throughout life. Synaptic pruning is also significant in neuroplasticity as it enables the brain to reorganize and refine its connections in response to new experiences and learning.",
+      "keywords": [
+        "synaptic pruning",
+        "brain development",
+        "neuroplasticity"
+      ],
+      "node_id": "Synaptic Pruning",
+      "points": 20
+    }
+  ]
+}

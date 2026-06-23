@@ -1,0 +1,389 @@
+{
+  "topic": "Neuroplasticity",
+  "category": "psychology",
+  "description": "Neuroplasticity refers to the brain's ability to reorganize itself in response to new experiences, environments, and learning. This concept challenges the long-held idea that the brain is a fixed, unchangeable entity. Neuroplasticity has significant implications for our understanding of brain development, cognitive rehabilitation, and the treatment of neurological disorders.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Neuroplasticity",
+      "type": "core",
+      "depth": 0,
+      "description": "The brain's ability to reorganize itself in response to new experiences, environments, and learning.",
+      "importance": 10,
+      "fun_fact": "The concept of neuroplasticity was first introduced by William James in 1890."
+    },
+    {
+      "id": "N2",
+      "label": "Synaptic Pruning",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process of eliminating unnecessary neural connections in the brain.",
+      "importance": 8,
+      "fun_fact": "Synaptic pruning is a critical process in brain development, allowing for more efficient communication between neurons."
+    },
+    {
+      "id": "N3",
+      "label": "Neurogenesis",
+      "type": "concept",
+      "depth": 1,
+      "description": "The growth and development of new neurons in the brain.",
+      "importance": 9,
+      "fun_fact": "Neurogenesis occurs in certain parts of the brain throughout life, including the hippocampus and olfactory bulb."
+    },
+    {
+      "id": "N4",
+      "label": "Hebbian Theory",
+      "type": "concept",
+      "depth": 1,
+      "description": "The idea that neurons that fire together, wire together, and those that fire apart, wire apart.",
+      "importance": 9,
+      "fun_fact": "Hebbian theory was first proposed by Donald Hebb in 1949 and is a fundamental concept in neuroplasticity."
+    },
+    {
+      "id": "N5",
+      "label": "Brain Development",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process by which the brain grows and matures from birth to adulthood.",
+      "importance": 8,
+      "fun_fact": "Brain development is influenced by a combination of genetic and environmental factors."
+    },
+    {
+      "id": "N6",
+      "label": "Cognitive Rehabilitation",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of neuroplasticity-based techniques to improve cognitive function in individuals with brain injuries or disorders.",
+      "importance": 8,
+      "fun_fact": "Cognitive rehabilitation has been shown to be effective in improving cognitive function in individuals with traumatic brain injuries."
+    },
+    {
+      "id": "N7",
+      "label": "Donald Hebb",
+      "type": "person",
+      "depth": 2,
+      "description": "A Canadian psychologist who first proposed the Hebbian theory of neuroplasticity.",
+      "importance": 7,
+      "fun_fact": "Hebb is considered one of the founders of neuropsychology."
+    },
+    {
+      "id": "N8",
+      "label": "William James",
+      "type": "person",
+      "depth": 2,
+      "description": "An American philosopher and psychologist who first introduced the concept of neuroplasticity.",
+      "importance": 7,
+      "fun_fact": "James was a key figure in the development of American psychology."
+    },
+    {
+      "id": "N9",
+      "label": "Stress and Depression",
+      "type": "concept",
+      "depth": 2,
+      "description": "Conditions that can negatively impact neuroplasticity and cognitive function.",
+      "importance": 8,
+      "fun_fact": "Chronic stress and depression can lead to reduced neurogenesis and impaired cognitive function."
+    },
+    {
+      "id": "N10",
+      "label": "Motor Skill Learning",
+      "type": "example",
+      "depth": 3,
+      "description": "A type of learning that relies on neuroplasticity, such as learning to play a musical instrument or ride a bike.",
+      "importance": 6,
+      "fun_fact": "Motor skill learning involves the formation of new neural connections and the strengthening of existing ones."
+    },
+    {
+      "id": "N11",
+      "label": "Neuroplasticity-based Therapies",
+      "type": "application",
+      "depth": 3,
+      "description": "Therapies that aim to harness neuroplasticity to improve cognitive function, such as cognitive training and neurofeedback.",
+      "importance": 8,
+      "fun_fact": "Neuroplasticity-based therapies have shown promise in improving cognitive function in individuals with neurological disorders."
+    },
+    {
+      "id": "N12",
+      "label": "Brain-Computer Interfaces",
+      "type": "application",
+      "depth": 3,
+      "description": "Devices that use neuroplasticity to allow individuals to control devices with their thoughts.",
+      "importance": 7,
+      "fun_fact": "Brain-computer interfaces have the potential to revolutionize the treatment of paralysis and other motor disorders."
+    },
+    {
+      "id": "N13",
+      "label": "Neuroplasticity and Aging",
+      "type": "concept",
+      "depth": 2,
+      "description": "The impact of aging on neuroplasticity and cognitive function.",
+      "importance": 8,
+      "fun_fact": "Aging can lead to reduced neuroplasticity, but certain lifestyle factors, such as exercise and cognitive training, can help to mitigate this decline."
+    },
+    {
+      "id": "N14",
+      "label": "Neuroplasticity and Education",
+      "type": "application",
+      "depth": 3,
+      "description": "The application of neuroplasticity principles to improve learning and education.",
+      "importance": 7,
+      "fun_fact": "Neuroplasticity-based educational approaches have shown promise in improving learning outcomes and reducing educational disparities."
+    },
+    {
+      "id": "N15",
+      "label": "Neuroplasticity and Neuroscience",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the neural mechanisms underlying neuroplasticity.",
+      "importance": 9,
+      "fun_fact": "Advances in neuroscience have greatly expanded our understanding of neuroplasticity and its role in brain function and behavior."
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Synaptic pruning is a key component of neuroplasticity, allowing for the elimination of unnecessary neural connections."
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Neurogenesis is a critical aspect of neuroplasticity, allowing for the growth and development of new neurons."
+    },
+    {
+      "source": "N1",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Hebbian theory is a fundamental concept in neuroplasticity, describing the process by which neurons that fire together, wire together."
+    },
+    {
+      "source": "N1",
+      "target": "N5",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Brain development is influenced by neuroplasticity, with the brain reorganizing itself in response to new experiences and learning."
+    },
+    {
+      "source": "N2",
+      "target": "N6",
+      "relation": "leads_to",
+      "strength": 7,
+      "description": "Synaptic pruning can lead to improved cognitive function, making it a key component of cognitive rehabilitation."
+    },
+    {
+      "source": "N3",
+      "target": "N6",
+      "relation": "leads_to",
+      "strength": 7,
+      "description": "Neurogenesis can lead to improved cognitive function, making it a key component of cognitive rehabilitation."
+    },
+    {
+      "source": "N4",
+      "target": "N7",
+      "relation": "discovered_by",
+      "strength": 6,
+      "description": "Hebbian theory was first proposed by Donald Hebb, a Canadian psychologist."
+    },
+    {
+      "source": "N1",
+      "target": "N8",
+      "relation": "discovered_by",
+      "strength": 6,
+      "description": "The concept of neuroplasticity was first introduced by William James, an American philosopher and psychologist."
+    },
+    {
+      "source": "N9",
+      "target": "N1",
+      "relation": "contrasts_with",
+      "strength": 8,
+      "description": "Stress and depression can negatively impact neuroplasticity, leading to reduced cognitive function."
+    },
+    {
+      "source": "N10",
+      "target": "N1",
+      "relation": "is_example_of",
+      "strength": 6,
+      "description": "Motor skill learning is an example of neuroplasticity in action, with the brain reorganizing itself in response to new experiences and learning."
+    },
+    {
+      "source": "N11",
+      "target": "N1",
+      "relation": "is_application_of",
+      "strength": 8,
+      "description": "Neuroplasticity-based therapies aim to harness neuroplasticity to improve cognitive function."
+    },
+    {
+      "source": "N12",
+      "target": "N1",
+      "relation": "is_application_of",
+      "strength": 7,
+      "description": "Brain-computer interfaces use neuroplasticity to allow individuals to control devices with their thoughts."
+    },
+    {
+      "source": "N13",
+      "target": "N1",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Aging can impact neuroplasticity, leading to reduced cognitive function."
+    },
+    {
+      "source": "N14",
+      "target": "N1",
+      "relation": "is_application_of",
+      "strength": 7,
+      "description": "Neuroplasticity-based educational approaches aim to improve learning and education by harnessing neuroplasticity."
+    },
+    {
+      "source": "N15",
+      "target": "N1",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Neuroplasticity is a key concept in neuroscience, with advances in the field greatly expanding our understanding of brain function and behavior."
+    },
+    {
+      "source": "N5",
+      "target": "N15",
+      "relation": "depends_on",
+      "strength": 8,
+      "description": "Brain development depends on neuroplasticity, with the brain reorganizing itself in response to new experiences and learning."
+    },
+    {
+      "source": "N6",
+      "target": "N11",
+      "relation": "is_type_of",
+      "strength": 8,
+      "description": "Cognitive rehabilitation is a type of neuroplasticity-based therapy."
+    },
+    {
+      "source": "N7",
+      "target": "N4",
+      "relation": "discovered_by",
+      "strength": 6,
+      "description": "Hebbian theory was first proposed by Donald Hebb."
+    },
+    {
+      "source": "N8",
+      "target": "N1",
+      "relation": "discovered_by",
+      "strength": 6,
+      "description": "The concept of neuroplasticity was first introduced by William James."
+    },
+    {
+      "source": "N9",
+      "target": "N13",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "Stress and depression can impact neuroplasticity, leading to reduced cognitive function, and are related to aging."
+    }
+  ],
+  "key_takeaways": [
+    "Neuroplasticity refers to the brain's ability to reorganize itself in response to new experiences, environments, and learning.",
+    "Neuroplasticity is a key concept in neuroscience, with advances in the field greatly expanding our understanding of brain function and behavior.",
+    "Neuroplasticity-based therapies and applications have the potential to improve cognitive function, learning, and education."
+  ],
+  "real_world_impact": "Neuroplasticity has significant implications for our understanding of brain development, cognitive rehabilitation, and the treatment of neurological disorders. By harnessing neuroplasticity, we can develop new therapies and applications to improve cognitive function, learning, and education. Additionally, neuroplasticity-based approaches have the potential to revolutionize the treatment of paralysis and other motor disorders, and to improve our understanding of the neural mechanisms underlying brain function and behavior.",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/1-s2.0-S0028390823000813-gr1.jpg",
+      "title": "1-s2.0-S0028390823000813-gr1.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Francesca Damiani, Sara Cornuti, Paola Tognini",
+      "description": "General overview of the mechanisms through which the gut microbiota may influence neuroplasticity.",
+      "width": 535,
+      "height": 535,
+      "source_query": "Neuroplasticity"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/1-s2.0-S1807593222015794-gr2_lrg.jpg",
+      "title": "1-s2.0-S1807593222015794-gr2 lrg.jpg",
+      "license": "CC BY-SA 3.0",
+      "artist": "Timothy V.P. Bliss, Sam F Cooke",
+      "description": "(A) The induction of canonical forms of both LTP and LTD is triggered by activation of the NMDA class of glutamate receptor. This ionotropic receptor detects the coincidence of presynaptic and strong postsynaptic activity by a mechanism that involves both the binding of transmitter and depolarizatio",
+      "width": 556,
+      "height": 422,
+      "source_query": "Neuroplasticity"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/1-s2.0-S2211124718307551-fx1_lrg.jpg",
+      "title": "1-s2.0-S2211124718307551-fx1 lrg.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Ly C, Greb AC, Cameron LP, Wong JM, Barragan EV, Wilson PC, Burbach KF, Soltanzadeh Zarandi S, Sood A, Paddy MR, Duim WC, Dennis MY, McAllister AK, Ori-McKenney KM, Gray JA, Olson DE.",
+      "description": "Psychedelics Promote Structural and Functional Neural Plasticity",
+      "width": 996,
+      "height": 996,
+      "source_query": "Neuroplasticity"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Brain_neuroplasticity_after_practice.png",
+      "title": "Brain neuroplasticity after practice.png",
+      "license": "CC BY-SA 3.0",
+      "artist": "Bokkyu Kim",
+      "description": "Schematic illustration of brain plasticity after skill practice.",
+      "width": 982,
+      "height": 1158,
+      "source_query": "Neuroplasticity"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Changes_in_cellular_structures_related_to_neuroplasticity.png",
+      "title": "Changes in cellular structures related to neuroplasticity.png",
+      "license": "CC BY-SA 4.0",
+      "artist": "Rodolfo Gabriel Gatto",
+      "description": "(2a) Schematic representation of key cellular elements (neuronal and glial cells) involved in the neuroplasticity (NP) process (Neuronal and Glia plasticity) as well as subcellular compartments (Synaptic, Dendritic, Axonal, Neuromuscular Plasticity). (2b) Schematic diagram representing how repetitiv",
+      "width": 960,
+      "height": 720,
+      "source_query": "Neuroplasticity"
+    }
+  ],
+  "sources": {
+    "wikipedia_url": "",
+    "papers": [
+      {
+        "title": "Stress, Depression, and Neuroplasticity: A Convergence of Mechanisms",
+        "url": "https://doi.org/10.1038/sj.npp.1301574"
+      },
+      {
+        "title": "Harnessing neuroplasticity for clinical applications",
+        "url": "https://doi.org/10.1093/brain/awr039"
+      },
+      {
+        "title": "Neuroplasticity Subserving Motor Skill Learning",
+        "url": "https://doi.org/10.1016/j.neuron.2011.10.008"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 100,
+      "issues": [],
+      "node_count": 15,
+      "edge_count": 20
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Molecular Mechanisms of Neuroplasticity",
+        "Neuroplasticity in Neurological Disorders"
+      ],
+      "strengths": [
+        "clear coverage of key concepts",
+        "well-structured relationships between concepts"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 92.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

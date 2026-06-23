@@ -24,5 +24,18 @@
     "master_total_topics": 2,
     "ended_at": "2026-06-23T10:47:12.983265",
     "duration_seconds": 41.1
+  },
+  {
+    "started_at": "2026-06-23T19:23:45.531387",
+    "status": "success",
+    "topic": "Neuroplasticity",
+    "sources_found": 5,
+    "images_found": 5,
+    "quality_score": 92.5,
+    "quality_passed": true,
+    "exam_questions": 10,
+    "master_total_topics": 3,
+    "ended_at": "2026-06-23T19:24:37.022806",
+    "duration_seconds": 51.5
   }
 ]
