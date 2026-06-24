@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 6,
-  "total_nodes": 91,
-  "total_edges": 110,
+  "total_topics": 7,
+  "total_nodes": 106,
+  "total_edges": 131,
   "topics": [
     {
       "topic": "Climate Change",
@@ -57,6 +57,15 @@
       "edge_count": 17,
       "description": "Genomics is the study of genomes, the complete set of DNA (including all of its genes) in an organism. It involves the sequencing and analysis of genomes to understand the structure, function, and evolution of genomes. Genomics has many applications in fields such as medicine, agriculture, and biotechnology.",
       "added_at": "2026-06-24T18:22:03.053572"
+    },
+    {
+      "topic": "Artificial Intelligence",
+      "slug": "artificial_intelligence",
+      "category": "computer_science",
+      "node_count": 15,
+      "edge_count": 21,
+      "description": "Artificial Intelligence (AI) refers to the development of computer systems that can perform tasks that typically require human intelligence, such as learning, problem-solving, and decision-making. AI has various subfields, including Machine Learning, Natural Language Processing, and Computer Vision. The field of AI has been rapidly evolving, with significant advancements in recent years, and has the potential to transform numerous industries and aspects of our lives.",
+      "added_at": "2026-06-24T23:53:01.444644"
     }
   ],
   "global_nodes": [
@@ -1060,6 +1069,171 @@
       "fun_fact": "Genomics has been used to develop new bioproducts, such as biofuels and bioplastics",
       "topic_slug": "genomics",
       "topic": "Genomics"
+    },
+    {
+      "id": "artificial_intelligence__N1",
+      "label": "Artificial Intelligence",
+      "type": "core",
+      "depth": 0,
+      "description": "The development of computer systems that can perform tasks that typically require human intelligence",
+      "importance": 10,
+      "fun_fact": "The term 'Artificial Intelligence' was coined in 1956 by John McCarthy",
+      "topic_slug": "artificial_intelligence",
+      "topic": "Artificial Intelligence"
+    },
+    {
+      "id": "artificial_intelligence__N2",
+      "label": "Machine Learning",
+      "type": "concept",
+      "depth": 1,
+      "description": "A subset of AI that involves training algorithms to learn from data and make predictions or decisions",
+      "importance": 9,
+      "fun_fact": "Machine Learning is a key driver of AI advancements",
+      "topic_slug": "artificial_intelligence",
+      "topic": "Artificial Intelligence"
+    },
+    {
+      "id": "artificial_intelligence__N3",
+      "label": "Natural Language Processing",
+      "type": "concept",
+      "depth": 1,
+      "description": "A subset of AI that deals with the interaction between computers and humans in natural language",
+      "importance": 8,
+      "fun_fact": "NLP has numerous applications, including chatbots and language translation",
+      "topic_slug": "artificial_intelligence",
+      "topic": "Artificial Intelligence"
+    },
+    {
+      "id": "artificial_intelligence__N4",
+      "label": "Computer Vision",
+      "type": "concept",
+      "depth": 1,
+      "description": "A subset of AI that enables computers to interpret and understand visual data from the world",
+      "importance": 8,
+      "fun_fact": "Computer Vision has numerous applications, including self-driving cars and facial recognition",
+      "topic_slug": "artificial_intelligence",
+      "topic": "Artificial Intelligence"
+    },
+    {
+      "id": "artificial_intelligence__N5",
+      "label": "Robotics",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of AI and machine learning to control and navigate robots",
+      "importance": 7,
+      "fun_fact": "Robotics has numerous applications, including manufacturing and healthcare",
+      "topic_slug": "artificial_intelligence",
+      "topic": "Artificial Intelligence"
+    },
+    {
+      "id": "artificial_intelligence__N6",
+      "label": "Ethics in AI",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the ethical implications of AI and its applications",
+      "importance": 8,
+      "fun_fact": "Ethics in AI is a rapidly growing field, with numerous researchers and organizations working on AI ethics",
+      "topic_slug": "artificial_intelligence",
+      "topic": "Artificial Intelligence"
+    },
+    {
+      "id": "artificial_intelligence__N7",
+      "label": "John McCarthy",
+      "type": "person",
+      "depth": 2,
+      "description": "An American computer scientist and cognitive scientist who coined the term 'Artificial Intelligence'",
+      "importance": 6,
+      "fun_fact": "John McCarthy is considered one of the founders of AI",
+      "topic_slug": "artificial_intelligence",
+      "topic": "Artificial Intelligence"
+    },
+    {
+      "id": "artificial_intelligence__N8",
+      "label": "Explainable Artificial Intelligence (XAI)",
+      "type": "concept",
+      "depth": 2,
+      "description": "A subfield of AI that focuses on making AI decisions and processes more transparent and explainable",
+      "importance": 7,
+      "fun_fact": "XAI is a rapidly growing field, with numerous applications in healthcare and finance",
+      "topic_slug": "artificial_intelligence",
+      "topic": "Artificial Intelligence"
+    },
+    {
+      "id": "artificial_intelligence__N9",
+      "label": "Artificial Intelligence in Radiology",
+      "type": "application",
+      "depth": 3,
+      "description": "The use of AI in radiology to improve image analysis and diagnosis",
+      "importance": 6,
+      "fun_fact": "AI in radiology has the potential to revolutionize the field of medical imaging",
+      "topic_slug": "artificial_intelligence",
+      "topic": "Artificial Intelligence"
+    },
+    {
+      "id": "artificial_intelligence__N10",
+      "label": "Machine Learning Modeling for Real-Time Melt Pool Monitoring",
+      "type": "example",
+      "depth": 3,
+      "description": "A research paper that applies machine learning to real-time monitoring in laser powder bed fusion additive manufacturing",
+      "importance": 5,
+      "fun_fact": "This research has the potential to improve the efficiency and accuracy of additive manufacturing",
+      "topic_slug": "artificial_intelligence",
+      "topic": "Artificial Intelligence"
+    },
+    {
+      "id": "artificial_intelligence__N11",
+      "label": "World Artificial Intelligence Cooperation Organization (WAICO)",
+      "type": "organization",
+      "depth": 2,
+      "description": "An international organization that aims to promote cooperation and governance in the field of AI",
+      "importance": 6,
+      "fun_fact": "WAICO is a key player in the global AI governance regime",
+      "topic_slug": "artificial_intelligence",
+      "topic": "Artificial Intelligence"
+    },
+    {
+      "id": "artificial_intelligence__N12",
+      "label": "Artificial Intelligence: A Modern Approach",
+      "type": "book",
+      "depth": 2,
+      "description": "A textbook on AI that provides a comprehensive introduction to the field",
+      "importance": 7,
+      "fun_fact": "This book is considered a classic in the field of AI",
+      "topic_slug": "artificial_intelligence",
+      "topic": "Artificial Intelligence"
+    },
+    {
+      "id": "artificial_intelligence__N13",
+      "label": "Scientific Renaissance",
+      "type": "event",
+      "depth": 3,
+      "description": "A potential outcome of the application of AI in science, leading to a new era of scientific discovery",
+      "importance": 6,
+      "fun_fact": "The application of AI in science has the potential to revolutionize numerous fields",
+      "topic_slug": "artificial_intelligence",
+      "topic": "Artificial Intelligence"
+    },
+    {
+      "id": "artificial_intelligence__N14",
+      "label": "AI Governance",
+      "type": "concept",
+      "depth": 2,
+      "description": "The study of the governance and regulation of AI, including its social and ethical implications",
+      "importance": 7,
+      "fun_fact": "AI governance is a rapidly growing field, with numerous organizations and researchers working on AI governance",
+      "topic_slug": "artificial_intelligence",
+      "topic": "Artificial Intelligence"
+    },
+    {
+      "id": "artificial_intelligence__N15",
+      "label": "AI in Healthcare",
+      "type": "application",
+      "depth": 3,
+      "description": "The use of AI in healthcare to improve diagnosis, treatment, and patient outcomes",
+      "importance": 6,
+      "fun_fact": "AI in healthcare has the potential to revolutionize the field of medicine",
+      "topic_slug": "artificial_intelligence",
+      "topic": "Artificial Intelligence"
     }
   ],
   "global_edges": [
@@ -1832,6 +2006,153 @@
       "relation": "is_part_of",
       "strength": 8,
       "topic": "Genomics"
+    },
+    {
+      "source": "artificial_intelligence__N1",
+      "target": "artificial_intelligence__N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Artificial Intelligence"
+    },
+    {
+      "source": "artificial_intelligence__N1",
+      "target": "artificial_intelligence__N3",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Artificial Intelligence"
+    },
+    {
+      "source": "artificial_intelligence__N1",
+      "target": "artificial_intelligence__N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Artificial Intelligence"
+    },
+    {
+      "source": "artificial_intelligence__N1",
+      "target": "artificial_intelligence__N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Artificial Intelligence"
+    },
+    {
+      "source": "artificial_intelligence__N2",
+      "target": "artificial_intelligence__N5",
+      "relation": "used_in",
+      "strength": 7,
+      "topic": "Artificial Intelligence"
+    },
+    {
+      "source": "artificial_intelligence__N3",
+      "target": "artificial_intelligence__N9",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Artificial Intelligence"
+    },
+    {
+      "source": "artificial_intelligence__N4",
+      "target": "artificial_intelligence__N5",
+      "relation": "used_in",
+      "strength": 7,
+      "topic": "Artificial Intelligence"
+    },
+    {
+      "source": "artificial_intelligence__N6",
+      "target": "artificial_intelligence__N14",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Artificial Intelligence"
+    },
+    {
+      "source": "artificial_intelligence__N7",
+      "target": "artificial_intelligence__N1",
+      "relation": "discovered_by",
+      "strength": 6,
+      "topic": "Artificial Intelligence"
+    },
+    {
+      "source": "artificial_intelligence__N8",
+      "target": "artificial_intelligence__N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Artificial Intelligence"
+    },
+    {
+      "source": "artificial_intelligence__N9",
+      "target": "artificial_intelligence__N15",
+      "relation": "is_part_of",
+      "strength": 6,
+      "topic": "Artificial Intelligence"
+    },
+    {
+      "source": "artificial_intelligence__N10",
+      "target": "artificial_intelligence__N2",
+      "relation": "is_type_of",
+      "strength": 5,
+      "topic": "Artificial Intelligence"
+    },
+    {
+      "source": "artificial_intelligence__N11",
+      "target": "artificial_intelligence__N14",
+      "relation": "is_part_of",
+      "strength": 7,
+      "topic": "Artificial Intelligence"
+    },
+    {
+      "source": "artificial_intelligence__N12",
+      "target": "artificial_intelligence__N1",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Artificial Intelligence"
+    },
+    {
+      "source": "artificial_intelligence__N13",
+      "target": "artificial_intelligence__N1",
+      "relation": "leads_to",
+      "strength": 6,
+      "topic": "Artificial Intelligence"
+    },
+    {
+      "source": "artificial_intelligence__N14",
+      "target": "artificial_intelligence__N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Artificial Intelligence"
+    },
+    {
+      "source": "artificial_intelligence__N15",
+      "target": "artificial_intelligence__N9",
+      "relation": "is_part_of",
+      "strength": 6,
+      "topic": "Artificial Intelligence"
+    },
+    {
+      "source": "artificial_intelligence__N1",
+      "target": "artificial_intelligence__N13",
+      "relation": "enables",
+      "strength": 7,
+      "topic": "Artificial Intelligence"
+    },
+    {
+      "source": "artificial_intelligence__N2",
+      "target": "artificial_intelligence__N8",
+      "relation": "used_in",
+      "strength": 7,
+      "topic": "Artificial Intelligence"
+    },
+    {
+      "source": "artificial_intelligence__N4",
+      "target": "artificial_intelligence__N9",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Artificial Intelligence"
+    },
+    {
+      "source": "artificial_intelligence__N6",
+      "target": "artificial_intelligence__N14",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Artificial Intelligence"
     }
   ],
   "cross_topic_edges": [
@@ -1871,7 +2192,10 @@
     ],
     "physics": [
       "sustainable_energy"
+    ],
+    "computer_science": [
+      "artificial_intelligence"
     ]
   },
-  "last_updated": "2026-06-24T18:22:03.053602"
+  "last_updated": "2026-06-24T23:53:01.444684"
 }

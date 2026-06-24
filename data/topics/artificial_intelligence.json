@@ -1,0 +1,358 @@
+{
+  "topic": "Artificial Intelligence",
+  "category": "computer_science",
+  "description": "Artificial Intelligence (AI) refers to the development of computer systems that can perform tasks that typically require human intelligence, such as learning, problem-solving, and decision-making. AI has various subfields, including Machine Learning, Natural Language Processing, and Computer Vision. The field of AI has been rapidly evolving, with significant advancements in recent years, and has the potential to transform numerous industries and aspects of our lives.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Artificial Intelligence",
+      "type": "core",
+      "depth": 0,
+      "description": "The development of computer systems that can perform tasks that typically require human intelligence",
+      "importance": 10,
+      "fun_fact": "The term 'Artificial Intelligence' was coined in 1956 by John McCarthy"
+    },
+    {
+      "id": "N2",
+      "label": "Machine Learning",
+      "type": "concept",
+      "depth": 1,
+      "description": "A subset of AI that involves training algorithms to learn from data and make predictions or decisions",
+      "importance": 9,
+      "fun_fact": "Machine Learning is a key driver of AI advancements"
+    },
+    {
+      "id": "N3",
+      "label": "Natural Language Processing",
+      "type": "concept",
+      "depth": 1,
+      "description": "A subset of AI that deals with the interaction between computers and humans in natural language",
+      "importance": 8,
+      "fun_fact": "NLP has numerous applications, including chatbots and language translation"
+    },
+    {
+      "id": "N4",
+      "label": "Computer Vision",
+      "type": "concept",
+      "depth": 1,
+      "description": "A subset of AI that enables computers to interpret and understand visual data from the world",
+      "importance": 8,
+      "fun_fact": "Computer Vision has numerous applications, including self-driving cars and facial recognition"
+    },
+    {
+      "id": "N5",
+      "label": "Robotics",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of AI and machine learning to control and navigate robots",
+      "importance": 7,
+      "fun_fact": "Robotics has numerous applications, including manufacturing and healthcare"
+    },
+    {
+      "id": "N6",
+      "label": "Ethics in AI",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the ethical implications of AI and its applications",
+      "importance": 8,
+      "fun_fact": "Ethics in AI is a rapidly growing field, with numerous researchers and organizations working on AI ethics"
+    },
+    {
+      "id": "N7",
+      "label": "John McCarthy",
+      "type": "person",
+      "depth": 2,
+      "description": "An American computer scientist and cognitive scientist who coined the term 'Artificial Intelligence'",
+      "importance": 6,
+      "fun_fact": "John McCarthy is considered one of the founders of AI"
+    },
+    {
+      "id": "N8",
+      "label": "Explainable Artificial Intelligence (XAI)",
+      "type": "concept",
+      "depth": 2,
+      "description": "A subfield of AI that focuses on making AI decisions and processes more transparent and explainable",
+      "importance": 7,
+      "fun_fact": "XAI is a rapidly growing field, with numerous applications in healthcare and finance"
+    },
+    {
+      "id": "N9",
+      "label": "Artificial Intelligence in Radiology",
+      "type": "application",
+      "depth": 3,
+      "description": "The use of AI in radiology to improve image analysis and diagnosis",
+      "importance": 6,
+      "fun_fact": "AI in radiology has the potential to revolutionize the field of medical imaging"
+    },
+    {
+      "id": "N10",
+      "label": "Machine Learning Modeling for Real-Time Melt Pool Monitoring",
+      "type": "example",
+      "depth": 3,
+      "description": "A research paper that applies machine learning to real-time monitoring in laser powder bed fusion additive manufacturing",
+      "importance": 5,
+      "fun_fact": "This research has the potential to improve the efficiency and accuracy of additive manufacturing"
+    },
+    {
+      "id": "N11",
+      "label": "World Artificial Intelligence Cooperation Organization (WAICO)",
+      "type": "organization",
+      "depth": 2,
+      "description": "An international organization that aims to promote cooperation and governance in the field of AI",
+      "importance": 6,
+      "fun_fact": "WAICO is a key player in the global AI governance regime"
+    },
+    {
+      "id": "N12",
+      "label": "Artificial Intelligence: A Modern Approach",
+      "type": "book",
+      "depth": 2,
+      "description": "A textbook on AI that provides a comprehensive introduction to the field",
+      "importance": 7,
+      "fun_fact": "This book is considered a classic in the field of AI"
+    },
+    {
+      "id": "N13",
+      "label": "Scientific Renaissance",
+      "type": "event",
+      "depth": 3,
+      "description": "A potential outcome of the application of AI in science, leading to a new era of scientific discovery",
+      "importance": 6,
+      "fun_fact": "The application of AI in science has the potential to revolutionize numerous fields"
+    },
+    {
+      "id": "N14",
+      "label": "AI Governance",
+      "type": "concept",
+      "depth": 2,
+      "description": "The study of the governance and regulation of AI, including its social and ethical implications",
+      "importance": 7,
+      "fun_fact": "AI governance is a rapidly growing field, with numerous organizations and researchers working on AI governance"
+    },
+    {
+      "id": "N15",
+      "label": "AI in Healthcare",
+      "type": "application",
+      "depth": 3,
+      "description": "The use of AI in healthcare to improve diagnosis, treatment, and patient outcomes",
+      "importance": 6,
+      "fun_fact": "AI in healthcare has the potential to revolutionize the field of medicine"
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Machine Learning is a key subset of AI"
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Natural Language Processing is a subset of AI"
+    },
+    {
+      "source": "N1",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Computer Vision is a subset of AI"
+    },
+    {
+      "source": "N1",
+      "target": "N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Ethics in AI is a key aspect of AI"
+    },
+    {
+      "source": "N2",
+      "target": "N5",
+      "relation": "used_in",
+      "strength": 7,
+      "description": "Machine Learning is used in Robotics"
+    },
+    {
+      "source": "N3",
+      "target": "N9",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "Natural Language Processing is used in AI in Radiology"
+    },
+    {
+      "source": "N4",
+      "target": "N5",
+      "relation": "used_in",
+      "strength": 7,
+      "description": "Computer Vision is used in Robotics"
+    },
+    {
+      "source": "N6",
+      "target": "N14",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Ethics in AI is a key aspect of AI Governance"
+    },
+    {
+      "source": "N7",
+      "target": "N1",
+      "relation": "discovered_by",
+      "strength": 6,
+      "description": "John McCarthy is considered one of the founders of AI"
+    },
+    {
+      "source": "N8",
+      "target": "N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Explainable Artificial Intelligence is a subset of Ethics in AI"
+    },
+    {
+      "source": "N9",
+      "target": "N15",
+      "relation": "is_part_of",
+      "strength": 6,
+      "description": "AI in Radiology is a subset of AI in Healthcare"
+    },
+    {
+      "source": "N10",
+      "target": "N2",
+      "relation": "is_type_of",
+      "strength": 5,
+      "description": "Machine Learning Modeling for Real-Time Melt Pool Monitoring is an example of Machine Learning"
+    },
+    {
+      "source": "N11",
+      "target": "N14",
+      "relation": "is_part_of",
+      "strength": 7,
+      "description": "World Artificial Intelligence Cooperation Organization is a key player in AI Governance"
+    },
+    {
+      "source": "N12",
+      "target": "N1",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "Artificial Intelligence: A Modern Approach is a textbook on AI"
+    },
+    {
+      "source": "N13",
+      "target": "N1",
+      "relation": "leads_to",
+      "strength": 6,
+      "description": "The application of AI has the potential to lead to a Scientific Renaissance"
+    },
+    {
+      "source": "N14",
+      "target": "N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "AI Governance is a key aspect of Ethics in AI"
+    },
+    {
+      "source": "N15",
+      "target": "N9",
+      "relation": "is_part_of",
+      "strength": 6,
+      "description": "AI in Healthcare is a broader field that includes AI in Radiology"
+    },
+    {
+      "source": "N1",
+      "target": "N13",
+      "relation": "enables",
+      "strength": 7,
+      "description": "AI enables a Scientific Renaissance"
+    },
+    {
+      "source": "N2",
+      "target": "N8",
+      "relation": "used_in",
+      "strength": 7,
+      "description": "Machine Learning is used in Explainable Artificial Intelligence"
+    },
+    {
+      "source": "N4",
+      "target": "N9",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "Computer Vision is used in AI in Radiology"
+    },
+    {
+      "source": "N6",
+      "target": "N14",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Ethics in AI is a key aspect of AI Governance"
+    }
+  ],
+  "key_takeaways": [
+    "AI is a rapidly evolving field with numerous subfields and applications",
+    "Machine Learning, Natural Language Processing, and Computer Vision are key subsets of AI",
+    "Ethics in AI is a critical aspect of AI, and Explainable Artificial Intelligence is a key area of research"
+  ],
+  "real_world_impact": "The application of AI has the potential to transform numerous industries and aspects of our lives, including healthcare, finance, and education. AI can improve diagnosis, treatment, and patient outcomes in healthcare, and can also enhance customer service and personalization in finance and education. However, AI also raises important ethical and governance questions, and it is essential to address these concerns to ensure that AI is developed and used responsibly.",
+  "images": [],
+  "sources": {
+    "wikipedia_url": "",
+    "papers": [
+      {
+        "title": "Artificial intelligence: a modern approach",
+        "url": "https://doi.org/10.5860/choice.33-1577"
+      },
+      {
+        "title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI",
+        "url": "https://doi.org/10.1016/j.inffus.2019.12.012"
+      },
+      {
+        "title": "Artificial intelligence in radiology",
+        "url": "https://doi.org/10.1038/s41568-018-0016-5"
+      }
+    ],
+    "news": [
+      {
+        "title": "Will AI spark a scientific renaissance \u2014 or a diffuse monoculture?",
+        "url": "https://www.nature.com/articles/d41586-026-01954-2"
+      },
+      {
+        "title": "Machine Learning Modeling for Real-Time Melt Pool Monitoring in Laser Powder Bed Fusion Additive Manufacturing: A Hybrid Approach",
+        "url": "https://arxiv.org/abs/2606.23851"
+      },
+      {
+        "title": "World Artificial Intelligence Cooperation Organization (WAICO): Mapping an Emerging Institution in the Global AI Governance Regime Complex",
+        "url": "https://arxiv.org/abs/2606.23860"
+      }
+    ]
+  },
+  "quality": {
+    "structural": {
+      "score": 100,
+      "issues": [],
+      "node_count": 15,
+      "edge_count": 21
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Reinforcement Learning",
+        "Transfer Learning"
+      ],
+      "strengths": [
+        "covers key subsets of AI",
+        "includes important applications and concepts"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 92.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

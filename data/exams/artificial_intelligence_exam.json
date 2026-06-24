@@ -1,0 +1,164 @@
+{
+  "topic": "Artificial Intelligence",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary goal of Artificial Intelligence?",
+      "options": {
+        "A": "To develop computer systems that can perform tasks that typically require human intelligence",
+        "B": "To create robots that can replace human workers",
+        "C": "To develop algorithms for data analysis",
+        "D": "To create expert systems for decision-making"
+      },
+      "correct": "A",
+      "explanation": "The primary goal of Artificial Intelligence is to develop computer systems that can perform tasks that typically require human intelligence, such as learning, problem-solving, and decision-making.",
+      "node_id": "Artificial Intelligence",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which subset of AI involves training algorithms to learn from data and make predictions or decisions?",
+      "options": {
+        "A": "Natural Language Processing",
+        "B": "Computer Vision",
+        "C": "Machine Learning",
+        "D": "Robotics"
+      },
+      "correct": "C",
+      "explanation": "Machine Learning is a subset of AI that involves training algorithms to learn from data and make predictions or decisions.",
+      "node_id": "Machine Learning",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the study of the ethical implications of AI and its applications?",
+      "options": {
+        "A": "AI Governance",
+        "B": "Explainable Artificial Intelligence",
+        "C": "Ethics in AI",
+        "D": "AI Regulation"
+      },
+      "correct": "C",
+      "explanation": "The study of the ethical implications of AI and its applications is referred to as Ethics in AI.",
+      "node_id": "Ethics in AI",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the term for the interaction between computers and humans in natural language?",
+      "options": {
+        "A": "Computer Vision",
+        "B": "Machine Learning",
+        "C": "Natural Language Processing",
+        "D": "Robotics"
+      },
+      "correct": "C",
+      "explanation": "Natural Language Processing refers to the interaction between computers and humans in natural language.",
+      "node_id": "Natural Language Processing",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the use of AI and machine learning to control and navigate robots?",
+      "options": {
+        "A": "Robotics",
+        "B": "Computer Vision",
+        "C": "Machine Learning",
+        "D": "AI Governance"
+      },
+      "correct": "A",
+      "explanation": "Robotics refers to the use of AI and machine learning to control and navigate robots.",
+      "node_id": "Robotics",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the subfield of AI that focuses on making AI decisions and processes more transparent and explainable?",
+      "options": {
+        "A": "Explainable Artificial Intelligence",
+        "B": "AI Governance",
+        "C": "Ethics in AI",
+        "D": "Machine Learning"
+      },
+      "correct": "A",
+      "explanation": "Explainable Artificial Intelligence is a subfield of AI that focuses on making AI decisions and processes more transparent and explainable.",
+      "node_id": "Explainable Artificial Intelligence (XAI)",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the study of the governance and regulation of AI, including its social and ethical implications?",
+      "options": {
+        "A": "AI Governance",
+        "B": "Ethics in AI",
+        "C": "Explainable Artificial Intelligence",
+        "D": "Machine Learning"
+      },
+      "correct": "A",
+      "explanation": "AI Governance refers to the study of the governance and regulation of AI, including its social and ethical implications.",
+      "node_id": "AI Governance",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What are some of the key applications of Natural Language Processing?",
+      "sample_answer": "Some key applications of Natural Language Processing include chatbots, language translation, sentiment analysis, and text summarization.",
+      "keywords": [
+        "chatbots",
+        "language translation",
+        "sentiment analysis",
+        "text summarization"
+      ],
+      "node_id": "Natural Language Processing",
+      "points": 15
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "What are some of the key challenges and limitations of Explainable Artificial Intelligence?",
+      "sample_answer": "Some key challenges and limitations of Explainable Artificial Intelligence include the complexity of AI models, the need for transparency and interpretability, and the trade-off between accuracy and explainability.",
+      "keywords": [
+        "complexity",
+        "transparency",
+        "interpretability",
+        "trade-off"
+      ],
+      "node_id": "Explainable Artificial Intelligence (XAI)",
+      "points": 15
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What are some of the potential benefits and risks of using AI in decision-making?",
+      "sample_answer": "Some potential benefits of using AI in decision-making include improved accuracy and efficiency, while some potential risks include bias and lack of transparency.",
+      "keywords": [
+        "accuracy",
+        "efficiency",
+        "bias",
+        "transparency"
+      ],
+      "node_id": "Artificial Intelligence",
+      "points": 15
+    }
+  ]
+}
