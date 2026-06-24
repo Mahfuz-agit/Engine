@@ -1,0 +1,161 @@
+{
+  "topic": "Genomics",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary focus of the field of genomics?",
+      "options": {
+        "A": "The study of genomes, including the sequencing and analysis of genomes",
+        "B": "The study of proteins and their functions",
+        "C": "The study of environmental factors and their impact on organisms",
+        "D": "The study of the structure and function of cells"
+      },
+      "correct": "A",
+      "explanation": "Genomics is the study of genomes, including the sequencing and analysis of genomes, which is the primary focus of the field.",
+      "node_id": "Genomics",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the direct manipulation of an organism's genes using biotechnology?",
+      "options": {
+        "A": "Genetic engineering",
+        "B": "Genome mapping",
+        "C": "DNA sequencing",
+        "D": "Epigenetics"
+      },
+      "correct": "A",
+      "explanation": "Genetic engineering is the direct manipulation of an organism's genes using biotechnology, which is a key concept in genomics.",
+      "node_id": "Genetic Engineering",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the study of heritable changes in gene function that occur without a change in the underlying DNA sequence?",
+      "options": {
+        "A": "Epigenetics",
+        "B": "Genetic engineering",
+        "C": "Genome mapping",
+        "D": "DNA sequencing"
+      },
+      "correct": "A",
+      "explanation": "Epigenetics is the study of heritable changes in gene function that occur without a change in the underlying DNA sequence, which is a complex concept in genomics.",
+      "node_id": "Epigenetics",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the process of determining the order of the four chemical building blocks that make up an organism's DNA?",
+      "options": {
+        "A": "Genome mapping",
+        "B": "DNA sequencing",
+        "C": "Genetic engineering",
+        "D": "Epigenetics"
+      },
+      "correct": "B",
+      "explanation": "DNA sequencing is the process of determining the order of the four chemical building blocks that make up an organism's DNA.",
+      "node_id": "DNA Sequencing",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the use of genomics to tailor medical treatment to an individual's unique genetic profile?",
+      "options": {
+        "A": "Personalized medicine",
+        "B": "Genomic medicine",
+        "C": "Synthetic biology",
+        "D": "Genomics in agriculture"
+      },
+      "correct": "A",
+      "explanation": "Personalized medicine is the use of genomics to tailor medical treatment to an individual's unique genetic profile, which is a key application of genomics.",
+      "node_id": "Personalized Medicine",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the design and construction of new biological systems, such as genetic circuits?",
+      "options": {
+        "A": "Synthetic biology",
+        "B": "Genomic medicine",
+        "C": "Genomics in agriculture",
+        "D": "Genetic engineering"
+      },
+      "correct": "A",
+      "explanation": "Synthetic biology is the design and construction of new biological systems, such as genetic circuits, which is a complex concept in genomics.",
+      "node_id": "Synthetic Biology",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the use of genomics to improve crop yields and disease resistance?",
+      "options": {
+        "A": "Genomics in biotechnology",
+        "B": "Genomics in agriculture",
+        "C": "Genomic medicine",
+        "D": "Personalized medicine"
+      },
+      "correct": "B",
+      "explanation": "Genomics in agriculture is the use of genomics to improve crop yields and disease resistance, which is a key application of genomics.",
+      "node_id": "Genomics in Agriculture",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What are the potential applications of genomics in medicine?",
+      "sample_answer": "The potential applications of genomics in medicine include personalized medicine, targeted therapies, and genetic diagnosis.",
+      "keywords": [
+        "personalized medicine",
+        "targeted therapies",
+        "genetic diagnosis"
+      ],
+      "node_id": "Genomic Medicine",
+      "points": 15
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "How does epigenetics contribute to the development of diseases?",
+      "sample_answer": "Epigenetics contributes to the development of diseases by influencing gene expression and regulating cellular processes, which can lead to changes in cellular behavior and disease susceptibility.",
+      "keywords": [
+        "epigenetics",
+        "gene expression",
+        "cellular processes"
+      ],
+      "node_id": "Epigenetics",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What are the benefits of using genomics in agriculture?",
+      "sample_answer": "The benefits of using genomics in agriculture include improved crop yields, increased disease resistance, and enhanced nutritional content.",
+      "keywords": [
+        "genomics in agriculture",
+        "crop yields",
+        "disease resistance"
+      ],
+      "node_id": "Genomics in Agriculture",
+      "points": 15
+    }
+  ]
+}

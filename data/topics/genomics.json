@@ -1,0 +1,319 @@
+{
+  "topic": "Genomics",
+  "category": "biology",
+  "description": "Genomics is the study of genomes, the complete set of DNA (including all of its genes) in an organism. It involves the sequencing and analysis of genomes to understand the structure, function, and evolution of genomes. Genomics has many applications in fields such as medicine, agriculture, and biotechnology.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Genomics",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of genomes, including the sequencing and analysis of genomes",
+      "importance": 10,
+      "fun_fact": "The term 'genomics' was coined in 1986 by Thomas Roderick"
+    },
+    {
+      "id": "N2",
+      "label": "Genetic Engineering",
+      "type": "concept",
+      "depth": 1,
+      "description": "The direct manipulation of an organism's genes using biotechnology",
+      "importance": 9,
+      "fun_fact": "Genetic engineering has been used to develop crops that are resistant to pests and diseases"
+    },
+    {
+      "id": "N3",
+      "label": "DNA Sequencing",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process of determining the order of the four chemical building blocks (adenine, guanine, cytosine, and thymine) that make up an organism's DNA",
+      "importance": 9,
+      "fun_fact": "The first DNA sequencing method was developed by Frederick Sanger in 1977"
+    },
+    {
+      "id": "N4",
+      "label": "Genome Mapping",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process of creating a map of the locations of genes and other features on a genome",
+      "importance": 8,
+      "fun_fact": "Genome mapping has been used to identify the locations of genes associated with diseases such as cystic fibrosis"
+    },
+    {
+      "id": "N5",
+      "label": "Epigenetics",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of heritable changes in gene function that occur without a change in the underlying DNA sequence",
+      "importance": 8,
+      "fun_fact": "Epigenetic changes can be influenced by environmental factors such as diet and stress"
+    },
+    {
+      "id": "N6",
+      "label": "Personalized Medicine",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of genomics and other technologies to tailor medical treatment to an individual's unique genetic profile",
+      "importance": 9,
+      "fun_fact": "Personalized medicine has been used to develop targeted therapies for diseases such as cancer"
+    },
+    {
+      "id": "N7",
+      "label": "BEDTools",
+      "type": "example",
+      "depth": 2,
+      "description": "A software suite for comparing genomic features",
+      "importance": 6,
+      "fun_fact": "BEDTools has been used to analyze genomic data from a variety of organisms, including humans and mice"
+    },
+    {
+      "id": "N8",
+      "label": "cBio Cancer Genomics Portal",
+      "type": "example",
+      "depth": 2,
+      "description": "An online platform for exploring cancer genomics data",
+      "importance": 7,
+      "fun_fact": "The cBio Cancer Genomics Portal has been used to analyze data from over 5,000 tumor samples"
+    },
+    {
+      "id": "N9",
+      "label": "FeatureCounts",
+      "type": "example",
+      "depth": 2,
+      "description": "A software tool for assigning sequence reads to genomic features",
+      "importance": 6,
+      "fun_fact": "FeatureCounts has been used to analyze data from a variety of sequencing technologies, including RNA-seq and ChIP-seq"
+    },
+    {
+      "id": "N10",
+      "label": "Frederick Sanger",
+      "type": "person",
+      "depth": 2,
+      "description": "A British biochemist who developed the first DNA sequencing method",
+      "importance": 8,
+      "fun_fact": "Sanger was awarded the Nobel Prize in Chemistry twice, in 1958 and 1980"
+    },
+    {
+      "id": "N11",
+      "label": "Human Genome Project",
+      "type": "event",
+      "depth": 2,
+      "description": "An international research project that aimed to sequence the entire human genome",
+      "importance": 9,
+      "fun_fact": "The Human Genome Project was completed in 2003, two years ahead of schedule"
+    },
+    {
+      "id": "N12",
+      "label": "Genomic Medicine",
+      "type": "application",
+      "depth": 3,
+      "description": "The use of genomics to diagnose and treat diseases",
+      "importance": 8,
+      "fun_fact": "Genomic medicine has been used to develop targeted therapies for diseases such as cancer and cystic fibrosis"
+    },
+    {
+      "id": "N13",
+      "label": "Synthetic Biology",
+      "type": "application",
+      "depth": 3,
+      "description": "The design and construction of new biological systems, such as genetic circuits",
+      "importance": 7,
+      "fun_fact": "Synthetic biology has been used to develop new biofuels and bioproducts"
+    },
+    {
+      "id": "N14",
+      "label": "Genomics in Agriculture",
+      "type": "application",
+      "depth": 3,
+      "description": "The use of genomics to improve crop yields and disease resistance",
+      "importance": 7,
+      "fun_fact": "Genomics has been used to develop crops that are resistant to pests and diseases, such as corn and soybeans"
+    },
+    {
+      "id": "N15",
+      "label": "Genomics in Biotechnology",
+      "type": "application",
+      "depth": 3,
+      "description": "The use of genomics to develop new bioproducts and biofuels",
+      "importance": 7,
+      "fun_fact": "Genomics has been used to develop new bioproducts, such as biofuels and bioplastics"
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Genetic engineering is a part of genomics"
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "DNA sequencing is a part of genomics"
+    },
+    {
+      "source": "N1",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 7,
+      "description": "Genome mapping is a part of genomics"
+    },
+    {
+      "source": "N1",
+      "target": "N5",
+      "relation": "is_part_of",
+      "strength": 7,
+      "description": "Epigenetics is a part of genomics"
+    },
+    {
+      "source": "N2",
+      "target": "N6",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "Genetic engineering can lead to personalized medicine"
+    },
+    {
+      "source": "N3",
+      "target": "N6",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "DNA sequencing can lead to personalized medicine"
+    },
+    {
+      "source": "N4",
+      "target": "N6",
+      "relation": "leads_to",
+      "strength": 7,
+      "description": "Genome mapping can lead to personalized medicine"
+    },
+    {
+      "source": "N5",
+      "target": "N6",
+      "relation": "leads_to",
+      "strength": 7,
+      "description": "Epigenetics can lead to personalized medicine"
+    },
+    {
+      "source": "N6",
+      "target": "N12",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Genomic medicine is a part of personalized medicine"
+    },
+    {
+      "source": "N6",
+      "target": "N13",
+      "relation": "is_part_of",
+      "strength": 7,
+      "description": "Synthetic biology is a part of personalized medicine"
+    },
+    {
+      "source": "N6",
+      "target": "N14",
+      "relation": "is_part_of",
+      "strength": 7,
+      "description": "Genomics in agriculture is a part of personalized medicine"
+    },
+    {
+      "source": "N6",
+      "target": "N15",
+      "relation": "is_part_of",
+      "strength": 7,
+      "description": "Genomics in biotechnology is a part of personalized medicine"
+    },
+    {
+      "source": "N7",
+      "target": "N3",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "BEDTools is used in DNA sequencing"
+    },
+    {
+      "source": "N8",
+      "target": "N3",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "cBio Cancer Genomics Portal is used in DNA sequencing"
+    },
+    {
+      "source": "N9",
+      "target": "N3",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "FeatureCounts is used in DNA sequencing"
+    },
+    {
+      "source": "N10",
+      "target": "N3",
+      "relation": "discovered_by",
+      "strength": 8,
+      "description": "Frederick Sanger developed the first DNA sequencing method"
+    },
+    {
+      "source": "N11",
+      "target": "N1",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "The Human Genome Project is a part of genomics"
+    }
+  ],
+  "key_takeaways": [
+    "Genomics is the study of genomes, including the sequencing and analysis of genomes",
+    "Genetic engineering, DNA sequencing, genome mapping, and epigenetics are all part of genomics",
+    "Personalized medicine is a major application of genomics, and involves the use of genomics to tailor medical treatment to an individual's unique genetic profile"
+  ],
+  "real_world_impact": "Genomics has had a significant impact on our understanding of biology and medicine, and has led to the development of new technologies and treatments. For example, genomics has been used to develop targeted therapies for diseases such as cancer, and has led to a greater understanding of the genetic basis of disease. Additionally, genomics has been used in agriculture to develop crops that are resistant to pests and diseases, and has been used in biotechnology to develop new biofuels and bioproducts.",
+  "images": [],
+  "sources": {
+    "wikipedia_url": "",
+    "papers": [
+      {
+        "title": "BEDTools: a flexible suite of utilities for comparing genomic features",
+        "url": "https://doi.org/10.1093/bioinformatics/btq033"
+      },
+      {
+        "title": "The cBio Cancer Genomics Portal: An Open Platform for Exploring Multidimensional Cancer Genomics Data",
+        "url": "https://doi.org/10.1158/2159-8290.cd-12-0095"
+      },
+      {
+        "title": "featureCounts: an efficient general purpose program for assigning sequence reads to genomic features",
+        "url": "https://doi.org/10.1093/bioinformatics/btt656"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 17"
+      ],
+      "node_count": 15,
+      "edge_count": 17
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Gene Expression",
+        "Genetic Variation"
+      ],
+      "strengths": [
+        "Clear structure of genomics and its applications",
+        "Inclusion of key concepts such as DNA sequencing and epigenetics"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

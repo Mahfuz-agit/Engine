@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 5,
-  "total_nodes": 76,
-  "total_edges": 93,
+  "total_topics": 6,
+  "total_nodes": 91,
+  "total_edges": 110,
   "topics": [
     {
       "topic": "Climate Change",
@@ -48,6 +48,15 @@
       "edge_count": 19,
       "description": "Sustainable energy refers to the use of energy sources that meet the needs of the present without compromising the ability of future generations to meet their own needs. This involves the use of renewable energy sources such as solar, wind, hydro, and geothermal energy to reduce greenhouse gas emissions and mitigate climate change. The adoption of sustainable energy sources is crucial for achieving energy security, reducing energy poverty, and promoting sustainable development.",
       "added_at": "2026-06-24T10:37:29.061997"
+    },
+    {
+      "topic": "Genomics",
+      "slug": "genomics",
+      "category": "biology",
+      "node_count": 15,
+      "edge_count": 17,
+      "description": "Genomics is the study of genomes, the complete set of DNA (including all of its genes) in an organism. It involves the sequencing and analysis of genomes to understand the structure, function, and evolution of genomes. Genomics has many applications in fields such as medicine, agriculture, and biotechnology.",
+      "added_at": "2026-06-24T18:22:03.053572"
     }
   ],
   "global_nodes": [
@@ -886,6 +895,171 @@
       "fun_fact": "The largest wind farm in the world is located in the United States",
       "topic_slug": "sustainable_energy",
       "topic": "Sustainable Energy"
+    },
+    {
+      "id": "genomics__N1",
+      "label": "Genomics",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of genomes, including the sequencing and analysis of genomes",
+      "importance": 10,
+      "fun_fact": "The term 'genomics' was coined in 1986 by Thomas Roderick",
+      "topic_slug": "genomics",
+      "topic": "Genomics"
+    },
+    {
+      "id": "genomics__N2",
+      "label": "Genetic Engineering",
+      "type": "concept",
+      "depth": 1,
+      "description": "The direct manipulation of an organism's genes using biotechnology",
+      "importance": 9,
+      "fun_fact": "Genetic engineering has been used to develop crops that are resistant to pests and diseases",
+      "topic_slug": "genomics",
+      "topic": "Genomics"
+    },
+    {
+      "id": "genomics__N3",
+      "label": "DNA Sequencing",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process of determining the order of the four chemical building blocks (adenine, guanine, cytosine, and thymine) that make up an organism's DNA",
+      "importance": 9,
+      "fun_fact": "The first DNA sequencing method was developed by Frederick Sanger in 1977",
+      "topic_slug": "genomics",
+      "topic": "Genomics"
+    },
+    {
+      "id": "genomics__N4",
+      "label": "Genome Mapping",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process of creating a map of the locations of genes and other features on a genome",
+      "importance": 8,
+      "fun_fact": "Genome mapping has been used to identify the locations of genes associated with diseases such as cystic fibrosis",
+      "topic_slug": "genomics",
+      "topic": "Genomics"
+    },
+    {
+      "id": "genomics__N5",
+      "label": "Epigenetics",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of heritable changes in gene function that occur without a change in the underlying DNA sequence",
+      "importance": 8,
+      "fun_fact": "Epigenetic changes can be influenced by environmental factors such as diet and stress",
+      "topic_slug": "genomics",
+      "topic": "Genomics"
+    },
+    {
+      "id": "genomics__N6",
+      "label": "Personalized Medicine",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of genomics and other technologies to tailor medical treatment to an individual's unique genetic profile",
+      "importance": 9,
+      "fun_fact": "Personalized medicine has been used to develop targeted therapies for diseases such as cancer",
+      "topic_slug": "genomics",
+      "topic": "Genomics"
+    },
+    {
+      "id": "genomics__N7",
+      "label": "BEDTools",
+      "type": "example",
+      "depth": 2,
+      "description": "A software suite for comparing genomic features",
+      "importance": 6,
+      "fun_fact": "BEDTools has been used to analyze genomic data from a variety of organisms, including humans and mice",
+      "topic_slug": "genomics",
+      "topic": "Genomics"
+    },
+    {
+      "id": "genomics__N8",
+      "label": "cBio Cancer Genomics Portal",
+      "type": "example",
+      "depth": 2,
+      "description": "An online platform for exploring cancer genomics data",
+      "importance": 7,
+      "fun_fact": "The cBio Cancer Genomics Portal has been used to analyze data from over 5,000 tumor samples",
+      "topic_slug": "genomics",
+      "topic": "Genomics"
+    },
+    {
+      "id": "genomics__N9",
+      "label": "FeatureCounts",
+      "type": "example",
+      "depth": 2,
+      "description": "A software tool for assigning sequence reads to genomic features",
+      "importance": 6,
+      "fun_fact": "FeatureCounts has been used to analyze data from a variety of sequencing technologies, including RNA-seq and ChIP-seq",
+      "topic_slug": "genomics",
+      "topic": "Genomics"
+    },
+    {
+      "id": "genomics__N10",
+      "label": "Frederick Sanger",
+      "type": "person",
+      "depth": 2,
+      "description": "A British biochemist who developed the first DNA sequencing method",
+      "importance": 8,
+      "fun_fact": "Sanger was awarded the Nobel Prize in Chemistry twice, in 1958 and 1980",
+      "topic_slug": "genomics",
+      "topic": "Genomics"
+    },
+    {
+      "id": "genomics__N11",
+      "label": "Human Genome Project",
+      "type": "event",
+      "depth": 2,
+      "description": "An international research project that aimed to sequence the entire human genome",
+      "importance": 9,
+      "fun_fact": "The Human Genome Project was completed in 2003, two years ahead of schedule",
+      "topic_slug": "genomics",
+      "topic": "Genomics"
+    },
+    {
+      "id": "genomics__N12",
+      "label": "Genomic Medicine",
+      "type": "application",
+      "depth": 3,
+      "description": "The use of genomics to diagnose and treat diseases",
+      "importance": 8,
+      "fun_fact": "Genomic medicine has been used to develop targeted therapies for diseases such as cancer and cystic fibrosis",
+      "topic_slug": "genomics",
+      "topic": "Genomics"
+    },
+    {
+      "id": "genomics__N13",
+      "label": "Synthetic Biology",
+      "type": "application",
+      "depth": 3,
+      "description": "The design and construction of new biological systems, such as genetic circuits",
+      "importance": 7,
+      "fun_fact": "Synthetic biology has been used to develop new biofuels and bioproducts",
+      "topic_slug": "genomics",
+      "topic": "Genomics"
+    },
+    {
+      "id": "genomics__N14",
+      "label": "Genomics in Agriculture",
+      "type": "application",
+      "depth": 3,
+      "description": "The use of genomics to improve crop yields and disease resistance",
+      "importance": 7,
+      "fun_fact": "Genomics has been used to develop crops that are resistant to pests and diseases, such as corn and soybeans",
+      "topic_slug": "genomics",
+      "topic": "Genomics"
+    },
+    {
+      "id": "genomics__N15",
+      "label": "Genomics in Biotechnology",
+      "type": "application",
+      "depth": 3,
+      "description": "The use of genomics to develop new bioproducts and biofuels",
+      "importance": 7,
+      "fun_fact": "Genomics has been used to develop new bioproducts, such as biofuels and bioplastics",
+      "topic_slug": "genomics",
+      "topic": "Genomics"
     }
   ],
   "global_edges": [
@@ -1539,6 +1713,125 @@
       "relation": "enables",
       "strength": 4,
       "topic": "Sustainable Energy"
+    },
+    {
+      "source": "genomics__N1",
+      "target": "genomics__N2",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Genomics"
+    },
+    {
+      "source": "genomics__N1",
+      "target": "genomics__N3",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Genomics"
+    },
+    {
+      "source": "genomics__N1",
+      "target": "genomics__N4",
+      "relation": "is_part_of",
+      "strength": 7,
+      "topic": "Genomics"
+    },
+    {
+      "source": "genomics__N1",
+      "target": "genomics__N5",
+      "relation": "is_part_of",
+      "strength": 7,
+      "topic": "Genomics"
+    },
+    {
+      "source": "genomics__N2",
+      "target": "genomics__N6",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Genomics"
+    },
+    {
+      "source": "genomics__N3",
+      "target": "genomics__N6",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Genomics"
+    },
+    {
+      "source": "genomics__N4",
+      "target": "genomics__N6",
+      "relation": "leads_to",
+      "strength": 7,
+      "topic": "Genomics"
+    },
+    {
+      "source": "genomics__N5",
+      "target": "genomics__N6",
+      "relation": "leads_to",
+      "strength": 7,
+      "topic": "Genomics"
+    },
+    {
+      "source": "genomics__N6",
+      "target": "genomics__N12",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Genomics"
+    },
+    {
+      "source": "genomics__N6",
+      "target": "genomics__N13",
+      "relation": "is_part_of",
+      "strength": 7,
+      "topic": "Genomics"
+    },
+    {
+      "source": "genomics__N6",
+      "target": "genomics__N14",
+      "relation": "is_part_of",
+      "strength": 7,
+      "topic": "Genomics"
+    },
+    {
+      "source": "genomics__N6",
+      "target": "genomics__N15",
+      "relation": "is_part_of",
+      "strength": 7,
+      "topic": "Genomics"
+    },
+    {
+      "source": "genomics__N7",
+      "target": "genomics__N3",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Genomics"
+    },
+    {
+      "source": "genomics__N8",
+      "target": "genomics__N3",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Genomics"
+    },
+    {
+      "source": "genomics__N9",
+      "target": "genomics__N3",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Genomics"
+    },
+    {
+      "source": "genomics__N10",
+      "target": "genomics__N3",
+      "relation": "discovered_by",
+      "strength": 8,
+      "topic": "Genomics"
+    },
+    {
+      "source": "genomics__N11",
+      "target": "genomics__N1",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Genomics"
     }
   ],
   "cross_topic_edges": [
@@ -1570,7 +1863,8 @@
     ],
     "biology": [
       "evolutionary_biology",
-      "ecological_conservation"
+      "ecological_conservation",
+      "genomics"
     ],
     "psychology": [
       "neuroplasticity"
@@ -1579,5 +1873,5 @@
       "sustainable_energy"
     ]
   },
-  "last_updated": "2026-06-24T10:37:29.062035"
+  "last_updated": "2026-06-24T18:22:03.053602"
 }
