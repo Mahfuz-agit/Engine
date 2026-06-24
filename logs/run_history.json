@@ -50,5 +50,18 @@
     "master_total_topics": 4,
     "ended_at": "2026-06-23T23:38:52.931754",
     "duration_seconds": 36.0
+  },
+  {
+    "started_at": "2026-06-24T10:36:52.312832",
+    "status": "success",
+    "topic": "Sustainable Energy",
+    "sources_found": 6,
+    "images_found": 5,
+    "quality_score": 87.5,
+    "quality_passed": true,
+    "exam_questions": 10,
+    "master_total_topics": 5,
+    "ended_at": "2026-06-24T10:37:29.063621",
+    "duration_seconds": 36.8
   }
 ]

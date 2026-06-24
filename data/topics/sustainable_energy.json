@@ -1,0 +1,384 @@
+{
+  "topic": "Sustainable Energy",
+  "category": "physics",
+  "description": "Sustainable energy refers to the use of energy sources that meet the needs of the present without compromising the ability of future generations to meet their own needs. This involves the use of renewable energy sources such as solar, wind, hydro, and geothermal energy to reduce greenhouse gas emissions and mitigate climate change. The adoption of sustainable energy sources is crucial for achieving energy security, reducing energy poverty, and promoting sustainable development.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Sustainable Energy",
+      "type": "core",
+      "depth": 0,
+      "description": "Energy that meets the needs of the present without compromising the ability of future generations to meet their own needs",
+      "importance": 10,
+      "fun_fact": "The concept of sustainable energy was first introduced in the 1980s by the World Commission on Environment and Development"
+    },
+    {
+      "id": "N2",
+      "label": "Renewable Energy",
+      "type": "concept",
+      "depth": 1,
+      "description": "Energy generated from natural resources that can be replenished over time, such as sunlight, wind, and water",
+      "importance": 9,
+      "fun_fact": "Renewable energy accounts for over 26% of global electricity generation"
+    },
+    {
+      "id": "N3",
+      "label": "Solar Energy",
+      "type": "concept",
+      "depth": 2,
+      "description": "Energy generated from the sun's rays, either through photovoltaic panels or solar thermal systems",
+      "importance": 8,
+      "fun_fact": "The first solar panel was invented in 1883 by Charles Fritts"
+    },
+    {
+      "id": "N4",
+      "label": "Wind Power",
+      "type": "concept",
+      "depth": 2,
+      "description": "Energy generated from the wind, using wind turbines to convert kinetic energy into electricity",
+      "importance": 8,
+      "fun_fact": "The first wind turbine was built in 1888 by James Blyth"
+    },
+    {
+      "id": "N5",
+      "label": "Hydroelectricity",
+      "type": "concept",
+      "depth": 2,
+      "description": "Energy generated from the movement of water, using hydroelectric power plants to convert kinetic energy into electricity",
+      "importance": 8,
+      "fun_fact": "Hydroelectricity is the oldest and largest source of renewable energy"
+    },
+    {
+      "id": "N6",
+      "label": "Geothermal Energy",
+      "type": "concept",
+      "depth": 2,
+      "description": "Energy generated from the heat of the Earth, using geothermal power plants to convert thermal energy into electricity",
+      "importance": 7,
+      "fun_fact": "The first geothermal power plant was built in 1904 in Italy"
+    },
+    {
+      "id": "N7",
+      "label": "Energy Efficiency",
+      "type": "concept",
+      "depth": 2,
+      "description": "The use of technology and practices to reduce energy consumption and improve energy productivity",
+      "importance": 8,
+      "fun_fact": "Energy efficiency can reduce energy consumption by up to 30%"
+    },
+    {
+      "id": "N8",
+      "label": "Climate Change",
+      "type": "concept",
+      "depth": 1,
+      "description": "The long-term warming of the planet due to human activities, such as burning fossil fuels and deforestation",
+      "importance": 9,
+      "fun_fact": "Climate change is one of the most pressing issues of the 21st century"
+    },
+    {
+      "id": "N9",
+      "label": "Fossil Fuels",
+      "type": "concept",
+      "depth": 1,
+      "description": "Energy sources such as coal, oil, and natural gas, which are finite and contribute to climate change",
+      "importance": 8,
+      "fun_fact": "Fossil fuels account for over 80% of global energy consumption"
+    },
+    {
+      "id": "N10",
+      "label": "World Commission on Environment and Development",
+      "type": "organization",
+      "depth": 3,
+      "description": "A United Nations commission that introduced the concept of sustainable development in 1987",
+      "importance": 6,
+      "fun_fact": "The commission was chaired by Gro Harlem Brundtland"
+    },
+    {
+      "id": "N11",
+      "label": "Gro Harlem Brundtland",
+      "type": "person",
+      "depth": 3,
+      "description": "A Norwegian politician and environmentalist who chaired the World Commission on Environment and Development",
+      "importance": 5,
+      "fun_fact": "Brundtland was the first woman to serve as Prime Minister of Norway"
+    },
+    {
+      "id": "N12",
+      "label": "Paris Agreement",
+      "type": "event",
+      "depth": 3,
+      "description": "An international agreement signed in 2015 to limit global warming to well below 2\u00b0C and pursue efforts to limit it to 1.5\u00b0C",
+      "importance": 8,
+      "fun_fact": "The agreement was signed by over 190 countries"
+    },
+    {
+      "id": "N13",
+      "label": "Renewable Energy Policy",
+      "type": "application",
+      "depth": 3,
+      "description": "Policies and regulations that support the development and deployment of renewable energy technologies",
+      "importance": 7,
+      "fun_fact": "Renewable energy policies have been implemented in over 140 countries"
+    },
+    {
+      "id": "N14",
+      "label": "Solar Panel Installation",
+      "type": "example",
+      "depth": 4,
+      "description": "The installation of solar panels on homes and buildings to generate electricity from sunlight",
+      "importance": 4,
+      "fun_fact": "The cost of solar panel installation has decreased by over 70% in the last decade"
+    },
+    {
+      "id": "N15",
+      "label": "Wind Farm",
+      "type": "example",
+      "depth": 4,
+      "description": "A group of wind turbines installed in a specific location to generate electricity from wind",
+      "importance": 4,
+      "fun_fact": "The largest wind farm in the world is located in the United States"
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Sustainable energy is a type of renewable energy"
+    },
+    {
+      "source": "N2",
+      "target": "N3",
+      "relation": "is_type_of",
+      "strength": 8,
+      "description": "Solar energy is a type of renewable energy"
+    },
+    {
+      "source": "N2",
+      "target": "N4",
+      "relation": "is_type_of",
+      "strength": 8,
+      "description": "Wind power is a type of renewable energy"
+    },
+    {
+      "source": "N2",
+      "target": "N5",
+      "relation": "is_type_of",
+      "strength": 8,
+      "description": "Hydroelectricity is a type of renewable energy"
+    },
+    {
+      "source": "N2",
+      "target": "N6",
+      "relation": "is_type_of",
+      "strength": 7,
+      "description": "Geothermal energy is a type of renewable energy"
+    },
+    {
+      "source": "N1",
+      "target": "N8",
+      "relation": "contrasts_with",
+      "strength": 9,
+      "description": "Sustainable energy is an alternative to fossil fuels, which contribute to climate change"
+    },
+    {
+      "source": "N8",
+      "target": "N9",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Fossil fuels are a major contributor to climate change"
+    },
+    {
+      "source": "N1",
+      "target": "N10",
+      "relation": "related_to",
+      "strength": 6,
+      "description": "The World Commission on Environment and Development introduced the concept of sustainable development"
+    },
+    {
+      "source": "N10",
+      "target": "N11",
+      "relation": "discovered_by",
+      "strength": 5,
+      "description": "Gro Harlem Brundtland chaired the World Commission on Environment and Development"
+    },
+    {
+      "source": "N1",
+      "target": "N12",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "The Paris Agreement aims to limit global warming and promote sustainable energy"
+    },
+    {
+      "source": "N2",
+      "target": "N13",
+      "relation": "used_in",
+      "strength": 7,
+      "description": "Renewable energy policies support the development and deployment of renewable energy technologies"
+    },
+    {
+      "source": "N3",
+      "target": "N14",
+      "relation": "is_type_of",
+      "strength": 4,
+      "description": "Solar panel installation is an example of solar energy"
+    },
+    {
+      "source": "N4",
+      "target": "N15",
+      "relation": "is_type_of",
+      "strength": 4,
+      "description": "Wind farm is an example of wind power"
+    },
+    {
+      "source": "N1",
+      "target": "N7",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Energy efficiency is a key aspect of sustainable energy"
+    },
+    {
+      "source": "N7",
+      "target": "N13",
+      "relation": "used_in",
+      "strength": 7,
+      "description": "Energy efficiency is an important aspect of renewable energy policy"
+    },
+    {
+      "source": "N9",
+      "target": "N12",
+      "relation": "contrasts_with",
+      "strength": 8,
+      "description": "Fossil fuels are a major contributor to climate change, which the Paris Agreement aims to mitigate"
+    },
+    {
+      "source": "N11",
+      "target": "N12",
+      "relation": "related_to",
+      "strength": 5,
+      "description": "Gro Harlem Brundtland's work on sustainable development is related to the Paris Agreement"
+    },
+    {
+      "source": "N13",
+      "target": "N14",
+      "relation": "enables",
+      "strength": 4,
+      "description": "Renewable energy policy enables the installation of solar panels"
+    },
+    {
+      "source": "N13",
+      "target": "N15",
+      "relation": "enables",
+      "strength": 4,
+      "description": "Renewable energy policy enables the development of wind farms"
+    }
+  ],
+  "key_takeaways": [
+    "Sustainable energy is a type of renewable energy that meets the needs of the present without compromising the ability of future generations to meet their own needs",
+    "Renewable energy sources such as solar, wind, and hydroelectricity are crucial for reducing greenhouse gas emissions and mitigating climate change",
+    "Energy efficiency is an important aspect of sustainable energy and can reduce energy consumption by up to 30%"
+  ],
+  "real_world_impact": "The adoption of sustainable energy sources has the potential to significantly reduce greenhouse gas emissions and mitigate climate change. For example, the use of solar and wind energy has increased significantly in recent years, with solar energy accounting for over 3% of global electricity generation and wind energy accounting for over 6%. Additionally, energy efficiency measures such as building insulation and smart grids can reduce energy consumption and improve energy productivity. The transition to sustainable energy will require significant investment and policy support, but it has the potential to create jobs, stimulate economic growth, and improve public health.",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/2015-_Investment_in_clean_energy_-_IEA.svg",
+      "title": "2015- Investment in clean energy - IEA.svg",
+      "license": "CC BY-SA 4.0",
+      "artist": "RCraig09",
+      "description": "Chart showing investment in clean energy by category over time, and comparing to total fossil fuel investment\nData source: World Energy Investment 2025 / Executive summary. International Energy Agency (2025). Archived from the original on 7 June 2025. \"IEA. Licence: CC BY 4.0\"\nTechnical note: most S",
+      "width": 1200,
+      "height": 675,
+      "source_query": "Sustainable Energy"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/2023-03-05_Centre_for_Sustainable_Energy_Technologies_%28CSET%29%2C_University_of_Nottingham_Ningbo_China_01.jpg",
+      "title": "2023-03-05 Centre for Sustainable Energy Technologies (CSET), University of Nottingham Ningbo China 01.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "\u6e90\u7fa9\u4fe1",
+      "description": "Centre for Sustainable Energy Technologies (CSET), University of Nottingham Ningbo China.",
+      "width": 4032,
+      "height": 3024,
+      "source_query": "Sustainable Energy"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Global_Energy_Spending_on_Clean_Energy_2022.png",
+      "title": "Global Energy Spending on Clean Energy 2022.png",
+      "license": "CC BY 4.0",
+      "artist": "IEA",
+      "description": "This graph shows a comparison of government spending and mobilized spending on clean energy and recovery from 2020-2023 in USD. It was originally published in the 2022 Energy Efficiency IEA report.",
+      "width": 1920,
+      "height": 1080,
+      "source_query": "Sustainable Energy"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/SUSTAINABLE_ENERGY_MANAGEMENT.png",
+      "title": "SUSTAINABLE ENERGY MANAGEMENT.png",
+      "license": "CC BY-SA 4.0",
+      "artist": "DIANPARMIONOVA",
+      "description": "Sustainable energy management is designed to provide a management model that can accepted no by only individual companies but by countries or regions that create a geographical, natural and economic unit.",
+      "width": 800,
+      "height": 1000,
+      "source_query": "Sustainable Energy"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Sustainable_Energy_-_The_Noun_Project.svg",
+      "title": "Sustainable Energy - The Noun Project.svg",
+      "license": "CC0",
+      "artist": "Iconathon",
+      "description": "Sustainable Energy - The Noun Project icon from the Noun Project",
+      "width": 512,
+      "height": 228,
+      "source_query": "Sustainable Energy"
+    }
+  ],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sustainable_energy",
+    "papers": [
+      {
+        "title": "The path towards sustainable energy",
+        "url": "https://doi.org/10.1038/nmat4834"
+      },
+      {
+        "title": "Ethanol for a Sustainable Energy Future",
+        "url": "https://doi.org/10.1126/science.1137013"
+      },
+      {
+        "title": "Optimization methods applied to renewable and sustainable energy: A review",
+        "url": "https://doi.org/10.1016/j.rser.2010.12.008"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 19"
+      ],
+      "node_count": 15,
+      "edge_count": 19
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Nuclear Energy",
+        "Bioenergy"
+      ],
+      "strengths": [
+        "Clear definition of sustainable energy",
+        "Good coverage of renewable energy sources"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

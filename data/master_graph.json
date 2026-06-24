@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 4,
-  "total_nodes": 61,
-  "total_edges": 74,
+  "total_topics": 5,
+  "total_nodes": 76,
+  "total_edges": 93,
   "topics": [
     {
       "topic": "Climate Change",
@@ -39,6 +39,15 @@
       "edge_count": 19,
       "description": "Ecological conservation is the practice of protecting and preserving the natural world, including ecosystems, species, and habitats. It involves understanding the complex relationships between living organisms and their environments, and taking action to prevent harm and promote sustainability. This field is crucial for maintaining the health of our planet and ensuring the long-term survival of all species.",
       "added_at": "2026-06-23T23:38:52.930386"
+    },
+    {
+      "topic": "Sustainable Energy",
+      "slug": "sustainable_energy",
+      "category": "physics",
+      "node_count": 15,
+      "edge_count": 19,
+      "description": "Sustainable energy refers to the use of energy sources that meet the needs of the present without compromising the ability of future generations to meet their own needs. This involves the use of renewable energy sources such as solar, wind, hydro, and geothermal energy to reduce greenhouse gas emissions and mitigate climate change. The adoption of sustainable energy sources is crucial for achieving energy security, reducing energy poverty, and promoting sustainable development.",
+      "added_at": "2026-06-24T10:37:29.061997"
     }
   ],
   "global_nodes": [
@@ -712,6 +721,171 @@
       "fun_fact": "Sustainable agriculture can help to reduce greenhouse gas emissions and promote biodiversity.",
       "topic_slug": "ecological_conservation",
       "topic": "Ecological Conservation"
+    },
+    {
+      "id": "sustainable_energy__N1",
+      "label": "Sustainable Energy",
+      "type": "core",
+      "depth": 0,
+      "description": "Energy that meets the needs of the present without compromising the ability of future generations to meet their own needs",
+      "importance": 10,
+      "fun_fact": "The concept of sustainable energy was first introduced in the 1980s by the World Commission on Environment and Development",
+      "topic_slug": "sustainable_energy",
+      "topic": "Sustainable Energy"
+    },
+    {
+      "id": "sustainable_energy__N2",
+      "label": "Renewable Energy",
+      "type": "concept",
+      "depth": 1,
+      "description": "Energy generated from natural resources that can be replenished over time, such as sunlight, wind, and water",
+      "importance": 9,
+      "fun_fact": "Renewable energy accounts for over 26% of global electricity generation",
+      "topic_slug": "sustainable_energy",
+      "topic": "Sustainable Energy"
+    },
+    {
+      "id": "sustainable_energy__N3",
+      "label": "Solar Energy",
+      "type": "concept",
+      "depth": 2,
+      "description": "Energy generated from the sun's rays, either through photovoltaic panels or solar thermal systems",
+      "importance": 8,
+      "fun_fact": "The first solar panel was invented in 1883 by Charles Fritts",
+      "topic_slug": "sustainable_energy",
+      "topic": "Sustainable Energy"
+    },
+    {
+      "id": "sustainable_energy__N4",
+      "label": "Wind Power",
+      "type": "concept",
+      "depth": 2,
+      "description": "Energy generated from the wind, using wind turbines to convert kinetic energy into electricity",
+      "importance": 8,
+      "fun_fact": "The first wind turbine was built in 1888 by James Blyth",
+      "topic_slug": "sustainable_energy",
+      "topic": "Sustainable Energy"
+    },
+    {
+      "id": "sustainable_energy__N5",
+      "label": "Hydroelectricity",
+      "type": "concept",
+      "depth": 2,
+      "description": "Energy generated from the movement of water, using hydroelectric power plants to convert kinetic energy into electricity",
+      "importance": 8,
+      "fun_fact": "Hydroelectricity is the oldest and largest source of renewable energy",
+      "topic_slug": "sustainable_energy",
+      "topic": "Sustainable Energy"
+    },
+    {
+      "id": "sustainable_energy__N6",
+      "label": "Geothermal Energy",
+      "type": "concept",
+      "depth": 2,
+      "description": "Energy generated from the heat of the Earth, using geothermal power plants to convert thermal energy into electricity",
+      "importance": 7,
+      "fun_fact": "The first geothermal power plant was built in 1904 in Italy",
+      "topic_slug": "sustainable_energy",
+      "topic": "Sustainable Energy"
+    },
+    {
+      "id": "sustainable_energy__N7",
+      "label": "Energy Efficiency",
+      "type": "concept",
+      "depth": 2,
+      "description": "The use of technology and practices to reduce energy consumption and improve energy productivity",
+      "importance": 8,
+      "fun_fact": "Energy efficiency can reduce energy consumption by up to 30%",
+      "topic_slug": "sustainable_energy",
+      "topic": "Sustainable Energy"
+    },
+    {
+      "id": "sustainable_energy__N8",
+      "label": "Climate Change",
+      "type": "concept",
+      "depth": 1,
+      "description": "The long-term warming of the planet due to human activities, such as burning fossil fuels and deforestation",
+      "importance": 9,
+      "fun_fact": "Climate change is one of the most pressing issues of the 21st century",
+      "topic_slug": "sustainable_energy",
+      "topic": "Sustainable Energy"
+    },
+    {
+      "id": "sustainable_energy__N9",
+      "label": "Fossil Fuels",
+      "type": "concept",
+      "depth": 1,
+      "description": "Energy sources such as coal, oil, and natural gas, which are finite and contribute to climate change",
+      "importance": 8,
+      "fun_fact": "Fossil fuels account for over 80% of global energy consumption",
+      "topic_slug": "sustainable_energy",
+      "topic": "Sustainable Energy"
+    },
+    {
+      "id": "sustainable_energy__N10",
+      "label": "World Commission on Environment and Development",
+      "type": "organization",
+      "depth": 3,
+      "description": "A United Nations commission that introduced the concept of sustainable development in 1987",
+      "importance": 6,
+      "fun_fact": "The commission was chaired by Gro Harlem Brundtland",
+      "topic_slug": "sustainable_energy",
+      "topic": "Sustainable Energy"
+    },
+    {
+      "id": "sustainable_energy__N11",
+      "label": "Gro Harlem Brundtland",
+      "type": "person",
+      "depth": 3,
+      "description": "A Norwegian politician and environmentalist who chaired the World Commission on Environment and Development",
+      "importance": 5,
+      "fun_fact": "Brundtland was the first woman to serve as Prime Minister of Norway",
+      "topic_slug": "sustainable_energy",
+      "topic": "Sustainable Energy"
+    },
+    {
+      "id": "sustainable_energy__N12",
+      "label": "Paris Agreement",
+      "type": "event",
+      "depth": 3,
+      "description": "An international agreement signed in 2015 to limit global warming to well below 2\u00b0C and pursue efforts to limit it to 1.5\u00b0C",
+      "importance": 8,
+      "fun_fact": "The agreement was signed by over 190 countries",
+      "topic_slug": "sustainable_energy",
+      "topic": "Sustainable Energy"
+    },
+    {
+      "id": "sustainable_energy__N13",
+      "label": "Renewable Energy Policy",
+      "type": "application",
+      "depth": 3,
+      "description": "Policies and regulations that support the development and deployment of renewable energy technologies",
+      "importance": 7,
+      "fun_fact": "Renewable energy policies have been implemented in over 140 countries",
+      "topic_slug": "sustainable_energy",
+      "topic": "Sustainable Energy"
+    },
+    {
+      "id": "sustainable_energy__N14",
+      "label": "Solar Panel Installation",
+      "type": "example",
+      "depth": 4,
+      "description": "The installation of solar panels on homes and buildings to generate electricity from sunlight",
+      "importance": 4,
+      "fun_fact": "The cost of solar panel installation has decreased by over 70% in the last decade",
+      "topic_slug": "sustainable_energy",
+      "topic": "Sustainable Energy"
+    },
+    {
+      "id": "sustainable_energy__N15",
+      "label": "Wind Farm",
+      "type": "example",
+      "depth": 4,
+      "description": "A group of wind turbines installed in a specific location to generate electricity from wind",
+      "importance": 4,
+      "fun_fact": "The largest wind farm in the world is located in the United States",
+      "topic_slug": "sustainable_energy",
+      "topic": "Sustainable Energy"
     }
   ],
   "global_edges": [
@@ -1232,9 +1406,156 @@
       "relation": "used_by",
       "strength": 7,
       "topic": "Ecological Conservation"
+    },
+    {
+      "source": "sustainable_energy__N1",
+      "target": "sustainable_energy__N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Sustainable Energy"
+    },
+    {
+      "source": "sustainable_energy__N2",
+      "target": "sustainable_energy__N3",
+      "relation": "is_type_of",
+      "strength": 8,
+      "topic": "Sustainable Energy"
+    },
+    {
+      "source": "sustainable_energy__N2",
+      "target": "sustainable_energy__N4",
+      "relation": "is_type_of",
+      "strength": 8,
+      "topic": "Sustainable Energy"
+    },
+    {
+      "source": "sustainable_energy__N2",
+      "target": "sustainable_energy__N5",
+      "relation": "is_type_of",
+      "strength": 8,
+      "topic": "Sustainable Energy"
+    },
+    {
+      "source": "sustainable_energy__N2",
+      "target": "sustainable_energy__N6",
+      "relation": "is_type_of",
+      "strength": 7,
+      "topic": "Sustainable Energy"
+    },
+    {
+      "source": "sustainable_energy__N1",
+      "target": "sustainable_energy__N8",
+      "relation": "contrasts_with",
+      "strength": 9,
+      "topic": "Sustainable Energy"
+    },
+    {
+      "source": "sustainable_energy__N8",
+      "target": "sustainable_energy__N9",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Sustainable Energy"
+    },
+    {
+      "source": "sustainable_energy__N1",
+      "target": "sustainable_energy__N10",
+      "relation": "related_to",
+      "strength": 6,
+      "topic": "Sustainable Energy"
+    },
+    {
+      "source": "sustainable_energy__N10",
+      "target": "sustainable_energy__N11",
+      "relation": "discovered_by",
+      "strength": 5,
+      "topic": "Sustainable Energy"
+    },
+    {
+      "source": "sustainable_energy__N1",
+      "target": "sustainable_energy__N12",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Sustainable Energy"
+    },
+    {
+      "source": "sustainable_energy__N2",
+      "target": "sustainable_energy__N13",
+      "relation": "used_in",
+      "strength": 7,
+      "topic": "Sustainable Energy"
+    },
+    {
+      "source": "sustainable_energy__N3",
+      "target": "sustainable_energy__N14",
+      "relation": "is_type_of",
+      "strength": 4,
+      "topic": "Sustainable Energy"
+    },
+    {
+      "source": "sustainable_energy__N4",
+      "target": "sustainable_energy__N15",
+      "relation": "is_type_of",
+      "strength": 4,
+      "topic": "Sustainable Energy"
+    },
+    {
+      "source": "sustainable_energy__N1",
+      "target": "sustainable_energy__N7",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Sustainable Energy"
+    },
+    {
+      "source": "sustainable_energy__N7",
+      "target": "sustainable_energy__N13",
+      "relation": "used_in",
+      "strength": 7,
+      "topic": "Sustainable Energy"
+    },
+    {
+      "source": "sustainable_energy__N9",
+      "target": "sustainable_energy__N12",
+      "relation": "contrasts_with",
+      "strength": 8,
+      "topic": "Sustainable Energy"
+    },
+    {
+      "source": "sustainable_energy__N11",
+      "target": "sustainable_energy__N12",
+      "relation": "related_to",
+      "strength": 5,
+      "topic": "Sustainable Energy"
+    },
+    {
+      "source": "sustainable_energy__N13",
+      "target": "sustainable_energy__N14",
+      "relation": "enables",
+      "strength": 4,
+      "topic": "Sustainable Energy"
+    },
+    {
+      "source": "sustainable_energy__N13",
+      "target": "sustainable_energy__N15",
+      "relation": "enables",
+      "strength": 4,
+      "topic": "Sustainable Energy"
     }
   ],
   "cross_topic_edges": [
+    {
+      "source": "climate_change__N1",
+      "target": "sustainable_energy__N8",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "climate change"
+    },
+    {
+      "source": "climate_change__N3",
+      "target": "sustainable_energy__N2",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "renewable energy"
+    },
     {
       "source": "climate_change__N4",
       "target": "ecological_conservation__N5",
@@ -1253,7 +1574,10 @@
     ],
     "psychology": [
       "neuroplasticity"
+    ],
+    "physics": [
+      "sustainable_energy"
     ]
   },
-  "last_updated": "2026-06-23T23:38:52.930427"
+  "last_updated": "2026-06-24T10:37:29.062035"
 }

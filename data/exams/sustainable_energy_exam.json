@@ -1,0 +1,161 @@
+{
+  "topic": "Sustainable Energy",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary goal of sustainable energy?",
+      "options": {
+        "A": "To reduce energy consumption",
+        "B": "To meet the needs of the present without compromising the ability of future generations to meet their own needs",
+        "C": "To increase the use of fossil fuels",
+        "D": "To reduce the cost of energy production"
+      },
+      "correct": "B",
+      "explanation": "Sustainable energy aims to meet the needs of the present without compromising the ability of future generations to meet their own needs, as defined by the World Commission on Environment and Development.",
+      "node_id": "Sustainable Energy",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which of the following renewable energy sources is the oldest and largest source of renewable energy?",
+      "options": {
+        "A": "Solar Energy",
+        "B": "Wind Power",
+        "C": "Hydroelectricity",
+        "D": "Geothermal Energy"
+      },
+      "correct": "C",
+      "explanation": "Hydroelectricity is the oldest and largest source of renewable energy, as it has been used for centuries and accounts for a significant portion of global renewable energy production.",
+      "node_id": "Hydroelectricity",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the estimated potential reduction in energy consumption through the use of energy efficiency measures?",
+      "options": {
+        "A": "10%",
+        "B": "20%",
+        "C": "30%",
+        "D": "40%"
+      },
+      "correct": "C",
+      "explanation": "Energy efficiency measures can reduce energy consumption by up to 30%, as stated in the core concepts.",
+      "node_id": "Energy Efficiency",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary cause of climate change?",
+      "options": {
+        "A": "Deforestation",
+        "B": "Burning of fossil fuels",
+        "C": "Overpopulation",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanation": "Climate change is caused by a combination of factors, including deforestation, burning of fossil fuels, and overpopulation.",
+      "node_id": "Climate Change",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the main objective of the Paris Agreement?",
+      "options": {
+        "A": "To reduce greenhouse gas emissions by 50%",
+        "B": "To limit global warming to well below 2\u00b0C and pursue efforts to limit it to 1.5\u00b0C",
+        "C": "To increase the use of renewable energy sources",
+        "D": "To reduce energy consumption by 20%"
+      },
+      "correct": "B",
+      "explanation": "The Paris Agreement aims to limit global warming to well below 2\u00b0C and pursue efforts to limit it to 1.5\u00b0C, as stated in the agreement.",
+      "node_id": "Paris Agreement",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "Which of the following is a fun fact about geothermal energy?",
+      "options": {
+        "A": "The first geothermal power plant was built in 1904 in the United States",
+        "B": "Geothermal energy accounts for 50% of global renewable energy production",
+        "C": "The first geothermal power plant was built in 1904 in Italy",
+        "D": "Geothermal energy is only available in volcanic regions"
+      },
+      "correct": "C",
+      "explanation": "The first geothermal power plant was indeed built in 1904 in Italy, as stated in the core concepts.",
+      "node_id": "Geothermal Energy",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary benefit of using renewable energy sources?",
+      "options": {
+        "A": "Reduced energy consumption",
+        "B": "Increased energy security",
+        "C": "Reduced greenhouse gas emissions",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanation": "Renewable energy sources offer several benefits, including reduced energy consumption, increased energy security, and reduced greenhouse gas emissions.",
+      "node_id": "Renewable Energy",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What are the key components of a renewable energy policy?",
+      "sample_answer": "A renewable energy policy should include incentives for the development and deployment of renewable energy technologies, tax credits for companies investing in renewable energy, and regulations to ensure a level playing field for all energy sources.",
+      "keywords": [
+        "incentives",
+        "tax credits",
+        "regulations"
+      ],
+      "node_id": "Renewable Energy Policy",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "How does energy efficiency contribute to sustainable development?",
+      "sample_answer": "Energy efficiency contributes to sustainable development by reducing energy consumption, decreasing greenhouse gas emissions, and promoting economic growth. It also helps to reduce energy poverty and improve energy access for marginalized communities.",
+      "keywords": [
+        "energy consumption",
+        "greenhouse gas emissions",
+        "economic growth"
+      ],
+      "node_id": "Energy Efficiency",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What is the role of solar energy in the transition to a sustainable energy system?",
+      "sample_answer": "Solar energy plays a crucial role in the transition to a sustainable energy system by providing a clean and renewable source of energy. It can be used to generate electricity, heat water, and power vehicles, reducing our reliance on fossil fuels and mitigating climate change.",
+      "keywords": [
+        "solar energy",
+        "renewable energy",
+        "climate change"
+      ],
+      "node_id": "Solar Energy",
+      "points": 10
+    }
+  ]
+}
