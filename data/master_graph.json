@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 7,
-  "total_nodes": 106,
-  "total_edges": 131,
+  "total_topics": 8,
+  "total_nodes": 121,
+  "total_edges": 151,
   "topics": [
     {
       "topic": "Climate Change",
@@ -66,6 +66,15 @@
       "edge_count": 21,
       "description": "Artificial Intelligence (AI) refers to the development of computer systems that can perform tasks that typically require human intelligence, such as learning, problem-solving, and decision-making. AI has various subfields, including Machine Learning, Natural Language Processing, and Computer Vision. The field of AI has been rapidly evolving, with significant advancements in recent years, and has the potential to transform numerous industries and aspects of our lives.",
       "added_at": "2026-06-24T23:53:01.444644"
+    },
+    {
+      "topic": "Epigenetics",
+      "slug": "epigenetics",
+      "category": "biology",
+      "node_count": 15,
+      "edge_count": 20,
+      "description": "Epigenetics is the study of changes in gene expression that occur without altering the DNA sequence. These changes can be influenced by environmental factors and affect the regulation of gene expression, leading to various cellular and physiological traits. Epigenetics plays a crucial role in understanding disease susceptibility and developing new therapeutic approaches.",
+      "added_at": "2026-06-25T10:30:22.772190"
     }
   ],
   "global_nodes": [
@@ -1234,6 +1243,171 @@
       "fun_fact": "AI in healthcare has the potential to revolutionize the field of medicine",
       "topic_slug": "artificial_intelligence",
       "topic": "Artificial Intelligence"
+    },
+    {
+      "id": "epigenetics__N1",
+      "label": "Epigenetics",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of changes in gene expression that occur without altering the DNA sequence.",
+      "importance": 10,
+      "fun_fact": "The term 'epigenetics' was first coined by Conrad Waddington in 1942.",
+      "topic_slug": "epigenetics",
+      "topic": "Epigenetics"
+    },
+    {
+      "id": "epigenetics__N2",
+      "label": "Gene Expression",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process by which the information encoded in a gene is converted into a functional product, such as a protein.",
+      "importance": 9,
+      "fun_fact": "Gene expression is regulated by a complex interplay of transcription factors, chromatin structure, and epigenetic modifications.",
+      "topic_slug": "epigenetics",
+      "topic": "Epigenetics"
+    },
+    {
+      "id": "epigenetics__N3",
+      "label": "Environmental Influences",
+      "type": "concept",
+      "depth": 1,
+      "description": "External factors that can affect gene expression, such as diet, stress, and exposure to toxins.",
+      "importance": 8,
+      "fun_fact": "Environmental influences can lead to epigenetic changes that are heritable, but do not involve changes to the underlying DNA sequence.",
+      "topic_slug": "epigenetics",
+      "topic": "Epigenetics"
+    },
+    {
+      "id": "epigenetics__N4",
+      "label": "Cellular Differentiation",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process by which a cell becomes specialized to perform a specific function.",
+      "importance": 9,
+      "fun_fact": "Epigenetic changes play a crucial role in cellular differentiation, allowing cells to acquire specific functions and characteristics.",
+      "topic_slug": "epigenetics",
+      "topic": "Epigenetics"
+    },
+    {
+      "id": "epigenetics__N5",
+      "label": "Genetic Variation",
+      "type": "concept",
+      "depth": 1,
+      "description": "The difference in DNA sequence between individuals or populations.",
+      "importance": 8,
+      "fun_fact": "Genetic variation can affect epigenetic regulation and contribute to differences in gene expression between individuals.",
+      "topic_slug": "epigenetics",
+      "topic": "Epigenetics"
+    },
+    {
+      "id": "epigenetics__N6",
+      "label": "Disease Susceptibility",
+      "type": "concept",
+      "depth": 1,
+      "description": "The likelihood of an individual developing a particular disease, influenced by genetic and epigenetic factors.",
+      "importance": 9,
+      "fun_fact": "Epigenetic changes have been implicated in various diseases, including cancer, neurological disorders, and metabolic disorders.",
+      "topic_slug": "epigenetics",
+      "topic": "Epigenetics"
+    },
+    {
+      "id": "epigenetics__N7",
+      "label": "Conrad Waddington",
+      "type": "person",
+      "depth": 2,
+      "description": "A British biologist who first coined the term 'epigenetics' in 1942.",
+      "importance": 7,
+      "fun_fact": "Waddington's work laid the foundation for the field of epigenetics and its study of gene regulation and development.",
+      "topic_slug": "epigenetics",
+      "topic": "Epigenetics"
+    },
+    {
+      "id": "epigenetics__N8",
+      "label": "DNA Methylation",
+      "type": "concept",
+      "depth": 2,
+      "description": "A type of epigenetic modification that involves the addition of a methyl group to DNA, typically resulting in gene silencing.",
+      "importance": 8,
+      "fun_fact": "DNA methylation is a key mechanism of epigenetic regulation and has been implicated in various diseases, including cancer.",
+      "topic_slug": "epigenetics",
+      "topic": "Epigenetics"
+    },
+    {
+      "id": "epigenetics__N9",
+      "label": "Histone Modification",
+      "type": "concept",
+      "depth": 2,
+      "description": "A type of epigenetic modification that involves the addition of various chemical groups to histone proteins, affecting chromatin structure and gene expression.",
+      "importance": 8,
+      "fun_fact": "Histone modifications can either activate or repress gene expression, depending on the type of modification and the specific histone protein involved.",
+      "topic_slug": "epigenetics",
+      "topic": "Epigenetics"
+    },
+    {
+      "id": "epigenetics__N10",
+      "label": "Epigenetic Therapy",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of epigenetic modifications to treat diseases, such as cancer, by targeting specific genes or pathways.",
+      "importance": 9,
+      "fun_fact": "Epigenetic therapy has shown promise in treating various diseases, including cancer, by targeting epigenetic modifications that contribute to disease development.",
+      "topic_slug": "epigenetics",
+      "topic": "Epigenetics"
+    },
+    {
+      "id": "epigenetics__N11",
+      "label": "Cancer Epigenetics",
+      "type": "example",
+      "depth": 3,
+      "description": "The study of epigenetic changes that contribute to cancer development and progression.",
+      "importance": 8,
+      "fun_fact": "Epigenetic changes, such as DNA methylation and histone modification, play a crucial role in cancer development and can be targeted for cancer therapy.",
+      "topic_slug": "epigenetics",
+      "topic": "Epigenetics"
+    },
+    {
+      "id": "epigenetics__N12",
+      "label": "Neurological Disorders",
+      "type": "example",
+      "depth": 3,
+      "description": "Diseases that affect the nervous system, such as Alzheimer's disease and Parkinson's disease, which have been linked to epigenetic changes.",
+      "importance": 8,
+      "fun_fact": "Epigenetic changes have been implicated in the development and progression of various neurological disorders, highlighting the importance of epigenetics in understanding these diseases.",
+      "topic_slug": "epigenetics",
+      "topic": "Epigenetics"
+    },
+    {
+      "id": "epigenetics__N13",
+      "label": "GABAergic Neurotransmission",
+      "type": "concept",
+      "depth": 3,
+      "description": "A type of neurotransmission that involves the release of the neurotransmitter GABA, which has been linked to epigenetic regulation.",
+      "importance": 7,
+      "fun_fact": "GABAergic neurotransmission has been implicated in various neurological disorders, including epilepsy and anxiety disorders.",
+      "topic_slug": "epigenetics",
+      "topic": "Epigenetics"
+    },
+    {
+      "id": "epigenetics__N14",
+      "label": "Epigenetic Memory",
+      "type": "concept",
+      "depth": 3,
+      "description": "The ability of cells to retain epigenetic information and pass it on to daughter cells, even in the absence of the original environmental stimulus.",
+      "importance": 8,
+      "fun_fact": "Epigenetic memory allows cells to retain a 'memory' of past environmental exposures, which can influence gene expression and disease susceptibility.",
+      "topic_slug": "epigenetics",
+      "topic": "Epigenetics"
+    },
+    {
+      "id": "epigenetics__N15",
+      "label": "Epigenetic Regulation of Gene Expression",
+      "type": "fact",
+      "depth": 3,
+      "description": "The process by which epigenetic modifications, such as DNA methylation and histone modification, regulate gene expression.",
+      "importance": 9,
+      "fun_fact": "Epigenetic regulation of gene expression is a complex process that involves the interplay of multiple epigenetic modifications and transcription factors.",
+      "topic_slug": "epigenetics",
+      "topic": "Epigenetics"
     }
   ],
   "global_edges": [
@@ -2153,6 +2327,146 @@
       "relation": "is_part_of",
       "strength": 8,
       "topic": "Artificial Intelligence"
+    },
+    {
+      "source": "epigenetics__N1",
+      "target": "epigenetics__N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Epigenetics"
+    },
+    {
+      "source": "epigenetics__N1",
+      "target": "epigenetics__N3",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Epigenetics"
+    },
+    {
+      "source": "epigenetics__N1",
+      "target": "epigenetics__N4",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Epigenetics"
+    },
+    {
+      "source": "epigenetics__N1",
+      "target": "epigenetics__N5",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Epigenetics"
+    },
+    {
+      "source": "epigenetics__N1",
+      "target": "epigenetics__N6",
+      "relation": "leads_to",
+      "strength": 9,
+      "topic": "Epigenetics"
+    },
+    {
+      "source": "epigenetics__N2",
+      "target": "epigenetics__N8",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Epigenetics"
+    },
+    {
+      "source": "epigenetics__N2",
+      "target": "epigenetics__N9",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Epigenetics"
+    },
+    {
+      "source": "epigenetics__N3",
+      "target": "epigenetics__N10",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Epigenetics"
+    },
+    {
+      "source": "epigenetics__N4",
+      "target": "epigenetics__N11",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Epigenetics"
+    },
+    {
+      "source": "epigenetics__N5",
+      "target": "epigenetics__N12",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Epigenetics"
+    },
+    {
+      "source": "epigenetics__N6",
+      "target": "epigenetics__N13",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Epigenetics"
+    },
+    {
+      "source": "epigenetics__N7",
+      "target": "epigenetics__N1",
+      "relation": "discovered_by",
+      "strength": 7,
+      "topic": "Epigenetics"
+    },
+    {
+      "source": "epigenetics__N8",
+      "target": "epigenetics__N14",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Epigenetics"
+    },
+    {
+      "source": "epigenetics__N9",
+      "target": "epigenetics__N14",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Epigenetics"
+    },
+    {
+      "source": "epigenetics__N10",
+      "target": "epigenetics__N11",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Epigenetics"
+    },
+    {
+      "source": "epigenetics__N10",
+      "target": "epigenetics__N12",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Epigenetics"
+    },
+    {
+      "source": "epigenetics__N11",
+      "target": "epigenetics__N15",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Epigenetics"
+    },
+    {
+      "source": "epigenetics__N12",
+      "target": "epigenetics__N15",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Epigenetics"
+    },
+    {
+      "source": "epigenetics__N13",
+      "target": "epigenetics__N15",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Epigenetics"
+    },
+    {
+      "source": "epigenetics__N14",
+      "target": "epigenetics__N15",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Epigenetics"
     }
   ],
   "cross_topic_edges": [
@@ -2176,6 +2490,13 @@
       "relation": "cross_topic_connection",
       "strength": 6,
       "label": "sustainable development"
+    },
+    {
+      "source": "genomics__N5",
+      "target": "epigenetics__N1",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "epigenetics"
     }
   ],
   "category_map": {
@@ -2185,7 +2506,8 @@
     "biology": [
       "evolutionary_biology",
       "ecological_conservation",
-      "genomics"
+      "genomics",
+      "epigenetics"
     ],
     "psychology": [
       "neuroplasticity"
@@ -2197,5 +2519,5 @@
       "artificial_intelligence"
     ]
   },
-  "last_updated": "2026-06-24T23:53:01.444684"
+  "last_updated": "2026-06-25T10:30:22.772226"
 }

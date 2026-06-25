@@ -1,0 +1,164 @@
+{
+  "topic": "Epigenetics",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary focus of the field of epigenetics?",
+      "options": {
+        "A": "The study of changes in gene expression that occur without altering the DNA sequence",
+        "B": "The study of genetic mutations and their impact on disease",
+        "C": "The study of environmental factors and their impact on gene expression",
+        "D": "The study of cellular differentiation and its role in development"
+      },
+      "correct": "A",
+      "explanation": "Epigenetics is the study of changes in gene expression that occur without altering the DNA sequence, making option A the correct answer.",
+      "node_id": "Epigenetics",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which of the following is an example of an epigenetic modification that can regulate gene expression?",
+      "options": {
+        "A": "DNA mutation",
+        "B": "DNA methylation",
+        "C": "Gene duplication",
+        "D": "Chromosomal rearrangement"
+      },
+      "correct": "B",
+      "explanation": "DNA methylation is an example of an epigenetic modification that can regulate gene expression by adding a methyl group to DNA, making option B the correct answer.",
+      "node_id": "DNA Methylation",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the ability of cells to retain epigenetic information and pass it on to daughter cells, even in the absence of the original environmental stimulus?",
+      "options": {
+        "A": "Epigenetic memory",
+        "B": "Genetic memory",
+        "C": "Cellular memory",
+        "D": "Environmental memory"
+      },
+      "correct": "A",
+      "explanation": "Epigenetic memory refers to the ability of cells to retain epigenetic information and pass it on to daughter cells, even in the absence of the original environmental stimulus, making option A the correct answer.",
+      "node_id": "Epigenetic Memory",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "Who is credited with coining the term 'epigenetics' in 1942?",
+      "options": {
+        "A": "Conrad Waddington",
+        "B": "Gregor Mendel",
+        "C": "Charles Darwin",
+        "D": "James Watson"
+      },
+      "correct": "A",
+      "explanation": "Conrad Waddington is credited with coining the term 'epigenetics' in 1942, making option A the correct answer.",
+      "node_id": "Conrad Waddington",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the process by which a cell becomes specialized to perform a specific function?",
+      "options": {
+        "A": "Cellular differentiation",
+        "B": "Gene expression",
+        "C": "Epigenetic modification",
+        "D": "Genetic variation"
+      },
+      "correct": "A",
+      "explanation": "Cellular differentiation is the process by which a cell becomes specialized to perform a specific function, making option A the correct answer.",
+      "node_id": "Cellular Differentiation",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the study of epigenetic changes that contribute to cancer development and progression?",
+      "options": {
+        "A": "Cancer epigenetics",
+        "B": "Cancer genetics",
+        "C": "Epigenetic therapy",
+        "D": "Cancer biology"
+      },
+      "correct": "A",
+      "explanation": "Cancer epigenetics is the study of epigenetic changes that contribute to cancer development and progression, making option A the correct answer.",
+      "node_id": "Cancer Epigenetics",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the process by which epigenetic modifications, such as DNA methylation and histone modification, regulate gene expression?",
+      "options": {
+        "A": "Epigenetic regulation of gene expression",
+        "B": "Gene expression regulation",
+        "C": "Epigenetic modification",
+        "D": "Genetic regulation"
+      },
+      "correct": "A",
+      "explanation": "Epigenetic regulation of gene expression is the process by which epigenetic modifications, such as DNA methylation and histone modification, regulate gene expression, making option A the correct answer.",
+      "node_id": "Epigenetic Regulation of Gene Expression",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the role of epigenetic modifications in regulating gene expression.",
+      "sample_answer": "Epigenetic modifications, such as DNA methylation and histone modification, play a crucial role in regulating gene expression by adding or removing chemical groups to DNA or histone proteins, which can either activate or repress gene expression.",
+      "keywords": [
+        "epigenetic modifications",
+        "gene expression",
+        "DNA methylation",
+        "histone modification"
+      ],
+      "node_id": "Epigenetic Regulation of Gene Expression",
+      "points": 15
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Explain the concept of epigenetic memory and its significance in understanding disease susceptibility.",
+      "sample_answer": "Epigenetic memory refers to the ability of cells to retain epigenetic information and pass it on to daughter cells, even in the absence of the original environmental stimulus. This concept is significant in understanding disease susceptibility, as it suggests that environmental factors can lead to epigenetic changes that are heritable and can influence gene expression and disease development.",
+      "keywords": [
+        "epigenetic memory",
+        "disease susceptibility",
+        "environmental factors",
+        "gene expression"
+      ],
+      "node_id": "Epigenetic Memory",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Discuss the role of epigenetics in understanding neurological disorders, such as Alzheimer's disease and Parkinson's disease.",
+      "sample_answer": "Epigenetics plays a crucial role in understanding neurological disorders, such as Alzheimer's disease and Parkinson's disease, as epigenetic changes have been implicated in the development and progression of these diseases. Epigenetic modifications, such as DNA methylation and histone modification, can regulate gene expression and contribute to disease susceptibility.",
+      "keywords": [
+        "epigenetics",
+        "neurological disorders",
+        "Alzheimer's disease",
+        "Parkinson's disease"
+      ],
+      "node_id": "Neurological Disorders",
+      "points": 15
+    }
+  ]
+}

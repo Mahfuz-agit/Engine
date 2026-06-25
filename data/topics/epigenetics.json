@@ -1,0 +1,389 @@
+{
+  "topic": "Epigenetics",
+  "category": "biology",
+  "description": "Epigenetics is the study of changes in gene expression that occur without altering the DNA sequence. These changes can be influenced by environmental factors and affect the regulation of gene expression, leading to various cellular and physiological traits. Epigenetics plays a crucial role in understanding disease susceptibility and developing new therapeutic approaches.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Epigenetics",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of changes in gene expression that occur without altering the DNA sequence.",
+      "importance": 10,
+      "fun_fact": "The term 'epigenetics' was first coined by Conrad Waddington in 1942."
+    },
+    {
+      "id": "N2",
+      "label": "Gene Expression",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process by which the information encoded in a gene is converted into a functional product, such as a protein.",
+      "importance": 9,
+      "fun_fact": "Gene expression is regulated by a complex interplay of transcription factors, chromatin structure, and epigenetic modifications."
+    },
+    {
+      "id": "N3",
+      "label": "Environmental Influences",
+      "type": "concept",
+      "depth": 1,
+      "description": "External factors that can affect gene expression, such as diet, stress, and exposure to toxins.",
+      "importance": 8,
+      "fun_fact": "Environmental influences can lead to epigenetic changes that are heritable, but do not involve changes to the underlying DNA sequence."
+    },
+    {
+      "id": "N4",
+      "label": "Cellular Differentiation",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process by which a cell becomes specialized to perform a specific function.",
+      "importance": 9,
+      "fun_fact": "Epigenetic changes play a crucial role in cellular differentiation, allowing cells to acquire specific functions and characteristics."
+    },
+    {
+      "id": "N5",
+      "label": "Genetic Variation",
+      "type": "concept",
+      "depth": 1,
+      "description": "The difference in DNA sequence between individuals or populations.",
+      "importance": 8,
+      "fun_fact": "Genetic variation can affect epigenetic regulation and contribute to differences in gene expression between individuals."
+    },
+    {
+      "id": "N6",
+      "label": "Disease Susceptibility",
+      "type": "concept",
+      "depth": 1,
+      "description": "The likelihood of an individual developing a particular disease, influenced by genetic and epigenetic factors.",
+      "importance": 9,
+      "fun_fact": "Epigenetic changes have been implicated in various diseases, including cancer, neurological disorders, and metabolic disorders."
+    },
+    {
+      "id": "N7",
+      "label": "Conrad Waddington",
+      "type": "person",
+      "depth": 2,
+      "description": "A British biologist who first coined the term 'epigenetics' in 1942.",
+      "importance": 7,
+      "fun_fact": "Waddington's work laid the foundation for the field of epigenetics and its study of gene regulation and development."
+    },
+    {
+      "id": "N8",
+      "label": "DNA Methylation",
+      "type": "concept",
+      "depth": 2,
+      "description": "A type of epigenetic modification that involves the addition of a methyl group to DNA, typically resulting in gene silencing.",
+      "importance": 8,
+      "fun_fact": "DNA methylation is a key mechanism of epigenetic regulation and has been implicated in various diseases, including cancer."
+    },
+    {
+      "id": "N9",
+      "label": "Histone Modification",
+      "type": "concept",
+      "depth": 2,
+      "description": "A type of epigenetic modification that involves the addition of various chemical groups to histone proteins, affecting chromatin structure and gene expression.",
+      "importance": 8,
+      "fun_fact": "Histone modifications can either activate or repress gene expression, depending on the type of modification and the specific histone protein involved."
+    },
+    {
+      "id": "N10",
+      "label": "Epigenetic Therapy",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of epigenetic modifications to treat diseases, such as cancer, by targeting specific genes or pathways.",
+      "importance": 9,
+      "fun_fact": "Epigenetic therapy has shown promise in treating various diseases, including cancer, by targeting epigenetic modifications that contribute to disease development."
+    },
+    {
+      "id": "N11",
+      "label": "Cancer Epigenetics",
+      "type": "example",
+      "depth": 3,
+      "description": "The study of epigenetic changes that contribute to cancer development and progression.",
+      "importance": 8,
+      "fun_fact": "Epigenetic changes, such as DNA methylation and histone modification, play a crucial role in cancer development and can be targeted for cancer therapy."
+    },
+    {
+      "id": "N12",
+      "label": "Neurological Disorders",
+      "type": "example",
+      "depth": 3,
+      "description": "Diseases that affect the nervous system, such as Alzheimer's disease and Parkinson's disease, which have been linked to epigenetic changes.",
+      "importance": 8,
+      "fun_fact": "Epigenetic changes have been implicated in the development and progression of various neurological disorders, highlighting the importance of epigenetics in understanding these diseases."
+    },
+    {
+      "id": "N13",
+      "label": "GABAergic Neurotransmission",
+      "type": "concept",
+      "depth": 3,
+      "description": "A type of neurotransmission that involves the release of the neurotransmitter GABA, which has been linked to epigenetic regulation.",
+      "importance": 7,
+      "fun_fact": "GABAergic neurotransmission has been implicated in various neurological disorders, including epilepsy and anxiety disorders."
+    },
+    {
+      "id": "N14",
+      "label": "Epigenetic Memory",
+      "type": "concept",
+      "depth": 3,
+      "description": "The ability of cells to retain epigenetic information and pass it on to daughter cells, even in the absence of the original environmental stimulus.",
+      "importance": 8,
+      "fun_fact": "Epigenetic memory allows cells to retain a 'memory' of past environmental exposures, which can influence gene expression and disease susceptibility."
+    },
+    {
+      "id": "N15",
+      "label": "Epigenetic Regulation of Gene Expression",
+      "type": "fact",
+      "depth": 3,
+      "description": "The process by which epigenetic modifications, such as DNA methylation and histone modification, regulate gene expression.",
+      "importance": 9,
+      "fun_fact": "Epigenetic regulation of gene expression is a complex process that involves the interplay of multiple epigenetic modifications and transcription factors."
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Gene expression is a key aspect of epigenetics, as epigenetic modifications can regulate gene expression."
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "Environmental influences can affect epigenetic modifications, which in turn can regulate gene expression."
+    },
+    {
+      "source": "N1",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Cellular differentiation is a process that involves epigenetic changes, which allow cells to acquire specific functions and characteristics."
+    },
+    {
+      "source": "N1",
+      "target": "N5",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "Genetic variation can affect epigenetic regulation, which in turn can influence gene expression and disease susceptibility."
+    },
+    {
+      "source": "N1",
+      "target": "N6",
+      "relation": "leads_to",
+      "strength": 9,
+      "description": "Epigenetic changes can contribute to disease susceptibility, as they can affect gene expression and cellular function."
+    },
+    {
+      "source": "N2",
+      "target": "N8",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "DNA methylation is a type of epigenetic modification that can regulate gene expression."
+    },
+    {
+      "source": "N2",
+      "target": "N9",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Histone modification is a type of epigenetic modification that can regulate gene expression."
+    },
+    {
+      "source": "N3",
+      "target": "N10",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Environmental influences can be used to target epigenetic modifications for therapeutic purposes."
+    },
+    {
+      "source": "N4",
+      "target": "N11",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Cellular differentiation is a process that involves epigenetic changes, which can contribute to cancer development and progression."
+    },
+    {
+      "source": "N5",
+      "target": "N12",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "Genetic variation can affect epigenetic regulation, which in turn can influence disease susceptibility, including neurological disorders."
+    },
+    {
+      "source": "N6",
+      "target": "N13",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Disease susceptibility can be influenced by epigenetic changes, including those that affect GABAergic neurotransmission."
+    },
+    {
+      "source": "N7",
+      "target": "N1",
+      "relation": "discovered_by",
+      "strength": 7,
+      "description": "Conrad Waddington first coined the term 'epigenetics' in 1942."
+    },
+    {
+      "source": "N8",
+      "target": "N14",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "DNA methylation is a type of epigenetic modification that can contribute to epigenetic memory."
+    },
+    {
+      "source": "N9",
+      "target": "N14",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Histone modification is a type of epigenetic modification that can contribute to epigenetic memory."
+    },
+    {
+      "source": "N10",
+      "target": "N11",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Epigenetic therapy can be used to target epigenetic modifications that contribute to cancer development and progression."
+    },
+    {
+      "source": "N10",
+      "target": "N12",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Epigenetic therapy can be used to target epigenetic modifications that contribute to neurological disorders."
+    },
+    {
+      "source": "N11",
+      "target": "N15",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Cancer epigenetics involves the study of epigenetic modifications that contribute to cancer development and progression, including those that regulate gene expression."
+    },
+    {
+      "source": "N12",
+      "target": "N15",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Neurological disorders involve epigenetic changes that can regulate gene expression and contribute to disease susceptibility."
+    },
+    {
+      "source": "N13",
+      "target": "N15",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "GABAergic neurotransmission involves epigenetic regulation of gene expression, which can contribute to neurological disorders."
+    },
+    {
+      "source": "N14",
+      "target": "N15",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Epigenetic memory involves the retention of epigenetic information, which can regulate gene expression and contribute to disease susceptibility."
+    }
+  ],
+  "key_takeaways": [
+    "Epigenetics is the study of changes in gene expression that occur without altering the DNA sequence.",
+    "Epigenetic modifications, such as DNA methylation and histone modification, can regulate gene expression and contribute to disease susceptibility.",
+    "Environmental influences can affect epigenetic modifications, which in turn can regulate gene expression and disease susceptibility."
+  ],
+  "real_world_impact": "Epigenetics has significant implications for our understanding of disease susceptibility and the development of new therapeutic approaches. By targeting epigenetic modifications, researchers and clinicians can develop new treatments for various diseases, including cancer and neurological disorders. Additionally, epigenetics can inform our understanding of the impact of environmental factors on human health, highlighting the importance of considering the interplay between genetic and environmental factors in disease development and progression.",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Cancer_genetics-epigenetics_yin-yang.jpg",
+      "title": "Cancer genetics-epigenetics yin-yang.jpg",
+      "license": "Public domain",
+      "artist": "Proceedings of the National Academy of Sciences (PNAS) http://www.pnas.org",
+      "description": "The interrelationship of cancer genetics and epigenetics. Rather than a traditional Venn diagram, cancer genetics and epigenetics are drawn as a yin-yang. For example, loss of imprinting might be caused by genetic disruption of CTCF or by altered methylation of the DMR (illustrated).",
+      "width": 1800,
+      "height": 1790,
+      "source_query": "Epigenetics"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/EpigenByYear_1.png",
+      "title": "EpigenByYear 1.png",
+      "license": "CC BY-SA 4.0",
+      "artist": "Walter Tau",
+      "description": "Number of patent families (from SciFinder) and non-patent documents (from Scopus) with the term \"epigenetic+\" by publication year.  \"Other\" references in Scopus comprise Editorials, Notes, Conference Papers, Short Surveys, Letters, DataPapers, Conference Reviews, Undefined and Reports. Errata and Re",
+      "width": 3705,
+      "height": 2272,
+      "source_query": "Epigenetics"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Epigenetic_priming_in_Cancer.png",
+      "title": "Epigenetic priming in Cancer.png",
+      "license": "CC BY-SA 4.0",
+      "artist": "Paolaap1997",
+      "description": "Sensitizaci\u00f3n de una c\u00e9lula cancer\u00edgena con priming epigen\u00e9tico.",
+      "width": 4096,
+      "height": 1443,
+      "source_query": "Epigenetics"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Epigenetic_priming_model.png",
+      "title": "Epigenetic priming model.png",
+      "license": "CC BY-SA 4.0",
+      "artist": "Paolaap1997",
+      "description": "Modelo general propuesto para priming epigen\u00e9tico",
+      "width": 4096,
+      "height": 4096,
+      "source_query": "Epigenetics"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Epigenetics_modifications.png",
+      "title": "Epigenetics modifications.png",
+      "license": "CC BY-SA 4.0",
+      "artist": "Jean141",
+      "description": "This image shows possible epigenetics modifications on DNA, such as DNA methylation at CpG sites, and modification on histone tails, such as acetylation and methylation",
+      "width": 574,
+      "height": 324,
+      "source_query": "Epigenetics"
+    }
+  ],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Epigenetics",
+    "papers": [
+      {
+        "title": "Epigenetic Regulations of GABAergic Neurotransmission: Relevance for Neurological Disorders and Epigenetic Therapy",
+        "url": "https://doi.org/10.1159/000444713"
+      },
+      {
+        "title": "DNA methylation patterns and epigenetic memory",
+        "url": "https://doi.org/10.1101/gad.947102"
+      },
+      {
+        "title": "Epigenetics in Cancer",
+        "url": "https://doi.org/10.1056/nejmra072067"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 100,
+      "issues": [],
+      "node_count": 15,
+      "edge_count": 20
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Epigenetic Inheritance",
+        "Non-Coding RNA"
+      ],
+      "strengths": [
+        "Clear connections between epigenetics and gene expression",
+        "Inclusion of key epigenetic modifications such as DNA methylation and histone modification"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 92.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}
