@@ -102,5 +102,18 @@
     "master_total_topics": 8,
     "ended_at": "2026-06-25T10:30:22.774196",
     "duration_seconds": 39.5
+  },
+  {
+    "started_at": "2026-06-25T19:20:18.324784",
+    "status": "success",
+    "topic": "Environmental Epidemiology",
+    "sources_found": 5,
+    "images_found": 0,
+    "quality_score": 82.5,
+    "quality_passed": true,
+    "exam_questions": 10,
+    "master_total_topics": 9,
+    "ended_at": "2026-06-25T19:20:59.376501",
+    "duration_seconds": 41.1
   }
 ]

@@ -1,0 +1,251 @@
+{
+  "topic": "Environmental Epidemiology",
+  "category": "medicine",
+  "description": "Environmental epidemiology is a field of study that examines the relationship between environmental factors and human health. It involves the use of epidemiological principles and methods to investigate the impact of environmental exposures on human health. The field is crucial in informing public health policy and decision-making to mitigate the adverse effects of environmental factors on human health.",
+  "nodes": [
+    {
+      "id": "EE1",
+      "label": "Environmental Epidemiology",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of the relationship between environmental factors and human health",
+      "importance": 10,
+      "fun_fact": "The field has been instrumental in uncovering the health impacts of environmental disasters such as the Love Canal disaster"
+    },
+    {
+      "id": "EE2",
+      "label": "Toxicology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the adverse effects of chemicals on living organisms",
+      "importance": 9,
+      "fun_fact": "Toxicology has its roots in ancient civilizations, where people first observed the harmful effects of certain substances"
+    },
+    {
+      "id": "EE3",
+      "label": "Exposure Assessment",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process of estimating the level and duration of exposure to environmental factors",
+      "importance": 9,
+      "fun_fact": "Exposure assessment is a critical component of environmental epidemiology, as it helps to quantify the relationship between environmental factors and health outcomes"
+    },
+    {
+      "id": "EE4",
+      "label": "Disease Surveillance",
+      "type": "concept",
+      "depth": 1,
+      "description": "The ongoing, systematic collection, analysis, and interpretation of health-related data",
+      "importance": 8,
+      "fun_fact": "Disease surveillance is essential for detecting outbreaks and monitoring the spread of diseases"
+    },
+    {
+      "id": "EE5",
+      "label": "Risk Assessment",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process of evaluating the potential health risks associated with environmental exposures",
+      "importance": 9,
+      "fun_fact": "Risk assessment is a critical component of environmental policy-making, as it helps to inform decisions about environmental regulations and standards"
+    },
+    {
+      "id": "EE6",
+      "label": "Public Health Policy",
+      "type": "concept",
+      "depth": 1,
+      "description": "The development and implementation of policies to protect and promote public health",
+      "importance": 9,
+      "fun_fact": "Public health policy has been instrumental in reducing the burden of environmental diseases, such as lead poisoning and air pollution-related illnesses"
+    },
+    {
+      "id": "EE7",
+      "label": "Geographic Information Systems (GIS)",
+      "type": "application",
+      "depth": 2,
+      "description": "A computer-based tool for mapping and analyzing spatial data",
+      "importance": 8,
+      "fun_fact": "GIS has been widely used in environmental epidemiology to study the relationship between environmental exposures and health outcomes"
+    },
+    {
+      "id": "EE8",
+      "label": "Time Series Regression Studies",
+      "type": "application",
+      "depth": 2,
+      "description": "A statistical method for analyzing the relationship between environmental exposures and health outcomes over time",
+      "importance": 8,
+      "fun_fact": "Time series regression studies have been widely used to study the short-term effects of air pollution on health outcomes"
+    },
+    {
+      "id": "EE9",
+      "label": "Inflammatory Bowel Disease",
+      "type": "example",
+      "depth": 2,
+      "description": "A chronic inflammatory disorder of the gastrointestinal tract",
+      "importance": 7,
+      "fun_fact": "Inflammatory bowel disease has been linked to environmental factors, such as air pollution and diet"
+    },
+    {
+      "id": "EE10",
+      "label": "Air Pollution",
+      "type": "example",
+      "depth": 2,
+      "description": "The release of pollutants into the air, which can have adverse effects on human health",
+      "importance": 8,
+      "fun_fact": "Air pollution is a major environmental risk factor for cardiovascular and respiratory diseases"
+    },
+    {
+      "id": "EE11",
+      "label": "John Snow",
+      "type": "person",
+      "depth": 3,
+      "description": "A British physician who is considered one of the founders of modern epidemiology",
+      "importance": 6,
+      "fun_fact": "John Snow is famous for his work in tracing the source of a cholera outbreak in London in 1854"
+    },
+    {
+      "id": "EE12",
+      "label": "Love Canal Disaster",
+      "type": "event",
+      "depth": 3,
+      "description": "A major environmental disaster that occurred in the 1970s in Niagara Falls, New York",
+      "importance": 7,
+      "fun_fact": "The Love Canal disaster led to the creation of the Superfund program, which is responsible for cleaning up hazardous waste sites in the United States"
+    }
+  ],
+  "edges": [
+    {
+      "source": "EE1",
+      "target": "EE2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Toxicology is a key component of environmental epidemiology"
+    },
+    {
+      "source": "EE1",
+      "target": "EE3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Exposure assessment is a critical component of environmental epidemiology"
+    },
+    {
+      "source": "EE1",
+      "target": "EE4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Disease surveillance is an important aspect of environmental epidemiology"
+    },
+    {
+      "source": "EE1",
+      "target": "EE5",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Risk assessment is a key component of environmental epidemiology"
+    },
+    {
+      "source": "EE1",
+      "target": "EE6",
+      "relation": "leads_to",
+      "strength": 9,
+      "description": "Environmental epidemiology informs public health policy"
+    },
+    {
+      "source": "EE3",
+      "target": "EE7",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "GIS is used in exposure assessment"
+    },
+    {
+      "source": "EE5",
+      "target": "EE8",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Time series regression studies are used in risk assessment"
+    },
+    {
+      "source": "EE2",
+      "target": "EE9",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "Toxicology is related to the study of inflammatory bowel disease"
+    },
+    {
+      "source": "EE4",
+      "target": "EE10",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "Disease surveillance is related to the study of air pollution"
+    },
+    {
+      "source": "EE11",
+      "target": "EE1",
+      "relation": "discovered_by",
+      "strength": 6,
+      "description": "John Snow is considered one of the founders of modern epidemiology"
+    },
+    {
+      "source": "EE12",
+      "target": "EE1",
+      "relation": "evolved_from",
+      "strength": 7,
+      "description": "The Love Canal disaster led to the development of environmental epidemiology"
+    }
+  ],
+  "key_takeaways": [
+    "Environmental epidemiology is a field of study that examines the relationship between environmental factors and human health",
+    "Exposure assessment and risk assessment are critical components of environmental epidemiology",
+    "Public health policy is informed by environmental epidemiology"
+  ],
+  "real_world_impact": "Environmental epidemiology has had a significant impact on public health policy and decision-making. For example, the discovery of the link between air pollution and cardiovascular disease has led to the implementation of policies to reduce air pollution. Additionally, the study of the health effects of environmental disasters such as the Love Canal disaster has led to the development of regulations and guidelines to prevent similar disasters in the future. Overall, environmental epidemiology has played a crucial role in protecting and promoting public health.",
+  "images": [],
+  "sources": {
+    "wikipedia_url": "",
+    "papers": [
+      {
+        "title": "Time series regression studies in environmental epidemiology",
+        "url": "https://doi.org/10.1093/ije/dyt092"
+      },
+      {
+        "title": "Clinical epidemiology of inflammatory bowel disease: incidence, prevalence, and environmental influences",
+        "url": "https://doi.org/10.1053/j.gastro.2004.01.063"
+      },
+      {
+        "title": "Using Geographic Information Systems for Exposure Assessment in Environmental Epidemiology Studies",
+        "url": "https://doi.org/10.1289/ehp.6738"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 80,
+      "issues": [
+        "Too few nodes: 12",
+        "Too few edges: 11"
+      ],
+      "node_count": 12,
+      "edge_count": 11
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Environmental Justice",
+        "Climate Change"
+      ],
+      "strengths": [
+        "Clear connections between core concepts",
+        "Inclusion of relevant examples and applications"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 82.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

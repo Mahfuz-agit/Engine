@@ -1,0 +1,161 @@
+{
+  "topic": "Environmental Epidemiology",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary focus of environmental epidemiology?",
+      "options": {
+        "A": "The study of the relationship between environmental factors and human health",
+        "B": "The study of the relationship between genetic factors and human health",
+        "C": "The study of the relationship between social factors and human health",
+        "D": "The study of the relationship between economic factors and human health"
+      },
+      "correct": "A",
+      "explanation": "Environmental epidemiology is a field of study that examines the relationship between environmental factors and human health.",
+      "node_id": "Environmental Epidemiology",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the purpose of exposure assessment in environmental epidemiology?",
+      "options": {
+        "A": "To estimate the level and duration of exposure to environmental factors",
+        "B": "To evaluate the potential health risks associated with environmental exposures",
+        "C": "To develop and implement policies to protect and promote public health",
+        "D": "To study the relationship between environmental exposures and health outcomes over time"
+      },
+      "correct": "A",
+      "explanation": "Exposure assessment is a critical component of environmental epidemiology, as it helps to quantify the relationship between environmental factors and health outcomes.",
+      "node_id": "Exposure Assessment",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the name of the major environmental disaster that occurred in the 1970s in Niagara Falls, New York, which led to the creation of the Superfund program?",
+      "options": {
+        "A": "Love Canal Disaster",
+        "B": "Three Mile Island Disaster",
+        "C": "Chernobyl Disaster",
+        "D": "Bhopal Disaster"
+      },
+      "correct": "A",
+      "explanation": "The Love Canal disaster was a major environmental disaster that occurred in the 1970s in Niagara Falls, New York, which led to the creation of the Superfund program.",
+      "node_id": "Love Canal Disaster",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the study of the adverse effects of chemicals on living organisms?",
+      "options": {
+        "A": "Toxicology",
+        "B": "Epidemiology",
+        "C": "Environmental Science",
+        "D": "Public Health"
+      },
+      "correct": "A",
+      "explanation": "Toxicology is the study of the adverse effects of chemicals on living organisms.",
+      "node_id": "Toxicology",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the purpose of risk assessment in environmental epidemiology?",
+      "options": {
+        "A": "To estimate the level and duration of exposure to environmental factors",
+        "B": "To evaluate the potential health risks associated with environmental exposures",
+        "C": "To develop and implement policies to protect and promote public health",
+        "D": "To study the relationship between environmental exposures and health outcomes over time"
+      },
+      "correct": "B",
+      "explanation": "Risk assessment is a critical component of environmental policy-making, as it helps to inform decisions about environmental regulations and standards.",
+      "node_id": "Risk Assessment",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the name of the computer-based tool for mapping and analyzing spatial data, which has been widely used in environmental epidemiology?",
+      "options": {
+        "A": "Geographic Information Systems (GIS)",
+        "B": "Global Positioning System (GPS)",
+        "C": "Remote Sensing Technology",
+        "D": "Spatial Analysis Software"
+      },
+      "correct": "A",
+      "explanation": "GIS has been widely used in environmental epidemiology to study the relationship between environmental exposures and health outcomes.",
+      "node_id": "Geographic Information Systems (GIS)",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the name of the chronic inflammatory disorder of the gastrointestinal tract, which has been linked to environmental factors?",
+      "options": {
+        "A": "Inflammatory Bowel Disease",
+        "B": "Irritable Bowel Syndrome",
+        "C": "Gastroesophageal Reflux Disease",
+        "D": "Celiac Disease"
+      },
+      "correct": "A",
+      "explanation": "Inflammatory bowel disease has been linked to environmental factors, such as air pollution and diet.",
+      "node_id": "Inflammatory Bowel Disease",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the importance of disease surveillance in environmental epidemiology.",
+      "sample_answer": "Disease surveillance is essential for detecting outbreaks and monitoring the spread of diseases, which is critical for informing public health policy and decision-making.",
+      "keywords": [
+        "disease surveillance",
+        "outbreak detection",
+        "public health policy"
+      ],
+      "node_id": "Disease Surveillance",
+      "points": 15
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Explain the role of time series regression studies in environmental epidemiology, and provide an example of its application.",
+      "sample_answer": "Time series regression studies are used to analyze the relationship between environmental exposures and health outcomes over time. For example, time series regression studies have been used to study the short-term effects of air pollution on health outcomes, such as cardiovascular and respiratory diseases.",
+      "keywords": [
+        "time series regression",
+        "air pollution",
+        "health outcomes"
+      ],
+      "node_id": "Time Series Regression Studies",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the impact of air pollution on human health, and discuss the importance of public health policy in mitigating its effects.",
+      "sample_answer": "Air pollution is a major environmental risk factor for cardiovascular and respiratory diseases. Public health policy plays a crucial role in mitigating the effects of air pollution by informing decisions about environmental regulations and standards, such as emission controls and air quality standards.",
+      "keywords": [
+        "air pollution",
+        "public health policy",
+        "emission controls"
+      ],
+      "node_id": "Air Pollution",
+      "points": 15
+    }
+  ]
+}
