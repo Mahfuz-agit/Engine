@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 11,
-  "total_nodes": 163,
-  "total_edges": 201,
+  "total_topics": 12,
+  "total_nodes": 178,
+  "total_edges": 222,
   "topics": [
     {
       "topic": "Climate Change",
@@ -102,6 +102,15 @@
       "edge_count": 19,
       "description": "Astrobiology is a scientific field that studies the origins, evolution, distribution, and future of life in the universe. It investigates the conditions and events that lead to the emergence of life on Earth and potentially on other planets. Astrobiologists explore the possibility of life existing beyond Earth by investigating extremophiles, exoplanetary systems, and biosignatures.",
       "added_at": "2026-06-26T11:57:43.718600"
+    },
+    {
+      "topic": "Biogeochemistry",
+      "slug": "biogeochemistry",
+      "category": "biology",
+      "node_count": 15,
+      "edge_count": 21,
+      "description": "Biogeochemistry is the study of the cycling of nutrients and elements through the environment, including the atmosphere, oceans, land, and living organisms. It involves understanding the interactions between biological, geological, and chemical processes that shape our planet. Biogeochemistry plays a crucial role in understanding global change, ecosystem ecology, and the impact of human activities on the environment.",
+      "added_at": "2026-06-26T18:13:28.922707"
     }
   ],
   "global_nodes": [
@@ -1897,6 +1906,171 @@
       "fun_fact": "The society has members from over 50 countries.",
       "topic_slug": "astrobiology",
       "topic": "Astrobiology"
+    },
+    {
+      "id": "biogeochemistry__N1",
+      "label": "Biogeochemistry",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of the cycling of nutrients and elements through the environment",
+      "importance": 10,
+      "fun_fact": "The term 'biogeochemistry' was first coined by Vladimir Vernadsky in 1926",
+      "topic_slug": "biogeochemistry",
+      "topic": "Biogeochemistry"
+    },
+    {
+      "id": "biogeochemistry__N2",
+      "label": "Nutrient Cycling",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process by which nutrients are exchanged between the environment and living organisms",
+      "importance": 9,
+      "fun_fact": "Nutrient cycling is essential for maintaining ecosystem health and productivity",
+      "topic_slug": "biogeochemistry",
+      "topic": "Biogeochemistry"
+    },
+    {
+      "id": "biogeochemistry__N3",
+      "label": "Ecosystem Ecology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the interactions between organisms and their environment",
+      "importance": 9,
+      "fun_fact": "Ecosystem ecology is a key component of biogeochemistry, as it helps us understand how ecosystems respond to changes in nutrient availability",
+      "topic_slug": "biogeochemistry",
+      "topic": "Biogeochemistry"
+    },
+    {
+      "id": "biogeochemistry__N4",
+      "label": "Geochemical Processes",
+      "type": "concept",
+      "depth": 1,
+      "description": "The chemical reactions that occur in the environment, such as weathering and sedimentation",
+      "importance": 8,
+      "fun_fact": "Geochemical processes play a critical role in shaping the Earth's surface and influencing the climate",
+      "topic_slug": "biogeochemistry",
+      "topic": "Biogeochemistry"
+    },
+    {
+      "id": "biogeochemistry__N5",
+      "label": "Soil Science",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the composition, properties, and behavior of soils",
+      "importance": 8,
+      "fun_fact": "Soil science is essential for understanding nutrient cycling and ecosystem ecology, as soils play a critical role in storing and releasing nutrients",
+      "topic_slug": "biogeochemistry",
+      "topic": "Biogeochemistry"
+    },
+    {
+      "id": "biogeochemistry__N6",
+      "label": "Global Element Cycles",
+      "type": "concept",
+      "depth": 1,
+      "description": "The movement of elements such as carbon, nitrogen, and phosphorus through the environment",
+      "importance": 9,
+      "fun_fact": "Global element cycles are critical for understanding global change and the impact of human activities on the environment",
+      "topic_slug": "biogeochemistry",
+      "topic": "Biogeochemistry"
+    },
+    {
+      "id": "biogeochemistry__N7",
+      "label": "Vladimir Vernadsky",
+      "type": "person",
+      "depth": 2,
+      "description": "A Russian scientist who is considered the founder of biogeochemistry",
+      "importance": 8,
+      "fun_fact": "Vernadsky's work laid the foundation for our understanding of the Earth as a system and the importance of biogeochemical processes",
+      "topic_slug": "biogeochemistry",
+      "topic": "Biogeochemistry"
+    },
+    {
+      "id": "biogeochemistry__N8",
+      "label": "Schlesinger's Biogeochemistry",
+      "type": "example",
+      "depth": 2,
+      "description": "A seminal book that helped establish biogeochemistry as a field of study",
+      "importance": 7,
+      "fun_fact": "The book has been widely cited and has had a significant impact on the development of biogeochemistry",
+      "topic_slug": "biogeochemistry",
+      "topic": "Biogeochemistry"
+    },
+    {
+      "id": "biogeochemistry__N9",
+      "label": "Oceanic Methane Biogeochemistry",
+      "type": "example",
+      "depth": 2,
+      "description": "The study of methane production and consumption in the oceans",
+      "importance": 7,
+      "fun_fact": "Oceanic methane biogeochemistry is an important area of research, as methane is a potent greenhouse gas",
+      "topic_slug": "biogeochemistry",
+      "topic": "Biogeochemistry"
+    },
+    {
+      "id": "biogeochemistry__N10",
+      "label": "Stream Biofilms",
+      "type": "example",
+      "depth": 2,
+      "description": "Communities of microorganisms that live in streams and rivers",
+      "importance": 6,
+      "fun_fact": "Stream biofilms play a critical role in nutrient cycling and ecosystem ecology, as they help to break down organic matter and release nutrients",
+      "topic_slug": "biogeochemistry",
+      "topic": "Biogeochemistry"
+    },
+    {
+      "id": "biogeochemistry__N11",
+      "label": "Nitrogen Fixation",
+      "type": "concept",
+      "depth": 2,
+      "description": "The process by which nitrogen is converted into a form that can be used by living organisms",
+      "importance": 8,
+      "fun_fact": "Nitrogen fixation is an essential process in biogeochemistry, as it helps to maintain the balance of nitrogen in the environment",
+      "topic_slug": "biogeochemistry",
+      "topic": "Biogeochemistry"
+    },
+    {
+      "id": "biogeochemistry__N12",
+      "label": "Carbon Sequestration",
+      "type": "application",
+      "depth": 3,
+      "description": "The process of capturing and storing carbon dioxide to mitigate climate change",
+      "importance": 9,
+      "fun_fact": "Carbon sequestration is a critical area of research, as it has the potential to help reduce greenhouse gas emissions and slow global warming",
+      "topic_slug": "biogeochemistry",
+      "topic": "Biogeochemistry"
+    },
+    {
+      "id": "biogeochemistry__N13",
+      "label": "Ecosystem Restoration",
+      "type": "application",
+      "depth": 3,
+      "description": "The process of restoring degraded or damaged ecosystems to a healthy state",
+      "importance": 8,
+      "fun_fact": "Ecosystem restoration is an important area of research, as it can help to maintain ecosystem health and biodiversity",
+      "topic_slug": "biogeochemistry",
+      "topic": "Biogeochemistry"
+    },
+    {
+      "id": "biogeochemistry__N14",
+      "label": "Biogeochemical Modeling",
+      "type": "application",
+      "depth": 3,
+      "description": "The use of mathematical models to simulate biogeochemical processes and predict ecosystem behavior",
+      "importance": 8,
+      "fun_fact": "Biogeochemical modeling is a powerful tool for understanding complex biogeochemical systems and predicting the impacts of human activities on the environment",
+      "topic_slug": "biogeochemistry",
+      "topic": "Biogeochemistry"
+    },
+    {
+      "id": "biogeochemistry__N15",
+      "label": "Global Change",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of large-scale changes to the Earth's systems, including climate change and ecosystem degradation",
+      "importance": 9,
+      "fun_fact": "Global change is a critical area of research, as it has significant implications for human health, economic stability, and environmental sustainability",
+      "topic_slug": "biogeochemistry",
+      "topic": "Biogeochemistry"
     }
   ],
   "global_edges": [
@@ -3306,6 +3480,153 @@
       "relation": "is_part_of",
       "strength": 8,
       "topic": "Astrobiology"
+    },
+    {
+      "source": "biogeochemistry__N1",
+      "target": "biogeochemistry__N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Biogeochemistry"
+    },
+    {
+      "source": "biogeochemistry__N1",
+      "target": "biogeochemistry__N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Biogeochemistry"
+    },
+    {
+      "source": "biogeochemistry__N1",
+      "target": "biogeochemistry__N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Biogeochemistry"
+    },
+    {
+      "source": "biogeochemistry__N1",
+      "target": "biogeochemistry__N5",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Biogeochemistry"
+    },
+    {
+      "source": "biogeochemistry__N1",
+      "target": "biogeochemistry__N6",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Biogeochemistry"
+    },
+    {
+      "source": "biogeochemistry__N2",
+      "target": "biogeochemistry__N11",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Biogeochemistry"
+    },
+    {
+      "source": "biogeochemistry__N3",
+      "target": "biogeochemistry__N10",
+      "relation": "leads_to",
+      "strength": 7,
+      "topic": "Biogeochemistry"
+    },
+    {
+      "source": "biogeochemistry__N4",
+      "target": "biogeochemistry__N9",
+      "relation": "leads_to",
+      "strength": 7,
+      "topic": "Biogeochemistry"
+    },
+    {
+      "source": "biogeochemistry__N5",
+      "target": "biogeochemistry__N8",
+      "relation": "used_in",
+      "strength": 7,
+      "topic": "Biogeochemistry"
+    },
+    {
+      "source": "biogeochemistry__N6",
+      "target": "biogeochemistry__N12",
+      "relation": "leads_to",
+      "strength": 9,
+      "topic": "Biogeochemistry"
+    },
+    {
+      "source": "biogeochemistry__N6",
+      "target": "biogeochemistry__N13",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Biogeochemistry"
+    },
+    {
+      "source": "biogeochemistry__N6",
+      "target": "biogeochemistry__N14",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Biogeochemistry"
+    },
+    {
+      "source": "biogeochemistry__N7",
+      "target": "biogeochemistry__N1",
+      "relation": "discovered_by",
+      "strength": 8,
+      "topic": "Biogeochemistry"
+    },
+    {
+      "source": "biogeochemistry__N8",
+      "target": "biogeochemistry__N1",
+      "relation": "used_in",
+      "strength": 7,
+      "topic": "Biogeochemistry"
+    },
+    {
+      "source": "biogeochemistry__N9",
+      "target": "biogeochemistry__N4",
+      "relation": "is_type_of",
+      "strength": 7,
+      "topic": "Biogeochemistry"
+    },
+    {
+      "source": "biogeochemistry__N10",
+      "target": "biogeochemistry__N3",
+      "relation": "is_part_of",
+      "strength": 7,
+      "topic": "Biogeochemistry"
+    },
+    {
+      "source": "biogeochemistry__N11",
+      "target": "biogeochemistry__N2",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Biogeochemistry"
+    },
+    {
+      "source": "biogeochemistry__N12",
+      "target": "biogeochemistry__N6",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Biogeochemistry"
+    },
+    {
+      "source": "biogeochemistry__N13",
+      "target": "biogeochemistry__N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Biogeochemistry"
+    },
+    {
+      "source": "biogeochemistry__N14",
+      "target": "biogeochemistry__N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Biogeochemistry"
+    },
+    {
+      "source": "biogeochemistry__N15",
+      "target": "biogeochemistry__N1",
+      "relation": "related_to",
+      "strength": 9,
+      "topic": "Biogeochemistry"
     }
   ],
   "cross_topic_edges": [
@@ -3348,7 +3669,8 @@
       "ecological_conservation",
       "genomics",
       "epigenetics",
-      "astrobiology"
+      "astrobiology",
+      "biogeochemistry"
     ],
     "psychology": [
       "neuroplasticity"
@@ -3363,5 +3685,5 @@
       "environmental_epidemiology"
     ]
   },
-  "last_updated": "2026-06-26T11:57:43.718632"
+  "last_updated": "2026-06-26T18:13:28.922742"
 }

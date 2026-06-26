@@ -1,0 +1,161 @@
+{
+  "topic": "Biogeochemistry",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary focus of the field of biogeochemistry?",
+      "options": {
+        "A": "The study of the cycling of nutrients and elements through the environment",
+        "B": "The study of the interactions between living organisms and their environment",
+        "C": "The study of the chemical reactions that occur in the environment",
+        "D": "The study of the movement of elements through the Earth's crust"
+      },
+      "correct": "A",
+      "explanation": "Biogeochemistry is the study of the cycling of nutrients and elements through the environment, including the atmosphere, oceans, land, and living organisms.",
+      "node_id": "Biogeochemistry",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the process by which nutrients are exchanged between the environment and living organisms?",
+      "options": {
+        "A": "Nutrient cycling",
+        "B": "Ecosystem ecology",
+        "C": "Geochemical processes",
+        "D": "Soil science"
+      },
+      "correct": "A",
+      "explanation": "Nutrient cycling is the process by which nutrients are exchanged between the environment and living organisms, and is a key component of biogeochemistry.",
+      "node_id": "Nutrient Cycling",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "Who is considered the founder of the field of biogeochemistry?",
+      "options": {
+        "A": "Vladimir Vernadsky",
+        "B": "William Schlesinger",
+        "C": "James Lovelock",
+        "D": "E.O. Wilson"
+      },
+      "correct": "A",
+      "explanation": "Vladimir Vernadsky is considered the founder of the field of biogeochemistry, and his work laid the foundation for our understanding of the Earth as a system and the importance of biogeochemical processes.",
+      "node_id": "Vladimir Vernadsky",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the term for the study of the interactions between organisms and their environment?",
+      "options": {
+        "A": "Ecosystem ecology",
+        "B": "Nutrient cycling",
+        "C": "Geochemical processes",
+        "D": "Soil science"
+      },
+      "correct": "A",
+      "explanation": "Ecosystem ecology is the study of the interactions between organisms and their environment, and is a key component of biogeochemistry.",
+      "node_id": "Ecosystem Ecology",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the process of capturing and storing carbon dioxide to mitigate climate change?",
+      "options": {
+        "A": "Carbon sequestration",
+        "B": "Ecosystem restoration",
+        "C": "Nutrient cycling",
+        "D": "Geochemical processes"
+      },
+      "correct": "A",
+      "explanation": "Carbon sequestration is the process of capturing and storing carbon dioxide to mitigate climate change, and is a critical area of research in biogeochemistry.",
+      "node_id": "Carbon Sequestration",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the study of the movement of elements such as carbon, nitrogen, and phosphorus through the environment?",
+      "options": {
+        "A": "Global element cycles",
+        "B": "Ecosystem ecology",
+        "C": "Nutrient cycling",
+        "D": "Geochemical processes"
+      },
+      "correct": "A",
+      "explanation": "Global element cycles refer to the movement of elements such as carbon, nitrogen, and phosphorus through the environment, and are critical for understanding global change and the impact of human activities on the environment.",
+      "node_id": "Global Element Cycles",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the process of restoring degraded or damaged ecosystems to a healthy state?",
+      "options": {
+        "A": "Ecosystem restoration",
+        "B": "Carbon sequestration",
+        "C": "Nutrient cycling",
+        "D": "Geochemical processes"
+      },
+      "correct": "A",
+      "explanation": "Ecosystem restoration is the process of restoring degraded or damaged ecosystems to a healthy state, and is an important area of research in biogeochemistry.",
+      "node_id": "Ecosystem Restoration",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the importance of nutrient cycling in maintaining ecosystem health and productivity.",
+      "sample_answer": "Nutrient cycling is essential for maintaining ecosystem health and productivity because it allows nutrients to be exchanged between the environment and living organisms, supporting the growth and survival of plants and animals.",
+      "keywords": [
+        "nutrient cycling",
+        "ecosystem health",
+        "productivity"
+      ],
+      "node_id": "Nutrient Cycling",
+      "points": 15
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Explain the role of geochemical processes in shaping the Earth's surface and influencing the climate.",
+      "sample_answer": "Geochemical processes, such as weathering and sedimentation, play a critical role in shaping the Earth's surface and influencing the climate by controlling the movement of elements and nutrients through the environment.",
+      "keywords": [
+        "geochemical processes",
+        "Earth's surface",
+        "climate"
+      ],
+      "node_id": "Geochemical Processes",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Discuss the impact of human activities on global element cycles and the potential consequences for the environment.",
+      "sample_answer": "Human activities, such as deforestation and fossil fuel combustion, can disrupt global element cycles, leading to changes in the movement of elements such as carbon, nitrogen, and phosphorus through the environment, and potentially causing significant consequences for the environment, including climate change and ecosystem degradation.",
+      "keywords": [
+        "human activities",
+        "global element cycles",
+        "environment"
+      ],
+      "node_id": "Global Element Cycles",
+      "points": 15
+    }
+  ]
+}
