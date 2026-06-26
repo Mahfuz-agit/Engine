@@ -1,0 +1,161 @@
+{
+  "topic": "Astrobiology",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary focus of the field of astrobiology?",
+      "options": {
+        "A": "The study of the universe's physical properties",
+        "B": "The study of the origins, evolution, distribution, and future of life in the universe",
+        "C": "The study of the Earth's geological history",
+        "D": "The study of the solar system's planetary bodies"
+      },
+      "correct": "B",
+      "explanation": "Astrobiology is a multidisciplinary field that seeks to understand the origins, evolution, distribution, and future of life in the universe.",
+      "node_id": "Astrobiology",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for organisms that can survive in extreme environments, such as high temperatures, high pressures, and high salinity?",
+      "options": {
+        "A": "Extremists",
+        "B": "Extraterrestrials",
+        "C": "Extremophiles",
+        "D": "Endospores"
+      },
+      "correct": "C",
+      "explanation": "Extremophiles are organisms that have adapted to survive in extreme environments, and their study can provide insights into the possibility of life on other planets.",
+      "node_id": "Extremophiles",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What are biosignatures, and how can they be used to detect life on other planets?",
+      "sample_answer": "Biosignatures are signs of biological activity, such as the presence of oxygen, methane, or other biomarkers. They can be detected using spectroscopy and other remote sensing techniques to determine if a planet has conditions suitable for life.",
+      "keywords": [
+        "biosignatures",
+        "biological activity",
+        "spectroscopy"
+      ],
+      "node_id": "Biosignatures",
+      "points": 15
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the name of the mathematical equation that estimates the number of extraterrestrial civilizations in the galaxy that might be able to communicate with Earth?",
+      "options": {
+        "A": "The Fermi Paradox",
+        "B": "The Drake Equation",
+        "C": "The Sagan Equation",
+        "D": "The Astrobiology Equation"
+      },
+      "correct": "B",
+      "explanation": "The Drake Equation is a mathematical equation that estimates the number of extraterrestrial civilizations in the galaxy that might be able to communicate with Earth, and it is a key concept in the search for extraterrestrial intelligence.",
+      "node_id": "The Drake Equation",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "Who is the American astronomer and astrobiologist who popularized the field of astrobiology and searched for extraterrestrial life?",
+      "options": {
+        "A": "Carl Sagan",
+        "B": "Frank Drake",
+        "C": "Stephen Hawking",
+        "D": "Neil deGrasse Tyson"
+      },
+      "correct": "A",
+      "explanation": "Carl Sagan was a renowned astronomer and astrobiologist who popularized the field of astrobiology and searched for extraterrestrial life through his work and media appearances.",
+      "node_id": "Carl Sagan",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the ability of an environment to support life, including the presence of liquid water, a stable climate, and a suitable energy source?",
+      "options": {
+        "A": "Habitability",
+        "B": "Biodiversity",
+        "C": "Ecology",
+        "D": "Conservation"
+      },
+      "correct": "A",
+      "explanation": "Habitability refers to the ability of an environment to support life, and it is a key factor in the search for life on other planets.",
+      "node_id": "Habitability",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "What are the implications of the discovery of exoplanets for our understanding of planetary formation and the search for life?",
+      "sample_answer": "The discovery of exoplanets has revolutionized our understanding of planetary formation and the search for life. It has shown that planets can form in a variety of ways and that the conditions for life may be more common than previously thought. This has significant implications for the search for extraterrestrial intelligence and the possibility of life on other planets.",
+      "keywords": [
+        "exoplanets",
+        "planetary formation",
+        "search for life"
+      ],
+      "node_id": "The Discovery of Exoplanets",
+      "points": 20
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the name of the research program that aims to understand the origins, evolution, distribution, and future of life in the universe?",
+      "options": {
+        "A": "NASA's Astrobiology Program",
+        "B": "The Astrobiology Initiative",
+        "C": "The Search for Extraterrestrial Life",
+        "D": "The Origins of Life Project"
+      },
+      "correct": "A",
+      "explanation": "NASA's Astrobiology Program is a research program that aims to understand the origins, evolution, distribution, and future of life in the universe, and it has funded research on Mars, Europa, and Enceladus.",
+      "node_id": "NASA's Astrobiology Program",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the study of the chemical composition of the universe, including the formation of elements and molecules?",
+      "options": {
+        "A": "Cosmology",
+        "B": "Astrochemistry",
+        "C": "Cosmochemistry",
+        "D": "Planetary Science"
+      },
+      "correct": "C",
+      "explanation": "Cosmochemistry is the study of the chemical composition of the universe, including the formation of elements and molecules, and it is a key area of research in astrobiology.",
+      "node_id": "Cosmochemistry",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What are the potential applications of astrobiology research, and how can it benefit society?",
+      "sample_answer": "Astrobiology research has several potential applications, including the search for extraterrestrial intelligence, the study of extremophiles, and the exploration of Mars. It can also benefit society by providing insights into the origins of life, the possibility of life on other planets, and the potential for life to exist in extreme environments.",
+      "keywords": [
+        "astrobiology research",
+        "applications",
+        "society"
+      ],
+      "node_id": "Astrobiology",
+      "points": 15
+    }
+  ]
+}

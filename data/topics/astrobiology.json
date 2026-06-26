@@ -1,0 +1,384 @@
+{
+  "topic": "Astrobiology",
+  "category": "biology",
+  "description": "Astrobiology is a scientific field that studies the origins, evolution, distribution, and future of life in the universe. It investigates the conditions and events that lead to the emergence of life on Earth and potentially on other planets. Astrobiologists explore the possibility of life existing beyond Earth by investigating extremophiles, exoplanetary systems, and biosignatures.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Astrobiology",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of the origins, evolution, distribution, and future of life in the universe.",
+      "importance": 10,
+      "fun_fact": "The term 'astrobiology' was first used in the 1950s."
+    },
+    {
+      "id": "N2",
+      "label": "Origin of Life",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process by which life emerged on Earth, including the formation of the first cells and the development of genetic systems.",
+      "importance": 9,
+      "fun_fact": "The exact mechanism of life's origin is still unknown."
+    },
+    {
+      "id": "N3",
+      "label": "Exoplanetary Systems",
+      "type": "concept",
+      "depth": 1,
+      "description": "Planetary systems that exist outside of our own solar system, which may harbor conditions suitable for life.",
+      "importance": 9,
+      "fun_fact": "Over 4,000 exoplanets have been discovered so far."
+    },
+    {
+      "id": "N4",
+      "label": "Extremophiles",
+      "type": "concept",
+      "depth": 1,
+      "description": "Organisms that can survive in extreme environments, such as high temperatures, high pressures, and high salinity.",
+      "importance": 8,
+      "fun_fact": "Extremophiles can be found in deep-sea vents, hot springs, and Antarctic ice."
+    },
+    {
+      "id": "N5",
+      "label": "Cosmochemistry",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the chemical composition of the universe, including the formation of elements and molecules.",
+      "importance": 8,
+      "fun_fact": "Cosmochemistry helps us understand the origins of life's building blocks."
+    },
+    {
+      "id": "N6",
+      "label": "Biosignatures",
+      "type": "concept",
+      "depth": 1,
+      "description": "Signs of biological activity, such as the presence of oxygen, methane, or other biomarkers, that could indicate life on other planets.",
+      "importance": 9,
+      "fun_fact": "Biosignatures can be detected using spectroscopy and other remote sensing techniques."
+    },
+    {
+      "id": "N7",
+      "label": "Carl Sagan",
+      "type": "person",
+      "depth": 2,
+      "description": "An American astronomer and astrobiologist who popularized the field of astrobiology and searched for extraterrestrial life.",
+      "importance": 8,
+      "fun_fact": "Carl Sagan wrote the book 'Cosmos' and hosted the TV series of the same name."
+    },
+    {
+      "id": "N8",
+      "label": "NASA's Astrobiology Program",
+      "type": "application",
+      "depth": 2,
+      "description": "A research program that aims to understand the origins, evolution, distribution, and future of life in the universe.",
+      "importance": 9,
+      "fun_fact": "The program has funded research on Mars, Europa, and Enceladus."
+    },
+    {
+      "id": "N9",
+      "label": "Mars Exploration",
+      "type": "example",
+      "depth": 3,
+      "description": "The search for life on Mars, including the exploration of the planet's surface and subsurface using rovers and landers.",
+      "importance": 8,
+      "fun_fact": "The Curiosity rover has been operating on Mars since 2012."
+    },
+    {
+      "id": "N10",
+      "label": "The Astrobiology Primer",
+      "type": "fact",
+      "depth": 3,
+      "description": "A comprehensive textbook on astrobiology that covers the origins of life, the search for life beyond Earth, and the future of astrobiology research.",
+      "importance": 8,
+      "fun_fact": "The primer is a widely used resource in the field of astrobiology."
+    },
+    {
+      "id": "N11",
+      "label": "Habitability",
+      "type": "concept",
+      "depth": 2,
+      "description": "The ability of an environment to support life, including the presence of liquid water, a stable climate, and a suitable energy source.",
+      "importance": 9,
+      "fun_fact": "Habitability is a key factor in the search for life beyond Earth."
+    },
+    {
+      "id": "N12",
+      "label": "The Search for Extraterrestrial Intelligence (SETI)",
+      "type": "application",
+      "depth": 2,
+      "description": "The search for signs of intelligent life, such as radio signals or other evidence of technology, in the universe.",
+      "importance": 8,
+      "fun_fact": "SETI has been searching for signals since the 1960s."
+    },
+    {
+      "id": "N13",
+      "label": "The Drake Equation",
+      "type": "formula",
+      "depth": 3,
+      "description": "A mathematical equation that estimates the number of extraterrestrial civilizations in the galaxy that might be able to communicate with Earth.",
+      "importance": 8,
+      "fun_fact": "The equation was proposed by Frank Drake in 1961."
+    },
+    {
+      "id": "N14",
+      "label": "The Discovery of Exoplanets",
+      "type": "event",
+      "depth": 2,
+      "description": "The discovery of thousands of planets outside of our own solar system, which has revolutionized our understanding of planetary formation and the search for life.",
+      "importance": 9,
+      "fun_fact": "The first exoplanet was discovered in 1992."
+    },
+    {
+      "id": "N15",
+      "label": "The Astrobiology Society",
+      "type": "application",
+      "depth": 2,
+      "description": "A professional organization that promotes the field of astrobiology and provides a forum for researchers to share their findings.",
+      "importance": 8,
+      "fun_fact": "The society has members from over 50 countries."
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "The origin of life is a key aspect of astrobiology."
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Exoplanetary systems are a key area of study in astrobiology."
+    },
+    {
+      "source": "N1",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Extremophiles are an important area of study in astrobiology."
+    },
+    {
+      "source": "N1",
+      "target": "N5",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Cosmochemistry is a key aspect of astrobiology."
+    },
+    {
+      "source": "N1",
+      "target": "N6",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Biosignatures are a key area of study in astrobiology."
+    },
+    {
+      "source": "N2",
+      "target": "N7",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "Carl Sagan was a key figure in the development of astrobiology."
+    },
+    {
+      "source": "N3",
+      "target": "N8",
+      "relation": "used_in",
+      "strength": 9,
+      "description": "NASA's Astrobiology Program has funded research on exoplanetary systems."
+    },
+    {
+      "source": "N4",
+      "target": "N9",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "Extremophiles are relevant to the search for life on Mars."
+    },
+    {
+      "source": "N5",
+      "target": "N10",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Cosmochemistry is discussed in The Astrobiology Primer."
+    },
+    {
+      "source": "N6",
+      "target": "N11",
+      "relation": "related_to",
+      "strength": 9,
+      "description": "Biosignatures are a key aspect of habitability."
+    },
+    {
+      "source": "N7",
+      "target": "N12",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "Carl Sagan was a proponent of the search for extraterrestrial intelligence."
+    },
+    {
+      "source": "N8",
+      "target": "N13",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "The Drake Equation is used in astrobiology research."
+    },
+    {
+      "source": "N9",
+      "target": "N14",
+      "relation": "related_to",
+      "strength": 9,
+      "description": "The discovery of exoplanets has revolutionized the search for life on Mars."
+    },
+    {
+      "source": "N10",
+      "target": "N15",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "The Astrobiology Primer is a resource for the Astrobiology Society."
+    },
+    {
+      "source": "N11",
+      "target": "N1",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Habitability is a key aspect of astrobiology."
+    },
+    {
+      "source": "N12",
+      "target": "N1",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "The search for extraterrestrial intelligence is a key aspect of astrobiology."
+    },
+    {
+      "source": "N13",
+      "target": "N1",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "The Drake Equation is used in astrobiology research."
+    },
+    {
+      "source": "N14",
+      "target": "N1",
+      "relation": "related_to",
+      "strength": 9,
+      "description": "The discovery of exoplanets has revolutionized the field of astrobiology."
+    },
+    {
+      "source": "N15",
+      "target": "N1",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "The Astrobiology Society is a professional organization for astrobiologists."
+    }
+  ],
+  "key_takeaways": [
+    "Astrobiology is a multidisciplinary field that studies the origins, evolution, distribution, and future of life in the universe.",
+    "The search for life beyond Earth is a key aspect of astrobiology, including the study of exoplanetary systems, biosignatures, and habitability.",
+    "Astrobiology has many real-world applications, including the search for extraterrestrial intelligence, the study of extremophiles, and the exploration of Mars."
+  ],
+  "real_world_impact": "Astrobiology has many real-world applications, including the search for extraterrestrial intelligence, the study of extremophiles, and the exploration of Mars. The discovery of exoplanets has revolutionized our understanding of planetary formation and the search for life. The study of biosignatures has led to a greater understanding of the conditions necessary for life to exist on other planets. The search for life on Mars has led to a greater understanding of the planet's geology and potential habitability. Astrobiology has also led to the development of new technologies, such as advanced telescopes and spectrographs, which have improved our ability to study the universe.",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/2014_June_Astrobiology_and_Theology_seminer_01.JPG",
+      "title": "2014 June Astrobiology and Theology seminer 01.JPG",
+      "license": "CC BY-SA 3.0",
+      "artist": "Geraldshields11",
+      "description": "In June 2014, the John W. Kluge Center of the Library of Congress help a seminar focusing on astrobiology. Panel members (l to r) Robin Lovin, Derek Malone-France, and Steven J. Dick",
+      "width": 4912,
+      "height": 3264,
+      "source_query": "Astrobiology"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/2014_June_Astrobiology_and_Theology_seminer_02.JPG",
+      "title": "2014 June Astrobiology and Theology seminer 02.JPG",
+      "license": "CC BY-SA 3.0",
+      "artist": "Geraldshields11",
+      "description": "In June 2014, the John W. Kluge Center of the Library of Congress help a seminar focusing on astrobiology. Audience members (l to r) unknown member of Princeton University and Timothy E. Eastman",
+      "width": 4912,
+      "height": 3264,
+      "source_query": "Astrobiology"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/2014_June_Astrobiology_and_Theology_seminer_03.JPG",
+      "title": "2014 June Astrobiology and Theology seminer 03.JPG",
+      "license": "CC BY-SA 3.0",
+      "artist": "Geraldshields11",
+      "description": "In June 2014, the John W. Kluge Center of the Library of Congress help a seminar focusing on astrobiology. Timothy E. Eastman in audience.",
+      "width": 3264,
+      "height": 4912,
+      "source_query": "Astrobiology"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/2014_June_Astrobiology_and_Theology_seminer_04.JPG",
+      "title": "2014 June Astrobiology and Theology seminer 04.JPG",
+      "license": "CC BY-SA 3.0",
+      "artist": "Geraldshields11",
+      "description": "In June 2014, the John W. Kluge Center of the Library of Congress help a seminar focusing on astrobiology. David H. Grinspoon in audience.",
+      "width": 4912,
+      "height": 3264,
+      "source_query": "Astrobiology"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/2014_June_Astrobiology_and_Theology_seminer_04_%28cropped%29.JPG",
+      "title": "2014 June Astrobiology and Theology seminer 04 (cropped).JPG",
+      "license": "CC BY-SA 3.0",
+      "artist": "Geraldshields11",
+      "description": "In June 2014, the John W. Kluge Center of the Library of Congress help a seminar focusing on astrobiology. David H. Grinspoon in audience.",
+      "width": 2450,
+      "height": 3264,
+      "source_query": "Astrobiology"
+    }
+  ],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Astrobiology",
+    "papers": [
+      {
+        "title": "Modelling the surface and subsurface Martian radiation environment: Implications for astrobiology",
+        "url": "https://doi.org/10.1029/2006gl027494"
+      },
+      {
+        "title": "The Astrobiology Primer v2.0",
+        "url": "https://doi.org/10.1089/ast.2015.1460"
+      },
+      {
+        "title": "Planetary Astrobiology",
+        "url": "https://doi.org/10.2458/azu_uapress_9780816540068"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 19"
+      ],
+      "node_count": 15,
+      "edge_count": 19
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Astrobiological Methods",
+        "Planetary Protection"
+      ],
+      "strengths": [
+        "Interdisciplinary connections",
+        "Relevant applications"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 10,
-  "total_nodes": 148,
-  "total_edges": 182,
+  "total_topics": 11,
+  "total_nodes": 163,
+  "total_edges": 201,
   "topics": [
     {
       "topic": "Climate Change",
@@ -93,6 +93,15 @@
       "edge_count": 20,
       "description": "Geomorphology is the study of the origin and evolution of Earth's physical features, including landforms, landscapes, and processes that shape them. It encompasses various disciplines such as geology, geography, and engineering to understand the complex interactions between the Earth's surface and the forces that act upon it. By examining the history and dynamics of landforms, geomorphologists can predict changes and provide insights into environmental management and conservation.",
       "added_at": "2026-06-26T00:23:01.676045"
+    },
+    {
+      "topic": "Astrobiology",
+      "slug": "astrobiology",
+      "category": "biology",
+      "node_count": 15,
+      "edge_count": 19,
+      "description": "Astrobiology is a scientific field that studies the origins, evolution, distribution, and future of life in the universe. It investigates the conditions and events that lead to the emergence of life on Earth and potentially on other planets. Astrobiologists explore the possibility of life existing beyond Earth by investigating extremophiles, exoplanetary systems, and biosignatures.",
+      "added_at": "2026-06-26T11:57:43.718600"
     }
   ],
   "global_nodes": [
@@ -1723,6 +1732,171 @@
       "fun_fact": "Geotechnical engineering is critical for ensuring the safety and stability of engineering projects, particularly in areas with complex geological conditions.",
       "topic_slug": "geomorphology",
       "topic": "Geomorphology"
+    },
+    {
+      "id": "astrobiology__N1",
+      "label": "Astrobiology",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of the origins, evolution, distribution, and future of life in the universe.",
+      "importance": 10,
+      "fun_fact": "The term 'astrobiology' was first used in the 1950s.",
+      "topic_slug": "astrobiology",
+      "topic": "Astrobiology"
+    },
+    {
+      "id": "astrobiology__N2",
+      "label": "Origin of Life",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process by which life emerged on Earth, including the formation of the first cells and the development of genetic systems.",
+      "importance": 9,
+      "fun_fact": "The exact mechanism of life's origin is still unknown.",
+      "topic_slug": "astrobiology",
+      "topic": "Astrobiology"
+    },
+    {
+      "id": "astrobiology__N3",
+      "label": "Exoplanetary Systems",
+      "type": "concept",
+      "depth": 1,
+      "description": "Planetary systems that exist outside of our own solar system, which may harbor conditions suitable for life.",
+      "importance": 9,
+      "fun_fact": "Over 4,000 exoplanets have been discovered so far.",
+      "topic_slug": "astrobiology",
+      "topic": "Astrobiology"
+    },
+    {
+      "id": "astrobiology__N4",
+      "label": "Extremophiles",
+      "type": "concept",
+      "depth": 1,
+      "description": "Organisms that can survive in extreme environments, such as high temperatures, high pressures, and high salinity.",
+      "importance": 8,
+      "fun_fact": "Extremophiles can be found in deep-sea vents, hot springs, and Antarctic ice.",
+      "topic_slug": "astrobiology",
+      "topic": "Astrobiology"
+    },
+    {
+      "id": "astrobiology__N5",
+      "label": "Cosmochemistry",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the chemical composition of the universe, including the formation of elements and molecules.",
+      "importance": 8,
+      "fun_fact": "Cosmochemistry helps us understand the origins of life's building blocks.",
+      "topic_slug": "astrobiology",
+      "topic": "Astrobiology"
+    },
+    {
+      "id": "astrobiology__N6",
+      "label": "Biosignatures",
+      "type": "concept",
+      "depth": 1,
+      "description": "Signs of biological activity, such as the presence of oxygen, methane, or other biomarkers, that could indicate life on other planets.",
+      "importance": 9,
+      "fun_fact": "Biosignatures can be detected using spectroscopy and other remote sensing techniques.",
+      "topic_slug": "astrobiology",
+      "topic": "Astrobiology"
+    },
+    {
+      "id": "astrobiology__N7",
+      "label": "Carl Sagan",
+      "type": "person",
+      "depth": 2,
+      "description": "An American astronomer and astrobiologist who popularized the field of astrobiology and searched for extraterrestrial life.",
+      "importance": 8,
+      "fun_fact": "Carl Sagan wrote the book 'Cosmos' and hosted the TV series of the same name.",
+      "topic_slug": "astrobiology",
+      "topic": "Astrobiology"
+    },
+    {
+      "id": "astrobiology__N8",
+      "label": "NASA's Astrobiology Program",
+      "type": "application",
+      "depth": 2,
+      "description": "A research program that aims to understand the origins, evolution, distribution, and future of life in the universe.",
+      "importance": 9,
+      "fun_fact": "The program has funded research on Mars, Europa, and Enceladus.",
+      "topic_slug": "astrobiology",
+      "topic": "Astrobiology"
+    },
+    {
+      "id": "astrobiology__N9",
+      "label": "Mars Exploration",
+      "type": "example",
+      "depth": 3,
+      "description": "The search for life on Mars, including the exploration of the planet's surface and subsurface using rovers and landers.",
+      "importance": 8,
+      "fun_fact": "The Curiosity rover has been operating on Mars since 2012.",
+      "topic_slug": "astrobiology",
+      "topic": "Astrobiology"
+    },
+    {
+      "id": "astrobiology__N10",
+      "label": "The Astrobiology Primer",
+      "type": "fact",
+      "depth": 3,
+      "description": "A comprehensive textbook on astrobiology that covers the origins of life, the search for life beyond Earth, and the future of astrobiology research.",
+      "importance": 8,
+      "fun_fact": "The primer is a widely used resource in the field of astrobiology.",
+      "topic_slug": "astrobiology",
+      "topic": "Astrobiology"
+    },
+    {
+      "id": "astrobiology__N11",
+      "label": "Habitability",
+      "type": "concept",
+      "depth": 2,
+      "description": "The ability of an environment to support life, including the presence of liquid water, a stable climate, and a suitable energy source.",
+      "importance": 9,
+      "fun_fact": "Habitability is a key factor in the search for life beyond Earth.",
+      "topic_slug": "astrobiology",
+      "topic": "Astrobiology"
+    },
+    {
+      "id": "astrobiology__N12",
+      "label": "The Search for Extraterrestrial Intelligence (SETI)",
+      "type": "application",
+      "depth": 2,
+      "description": "The search for signs of intelligent life, such as radio signals or other evidence of technology, in the universe.",
+      "importance": 8,
+      "fun_fact": "SETI has been searching for signals since the 1960s.",
+      "topic_slug": "astrobiology",
+      "topic": "Astrobiology"
+    },
+    {
+      "id": "astrobiology__N13",
+      "label": "The Drake Equation",
+      "type": "formula",
+      "depth": 3,
+      "description": "A mathematical equation that estimates the number of extraterrestrial civilizations in the galaxy that might be able to communicate with Earth.",
+      "importance": 8,
+      "fun_fact": "The equation was proposed by Frank Drake in 1961.",
+      "topic_slug": "astrobiology",
+      "topic": "Astrobiology"
+    },
+    {
+      "id": "astrobiology__N14",
+      "label": "The Discovery of Exoplanets",
+      "type": "event",
+      "depth": 2,
+      "description": "The discovery of thousands of planets outside of our own solar system, which has revolutionized our understanding of planetary formation and the search for life.",
+      "importance": 9,
+      "fun_fact": "The first exoplanet was discovered in 1992.",
+      "topic_slug": "astrobiology",
+      "topic": "Astrobiology"
+    },
+    {
+      "id": "astrobiology__N15",
+      "label": "The Astrobiology Society",
+      "type": "application",
+      "depth": 2,
+      "description": "A professional organization that promotes the field of astrobiology and provides a forum for researchers to share their findings.",
+      "importance": 8,
+      "fun_fact": "The society has members from over 50 countries.",
+      "topic_slug": "astrobiology",
+      "topic": "Astrobiology"
     }
   ],
   "global_edges": [
@@ -2999,6 +3173,139 @@
       "relation": "example_of",
       "strength": 6,
       "topic": "Geomorphology"
+    },
+    {
+      "source": "astrobiology__N1",
+      "target": "astrobiology__N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Astrobiology"
+    },
+    {
+      "source": "astrobiology__N1",
+      "target": "astrobiology__N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Astrobiology"
+    },
+    {
+      "source": "astrobiology__N1",
+      "target": "astrobiology__N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Astrobiology"
+    },
+    {
+      "source": "astrobiology__N1",
+      "target": "astrobiology__N5",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Astrobiology"
+    },
+    {
+      "source": "astrobiology__N1",
+      "target": "astrobiology__N6",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Astrobiology"
+    },
+    {
+      "source": "astrobiology__N2",
+      "target": "astrobiology__N7",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Astrobiology"
+    },
+    {
+      "source": "astrobiology__N3",
+      "target": "astrobiology__N8",
+      "relation": "used_in",
+      "strength": 9,
+      "topic": "Astrobiology"
+    },
+    {
+      "source": "astrobiology__N4",
+      "target": "astrobiology__N9",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Astrobiology"
+    },
+    {
+      "source": "astrobiology__N5",
+      "target": "astrobiology__N10",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Astrobiology"
+    },
+    {
+      "source": "astrobiology__N6",
+      "target": "astrobiology__N11",
+      "relation": "related_to",
+      "strength": 9,
+      "topic": "Astrobiology"
+    },
+    {
+      "source": "astrobiology__N7",
+      "target": "astrobiology__N12",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Astrobiology"
+    },
+    {
+      "source": "astrobiology__N8",
+      "target": "astrobiology__N13",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Astrobiology"
+    },
+    {
+      "source": "astrobiology__N9",
+      "target": "astrobiology__N14",
+      "relation": "related_to",
+      "strength": 9,
+      "topic": "Astrobiology"
+    },
+    {
+      "source": "astrobiology__N10",
+      "target": "astrobiology__N15",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Astrobiology"
+    },
+    {
+      "source": "astrobiology__N11",
+      "target": "astrobiology__N1",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Astrobiology"
+    },
+    {
+      "source": "astrobiology__N12",
+      "target": "astrobiology__N1",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Astrobiology"
+    },
+    {
+      "source": "astrobiology__N13",
+      "target": "astrobiology__N1",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Astrobiology"
+    },
+    {
+      "source": "astrobiology__N14",
+      "target": "astrobiology__N1",
+      "relation": "related_to",
+      "strength": 9,
+      "topic": "Astrobiology"
+    },
+    {
+      "source": "astrobiology__N15",
+      "target": "astrobiology__N1",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Astrobiology"
     }
   ],
   "cross_topic_edges": [
@@ -3040,7 +3347,8 @@
       "evolutionary_biology",
       "ecological_conservation",
       "genomics",
-      "epigenetics"
+      "epigenetics",
+      "astrobiology"
     ],
     "psychology": [
       "neuroplasticity"
@@ -3055,5 +3363,5 @@
       "environmental_epidemiology"
     ]
   },
-  "last_updated": "2026-06-26T00:23:01.676077"
+  "last_updated": "2026-06-26T11:57:43.718632"
 }

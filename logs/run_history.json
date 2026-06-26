@@ -128,5 +128,18 @@
     "master_total_topics": 10,
     "ended_at": "2026-06-26T00:23:01.678725",
     "duration_seconds": 49.7
+  },
+  {
+    "started_at": "2026-06-26T11:57:05.215591",
+    "status": "success",
+    "topic": "Astrobiology",
+    "sources_found": 6,
+    "images_found": 5,
+    "quality_score": 87.5,
+    "quality_passed": true,
+    "exam_questions": 10,
+    "master_total_topics": 11,
+    "ended_at": "2026-06-26T11:57:43.721396",
+    "duration_seconds": 38.5
   }
 ]
