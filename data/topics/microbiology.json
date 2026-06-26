@@ -1,0 +1,326 @@
+{
+  "topic": "Microbiology",
+  "category": "biology",
+  "description": "Microbiology is the scientific study of microorganisms, including unicellular, multicellular, or acellular organisms. It encompasses various sub-disciplines such as immunology, virology, bacteriology, mycology, and parasitology. Microbiologists study the structure, function, and interactions of microorganisms with their environment and hosts.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Microbiology",
+      "type": "core",
+      "depth": 0,
+      "description": "The scientific study of microorganisms, including unicellular, multicellular, or acellular organisms.",
+      "importance": 10,
+      "fun_fact": "The term 'microbiology' was first used in 1878 by the French scientist Charles-Emile Francois-Franck."
+    },
+    {
+      "id": "N2",
+      "label": "Immunology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the immune system and its responses to pathogens and diseases.",
+      "importance": 9,
+      "fun_fact": "The immune system can recognize and remember specific pathogens, allowing for a more effective response upon subsequent infections."
+    },
+    {
+      "id": "N3",
+      "label": "Virology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of viruses and their interactions with host organisms.",
+      "importance": 9,
+      "fun_fact": "Viruses can infect all types of life forms, from animals and plants to microorganisms."
+    },
+    {
+      "id": "N4",
+      "label": "Bacteriology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of bacteria and their interactions with the environment and hosts.",
+      "importance": 9,
+      "fun_fact": "Bacteria are found in almost every habitat on Earth, from extreme environments to the human gut."
+    },
+    {
+      "id": "N5",
+      "label": "Mycology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of fungi and their interactions with the environment and hosts.",
+      "importance": 8,
+      "fun_fact": "Fungi can form symbiotic relationships with plants, providing essential nutrients in exchange for carbohydrates."
+    },
+    {
+      "id": "N6",
+      "label": "Parasitology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of parasites and their interactions with hosts.",
+      "importance": 8,
+      "fun_fact": "Parasites can have significant impacts on host populations and ecosystems, and can also serve as vectors for diseases."
+    },
+    {
+      "id": "N7",
+      "label": "Louis Pasteur",
+      "type": "person",
+      "depth": 2,
+      "description": "A French scientist who made significant contributions to the field of microbiology, including the development of vaccination and pasteurization.",
+      "importance": 9,
+      "fun_fact": "Pasteur's work on vaccination led to the development of vaccines for rabies and anthrax."
+    },
+    {
+      "id": "N8",
+      "label": "Robert Koch",
+      "type": "person",
+      "depth": 2,
+      "description": "A German scientist who made significant contributions to the field of microbiology, including the development of the germ theory of disease.",
+      "importance": 9,
+      "fun_fact": "Koch's postulates, a set of criteria for establishing a causal relationship between a microorganism and a disease, are still widely used today."
+    },
+    {
+      "id": "N9",
+      "label": "Vaccination",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of vaccines to prevent or treat diseases caused by microorganisms.",
+      "importance": 10,
+      "fun_fact": "Vaccination has been estimated to have saved millions of lives worldwide since its introduction."
+    },
+    {
+      "id": "N10",
+      "label": "Antibiotics",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of antimicrobial agents to treat diseases caused by microorganisms.",
+      "importance": 10,
+      "fun_fact": "The discovery of antibiotics revolutionized the treatment of bacterial infections and has saved countless lives."
+    },
+    {
+      "id": "N11",
+      "label": "Microbial Ecology",
+      "type": "concept",
+      "depth": 2,
+      "description": "The study of the interactions between microorganisms and their environment.",
+      "importance": 8,
+      "fun_fact": "Microorganisms play a crucial role in ecosystem functioning, including decomposition, nutrient cycling, and primary production."
+    },
+    {
+      "id": "N12",
+      "label": "Microbiome",
+      "type": "concept",
+      "depth": 2,
+      "description": "The community of microorganisms that inhabit a particular environment or host.",
+      "importance": 9,
+      "fun_fact": "The human microbiome is composed of trillions of microorganisms, with the gut microbiome being one of the most diverse and complex."
+    },
+    {
+      "id": "N13",
+      "label": "Infectious Disease",
+      "type": "example",
+      "depth": 3,
+      "description": "A disease caused by the invasion of a host by a pathogenic microorganism.",
+      "importance": 8,
+      "fun_fact": "Infectious diseases have been a major cause of morbidity and mortality throughout human history."
+    },
+    {
+      "id": "N14",
+      "label": "Public Health",
+      "type": "application",
+      "depth": 3,
+      "description": "The practice of preventing and controlling diseases, including infectious diseases, at the population level.",
+      "importance": 10,
+      "fun_fact": "Public health measures, such as vaccination and sanitation, have been instrumental in reducing the burden of infectious diseases worldwide."
+    },
+    {
+      "id": "N15",
+      "label": "Microbial Biotechnology",
+      "type": "application",
+      "depth": 3,
+      "description": "The use of microorganisms to develop new products and technologies, such as biofuels and bioproducts.",
+      "importance": 8,
+      "fun_fact": "Microbial biotechnology has the potential to provide sustainable solutions to global challenges, such as energy production and environmental remediation."
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Immunology is a sub-discipline of microbiology that studies the immune system and its responses to pathogens."
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Virology is a sub-discipline of microbiology that studies viruses and their interactions with host organisms."
+    },
+    {
+      "source": "N1",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Bacteriology is a sub-discipline of microbiology that studies bacteria and their interactions with the environment and hosts."
+    },
+    {
+      "source": "N1",
+      "target": "N5",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Mycology is a sub-discipline of microbiology that studies fungi and their interactions with the environment and hosts."
+    },
+    {
+      "source": "N1",
+      "target": "N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Parasitology is a sub-discipline of microbiology that studies parasites and their interactions with hosts."
+    },
+    {
+      "source": "N2",
+      "target": "N7",
+      "relation": "discovered_by",
+      "strength": 9,
+      "description": "Louis Pasteur made significant contributions to the field of immunology, including the development of vaccination."
+    },
+    {
+      "source": "N3",
+      "target": "N8",
+      "relation": "discovered_by",
+      "strength": 9,
+      "description": "Robert Koch made significant contributions to the field of virology, including the development of the germ theory of disease."
+    },
+    {
+      "source": "N4",
+      "target": "N9",
+      "relation": "used_in",
+      "strength": 10,
+      "description": "Vaccination is a crucial application of bacteriology, as it prevents the spread of bacterial diseases."
+    },
+    {
+      "source": "N5",
+      "target": "N10",
+      "relation": "used_in",
+      "strength": 10,
+      "description": "Antibiotics are a crucial application of mycology, as they are used to treat fungal infections."
+    },
+    {
+      "source": "N6",
+      "target": "N11",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "Parasitology is related to microbial ecology, as parasites interact with their environment and hosts."
+    },
+    {
+      "source": "N7",
+      "target": "N12",
+      "relation": "discovered_by",
+      "strength": 9,
+      "description": "Louis Pasteur discovered the importance of the microbiome in human health and disease."
+    },
+    {
+      "source": "N8",
+      "target": "N13",
+      "relation": "discovered_by",
+      "strength": 9,
+      "description": "Robert Koch discovered the importance of infectious diseases and their causes."
+    },
+    {
+      "source": "N9",
+      "target": "N14",
+      "relation": "used_in",
+      "strength": 10,
+      "description": "Vaccination is a crucial application of public health, as it prevents the spread of infectious diseases."
+    },
+    {
+      "source": "N10",
+      "target": "N15",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Antibiotics are used in microbial biotechnology to develop new products and technologies."
+    },
+    {
+      "source": "N11",
+      "target": "N12",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "Microbial ecology is related to the microbiome, as it studies the interactions between microorganisms and their environment."
+    },
+    {
+      "source": "N12",
+      "target": "N13",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "The microbiome is related to infectious disease, as an imbalance of the microbiome can lead to disease."
+    },
+    {
+      "source": "N13",
+      "target": "N14",
+      "relation": "used_in",
+      "strength": 10,
+      "description": "Infectious disease is a crucial application of public health, as it is a major cause of morbidity and mortality worldwide."
+    },
+    {
+      "source": "N14",
+      "target": "N15",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Public health is used in microbial biotechnology to develop new products and technologies that can improve human health."
+    }
+  ],
+  "key_takeaways": [
+    "Microbiology is the scientific study of microorganisms, including unicellular, multicellular, or acellular organisms.",
+    "The field of microbiology encompasses various sub-disciplines, including immunology, virology, bacteriology, mycology, and parasitology.",
+    "Microbiologists study the structure, function, and interactions of microorganisms with their environment and hosts."
+  ],
+  "real_world_impact": "Microbiology has had a significant impact on our understanding of the world and our ability to prevent and treat diseases. The discovery of microorganisms and their role in disease has led to the development of vaccines, antibiotics, and other treatments that have saved countless lives. Additionally, microbiology has led to a greater understanding of the importance of hygiene and sanitation in preventing the spread of diseases. The field of microbiology continues to evolve, with new discoveries and technologies being developed to address the challenges of infectious diseases and to improve human health.",
+  "images": [],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Microbiology",
+    "papers": [
+      {
+        "title": "Applied and Environmental Microbiology",
+        "url": "https://doi.org/10.1128/eissn.1098-5336"
+      },
+      {
+        "title": "Applied Microbiology and Biotechnology",
+        "url": "https://doi.org/10.1007/253.1432-0614"
+      },
+      {
+        "title": "International Journal of Current Microbiology and Applied Sciences",
+        "url": "https://doi.org/10.20546/ijcmas"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 18"
+      ],
+      "node_count": 15,
+      "edge_count": 18
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Microbial Genetics",
+        "Microbial Evolution"
+      ],
+      "strengths": [
+        "covers various sub-disciplines of microbiology",
+        "includes key applications and concepts"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

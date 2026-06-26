@@ -1,0 +1,163 @@
+{
+  "topic": "Microbiology",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary focus of the field of microbiology?",
+      "options": {
+        "A": "The study of microorganisms, including unicellular, multicellular, or acellular organisms",
+        "B": "The study of the immune system and its responses to pathogens and diseases",
+        "C": "The study of the structure and function of cells",
+        "D": "The study of the ecosystem and its interactions with the environment"
+      },
+      "correct": "A",
+      "explanation": "Microbiology is the scientific study of microorganisms, including unicellular, multicellular, or acellular organisms.",
+      "node_id": "Microbiology",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which of the following is a sub-discipline of microbiology that deals with the study of viruses and their interactions with host organisms?",
+      "options": {
+        "A": "Immunology",
+        "B": "Virology",
+        "C": "Bacteriology",
+        "D": "Mycology"
+      },
+      "correct": "B",
+      "explanation": "Virology is the study of viruses and their interactions with host organisms.",
+      "node_id": "Virology",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the community of microorganisms that inhabit a particular environment or host?",
+      "options": {
+        "A": "Microbial ecology",
+        "B": "Microbiome",
+        "C": "Infectious disease",
+        "D": "Public health"
+      },
+      "correct": "B",
+      "explanation": "The microbiome is the community of microorganisms that inhabit a particular environment or host.",
+      "node_id": "Microbiome",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "Who is credited with the development of vaccination and pasteurization?",
+      "options": {
+        "A": "Robert Koch",
+        "B": "Louis Pasteur",
+        "C": "Charles-Emile Francois-Franck",
+        "D": "Alexander Fleming"
+      },
+      "correct": "B",
+      "explanation": "Louis Pasteur is credited with the development of vaccination and pasteurization.",
+      "node_id": "Louis Pasteur",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the use of antimicrobial agents to treat diseases caused by microorganisms?",
+      "options": {
+        "A": "Vaccination",
+        "B": "Antibiotics",
+        "C": "Immunology",
+        "D": "Microbial biotechnology"
+      },
+      "correct": "B",
+      "explanation": "Antibiotics are antimicrobial agents used to treat diseases caused by microorganisms.",
+      "node_id": "Antibiotics",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the study of the interactions between microorganisms and their environment?",
+      "options": {
+        "A": "Microbial ecology",
+        "B": "Microbiome",
+        "C": "Infectious disease",
+        "D": "Public health"
+      },
+      "correct": "A",
+      "explanation": "Microbial ecology is the study of the interactions between microorganisms and their environment.",
+      "node_id": "Microbial Ecology",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for a disease caused by the invasion of a host by a pathogenic microorganism?",
+      "options": {
+        "A": "Infectious disease",
+        "B": "Immunology",
+        "C": "Virology",
+        "D": "Bacteriology"
+      },
+      "correct": "A",
+      "explanation": "Infectious disease is a disease caused by the invasion of a host by a pathogenic microorganism.",
+      "node_id": "Infectious Disease",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the importance of the human microbiome in maintaining overall health.",
+      "sample_answer": "The human microbiome plays a crucial role in maintaining overall health by aiding in digestion, producing vitamins, and regulating the immune system. An imbalance of the microbiome, also known as dysbiosis, has been linked to various diseases and disorders.",
+      "keywords": [
+        "microbiome",
+        "health",
+        "digestion",
+        "immune system"
+      ],
+      "node_id": "Microbiome",
+      "points": 15
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Explain the concept of microbial biotechnology and its potential applications in solving global challenges.",
+      "sample_answer": "Microbial biotechnology is the use of microorganisms to develop new products and technologies, such as biofuels and bioproducts. This field has the potential to provide sustainable solutions to global challenges, such as energy production, environmental remediation, and food security. Microorganisms can be engineered to produce biofuels, clean up pollutants, and improve crop yields.",
+      "keywords": [
+        "microbial biotechnology",
+        "sustainable solutions",
+        "global challenges"
+      ],
+      "node_id": "Microbial Biotechnology",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the role of public health measures in preventing and controlling infectious diseases.",
+      "sample_answer": "Public health measures, such as vaccination, sanitation, and hygiene practices, play a crucial role in preventing and controlling infectious diseases. These measures can help reduce the spread of diseases, prevent outbreaks, and protect vulnerable populations. Effective public health measures require a multidisciplinary approach, involving healthcare professionals, policymakers, and community leaders.",
+      "keywords": [
+        "public health",
+        "infectious diseases",
+        "prevention",
+        "control"
+      ],
+      "node_id": "Public Health",
+      "points": 15
+    }
+  ]
+}

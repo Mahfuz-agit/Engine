@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 12,
-  "total_nodes": 178,
-  "total_edges": 222,
+  "total_topics": 13,
+  "total_nodes": 193,
+  "total_edges": 240,
   "topics": [
     {
       "topic": "Climate Change",
@@ -111,6 +111,15 @@
       "edge_count": 21,
       "description": "Biogeochemistry is the study of the cycling of nutrients and elements through the environment, including the atmosphere, oceans, land, and living organisms. It involves understanding the interactions between biological, geological, and chemical processes that shape our planet. Biogeochemistry plays a crucial role in understanding global change, ecosystem ecology, and the impact of human activities on the environment.",
       "added_at": "2026-06-26T18:13:28.922707"
+    },
+    {
+      "topic": "Microbiology",
+      "slug": "microbiology",
+      "category": "biology",
+      "node_count": 15,
+      "edge_count": 18,
+      "description": "Microbiology is the scientific study of microorganisms, including unicellular, multicellular, or acellular organisms. It encompasses various sub-disciplines such as immunology, virology, bacteriology, mycology, and parasitology. Microbiologists study the structure, function, and interactions of microorganisms with their environment and hosts.",
+      "added_at": "2026-06-26T23:48:09.348670"
     }
   ],
   "global_nodes": [
@@ -2071,6 +2080,171 @@
       "fun_fact": "Global change is a critical area of research, as it has significant implications for human health, economic stability, and environmental sustainability",
       "topic_slug": "biogeochemistry",
       "topic": "Biogeochemistry"
+    },
+    {
+      "id": "microbiology__N1",
+      "label": "Microbiology",
+      "type": "core",
+      "depth": 0,
+      "description": "The scientific study of microorganisms, including unicellular, multicellular, or acellular organisms.",
+      "importance": 10,
+      "fun_fact": "The term 'microbiology' was first used in 1878 by the French scientist Charles-Emile Francois-Franck.",
+      "topic_slug": "microbiology",
+      "topic": "Microbiology"
+    },
+    {
+      "id": "microbiology__N2",
+      "label": "Immunology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the immune system and its responses to pathogens and diseases.",
+      "importance": 9,
+      "fun_fact": "The immune system can recognize and remember specific pathogens, allowing for a more effective response upon subsequent infections.",
+      "topic_slug": "microbiology",
+      "topic": "Microbiology"
+    },
+    {
+      "id": "microbiology__N3",
+      "label": "Virology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of viruses and their interactions with host organisms.",
+      "importance": 9,
+      "fun_fact": "Viruses can infect all types of life forms, from animals and plants to microorganisms.",
+      "topic_slug": "microbiology",
+      "topic": "Microbiology"
+    },
+    {
+      "id": "microbiology__N4",
+      "label": "Bacteriology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of bacteria and their interactions with the environment and hosts.",
+      "importance": 9,
+      "fun_fact": "Bacteria are found in almost every habitat on Earth, from extreme environments to the human gut.",
+      "topic_slug": "microbiology",
+      "topic": "Microbiology"
+    },
+    {
+      "id": "microbiology__N5",
+      "label": "Mycology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of fungi and their interactions with the environment and hosts.",
+      "importance": 8,
+      "fun_fact": "Fungi can form symbiotic relationships with plants, providing essential nutrients in exchange for carbohydrates.",
+      "topic_slug": "microbiology",
+      "topic": "Microbiology"
+    },
+    {
+      "id": "microbiology__N6",
+      "label": "Parasitology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of parasites and their interactions with hosts.",
+      "importance": 8,
+      "fun_fact": "Parasites can have significant impacts on host populations and ecosystems, and can also serve as vectors for diseases.",
+      "topic_slug": "microbiology",
+      "topic": "Microbiology"
+    },
+    {
+      "id": "microbiology__N7",
+      "label": "Louis Pasteur",
+      "type": "person",
+      "depth": 2,
+      "description": "A French scientist who made significant contributions to the field of microbiology, including the development of vaccination and pasteurization.",
+      "importance": 9,
+      "fun_fact": "Pasteur's work on vaccination led to the development of vaccines for rabies and anthrax.",
+      "topic_slug": "microbiology",
+      "topic": "Microbiology"
+    },
+    {
+      "id": "microbiology__N8",
+      "label": "Robert Koch",
+      "type": "person",
+      "depth": 2,
+      "description": "A German scientist who made significant contributions to the field of microbiology, including the development of the germ theory of disease.",
+      "importance": 9,
+      "fun_fact": "Koch's postulates, a set of criteria for establishing a causal relationship between a microorganism and a disease, are still widely used today.",
+      "topic_slug": "microbiology",
+      "topic": "Microbiology"
+    },
+    {
+      "id": "microbiology__N9",
+      "label": "Vaccination",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of vaccines to prevent or treat diseases caused by microorganisms.",
+      "importance": 10,
+      "fun_fact": "Vaccination has been estimated to have saved millions of lives worldwide since its introduction.",
+      "topic_slug": "microbiology",
+      "topic": "Microbiology"
+    },
+    {
+      "id": "microbiology__N10",
+      "label": "Antibiotics",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of antimicrobial agents to treat diseases caused by microorganisms.",
+      "importance": 10,
+      "fun_fact": "The discovery of antibiotics revolutionized the treatment of bacterial infections and has saved countless lives.",
+      "topic_slug": "microbiology",
+      "topic": "Microbiology"
+    },
+    {
+      "id": "microbiology__N11",
+      "label": "Microbial Ecology",
+      "type": "concept",
+      "depth": 2,
+      "description": "The study of the interactions between microorganisms and their environment.",
+      "importance": 8,
+      "fun_fact": "Microorganisms play a crucial role in ecosystem functioning, including decomposition, nutrient cycling, and primary production.",
+      "topic_slug": "microbiology",
+      "topic": "Microbiology"
+    },
+    {
+      "id": "microbiology__N12",
+      "label": "Microbiome",
+      "type": "concept",
+      "depth": 2,
+      "description": "The community of microorganisms that inhabit a particular environment or host.",
+      "importance": 9,
+      "fun_fact": "The human microbiome is composed of trillions of microorganisms, with the gut microbiome being one of the most diverse and complex.",
+      "topic_slug": "microbiology",
+      "topic": "Microbiology"
+    },
+    {
+      "id": "microbiology__N13",
+      "label": "Infectious Disease",
+      "type": "example",
+      "depth": 3,
+      "description": "A disease caused by the invasion of a host by a pathogenic microorganism.",
+      "importance": 8,
+      "fun_fact": "Infectious diseases have been a major cause of morbidity and mortality throughout human history.",
+      "topic_slug": "microbiology",
+      "topic": "Microbiology"
+    },
+    {
+      "id": "microbiology__N14",
+      "label": "Public Health",
+      "type": "application",
+      "depth": 3,
+      "description": "The practice of preventing and controlling diseases, including infectious diseases, at the population level.",
+      "importance": 10,
+      "fun_fact": "Public health measures, such as vaccination and sanitation, have been instrumental in reducing the burden of infectious diseases worldwide.",
+      "topic_slug": "microbiology",
+      "topic": "Microbiology"
+    },
+    {
+      "id": "microbiology__N15",
+      "label": "Microbial Biotechnology",
+      "type": "application",
+      "depth": 3,
+      "description": "The use of microorganisms to develop new products and technologies, such as biofuels and bioproducts.",
+      "importance": 8,
+      "fun_fact": "Microbial biotechnology has the potential to provide sustainable solutions to global challenges, such as energy production and environmental remediation.",
+      "topic_slug": "microbiology",
+      "topic": "Microbiology"
     }
   ],
   "global_edges": [
@@ -3627,6 +3801,132 @@
       "relation": "related_to",
       "strength": 9,
       "topic": "Biogeochemistry"
+    },
+    {
+      "source": "microbiology__N1",
+      "target": "microbiology__N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Microbiology"
+    },
+    {
+      "source": "microbiology__N1",
+      "target": "microbiology__N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Microbiology"
+    },
+    {
+      "source": "microbiology__N1",
+      "target": "microbiology__N4",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Microbiology"
+    },
+    {
+      "source": "microbiology__N1",
+      "target": "microbiology__N5",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Microbiology"
+    },
+    {
+      "source": "microbiology__N1",
+      "target": "microbiology__N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Microbiology"
+    },
+    {
+      "source": "microbiology__N2",
+      "target": "microbiology__N7",
+      "relation": "discovered_by",
+      "strength": 9,
+      "topic": "Microbiology"
+    },
+    {
+      "source": "microbiology__N3",
+      "target": "microbiology__N8",
+      "relation": "discovered_by",
+      "strength": 9,
+      "topic": "Microbiology"
+    },
+    {
+      "source": "microbiology__N4",
+      "target": "microbiology__N9",
+      "relation": "used_in",
+      "strength": 10,
+      "topic": "Microbiology"
+    },
+    {
+      "source": "microbiology__N5",
+      "target": "microbiology__N10",
+      "relation": "used_in",
+      "strength": 10,
+      "topic": "Microbiology"
+    },
+    {
+      "source": "microbiology__N6",
+      "target": "microbiology__N11",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Microbiology"
+    },
+    {
+      "source": "microbiology__N7",
+      "target": "microbiology__N12",
+      "relation": "discovered_by",
+      "strength": 9,
+      "topic": "Microbiology"
+    },
+    {
+      "source": "microbiology__N8",
+      "target": "microbiology__N13",
+      "relation": "discovered_by",
+      "strength": 9,
+      "topic": "Microbiology"
+    },
+    {
+      "source": "microbiology__N9",
+      "target": "microbiology__N14",
+      "relation": "used_in",
+      "strength": 10,
+      "topic": "Microbiology"
+    },
+    {
+      "source": "microbiology__N10",
+      "target": "microbiology__N15",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Microbiology"
+    },
+    {
+      "source": "microbiology__N11",
+      "target": "microbiology__N12",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Microbiology"
+    },
+    {
+      "source": "microbiology__N12",
+      "target": "microbiology__N13",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Microbiology"
+    },
+    {
+      "source": "microbiology__N13",
+      "target": "microbiology__N14",
+      "relation": "used_in",
+      "strength": 10,
+      "topic": "Microbiology"
+    },
+    {
+      "source": "microbiology__N14",
+      "target": "microbiology__N15",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Microbiology"
     }
   ],
   "cross_topic_edges": [
@@ -3670,7 +3970,8 @@
       "genomics",
       "epigenetics",
       "astrobiology",
-      "biogeochemistry"
+      "biogeochemistry",
+      "microbiology"
     ],
     "psychology": [
       "neuroplasticity"
@@ -3685,5 +3986,5 @@
       "environmental_epidemiology"
     ]
   },
-  "last_updated": "2026-06-26T18:13:28.922742"
+  "last_updated": "2026-06-26T23:48:09.348705"
 }
