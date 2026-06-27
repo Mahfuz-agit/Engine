@@ -1,0 +1,368 @@
+{
+  "topic": "Complex Systems",
+  "category": "science",
+  "description": "Complex systems are composed of many interacting components, exhibiting behaviors that cannot be predicted by analyzing individual parts. Examples include Earth's climate, organisms, and social networks. Understanding complex systems requires an interdisciplinary approach, combining concepts from chaos theory, network science, systems thinking, emergence, and self-organization.",
+  "nodes": [
+    {
+      "id": "CS",
+      "label": "Complex Systems",
+      "type": "core",
+      "depth": 0,
+      "description": "Systems with many interacting components, exhibiting complex behaviors",
+      "importance": 10,
+      "fun_fact": "The study of complex systems has led to breakthroughs in fields like biology, economics, and climate science"
+    },
+    {
+      "id": "CT",
+      "label": "Chaos Theory",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of complex, dynamic systems that are highly sensitive to initial conditions",
+      "importance": 9,
+      "fun_fact": "The butterfly effect, a concept in chaos theory, suggests that small changes can have large, unpredictable effects"
+    },
+    {
+      "id": "NS",
+      "label": "Network Science",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of complex networks, including social, biological, and technological systems",
+      "importance": 9,
+      "fun_fact": "Network science has been used to study the spread of diseases, information, and behaviors in social networks"
+    },
+    {
+      "id": "ST",
+      "label": "Systems Thinking",
+      "type": "concept",
+      "depth": 1,
+      "description": "A holistic approach to understanding complex systems, considering interactions and feedback loops",
+      "importance": 9,
+      "fun_fact": "Systems thinking has been applied in fields like business, healthcare, and environmental management"
+    },
+    {
+      "id": "EM",
+      "label": "Emergence",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process by which complex systems exhibit behaviors that cannot be predicted by analyzing individual parts",
+      "importance": 8,
+      "fun_fact": "Emergence is often seen in natural systems, such as the flocking behavior of birds or the schooling behavior of fish"
+    },
+    {
+      "id": "SO",
+      "label": "Self-Organization",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process by which complex systems adapt and evolve without external direction",
+      "importance": 8,
+      "fun_fact": "Self-organization is seen in systems like ant colonies, where individual ants follow simple rules to create complex social structures"
+    },
+    {
+      "id": "EC",
+      "label": "Earth's Climate",
+      "type": "example",
+      "depth": 2,
+      "description": "A complex system composed of atmosphere, oceans, land, and ice, interacting to regulate global temperatures",
+      "importance": 7,
+      "fun_fact": "The Earth's climate system is influenced by human activities, such as greenhouse gas emissions and deforestation"
+    },
+    {
+      "id": "HB",
+      "label": "Human Brain",
+      "type": "example",
+      "depth": 2,
+      "description": "A complex system composed of billions of neurons, interacting to process information and control behavior",
+      "importance": 7,
+      "fun_fact": "The human brain is capable of reorganizing itself in response to injury or experience, a process known as neuroplasticity"
+    },
+    {
+      "id": "IS",
+      "label": "Infrastructure Systems",
+      "type": "example",
+      "depth": 2,
+      "description": "Complex systems composed of physical and social components, such as power grids, transportation networks, and communication systems",
+      "importance": 6,
+      "fun_fact": "Infrastructure systems are critical to modern society, but are often vulnerable to disruptions and failures"
+    },
+    {
+      "id": "ES",
+      "label": "Ecosystems",
+      "type": "example",
+      "depth": 2,
+      "description": "Complex systems composed of living organisms and their environment, interacting to regulate energy and nutrient flows",
+      "importance": 6,
+      "fun_fact": "Ecosystems provide essential services, such as air and water purification, soil formation, and climate regulation"
+    },
+    {
+      "id": "LC",
+      "label": "Lorenz Chaos Theory",
+      "type": "formula",
+      "depth": 3,
+      "description": "A mathematical model of chaotic behavior, developed by Edward Lorenz",
+      "importance": 5,
+      "fun_fact": "The Lorenz attractor is a famous example of a chaotic system, exhibiting sensitive dependence on initial conditions"
+    },
+    {
+      "id": "RP",
+      "label": "Recurrence Plots",
+      "type": "application",
+      "depth": 3,
+      "description": "A visualization tool used to analyze complex systems, particularly in the context of chaos theory",
+      "importance": 5,
+      "fun_fact": "Recurrence plots have been used to study complex systems in fields like physics, biology, and economics"
+    },
+    {
+      "id": "EL",
+      "label": "Edward Lorenz",
+      "type": "person",
+      "depth": 3,
+      "description": "An American mathematician and meteorologist, known for his work on chaos theory",
+      "importance": 4,
+      "fun_fact": "Lorenz is often credited with discovering the butterfly effect, a concept in chaos theory"
+    },
+    {
+      "id": "SC",
+      "label": "Santa Fe Institute",
+      "type": "organization",
+      "depth": 3,
+      "description": "A research institute dedicated to the study of complex systems, particularly in the context of chaos theory and network science",
+      "importance": 4,
+      "fun_fact": "The Santa Fe Institute has been a hub for interdisciplinary research, bringing together scientists from fields like physics, biology, and economics"
+    },
+    {
+      "id": "CD",
+      "label": "Community Detection",
+      "type": "application",
+      "depth": 3,
+      "description": "A technique used to identify clusters or communities within complex networks",
+      "importance": 4,
+      "fun_fact": "Community detection has been used in fields like social network analysis, epidemiology, and marketing"
+    }
+  ],
+  "edges": [
+    {
+      "source": "CS",
+      "target": "CT",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Chaos theory is a key concept in the study of complex systems"
+    },
+    {
+      "source": "CS",
+      "target": "NS",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Network science is a key concept in the study of complex systems"
+    },
+    {
+      "source": "CS",
+      "target": "ST",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Systems thinking is a key concept in the study of complex systems"
+    },
+    {
+      "source": "CS",
+      "target": "EM",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Emergence is a key concept in the study of complex systems"
+    },
+    {
+      "source": "CS",
+      "target": "SO",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Self-organization is a key concept in the study of complex systems"
+    },
+    {
+      "source": "CT",
+      "target": "LC",
+      "relation": "leads_to",
+      "strength": 7,
+      "description": "Chaos theory led to the development of the Lorenz attractor, a mathematical model of chaotic behavior"
+    },
+    {
+      "source": "NS",
+      "target": "CD",
+      "relation": "leads_to",
+      "strength": 7,
+      "description": "Network science led to the development of community detection, a technique used to identify clusters or communities within complex networks"
+    },
+    {
+      "source": "ST",
+      "target": "RP",
+      "relation": "leads_to",
+      "strength": 6,
+      "description": "Systems thinking led to the development of recurrence plots, a visualization tool used to analyze complex systems"
+    },
+    {
+      "source": "EC",
+      "target": "CS",
+      "relation": "is_type_of",
+      "strength": 6,
+      "description": "The Earth's climate system is an example of a complex system"
+    },
+    {
+      "source": "HB",
+      "target": "CS",
+      "relation": "is_type_of",
+      "strength": 6,
+      "description": "The human brain is an example of a complex system"
+    },
+    {
+      "source": "IS",
+      "target": "CS",
+      "relation": "is_type_of",
+      "strength": 5,
+      "description": "Infrastructure systems are examples of complex systems"
+    },
+    {
+      "source": "ES",
+      "target": "CS",
+      "relation": "is_type_of",
+      "strength": 5,
+      "description": "Ecosystems are examples of complex systems"
+    },
+    {
+      "source": "EL",
+      "target": "LC",
+      "relation": "discovered_by",
+      "strength": 5,
+      "description": "Edward Lorenz discovered the Lorenz attractor, a mathematical model of chaotic behavior"
+    },
+    {
+      "source": "SC",
+      "target": "CD",
+      "relation": "used_in",
+      "strength": 4,
+      "description": "The Santa Fe Institute has used community detection in their research on complex systems"
+    },
+    {
+      "source": "RP",
+      "target": "CT",
+      "relation": "related_to",
+      "strength": 4,
+      "description": "Recurrence plots are related to chaos theory, as they are used to analyze complex systems"
+    },
+    {
+      "source": "CD",
+      "target": "NS",
+      "relation": "related_to",
+      "strength": 4,
+      "description": "Community detection is related to network science, as it is used to identify clusters or communities within complex networks"
+    }
+  ],
+  "key_takeaways": [
+    "Complex systems are composed of many interacting components, exhibiting behaviors that cannot be predicted by analyzing individual parts",
+    "Chaos theory, network science, systems thinking, emergence, and self-organization are key concepts in the study of complex systems",
+    "Complex systems have many real-world applications, including the study of Earth's climate, human brain, infrastructure systems, and ecosystems"
+  ],
+  "real_world_impact": "The study of complex systems has led to breakthroughs in fields like biology, economics, and climate science. Understanding complex systems can help us better manage and predict the behavior of complex networks, such as social networks, transportation systems, and power grids. Additionally, the study of complex systems can inform policy decisions, such as those related to environmental management, public health, and economic development. By recognizing the interconnectedness and interdependence of complex systems, we can work towards creating more resilient, sustainable, and equitable systems that benefit society as a whole.",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Complex_Adaptive_Systems_%28shaded%29.png",
+      "title": "Complex Adaptive Systems (shaded).png",
+      "license": "CC BY-SA 3.0",
+      "artist": "Joe Graham",
+      "description": "A general overview of Complex Adaptive Systems.",
+      "width": 399,
+      "height": 313,
+      "source_query": "Complex Systems"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Complex_System.svg",
+      "title": "Complex System.svg",
+      "license": "CC BY-SA 3.0",
+      "artist": "Arun Reginald",
+      "description": "Example of a complex system with multiple sub-systems and interactions.",
+      "width": 805,
+      "height": 474,
+      "source_query": "Complex Systems"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Complex_systems_organizational_map.svg",
+      "title": "Complex systems organizational map.svg",
+      "license": "CC BY-SA 3.0",
+      "artist": "Hiroki Sayama, D.Sc.",
+      "description": "This is a visual, organizational map of complex systems broken into seven sub-groups.",
+      "width": 1124,
+      "height": 1124,
+      "source_query": "Complex Systems"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Complex_systems_theory_-_graphic.jpg",
+      "title": "Complex systems theory - graphic.jpg",
+      "license": "CC BY-SA 3.0",
+      "artist": "Fotonlabs",
+      "description": "This is a graphic of the various areas of complex systems theory",
+      "width": 3604,
+      "height": 2825,
+      "source_query": "Complex Systems"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Complex_systems_topic_network_%28Sayama_2024%29.png",
+      "title": "Complex systems topic network (Sayama 2024).png",
+      "license": "CC BY-SA 4.0",
+      "artist": "HirokiSayama",
+      "description": "The network of topics studied and/or discussed in the field of complex systems. More details can be found in the following paper and project website:\nHiroki Sayama, Updating the complex systems keyword diagram using collective feedback and latest literature data, Proceedings of the 14th Internationa",
+      "width": 4000,
+      "height": 3986,
+      "source_query": "Complex Systems"
+    }
+  ],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Complex_system",
+    "papers": [
+      {
+        "title": "Recurrence plots for the analysis of complex systems",
+        "url": "https://doi.org/10.1016/j.physrep.2006.11.001"
+      },
+      {
+        "title": "Business Dynamics: Systems Thinking and Modeling for a Complex World",
+        "url": "https://dk.um.si/IzpisGradiva.php?id=28601"
+      },
+      {
+        "title": "Information processing using a single dynamical node as complex system",
+        "url": "https://doi.org/10.1038/ncomms1476"
+      }
+    ],
+    "news": [
+      {
+        "title": "Effective Resistance-Based Graph Sparsification and Community Detection",
+        "url": "https://arxiv.org/abs/2606.26766"
+      }
+    ]
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 16"
+      ],
+      "node_count": 15,
+      "edge_count": 16
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Fractals",
+        "Bifurcation Theory"
+      ],
+      "strengths": [
+        "Covers key concepts in complex systems",
+        "Includes real-world applications"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

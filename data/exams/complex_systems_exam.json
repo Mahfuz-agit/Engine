@@ -1,0 +1,161 @@
+{
+  "topic": "Complex Systems",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is a characteristic of complex systems?",
+      "options": {
+        "A": "They are composed of a few interacting components",
+        "B": "They exhibit behaviors that can be predicted by analyzing individual parts",
+        "C": "They are highly sensitive to initial conditions",
+        "D": "They are composed of many interacting components, exhibiting behaviors that cannot be predicted by analyzing individual parts"
+      },
+      "correct": "D",
+      "explanation": "Complex systems are characterized by the presence of many interacting components, which give rise to emergent behaviors that cannot be predicted by analyzing individual parts in isolation.",
+      "node_id": "Complex Systems",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which concept is related to the study of complex, dynamic systems that are highly sensitive to initial conditions?",
+      "options": {
+        "A": "Network Science",
+        "B": "Systems Thinking",
+        "C": "Emergence",
+        "D": "Chaos Theory"
+      },
+      "correct": "D",
+      "explanation": "Chaos theory is the study of complex, dynamic systems that are highly sensitive to initial conditions, exhibiting unpredictable behavior.",
+      "node_id": "Chaos Theory",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the process by which complex systems adapt and evolve without external direction?",
+      "options": {
+        "A": "Emergence",
+        "B": "Self-Organization",
+        "C": "Systems Thinking",
+        "D": "Network Science"
+      },
+      "correct": "B",
+      "explanation": "Self-organization refers to the process by which complex systems adapt and evolve without external direction, often giving rise to complex patterns and behaviors.",
+      "node_id": "Self-Organization",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is an example of a complex system?",
+      "options": {
+        "A": "A simple mechanical clock",
+        "B": "The human brain",
+        "C": "A single neuron",
+        "D": "A linear equation"
+      },
+      "correct": "B",
+      "explanation": "The human brain is a complex system composed of billions of neurons, interacting to process information and control behavior.",
+      "node_id": "Human Brain",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which concept is related to the study of complex networks, including social, biological, and technological systems?",
+      "options": {
+        "A": "Systems Thinking",
+        "B": "Emergence",
+        "C": "Chaos Theory",
+        "D": "Network Science"
+      },
+      "correct": "D",
+      "explanation": "Network science is the study of complex networks, including social, biological, and technological systems, which exhibit complex behaviors and patterns.",
+      "node_id": "Network Science",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the process by which complex systems exhibit behaviors that cannot be predicted by analyzing individual parts?",
+      "options": {
+        "A": "Self-Organization",
+        "B": "Emergence",
+        "C": "Systems Thinking",
+        "D": "Chaos Theory"
+      },
+      "correct": "B",
+      "explanation": "Emergence refers to the process by which complex systems exhibit behaviors that cannot be predicted by analyzing individual parts, often giving rise to novel and unexpected patterns.",
+      "node_id": "Emergence",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which concept is related to the holistic approach to understanding complex systems, considering interactions and feedback loops?",
+      "options": {
+        "A": "Network Science",
+        "B": "Chaos Theory",
+        "C": "Systems Thinking",
+        "D": "Emergence"
+      },
+      "correct": "C",
+      "explanation": "Systems thinking is a holistic approach to understanding complex systems, considering interactions and feedback loops, which is essential for analyzing and managing complex systems.",
+      "node_id": "Systems Thinking",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the concept of emergence in complex systems, providing an example.",
+      "sample_answer": "Emergence refers to the process by which complex systems exhibit behaviors that cannot be predicted by analyzing individual parts. For example, the flocking behavior of birds is an emergent property that arises from the interactions of individual birds following simple rules.",
+      "keywords": [
+        "emergence",
+        "complex systems",
+        "flocking behavior"
+      ],
+      "node_id": "Emergence",
+      "points": 15
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Explain the concept of self-organization in complex systems, providing an example from a real-world system.",
+      "sample_answer": "Self-organization refers to the process by which complex systems adapt and evolve without external direction. For example, ant colonies exhibit self-organization, where individual ants follow simple rules to create complex social structures, such as division of labor and communication networks.",
+      "keywords": [
+        "self-organization",
+        "complex systems",
+        "ant colonies"
+      ],
+      "node_id": "Self-Organization",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the importance of understanding complex systems in the context of Earth's climate, providing an example of a real-world application.",
+      "sample_answer": "Understanding complex systems is crucial in the context of Earth's climate, as it allows us to analyze and predict the behavior of the climate system. For example, the study of complex systems has been applied to the analysis of climate models, which has improved our understanding of the impacts of human activities on the climate.",
+      "keywords": [
+        "complex systems",
+        "Earth's climate",
+        "climate models"
+      ],
+      "node_id": "Earth's Climate",
+      "points": 15
+    }
+  ]
+}

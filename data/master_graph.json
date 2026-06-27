@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 14,
-  "total_nodes": 208,
-  "total_edges": 259,
+  "total_topics": 15,
+  "total_nodes": 223,
+  "total_edges": 275,
   "topics": [
     {
       "topic": "Climate Change",
@@ -129,6 +129,15 @@
       "edge_count": 19,
       "description": "Biochemistry is the study of the chemical processes that occur within living organisms, including metabolic pathways, enzyme kinetics, and molecular biology. It has numerous applications in fields such as nutrition, pharmacology, and biotechnology. Understanding biochemistry is crucial for developing new treatments and therapies for various diseases.",
       "added_at": "2026-06-27T09:19:31.061982"
+    },
+    {
+      "topic": "Complex Systems",
+      "slug": "complex_systems",
+      "category": "science",
+      "node_count": 15,
+      "edge_count": 16,
+      "description": "Complex systems are composed of many interacting components, exhibiting behaviors that cannot be predicted by analyzing individual parts. Examples include Earth's climate, organisms, and social networks. Understanding complex systems requires an interdisciplinary approach, combining concepts from chaos theory, network science, systems thinking, emergence, and self-organization.",
+      "added_at": "2026-06-27T15:04:54.339024"
     }
   ],
   "global_nodes": [
@@ -2419,6 +2428,171 @@
       "fun_fact": "Gene expression is crucial for development, growth, and response to environmental changes",
       "topic_slug": "biochemistry",
       "topic": "Biochemistry"
+    },
+    {
+      "id": "complex_systems__CS",
+      "label": "Complex Systems",
+      "type": "core",
+      "depth": 0,
+      "description": "Systems with many interacting components, exhibiting complex behaviors",
+      "importance": 10,
+      "fun_fact": "The study of complex systems has led to breakthroughs in fields like biology, economics, and climate science",
+      "topic_slug": "complex_systems",
+      "topic": "Complex Systems"
+    },
+    {
+      "id": "complex_systems__CT",
+      "label": "Chaos Theory",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of complex, dynamic systems that are highly sensitive to initial conditions",
+      "importance": 9,
+      "fun_fact": "The butterfly effect, a concept in chaos theory, suggests that small changes can have large, unpredictable effects",
+      "topic_slug": "complex_systems",
+      "topic": "Complex Systems"
+    },
+    {
+      "id": "complex_systems__NS",
+      "label": "Network Science",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of complex networks, including social, biological, and technological systems",
+      "importance": 9,
+      "fun_fact": "Network science has been used to study the spread of diseases, information, and behaviors in social networks",
+      "topic_slug": "complex_systems",
+      "topic": "Complex Systems"
+    },
+    {
+      "id": "complex_systems__ST",
+      "label": "Systems Thinking",
+      "type": "concept",
+      "depth": 1,
+      "description": "A holistic approach to understanding complex systems, considering interactions and feedback loops",
+      "importance": 9,
+      "fun_fact": "Systems thinking has been applied in fields like business, healthcare, and environmental management",
+      "topic_slug": "complex_systems",
+      "topic": "Complex Systems"
+    },
+    {
+      "id": "complex_systems__EM",
+      "label": "Emergence",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process by which complex systems exhibit behaviors that cannot be predicted by analyzing individual parts",
+      "importance": 8,
+      "fun_fact": "Emergence is often seen in natural systems, such as the flocking behavior of birds or the schooling behavior of fish",
+      "topic_slug": "complex_systems",
+      "topic": "Complex Systems"
+    },
+    {
+      "id": "complex_systems__SO",
+      "label": "Self-Organization",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process by which complex systems adapt and evolve without external direction",
+      "importance": 8,
+      "fun_fact": "Self-organization is seen in systems like ant colonies, where individual ants follow simple rules to create complex social structures",
+      "topic_slug": "complex_systems",
+      "topic": "Complex Systems"
+    },
+    {
+      "id": "complex_systems__EC",
+      "label": "Earth's Climate",
+      "type": "example",
+      "depth": 2,
+      "description": "A complex system composed of atmosphere, oceans, land, and ice, interacting to regulate global temperatures",
+      "importance": 7,
+      "fun_fact": "The Earth's climate system is influenced by human activities, such as greenhouse gas emissions and deforestation",
+      "topic_slug": "complex_systems",
+      "topic": "Complex Systems"
+    },
+    {
+      "id": "complex_systems__HB",
+      "label": "Human Brain",
+      "type": "example",
+      "depth": 2,
+      "description": "A complex system composed of billions of neurons, interacting to process information and control behavior",
+      "importance": 7,
+      "fun_fact": "The human brain is capable of reorganizing itself in response to injury or experience, a process known as neuroplasticity",
+      "topic_slug": "complex_systems",
+      "topic": "Complex Systems"
+    },
+    {
+      "id": "complex_systems__IS",
+      "label": "Infrastructure Systems",
+      "type": "example",
+      "depth": 2,
+      "description": "Complex systems composed of physical and social components, such as power grids, transportation networks, and communication systems",
+      "importance": 6,
+      "fun_fact": "Infrastructure systems are critical to modern society, but are often vulnerable to disruptions and failures",
+      "topic_slug": "complex_systems",
+      "topic": "Complex Systems"
+    },
+    {
+      "id": "complex_systems__ES",
+      "label": "Ecosystems",
+      "type": "example",
+      "depth": 2,
+      "description": "Complex systems composed of living organisms and their environment, interacting to regulate energy and nutrient flows",
+      "importance": 6,
+      "fun_fact": "Ecosystems provide essential services, such as air and water purification, soil formation, and climate regulation",
+      "topic_slug": "complex_systems",
+      "topic": "Complex Systems"
+    },
+    {
+      "id": "complex_systems__LC",
+      "label": "Lorenz Chaos Theory",
+      "type": "formula",
+      "depth": 3,
+      "description": "A mathematical model of chaotic behavior, developed by Edward Lorenz",
+      "importance": 5,
+      "fun_fact": "The Lorenz attractor is a famous example of a chaotic system, exhibiting sensitive dependence on initial conditions",
+      "topic_slug": "complex_systems",
+      "topic": "Complex Systems"
+    },
+    {
+      "id": "complex_systems__RP",
+      "label": "Recurrence Plots",
+      "type": "application",
+      "depth": 3,
+      "description": "A visualization tool used to analyze complex systems, particularly in the context of chaos theory",
+      "importance": 5,
+      "fun_fact": "Recurrence plots have been used to study complex systems in fields like physics, biology, and economics",
+      "topic_slug": "complex_systems",
+      "topic": "Complex Systems"
+    },
+    {
+      "id": "complex_systems__EL",
+      "label": "Edward Lorenz",
+      "type": "person",
+      "depth": 3,
+      "description": "An American mathematician and meteorologist, known for his work on chaos theory",
+      "importance": 4,
+      "fun_fact": "Lorenz is often credited with discovering the butterfly effect, a concept in chaos theory",
+      "topic_slug": "complex_systems",
+      "topic": "Complex Systems"
+    },
+    {
+      "id": "complex_systems__SC",
+      "label": "Santa Fe Institute",
+      "type": "organization",
+      "depth": 3,
+      "description": "A research institute dedicated to the study of complex systems, particularly in the context of chaos theory and network science",
+      "importance": 4,
+      "fun_fact": "The Santa Fe Institute has been a hub for interdisciplinary research, bringing together scientists from fields like physics, biology, and economics",
+      "topic_slug": "complex_systems",
+      "topic": "Complex Systems"
+    },
+    {
+      "id": "complex_systems__CD",
+      "label": "Community Detection",
+      "type": "application",
+      "depth": 3,
+      "description": "A technique used to identify clusters or communities within complex networks",
+      "importance": 4,
+      "fun_fact": "Community detection has been used in fields like social network analysis, epidemiology, and marketing",
+      "topic_slug": "complex_systems",
+      "topic": "Complex Systems"
     }
   ],
   "global_edges": [
@@ -4234,6 +4408,118 @@
       "relation": "enables",
       "strength": 7,
       "topic": "Biochemistry"
+    },
+    {
+      "source": "complex_systems__CS",
+      "target": "complex_systems__CT",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Complex Systems"
+    },
+    {
+      "source": "complex_systems__CS",
+      "target": "complex_systems__NS",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Complex Systems"
+    },
+    {
+      "source": "complex_systems__CS",
+      "target": "complex_systems__ST",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Complex Systems"
+    },
+    {
+      "source": "complex_systems__CS",
+      "target": "complex_systems__EM",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Complex Systems"
+    },
+    {
+      "source": "complex_systems__CS",
+      "target": "complex_systems__SO",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Complex Systems"
+    },
+    {
+      "source": "complex_systems__CT",
+      "target": "complex_systems__LC",
+      "relation": "leads_to",
+      "strength": 7,
+      "topic": "Complex Systems"
+    },
+    {
+      "source": "complex_systems__NS",
+      "target": "complex_systems__CD",
+      "relation": "leads_to",
+      "strength": 7,
+      "topic": "Complex Systems"
+    },
+    {
+      "source": "complex_systems__ST",
+      "target": "complex_systems__RP",
+      "relation": "leads_to",
+      "strength": 6,
+      "topic": "Complex Systems"
+    },
+    {
+      "source": "complex_systems__EC",
+      "target": "complex_systems__CS",
+      "relation": "is_type_of",
+      "strength": 6,
+      "topic": "Complex Systems"
+    },
+    {
+      "source": "complex_systems__HB",
+      "target": "complex_systems__CS",
+      "relation": "is_type_of",
+      "strength": 6,
+      "topic": "Complex Systems"
+    },
+    {
+      "source": "complex_systems__IS",
+      "target": "complex_systems__CS",
+      "relation": "is_type_of",
+      "strength": 5,
+      "topic": "Complex Systems"
+    },
+    {
+      "source": "complex_systems__ES",
+      "target": "complex_systems__CS",
+      "relation": "is_type_of",
+      "strength": 5,
+      "topic": "Complex Systems"
+    },
+    {
+      "source": "complex_systems__EL",
+      "target": "complex_systems__LC",
+      "relation": "discovered_by",
+      "strength": 5,
+      "topic": "Complex Systems"
+    },
+    {
+      "source": "complex_systems__SC",
+      "target": "complex_systems__CD",
+      "relation": "used_in",
+      "strength": 4,
+      "topic": "Complex Systems"
+    },
+    {
+      "source": "complex_systems__RP",
+      "target": "complex_systems__CT",
+      "relation": "related_to",
+      "strength": 4,
+      "topic": "Complex Systems"
+    },
+    {
+      "source": "complex_systems__CD",
+      "target": "complex_systems__NS",
+      "relation": "related_to",
+      "strength": 4,
+      "topic": "Complex Systems"
     }
   ],
   "cross_topic_edges": [
@@ -4292,7 +4578,10 @@
     ],
     "medicine": [
       "environmental_epidemiology"
+    ],
+    "science": [
+      "complex_systems"
     ]
   },
-  "last_updated": "2026-06-27T09:19:31.062013"
+  "last_updated": "2026-06-27T15:04:54.339057"
 }

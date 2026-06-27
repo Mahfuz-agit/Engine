@@ -180,5 +180,18 @@
     "master_total_topics": 14,
     "ended_at": "2026-06-27T09:19:31.065324",
     "duration_seconds": 35.9
+  },
+  {
+    "started_at": "2026-06-27T15:04:16.754127",
+    "status": "success",
+    "topic": "Complex Systems",
+    "sources_found": 7,
+    "images_found": 5,
+    "quality_score": 87.5,
+    "quality_passed": true,
+    "exam_questions": 10,
+    "master_total_topics": 15,
+    "ended_at": "2026-06-27T15:04:54.342571",
+    "duration_seconds": 37.6
   }
 ]
