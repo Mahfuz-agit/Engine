@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 15,
-  "total_nodes": 223,
-  "total_edges": 275,
+  "total_topics": 16,
+  "total_nodes": 238,
+  "total_edges": 293,
   "topics": [
     {
       "topic": "Climate Change",
@@ -138,6 +138,15 @@
       "edge_count": 16,
       "description": "Complex systems are composed of many interacting components, exhibiting behaviors that cannot be predicted by analyzing individual parts. Examples include Earth's climate, organisms, and social networks. Understanding complex systems requires an interdisciplinary approach, combining concepts from chaos theory, network science, systems thinking, emergence, and self-organization.",
       "added_at": "2026-06-27T15:04:54.339024"
+    },
+    {
+      "topic": "Systems Thinking",
+      "slug": "systems_thinking",
+      "category": "complex systems",
+      "node_count": 15,
+      "edge_count": 18,
+      "description": "Systems thinking is an approach to understanding complex systems by analyzing the relationships and interactions between their components. It involves considering the system as a whole, rather than focusing on individual parts, and recognizing the feedback loops and dynamics that drive its behavior. By taking a holistic view, systems thinking can help identify and address the root causes of problems, rather than just their symptoms.",
+      "added_at": "2026-06-27T20:18:14.113968"
     }
   ],
   "global_nodes": [
@@ -2593,6 +2602,171 @@
       "fun_fact": "Community detection has been used in fields like social network analysis, epidemiology, and marketing",
       "topic_slug": "complex_systems",
       "topic": "Complex Systems"
+    },
+    {
+      "id": "systems_thinking__N1",
+      "label": "Systems Thinking",
+      "type": "core",
+      "depth": 0,
+      "description": "An approach to understanding complex systems by analyzing the relationships and interactions between their components.",
+      "importance": 10,
+      "fun_fact": "The concept of systems thinking has been around since the 1950s, but it gained popularity in the 1980s with the work of Peter Senge.",
+      "topic_slug": "systems_thinking",
+      "topic": "Systems Thinking"
+    },
+    {
+      "id": "systems_thinking__N2",
+      "label": "Holism",
+      "type": "concept",
+      "depth": 1,
+      "description": "The idea that the whole is more than the sum of its parts, and that the relationships between components are just as important as the components themselves.",
+      "importance": 9,
+      "fun_fact": "The term 'holism' was coined by Jan Smuts in 1926.",
+      "topic_slug": "systems_thinking",
+      "topic": "Systems Thinking"
+    },
+    {
+      "id": "systems_thinking__N3",
+      "label": "Feedback Loops",
+      "type": "concept",
+      "depth": 1,
+      "description": "Cycles of cause-and-effect that drive the behavior of complex systems.",
+      "importance": 9,
+      "fun_fact": "Feedback loops can be either positive (reinforcing) or negative (balancing).",
+      "topic_slug": "systems_thinking",
+      "topic": "Systems Thinking"
+    },
+    {
+      "id": "systems_thinking__N4",
+      "label": "Causal Loop Diagrams",
+      "type": "application",
+      "depth": 2,
+      "description": "A visual tool used to map the causal relationships between variables in a system.",
+      "importance": 8,
+      "fun_fact": "Causal loop diagrams are often used in system dynamics modeling.",
+      "topic_slug": "systems_thinking",
+      "topic": "Systems Thinking"
+    },
+    {
+      "id": "systems_thinking__N5",
+      "label": "Stock and Flow Diagrams",
+      "type": "application",
+      "depth": 2,
+      "description": "A visual tool used to model the flow of resources through a system.",
+      "importance": 8,
+      "fun_fact": "Stock and flow diagrams are often used in system dynamics modeling to understand the dynamics of complex systems.",
+      "topic_slug": "systems_thinking",
+      "topic": "Systems Thinking"
+    },
+    {
+      "id": "systems_thinking__N6",
+      "label": "System Dynamics",
+      "type": "core",
+      "depth": 1,
+      "description": "The study of the behavior of complex systems over time, using tools such as causal loop diagrams and stock and flow diagrams.",
+      "importance": 9,
+      "fun_fact": "System dynamics was developed in the 1950s by Jay Forrester.",
+      "topic_slug": "systems_thinking",
+      "topic": "Systems Thinking"
+    },
+    {
+      "id": "systems_thinking__N7",
+      "label": "Jay Forrester",
+      "type": "person",
+      "depth": 2,
+      "description": "An American computer engineer and systems scientist who developed the field of system dynamics.",
+      "importance": 8,
+      "fun_fact": "Forrester is known for his work on the development of the first computerized simulation model of a complex system.",
+      "topic_slug": "systems_thinking",
+      "topic": "Systems Thinking"
+    },
+    {
+      "id": "systems_thinking__N8",
+      "label": "Peter Senge",
+      "type": "person",
+      "depth": 2,
+      "description": "An American systems scientist and author who popularized the concept of systems thinking.",
+      "importance": 8,
+      "fun_fact": "Senge is known for his book 'The Fifth Discipline', which introduced the concept of systems thinking to a wide audience.",
+      "topic_slug": "systems_thinking",
+      "topic": "Systems Thinking"
+    },
+    {
+      "id": "systems_thinking__N9",
+      "label": "The Fifth Discipline",
+      "type": "example",
+      "depth": 3,
+      "description": "A book by Peter Senge that introduces the concept of systems thinking and its application to organizational learning.",
+      "importance": 7,
+      "fun_fact": "The book has been translated into over 20 languages and has sold over 1 million copies worldwide.",
+      "topic_slug": "systems_thinking",
+      "topic": "Systems Thinking"
+    },
+    {
+      "id": "systems_thinking__N10",
+      "label": "Autonomous Driving Systems",
+      "type": "application",
+      "depth": 3,
+      "description": "A complex system that uses sensors, software, and hardware to enable vehicles to drive themselves.",
+      "importance": 7,
+      "fun_fact": "Autonomous driving systems use a combination of machine learning, computer vision, and sensor data to navigate roads and avoid obstacles.",
+      "topic_slug": "systems_thinking",
+      "topic": "Systems Thinking"
+    },
+    {
+      "id": "systems_thinking__N11",
+      "label": "Simulation-Based Testing",
+      "type": "application",
+      "depth": 3,
+      "description": "A method of testing complex systems using simulated scenarios and environments.",
+      "importance": 7,
+      "fun_fact": "Simulation-based testing is often used in the development of autonomous driving systems to test and validate their performance.",
+      "topic_slug": "systems_thinking",
+      "topic": "Systems Thinking"
+    },
+    {
+      "id": "systems_thinking__N12",
+      "label": "Safety-Aware Mutation Testing",
+      "type": "application",
+      "depth": 3,
+      "description": "A method of testing complex systems that involves introducing faults or mutations into the system and evaluating its response.",
+      "importance": 7,
+      "fun_fact": "Safety-aware mutation testing is often used in the development of autonomous driving systems to test and validate their safety and reliability.",
+      "topic_slug": "systems_thinking",
+      "topic": "Systems Thinking"
+    },
+    {
+      "id": "systems_thinking__N13",
+      "label": "Engineering a Safer World",
+      "type": "example",
+      "depth": 3,
+      "description": "A book by Nancy Leveson that applies systems thinking to the field of safety engineering.",
+      "importance": 7,
+      "fun_fact": "The book introduces a new approach to safety engineering that focuses on understanding the complex interactions between system components.",
+      "topic_slug": "systems_thinking",
+      "topic": "Systems Thinking"
+    },
+    {
+      "id": "systems_thinking__N14",
+      "label": "Nancy Leveson",
+      "type": "person",
+      "depth": 3,
+      "description": "An American systems scientist and author who has made significant contributions to the field of safety engineering.",
+      "importance": 7,
+      "fun_fact": "Leveson is known for her work on the development of the STAMP (Systems-Theoretic Accident Model and Processes) framework for safety engineering.",
+      "topic_slug": "systems_thinking",
+      "topic": "Systems Thinking"
+    },
+    {
+      "id": "systems_thinking__N15",
+      "label": "STAMP Framework",
+      "type": "formula",
+      "depth": 3,
+      "description": "A framework for safety engineering that focuses on understanding the complex interactions between system components.",
+      "importance": 7,
+      "fun_fact": "The STAMP framework has been applied to a wide range of complex systems, including autonomous driving systems and healthcare systems.",
+      "topic_slug": "systems_thinking",
+      "topic": "Systems Thinking"
     }
   ],
   "global_edges": [
@@ -4520,6 +4694,132 @@
       "relation": "related_to",
       "strength": 4,
       "topic": "Complex Systems"
+    },
+    {
+      "source": "systems_thinking__N1",
+      "target": "systems_thinking__N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Systems Thinking"
+    },
+    {
+      "source": "systems_thinking__N1",
+      "target": "systems_thinking__N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Systems Thinking"
+    },
+    {
+      "source": "systems_thinking__N1",
+      "target": "systems_thinking__N6",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Systems Thinking"
+    },
+    {
+      "source": "systems_thinking__N2",
+      "target": "systems_thinking__N4",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Systems Thinking"
+    },
+    {
+      "source": "systems_thinking__N3",
+      "target": "systems_thinking__N5",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Systems Thinking"
+    },
+    {
+      "source": "systems_thinking__N6",
+      "target": "systems_thinking__N7",
+      "relation": "discovered_by",
+      "strength": 8,
+      "topic": "Systems Thinking"
+    },
+    {
+      "source": "systems_thinking__N6",
+      "target": "systems_thinking__N8",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Systems Thinking"
+    },
+    {
+      "source": "systems_thinking__N8",
+      "target": "systems_thinking__N9",
+      "relation": "used_in",
+      "strength": 7,
+      "topic": "Systems Thinking"
+    },
+    {
+      "source": "systems_thinking__N10",
+      "target": "systems_thinking__N11",
+      "relation": "used_in",
+      "strength": 7,
+      "topic": "Systems Thinking"
+    },
+    {
+      "source": "systems_thinking__N11",
+      "target": "systems_thinking__N12",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Systems Thinking"
+    },
+    {
+      "source": "systems_thinking__N13",
+      "target": "systems_thinking__N14",
+      "relation": "written_by",
+      "strength": 7,
+      "topic": "Systems Thinking"
+    },
+    {
+      "source": "systems_thinking__N14",
+      "target": "systems_thinking__N15",
+      "relation": "developed",
+      "strength": 7,
+      "topic": "Systems Thinking"
+    },
+    {
+      "source": "systems_thinking__N15",
+      "target": "systems_thinking__N10",
+      "relation": "applied_to",
+      "strength": 7,
+      "topic": "Systems Thinking"
+    },
+    {
+      "source": "systems_thinking__N1",
+      "target": "systems_thinking__N10",
+      "relation": "enables",
+      "strength": 6,
+      "topic": "Systems Thinking"
+    },
+    {
+      "source": "systems_thinking__N6",
+      "target": "systems_thinking__N13",
+      "relation": "related_to",
+      "strength": 6,
+      "topic": "Systems Thinking"
+    },
+    {
+      "source": "systems_thinking__N8",
+      "target": "systems_thinking__N14",
+      "relation": "related_to",
+      "strength": 6,
+      "topic": "Systems Thinking"
+    },
+    {
+      "source": "systems_thinking__N9",
+      "target": "systems_thinking__N11",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Systems Thinking"
+    },
+    {
+      "source": "systems_thinking__N12",
+      "target": "systems_thinking__N15",
+      "relation": "uses",
+      "strength": 6,
+      "topic": "Systems Thinking"
     }
   ],
   "cross_topic_edges": [
@@ -4550,6 +4850,13 @@
       "relation": "cross_topic_connection",
       "strength": 6,
       "label": "epigenetics"
+    },
+    {
+      "source": "complex_systems__ST",
+      "target": "systems_thinking__N1",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "systems thinking"
     }
   ],
   "category_map": {
@@ -4581,7 +4888,10 @@
     ],
     "science": [
       "complex_systems"
+    ],
+    "complex systems": [
+      "systems_thinking"
     ]
   },
-  "last_updated": "2026-06-27T15:04:54.339057"
+  "last_updated": "2026-06-27T20:18:14.113998"
 }

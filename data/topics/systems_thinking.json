@@ -1,0 +1,331 @@
+{
+  "topic": "Systems Thinking",
+  "category": "complex systems",
+  "description": "Systems thinking is an approach to understanding complex systems by analyzing the relationships and interactions between their components. It involves considering the system as a whole, rather than focusing on individual parts, and recognizing the feedback loops and dynamics that drive its behavior. By taking a holistic view, systems thinking can help identify and address the root causes of problems, rather than just their symptoms.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Systems Thinking",
+      "type": "core",
+      "depth": 0,
+      "description": "An approach to understanding complex systems by analyzing the relationships and interactions between their components.",
+      "importance": 10,
+      "fun_fact": "The concept of systems thinking has been around since the 1950s, but it gained popularity in the 1980s with the work of Peter Senge."
+    },
+    {
+      "id": "N2",
+      "label": "Holism",
+      "type": "concept",
+      "depth": 1,
+      "description": "The idea that the whole is more than the sum of its parts, and that the relationships between components are just as important as the components themselves.",
+      "importance": 9,
+      "fun_fact": "The term 'holism' was coined by Jan Smuts in 1926."
+    },
+    {
+      "id": "N3",
+      "label": "Feedback Loops",
+      "type": "concept",
+      "depth": 1,
+      "description": "Cycles of cause-and-effect that drive the behavior of complex systems.",
+      "importance": 9,
+      "fun_fact": "Feedback loops can be either positive (reinforcing) or negative (balancing)."
+    },
+    {
+      "id": "N4",
+      "label": "Causal Loop Diagrams",
+      "type": "application",
+      "depth": 2,
+      "description": "A visual tool used to map the causal relationships between variables in a system.",
+      "importance": 8,
+      "fun_fact": "Causal loop diagrams are often used in system dynamics modeling."
+    },
+    {
+      "id": "N5",
+      "label": "Stock and Flow Diagrams",
+      "type": "application",
+      "depth": 2,
+      "description": "A visual tool used to model the flow of resources through a system.",
+      "importance": 8,
+      "fun_fact": "Stock and flow diagrams are often used in system dynamics modeling to understand the dynamics of complex systems."
+    },
+    {
+      "id": "N6",
+      "label": "System Dynamics",
+      "type": "core",
+      "depth": 1,
+      "description": "The study of the behavior of complex systems over time, using tools such as causal loop diagrams and stock and flow diagrams.",
+      "importance": 9,
+      "fun_fact": "System dynamics was developed in the 1950s by Jay Forrester."
+    },
+    {
+      "id": "N7",
+      "label": "Jay Forrester",
+      "type": "person",
+      "depth": 2,
+      "description": "An American computer engineer and systems scientist who developed the field of system dynamics.",
+      "importance": 8,
+      "fun_fact": "Forrester is known for his work on the development of the first computerized simulation model of a complex system."
+    },
+    {
+      "id": "N8",
+      "label": "Peter Senge",
+      "type": "person",
+      "depth": 2,
+      "description": "An American systems scientist and author who popularized the concept of systems thinking.",
+      "importance": 8,
+      "fun_fact": "Senge is known for his book 'The Fifth Discipline', which introduced the concept of systems thinking to a wide audience."
+    },
+    {
+      "id": "N9",
+      "label": "The Fifth Discipline",
+      "type": "example",
+      "depth": 3,
+      "description": "A book by Peter Senge that introduces the concept of systems thinking and its application to organizational learning.",
+      "importance": 7,
+      "fun_fact": "The book has been translated into over 20 languages and has sold over 1 million copies worldwide."
+    },
+    {
+      "id": "N10",
+      "label": "Autonomous Driving Systems",
+      "type": "application",
+      "depth": 3,
+      "description": "A complex system that uses sensors, software, and hardware to enable vehicles to drive themselves.",
+      "importance": 7,
+      "fun_fact": "Autonomous driving systems use a combination of machine learning, computer vision, and sensor data to navigate roads and avoid obstacles."
+    },
+    {
+      "id": "N11",
+      "label": "Simulation-Based Testing",
+      "type": "application",
+      "depth": 3,
+      "description": "A method of testing complex systems using simulated scenarios and environments.",
+      "importance": 7,
+      "fun_fact": "Simulation-based testing is often used in the development of autonomous driving systems to test and validate their performance."
+    },
+    {
+      "id": "N12",
+      "label": "Safety-Aware Mutation Testing",
+      "type": "application",
+      "depth": 3,
+      "description": "A method of testing complex systems that involves introducing faults or mutations into the system and evaluating its response.",
+      "importance": 7,
+      "fun_fact": "Safety-aware mutation testing is often used in the development of autonomous driving systems to test and validate their safety and reliability."
+    },
+    {
+      "id": "N13",
+      "label": "Engineering a Safer World",
+      "type": "example",
+      "depth": 3,
+      "description": "A book by Nancy Leveson that applies systems thinking to the field of safety engineering.",
+      "importance": 7,
+      "fun_fact": "The book introduces a new approach to safety engineering that focuses on understanding the complex interactions between system components."
+    },
+    {
+      "id": "N14",
+      "label": "Nancy Leveson",
+      "type": "person",
+      "depth": 3,
+      "description": "An American systems scientist and author who has made significant contributions to the field of safety engineering.",
+      "importance": 7,
+      "fun_fact": "Leveson is known for her work on the development of the STAMP (Systems-Theoretic Accident Model and Processes) framework for safety engineering."
+    },
+    {
+      "id": "N15",
+      "label": "STAMP Framework",
+      "type": "formula",
+      "depth": 3,
+      "description": "A framework for safety engineering that focuses on understanding the complex interactions between system components.",
+      "importance": 7,
+      "fun_fact": "The STAMP framework has been applied to a wide range of complex systems, including autonomous driving systems and healthcare systems."
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Holism is a key concept in systems thinking, as it recognizes that the whole is more than the sum of its parts."
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Feedback loops are a key component of systems thinking, as they drive the behavior of complex systems."
+    },
+    {
+      "source": "N1",
+      "target": "N6",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "System dynamics is a key application of systems thinking, as it involves the study of the behavior of complex systems over time."
+    },
+    {
+      "source": "N2",
+      "target": "N4",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "Holism leads to the development of causal loop diagrams, which are used to map the causal relationships between variables in a system."
+    },
+    {
+      "source": "N3",
+      "target": "N5",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "Feedback loops lead to the development of stock and flow diagrams, which are used to model the flow of resources through a system."
+    },
+    {
+      "source": "N6",
+      "target": "N7",
+      "relation": "discovered_by",
+      "strength": 8,
+      "description": "System dynamics was developed by Jay Forrester."
+    },
+    {
+      "source": "N6",
+      "target": "N8",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "System dynamics is related to the work of Peter Senge, who popularized the concept of systems thinking."
+    },
+    {
+      "source": "N8",
+      "target": "N9",
+      "relation": "used_in",
+      "strength": 7,
+      "description": "Peter Senge's book 'The Fifth Discipline' introduces the concept of systems thinking and its application to organizational learning."
+    },
+    {
+      "source": "N10",
+      "target": "N11",
+      "relation": "used_in",
+      "strength": 7,
+      "description": "Autonomous driving systems use simulation-based testing to test and validate their performance."
+    },
+    {
+      "source": "N11",
+      "target": "N12",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "Simulation-based testing is related to safety-aware mutation testing, which is used to test and validate the safety and reliability of autonomous driving systems."
+    },
+    {
+      "source": "N13",
+      "target": "N14",
+      "relation": "written_by",
+      "strength": 7,
+      "description": "The book 'Engineering a Safer World' was written by Nancy Leveson."
+    },
+    {
+      "source": "N14",
+      "target": "N15",
+      "relation": "developed",
+      "strength": 7,
+      "description": "Nancy Leveson developed the STAMP framework for safety engineering."
+    },
+    {
+      "source": "N15",
+      "target": "N10",
+      "relation": "applied_to",
+      "strength": 7,
+      "description": "The STAMP framework has been applied to autonomous driving systems to improve their safety and reliability."
+    },
+    {
+      "source": "N1",
+      "target": "N10",
+      "relation": "enables",
+      "strength": 6,
+      "description": "Systems thinking enables the development of autonomous driving systems by providing a framework for understanding complex interactions between system components."
+    },
+    {
+      "source": "N6",
+      "target": "N13",
+      "relation": "related_to",
+      "strength": 6,
+      "description": "System dynamics is related to the concept of safety engineering, which is discussed in the book 'Engineering a Safer World'."
+    },
+    {
+      "source": "N8",
+      "target": "N14",
+      "relation": "related_to",
+      "strength": 6,
+      "description": "Peter Senge's work on systems thinking is related to Nancy Leveson's work on safety engineering."
+    },
+    {
+      "source": "N9",
+      "target": "N11",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "The concepts introduced in 'The Fifth Discipline' are used in simulation-based testing of autonomous driving systems."
+    },
+    {
+      "source": "N12",
+      "target": "N15",
+      "relation": "uses",
+      "strength": 6,
+      "description": "Safety-aware mutation testing uses the STAMP framework to evaluate the safety and reliability of autonomous driving systems."
+    }
+  ],
+  "key_takeaways": [
+    "Systems thinking involves analyzing the relationships and interactions between components of a complex system.",
+    "Holism and feedback loops are key concepts in systems thinking.",
+    "System dynamics is a key application of systems thinking, involving the study of the behavior of complex systems over time."
+  ],
+  "real_world_impact": "Systems thinking has been applied to a wide range of complex systems, including autonomous driving systems, healthcare systems, and financial systems. By understanding the complex interactions between system components, systems thinking can help identify and address the root causes of problems, rather than just their symptoms. For example, in the development of autonomous driving systems, systems thinking has been used to improve safety and reliability by identifying and mitigating potential risks and failures. Similarly, in healthcare systems, systems thinking has been used to improve patient outcomes by understanding the complex interactions between healthcare providers, patients, and the healthcare system as a whole.",
+  "images": [],
+  "sources": {
+    "wikipedia_url": "",
+    "papers": [
+      {
+        "title": "Business Dynamics: Systems Thinking and Modeling for a Complex World",
+        "url": "https://dk.um.si/IzpisGradiva.php?id=28601"
+      },
+      {
+        "title": "A Definition of Systems Thinking: A Systems Approach",
+        "url": "https://doi.org/10.1016/j.procs.2015.03.050"
+      },
+      {
+        "title": "Engineering a safer world: systems thinking applied to safety",
+        "url": "https://doi.org/10.5860/choice.49-6305"
+      }
+    ],
+    "news": [
+      {
+        "title": "Towards Safety-Aware Mutation Testing for Autonomous Driving Systems",
+        "url": "https://arxiv.org/abs/2606.26456"
+      }
+    ]
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 18"
+      ],
+      "node_count": 15,
+      "edge_count": 18
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "System Mapping",
+        "Systems Thinking in Social Sciences"
+      ],
+      "strengths": [
+        "Clear connections between systems thinking and its applications",
+        "Inclusion of key figures and their contributions"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

@@ -1,0 +1,161 @@
+{
+  "topic": "Systems Thinking",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary focus of systems thinking?",
+      "options": {
+        "A": "Analyzing individual components of a system",
+        "B": "Understanding the relationships and interactions between components of a complex system",
+        "C": "Identifying the root cause of a problem",
+        "D": "Developing a new technology"
+      },
+      "correct": "B",
+      "explanation": "Systems thinking involves analyzing the relationships and interactions between components of a complex system, rather than focusing on individual parts.",
+      "node_id": "Systems Thinking",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the idea that the whole is more than the sum of its parts?",
+      "options": {
+        "A": "Holism",
+        "B": "System dynamics",
+        "C": "Feedback loops",
+        "D": "Causal loop diagrams"
+      },
+      "correct": "A",
+      "explanation": "Holism is the idea that the whole is more than the sum of its parts, and that the relationships between components are just as important as the components themselves.",
+      "node_id": "Holism",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the purpose of using causal loop diagrams in system dynamics modeling?",
+      "options": {
+        "A": "To identify the root cause of a problem",
+        "B": "To map the causal relationships between variables in a system",
+        "C": "To develop a new technology",
+        "D": "To test and validate the performance of a complex system"
+      },
+      "correct": "B",
+      "explanation": "Causal loop diagrams are used to map the causal relationships between variables in a system, which helps to understand the dynamics of complex systems.",
+      "node_id": "Causal Loop Diagrams",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "Who is known for developing the field of system dynamics?",
+      "options": {
+        "A": "Peter Senge",
+        "B": "Jay Forrester",
+        "C": "Nancy Leveson",
+        "D": "Jan Smuts"
+      },
+      "correct": "B",
+      "explanation": "Jay Forrester is known for developing the field of system dynamics, which involves the study of the behavior of complex systems over time.",
+      "node_id": "Jay Forrester",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the cycles of cause-and-effect that drive the behavior of complex systems?",
+      "options": {
+        "A": "Feedback loops",
+        "B": "Causal loop diagrams",
+        "C": "Stock and flow diagrams",
+        "D": "System dynamics"
+      },
+      "correct": "A",
+      "explanation": "Feedback loops are the cycles of cause-and-effect that drive the behavior of complex systems, and can be either positive (reinforcing) or negative (balancing).",
+      "node_id": "Feedback Loops",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the purpose of using simulation-based testing in the development of autonomous driving systems?",
+      "options": {
+        "A": "To test and validate the performance of the system in real-world scenarios",
+        "B": "To identify the root cause of a problem",
+        "C": "To develop a new technology",
+        "D": "To map the causal relationships between variables in a system"
+      },
+      "correct": "A",
+      "explanation": "Simulation-based testing is used to test and validate the performance of autonomous driving systems in simulated scenarios and environments, which helps to ensure their safety and reliability.",
+      "node_id": "Simulation-Based Testing",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the framework that focuses on understanding the complex interactions between system components to ensure safety?",
+      "options": {
+        "A": "STAMP framework",
+        "B": "System dynamics",
+        "C": "Causal loop diagrams",
+        "D": "Stock and flow diagrams"
+      },
+      "correct": "A",
+      "explanation": "The STAMP framework is a framework that focuses on understanding the complex interactions between system components to ensure safety, and has been applied to a wide range of complex systems.",
+      "node_id": "STAMP Framework",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Explain the concept of holism and its importance in systems thinking.",
+      "sample_answer": "Holism is the idea that the whole is more than the sum of its parts, and that the relationships between components are just as important as the components themselves. This concept is important in systems thinking because it recognizes that complex systems cannot be understood by analyzing individual components in isolation, but rather by analyzing the relationships and interactions between them.",
+      "keywords": [
+        "holism",
+        "systems thinking",
+        "complex systems"
+      ],
+      "node_id": "Holism",
+      "points": 15
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Describe the differences between positive and negative feedback loops, and provide an example of each.",
+      "sample_answer": "Positive feedback loops are cycles of cause-and-effect that reinforce a behavior or trend, while negative feedback loops are cycles of cause-and-effect that balance or counteract a behavior or trend. For example, a positive feedback loop might occur in a population growth model, where an increase in population leads to an increase in food production, which in turn leads to an increase in population. A negative feedback loop might occur in a temperature control system, where an increase in temperature leads to an increase in cooling, which in turn leads to a decrease in temperature.",
+      "keywords": [
+        "feedback loops",
+        "positive feedback",
+        "negative feedback"
+      ],
+      "node_id": "Feedback Loops",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Explain the importance of system dynamics in understanding complex systems, and provide an example of a complex system that can be analyzed using system dynamics.",
+      "sample_answer": "System dynamics is important in understanding complex systems because it allows us to study the behavior of complex systems over time, and to identify the causal relationships between variables. For example, a complex system that can be analyzed using system dynamics is a supply chain, where the behavior of the system is influenced by factors such as demand, production, and inventory levels.",
+      "keywords": [
+        "system dynamics",
+        "complex systems",
+        "supply chain"
+      ],
+      "node_id": "System Dynamics",
+      "points": 15
+    }
+  ]
+}
