@@ -167,5 +167,18 @@
     "master_total_topics": 13,
     "ended_at": "2026-06-26T23:48:09.352012",
     "duration_seconds": 38.3
+  },
+  {
+    "started_at": "2026-06-27T09:18:55.195816",
+    "status": "success",
+    "topic": "Biochemistry",
+    "sources_found": 6,
+    "images_found": 0,
+    "quality_score": 87.5,
+    "quality_passed": true,
+    "exam_questions": 10,
+    "master_total_topics": 14,
+    "ended_at": "2026-06-27T09:19:31.065324",
+    "duration_seconds": 35.9
   }
 ]

@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 13,
-  "total_nodes": 193,
-  "total_edges": 240,
+  "total_topics": 14,
+  "total_nodes": 208,
+  "total_edges": 259,
   "topics": [
     {
       "topic": "Climate Change",
@@ -120,6 +120,15 @@
       "edge_count": 18,
       "description": "Microbiology is the scientific study of microorganisms, including unicellular, multicellular, or acellular organisms. It encompasses various sub-disciplines such as immunology, virology, bacteriology, mycology, and parasitology. Microbiologists study the structure, function, and interactions of microorganisms with their environment and hosts.",
       "added_at": "2026-06-26T23:48:09.348670"
+    },
+    {
+      "topic": "Biochemistry",
+      "slug": "biochemistry",
+      "category": "biology",
+      "node_count": 15,
+      "edge_count": 19,
+      "description": "Biochemistry is the study of the chemical processes that occur within living organisms, including metabolic pathways, enzyme kinetics, and molecular biology. It has numerous applications in fields such as nutrition, pharmacology, and biotechnology. Understanding biochemistry is crucial for developing new treatments and therapies for various diseases.",
+      "added_at": "2026-06-27T09:19:31.061982"
     }
   ],
   "global_nodes": [
@@ -2245,6 +2254,171 @@
       "fun_fact": "Microbial biotechnology has the potential to provide sustainable solutions to global challenges, such as energy production and environmental remediation.",
       "topic_slug": "microbiology",
       "topic": "Microbiology"
+    },
+    {
+      "id": "biochemistry__N1",
+      "label": "Metabolic Pathways",
+      "type": "core",
+      "depth": 0,
+      "description": "Series of chemical reactions that occur within cells to maintain life",
+      "importance": 9,
+      "fun_fact": "The citric acid cycle is a key metabolic pathway that occurs in all aerobic organisms",
+      "topic_slug": "biochemistry",
+      "topic": "Biochemistry"
+    },
+    {
+      "id": "biochemistry__N2",
+      "label": "Enzyme Kinetics",
+      "type": "core",
+      "depth": 0,
+      "description": "Study of the rates of enzyme-catalyzed reactions",
+      "importance": 9,
+      "fun_fact": "Enzyme kinetics is crucial for understanding how drugs interact with enzymes in the body",
+      "topic_slug": "biochemistry",
+      "topic": "Biochemistry"
+    },
+    {
+      "id": "biochemistry__N3",
+      "label": "Molecular Biology",
+      "type": "core",
+      "depth": 0,
+      "description": "Study of the structure and function of biomolecules such as DNA, RNA, and proteins",
+      "importance": 9,
+      "fun_fact": "The discovery of the structure of DNA by James Watson and Francis Crick revolutionized molecular biology",
+      "topic_slug": "biochemistry",
+      "topic": "Biochemistry"
+    },
+    {
+      "id": "biochemistry__N4",
+      "label": "Nutrition and Digestion",
+      "type": "application",
+      "depth": 1,
+      "description": "Study of how nutrients are broken down and absorbed by the body",
+      "importance": 8,
+      "fun_fact": "A balanced diet is essential for maintaining proper nutrition and digestion",
+      "topic_slug": "biochemistry",
+      "topic": "Biochemistry"
+    },
+    {
+      "id": "biochemistry__N5",
+      "label": "Pharmacology",
+      "type": "application",
+      "depth": 1,
+      "description": "Study of the interactions between drugs and living organisms",
+      "importance": 8,
+      "fun_fact": "Pharmacology has led to the development of many life-saving medications",
+      "topic_slug": "biochemistry",
+      "topic": "Biochemistry"
+    },
+    {
+      "id": "biochemistry__N6",
+      "label": "Polyphenols",
+      "type": "concept",
+      "depth": 2,
+      "description": "Class of compounds found in plant-based foods with potential health benefits",
+      "importance": 7,
+      "fun_fact": "Polyphenol-rich diets have been linked to reduced risk of chronic diseases such as heart disease and cancer",
+      "topic_slug": "biochemistry",
+      "topic": "Biochemistry"
+    },
+    {
+      "id": "biochemistry__N7",
+      "label": "Flavonoids",
+      "type": "concept",
+      "depth": 2,
+      "description": "Subclass of polyphenols with antioxidant and anti-inflammatory properties",
+      "importance": 7,
+      "fun_fact": "Flavonoids are responsible for the red, blue, and purple colors of many fruits and vegetables",
+      "topic_slug": "biochemistry",
+      "topic": "Biochemistry"
+    },
+    {
+      "id": "biochemistry__N8",
+      "label": "Robert Boyle",
+      "type": "person",
+      "depth": 2,
+      "description": "17th-century scientist who discovered the effects of acid and base on plant pigments",
+      "importance": 6,
+      "fun_fact": "Boyle is considered one of the founders of modern chemistry",
+      "topic_slug": "biochemistry",
+      "topic": "Biochemistry"
+    },
+    {
+      "id": "biochemistry__N9",
+      "label": "Edible Insects",
+      "type": "example",
+      "depth": 3,
+      "description": "Alternative source of protein that requires less land, water, and emits less greenhouse gas than conventional livestock",
+      "importance": 5,
+      "fun_fact": "Edible insects are a sustainable food source that is gaining popularity worldwide",
+      "topic_slug": "biochemistry",
+      "topic": "Biochemistry"
+    },
+    {
+      "id": "biochemistry__N10",
+      "label": "Biomolecular Condensates",
+      "type": "concept",
+      "depth": 2,
+      "description": "Membrane-less organelles that play a crucial role in cellular biochemistry",
+      "importance": 7,
+      "fun_fact": "Biomolecular condensates are involved in various cellular processes such as gene expression and protein synthesis",
+      "topic_slug": "biochemistry",
+      "topic": "Biochemistry"
+    },
+    {
+      "id": "biochemistry__N11",
+      "label": "James Watson",
+      "type": "person",
+      "depth": 2,
+      "description": "Co-discoverer of the structure of DNA",
+      "importance": 6,
+      "fun_fact": "Watson, along with Francis Crick, was awarded the Nobel Prize in Physiology or Medicine in 1962",
+      "topic_slug": "biochemistry",
+      "topic": "Biochemistry"
+    },
+    {
+      "id": "biochemistry__N12",
+      "label": "Francis Crick",
+      "type": "person",
+      "depth": 2,
+      "description": "Co-discoverer of the structure of DNA",
+      "importance": 6,
+      "fun_fact": "Crick, along with James Watson, was awarded the Nobel Prize in Physiology or Medicine in 1962",
+      "topic_slug": "biochemistry",
+      "topic": "Biochemistry"
+    },
+    {
+      "id": "biochemistry__N13",
+      "label": "Citric Acid Cycle",
+      "type": "formula",
+      "depth": 3,
+      "description": "Key metabolic pathway that occurs in all aerobic organisms",
+      "importance": 5,
+      "fun_fact": "The citric acid cycle is also known as the Krebs cycle or tricarboxylic acid cycle",
+      "topic_slug": "biochemistry",
+      "topic": "Biochemistry"
+    },
+    {
+      "id": "biochemistry__N14",
+      "label": "Protein Synthesis",
+      "type": "concept",
+      "depth": 2,
+      "description": "Process by which cells create proteins",
+      "importance": 7,
+      "fun_fact": "Protein synthesis is essential for maintaining cellular homeostasis and responding to environmental changes",
+      "topic_slug": "biochemistry",
+      "topic": "Biochemistry"
+    },
+    {
+      "id": "biochemistry__N15",
+      "label": "Gene Expression",
+      "type": "concept",
+      "depth": 2,
+      "description": "Process by which cells regulate the expression of genes",
+      "importance": 7,
+      "fun_fact": "Gene expression is crucial for development, growth, and response to environmental changes",
+      "topic_slug": "biochemistry",
+      "topic": "Biochemistry"
     }
   ],
   "global_edges": [
@@ -3927,6 +4101,139 @@
       "relation": "used_in",
       "strength": 8,
       "topic": "Microbiology"
+    },
+    {
+      "source": "biochemistry__N1",
+      "target": "biochemistry__N4",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Biochemistry"
+    },
+    {
+      "source": "biochemistry__N2",
+      "target": "biochemistry__N5",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Biochemistry"
+    },
+    {
+      "source": "biochemistry__N3",
+      "target": "biochemistry__N6",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Biochemistry"
+    },
+    {
+      "source": "biochemistry__N6",
+      "target": "biochemistry__N7",
+      "relation": "is_type_of",
+      "strength": 7,
+      "topic": "Biochemistry"
+    },
+    {
+      "source": "biochemistry__N8",
+      "target": "biochemistry__N7",
+      "relation": "discovered_by",
+      "strength": 6,
+      "topic": "Biochemistry"
+    },
+    {
+      "source": "biochemistry__N9",
+      "target": "biochemistry__N1",
+      "relation": "is_part_of",
+      "strength": 5,
+      "topic": "Biochemistry"
+    },
+    {
+      "source": "biochemistry__N10",
+      "target": "biochemistry__N3",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Biochemistry"
+    },
+    {
+      "source": "biochemistry__N11",
+      "target": "biochemistry__N3",
+      "relation": "discovered_by",
+      "strength": 6,
+      "topic": "Biochemistry"
+    },
+    {
+      "source": "biochemistry__N12",
+      "target": "biochemistry__N3",
+      "relation": "discovered_by",
+      "strength": 6,
+      "topic": "Biochemistry"
+    },
+    {
+      "source": "biochemistry__N13",
+      "target": "biochemistry__N1",
+      "relation": "is_part_of",
+      "strength": 5,
+      "topic": "Biochemistry"
+    },
+    {
+      "source": "biochemistry__N14",
+      "target": "biochemistry__N3",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Biochemistry"
+    },
+    {
+      "source": "biochemistry__N15",
+      "target": "biochemistry__N3",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Biochemistry"
+    },
+    {
+      "source": "biochemistry__N4",
+      "target": "biochemistry__N5",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Biochemistry"
+    },
+    {
+      "source": "biochemistry__N5",
+      "target": "biochemistry__N9",
+      "relation": "used_in",
+      "strength": 5,
+      "topic": "Biochemistry"
+    },
+    {
+      "source": "biochemistry__N10",
+      "target": "biochemistry__N14",
+      "relation": "enables",
+      "strength": 7,
+      "topic": "Biochemistry"
+    },
+    {
+      "source": "biochemistry__N10",
+      "target": "biochemistry__N15",
+      "relation": "enables",
+      "strength": 7,
+      "topic": "Biochemistry"
+    },
+    {
+      "source": "biochemistry__N11",
+      "target": "biochemistry__N12",
+      "relation": "collaborated_with",
+      "strength": 6,
+      "topic": "Biochemistry"
+    },
+    {
+      "source": "biochemistry__N13",
+      "target": "biochemistry__N14",
+      "relation": "depends_on",
+      "strength": 5,
+      "topic": "Biochemistry"
+    },
+    {
+      "source": "biochemistry__N15",
+      "target": "biochemistry__N14",
+      "relation": "enables",
+      "strength": 7,
+      "topic": "Biochemistry"
     }
   ],
   "cross_topic_edges": [
@@ -3971,7 +4278,8 @@
       "epigenetics",
       "astrobiology",
       "biogeochemistry",
-      "microbiology"
+      "microbiology",
+      "biochemistry"
     ],
     "psychology": [
       "neuroplasticity"
@@ -3986,5 +4294,5 @@
       "environmental_epidemiology"
     ]
   },
-  "last_updated": "2026-06-26T23:48:09.348705"
+  "last_updated": "2026-06-27T09:19:31.062013"
 }

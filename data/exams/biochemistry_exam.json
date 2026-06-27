@@ -1,0 +1,163 @@
+{
+  "topic": "Biochemistry",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary focus of the field of biochemistry?",
+      "options": {
+        "A": "The study of the chemical processes that occur within living organisms",
+        "B": "The study of the physical structures of living organisms",
+        "C": "The study of the behavior of living organisms",
+        "D": "The study of the evolution of living organisms"
+      },
+      "correct": "A",
+      "explanation": "Biochemistry is the study of the chemical processes that occur within living organisms, including metabolic pathways, enzyme kinetics, and molecular biology.",
+      "node_id": "Biochemistry",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the role of enzyme kinetics in biochemistry?",
+      "options": {
+        "A": "To study the structure of biomolecules",
+        "B": "To study the rates of enzyme-catalyzed reactions",
+        "C": "To study the metabolic pathways of living organisms",
+        "D": "To study the interactions between drugs and living organisms"
+      },
+      "correct": "B",
+      "explanation": "Enzyme kinetics is the study of the rates of enzyme-catalyzed reactions, which is crucial for understanding how drugs interact with enzymes in the body.",
+      "node_id": "Enzyme Kinetics",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What is the significance of the citric acid cycle in metabolic pathways?",
+      "sample_answer": "The citric acid cycle is a key metabolic pathway that occurs in all aerobic organisms, playing a crucial role in the production of energy for the cell.",
+      "keywords": [
+        "citric acid cycle",
+        "metabolic pathway",
+        "aerobic organisms"
+      ],
+      "node_id": "Metabolic Pathways",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the relationship between biomolecular condensates and gene expression?",
+      "options": {
+        "A": "Biomolecular condensates inhibit gene expression",
+        "B": "Biomolecular condensates have no effect on gene expression",
+        "C": "Biomolecular condensates play a crucial role in regulating gene expression",
+        "D": "Biomolecular condensates are involved in protein synthesis only"
+      },
+      "correct": "C",
+      "explanation": "Biomolecular condensates are involved in various cellular processes, including gene expression, and play a crucial role in regulating it.",
+      "node_id": "Biomolecular Condensates",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary function of molecular biology?",
+      "options": {
+        "A": "To study the structure and function of biomolecules",
+        "B": "To study the behavior of living organisms",
+        "C": "To study the evolution of living organisms",
+        "D": "To study the physical structures of living organisms"
+      },
+      "correct": "A",
+      "explanation": "Molecular biology is the study of the structure and function of biomolecules such as DNA, RNA, and proteins.",
+      "node_id": "Molecular Biology",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What are the potential health benefits of a polyphenol-rich diet?",
+      "sample_answer": "A polyphenol-rich diet has been linked to reduced risk of chronic diseases such as heart disease and cancer, due to the antioxidant and anti-inflammatory properties of polyphenols.",
+      "keywords": [
+        "polyphenols",
+        "health benefits",
+        "antioxidant",
+        "anti-inflammatory"
+      ],
+      "node_id": "Polyphenols",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the role of flavonoids in plant-based foods?",
+      "options": {
+        "A": "To provide nutritional value only",
+        "B": "To provide antioxidant and anti-inflammatory properties",
+        "C": "To provide flavor and texture only",
+        "D": "To provide color only"
+      },
+      "correct": "B",
+      "explanation": "Flavonoids are a subclass of polyphenols with antioxidant and anti-inflammatory properties, and are responsible for the red, blue, and purple colors of many fruits and vegetables.",
+      "node_id": "Flavonoids",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the process by which cells create proteins?",
+      "options": {
+        "A": "Gene expression",
+        "B": "Protein synthesis",
+        "C": "Metabolic pathways",
+        "D": "Enzyme kinetics"
+      },
+      "correct": "B",
+      "explanation": "Protein synthesis is the process by which cells create proteins, which is essential for maintaining cellular homeostasis and responding to environmental changes.",
+      "node_id": "Protein Synthesis",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "How do biomolecular condensates regulate gene expression and protein synthesis?",
+      "sample_answer": "Biomolecular condensates regulate gene expression and protein synthesis by providing a platform for the assembly of transcriptional and translational machinery, allowing for the regulation of gene expression and protein synthesis in response to cellular signals.",
+      "keywords": [
+        "biomolecular condensates",
+        "gene expression",
+        "protein synthesis",
+        "transcriptional machinery"
+      ],
+      "node_id": "Biomolecular Condensates",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the study of the interactions between drugs and living organisms?",
+      "options": {
+        "A": "Pharmacology",
+        "B": "Toxicology",
+        "C": "Nutrition",
+        "D": "Molecular Biology"
+      },
+      "correct": "A",
+      "explanation": "Pharmacology is the study of the interactions between drugs and living organisms, which has led to the development of many life-saving medications.",
+      "node_id": "Pharmacology",
+      "points": 10
+    }
+  ]
+}

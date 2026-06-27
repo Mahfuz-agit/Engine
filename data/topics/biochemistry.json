@@ -1,0 +1,338 @@
+{
+  "topic": "Biochemistry",
+  "category": "biology",
+  "description": "Biochemistry is the study of the chemical processes that occur within living organisms, including metabolic pathways, enzyme kinetics, and molecular biology. It has numerous applications in fields such as nutrition, pharmacology, and biotechnology. Understanding biochemistry is crucial for developing new treatments and therapies for various diseases.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Metabolic Pathways",
+      "type": "core",
+      "depth": 0,
+      "description": "Series of chemical reactions that occur within cells to maintain life",
+      "importance": 9,
+      "fun_fact": "The citric acid cycle is a key metabolic pathway that occurs in all aerobic organisms"
+    },
+    {
+      "id": "N2",
+      "label": "Enzyme Kinetics",
+      "type": "core",
+      "depth": 0,
+      "description": "Study of the rates of enzyme-catalyzed reactions",
+      "importance": 9,
+      "fun_fact": "Enzyme kinetics is crucial for understanding how drugs interact with enzymes in the body"
+    },
+    {
+      "id": "N3",
+      "label": "Molecular Biology",
+      "type": "core",
+      "depth": 0,
+      "description": "Study of the structure and function of biomolecules such as DNA, RNA, and proteins",
+      "importance": 9,
+      "fun_fact": "The discovery of the structure of DNA by James Watson and Francis Crick revolutionized molecular biology"
+    },
+    {
+      "id": "N4",
+      "label": "Nutrition and Digestion",
+      "type": "application",
+      "depth": 1,
+      "description": "Study of how nutrients are broken down and absorbed by the body",
+      "importance": 8,
+      "fun_fact": "A balanced diet is essential for maintaining proper nutrition and digestion"
+    },
+    {
+      "id": "N5",
+      "label": "Pharmacology",
+      "type": "application",
+      "depth": 1,
+      "description": "Study of the interactions between drugs and living organisms",
+      "importance": 8,
+      "fun_fact": "Pharmacology has led to the development of many life-saving medications"
+    },
+    {
+      "id": "N6",
+      "label": "Polyphenols",
+      "type": "concept",
+      "depth": 2,
+      "description": "Class of compounds found in plant-based foods with potential health benefits",
+      "importance": 7,
+      "fun_fact": "Polyphenol-rich diets have been linked to reduced risk of chronic diseases such as heart disease and cancer"
+    },
+    {
+      "id": "N7",
+      "label": "Flavonoids",
+      "type": "concept",
+      "depth": 2,
+      "description": "Subclass of polyphenols with antioxidant and anti-inflammatory properties",
+      "importance": 7,
+      "fun_fact": "Flavonoids are responsible for the red, blue, and purple colors of many fruits and vegetables"
+    },
+    {
+      "id": "N8",
+      "label": "Robert Boyle",
+      "type": "person",
+      "depth": 2,
+      "description": "17th-century scientist who discovered the effects of acid and base on plant pigments",
+      "importance": 6,
+      "fun_fact": "Boyle is considered one of the founders of modern chemistry"
+    },
+    {
+      "id": "N9",
+      "label": "Edible Insects",
+      "type": "example",
+      "depth": 3,
+      "description": "Alternative source of protein that requires less land, water, and emits less greenhouse gas than conventional livestock",
+      "importance": 5,
+      "fun_fact": "Edible insects are a sustainable food source that is gaining popularity worldwide"
+    },
+    {
+      "id": "N10",
+      "label": "Biomolecular Condensates",
+      "type": "concept",
+      "depth": 2,
+      "description": "Membrane-less organelles that play a crucial role in cellular biochemistry",
+      "importance": 7,
+      "fun_fact": "Biomolecular condensates are involved in various cellular processes such as gene expression and protein synthesis"
+    },
+    {
+      "id": "N11",
+      "label": "James Watson",
+      "type": "person",
+      "depth": 2,
+      "description": "Co-discoverer of the structure of DNA",
+      "importance": 6,
+      "fun_fact": "Watson, along with Francis Crick, was awarded the Nobel Prize in Physiology or Medicine in 1962"
+    },
+    {
+      "id": "N12",
+      "label": "Francis Crick",
+      "type": "person",
+      "depth": 2,
+      "description": "Co-discoverer of the structure of DNA",
+      "importance": 6,
+      "fun_fact": "Crick, along with James Watson, was awarded the Nobel Prize in Physiology or Medicine in 1962"
+    },
+    {
+      "id": "N13",
+      "label": "Citric Acid Cycle",
+      "type": "formula",
+      "depth": 3,
+      "description": "Key metabolic pathway that occurs in all aerobic organisms",
+      "importance": 5,
+      "fun_fact": "The citric acid cycle is also known as the Krebs cycle or tricarboxylic acid cycle"
+    },
+    {
+      "id": "N14",
+      "label": "Protein Synthesis",
+      "type": "concept",
+      "depth": 2,
+      "description": "Process by which cells create proteins",
+      "importance": 7,
+      "fun_fact": "Protein synthesis is essential for maintaining cellular homeostasis and responding to environmental changes"
+    },
+    {
+      "id": "N15",
+      "label": "Gene Expression",
+      "type": "concept",
+      "depth": 2,
+      "description": "Process by which cells regulate the expression of genes",
+      "importance": 7,
+      "fun_fact": "Gene expression is crucial for development, growth, and response to environmental changes"
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N4",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "Metabolic pathways are essential for nutrition and digestion"
+    },
+    {
+      "source": "N2",
+      "target": "N5",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Enzyme kinetics is crucial for understanding pharmacology"
+    },
+    {
+      "source": "N3",
+      "target": "N6",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "Molecular biology is related to the study of polyphenols"
+    },
+    {
+      "source": "N6",
+      "target": "N7",
+      "relation": "is_type_of",
+      "strength": 7,
+      "description": "Flavonoids are a subclass of polyphenols"
+    },
+    {
+      "source": "N8",
+      "target": "N7",
+      "relation": "discovered_by",
+      "strength": 6,
+      "description": "Robert Boyle discovered the effects of acid and base on plant pigments, including flavonoids"
+    },
+    {
+      "source": "N9",
+      "target": "N1",
+      "relation": "is_part_of",
+      "strength": 5,
+      "description": "Edible insects are an alternative source of protein that can be used in metabolic pathways"
+    },
+    {
+      "source": "N10",
+      "target": "N3",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "Biomolecular condensates are involved in molecular biology processes such as gene expression and protein synthesis"
+    },
+    {
+      "source": "N11",
+      "target": "N3",
+      "relation": "discovered_by",
+      "strength": 6,
+      "description": "James Watson co-discovered the structure of DNA, a fundamental concept in molecular biology"
+    },
+    {
+      "source": "N12",
+      "target": "N3",
+      "relation": "discovered_by",
+      "strength": 6,
+      "description": "Francis Crick co-discovered the structure of DNA, a fundamental concept in molecular biology"
+    },
+    {
+      "source": "N13",
+      "target": "N1",
+      "relation": "is_part_of",
+      "strength": 5,
+      "description": "The citric acid cycle is a key metabolic pathway"
+    },
+    {
+      "source": "N14",
+      "target": "N3",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "Protein synthesis is a process that occurs in molecular biology"
+    },
+    {
+      "source": "N15",
+      "target": "N3",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "Gene expression is a process that occurs in molecular biology"
+    },
+    {
+      "source": "N4",
+      "target": "N5",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "Nutrition and digestion are essential for pharmacology"
+    },
+    {
+      "source": "N5",
+      "target": "N9",
+      "relation": "used_in",
+      "strength": 5,
+      "description": "Pharmacology can be used to develop treatments for edible insect-related diseases"
+    },
+    {
+      "source": "N10",
+      "target": "N14",
+      "relation": "enables",
+      "strength": 7,
+      "description": "Biomolecular condensates enable protein synthesis"
+    },
+    {
+      "source": "N10",
+      "target": "N15",
+      "relation": "enables",
+      "strength": 7,
+      "description": "Biomolecular condensates enable gene expression"
+    },
+    {
+      "source": "N11",
+      "target": "N12",
+      "relation": "collaborated_with",
+      "strength": 6,
+      "description": "James Watson and Francis Crick collaborated on the discovery of the structure of DNA"
+    },
+    {
+      "source": "N13",
+      "target": "N14",
+      "relation": "depends_on",
+      "strength": 5,
+      "description": "The citric acid cycle depends on protein synthesis"
+    },
+    {
+      "source": "N15",
+      "target": "N14",
+      "relation": "enables",
+      "strength": 7,
+      "description": "Gene expression enables protein synthesis"
+    }
+  ],
+  "key_takeaways": [
+    "Biochemistry is the study of the chemical processes that occur within living organisms",
+    "Metabolic pathways, enzyme kinetics, and molecular biology are core concepts in biochemistry",
+    "Biochemistry has numerous applications in fields such as nutrition, pharmacology, and biotechnology"
+  ],
+  "real_world_impact": "Biochemistry has a significant impact on our daily lives, from the development of new treatments and therapies for diseases to the production of sustainable food sources. Understanding biochemistry is crucial for addressing global challenges such as climate change, food security, and human health. By applying biochemistry principles, we can develop innovative solutions to these challenges and improve the quality of life for individuals and communities around the world.",
+  "images": [],
+  "sources": {
+    "wikipedia_url": "",
+    "papers": [
+      {
+        "title": "Biomolecular condensates: organizers of cellular biochemistry",
+        "url": "https://doi.org/10.1038/nrm.2017.7"
+      },
+      {
+        "title": "Chemistry and Biochemistry of Dietary Polyphenols",
+        "url": "https://doi.org/10.3390/nu2121231"
+      },
+      {
+        "title": "Flavonoid Biosynthesis. A Colorful Model for Genetics, Biochemistry, Cell Biology, and Biotechnology",
+        "url": "https://doi.org/10.1104/pp.126.2.485"
+      }
+    ],
+    "news": [
+      {
+        "title": "Batch-Invariant Spectral Intelligence for Robust and Explainable Insect Authentication",
+        "url": "https://arxiv.org/abs/2606.26757"
+      }
+    ]
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 19"
+      ],
+      "node_count": 15,
+      "edge_count": 19
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Lipid Metabolism",
+        "Glycolysis"
+      ],
+      "strengths": [
+        "Clear connections between core concepts",
+        "Inclusion of relevant applications and examples"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}
