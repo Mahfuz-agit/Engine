@@ -1,0 +1,386 @@
+{
+  "topic": "Cryptography",
+  "category": "computer_science",
+  "description": "Cryptography is the practice and study of techniques for secure communication in the presence of adversarial behavior. It involves constructing and analyzing protocols that prevent third parties or the public from reading private messages. Modern cryptography exists at the intersection of mathematics, computer science, and information security.",
+  "nodes": [
+    {
+      "id": "cryptography",
+      "label": "Cryptography",
+      "type": "core",
+      "depth": 0,
+      "description": "The practice and study of techniques for secure communication in the presence of adversarial behavior.",
+      "importance": 10,
+      "fun_fact": "The word 'cryptography' comes from the Greek words 'kryptos' meaning 'hidden' and 'graphein' meaning 'writing'."
+    },
+    {
+      "id": "encryption_algorithms",
+      "label": "Encryption Algorithms",
+      "type": "concept",
+      "depth": 1,
+      "description": "Algorithms used to transform plaintext into ciphertext to protect data from unauthorized access.",
+      "importance": 9,
+      "fun_fact": "The first encryption algorithm was the Caesar Cipher, which was used by Julius Caesar to send secret messages."
+    },
+    {
+      "id": "digital_signatures",
+      "label": "Digital Signatures",
+      "type": "concept",
+      "depth": 1,
+      "description": "A type of asymmetric cryptography that uses a pair of keys to authenticate the sender of a message and ensure the integrity of the message.",
+      "importance": 9,
+      "fun_fact": "Digital signatures are used in electronic commerce to authenticate transactions and ensure the integrity of data."
+    },
+    {
+      "id": "cryptanalysis",
+      "label": "Cryptanalysis",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of methods for obtaining the meaning of encrypted information without access to the decryption key.",
+      "importance": 8,
+      "fun_fact": "Cryptanalysis was used during World War II to break the German Enigma code."
+    },
+    {
+      "id": "hash_functions",
+      "label": "Hash Functions",
+      "type": "concept",
+      "depth": 1,
+      "description": "Algorithms that take input data of any size and produce a fixed-size string of characters, known as a hash value or digest.",
+      "importance": 8,
+      "fun_fact": "Hash functions are used in data storage and retrieval to quickly identify and verify data."
+    },
+    {
+      "id": "secure_communication_protocols",
+      "label": "Secure Communication Protocols",
+      "type": "concept",
+      "depth": 1,
+      "description": "Protocols used to ensure the secure transmission of data over a network.",
+      "importance": 9,
+      "fun_fact": "Secure communication protocols such as HTTPS and SSH are used to protect data in transit."
+    },
+    {
+      "id": "elliptic_curve_cryptography",
+      "label": "Elliptic Curve Cryptography",
+      "type": "concept",
+      "depth": 2,
+      "description": "A type of public-key cryptography that uses the mathematics of elliptic curves to create a secure key exchange.",
+      "importance": 8,
+      "fun_fact": "Elliptic curve cryptography is used in many modern cryptographic protocols due to its high security and efficiency."
+    },
+    {
+      "id": "rsa_algorithm",
+      "label": "RSA Algorithm",
+      "type": "concept",
+      "depth": 2,
+      "description": "A widely used public-key encryption algorithm that uses the principles of number theory to create a secure key exchange.",
+      "importance": 9,
+      "fun_fact": "The RSA algorithm was developed in 1978 by Ron Rivest, Adi Shamir, and Leonard Adleman."
+    },
+    {
+      "id": "aes_algorithm",
+      "label": "AES Algorithm",
+      "type": "concept",
+      "depth": 2,
+      "description": "A symmetric-key encryption algorithm that is widely used to protect data at rest and in transit.",
+      "importance": 9,
+      "fun_fact": "The AES algorithm was developed in 2001 by the National Institute of Standards and Technology (NIST)."
+    },
+    {
+      "id": "quantum_cryptography",
+      "label": "Quantum Cryptography",
+      "type": "concept",
+      "depth": 2,
+      "description": "A type of cryptography that uses the principles of quantum mechanics to create secure key exchange.",
+      "importance": 8,
+      "fun_fact": "Quantum cryptography is still in its early stages of development, but it has the potential to provide unbreakable encryption."
+    },
+    {
+      "id": " Diffie-Hellman_key_exchange",
+      "label": "Diffie-Hellman Key Exchange",
+      "type": "concept",
+      "depth": 2,
+      "description": "A key exchange algorithm that allows two parties to establish a shared secret key over an insecure channel.",
+      "importance": 8,
+      "fun_fact": "The Diffie-Hellman key exchange was developed in 1976 by Whitfield Diffie and Martin Hellman."
+    },
+    {
+      "id": "electronic_commerce",
+      "label": "Electronic Commerce",
+      "type": "application",
+      "depth": 3,
+      "description": "The use of cryptography to secure online transactions and protect sensitive data.",
+      "importance": 9,
+      "fun_fact": "Electronic commerce relies heavily on cryptography to protect transactions and maintain customer trust."
+    },
+    {
+      "id": "chip_based_payment_cards",
+      "label": "Chip-Based Payment Cards",
+      "type": "application",
+      "depth": 3,
+      "description": "The use of cryptography to secure payment card transactions and protect sensitive data.",
+      "importance": 8,
+      "fun_fact": "Chip-based payment cards use cryptography to protect transactions and prevent unauthorized access to sensitive data."
+    },
+    {
+      "id": "digital_currencies",
+      "label": "Digital Currencies",
+      "type": "application",
+      "depth": 3,
+      "description": "The use of cryptography to secure and verify transactions in digital currencies such as Bitcoin.",
+      "importance": 9,
+      "fun_fact": "Digital currencies rely heavily on cryptography to secure and verify transactions and maintain the integrity of the blockchain."
+    },
+    {
+      "id": "computer_passwords",
+      "label": "Computer Passwords",
+      "type": "application",
+      "depth": 3,
+      "description": "The use of cryptography to protect and verify computer passwords.",
+      "importance": 8,
+      "fun_fact": "Computer passwords are protected using cryptography to prevent unauthorized access to sensitive data."
+    },
+    {
+      "id": "military_communications",
+      "label": "Military Communications",
+      "type": "application",
+      "depth": 3,
+      "description": "The use of cryptography to secure military communications and protect sensitive data.",
+      "importance": 9,
+      "fun_fact": "Military communications rely heavily on cryptography to protect sensitive data and maintain national security."
+    }
+  ],
+  "edges": [
+    {
+      "source": "cryptography",
+      "target": "encryption_algorithms",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Encryption algorithms are a key part of cryptography."
+    },
+    {
+      "source": "cryptography",
+      "target": "digital_signatures",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Digital signatures are a key part of cryptography."
+    },
+    {
+      "source": "cryptography",
+      "target": "cryptanalysis",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Cryptanalysis is a key part of cryptography."
+    },
+    {
+      "source": "cryptography",
+      "target": "hash_functions",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Hash functions are a key part of cryptography."
+    },
+    {
+      "source": "cryptography",
+      "target": "secure_communication_protocols",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Secure communication protocols are a key part of cryptography."
+    },
+    {
+      "source": "encryption_algorithms",
+      "target": "elliptic_curve_cryptography",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "Encryption algorithms lead to the development of elliptic curve cryptography."
+    },
+    {
+      "source": "encryption_algorithms",
+      "target": "rsa_algorithm",
+      "relation": "leads_to",
+      "strength": 9,
+      "description": "Encryption algorithms lead to the development of the RSA algorithm."
+    },
+    {
+      "source": "encryption_algorithms",
+      "target": "aes_algorithm",
+      "relation": "leads_to",
+      "strength": 9,
+      "description": "Encryption algorithms lead to the development of the AES algorithm."
+    },
+    {
+      "source": "digital_signatures",
+      "target": " Diffie-Hellman_key_exchange",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "Digital signatures lead to the development of the Diffie-Hellman key exchange."
+    },
+    {
+      "source": "cryptanalysis",
+      "target": "quantum_cryptography",
+      "relation": "contrasts_with",
+      "strength": 8,
+      "description": "Cryptanalysis contrasts with quantum cryptography."
+    },
+    {
+      "source": "hash_functions",
+      "target": "electronic_commerce",
+      "relation": "used_in",
+      "strength": 9,
+      "description": "Hash functions are used in electronic commerce."
+    },
+    {
+      "source": "secure_communication_protocols",
+      "target": "chip_based_payment_cards",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Secure communication protocols are used in chip-based payment cards."
+    },
+    {
+      "source": "elliptic_curve_cryptography",
+      "target": "digital_currencies",
+      "relation": "used_in",
+      "strength": 9,
+      "description": "Elliptic curve cryptography is used in digital currencies."
+    },
+    {
+      "source": "rsa_algorithm",
+      "target": "computer_passwords",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "The RSA algorithm is used in computer passwords."
+    },
+    {
+      "source": "aes_algorithm",
+      "target": "military_communications",
+      "relation": "used_in",
+      "strength": 9,
+      "description": "The AES algorithm is used in military communications."
+    },
+    {
+      "source": " Diffie-Hellman_key_exchange",
+      "target": "electronic_commerce",
+      "relation": "used_in",
+      "strength": 9,
+      "description": "The Diffie-Hellman key exchange is used in electronic commerce."
+    },
+    {
+      "source": "quantum_cryptography",
+      "target": "secure_communication_protocols",
+      "relation": "enables",
+      "strength": 8,
+      "description": "Quantum cryptography enables secure communication protocols."
+    },
+    {
+      "source": "cryptography",
+      "target": "quantum_cryptography",
+      "relation": "evolved_from",
+      "strength": 8,
+      "description": "Cryptography evolved from classical cryptography to quantum cryptography."
+    }
+  ],
+  "key_takeaways": [
+    "Cryptography is the practice and study of techniques for secure communication in the presence of adversarial behavior.",
+    "Encryption algorithms, digital signatures, and hash functions are key components of cryptography.",
+    "Cryptography has many applications, including electronic commerce, chip-based payment cards, digital currencies, computer passwords, and military communications."
+  ],
+  "real_world_impact": "Cryptography has a significant impact on our daily lives, from securing online transactions and protecting sensitive data to enabling secure communication protocols and digital currencies. The use of cryptography in electronic commerce, for example, has enabled the growth of online shopping and digital payments. Similarly, the use of cryptography in digital currencies such as Bitcoin has enabled the creation of a secure and decentralized financial system. As technology continues to evolve, the importance of cryptography will only continue to grow, and its impact on our daily lives will become even more significant.",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Digital_cryptography_section_in_Cryptography_Museum_04.jpg",
+      "title": "Digital cryptography section in Cryptography Museum 04.jpg",
+      "license": "CC BY 4.0",
+      "artist": "MBH",
+      "description": "Digital cryptography section in Cryptography Museum",
+      "width": 9248,
+      "height": 6936,
+      "source_query": "Cryptography"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Digital_cryptography_section_in_Cryptography_Museum_11.jpg",
+      "title": "Digital cryptography section in Cryptography Museum 11.jpg",
+      "license": "CC BY 4.0",
+      "artist": "MBH",
+      "description": "Digital cryptography section in Cryptography Museum",
+      "width": 6936,
+      "height": 9248,
+      "source_query": "Cryptography"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Digital_cryptography_section_in_Cryptography_Museum_15.jpg",
+      "title": "Digital cryptography section in Cryptography Museum 15.jpg",
+      "license": "CC BY 4.0",
+      "artist": "MBH",
+      "description": "Digital cryptography section in Cryptography Museum",
+      "width": 9248,
+      "height": 6936,
+      "source_query": "Cryptography"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Digital_cryptography_section_in_Cryptography_Museum_17.jpg",
+      "title": "Digital cryptography section in Cryptography Museum 17.jpg",
+      "license": "CC BY 4.0",
+      "artist": "MBH",
+      "description": "Digital cryptography section in Cryptography Museum",
+      "width": 3264,
+      "height": 1504,
+      "source_query": "Cryptography"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Digital_cryptography_section_in_Cryptography_Museum_19.jpg",
+      "title": "Digital cryptography section in Cryptography Museum 19.jpg",
+      "license": "CC BY 4.0",
+      "artist": "MBH",
+      "description": "Digital cryptography section in Cryptography Museum",
+      "width": 9248,
+      "height": 6936,
+      "source_query": "Cryptography"
+    }
+  ],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Cryptography",
+    "papers": [
+      {
+        "title": "Handbook of applied cryptography",
+        "url": "https://doi.org/10.5860/choice.34-4512"
+      },
+      {
+        "title": "Quantum cryptography",
+        "url": "https://doi.org/10.1103/revmodphys.74.145"
+      },
+      {
+        "title": "Use of Elliptic Curves in Cryptography",
+        "url": "https://doi.org/10.1007/3-540-39799-x_31"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 18"
+      ],
+      "node_count": 16,
+      "edge_count": 18
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Homomorphic Encryption",
+        "Zero-Knowledge Proofs"
+      ],
+      "strengths": [
+        "Clear representation of key concepts",
+        "Well-structured relationships between concepts"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

@@ -1,0 +1,164 @@
+{
+  "topic": "Cryptography",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary goal of cryptography?",
+      "options": {
+        "A": "To hide information from authorized parties",
+        "B": "To protect information from unauthorized access",
+        "C": "To speed up data transmission",
+        "D": "To reduce data storage requirements"
+      },
+      "correct": "B",
+      "explanation": "Cryptography aims to secure communication by protecting information from unauthorized access, ensuring confidentiality, integrity, and authenticity.",
+      "node_id": "Cryptography",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which encryption algorithm is widely used for secure online transactions?",
+      "options": {
+        "A": "RSA Algorithm",
+        "B": "AES Algorithm",
+        "C": "Diffie-Hellman Key Exchange",
+        "D": "Elliptic Curve Cryptography"
+      },
+      "correct": "B",
+      "explanation": "The AES algorithm is widely used for secure online transactions due to its high security and efficiency.",
+      "node_id": "AES Algorithm",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the main advantage of using elliptic curve cryptography?",
+      "options": {
+        "A": "High speed of encryption and decryption",
+        "B": "Low security due to small key sizes",
+        "C": "High security and efficiency with small key sizes",
+        "D": "Inability to be used for digital signatures"
+      },
+      "correct": "C",
+      "explanation": "Elliptic curve cryptography offers high security and efficiency with relatively small key sizes, making it a popular choice for many applications.",
+      "node_id": "Elliptic Curve Cryptography",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the purpose of digital signatures?",
+      "options": {
+        "A": "To encrypt data for confidentiality",
+        "B": "To authenticate the sender and ensure message integrity",
+        "C": "To speed up data transmission",
+        "D": "To reduce data storage requirements"
+      },
+      "correct": "B",
+      "explanation": "Digital signatures are used to authenticate the sender and ensure the integrity of a message, providing a secure way to verify the authenticity of digital data.",
+      "node_id": "Digital Signatures",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which of the following is a type of symmetric-key encryption algorithm?",
+      "options": {
+        "A": "RSA Algorithm",
+        "B": "AES Algorithm",
+        "C": "Diffie-Hellman Key Exchange",
+        "D": "Elliptic Curve Cryptography"
+      },
+      "correct": "B",
+      "explanation": "The AES algorithm is a widely used symmetric-key encryption algorithm, known for its high security and efficiency.",
+      "node_id": "AES Algorithm",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the main difference between symmetric-key and asymmetric-key encryption?",
+      "options": {
+        "A": "Symmetric-key encryption is slower and less secure",
+        "B": "Asymmetric-key encryption uses a pair of keys for encryption and decryption",
+        "C": "Symmetric-key encryption is used for digital signatures",
+        "D": "Asymmetric-key encryption is used for secure online transactions"
+      },
+      "correct": "B",
+      "explanation": "The main difference between symmetric-key and asymmetric-key encryption is that asymmetric-key encryption uses a pair of keys, one for encryption and another for decryption, whereas symmetric-key encryption uses the same key for both encryption and decryption.",
+      "node_id": "Encryption Algorithms",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the purpose of hash functions in cryptography?",
+      "options": {
+        "A": "To encrypt data for confidentiality",
+        "B": "To authenticate the sender and ensure message integrity",
+        "C": "To produce a fixed-size string of characters from input data",
+        "D": "To speed up data transmission"
+      },
+      "correct": "C",
+      "explanation": "Hash functions are used to produce a fixed-size string of characters, known as a hash value or digest, from input data of any size, allowing for efficient data verification and storage.",
+      "node_id": "Hash Functions",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Explain the concept of cryptanalysis and its significance in cryptography.",
+      "sample_answer": "Cryptanalysis is the study of methods for obtaining the meaning of encrypted information without access to the decryption key. It is significant in cryptography as it helps to evaluate the security of encryption algorithms and protocols, identifying potential vulnerabilities and weaknesses.",
+      "keywords": [
+        "cryptanalysis",
+        "encryption",
+        "decryption",
+        "security"
+      ],
+      "node_id": "Cryptanalysis",
+      "points": 15
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Describe the differences between quantum cryptography and classical cryptography.",
+      "sample_answer": "Quantum cryptography uses the principles of quantum mechanics to create secure key exchange, whereas classical cryptography relies on mathematical algorithms. Quantum cryptography offers potentially unbreakable encryption, but it is still in its early stages of development and has limited practical applications.",
+      "keywords": [
+        "quantum cryptography",
+        "classical cryptography",
+        "key exchange",
+        "encryption"
+      ],
+      "node_id": "Quantum Cryptography",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Explain the role of cryptography in electronic commerce and provide examples of its applications.",
+      "sample_answer": "Cryptography plays a crucial role in electronic commerce by securing online transactions and protecting sensitive data. Examples of its applications include secure online payment systems, digital signatures, and encryption of sensitive data.",
+      "keywords": [
+        "cryptography",
+        "electronic commerce",
+        "online transactions",
+        "security"
+      ],
+      "node_id": "Electronic Commerce",
+      "points": 15
+    }
+  ]
+}

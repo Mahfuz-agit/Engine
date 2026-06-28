@@ -219,5 +219,18 @@
     "master_total_topics": 17,
     "ended_at": "2026-06-28T08:36:16.852996",
     "duration_seconds": 37.7
+  },
+  {
+    "started_at": "2026-06-28T15:05:59.422642",
+    "status": "success",
+    "topic": "Cryptography",
+    "sources_found": 6,
+    "images_found": 5,
+    "quality_score": 87.5,
+    "quality_passed": true,
+    "exam_questions": 10,
+    "master_total_topics": 18,
+    "ended_at": "2026-06-28T15:06:34.344526",
+    "duration_seconds": 34.9
   }
 ]

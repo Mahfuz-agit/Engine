@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 17,
-  "total_nodes": 253,
-  "total_edges": 311,
+  "total_topics": 18,
+  "total_nodes": 269,
+  "total_edges": 329,
   "topics": [
     {
       "topic": "Climate Change",
@@ -156,6 +156,15 @@
       "edge_count": 18,
       "description": "Public health is the science of preventing disease, prolonging life, and promoting health through organized efforts and informed choices. It analyzes the determinants of health of a population and the threats it faces, taking into account physical, psychological, and social well-being. Public health encompasses various subfields, including epidemiology, infectious disease control, health policy, global health disparities, and healthcare systems.",
       "added_at": "2026-06-28T08:36:16.849030"
+    },
+    {
+      "topic": "Cryptography",
+      "slug": "cryptography",
+      "category": "computer_science",
+      "node_count": 16,
+      "edge_count": 18,
+      "description": "Cryptography is the practice and study of techniques for secure communication in the presence of adversarial behavior. It involves constructing and analyzing protocols that prevent third parties or the public from reading private messages. Modern cryptography exists at the intersection of mathematics, computer science, and information security.",
+      "added_at": "2026-06-28T15:06:34.340287"
     }
   ],
   "global_nodes": [
@@ -2941,6 +2950,182 @@
       "fun_fact": "The WHO has identified health equity as a key priority, and has developed a range of initiatives and programs to promote health equity, including the Health Equity Framework.",
       "topic_slug": "public_health",
       "topic": "Public Health"
+    },
+    {
+      "id": "cryptography__cryptography",
+      "label": "Cryptography",
+      "type": "core",
+      "depth": 0,
+      "description": "The practice and study of techniques for secure communication in the presence of adversarial behavior.",
+      "importance": 10,
+      "fun_fact": "The word 'cryptography' comes from the Greek words 'kryptos' meaning 'hidden' and 'graphein' meaning 'writing'.",
+      "topic_slug": "cryptography",
+      "topic": "Cryptography"
+    },
+    {
+      "id": "cryptography__encryption_algorithms",
+      "label": "Encryption Algorithms",
+      "type": "concept",
+      "depth": 1,
+      "description": "Algorithms used to transform plaintext into ciphertext to protect data from unauthorized access.",
+      "importance": 9,
+      "fun_fact": "The first encryption algorithm was the Caesar Cipher, which was used by Julius Caesar to send secret messages.",
+      "topic_slug": "cryptography",
+      "topic": "Cryptography"
+    },
+    {
+      "id": "cryptography__digital_signatures",
+      "label": "Digital Signatures",
+      "type": "concept",
+      "depth": 1,
+      "description": "A type of asymmetric cryptography that uses a pair of keys to authenticate the sender of a message and ensure the integrity of the message.",
+      "importance": 9,
+      "fun_fact": "Digital signatures are used in electronic commerce to authenticate transactions and ensure the integrity of data.",
+      "topic_slug": "cryptography",
+      "topic": "Cryptography"
+    },
+    {
+      "id": "cryptography__cryptanalysis",
+      "label": "Cryptanalysis",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of methods for obtaining the meaning of encrypted information without access to the decryption key.",
+      "importance": 8,
+      "fun_fact": "Cryptanalysis was used during World War II to break the German Enigma code.",
+      "topic_slug": "cryptography",
+      "topic": "Cryptography"
+    },
+    {
+      "id": "cryptography__hash_functions",
+      "label": "Hash Functions",
+      "type": "concept",
+      "depth": 1,
+      "description": "Algorithms that take input data of any size and produce a fixed-size string of characters, known as a hash value or digest.",
+      "importance": 8,
+      "fun_fact": "Hash functions are used in data storage and retrieval to quickly identify and verify data.",
+      "topic_slug": "cryptography",
+      "topic": "Cryptography"
+    },
+    {
+      "id": "cryptography__secure_communication_protocols",
+      "label": "Secure Communication Protocols",
+      "type": "concept",
+      "depth": 1,
+      "description": "Protocols used to ensure the secure transmission of data over a network.",
+      "importance": 9,
+      "fun_fact": "Secure communication protocols such as HTTPS and SSH are used to protect data in transit.",
+      "topic_slug": "cryptography",
+      "topic": "Cryptography"
+    },
+    {
+      "id": "cryptography__elliptic_curve_cryptography",
+      "label": "Elliptic Curve Cryptography",
+      "type": "concept",
+      "depth": 2,
+      "description": "A type of public-key cryptography that uses the mathematics of elliptic curves to create a secure key exchange.",
+      "importance": 8,
+      "fun_fact": "Elliptic curve cryptography is used in many modern cryptographic protocols due to its high security and efficiency.",
+      "topic_slug": "cryptography",
+      "topic": "Cryptography"
+    },
+    {
+      "id": "cryptography__rsa_algorithm",
+      "label": "RSA Algorithm",
+      "type": "concept",
+      "depth": 2,
+      "description": "A widely used public-key encryption algorithm that uses the principles of number theory to create a secure key exchange.",
+      "importance": 9,
+      "fun_fact": "The RSA algorithm was developed in 1978 by Ron Rivest, Adi Shamir, and Leonard Adleman.",
+      "topic_slug": "cryptography",
+      "topic": "Cryptography"
+    },
+    {
+      "id": "cryptography__aes_algorithm",
+      "label": "AES Algorithm",
+      "type": "concept",
+      "depth": 2,
+      "description": "A symmetric-key encryption algorithm that is widely used to protect data at rest and in transit.",
+      "importance": 9,
+      "fun_fact": "The AES algorithm was developed in 2001 by the National Institute of Standards and Technology (NIST).",
+      "topic_slug": "cryptography",
+      "topic": "Cryptography"
+    },
+    {
+      "id": "cryptography__quantum_cryptography",
+      "label": "Quantum Cryptography",
+      "type": "concept",
+      "depth": 2,
+      "description": "A type of cryptography that uses the principles of quantum mechanics to create secure key exchange.",
+      "importance": 8,
+      "fun_fact": "Quantum cryptography is still in its early stages of development, but it has the potential to provide unbreakable encryption.",
+      "topic_slug": "cryptography",
+      "topic": "Cryptography"
+    },
+    {
+      "id": "cryptography__ Diffie-Hellman_key_exchange",
+      "label": "Diffie-Hellman Key Exchange",
+      "type": "concept",
+      "depth": 2,
+      "description": "A key exchange algorithm that allows two parties to establish a shared secret key over an insecure channel.",
+      "importance": 8,
+      "fun_fact": "The Diffie-Hellman key exchange was developed in 1976 by Whitfield Diffie and Martin Hellman.",
+      "topic_slug": "cryptography",
+      "topic": "Cryptography"
+    },
+    {
+      "id": "cryptography__electronic_commerce",
+      "label": "Electronic Commerce",
+      "type": "application",
+      "depth": 3,
+      "description": "The use of cryptography to secure online transactions and protect sensitive data.",
+      "importance": 9,
+      "fun_fact": "Electronic commerce relies heavily on cryptography to protect transactions and maintain customer trust.",
+      "topic_slug": "cryptography",
+      "topic": "Cryptography"
+    },
+    {
+      "id": "cryptography__chip_based_payment_cards",
+      "label": "Chip-Based Payment Cards",
+      "type": "application",
+      "depth": 3,
+      "description": "The use of cryptography to secure payment card transactions and protect sensitive data.",
+      "importance": 8,
+      "fun_fact": "Chip-based payment cards use cryptography to protect transactions and prevent unauthorized access to sensitive data.",
+      "topic_slug": "cryptography",
+      "topic": "Cryptography"
+    },
+    {
+      "id": "cryptography__digital_currencies",
+      "label": "Digital Currencies",
+      "type": "application",
+      "depth": 3,
+      "description": "The use of cryptography to secure and verify transactions in digital currencies such as Bitcoin.",
+      "importance": 9,
+      "fun_fact": "Digital currencies rely heavily on cryptography to secure and verify transactions and maintain the integrity of the blockchain.",
+      "topic_slug": "cryptography",
+      "topic": "Cryptography"
+    },
+    {
+      "id": "cryptography__computer_passwords",
+      "label": "Computer Passwords",
+      "type": "application",
+      "depth": 3,
+      "description": "The use of cryptography to protect and verify computer passwords.",
+      "importance": 8,
+      "fun_fact": "Computer passwords are protected using cryptography to prevent unauthorized access to sensitive data.",
+      "topic_slug": "cryptography",
+      "topic": "Cryptography"
+    },
+    {
+      "id": "cryptography__military_communications",
+      "label": "Military Communications",
+      "type": "application",
+      "depth": 3,
+      "description": "The use of cryptography to secure military communications and protect sensitive data.",
+      "importance": 9,
+      "fun_fact": "Military communications rely heavily on cryptography to protect sensitive data and maintain national security.",
+      "topic_slug": "cryptography",
+      "topic": "Cryptography"
     }
   ],
   "global_edges": [
@@ -5120,6 +5305,132 @@
       "relation": "is_part_of",
       "strength": 9,
       "topic": "Public Health"
+    },
+    {
+      "source": "cryptography__cryptography",
+      "target": "cryptography__encryption_algorithms",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Cryptography"
+    },
+    {
+      "source": "cryptography__cryptography",
+      "target": "cryptography__digital_signatures",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Cryptography"
+    },
+    {
+      "source": "cryptography__cryptography",
+      "target": "cryptography__cryptanalysis",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Cryptography"
+    },
+    {
+      "source": "cryptography__cryptography",
+      "target": "cryptography__hash_functions",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Cryptography"
+    },
+    {
+      "source": "cryptography__cryptography",
+      "target": "cryptography__secure_communication_protocols",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Cryptography"
+    },
+    {
+      "source": "cryptography__encryption_algorithms",
+      "target": "cryptography__elliptic_curve_cryptography",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Cryptography"
+    },
+    {
+      "source": "cryptography__encryption_algorithms",
+      "target": "cryptography__rsa_algorithm",
+      "relation": "leads_to",
+      "strength": 9,
+      "topic": "Cryptography"
+    },
+    {
+      "source": "cryptography__encryption_algorithms",
+      "target": "cryptography__aes_algorithm",
+      "relation": "leads_to",
+      "strength": 9,
+      "topic": "Cryptography"
+    },
+    {
+      "source": "cryptography__digital_signatures",
+      "target": "cryptography__ Diffie-Hellman_key_exchange",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Cryptography"
+    },
+    {
+      "source": "cryptography__cryptanalysis",
+      "target": "cryptography__quantum_cryptography",
+      "relation": "contrasts_with",
+      "strength": 8,
+      "topic": "Cryptography"
+    },
+    {
+      "source": "cryptography__hash_functions",
+      "target": "cryptography__electronic_commerce",
+      "relation": "used_in",
+      "strength": 9,
+      "topic": "Cryptography"
+    },
+    {
+      "source": "cryptography__secure_communication_protocols",
+      "target": "cryptography__chip_based_payment_cards",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Cryptography"
+    },
+    {
+      "source": "cryptography__elliptic_curve_cryptography",
+      "target": "cryptography__digital_currencies",
+      "relation": "used_in",
+      "strength": 9,
+      "topic": "Cryptography"
+    },
+    {
+      "source": "cryptography__rsa_algorithm",
+      "target": "cryptography__computer_passwords",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Cryptography"
+    },
+    {
+      "source": "cryptography__aes_algorithm",
+      "target": "cryptography__military_communications",
+      "relation": "used_in",
+      "strength": 9,
+      "topic": "Cryptography"
+    },
+    {
+      "source": "cryptography__ Diffie-Hellman_key_exchange",
+      "target": "cryptography__electronic_commerce",
+      "relation": "used_in",
+      "strength": 9,
+      "topic": "Cryptography"
+    },
+    {
+      "source": "cryptography__quantum_cryptography",
+      "target": "cryptography__secure_communication_protocols",
+      "relation": "enables",
+      "strength": 8,
+      "topic": "Cryptography"
+    },
+    {
+      "source": "cryptography__cryptography",
+      "target": "cryptography__quantum_cryptography",
+      "relation": "evolved_from",
+      "strength": 8,
+      "topic": "Cryptography"
     }
   ],
   "cross_topic_edges": [
@@ -5202,7 +5513,8 @@
       "sustainable_energy"
     ],
     "computer_science": [
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "cryptography"
     ],
     "medicine": [
       "environmental_epidemiology",
@@ -5215,5 +5527,5 @@
       "systems_thinking"
     ]
   },
-  "last_updated": "2026-06-28T08:36:16.849064"
+  "last_updated": "2026-06-28T15:06:34.340328"
 }
