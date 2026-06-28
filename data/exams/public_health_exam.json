@@ -1,0 +1,161 @@
+{
+  "topic": "Public Health",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary goal of public health?",
+      "options": {
+        "A": "To treat individual patients",
+        "B": "To prevent disease and promote health",
+        "C": "To develop new medical technologies",
+        "D": "To reduce healthcare costs"
+      },
+      "correct": "B",
+      "explanation": "Public health focuses on preventing disease and promoting health through organized efforts and informed choices.",
+      "node_id": "Public Health",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which of the following is a key component of public health?",
+      "options": {
+        "A": "Epidemiology and healthcare systems",
+        "B": "Infectious disease control and health policy",
+        "C": "Global health disparities and health promotion",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanation": "Public health encompasses various subfields, including epidemiology, infectious disease control, health policy, global health disparities, and healthcare systems.",
+      "node_id": "Public Health",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the study of the distribution and determinants of health-related events, diseases, or health-related characteristics among populations?",
+      "options": {
+        "A": "Epidemiology",
+        "B": "Infectious disease control",
+        "C": "Health policy",
+        "D": "Global health disparities"
+      },
+      "correct": "A",
+      "explanation": "Epidemiology is the study of the distribution and determinants of health-related events, diseases, or health-related characteristics among populations.",
+      "node_id": "Epidemiology",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "Who is considered one of the founders of modern epidemiology?",
+      "options": {
+        "A": "Louis Pasteur",
+        "B": "John Snow",
+        "C": "Robert Koch",
+        "D": "Joseph Lister"
+      },
+      "correct": "B",
+      "explanation": "John Snow is considered one of the founders of modern epidemiology, known for his work on cholera outbreaks in London in the 19th century.",
+      "node_id": "John Snow",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the practice of preventing and controlling the spread of infectious diseases?",
+      "options": {
+        "A": "Infectious disease control",
+        "B": "Epidemiology",
+        "C": "Health policy",
+        "D": "Global health disparities"
+      },
+      "correct": "A",
+      "explanation": "Infectious disease control is the practice of preventing and controlling the spread of infectious diseases, including through vaccination, quarantine, and contact tracing.",
+      "node_id": "Infectious Disease Control",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the differences in health outcomes and access to healthcare between different populations?",
+      "options": {
+        "A": "Global health disparities",
+        "B": "Health equity",
+        "C": "Health promotion",
+        "D": "Global health security"
+      },
+      "correct": "A",
+      "explanation": "Global health disparities refer to the differences in health outcomes and access to healthcare between different populations, including between rich and poor countries, and within countries between different socioeconomic groups.",
+      "node_id": "Global Health Disparities",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the role of the World Health Organization (WHO) in shaping global health policy?",
+      "options": {
+        "A": "To develop international health regulations and guidelines",
+        "B": "To provide funding for healthcare systems",
+        "C": "To conduct research on infectious diseases",
+        "D": "To provide emergency response to health crises"
+      },
+      "correct": "A",
+      "explanation": "The WHO plays a key role in shaping global health policy, including through the development of international health regulations and guidelines.",
+      "node_id": "World Health Organization (WHO)",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What are some strategies for promoting health equity?",
+      "sample_answer": "Strategies for promoting health equity include reducing health disparities, promoting health for all, and addressing the social determinants of health.",
+      "keywords": [
+        "health equity",
+        "health disparities",
+        "social determinants of health"
+      ],
+      "node_id": "Health Equity",
+      "points": 15
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "How does vaccination contribute to global health security?",
+      "sample_answer": "Vaccination contributes to global health security by preventing the spread of infectious diseases, reducing the risk of outbreaks, and protecting vulnerable populations.",
+      "keywords": [
+        "vaccination",
+        "global health security",
+        "infectious diseases"
+      ],
+      "node_id": "Vaccination",
+      "points": 15
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What is the role of contact tracing in controlling the spread of infectious diseases?",
+      "sample_answer": "Contact tracing involves identifying and monitoring individuals who have come into contact with someone who has an infectious disease, in order to prevent further transmission.",
+      "keywords": [
+        "contact tracing",
+        "infectious diseases",
+        "disease control"
+      ],
+      "node_id": "Contact Tracing",
+      "points": 15
+    }
+  ]
+}

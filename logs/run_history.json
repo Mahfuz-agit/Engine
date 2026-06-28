@@ -206,5 +206,18 @@
     "master_total_topics": 16,
     "ended_at": "2026-06-27T20:18:14.117301",
     "duration_seconds": 37.5
+  },
+  {
+    "started_at": "2026-06-28T08:35:39.156508",
+    "status": "success",
+    "topic": "Public Health",
+    "sources_found": 6,
+    "images_found": 5,
+    "quality_score": 87.5,
+    "quality_passed": true,
+    "exam_questions": 10,
+    "master_total_topics": 17,
+    "ended_at": "2026-06-28T08:36:16.852996",
+    "duration_seconds": 37.7
   }
 ]

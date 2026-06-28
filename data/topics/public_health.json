@@ -1,0 +1,377 @@
+{
+  "topic": "Public Health",
+  "category": "medicine",
+  "description": "Public health is the science of preventing disease, prolonging life, and promoting health through organized efforts and informed choices. It analyzes the determinants of health of a population and the threats it faces, taking into account physical, psychological, and social well-being. Public health encompasses various subfields, including epidemiology, infectious disease control, health policy, global health disparities, and healthcare systems.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Public Health",
+      "type": "core",
+      "depth": 0,
+      "description": "The science of preventing disease, prolonging life, and promoting health through organized efforts and informed choices.",
+      "importance": 10,
+      "fun_fact": "The concept of public health has been around since ancient civilizations, with evidence of public health practices dating back to ancient Greece and Rome."
+    },
+    {
+      "id": "N2",
+      "label": "Epidemiology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the distribution and determinants of health-related events, diseases, or health-related characteristics among populations.",
+      "importance": 9,
+      "fun_fact": "The term 'epidemiology' was first used in the 19th century to describe the study of epidemics, but it has since expanded to include the study of all types of health-related events."
+    },
+    {
+      "id": "N3",
+      "label": "Infectious Disease Control",
+      "type": "concept",
+      "depth": 1,
+      "description": "The practice of preventing and controlling the spread of infectious diseases, including through vaccination, quarantine, and contact tracing.",
+      "importance": 9,
+      "fun_fact": "The discovery of the germ theory of disease by Louis Pasteur and Robert Koch in the 19th century revolutionized the field of infectious disease control."
+    },
+    {
+      "id": "N4",
+      "label": "Health Policy",
+      "type": "concept",
+      "depth": 1,
+      "description": "The plans, policies, and decisions made by governments and other organizations to promote and protect the health of populations.",
+      "importance": 9,
+      "fun_fact": "The World Health Organization (WHO) plays a key role in shaping global health policy, including through the development of international health regulations and guidelines."
+    },
+    {
+      "id": "N5",
+      "label": "Global Health Disparities",
+      "type": "concept",
+      "depth": 1,
+      "description": "The differences in health outcomes and access to healthcare between different populations, including between rich and poor countries, and within countries between different socioeconomic groups.",
+      "importance": 9,
+      "fun_fact": "The WHO has identified the reduction of health disparities as one of its key priorities, and has developed a range of initiatives and programs to address this issue."
+    },
+    {
+      "id": "N6",
+      "label": "Healthcare Systems",
+      "type": "concept",
+      "depth": 1,
+      "description": "The organizations, institutions, and resources that provide healthcare services to populations, including hospitals, clinics, and healthcare providers.",
+      "importance": 9,
+      "fun_fact": "The United States has a mixed healthcare system, with both public and private providers, while many other countries have single-payer or socialized healthcare systems."
+    },
+    {
+      "id": "N7",
+      "label": "John Snow",
+      "type": "person",
+      "depth": 2,
+      "description": "A British physician who is considered one of the founders of modern epidemiology, known for his work on cholera outbreaks in London in the 19th century.",
+      "importance": 8,
+      "fun_fact": "Snow's work on cholera led to the identification of the source of the outbreak as a contaminated water pump, and his findings were instrumental in the development of modern water treatment systems."
+    },
+    {
+      "id": "N8",
+      "label": "Louis Pasteur",
+      "type": "person",
+      "depth": 2,
+      "description": "A French chemist and microbiologist who developed the germ theory of disease and made significant contributions to the field of infectious disease control.",
+      "importance": 9,
+      "fun_fact": "Pasteur developed the first vaccines for rabies and anthrax, and his work on germ theory led to the development of modern vaccines and antibiotics."
+    },
+    {
+      "id": "N9",
+      "label": "World Health Organization (WHO)",
+      "type": "organization",
+      "depth": 2,
+      "description": "A specialized agency of the United Nations that is responsible for international public health, including the development of global health policies and guidelines.",
+      "importance": 10,
+      "fun_fact": "The WHO was established in 1948 and is headquartered in Geneva, Switzerland, with 194 member states and a budget of over $4 billion."
+    },
+    {
+      "id": "N10",
+      "label": "Centers for Disease Control and Prevention (CDC)",
+      "type": "organization",
+      "depth": 2,
+      "description": "A US federal agency that is responsible for protecting the public's health and safety, including through the prevention and control of infectious diseases.",
+      "importance": 9,
+      "fun_fact": "The CDC was established in 1946 and is headquartered in Atlanta, Georgia, with a budget of over $7 billion and a staff of over 12,000 people."
+    },
+    {
+      "id": "N11",
+      "label": "Vaccination",
+      "type": "application",
+      "depth": 3,
+      "description": "The practice of administering vaccines to prevent infectious diseases, including through routine childhood immunizations and outbreak response.",
+      "importance": 9,
+      "fun_fact": "Vaccination has been shown to be one of the most effective ways to prevent infectious diseases, with estimates suggesting that it has saved millions of lives worldwide."
+    },
+    {
+      "id": "N12",
+      "label": "Contact Tracing",
+      "type": "application",
+      "depth": 3,
+      "description": "The practice of identifying and monitoring individuals who have come into contact with someone who has an infectious disease, in order to prevent further transmission.",
+      "importance": 8,
+      "fun_fact": "Contact tracing has been used to control outbreaks of diseases such as Ebola and SARS, and is a key component of infectious disease control efforts."
+    },
+    {
+      "id": "N13",
+      "label": "Health Promotion",
+      "type": "application",
+      "depth": 3,
+      "description": "The practice of promoting healthy behaviors and lifestyles, including through education, community outreach, and policy change.",
+      "importance": 8,
+      "fun_fact": "Health promotion has been shown to be an effective way to prevent chronic diseases, including through the promotion of physical activity, healthy eating, and tobacco cessation."
+    },
+    {
+      "id": "N14",
+      "label": "Global Health Security",
+      "type": "concept",
+      "depth": 2,
+      "description": "The protection of people from health threats, including infectious diseases, natural disasters, and other crises, through the development of robust health systems and emergency response capabilities.",
+      "importance": 9,
+      "fun_fact": "The WHO has developed a range of initiatives and programs to strengthen global health security, including the International Health Regulations and the Global Health Security Agenda."
+    },
+    {
+      "id": "N15",
+      "label": "Health Equity",
+      "type": "concept",
+      "depth": 2,
+      "description": "The principle of promoting fairness and justice in the distribution of health resources and outcomes, including through the reduction of health disparities and the promotion of health for all.",
+      "importance": 9,
+      "fun_fact": "The WHO has identified health equity as a key priority, and has developed a range of initiatives and programs to promote health equity, including the Health Equity Framework."
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Epidemiology is a key component of public health, as it provides the scientific basis for understanding and controlling health-related events and diseases."
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Infectious disease control is a critical aspect of public health, as it involves the prevention and control of infectious diseases through vaccination, quarantine, and contact tracing."
+    },
+    {
+      "source": "N1",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Health policy is a key component of public health, as it involves the development of plans, policies, and decisions to promote and protect the health of populations."
+    },
+    {
+      "source": "N1",
+      "target": "N5",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Global health disparities are a major concern in public health, as they involve differences in health outcomes and access to healthcare between different populations."
+    },
+    {
+      "source": "N1",
+      "target": "N6",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Healthcare systems are a critical component of public health, as they provide the organizations, institutions, and resources necessary to deliver healthcare services to populations."
+    },
+    {
+      "source": "N2",
+      "target": "N7",
+      "relation": "discovered_by",
+      "strength": 8,
+      "description": "John Snow is considered one of the founders of modern epidemiology, and his work on cholera outbreaks in London in the 19th century laid the foundation for modern epidemiological methods."
+    },
+    {
+      "source": "N3",
+      "target": "N8",
+      "relation": "discovered_by",
+      "strength": 9,
+      "description": "Louis Pasteur developed the germ theory of disease and made significant contributions to the field of infectious disease control, including the development of vaccines and antibiotics."
+    },
+    {
+      "source": "N4",
+      "target": "N9",
+      "relation": "used_in",
+      "strength": 9,
+      "description": "The World Health Organization (WHO) plays a key role in shaping global health policy, including through the development of international health regulations and guidelines."
+    },
+    {
+      "source": "N5",
+      "target": "N10",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "The Centers for Disease Control and Prevention (CDC) is a US federal agency that is responsible for protecting the public's health and safety, including through the prevention and control of infectious diseases."
+    },
+    {
+      "source": "N6",
+      "target": "N11",
+      "relation": "enables",
+      "strength": 9,
+      "description": "Vaccination is a critical component of healthcare systems, as it provides a safe and effective way to prevent infectious diseases and promote public health."
+    },
+    {
+      "source": "N7",
+      "target": "N12",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Contact tracing is a key component of infectious disease control, as it involves the identification and monitoring of individuals who have come into contact with someone who has an infectious disease."
+    },
+    {
+      "source": "N8",
+      "target": "N13",
+      "relation": "enables",
+      "strength": 9,
+      "description": "Health promotion is a critical component of public health, as it involves the promotion of healthy behaviors and lifestyles, including through education, community outreach, and policy change."
+    },
+    {
+      "source": "N9",
+      "target": "N14",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Global health security is a key priority for the WHO, as it involves the protection of people from health threats, including infectious diseases, natural disasters, and other crises."
+    },
+    {
+      "source": "N10",
+      "target": "N15",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "Health equity is a key principle of public health, as it involves the promotion of fairness and justice in the distribution of health resources and outcomes, including through the reduction of health disparities and the promotion of health for all."
+    },
+    {
+      "source": "N11",
+      "target": "N12",
+      "relation": "contrasts_with",
+      "strength": 8,
+      "description": "Vaccination and contact tracing are two different approaches to preventing infectious diseases, with vaccination providing long-term protection and contact tracing providing a more immediate response to outbreaks."
+    },
+    {
+      "source": "N13",
+      "target": "N14",
+      "relation": "enables",
+      "strength": 9,
+      "description": "Health promotion is a critical component of global health security, as it involves the promotion of healthy behaviors and lifestyles, including through education, community outreach, and policy change."
+    },
+    {
+      "source": "N14",
+      "target": "N15",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Health equity is a key component of global health security, as it involves the promotion of fairness and justice in the distribution of health resources and outcomes, including through the reduction of health disparities and the promotion of health for all."
+    },
+    {
+      "source": "N15",
+      "target": "N1",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Health equity is a key principle of public health, as it involves the promotion of fairness and justice in the distribution of health resources and outcomes, including through the reduction of health disparities and the promotion of health for all."
+    }
+  ],
+  "key_takeaways": [
+    "Public health is the science of preventing disease, prolonging life, and promoting health through organized efforts and informed choices.",
+    "Epidemiology, infectious disease control, health policy, global health disparities, and healthcare systems are all key components of public health.",
+    "The WHO and CDC play critical roles in shaping global health policy and protecting the public's health and safety."
+  ],
+  "real_world_impact": "Public health has a significant impact on the real world, as it involves the prevention and control of infectious diseases, the promotion of healthy behaviors and lifestyles, and the protection of people from health threats. The WHO and CDC have made significant contributions to global health security, including through the development of international health regulations and guidelines, and the promotion of health equity. The reduction of health disparities and the promotion of health for all are key priorities in public health, and involve the development of robust health systems and emergency response capabilities. The impact of public health can be seen in the prevention and control of infectious diseases, the promotion of healthy behaviors and lifestyles, and the protection of people from health threats, including through the development of vaccines, antibiotics, and other medical countermeasures.",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Berkeley_School_of_Public_Health_logo.svg",
+      "title": "Berkeley School of Public Health logo.svg",
+      "license": "Public domain",
+      "artist": "University of California, Berkeley",
+      "description": "Logo of the School of Public Health at the University of California, Berkeley.",
+      "width": 913,
+      "height": 196,
+      "source_query": "Public Health"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Community_health_worker_in_the_Brazilian_public_health_system.jpg",
+      "title": "Community health worker in the Brazilian public health system.jpg",
+      "license": "CC BY 2.0",
+      "artist": "Paulo H. Carvalho/Ag\u00eancia Bras\u00edlia",
+      "description": "Community health worker from the Family Health Strategy (Unified Health System) during a home visit, in Brazil.",
+      "width": 6720,
+      "height": 4480,
+      "source_query": "Public Health"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Consul_General_of_the_United_Kingdom_Hannah_Young_and_Professor_Sally_Davies_celebrating_the_relationship_between_global_public_health_and_the_performing_arts_in_Washington%2C_D.C._on_January_8%2C_2024_-_19.jpg",
+      "title": "Consul General of the United Kingdom Hannah Young and Professor Sally Davies celebrating the relationship between global public health and the performing arts in Washington, D.C. on January 8, 2024 - 19.jpg",
+      "license": "CC BY-SA 2.0",
+      "artist": "UKinUSA",
+      "description": "On January 8, 2024, Consul General of the United Kingdom Hannah Young and Professor Dame Sally Davies GCB DBE FRS FMedSci, the UK Special Envoy on Antimicrobial Resistance, co-hosted a lunch celebrating the relationship between global public health and the performing arts. The afternoon featured a m",
+      "width": 5479,
+      "height": 3653,
+      "source_query": "Public Health"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Consul_General_of_the_United_Kingdom_Hannah_Young_and_Professor_Sally_Davies_celebrating_the_relationship_between_global_public_health_and_the_performing_arts_in_Washington%2C_D.C._on_January_8%2C_2024_-_26.jpg",
+      "title": "Consul General of the United Kingdom Hannah Young and Professor Sally Davies celebrating the relationship between global public health and the performing arts in Washington, D.C. on January 8, 2024 - 26.jpg",
+      "license": "CC BY-SA 2.0",
+      "artist": "UKinUSA",
+      "description": "On January 8, 2024, Consul General of the United Kingdom Hannah Young and Professor Dame Sally Davies GCB DBE FRS FMedSci, the UK Special Envoy on Antimicrobial Resistance, co-hosted a lunch celebrating the relationship between global public health and the performing arts. The afternoon featured a m",
+      "width": 5041,
+      "height": 3361,
+      "source_query": "Public Health"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Public_Health_Prayer_by_Dr_Edmond_Fernandes.jpg",
+      "title": "Public Health Prayer by Dr Edmond Fernandes.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Ginevrajocosa88",
+      "description": "Public Health Prayer by Dr Edmond Fernandes",
+      "width": 1414,
+      "height": 2000,
+      "source_query": "Public Health"
+    }
+  ],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Public_health",
+    "papers": [
+      {
+        "title": "Physical Activity and Public Health",
+        "url": "https://doi.org/10.1161/circulationaha.107.185649"
+      },
+      {
+        "title": "International Journal of Environmental Research and Public Health",
+        "url": "https://doi.org/10.3390/ijerph"
+      },
+      {
+        "title": "Evaluating the public health impact of health promotion interventions: the RE-AIM framework.",
+        "url": "https://doi.org/10.2105/ajph.89.9.1322"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 18"
+      ],
+      "node_count": 15,
+      "edge_count": 18
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Environmental Health",
+        "Mental Health"
+      ],
+      "strengths": [
+        "covers key components of public health",
+        "includes important organizations and individuals"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

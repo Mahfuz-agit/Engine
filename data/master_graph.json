@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 16,
-  "total_nodes": 238,
-  "total_edges": 293,
+  "total_topics": 17,
+  "total_nodes": 253,
+  "total_edges": 311,
   "topics": [
     {
       "topic": "Climate Change",
@@ -147,6 +147,15 @@
       "edge_count": 18,
       "description": "Systems thinking is an approach to understanding complex systems by analyzing the relationships and interactions between their components. It involves considering the system as a whole, rather than focusing on individual parts, and recognizing the feedback loops and dynamics that drive its behavior. By taking a holistic view, systems thinking can help identify and address the root causes of problems, rather than just their symptoms.",
       "added_at": "2026-06-27T20:18:14.113968"
+    },
+    {
+      "topic": "Public Health",
+      "slug": "public_health",
+      "category": "medicine",
+      "node_count": 15,
+      "edge_count": 18,
+      "description": "Public health is the science of preventing disease, prolonging life, and promoting health through organized efforts and informed choices. It analyzes the determinants of health of a population and the threats it faces, taking into account physical, psychological, and social well-being. Public health encompasses various subfields, including epidemiology, infectious disease control, health policy, global health disparities, and healthcare systems.",
+      "added_at": "2026-06-28T08:36:16.849030"
     }
   ],
   "global_nodes": [
@@ -2767,6 +2776,171 @@
       "fun_fact": "The STAMP framework has been applied to a wide range of complex systems, including autonomous driving systems and healthcare systems.",
       "topic_slug": "systems_thinking",
       "topic": "Systems Thinking"
+    },
+    {
+      "id": "public_health__N1",
+      "label": "Public Health",
+      "type": "core",
+      "depth": 0,
+      "description": "The science of preventing disease, prolonging life, and promoting health through organized efforts and informed choices.",
+      "importance": 10,
+      "fun_fact": "The concept of public health has been around since ancient civilizations, with evidence of public health practices dating back to ancient Greece and Rome.",
+      "topic_slug": "public_health",
+      "topic": "Public Health"
+    },
+    {
+      "id": "public_health__N2",
+      "label": "Epidemiology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the distribution and determinants of health-related events, diseases, or health-related characteristics among populations.",
+      "importance": 9,
+      "fun_fact": "The term 'epidemiology' was first used in the 19th century to describe the study of epidemics, but it has since expanded to include the study of all types of health-related events.",
+      "topic_slug": "public_health",
+      "topic": "Public Health"
+    },
+    {
+      "id": "public_health__N3",
+      "label": "Infectious Disease Control",
+      "type": "concept",
+      "depth": 1,
+      "description": "The practice of preventing and controlling the spread of infectious diseases, including through vaccination, quarantine, and contact tracing.",
+      "importance": 9,
+      "fun_fact": "The discovery of the germ theory of disease by Louis Pasteur and Robert Koch in the 19th century revolutionized the field of infectious disease control.",
+      "topic_slug": "public_health",
+      "topic": "Public Health"
+    },
+    {
+      "id": "public_health__N4",
+      "label": "Health Policy",
+      "type": "concept",
+      "depth": 1,
+      "description": "The plans, policies, and decisions made by governments and other organizations to promote and protect the health of populations.",
+      "importance": 9,
+      "fun_fact": "The World Health Organization (WHO) plays a key role in shaping global health policy, including through the development of international health regulations and guidelines.",
+      "topic_slug": "public_health",
+      "topic": "Public Health"
+    },
+    {
+      "id": "public_health__N5",
+      "label": "Global Health Disparities",
+      "type": "concept",
+      "depth": 1,
+      "description": "The differences in health outcomes and access to healthcare between different populations, including between rich and poor countries, and within countries between different socioeconomic groups.",
+      "importance": 9,
+      "fun_fact": "The WHO has identified the reduction of health disparities as one of its key priorities, and has developed a range of initiatives and programs to address this issue.",
+      "topic_slug": "public_health",
+      "topic": "Public Health"
+    },
+    {
+      "id": "public_health__N6",
+      "label": "Healthcare Systems",
+      "type": "concept",
+      "depth": 1,
+      "description": "The organizations, institutions, and resources that provide healthcare services to populations, including hospitals, clinics, and healthcare providers.",
+      "importance": 9,
+      "fun_fact": "The United States has a mixed healthcare system, with both public and private providers, while many other countries have single-payer or socialized healthcare systems.",
+      "topic_slug": "public_health",
+      "topic": "Public Health"
+    },
+    {
+      "id": "public_health__N7",
+      "label": "John Snow",
+      "type": "person",
+      "depth": 2,
+      "description": "A British physician who is considered one of the founders of modern epidemiology, known for his work on cholera outbreaks in London in the 19th century.",
+      "importance": 8,
+      "fun_fact": "Snow's work on cholera led to the identification of the source of the outbreak as a contaminated water pump, and his findings were instrumental in the development of modern water treatment systems.",
+      "topic_slug": "public_health",
+      "topic": "Public Health"
+    },
+    {
+      "id": "public_health__N8",
+      "label": "Louis Pasteur",
+      "type": "person",
+      "depth": 2,
+      "description": "A French chemist and microbiologist who developed the germ theory of disease and made significant contributions to the field of infectious disease control.",
+      "importance": 9,
+      "fun_fact": "Pasteur developed the first vaccines for rabies and anthrax, and his work on germ theory led to the development of modern vaccines and antibiotics.",
+      "topic_slug": "public_health",
+      "topic": "Public Health"
+    },
+    {
+      "id": "public_health__N9",
+      "label": "World Health Organization (WHO)",
+      "type": "organization",
+      "depth": 2,
+      "description": "A specialized agency of the United Nations that is responsible for international public health, including the development of global health policies and guidelines.",
+      "importance": 10,
+      "fun_fact": "The WHO was established in 1948 and is headquartered in Geneva, Switzerland, with 194 member states and a budget of over $4 billion.",
+      "topic_slug": "public_health",
+      "topic": "Public Health"
+    },
+    {
+      "id": "public_health__N10",
+      "label": "Centers for Disease Control and Prevention (CDC)",
+      "type": "organization",
+      "depth": 2,
+      "description": "A US federal agency that is responsible for protecting the public's health and safety, including through the prevention and control of infectious diseases.",
+      "importance": 9,
+      "fun_fact": "The CDC was established in 1946 and is headquartered in Atlanta, Georgia, with a budget of over $7 billion and a staff of over 12,000 people.",
+      "topic_slug": "public_health",
+      "topic": "Public Health"
+    },
+    {
+      "id": "public_health__N11",
+      "label": "Vaccination",
+      "type": "application",
+      "depth": 3,
+      "description": "The practice of administering vaccines to prevent infectious diseases, including through routine childhood immunizations and outbreak response.",
+      "importance": 9,
+      "fun_fact": "Vaccination has been shown to be one of the most effective ways to prevent infectious diseases, with estimates suggesting that it has saved millions of lives worldwide.",
+      "topic_slug": "public_health",
+      "topic": "Public Health"
+    },
+    {
+      "id": "public_health__N12",
+      "label": "Contact Tracing",
+      "type": "application",
+      "depth": 3,
+      "description": "The practice of identifying and monitoring individuals who have come into contact with someone who has an infectious disease, in order to prevent further transmission.",
+      "importance": 8,
+      "fun_fact": "Contact tracing has been used to control outbreaks of diseases such as Ebola and SARS, and is a key component of infectious disease control efforts.",
+      "topic_slug": "public_health",
+      "topic": "Public Health"
+    },
+    {
+      "id": "public_health__N13",
+      "label": "Health Promotion",
+      "type": "application",
+      "depth": 3,
+      "description": "The practice of promoting healthy behaviors and lifestyles, including through education, community outreach, and policy change.",
+      "importance": 8,
+      "fun_fact": "Health promotion has been shown to be an effective way to prevent chronic diseases, including through the promotion of physical activity, healthy eating, and tobacco cessation.",
+      "topic_slug": "public_health",
+      "topic": "Public Health"
+    },
+    {
+      "id": "public_health__N14",
+      "label": "Global Health Security",
+      "type": "concept",
+      "depth": 2,
+      "description": "The protection of people from health threats, including infectious diseases, natural disasters, and other crises, through the development of robust health systems and emergency response capabilities.",
+      "importance": 9,
+      "fun_fact": "The WHO has developed a range of initiatives and programs to strengthen global health security, including the International Health Regulations and the Global Health Security Agenda.",
+      "topic_slug": "public_health",
+      "topic": "Public Health"
+    },
+    {
+      "id": "public_health__N15",
+      "label": "Health Equity",
+      "type": "concept",
+      "depth": 2,
+      "description": "The principle of promoting fairness and justice in the distribution of health resources and outcomes, including through the reduction of health disparities and the promotion of health for all.",
+      "importance": 9,
+      "fun_fact": "The WHO has identified health equity as a key priority, and has developed a range of initiatives and programs to promote health equity, including the Health Equity Framework.",
+      "topic_slug": "public_health",
+      "topic": "Public Health"
     }
   ],
   "global_edges": [
@@ -4820,6 +4994,132 @@
       "relation": "uses",
       "strength": 6,
       "topic": "Systems Thinking"
+    },
+    {
+      "source": "public_health__N1",
+      "target": "public_health__N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Public Health"
+    },
+    {
+      "source": "public_health__N1",
+      "target": "public_health__N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Public Health"
+    },
+    {
+      "source": "public_health__N1",
+      "target": "public_health__N4",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Public Health"
+    },
+    {
+      "source": "public_health__N1",
+      "target": "public_health__N5",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Public Health"
+    },
+    {
+      "source": "public_health__N1",
+      "target": "public_health__N6",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Public Health"
+    },
+    {
+      "source": "public_health__N2",
+      "target": "public_health__N7",
+      "relation": "discovered_by",
+      "strength": 8,
+      "topic": "Public Health"
+    },
+    {
+      "source": "public_health__N3",
+      "target": "public_health__N8",
+      "relation": "discovered_by",
+      "strength": 9,
+      "topic": "Public Health"
+    },
+    {
+      "source": "public_health__N4",
+      "target": "public_health__N9",
+      "relation": "used_in",
+      "strength": 9,
+      "topic": "Public Health"
+    },
+    {
+      "source": "public_health__N5",
+      "target": "public_health__N10",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Public Health"
+    },
+    {
+      "source": "public_health__N6",
+      "target": "public_health__N11",
+      "relation": "enables",
+      "strength": 9,
+      "topic": "Public Health"
+    },
+    {
+      "source": "public_health__N7",
+      "target": "public_health__N12",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Public Health"
+    },
+    {
+      "source": "public_health__N8",
+      "target": "public_health__N13",
+      "relation": "enables",
+      "strength": 9,
+      "topic": "Public Health"
+    },
+    {
+      "source": "public_health__N9",
+      "target": "public_health__N14",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Public Health"
+    },
+    {
+      "source": "public_health__N10",
+      "target": "public_health__N15",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Public Health"
+    },
+    {
+      "source": "public_health__N11",
+      "target": "public_health__N12",
+      "relation": "contrasts_with",
+      "strength": 8,
+      "topic": "Public Health"
+    },
+    {
+      "source": "public_health__N13",
+      "target": "public_health__N14",
+      "relation": "enables",
+      "strength": 9,
+      "topic": "Public Health"
+    },
+    {
+      "source": "public_health__N14",
+      "target": "public_health__N15",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Public Health"
+    },
+    {
+      "source": "public_health__N15",
+      "target": "public_health__N1",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Public Health"
     }
   ],
   "cross_topic_edges": [
@@ -4850,6 +5150,27 @@
       "relation": "cross_topic_connection",
       "strength": 6,
       "label": "epigenetics"
+    },
+    {
+      "source": "microbiology__N7",
+      "target": "public_health__N8",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "louis pasteur"
+    },
+    {
+      "source": "microbiology__N9",
+      "target": "public_health__N11",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "vaccination"
+    },
+    {
+      "source": "microbiology__N14",
+      "target": "public_health__N1",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "public health"
     },
     {
       "source": "complex_systems__ST",
@@ -4884,7 +5205,8 @@
       "artificial_intelligence"
     ],
     "medicine": [
-      "environmental_epidemiology"
+      "environmental_epidemiology",
+      "public_health"
     ],
     "science": [
       "complex_systems"
@@ -4893,5 +5215,5 @@
       "systems_thinking"
     ]
   },
-  "last_updated": "2026-06-27T20:18:14.113998"
+  "last_updated": "2026-06-28T08:36:16.849064"
 }
