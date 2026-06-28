@@ -1,0 +1,161 @@
+{
+  "topic": "Cartography",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary goal of cartography?",
+      "options": {
+        "A": "To create visually appealing maps",
+        "B": "To compile, analyze, and represent geographic data",
+        "C": "To navigate and orient oneself in space",
+        "D": "To monitor environmental changes"
+      },
+      "correct": "B",
+      "explanation": "Cartography is the science and practice of creating maps, which involves the compilation, analysis, and representation of geographic data.",
+      "node_id": "Cartography",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the main purpose of Geographic Information Systems (GIS)?",
+      "options": {
+        "A": "To create interactive 3D models of cities",
+        "B": "To analyze and display geographically referenced data",
+        "C": "To develop new map projections",
+        "D": "To monitor climate patterns"
+      },
+      "correct": "B",
+      "explanation": "GIS is a computer-based tool for capturing, storing, analyzing, and displaying geographically referenced data.",
+      "node_id": "Geographic Information Systems",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the primary challenge in creating a map projection?",
+      "options": {
+        "A": "Preserving the shape of features",
+        "B": "Preserving the size of features",
+        "C": "Preserving the distance between features",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanation": "Map projections aim to preserve certain properties such as shape, size, or distance, but it is challenging to preserve all of them at the same time.",
+      "node_id": "Map Projections",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is remote sensing used for in cartography?",
+      "options": {
+        "A": "To create interactive 3D models of cities",
+        "B": "To monitor environmental changes",
+        "C": "To develop new map projections",
+        "D": "To navigate and orient oneself in space"
+      },
+      "correct": "B",
+      "explanation": "Remote sensing is used to collect data about the Earth's surface, often to monitor environmental changes such as deforestation, ocean currents, and climate patterns.",
+      "node_id": "Remote Sensing",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Who is considered one of the most important cartographers in history?",
+      "options": {
+        "A": "Gerardus Mercator",
+        "B": "Eratosthenes",
+        "C": "Ptolemy",
+        "D": "Strabo"
+      },
+      "correct": "A",
+      "explanation": "Gerardus Mercator developed the Mercator map projection, which is still widely used today for navigation and other purposes.",
+      "node_id": "Gerardus Mercator",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the primary challenge in using cartography for urban planning?",
+      "options": {
+        "A": "Integrating data from multiple sources",
+        "B": "Creating visually appealing maps",
+        "C": "Analyzing complex spatial relationships",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanation": "Urban planning involves integrating data from multiple sources, creating visually appealing maps, and analyzing complex spatial relationships to design and manage urban development.",
+      "node_id": "Urban Planning",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the purpose of cartographic communication?",
+      "options": {
+        "A": "To create interactive 3D models of cities",
+        "B": "To convey geographic information through maps",
+        "C": "To develop new map projections",
+        "D": "To monitor environmental changes"
+      },
+      "correct": "B",
+      "explanation": "Cartographic communication is the process of conveying geographic information through maps, using symbols, colors, and other visual elements to communicate meaning.",
+      "node_id": "Cartographic Communication",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Explain the importance of spatial analysis in cartography.",
+      "sample_answer": "Spatial analysis is used to understand the relationships between geographic phenomena, using statistical and mathematical methods to analyze and interpret data.",
+      "keywords": [
+        "spatial analysis",
+        "geographic phenomena",
+        "statistical methods"
+      ],
+      "node_id": "Spatial Analysis",
+      "points": 15
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Discuss the role of cartography in environmental monitoring.",
+      "sample_answer": "Cartography plays a crucial role in environmental monitoring by providing a framework for collecting, analyzing, and visualizing data on environmental changes, such as deforestation, ocean currents, and climate patterns.",
+      "keywords": [
+        "cartography",
+        "environmental monitoring",
+        "data visualization"
+      ],
+      "node_id": "Environmental Monitoring",
+      "points": 15
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Explain the concept of map projections and its significance in cartography.",
+      "sample_answer": "A map projection is a way of representing the curved surface of the Earth on a flat map, using mathematical formulas to preserve certain properties such as shape or size. The choice of projection depends on the purpose of the map.",
+      "keywords": [
+        "map projection",
+        "curved surface",
+        "mathematical formulas"
+      ],
+      "node_id": "Map Projections",
+      "points": 15
+    }
+  ]
+}

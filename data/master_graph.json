@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 18,
-  "total_nodes": 269,
-  "total_edges": 329,
+  "total_topics": 19,
+  "total_nodes": 284,
+  "total_edges": 347,
   "topics": [
     {
       "topic": "Climate Change",
@@ -165,6 +165,15 @@
       "edge_count": 18,
       "description": "Cryptography is the practice and study of techniques for secure communication in the presence of adversarial behavior. It involves constructing and analyzing protocols that prevent third parties or the public from reading private messages. Modern cryptography exists at the intersection of mathematics, computer science, and information security.",
       "added_at": "2026-06-28T15:06:34.340287"
+    },
+    {
+      "topic": "Cartography",
+      "slug": "cartography",
+      "category": "geography",
+      "node_count": 15,
+      "edge_count": 18,
+      "description": "Cartography is the science and practice of creating maps, which involves the compilation, analysis, and representation of geographic data. It has a rich history, with early cartographers using manual techniques to create maps, and has evolved to incorporate modern technologies such as Geographic Information Systems (GIS) and Remote Sensing. Today, cartography plays a crucial role in various fields, including urban planning, environmental monitoring, and navigation.",
+      "added_at": "2026-06-28T20:23:13.978651"
     }
   ],
   "global_nodes": [
@@ -3126,6 +3135,171 @@
       "fun_fact": "Military communications rely heavily on cryptography to protect sensitive data and maintain national security.",
       "topic_slug": "cryptography",
       "topic": "Cryptography"
+    },
+    {
+      "id": "cartography__cartography",
+      "label": "Cartography",
+      "type": "core",
+      "depth": 0,
+      "description": "The science and practice of creating maps, involving the compilation, analysis, and representation of geographic data.",
+      "importance": 10,
+      "fun_fact": "The word 'cartography' comes from the Greek words 'carta' meaning map and 'graphy' meaning writing.",
+      "topic_slug": "cartography",
+      "topic": "Cartography"
+    },
+    {
+      "id": "cartography__gis",
+      "label": "Geographic Information Systems",
+      "type": "concept",
+      "depth": 1,
+      "description": "A computer-based tool for capturing, storing, analyzing, and displaying geographically referenced data.",
+      "importance": 9,
+      "fun_fact": "GIS technology is used in a wide range of applications, including urban planning, emergency response, and natural resource management.",
+      "topic_slug": "cartography",
+      "topic": "Cartography"
+    },
+    {
+      "id": "cartography__map_projections",
+      "label": "Map Projections",
+      "type": "concept",
+      "depth": 1,
+      "description": "A way of representing the curved surface of the Earth on a flat map, using mathematical formulas to preserve certain properties such as shape or size.",
+      "importance": 8,
+      "fun_fact": "There are many different types of map projections, each with its own strengths and weaknesses, and the choice of projection depends on the purpose of the map.",
+      "topic_slug": "cartography",
+      "topic": "Cartography"
+    },
+    {
+      "id": "cartography__spatial_analysis",
+      "label": "Spatial Analysis",
+      "type": "concept",
+      "depth": 1,
+      "description": "A set of techniques used to analyze and understand the relationships between geographic phenomena, using statistical and mathematical methods.",
+      "importance": 9,
+      "fun_fact": "Spatial analysis is used in a wide range of fields, including epidemiology, criminology, and environmental science.",
+      "topic_slug": "cartography",
+      "topic": "Cartography"
+    },
+    {
+      "id": "cartography__remote_sensing",
+      "label": "Remote Sensing",
+      "type": "concept",
+      "depth": 1,
+      "description": "The use of sensors to collect data about the Earth's surface, without being in direct physical contact with it, often using satellite or airborne platforms.",
+      "importance": 8,
+      "fun_fact": "Remote sensing is used to monitor environmental changes, such as deforestation, ocean currents, and climate patterns.",
+      "topic_slug": "cartography",
+      "topic": "Cartography"
+    },
+    {
+      "id": "cartography__historical_cartography",
+      "label": "Historical Cartography",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the history of cartography, including the development of mapping techniques, the evolution of map-making tools, and the impact of cartography on society.",
+      "importance": 7,
+      "fun_fact": "Historical cartography can provide insights into the cultural, social, and political context of past societies.",
+      "topic_slug": "cartography",
+      "topic": "Cartography"
+    },
+    {
+      "id": "cartography__john_snyder",
+      "label": "John Snyder",
+      "type": "person",
+      "depth": 2,
+      "description": "An American cartographer who developed the Snyder equal area map projection, which is used to preserve the area of features on the map.",
+      "importance": 6,
+      "fun_fact": "John Snyder is known for his work on map projections and his contributions to the field of cartography.",
+      "topic_slug": "cartography",
+      "topic": "Cartography"
+    },
+    {
+      "id": "cartography__gerardus_mercator",
+      "label": "Gerardus Mercator",
+      "type": "person",
+      "depth": 2,
+      "description": "A Flemish cartographer who developed the Mercator map projection, which is still widely used today for navigation and other purposes.",
+      "importance": 8,
+      "fun_fact": "Gerardus Mercator is considered one of the most important cartographers in history, and his map projection has had a lasting impact on the field.",
+      "topic_slug": "cartography",
+      "topic": "Cartography"
+    },
+    {
+      "id": "cartography__urban_planning",
+      "label": "Urban Planning",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of cartography and geographic information systems to plan and manage urban development, including the design of transportation systems, parks, and other infrastructure.",
+      "importance": 9,
+      "fun_fact": "Urban planning is critical for creating sustainable, livable, and equitable cities, and cartography plays a key role in this process.",
+      "topic_slug": "cartography",
+      "topic": "Cartography"
+    },
+    {
+      "id": "cartography__environmental_monitoring",
+      "label": "Environmental Monitoring",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of cartography and remote sensing to monitor environmental changes, such as deforestation, ocean currents, and climate patterns.",
+      "importance": 8,
+      "fun_fact": "Environmental monitoring is critical for understanding and mitigating the impacts of human activity on the environment, and cartography plays a key role in this process.",
+      "topic_slug": "cartography",
+      "topic": "Cartography"
+    },
+    {
+      "id": "cartography__navigation",
+      "label": "Navigation",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of cartography and geographic information systems to navigate and orient oneself in space, including the use of GPS and other technologies.",
+      "importance": 9,
+      "fun_fact": "Navigation is a critical component of many industries, including aviation, maritime, and logistics, and cartography plays a key role in this process.",
+      "topic_slug": "cartography",
+      "topic": "Cartography"
+    },
+    {
+      "id": "cartography__cartographic_communication",
+      "label": "Cartographic Communication",
+      "type": "concept",
+      "depth": 2,
+      "description": "The process of conveying geographic information through maps, including the use of symbols, colors, and other visual elements to communicate meaning.",
+      "importance": 7,
+      "fun_fact": "Cartographic communication is a critical component of cartography, and is used to convey complex geographic information to a wide range of audiences.",
+      "topic_slug": "cartography",
+      "topic": "Cartography"
+    },
+    {
+      "id": "cartography__map_reading",
+      "label": "Map Reading",
+      "type": "concept",
+      "depth": 2,
+      "description": "The process of interpreting and understanding the information presented on a map, including the use of legends, scales, and other cartographic elements.",
+      "importance": 6,
+      "fun_fact": "Map reading is a critical skill for anyone who uses maps, and is essential for navigating and understanding geographic information.",
+      "topic_slug": "cartography",
+      "topic": "Cartography"
+    },
+    {
+      "id": "cartography__cartography_in_education",
+      "label": "Cartography in Education",
+      "type": "application",
+      "depth": 3,
+      "description": "The use of cartography and geographic information systems in educational settings, including the teaching of geography, environmental science, and other subjects.",
+      "importance": 8,
+      "fun_fact": "Cartography is a powerful tool for teaching geographic concepts and skills, and is used in a wide range of educational settings.",
+      "topic_slug": "cartography",
+      "topic": "Cartography"
+    },
+    {
+      "id": "cartography__cartographic_design",
+      "label": "Cartographic Design",
+      "type": "concept",
+      "depth": 3,
+      "description": "The process of creating visually appealing and effective maps, including the use of color, typography, and other visual elements to communicate meaning.",
+      "importance": 7,
+      "fun_fact": "Cartographic design is a critical component of cartography, and is used to create maps that are both informative and aesthetically pleasing.",
+      "topic_slug": "cartography",
+      "topic": "Cartography"
     }
   ],
   "global_edges": [
@@ -5431,6 +5605,132 @@
       "relation": "evolved_from",
       "strength": 8,
       "topic": "Cryptography"
+    },
+    {
+      "source": "cartography__cartography",
+      "target": "cartography__gis",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Cartography"
+    },
+    {
+      "source": "cartography__cartography",
+      "target": "cartography__map_projections",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Cartography"
+    },
+    {
+      "source": "cartography__cartography",
+      "target": "cartography__spatial_analysis",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Cartography"
+    },
+    {
+      "source": "cartography__cartography",
+      "target": "cartography__remote_sensing",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Cartography"
+    },
+    {
+      "source": "cartography__cartography",
+      "target": "cartography__historical_cartography",
+      "relation": "is_part_of",
+      "strength": 7,
+      "topic": "Cartography"
+    },
+    {
+      "source": "cartography__gis",
+      "target": "cartography__urban_planning",
+      "relation": "used_in",
+      "strength": 9,
+      "topic": "Cartography"
+    },
+    {
+      "source": "cartography__map_projections",
+      "target": "cartography__gerardus_mercator",
+      "relation": "discovered_by",
+      "strength": 8,
+      "topic": "Cartography"
+    },
+    {
+      "source": "cartography__spatial_analysis",
+      "target": "cartography__environmental_monitoring",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Cartography"
+    },
+    {
+      "source": "cartography__remote_sensing",
+      "target": "cartography__navigation",
+      "relation": "used_in",
+      "strength": 9,
+      "topic": "Cartography"
+    },
+    {
+      "source": "cartography__historical_cartography",
+      "target": "cartography__john_snyder",
+      "relation": "related_to",
+      "strength": 6,
+      "topic": "Cartography"
+    },
+    {
+      "source": "cartography__cartography",
+      "target": "cartography__cartographic_communication",
+      "relation": "is_part_of",
+      "strength": 7,
+      "topic": "Cartography"
+    },
+    {
+      "source": "cartography__cartographic_communication",
+      "target": "cartography__map_reading",
+      "relation": "is_part_of",
+      "strength": 6,
+      "topic": "Cartography"
+    },
+    {
+      "source": "cartography__cartography",
+      "target": "cartography__cartography_in_education",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Cartography"
+    },
+    {
+      "source": "cartography__cartographic_design",
+      "target": "cartography__cartography",
+      "relation": "is_part_of",
+      "strength": 7,
+      "topic": "Cartography"
+    },
+    {
+      "source": "cartography__gis",
+      "target": "cartography__cartographic_design",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Cartography"
+    },
+    {
+      "source": "cartography__map_projections",
+      "target": "cartography__cartographic_design",
+      "relation": "used_in",
+      "strength": 7,
+      "topic": "Cartography"
+    },
+    {
+      "source": "cartography__spatial_analysis",
+      "target": "cartography__cartographic_design",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Cartography"
+    },
+    {
+      "source": "cartography__remote_sensing",
+      "target": "cartography__cartographic_design",
+      "relation": "used_in",
+      "strength": 7,
+      "topic": "Cartography"
     }
   ],
   "cross_topic_edges": [
@@ -5494,7 +5794,8 @@
   "category_map": {
     "geography": [
       "climate_change",
-      "geomorphology"
+      "geomorphology",
+      "cartography"
     ],
     "biology": [
       "evolutionary_biology",
@@ -5527,5 +5828,5 @@
       "systems_thinking"
     ]
   },
-  "last_updated": "2026-06-28T15:06:34.340328"
+  "last_updated": "2026-06-28T20:23:13.978686"
 }

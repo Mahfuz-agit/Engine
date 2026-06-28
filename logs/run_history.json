@@ -232,5 +232,18 @@
     "master_total_topics": 18,
     "ended_at": "2026-06-28T15:06:34.344526",
     "duration_seconds": 34.9
+  },
+  {
+    "started_at": "2026-06-28T20:22:35.699462",
+    "status": "success",
+    "topic": "Cartography",
+    "sources_found": 5,
+    "images_found": 0,
+    "quality_score": 87.5,
+    "quality_passed": true,
+    "exam_questions": 10,
+    "master_total_topics": 19,
+    "ended_at": "2026-06-28T20:23:13.983191",
+    "duration_seconds": 38.3
   }
 ]
