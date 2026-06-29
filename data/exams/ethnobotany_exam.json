@@ -1,0 +1,161 @@
+{
+  "topic": "Ethnobotany",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary focus of the field of ethnobotany?",
+      "options": {
+        "A": "The study of the relationships between humans and animals",
+        "B": "The study of the relationships between humans and plants",
+        "C": "The study of the relationships between plants and the environment",
+        "D": "The study of the relationships between animals and the environment"
+      },
+      "correct": "B",
+      "explanation": "Ethnobotany is an interdisciplinary field that studies the relationships between humans and plants, focusing on traditional knowledge of plant use, management, and perception in human societies.",
+      "node_id": "Ethnobotany",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which of the following is a key concept in ethnobotany that helps researchers understand the diversity of plant species used by different cultures?",
+      "options": {
+        "A": "Phytochemistry",
+        "B": "Plant Systematics",
+        "C": "Botanical Anthropology",
+        "D": "Conservation Biology"
+      },
+      "correct": "B",
+      "explanation": "Plant systematics is a fundamental concept in ethnobotany, as it helps researchers understand the diversity of plant species used by different cultures.",
+      "node_id": "Plant Systematics",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term used to describe the method used in ethnobotany to quantify the importance of plants and vegetation to people?",
+      "options": {
+        "A": "Importance Indices",
+        "B": "Cultural Significance Indices",
+        "C": "Plant Use Indices",
+        "D": "Traditional Knowledge Indices"
+      },
+      "correct": "A",
+      "explanation": "Importance indices are used in ethnobotany to quantify the importance of plants and vegetation to people.",
+      "node_id": "Importance Indices",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "Who is considered the 'father of ethnobotany'?",
+      "options": {
+        "A": "Richard Evans Schultes",
+        "B": "Charles Darwin",
+        "C": "Gregor Mendel",
+        "D": "Carl Linnaeus"
+      },
+      "correct": "A",
+      "explanation": "Richard Evans Schultes is considered the 'father of ethnobotany' and is credited with coining the term 'ethnobotany' and establishing the field as a distinct area of study.",
+      "node_id": "Richard Evans Schultes",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term used to describe the use of plants by local communities for various purposes, including medicine, food, and religious use?",
+      "options": {
+        "A": "Traditional Plant Use",
+        "B": "Cultural Plant Use",
+        "C": "Sustainable Plant Use",
+        "D": "Ethnobotanical Plant Use"
+      },
+      "correct": "A",
+      "explanation": "Traditional plant use is a key aspect of ethnobotany, as it reflects the cultural significance of plants in human societies.",
+      "node_id": "Traditional Plant Use",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term used to describe the study of the cultural significance of plants in human societies?",
+      "options": {
+        "A": "Botanical Anthropology",
+        "B": "Phytochemistry",
+        "C": "Plant Systematics",
+        "D": "Conservation Biology"
+      },
+      "correct": "A",
+      "explanation": "Botanical anthropology is a key concept in ethnobotany, as it helps researchers understand the social and cultural context of plant use.",
+      "node_id": "Botanical Anthropology",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary goal of conservation biology in the context of ethnobotany?",
+      "options": {
+        "A": "To develop new medicines from plants",
+        "B": "To promote the sustainable use of plant resources",
+        "C": "To study the cultural significance of plants",
+        "D": "To classify and name plant species"
+      },
+      "correct": "B",
+      "explanation": "Conservation biology is a significant application of ethnobotany, as it helps researchers develop strategies for preserving plant diversity and promoting sustainable use of plant resources.",
+      "node_id": "Conservation Biology",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the importance of traditional plant use in ethnobotany.",
+      "sample_answer": "Traditional plant use is a key aspect of ethnobotany, as it reflects the cultural significance of plants in human societies. It provides valuable information on the uses of plants for various purposes, including medicine, food, and religious use, and helps researchers understand the social and cultural context of plant use.",
+      "keywords": [
+        "traditional plant use",
+        "cultural significance",
+        "social context"
+      ],
+      "node_id": "Traditional Plant Use",
+      "points": 15
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Explain the concept of phytochemistry and its significance in ethnobotany.",
+      "sample_answer": "Phytochemistry is the study of the chemical composition of plants and their potential medicinal properties. It is a crucial concept in ethnobotany, as it helps researchers understand the chemical basis of plant-based medicines and develop new medicines from plants.",
+      "keywords": [
+        "phytochemistry",
+        "chemical composition",
+        "medicinal properties"
+      ],
+      "node_id": "Phytochemistry",
+      "points": 15
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the significance of the Caucasus biodiversity hotspot in the context of ethnobotany.",
+      "sample_answer": "The Caucasus biodiversity hotspot is a region of high plant diversity and endemism, with a rich cultural heritage of traditional plant use. It is home to over 6,000 plant species, many of which are found nowhere else in the world, and provides valuable opportunities for ethnobotanical research and conservation.",
+      "keywords": [
+        "Caucasus biodiversity hotspot",
+        "plant diversity",
+        "traditional plant use"
+      ],
+      "node_id": "Caucasus Biodiversity Hotspot",
+      "points": 15
+    }
+  ]
+}

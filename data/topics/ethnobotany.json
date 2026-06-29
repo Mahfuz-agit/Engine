@@ -1,0 +1,389 @@
+{
+  "topic": "Ethnobotany",
+  "category": "biology",
+  "description": "Ethnobotany is an interdisciplinary field that studies the relationships between humans and plants, focusing on traditional knowledge of plant use, management, and perception in human societies. It integrates knowledge from botany, anthropology, ecology, and chemistry to study plant-related customs across cultures. Researchers in this field document and analyze how different societies use local flora for various purposes, including medicine, food, and religious use.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Ethnobotany",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of the relationships between humans and plants, focusing on traditional knowledge of plant use, management, and perception in human societies.",
+      "importance": 10,
+      "fun_fact": "Ethnobotany is an interdisciplinary field that combines botany, anthropology, ecology, and chemistry."
+    },
+    {
+      "id": "N2",
+      "label": "Plant Systematics",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the identification, classification, and naming of plants.",
+      "importance": 8,
+      "fun_fact": "Plant systematics is a fundamental concept in ethnobotany, as it helps researchers understand the diversity of plant species used by different cultures."
+    },
+    {
+      "id": "N3",
+      "label": "Traditional Medicine",
+      "type": "application",
+      "depth": 1,
+      "description": "The use of plants and other natural products to prevent, diagnose, and treat diseases.",
+      "importance": 9,
+      "fun_fact": "Traditional medicine is one of the most significant applications of ethnobotany, as many modern medicines are derived from plants used in traditional medicine."
+    },
+    {
+      "id": "N4",
+      "label": "Botanical Anthropology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the cultural significance of plants in human societies.",
+      "importance": 8,
+      "fun_fact": "Botanical anthropology is a key concept in ethnobotany, as it helps researchers understand the social and cultural context of plant use."
+    },
+    {
+      "id": "N5",
+      "label": "Phytochemistry",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the chemical composition of plants and their potential medicinal properties.",
+      "importance": 8,
+      "fun_fact": "Phytochemistry is a crucial concept in ethnobotany, as it helps researchers understand the chemical basis of plant-based medicines."
+    },
+    {
+      "id": "N6",
+      "label": "Conservation Biology",
+      "type": "application",
+      "depth": 1,
+      "description": "The study of the conservation and management of plant species and ecosystems.",
+      "importance": 9,
+      "fun_fact": "Conservation biology is a significant application of ethnobotany, as it helps researchers develop strategies for preserving plant diversity and promoting sustainable use of plant resources."
+    },
+    {
+      "id": "N7",
+      "label": "Richard Evans Schultes",
+      "type": "person",
+      "depth": 2,
+      "description": "An American botanist and ethnobotanist who is considered the 'father of ethnobotany'.",
+      "importance": 8,
+      "fun_fact": "Schultes is credited with coining the term 'ethnobotany' and establishing the field as a distinct area of study."
+    },
+    {
+      "id": "N8",
+      "label": "Khevsureti, Republic of Georgia",
+      "type": "example",
+      "depth": 2,
+      "description": "A region in the Caucasus where ethnobotanical research has been conducted to study the traditional use of plants by local communities.",
+      "importance": 6,
+      "fun_fact": "The Khevsureti region is home to a diverse range of plant species and has a rich cultural heritage of traditional plant use."
+    },
+    {
+      "id": "N9",
+      "label": "Samburu People, Kenya",
+      "type": "example",
+      "depth": 2,
+      "description": "An African community that has been studied for their traditional use of plants, including medicinal plants and food crops.",
+      "importance": 6,
+      "fun_fact": "The Samburu people have a deep understanding of the local flora and have developed a range of traditional plant-based remedies for various ailments."
+    },
+    {
+      "id": "N10",
+      "label": "Importance Indices",
+      "type": "formula",
+      "depth": 2,
+      "description": "A method used in ethnobotany to quantify the importance of plants and vegetation to people.",
+      "importance": 7,
+      "fun_fact": "Importance indices are used to analyze the cultural significance of plants and to identify priority areas for conservation and management."
+    },
+    {
+      "id": "N11",
+      "label": "Caucasus Biodiversity Hotspot",
+      "type": "fact",
+      "depth": 2,
+      "description": "A region of high plant diversity and endemism, with a rich cultural heritage of traditional plant use.",
+      "importance": 7,
+      "fun_fact": "The Caucasus biodiversity hotspot is home to over 6,000 plant species, many of which are found nowhere else in the world."
+    },
+    {
+      "id": "N12",
+      "label": "Traditional Plant Use",
+      "type": "concept",
+      "depth": 1,
+      "description": "The use of plants by local communities for various purposes, including medicine, food, and religious use.",
+      "importance": 8,
+      "fun_fact": "Traditional plant use is a key aspect of ethnobotany, as it reflects the cultural significance of plants in human societies."
+    },
+    {
+      "id": "N13",
+      "label": "Plant-Related Customs",
+      "type": "concept",
+      "depth": 1,
+      "description": "The cultural practices and traditions associated with plant use, including rituals, ceremonies, and taboos.",
+      "importance": 8,
+      "fun_fact": "Plant-related customs are an important aspect of ethnobotany, as they reflect the social and cultural context of plant use."
+    },
+    {
+      "id": "N14",
+      "label": "Ethnobotanical Research",
+      "type": "application",
+      "depth": 1,
+      "description": "The study of the relationships between humans and plants, including the documentation and analysis of traditional plant use.",
+      "importance": 9,
+      "fun_fact": "Ethnobotanical research is a critical aspect of ethnobotany, as it helps researchers understand the cultural significance of plants and develop strategies for conservation and management."
+    },
+    {
+      "id": "N15",
+      "label": "Sustainable Use of Plant Resources",
+      "type": "application",
+      "depth": 1,
+      "description": "The use of plant resources in a way that maintains their availability and accessibility for future generations.",
+      "importance": 9,
+      "fun_fact": "Sustainable use of plant resources is a key goal of ethnobotany, as it reflects the need to balance human needs with environmental conservation."
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Plant systematics is a fundamental concept in ethnobotany, as it helps researchers understand the diversity of plant species used by different cultures."
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "leads_to",
+      "strength": 9,
+      "description": "Ethnobotany leads to the development of traditional medicine, as many modern medicines are derived from plants used in traditional medicine."
+    },
+    {
+      "source": "N1",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Botanical anthropology is a key concept in ethnobotany, as it helps researchers understand the cultural significance of plants in human societies."
+    },
+    {
+      "source": "N1",
+      "target": "N5",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Phytochemistry is a crucial concept in ethnobotany, as it helps researchers understand the chemical basis of plant-based medicines."
+    },
+    {
+      "source": "N1",
+      "target": "N6",
+      "relation": "leads_to",
+      "strength": 9,
+      "description": "Ethnobotany leads to the development of conservation biology, as it helps researchers develop strategies for preserving plant diversity and promoting sustainable use of plant resources."
+    },
+    {
+      "source": "N2",
+      "target": "N7",
+      "relation": "discovered_by",
+      "strength": 7,
+      "description": "Richard Evans Schultes is credited with coining the term 'ethnobotany' and establishing the field as a distinct area of study."
+    },
+    {
+      "source": "N3",
+      "target": "N8",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "Traditional medicine is used by local communities in the Khevsureti region of the Republic of Georgia."
+    },
+    {
+      "source": "N3",
+      "target": "N9",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "Traditional medicine is used by the Samburu people of Kenya."
+    },
+    {
+      "source": "N4",
+      "target": "N10",
+      "relation": "depends_on",
+      "strength": 7,
+      "description": "Botanical anthropology depends on the use of importance indices to analyze the cultural significance of plants."
+    },
+    {
+      "source": "N5",
+      "target": "N11",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "Phytochemistry is related to the study of plant diversity in the Caucasus biodiversity hotspot."
+    },
+    {
+      "source": "N6",
+      "target": "N12",
+      "relation": "enables",
+      "strength": 8,
+      "description": "Conservation biology enables the sustainable use of plant resources, which is a key goal of ethnobotany."
+    },
+    {
+      "source": "N7",
+      "target": "N1",
+      "relation": "discovered_by",
+      "strength": 8,
+      "description": "Ethnobotany was established as a distinct field of study by Richard Evans Schultes."
+    },
+    {
+      "source": "N8",
+      "target": "N3",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "Traditional medicine is used by local communities in the Khevsureti region of the Republic of Georgia."
+    },
+    {
+      "source": "N9",
+      "target": "N3",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "Traditional medicine is used by the Samburu people of Kenya."
+    },
+    {
+      "source": "N10",
+      "target": "N4",
+      "relation": "depends_on",
+      "strength": 7,
+      "description": "Importance indices depend on the study of botanical anthropology to analyze the cultural significance of plants."
+    },
+    {
+      "source": "N11",
+      "target": "N5",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "The Caucasus biodiversity hotspot is related to the study of phytochemistry, as many plant species in the region have unique chemical properties."
+    },
+    {
+      "source": "N12",
+      "target": "N6",
+      "relation": "enables",
+      "strength": 8,
+      "description": "Traditional plant use enables the sustainable use of plant resources, which is a key goal of ethnobotany."
+    },
+    {
+      "source": "N13",
+      "target": "N1",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Plant-related customs are an important aspect of ethnobotany, as they reflect the social and cultural context of plant use."
+    },
+    {
+      "source": "N14",
+      "target": "N1",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Ethnobotanical research is a critical aspect of ethnobotany, as it helps researchers understand the cultural significance of plants and develop strategies for conservation and management."
+    },
+    {
+      "source": "N15",
+      "target": "N1",
+      "relation": "enables",
+      "strength": 9,
+      "description": "Sustainable use of plant resources enables the long-term conservation and management of plant diversity, which is a key goal of ethnobotany."
+    }
+  ],
+  "key_takeaways": [
+    "Ethnobotany is an interdisciplinary field that studies the relationships between humans and plants.",
+    "Traditional plant use is a key aspect of ethnobotany, as it reflects the cultural significance of plants in human societies.",
+    "Conservation biology is a significant application of ethnobotany, as it helps researchers develop strategies for preserving plant diversity and promoting sustainable use of plant resources."
+  ],
+  "real_world_impact": "Ethnobotany has a significant impact on the conservation and management of plant diversity, as it helps researchers understand the cultural significance of plants and develop strategies for sustainable use. For example, ethnobotanical research has led to the discovery of new medicines and the development of conservation programs for endangered plant species. Additionally, ethnobotany has helped to promote the sustainable use of plant resources, which is essential for maintaining the health and well-being of both human and environmental systems.",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/3_types_of_fiddleheads_%285813837883%29.jpg",
+      "title": "3 types of fiddleheads (5813837883).jpg",
+      "license": "CC BY 2.0",
+      "artist": "Leslie Seaton from Seattle, WA, USA",
+      "description": "Langdon compares a variety of fiddleheads. On the left is the rubbed clean lady fern fiddlehead. On right is the bracken fern fiddlehead. I don't have my notes on the middle one, I believe it was a wood fern of some sort and probably not worth eating based on this blog post from Langdon. fat-of-the-",
+      "width": 1000,
+      "height": 667,
+      "source_query": "Ethnobotany"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/A_%22Paan_Baraj%22_at_Howrah_District_West_Bengal.jpg",
+      "title": "A \"Paan Baraj\" at Howrah District West Bengal.jpg",
+      "license": "CC BY 4.0",
+      "artist": "RIT RAJARSHI",
+      "description": "A \"Paan Baraj\" at Howrah District West Bengal. This is a traditional method for cultivation of Beetel leaves",
+      "width": 4320,
+      "height": 3240,
+      "source_query": "Ethnobotany"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/A_%27Paan_Baraj%27_Interior%2C_photo_taken_at_Howrah_District_West_Bengal_India_1.jpg",
+      "title": "A 'Paan Baraj' Interior, photo taken at Howrah District West Bengal India 1.jpg",
+      "license": "CC BY 4.0",
+      "artist": "RIT RAJARSHI",
+      "description": "A 'Paan Baraj' Interior, photo taken at Howrah District West Bengal India. A 'Paan Baraj' is a traditional, local/regional and heritage method of cultivation of Beetel Leaves",
+      "width": 3240,
+      "height": 4320,
+      "source_query": "Ethnobotany"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/A_%27Paan_Baraj%27_Interior%2C_photo_taken_at_Howrah_District_West_Bengal_India_2.jpg",
+      "title": "A 'Paan Baraj' Interior, photo taken at Howrah District West Bengal India 2.jpg",
+      "license": "CC BY 4.0",
+      "artist": "RIT RAJARSHI",
+      "description": "A 'Paan Baraj' Interior, photo taken at Howrah District West Bengal India. A 'Paan Baraj' is a traditional, local/regional and heritage method of cultivation of Beetel Leaves",
+      "width": 4320,
+      "height": 3240,
+      "source_query": "Ethnobotany"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/A_%27Paan_Baraj%27_exterior%2C_photo_taken_at_Howrah_District_West_Bengal_India.jpg",
+      "title": "A 'Paan Baraj' exterior, photo taken at Howrah District West Bengal India.jpg",
+      "license": "CC BY 4.0",
+      "artist": "RIT RAJARSHI",
+      "description": "A 'Paan Baraj' exterior, photo taken at Howrah District West Bengal India. A 'Paan Baraj' is a traditional, local/regional and heritage method of cultivation of Beetel Leaves",
+      "width": 4320,
+      "height": 3240,
+      "source_query": "Ethnobotany"
+    }
+  ],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ethnobotany",
+    "papers": [
+      {
+        "title": "A comparative ethnobotany of Khevsureti, Samtskhe-Javakheti, Tusheti, Svaneti, and Racha-Lechkhumi, Republic of Georgia (Sakartvelo), Caucasus",
+        "url": "https://doi.org/10.1186/s13002-016-0110-2"
+      },
+      {
+        "title": "Importance Indices in Ethnobotany",
+        "url": "https://doi.org/10.17348/era.5.0.201-218"
+      },
+      {
+        "title": "Ethnobotany of the Samburu of Mt. Nyiru, South Turkana, Kenya",
+        "url": "https://doi.org/10.1186/1746-4269-2-35"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 100,
+      "issues": [],
+      "node_count": 15,
+      "edge_count": 20
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Economic Botany",
+        "Pharmacognosy"
+      ],
+      "strengths": [
+        "Interdisciplinary approach",
+        "Covers various applications of ethnobotany"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 92.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

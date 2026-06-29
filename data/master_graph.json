@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 20,
-  "total_nodes": 299,
-  "total_edges": 365,
+  "total_topics": 21,
+  "total_nodes": 314,
+  "total_edges": 385,
   "topics": [
     {
       "topic": "Climate Change",
@@ -183,6 +183,15 @@
       "edge_count": 18,
       "description": "Archaeoastronomy is the study of how people in the past understood and used astronomical phenomena, and what role the sky played in their cultures. It is an interdisciplinary field that combines astronomy, archaeology, anthropology, and history to understand the cultural and symbolic significance of celestial events. By analyzing ancient astronomical observations, cultural astronomy, and astronomical alignments, archaeoastronomy provides insights into the beliefs, practices, and knowledge systems of ancient cultures.",
       "added_at": "2026-06-29T13:56:40.685667"
+    },
+    {
+      "topic": "Ethnobotany",
+      "slug": "ethnobotany",
+      "category": "biology",
+      "node_count": 15,
+      "edge_count": 20,
+      "description": "Ethnobotany is an interdisciplinary field that studies the relationships between humans and plants, focusing on traditional knowledge of plant use, management, and perception in human societies. It integrates knowledge from botany, anthropology, ecology, and chemistry to study plant-related customs across cultures. Researchers in this field document and analyze how different societies use local flora for various purposes, including medicine, food, and religious use.",
+      "added_at": "2026-06-29T20:32:57.816713"
     }
   ],
   "global_nodes": [
@@ -3474,6 +3483,171 @@
       "fun_fact": "The relationship between archaeoastronomy and history is a key area of research, with historical records being used to interpret ancient astronomical observations.",
       "topic_slug": "archaeoastronomy",
       "topic": "Archaeoastronomy"
+    },
+    {
+      "id": "ethnobotany__N1",
+      "label": "Ethnobotany",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of the relationships between humans and plants, focusing on traditional knowledge of plant use, management, and perception in human societies.",
+      "importance": 10,
+      "fun_fact": "Ethnobotany is an interdisciplinary field that combines botany, anthropology, ecology, and chemistry.",
+      "topic_slug": "ethnobotany",
+      "topic": "Ethnobotany"
+    },
+    {
+      "id": "ethnobotany__N2",
+      "label": "Plant Systematics",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the identification, classification, and naming of plants.",
+      "importance": 8,
+      "fun_fact": "Plant systematics is a fundamental concept in ethnobotany, as it helps researchers understand the diversity of plant species used by different cultures.",
+      "topic_slug": "ethnobotany",
+      "topic": "Ethnobotany"
+    },
+    {
+      "id": "ethnobotany__N3",
+      "label": "Traditional Medicine",
+      "type": "application",
+      "depth": 1,
+      "description": "The use of plants and other natural products to prevent, diagnose, and treat diseases.",
+      "importance": 9,
+      "fun_fact": "Traditional medicine is one of the most significant applications of ethnobotany, as many modern medicines are derived from plants used in traditional medicine.",
+      "topic_slug": "ethnobotany",
+      "topic": "Ethnobotany"
+    },
+    {
+      "id": "ethnobotany__N4",
+      "label": "Botanical Anthropology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the cultural significance of plants in human societies.",
+      "importance": 8,
+      "fun_fact": "Botanical anthropology is a key concept in ethnobotany, as it helps researchers understand the social and cultural context of plant use.",
+      "topic_slug": "ethnobotany",
+      "topic": "Ethnobotany"
+    },
+    {
+      "id": "ethnobotany__N5",
+      "label": "Phytochemistry",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the chemical composition of plants and their potential medicinal properties.",
+      "importance": 8,
+      "fun_fact": "Phytochemistry is a crucial concept in ethnobotany, as it helps researchers understand the chemical basis of plant-based medicines.",
+      "topic_slug": "ethnobotany",
+      "topic": "Ethnobotany"
+    },
+    {
+      "id": "ethnobotany__N6",
+      "label": "Conservation Biology",
+      "type": "application",
+      "depth": 1,
+      "description": "The study of the conservation and management of plant species and ecosystems.",
+      "importance": 9,
+      "fun_fact": "Conservation biology is a significant application of ethnobotany, as it helps researchers develop strategies for preserving plant diversity and promoting sustainable use of plant resources.",
+      "topic_slug": "ethnobotany",
+      "topic": "Ethnobotany"
+    },
+    {
+      "id": "ethnobotany__N7",
+      "label": "Richard Evans Schultes",
+      "type": "person",
+      "depth": 2,
+      "description": "An American botanist and ethnobotanist who is considered the 'father of ethnobotany'.",
+      "importance": 8,
+      "fun_fact": "Schultes is credited with coining the term 'ethnobotany' and establishing the field as a distinct area of study.",
+      "topic_slug": "ethnobotany",
+      "topic": "Ethnobotany"
+    },
+    {
+      "id": "ethnobotany__N8",
+      "label": "Khevsureti, Republic of Georgia",
+      "type": "example",
+      "depth": 2,
+      "description": "A region in the Caucasus where ethnobotanical research has been conducted to study the traditional use of plants by local communities.",
+      "importance": 6,
+      "fun_fact": "The Khevsureti region is home to a diverse range of plant species and has a rich cultural heritage of traditional plant use.",
+      "topic_slug": "ethnobotany",
+      "topic": "Ethnobotany"
+    },
+    {
+      "id": "ethnobotany__N9",
+      "label": "Samburu People, Kenya",
+      "type": "example",
+      "depth": 2,
+      "description": "An African community that has been studied for their traditional use of plants, including medicinal plants and food crops.",
+      "importance": 6,
+      "fun_fact": "The Samburu people have a deep understanding of the local flora and have developed a range of traditional plant-based remedies for various ailments.",
+      "topic_slug": "ethnobotany",
+      "topic": "Ethnobotany"
+    },
+    {
+      "id": "ethnobotany__N10",
+      "label": "Importance Indices",
+      "type": "formula",
+      "depth": 2,
+      "description": "A method used in ethnobotany to quantify the importance of plants and vegetation to people.",
+      "importance": 7,
+      "fun_fact": "Importance indices are used to analyze the cultural significance of plants and to identify priority areas for conservation and management.",
+      "topic_slug": "ethnobotany",
+      "topic": "Ethnobotany"
+    },
+    {
+      "id": "ethnobotany__N11",
+      "label": "Caucasus Biodiversity Hotspot",
+      "type": "fact",
+      "depth": 2,
+      "description": "A region of high plant diversity and endemism, with a rich cultural heritage of traditional plant use.",
+      "importance": 7,
+      "fun_fact": "The Caucasus biodiversity hotspot is home to over 6,000 plant species, many of which are found nowhere else in the world.",
+      "topic_slug": "ethnobotany",
+      "topic": "Ethnobotany"
+    },
+    {
+      "id": "ethnobotany__N12",
+      "label": "Traditional Plant Use",
+      "type": "concept",
+      "depth": 1,
+      "description": "The use of plants by local communities for various purposes, including medicine, food, and religious use.",
+      "importance": 8,
+      "fun_fact": "Traditional plant use is a key aspect of ethnobotany, as it reflects the cultural significance of plants in human societies.",
+      "topic_slug": "ethnobotany",
+      "topic": "Ethnobotany"
+    },
+    {
+      "id": "ethnobotany__N13",
+      "label": "Plant-Related Customs",
+      "type": "concept",
+      "depth": 1,
+      "description": "The cultural practices and traditions associated with plant use, including rituals, ceremonies, and taboos.",
+      "importance": 8,
+      "fun_fact": "Plant-related customs are an important aspect of ethnobotany, as they reflect the social and cultural context of plant use.",
+      "topic_slug": "ethnobotany",
+      "topic": "Ethnobotany"
+    },
+    {
+      "id": "ethnobotany__N14",
+      "label": "Ethnobotanical Research",
+      "type": "application",
+      "depth": 1,
+      "description": "The study of the relationships between humans and plants, including the documentation and analysis of traditional plant use.",
+      "importance": 9,
+      "fun_fact": "Ethnobotanical research is a critical aspect of ethnobotany, as it helps researchers understand the cultural significance of plants and develop strategies for conservation and management.",
+      "topic_slug": "ethnobotany",
+      "topic": "Ethnobotany"
+    },
+    {
+      "id": "ethnobotany__N15",
+      "label": "Sustainable Use of Plant Resources",
+      "type": "application",
+      "depth": 1,
+      "description": "The use of plant resources in a way that maintains their availability and accessibility for future generations.",
+      "importance": 9,
+      "fun_fact": "Sustainable use of plant resources is a key goal of ethnobotany, as it reflects the need to balance human needs with environmental conservation.",
+      "topic_slug": "ethnobotany",
+      "topic": "Ethnobotany"
     }
   ],
   "global_edges": [
@@ -6031,6 +6205,146 @@
       "relation": "example_of",
       "strength": 6,
       "topic": "Archaeoastronomy"
+    },
+    {
+      "source": "ethnobotany__N1",
+      "target": "ethnobotany__N2",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Ethnobotany"
+    },
+    {
+      "source": "ethnobotany__N1",
+      "target": "ethnobotany__N3",
+      "relation": "leads_to",
+      "strength": 9,
+      "topic": "Ethnobotany"
+    },
+    {
+      "source": "ethnobotany__N1",
+      "target": "ethnobotany__N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Ethnobotany"
+    },
+    {
+      "source": "ethnobotany__N1",
+      "target": "ethnobotany__N5",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Ethnobotany"
+    },
+    {
+      "source": "ethnobotany__N1",
+      "target": "ethnobotany__N6",
+      "relation": "leads_to",
+      "strength": 9,
+      "topic": "Ethnobotany"
+    },
+    {
+      "source": "ethnobotany__N2",
+      "target": "ethnobotany__N7",
+      "relation": "discovered_by",
+      "strength": 7,
+      "topic": "Ethnobotany"
+    },
+    {
+      "source": "ethnobotany__N3",
+      "target": "ethnobotany__N8",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Ethnobotany"
+    },
+    {
+      "source": "ethnobotany__N3",
+      "target": "ethnobotany__N9",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Ethnobotany"
+    },
+    {
+      "source": "ethnobotany__N4",
+      "target": "ethnobotany__N10",
+      "relation": "depends_on",
+      "strength": 7,
+      "topic": "Ethnobotany"
+    },
+    {
+      "source": "ethnobotany__N5",
+      "target": "ethnobotany__N11",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Ethnobotany"
+    },
+    {
+      "source": "ethnobotany__N6",
+      "target": "ethnobotany__N12",
+      "relation": "enables",
+      "strength": 8,
+      "topic": "Ethnobotany"
+    },
+    {
+      "source": "ethnobotany__N7",
+      "target": "ethnobotany__N1",
+      "relation": "discovered_by",
+      "strength": 8,
+      "topic": "Ethnobotany"
+    },
+    {
+      "source": "ethnobotany__N8",
+      "target": "ethnobotany__N3",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Ethnobotany"
+    },
+    {
+      "source": "ethnobotany__N9",
+      "target": "ethnobotany__N3",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Ethnobotany"
+    },
+    {
+      "source": "ethnobotany__N10",
+      "target": "ethnobotany__N4",
+      "relation": "depends_on",
+      "strength": 7,
+      "topic": "Ethnobotany"
+    },
+    {
+      "source": "ethnobotany__N11",
+      "target": "ethnobotany__N5",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Ethnobotany"
+    },
+    {
+      "source": "ethnobotany__N12",
+      "target": "ethnobotany__N6",
+      "relation": "enables",
+      "strength": 8,
+      "topic": "Ethnobotany"
+    },
+    {
+      "source": "ethnobotany__N13",
+      "target": "ethnobotany__N1",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Ethnobotany"
+    },
+    {
+      "source": "ethnobotany__N14",
+      "target": "ethnobotany__N1",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Ethnobotany"
+    },
+    {
+      "source": "ethnobotany__N15",
+      "target": "ethnobotany__N1",
+      "relation": "enables",
+      "strength": 9,
+      "topic": "Ethnobotany"
     }
   ],
   "cross_topic_edges": [
@@ -6054,6 +6368,13 @@
       "relation": "cross_topic_connection",
       "strength": 6,
       "label": "sustainable development"
+    },
+    {
+      "source": "ecological_conservation__N10",
+      "target": "ethnobotany__N6",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "conservation biology"
     },
     {
       "source": "genomics__N5",
@@ -6105,7 +6426,8 @@
       "astrobiology",
       "biogeochemistry",
       "microbiology",
-      "biochemistry"
+      "biochemistry",
+      "ethnobotany"
     ],
     "psychology": [
       "neuroplasticity"
@@ -6131,5 +6453,5 @@
       "archaeoastronomy"
     ]
   },
-  "last_updated": "2026-06-29T13:56:40.685712"
+  "last_updated": "2026-06-29T20:32:57.816745"
 }
