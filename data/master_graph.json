@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 19,
-  "total_nodes": 284,
-  "total_edges": 347,
+  "total_topics": 20,
+  "total_nodes": 299,
+  "total_edges": 365,
   "topics": [
     {
       "topic": "Climate Change",
@@ -174,6 +174,15 @@
       "edge_count": 18,
       "description": "Cartography is the science and practice of creating maps, which involves the compilation, analysis, and representation of geographic data. It has a rich history, with early cartographers using manual techniques to create maps, and has evolved to incorporate modern technologies such as Geographic Information Systems (GIS) and Remote Sensing. Today, cartography plays a crucial role in various fields, including urban planning, environmental monitoring, and navigation.",
       "added_at": "2026-06-28T20:23:13.978651"
+    },
+    {
+      "topic": "Archaeoastronomy",
+      "slug": "archaeoastronomy",
+      "category": "astronomy",
+      "node_count": 15,
+      "edge_count": 18,
+      "description": "Archaeoastronomy is the study of how people in the past understood and used astronomical phenomena, and what role the sky played in their cultures. It is an interdisciplinary field that combines astronomy, archaeology, anthropology, and history to understand the cultural and symbolic significance of celestial events. By analyzing ancient astronomical observations, cultural astronomy, and astronomical alignments, archaeoastronomy provides insights into the beliefs, practices, and knowledge systems of ancient cultures.",
+      "added_at": "2026-06-29T13:56:40.685667"
     }
   ],
   "global_nodes": [
@@ -3300,6 +3309,171 @@
       "fun_fact": "Cartographic design is a critical component of cartography, and is used to create maps that are both informative and aesthetically pleasing.",
       "topic_slug": "cartography",
       "topic": "Cartography"
+    },
+    {
+      "id": "archaeoastronomy__N1",
+      "label": "Archaeoastronomy",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of how people in the past understood and used astronomical phenomena, and what role the sky played in their cultures.",
+      "importance": 10,
+      "fun_fact": "The term 'archaeoastronomy' was coined in the 1970s to describe this interdisciplinary field.",
+      "topic_slug": "archaeoastronomy",
+      "topic": "Archaeoastronomy"
+    },
+    {
+      "id": "archaeoastronomy__N2",
+      "label": "Ancient Astronomical Observations",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of how ancient cultures observed and recorded celestial events, such as planetary alignments and solar eclipses.",
+      "importance": 9,
+      "fun_fact": "Ancient cultures developed sophisticated astronomical observation techniques, including the use of sundials and astronomical clocks.",
+      "topic_slug": "archaeoastronomy",
+      "topic": "Archaeoastronomy"
+    },
+    {
+      "id": "archaeoastronomy__N3",
+      "label": "Cultural Astronomy",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the cultural and symbolic significance of celestial events in ancient cultures, including their myths, legends, and rituals.",
+      "importance": 9,
+      "fun_fact": "Many ancient cultures believed that celestial events had spiritual or mystical significance, and developed elaborate rituals to mark these events.",
+      "topic_slug": "archaeoastronomy",
+      "topic": "Archaeoastronomy"
+    },
+    {
+      "id": "archaeoastronomy__N4",
+      "label": "Astronomical Alignments",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of how ancient cultures aligned their buildings, monuments, and other structures with celestial events, such as the solstices and equinoxes.",
+      "importance": 8,
+      "fun_fact": "Many ancient structures, such as Stonehenge, are aligned with celestial events, demonstrating a sophisticated understanding of astronomy.",
+      "topic_slug": "archaeoastronomy",
+      "topic": "Archaeoastronomy"
+    },
+    {
+      "id": "archaeoastronomy__N5",
+      "label": "Ethnoastronomy",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of how contemporary cultures understand and use astronomical phenomena, including their myths, legends, and rituals.",
+      "importance": 8,
+      "fun_fact": "Ethnoastronomy provides insights into the cultural and symbolic significance of celestial events in contemporary cultures, and highlights the importance of preserving traditional knowledge systems.",
+      "topic_slug": "archaeoastronomy",
+      "topic": "Archaeoastronomy"
+    },
+    {
+      "id": "archaeoastronomy__N6",
+      "label": "Historical Astronomy",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the history of astronomy, including the development of astronomical theories, instruments, and practices.",
+      "importance": 8,
+      "fun_fact": "Historical astronomy provides insights into the development of modern astronomy, and highlights the contributions of ancient cultures to our understanding of the universe.",
+      "topic_slug": "archaeoastronomy",
+      "topic": "Archaeoastronomy"
+    },
+    {
+      "id": "archaeoastronomy__N7",
+      "label": "Clive Ruggles",
+      "type": "person",
+      "depth": 2,
+      "description": "A British archaeoastronomer who has made significant contributions to the field, including the development of new methods for analyzing ancient astronomical observations.",
+      "importance": 7,
+      "fun_fact": "Ruggles is a leading expert on the archaeoastronomy of ancient Britain, and has written extensively on the subject.",
+      "topic_slug": "archaeoastronomy",
+      "topic": "Archaeoastronomy"
+    },
+    {
+      "id": "archaeoastronomy__N8",
+      "label": "Schaefer",
+      "type": "person",
+      "depth": 2,
+      "description": "An American astronomer who has made significant contributions to the field of archaeoastronomy, including the development of new methods for analyzing ancient astronomical observations.",
+      "importance": 7,
+      "fun_fact": "Schaefer is a leading expert on the archaeoastronomy of ancient Mesopotamia, and has written extensively on the subject.",
+      "topic_slug": "archaeoastronomy",
+      "topic": "Archaeoastronomy"
+    },
+    {
+      "id": "archaeoastronomy__N9",
+      "label": "Aveni",
+      "type": "person",
+      "depth": 2,
+      "description": "An American archaeoastronomer who has made significant contributions to the field, including the development of new methods for analyzing ancient astronomical observations.",
+      "importance": 7,
+      "fun_fact": "Aveni is a leading expert on the archaeoastronomy of ancient Mesoamerica, and has written extensively on the subject.",
+      "topic_slug": "archaeoastronomy",
+      "topic": "Archaeoastronomy"
+    },
+    {
+      "id": "archaeoastronomy__N10",
+      "label": "Tomnaverie Recumbent Stone Circle",
+      "type": "example",
+      "depth": 2,
+      "description": "A ancient stone circle in Scotland that is aligned with celestial events, such as the solstices and equinoxes.",
+      "importance": 6,
+      "fun_fact": "The Tomnaverie Recumbent Stone Circle is one of the most well-preserved ancient stone circles in Scotland, and provides insights into the astronomical knowledge of ancient cultures.",
+      "topic_slug": "archaeoastronomy",
+      "topic": "Archaeoastronomy"
+    },
+    {
+      "id": "archaeoastronomy__N11",
+      "label": "Stonehenge",
+      "type": "example",
+      "depth": 2,
+      "description": "A ancient monument in England that is aligned with celestial events, such as the solstices and equinoxes.",
+      "importance": 6,
+      "fun_fact": "Stonehenge is one of the most famous ancient monuments in the world, and provides insights into the astronomical knowledge of ancient cultures.",
+      "topic_slug": "archaeoastronomy",
+      "topic": "Archaeoastronomy"
+    },
+    {
+      "id": "archaeoastronomy__N12",
+      "label": "Interpretative Archaeoastronomy",
+      "type": "concept",
+      "depth": 2,
+      "description": "A approach to archaeoastronomy that emphasizes the interpretation of ancient astronomical observations in their cultural and historical context.",
+      "importance": 6,
+      "fun_fact": "Interpretative archaeoastronomy provides insights into the cultural and symbolic significance of celestial events in ancient cultures, and highlights the importance of preserving traditional knowledge systems.",
+      "topic_slug": "archaeoastronomy",
+      "topic": "Archaeoastronomy"
+    },
+    {
+      "id": "archaeoastronomy__N13",
+      "label": "Methodological Issues",
+      "type": "concept",
+      "depth": 2,
+      "description": "The study of the methods and techniques used in archaeoastronomy, including the analysis of ancient astronomical observations and the interpretation of cultural and historical context.",
+      "importance": 5,
+      "fun_fact": "Methodological issues are a key area of debate in archaeoastronomy, with different approaches and techniques being developed to analyze ancient astronomical observations.",
+      "topic_slug": "archaeoastronomy",
+      "topic": "Archaeoastronomy"
+    },
+    {
+      "id": "archaeoastronomy__N14",
+      "label": "Archaeoastronomy and Anthropology",
+      "type": "concept",
+      "depth": 2,
+      "description": "The study of the relationship between archaeoastronomy and anthropology, including the use of anthropological theories and methods to interpret ancient astronomical observations.",
+      "importance": 5,
+      "fun_fact": "The relationship between archaeoastronomy and anthropology is a key area of research, with anthropological theories and methods being used to interpret ancient astronomical observations.",
+      "topic_slug": "archaeoastronomy",
+      "topic": "Archaeoastronomy"
+    },
+    {
+      "id": "archaeoastronomy__N15",
+      "label": "Archaeoastronomy and History",
+      "type": "concept",
+      "depth": 2,
+      "description": "The study of the relationship between archaeoastronomy and history, including the use of historical records to interpret ancient astronomical observations.",
+      "importance": 5,
+      "fun_fact": "The relationship between archaeoastronomy and history is a key area of research, with historical records being used to interpret ancient astronomical observations.",
+      "topic_slug": "archaeoastronomy",
+      "topic": "Archaeoastronomy"
     }
   ],
   "global_edges": [
@@ -5731,6 +5905,132 @@
       "relation": "used_in",
       "strength": 7,
       "topic": "Cartography"
+    },
+    {
+      "source": "archaeoastronomy__N1",
+      "target": "archaeoastronomy__N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Archaeoastronomy"
+    },
+    {
+      "source": "archaeoastronomy__N1",
+      "target": "archaeoastronomy__N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Archaeoastronomy"
+    },
+    {
+      "source": "archaeoastronomy__N1",
+      "target": "archaeoastronomy__N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Archaeoastronomy"
+    },
+    {
+      "source": "archaeoastronomy__N1",
+      "target": "archaeoastronomy__N5",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Archaeoastronomy"
+    },
+    {
+      "source": "archaeoastronomy__N1",
+      "target": "archaeoastronomy__N6",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Archaeoastronomy"
+    },
+    {
+      "source": "archaeoastronomy__N2",
+      "target": "archaeoastronomy__N7",
+      "relation": "discovered_by",
+      "strength": 7,
+      "topic": "Archaeoastronomy"
+    },
+    {
+      "source": "archaeoastronomy__N2",
+      "target": "archaeoastronomy__N8",
+      "relation": "discovered_by",
+      "strength": 7,
+      "topic": "Archaeoastronomy"
+    },
+    {
+      "source": "archaeoastronomy__N2",
+      "target": "archaeoastronomy__N9",
+      "relation": "discovered_by",
+      "strength": 7,
+      "topic": "Archaeoastronomy"
+    },
+    {
+      "source": "archaeoastronomy__N4",
+      "target": "archaeoastronomy__N10",
+      "relation": "example_of",
+      "strength": 6,
+      "topic": "Archaeoastronomy"
+    },
+    {
+      "source": "archaeoastronomy__N4",
+      "target": "archaeoastronomy__N11",
+      "relation": "example_of",
+      "strength": 6,
+      "topic": "Archaeoastronomy"
+    },
+    {
+      "source": "archaeoastronomy__N12",
+      "target": "archaeoastronomy__N13",
+      "relation": "depends_on",
+      "strength": 5,
+      "topic": "Archaeoastronomy"
+    },
+    {
+      "source": "archaeoastronomy__N12",
+      "target": "archaeoastronomy__N14",
+      "relation": "related_to",
+      "strength": 5,
+      "topic": "Archaeoastronomy"
+    },
+    {
+      "source": "archaeoastronomy__N12",
+      "target": "archaeoastronomy__N15",
+      "relation": "related_to",
+      "strength": 5,
+      "topic": "Archaeoastronomy"
+    },
+    {
+      "source": "archaeoastronomy__N7",
+      "target": "archaeoastronomy__N12",
+      "relation": "developed",
+      "strength": 5,
+      "topic": "Archaeoastronomy"
+    },
+    {
+      "source": "archaeoastronomy__N8",
+      "target": "archaeoastronomy__N12",
+      "relation": "developed",
+      "strength": 5,
+      "topic": "Archaeoastronomy"
+    },
+    {
+      "source": "archaeoastronomy__N9",
+      "target": "archaeoastronomy__N12",
+      "relation": "developed",
+      "strength": 5,
+      "topic": "Archaeoastronomy"
+    },
+    {
+      "source": "archaeoastronomy__N10",
+      "target": "archaeoastronomy__N4",
+      "relation": "example_of",
+      "strength": 6,
+      "topic": "Archaeoastronomy"
+    },
+    {
+      "source": "archaeoastronomy__N11",
+      "target": "archaeoastronomy__N4",
+      "relation": "example_of",
+      "strength": 6,
+      "topic": "Archaeoastronomy"
     }
   ],
   "cross_topic_edges": [
@@ -5826,7 +6126,10 @@
     ],
     "complex systems": [
       "systems_thinking"
+    ],
+    "astronomy": [
+      "archaeoastronomy"
     ]
   },
-  "last_updated": "2026-06-28T20:23:13.978686"
+  "last_updated": "2026-06-29T13:56:40.685712"
 }

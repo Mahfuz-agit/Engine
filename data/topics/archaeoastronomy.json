@@ -1,0 +1,377 @@
+{
+  "topic": "Archaeoastronomy",
+  "category": "astronomy",
+  "description": "Archaeoastronomy is the study of how people in the past understood and used astronomical phenomena, and what role the sky played in their cultures. It is an interdisciplinary field that combines astronomy, archaeology, anthropology, and history to understand the cultural and symbolic significance of celestial events. By analyzing ancient astronomical observations, cultural astronomy, and astronomical alignments, archaeoastronomy provides insights into the beliefs, practices, and knowledge systems of ancient cultures.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Archaeoastronomy",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of how people in the past understood and used astronomical phenomena, and what role the sky played in their cultures.",
+      "importance": 10,
+      "fun_fact": "The term 'archaeoastronomy' was coined in the 1970s to describe this interdisciplinary field."
+    },
+    {
+      "id": "N2",
+      "label": "Ancient Astronomical Observations",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of how ancient cultures observed and recorded celestial events, such as planetary alignments and solar eclipses.",
+      "importance": 9,
+      "fun_fact": "Ancient cultures developed sophisticated astronomical observation techniques, including the use of sundials and astronomical clocks."
+    },
+    {
+      "id": "N3",
+      "label": "Cultural Astronomy",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the cultural and symbolic significance of celestial events in ancient cultures, including their myths, legends, and rituals.",
+      "importance": 9,
+      "fun_fact": "Many ancient cultures believed that celestial events had spiritual or mystical significance, and developed elaborate rituals to mark these events."
+    },
+    {
+      "id": "N4",
+      "label": "Astronomical Alignments",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of how ancient cultures aligned their buildings, monuments, and other structures with celestial events, such as the solstices and equinoxes.",
+      "importance": 8,
+      "fun_fact": "Many ancient structures, such as Stonehenge, are aligned with celestial events, demonstrating a sophisticated understanding of astronomy."
+    },
+    {
+      "id": "N5",
+      "label": "Ethnoastronomy",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of how contemporary cultures understand and use astronomical phenomena, including their myths, legends, and rituals.",
+      "importance": 8,
+      "fun_fact": "Ethnoastronomy provides insights into the cultural and symbolic significance of celestial events in contemporary cultures, and highlights the importance of preserving traditional knowledge systems."
+    },
+    {
+      "id": "N6",
+      "label": "Historical Astronomy",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the history of astronomy, including the development of astronomical theories, instruments, and practices.",
+      "importance": 8,
+      "fun_fact": "Historical astronomy provides insights into the development of modern astronomy, and highlights the contributions of ancient cultures to our understanding of the universe."
+    },
+    {
+      "id": "N7",
+      "label": "Clive Ruggles",
+      "type": "person",
+      "depth": 2,
+      "description": "A British archaeoastronomer who has made significant contributions to the field, including the development of new methods for analyzing ancient astronomical observations.",
+      "importance": 7,
+      "fun_fact": "Ruggles is a leading expert on the archaeoastronomy of ancient Britain, and has written extensively on the subject."
+    },
+    {
+      "id": "N8",
+      "label": "Schaefer",
+      "type": "person",
+      "depth": 2,
+      "description": "An American astronomer who has made significant contributions to the field of archaeoastronomy, including the development of new methods for analyzing ancient astronomical observations.",
+      "importance": 7,
+      "fun_fact": "Schaefer is a leading expert on the archaeoastronomy of ancient Mesopotamia, and has written extensively on the subject."
+    },
+    {
+      "id": "N9",
+      "label": "Aveni",
+      "type": "person",
+      "depth": 2,
+      "description": "An American archaeoastronomer who has made significant contributions to the field, including the development of new methods for analyzing ancient astronomical observations.",
+      "importance": 7,
+      "fun_fact": "Aveni is a leading expert on the archaeoastronomy of ancient Mesoamerica, and has written extensively on the subject."
+    },
+    {
+      "id": "N10",
+      "label": "Tomnaverie Recumbent Stone Circle",
+      "type": "example",
+      "depth": 2,
+      "description": "A ancient stone circle in Scotland that is aligned with celestial events, such as the solstices and equinoxes.",
+      "importance": 6,
+      "fun_fact": "The Tomnaverie Recumbent Stone Circle is one of the most well-preserved ancient stone circles in Scotland, and provides insights into the astronomical knowledge of ancient cultures."
+    },
+    {
+      "id": "N11",
+      "label": "Stonehenge",
+      "type": "example",
+      "depth": 2,
+      "description": "A ancient monument in England that is aligned with celestial events, such as the solstices and equinoxes.",
+      "importance": 6,
+      "fun_fact": "Stonehenge is one of the most famous ancient monuments in the world, and provides insights into the astronomical knowledge of ancient cultures."
+    },
+    {
+      "id": "N12",
+      "label": "Interpretative Archaeoastronomy",
+      "type": "concept",
+      "depth": 2,
+      "description": "A approach to archaeoastronomy that emphasizes the interpretation of ancient astronomical observations in their cultural and historical context.",
+      "importance": 6,
+      "fun_fact": "Interpretative archaeoastronomy provides insights into the cultural and symbolic significance of celestial events in ancient cultures, and highlights the importance of preserving traditional knowledge systems."
+    },
+    {
+      "id": "N13",
+      "label": "Methodological Issues",
+      "type": "concept",
+      "depth": 2,
+      "description": "The study of the methods and techniques used in archaeoastronomy, including the analysis of ancient astronomical observations and the interpretation of cultural and historical context.",
+      "importance": 5,
+      "fun_fact": "Methodological issues are a key area of debate in archaeoastronomy, with different approaches and techniques being developed to analyze ancient astronomical observations."
+    },
+    {
+      "id": "N14",
+      "label": "Archaeoastronomy and Anthropology",
+      "type": "concept",
+      "depth": 2,
+      "description": "The study of the relationship between archaeoastronomy and anthropology, including the use of anthropological theories and methods to interpret ancient astronomical observations.",
+      "importance": 5,
+      "fun_fact": "The relationship between archaeoastronomy and anthropology is a key area of research, with anthropological theories and methods being used to interpret ancient astronomical observations."
+    },
+    {
+      "id": "N15",
+      "label": "Archaeoastronomy and History",
+      "type": "concept",
+      "depth": 2,
+      "description": "The study of the relationship between archaeoastronomy and history, including the use of historical records to interpret ancient astronomical observations.",
+      "importance": 5,
+      "fun_fact": "The relationship between archaeoastronomy and history is a key area of research, with historical records being used to interpret ancient astronomical observations."
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Ancient astronomical observations are a key part of archaeoastronomy."
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Cultural astronomy is a key part of archaeoastronomy."
+    },
+    {
+      "source": "N1",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Astronomical alignments are a key part of archaeoastronomy."
+    },
+    {
+      "source": "N1",
+      "target": "N5",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "Ethnoastronomy is related to archaeoastronomy, as it studies the cultural and symbolic significance of celestial events in contemporary cultures."
+    },
+    {
+      "source": "N1",
+      "target": "N6",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "Historical astronomy is related to archaeoastronomy, as it studies the history of astronomy and the development of astronomical theories and practices."
+    },
+    {
+      "source": "N2",
+      "target": "N7",
+      "relation": "discovered_by",
+      "strength": 7,
+      "description": "Clive Ruggles has made significant contributions to the study of ancient astronomical observations."
+    },
+    {
+      "source": "N2",
+      "target": "N8",
+      "relation": "discovered_by",
+      "strength": 7,
+      "description": "Schaefer has made significant contributions to the study of ancient astronomical observations."
+    },
+    {
+      "source": "N2",
+      "target": "N9",
+      "relation": "discovered_by",
+      "strength": 7,
+      "description": "Aveni has made significant contributions to the study of ancient astronomical observations."
+    },
+    {
+      "source": "N4",
+      "target": "N10",
+      "relation": "example_of",
+      "strength": 6,
+      "description": "The Tomnaverie Recumbent Stone Circle is an example of an astronomical alignment."
+    },
+    {
+      "source": "N4",
+      "target": "N11",
+      "relation": "example_of",
+      "strength": 6,
+      "description": "Stonehenge is an example of an astronomical alignment."
+    },
+    {
+      "source": "N12",
+      "target": "N13",
+      "relation": "depends_on",
+      "strength": 5,
+      "description": "Interpretative archaeoastronomy depends on the development of new methods and techniques for analyzing ancient astronomical observations."
+    },
+    {
+      "source": "N12",
+      "target": "N14",
+      "relation": "related_to",
+      "strength": 5,
+      "description": "Interpretative archaeoastronomy is related to anthropology, as it uses anthropological theories and methods to interpret ancient astronomical observations."
+    },
+    {
+      "source": "N12",
+      "target": "N15",
+      "relation": "related_to",
+      "strength": 5,
+      "description": "Interpretative archaeoastronomy is related to history, as it uses historical records to interpret ancient astronomical observations."
+    },
+    {
+      "source": "N7",
+      "target": "N12",
+      "relation": "developed",
+      "strength": 5,
+      "description": "Clive Ruggles has developed the approach of interpretative archaeoastronomy."
+    },
+    {
+      "source": "N8",
+      "target": "N12",
+      "relation": "developed",
+      "strength": 5,
+      "description": "Schaefer has developed new methods for analyzing ancient astronomical observations."
+    },
+    {
+      "source": "N9",
+      "target": "N12",
+      "relation": "developed",
+      "strength": 5,
+      "description": "Aveni has developed new methods for analyzing ancient astronomical observations."
+    },
+    {
+      "source": "N10",
+      "target": "N4",
+      "relation": "example_of",
+      "strength": 6,
+      "description": "The Tomnaverie Recumbent Stone Circle is an example of an astronomical alignment."
+    },
+    {
+      "source": "N11",
+      "target": "N4",
+      "relation": "example_of",
+      "strength": 6,
+      "description": "Stonehenge is an example of an astronomical alignment."
+    }
+  ],
+  "key_takeaways": [
+    "Archaeoastronomy is the study of how people in the past understood and used astronomical phenomena, and what role the sky played in their cultures.",
+    "Ancient cultures developed sophisticated astronomical observation techniques, including the use of sundials and astronomical clocks.",
+    "The study of astronomical alignments provides insights into the cultural and symbolic significance of celestial events in ancient cultures."
+  ],
+  "real_world_impact": "Archaeoastronomy has significant real-world impact, as it provides insights into the cultural and symbolic significance of celestial events in ancient cultures, and highlights the importance of preserving traditional knowledge systems. The study of astronomical alignments, for example, can inform the development of new astronomical instruments and techniques, and provide insights into the cultural and historical context of ancient astronomical observations. Additionally, archaeoastronomy can inform the development of new approaches to astronomy education, and provide insights into the ways in which astronomy can be used to promote cultural understanding and exchange.",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Fajadadiagram.JPG",
+      "title": "Fajadadiagram.JPG",
+      "license": "Public domain",
+      "artist": "Nationalparks at English Wikipedia",
+      "description": "Fajada Butte diagram.  Work of the NPS.",
+      "width": 286,
+      "height": 626,
+      "source_query": "Archaeoastronomy"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/L_MESHBUH_ORION_RL.png",
+      "title": "L MESHBUH ORION RL.png",
+      "license": "CC BY-SA 4.0",
+      "artist": "Roland E. Laffitte",
+      "description": "Vincent Monteil, \u00ab\u00a0Le ciel des Maures\u00a0\u00bb, in\u00a0: Hesp\u00e9ris, Archives berb\u00e8res et Bulletin de \u2018\u2019Institut des Hautes \u00e9tudes marocaines, tome XXXI (ann\u00e9e 1949), pp. 219-210.",
+      "width": 570,
+      "height": 508,
+      "source_query": "Archaeoastronomy"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Mayan_Archaeoastronomy_poster_%28ann17040a%29.jpg",
+      "title": "Mayan Archaeoastronomy poster (ann17040a).jpg",
+      "license": "CC BY 4.0",
+      "artist": "Frutos Digitales",
+      "description": "Mayan Archaeoastronomy poster.",
+      "width": 7087,
+      "height": 10630,
+      "source_query": "Archaeoastronomy"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Pabilsag%2C_anc%C3%AAtre_m%C3%A9sopotamien_du_Sagittaire%2C.jpg",
+      "title": "Pabilsag, anc\u00eatre m\u00e9sopotamien du Sagittaire,.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Roland E. Laffitte",
+      "description": "profile of the figure of Pabilsag from a 12th century BC kudurru. \u00e8.c.",
+      "width": 2022,
+      "height": 1377,
+      "source_query": "Archaeoastronomy"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Stebykla_01.jpg",
+      "title": "Stebykla 01.jpg",
+      "license": "CC BY-SA 3.0",
+      "artist": "GiW",
+      "description": "Senov\u0117s lietuvi\u0173 dangaus \u0161viesuli\u0173 stebyklos rekonstrukcija (Kulionys, Mol\u0117t\u0173 raj.)",
+      "width": 3600,
+      "height": 2700,
+      "source_query": "Archaeoastronomy"
+    }
+  ],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Archaeoastronomy",
+    "papers": [
+      {
+        "title": "Pushing back the frontiers or still running around the same circles? \u2018Interpretative archaeoastronomy\u2019 thirty years on",
+        "url": "https://doi.org/10.1017/s1743921311012427"
+      },
+      {
+        "title": "The Archaeoastronomy of Tomnaverie Recumbent Stone Circle: A Comparison of Methodologies",
+        "url": "https://doi.org/10.5334/pia.464"
+      },
+      {
+        "title": "Man and sky: problems and methods of Archaeoastronomy",
+        "url": null
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 18"
+      ],
+      "node_count": 15,
+      "edge_count": 18
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Archaeoastronomical Dating Methods",
+        "Astronomical Symbolism in Ancient Cultures"
+      ],
+      "strengths": [
+        "Clear definition of archaeoastronomy",
+        "Inclusion of key concepts such as astronomical alignments and interpretative archaeoastronomy"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

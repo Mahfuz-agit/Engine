@@ -1,0 +1,161 @@
+{
+  "topic": "Archaeoastronomy",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary focus of the field of archaeoastronomy?",
+      "options": {
+        "A": "The study of ancient cultures' understanding and use of astronomical phenomena",
+        "B": "The study of the history of astronomy",
+        "C": "The study of the cultural significance of celestial events in contemporary cultures",
+        "D": "The study of the development of astronomical instruments"
+      },
+      "correct": "A",
+      "explanation": "Archaeoastronomy is an interdisciplinary field that combines astronomy, archaeology, anthropology, and history to understand the cultural and symbolic significance of celestial events in ancient cultures.",
+      "node_id": "Archaeoastronomy",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the study of how ancient cultures observed and recorded celestial events?",
+      "options": {
+        "A": "Ancient Astronomical Observations",
+        "B": "Cultural Astronomy",
+        "C": "Ethnoastronomy",
+        "D": "Historical Astronomy"
+      },
+      "correct": "A",
+      "explanation": "Ancient Astronomical Observations is the study of how ancient cultures observed and recorded celestial events, such as planetary alignments and solar eclipses.",
+      "node_id": "Ancient Astronomical Observations",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "Who is a leading expert on the archaeoastronomy of ancient Britain?",
+      "options": {
+        "A": "Clive Ruggles",
+        "B": "Schaefer",
+        "C": "Aveni",
+        "D": "Stephen Hawking"
+      },
+      "correct": "A",
+      "explanation": "Clive Ruggles is a British archaeoastronomer who has made significant contributions to the field, including the development of new methods for analyzing ancient astronomical observations.",
+      "node_id": "Clive Ruggles",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the term for the study of the cultural and symbolic significance of celestial events in ancient cultures?",
+      "options": {
+        "A": "Cultural Astronomy",
+        "B": "Ancient Astronomical Observations",
+        "C": "Ethnoastronomy",
+        "D": "Historical Astronomy"
+      },
+      "correct": "A",
+      "explanation": "Cultural Astronomy is the study of the cultural and symbolic significance of celestial events in ancient cultures, including their myths, legends, and rituals.",
+      "node_id": "Cultural Astronomy",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the study of how contemporary cultures understand and use astronomical phenomena?",
+      "options": {
+        "A": "Ethnoastronomy",
+        "B": "Cultural Astronomy",
+        "C": "Ancient Astronomical Observations",
+        "D": "Historical Astronomy"
+      },
+      "correct": "A",
+      "explanation": "Ethnoastronomy is the study of how contemporary cultures understand and use astronomical phenomena, including their myths, legends, and rituals.",
+      "node_id": "Ethnoastronomy",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the study of the history of astronomy, including the development of astronomical theories, instruments, and practices?",
+      "options": {
+        "A": "Historical Astronomy",
+        "B": "Ancient Astronomical Observations",
+        "C": "Cultural Astronomy",
+        "D": "Ethnoastronomy"
+      },
+      "correct": "A",
+      "explanation": "Historical Astronomy is the study of the history of astronomy, including the development of astronomical theories, instruments, and practices.",
+      "node_id": "Historical Astronomy",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Who is a leading expert on the archaeoastronomy of ancient Mesoamerica?",
+      "options": {
+        "A": "Aveni",
+        "B": "Clive Ruggles",
+        "C": "Schaefer",
+        "D": "Stephen Hawking"
+      },
+      "correct": "A",
+      "explanation": "Aveni is an American archaeoastronomer who has made significant contributions to the field, including the development of new methods for analyzing ancient astronomical observations.",
+      "node_id": "Aveni",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What is the significance of astronomical alignments in ancient cultures?",
+      "sample_answer": "Astronomical alignments in ancient cultures demonstrate a sophisticated understanding of astronomy and the importance of celestial events in their daily lives. Many ancient structures, such as Stonehenge, are aligned with celestial events, highlighting the cultural and symbolic significance of these events.",
+      "keywords": [
+        "astronomical alignments",
+        "ancient cultures",
+        "celestial events"
+      ],
+      "node_id": "Astronomical Alignments",
+      "points": 20
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "How do ancient astronomical observations provide insights into the cultural and symbolic significance of celestial events in ancient cultures?",
+      "sample_answer": "Ancient astronomical observations provide insights into the cultural and symbolic significance of celestial events in ancient cultures by revealing the ways in which these events were perceived, recorded, and used in daily life. By analyzing these observations, researchers can gain a deeper understanding of the cultural and symbolic significance of celestial events and how they were integrated into the daily lives of ancient cultures.",
+      "keywords": [
+        "ancient astronomical observations",
+        "cultural significance",
+        "celestial events"
+      ],
+      "node_id": "Ancient Astronomical Observations",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What is the importance of preserving traditional knowledge systems in contemporary cultures?",
+      "sample_answer": "Preserving traditional knowledge systems in contemporary cultures is important because it allows us to understand the cultural and symbolic significance of celestial events in these cultures. By preserving these knowledge systems, we can gain a deeper understanding of the ways in which celestial events are perceived and used in daily life, and how they are integrated into the cultural and symbolic practices of these cultures.",
+      "keywords": [
+        "traditional knowledge systems",
+        "contemporary cultures",
+        "celestial events"
+      ],
+      "node_id": "Ethnoastronomy",
+      "points": 20
+    }
+  ]
+}
