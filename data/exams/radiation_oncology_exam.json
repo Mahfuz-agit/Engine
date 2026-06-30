@@ -1,0 +1,161 @@
+{
+  "topic": "Radiation Oncology",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary goal of radiation oncology?",
+      "options": {
+        "A": "To diagnose cancer using medical imaging",
+        "B": "To treat cancer using ionizing radiation",
+        "C": "To manage respiratory motion during radiation therapy",
+        "D": "To study the biological processes that lead to cancer development"
+      },
+      "correct": "B",
+      "explanation": "Radiation oncology is a medical specialty that uses ionizing radiation to treat cancer, making option B the correct answer.",
+      "node_id": "Radiation Oncology",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the environment surrounding a tumor, including blood vessels, immune cells, and other non-cancerous cells?",
+      "options": {
+        "A": "Cancer biology",
+        "B": "Tumor microenvironment",
+        "C": "Radiation therapy",
+        "D": "Immunotherapy"
+      },
+      "correct": "B",
+      "explanation": "The tumor microenvironment refers to the environment surrounding a tumor, including blood vessels, immune cells, and other non-cancerous cells.",
+      "node_id": "Tumor Microenvironment",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the name of the first cancer-causing gene discovered in 1979?",
+      "options": {
+        "A": "TP53",
+        "B": "BRCA1",
+        "C": "KRAS",
+        "D": "EGFR"
+      },
+      "correct": "A",
+      "explanation": "The TP53 gene is a tumor suppressor gene that was first discovered in 1979 and is known to be involved in cancer development.",
+      "node_id": "Cancer Biology",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the use of imaging technologies to visualize and diagnose cancer called?",
+      "options": {
+        "A": "Radiation therapy",
+        "B": "Medical imaging",
+        "C": "Cancer biology",
+        "D": "Immunotherapy"
+      },
+      "correct": "B",
+      "explanation": "Medical imaging refers to the use of imaging technologies to visualize and diagnose cancer.",
+      "node_id": "Medical Imaging",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the management of respiratory motion during radiation therapy to ensure accurate treatment delivery?",
+      "options": {
+        "A": "Respiratory motion management",
+        "B": "Radiation therapy planning",
+        "C": "Cancer biology",
+        "D": "Immunotherapy"
+      },
+      "correct": "A",
+      "explanation": "Respiratory motion management refers to the management of respiratory motion during radiation therapy to ensure accurate treatment delivery.",
+      "node_id": "Respiratory Motion Management",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the use of machine learning algorithms to improve radiation oncology treatment planning and delivery?",
+      "options": {
+        "A": "Artificial intelligence",
+        "B": "Radiation therapy planning",
+        "C": "Cancer biology",
+        "D": "Immunotherapy"
+      },
+      "correct": "A",
+      "explanation": "Artificial intelligence refers to the use of machine learning algorithms to improve radiation oncology treatment planning and delivery.",
+      "node_id": "Artificial Intelligence",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the use of the immune system to treat cancer?",
+      "options": {
+        "A": "Immunotherapy",
+        "B": "Radiation therapy",
+        "C": "Cancer biology",
+        "D": "Medical imaging"
+      },
+      "correct": "A",
+      "explanation": "Immunotherapy refers to the use of the immune system to treat cancer.",
+      "node_id": "Immunotherapy",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the importance of respiratory motion management in radiation oncology.",
+      "sample_answer": "Respiratory motion management is critical in radiation oncology as it ensures accurate radiation therapy treatment delivery. It helps to minimize the risk of radiation exposure to healthy tissues and organs, and maximizes the dose delivered to the tumor.",
+      "keywords": [
+        "respiratory motion management",
+        "radiation oncology",
+        "accurate treatment delivery"
+      ],
+      "node_id": "Respiratory Motion Management",
+      "points": 15
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Explain the role of artificial intelligence in radiation oncology treatment planning and delivery.",
+      "sample_answer": "Artificial intelligence plays a crucial role in radiation oncology treatment planning and delivery by using machine learning algorithms to analyze large amounts of data and provide personalized treatment plans. It helps to improve the accuracy and efficiency of radiation therapy, and enables the development of more effective treatment strategies.",
+      "keywords": [
+        "artificial intelligence",
+        "radiation oncology",
+        "treatment planning"
+      ],
+      "node_id": "Artificial Intelligence",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Describe the primary goal of radiation oncology.",
+      "sample_answer": "The primary goal of radiation oncology is to treat cancer using ionizing radiation. It aims to kill or control the growth of cancer cells, and improve the quality of life for cancer patients.",
+      "keywords": [
+        "radiation oncology",
+        "primary goal",
+        "cancer treatment"
+      ],
+      "node_id": "Radiation Oncology",
+      "points": 10
+    }
+  ]
+}

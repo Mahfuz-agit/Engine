@@ -1,0 +1,333 @@
+{
+  "topic": "Radiation Oncology",
+  "category": "medicine",
+  "description": "Radiation Oncology is a medical specialty that uses ionizing radiation to treat cancer. It involves the use of radiation therapy to kill or control the growth of cancer cells. Radiation oncology is a multidisciplinary field that combines cancer biology, radiation therapy, medical imaging, and tumor microenvironment to provide effective treatment for cancer patients.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Radiation Oncology",
+      "type": "core",
+      "depth": 0,
+      "description": "A medical specialty that uses ionizing radiation to treat cancer",
+      "importance": 10,
+      "fun_fact": "The first radiation therapy treatment was performed in 1896 by Victor Despeignes"
+    },
+    {
+      "id": "N2",
+      "label": "Cancer Biology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the biological processes that lead to cancer development and progression",
+      "importance": 9,
+      "fun_fact": "The discovery of the first cancer-causing gene, TP53, was made in 1979"
+    },
+    {
+      "id": "N3",
+      "label": "Radiation Therapy",
+      "type": "application",
+      "depth": 1,
+      "description": "The use of ionizing radiation to kill or control the growth of cancer cells",
+      "importance": 9,
+      "fun_fact": "The first radiation therapy machine was developed in 1951"
+    },
+    {
+      "id": "N4",
+      "label": "Medical Imaging",
+      "type": "concept",
+      "depth": 1,
+      "description": "The use of imaging technologies to visualize and diagnose cancer",
+      "importance": 8,
+      "fun_fact": "The first MRI scan was performed in 1977"
+    },
+    {
+      "id": "N5",
+      "label": "Tumor Microenvironment",
+      "type": "concept",
+      "depth": 1,
+      "description": "The environment surrounding a tumor, including blood vessels, immune cells, and other non-cancerous cells",
+      "importance": 8,
+      "fun_fact": "The concept of the tumor microenvironment was first proposed in the 1960s"
+    },
+    {
+      "id": "N6",
+      "label": "Immunotherapy",
+      "type": "application",
+      "depth": 1,
+      "description": "The use of the immune system to treat cancer",
+      "importance": 8,
+      "fun_fact": "The first immunotherapy treatment was approved by the FDA in 1992"
+    },
+    {
+      "id": "N7",
+      "label": "Respiratory Motion Management",
+      "type": "concept",
+      "depth": 2,
+      "description": "The management of respiratory motion during radiation therapy to ensure accurate treatment delivery",
+      "importance": 7,
+      "fun_fact": "The first respiratory motion management system was developed in the 1990s"
+    },
+    {
+      "id": "N8",
+      "label": "AAPM Task Group 76",
+      "type": "event",
+      "depth": 2,
+      "description": "A task group established by the American Association of Physicists in Medicine to develop guidelines for respiratory motion management",
+      "importance": 6,
+      "fun_fact": "The task group was established in 2005"
+    },
+    {
+      "id": "N9",
+      "label": "Artificial Intelligence",
+      "type": "concept",
+      "depth": 2,
+      "description": "The use of machine learning algorithms to improve radiation oncology treatment planning and delivery",
+      "importance": 7,
+      "fun_fact": "The first AI-powered radiation therapy treatment planning system was developed in 2018"
+    },
+    {
+      "id": "N10",
+      "label": "Comprehensive QA",
+      "type": "concept",
+      "depth": 2,
+      "description": "A quality assurance program for radiation oncology treatment planning and delivery",
+      "importance": 6,
+      "fun_fact": "The first comprehensive QA program was developed in the 1990s"
+    },
+    {
+      "id": "N11",
+      "label": "Victor Despeignes",
+      "type": "person",
+      "depth": 3,
+      "description": "A French physician who performed the first radiation therapy treatment in 1896",
+      "importance": 5,
+      "fun_fact": "Despeignes was a pioneer in the field of radiation oncology"
+    },
+    {
+      "id": "N12",
+      "label": "TP53 Gene",
+      "type": "fact",
+      "depth": 3,
+      "description": "A tumor suppressor gene that is commonly mutated in cancer",
+      "importance": 5,
+      "fun_fact": "The TP53 gene was discovered in 1979"
+    },
+    {
+      "id": "N13",
+      "label": "MRI Scan",
+      "type": "example",
+      "depth": 3,
+      "description": "A medical imaging modality used to visualize and diagnose cancer",
+      "importance": 4,
+      "fun_fact": "The first MRI scan was performed in 1977"
+    },
+    {
+      "id": "N14",
+      "label": "Radiation Therapy Machine",
+      "type": "example",
+      "depth": 3,
+      "description": "A device used to deliver radiation therapy to cancer patients",
+      "importance": 4,
+      "fun_fact": "The first radiation therapy machine was developed in 1951"
+    },
+    {
+      "id": "N15",
+      "label": "Tumor Microenvironment Research",
+      "type": "concept",
+      "depth": 3,
+      "description": "The study of the environment surrounding a tumor, including blood vessels, immune cells, and other non-cancerous cells",
+      "importance": 5,
+      "fun_fact": "The concept of the tumor microenvironment was first proposed in the 1960s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Cancer biology is a fundamental aspect of radiation oncology"
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Radiation therapy is a primary treatment modality in radiation oncology"
+    },
+    {
+      "source": "N1",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Medical imaging is used to visualize and diagnose cancer in radiation oncology"
+    },
+    {
+      "source": "N1",
+      "target": "N5",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "The tumor microenvironment is an important aspect of radiation oncology"
+    },
+    {
+      "source": "N1",
+      "target": "N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Immunotherapy is a complementary treatment modality in radiation oncology"
+    },
+    {
+      "source": "N3",
+      "target": "N7",
+      "relation": "leads_to",
+      "strength": 7,
+      "description": "Radiation therapy requires respiratory motion management to ensure accurate treatment delivery"
+    },
+    {
+      "source": "N7",
+      "target": "N8",
+      "relation": "is_part_of",
+      "strength": 6,
+      "description": "AAPM Task Group 76 developed guidelines for respiratory motion management"
+    },
+    {
+      "source": "N3",
+      "target": "N9",
+      "relation": "leads_to",
+      "strength": 7,
+      "description": "Radiation therapy can be improved using artificial intelligence"
+    },
+    {
+      "source": "N3",
+      "target": "N10",
+      "relation": "leads_to",
+      "strength": 6,
+      "description": "Radiation therapy requires comprehensive QA to ensure accurate treatment delivery"
+    },
+    {
+      "source": "N2",
+      "target": "N11",
+      "relation": "discovered_by",
+      "strength": 5,
+      "description": "Victor Despeignes performed the first radiation therapy treatment"
+    },
+    {
+      "source": "N2",
+      "target": "N12",
+      "relation": "related_to",
+      "strength": 5,
+      "description": "The TP53 gene is a tumor suppressor gene that is commonly mutated in cancer"
+    },
+    {
+      "source": "N4",
+      "target": "N13",
+      "relation": "used_in",
+      "strength": 4,
+      "description": "MRI scans are used to visualize and diagnose cancer"
+    },
+    {
+      "source": "N3",
+      "target": "N14",
+      "relation": "used_in",
+      "strength": 4,
+      "description": "Radiation therapy machines are used to deliver radiation therapy to cancer patients"
+    },
+    {
+      "source": "N5",
+      "target": "N15",
+      "relation": "is_part_of",
+      "strength": 5,
+      "description": "Tumor microenvironment research is an important aspect of radiation oncology"
+    },
+    {
+      "source": "N6",
+      "target": "N1",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Immunotherapy is a complementary treatment modality in radiation oncology"
+    },
+    {
+      "source": "N9",
+      "target": "N1",
+      "relation": "leads_to",
+      "strength": 7,
+      "description": "Artificial intelligence can improve radiation oncology treatment planning and delivery"
+    },
+    {
+      "source": "N10",
+      "target": "N1",
+      "relation": "leads_to",
+      "strength": 6,
+      "description": "Comprehensive QA is essential for ensuring accurate radiation oncology treatment delivery"
+    },
+    {
+      "source": "N8",
+      "target": "N7",
+      "relation": "is_part_of",
+      "strength": 6,
+      "description": "AAPM Task Group 76 developed guidelines for respiratory motion management"
+    },
+    {
+      "source": "N15",
+      "target": "N5",
+      "relation": "is_part_of",
+      "strength": 5,
+      "description": "Tumor microenvironment research is an important aspect of radiation oncology"
+    }
+  ],
+  "key_takeaways": [
+    "Radiation oncology is a multidisciplinary field that combines cancer biology, radiation therapy, medical imaging, and tumor microenvironment to provide effective treatment for cancer patients",
+    "Respiratory motion management is critical for ensuring accurate radiation therapy treatment delivery",
+    "Artificial intelligence and comprehensive QA are essential for improving radiation oncology treatment planning and delivery"
+  ],
+  "real_world_impact": "Radiation oncology has a significant impact on cancer treatment and patient outcomes. According to the American Cancer Society, radiation therapy is used to treat over 50% of all cancer patients. The development of new technologies and treatment modalities, such as immunotherapy and artificial intelligence, has improved treatment outcomes and reduced side effects. However, there are still challenges to be addressed, such as ensuring accurate treatment delivery and managing respiratory motion. Ongoing research and development in radiation oncology are essential for continuing to improve treatment outcomes and saving lives.",
+  "images": [],
+  "sources": {
+    "wikipedia_url": "",
+    "papers": [
+      {
+        "title": "The management of respiratory motion in radiation oncology report of AAPM Task Group 76a)",
+        "url": "https://doi.org/10.1118/1.2349696"
+      },
+      {
+        "title": "Comprehensive QA for radiation oncology: Report of AAPM Radiation Therapy Committee Task Group 40",
+        "url": "https://doi.org/10.1118/1.597316"
+      },
+      {
+        "title": "Artificial intelligence in radiation oncology",
+        "url": "https://doi.org/10.1038/s41571-020-0417-8"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 19"
+      ],
+      "node_count": 15,
+      "edge_count": 19
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Radiation Protection",
+        "Cancer Staging"
+      ],
+      "strengths": [
+        "Comprehensive coverage of radiation oncology concepts",
+        "Clear relationships between concepts"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}
