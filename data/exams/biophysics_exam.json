@@ -1,0 +1,167 @@
+{
+  "topic": "Biophysics",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary goal of biophysics?",
+      "options": {
+        "A": "To apply physical principles to study biological systems",
+        "B": "To apply biological principles to study physical systems",
+        "C": "To study the chemical properties of living organisms",
+        "D": "To study the environmental impact of living organisms"
+      },
+      "correct": "A",
+      "explanation": "Biophysics is an interdisciplinary field that combines physics and biology to study biological systems, making option A the correct answer.",
+      "node_id": "Biophysics",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which of the following is an example of a molecular motor?",
+      "options": {
+        "A": "DNA helicase",
+        "B": "Ribosome",
+        "C": "Mitochondria",
+        "D": "Lysosome"
+      },
+      "correct": "A",
+      "explanation": "DNA helicase is a biological molecule that converts energy into motion, making it an example of a molecular motor.",
+      "node_id": "Molecular Motors",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the primary difference between X-ray crystallography and NMR spectroscopy?",
+      "options": {
+        "A": "X-ray crystallography is used to study protein structure, while NMR spectroscopy is used to study protein function",
+        "B": "X-ray crystallography is used to study protein structure, while NMR spectroscopy is used to study protein dynamics",
+        "C": "X-ray crystallography is used to study protein dynamics, while NMR spectroscopy is used to study protein structure",
+        "D": "X-ray crystallography is used to study protein function, while NMR spectroscopy is used to study protein structure"
+      },
+      "correct": "B",
+      "explanation": "X-ray crystallography is primarily used to determine the structure of biological molecules, while NMR spectroscopy is used to study the structure and dynamics of biological molecules.",
+      "node_id": "X-ray Crystallography",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "Who is considered a pioneer in the field of biophysics?",
+      "options": {
+        "A": "Hermann von Helmholtz",
+        "B": "Louis Pasteur",
+        "C": "Charles Darwin",
+        "D": "Gregor Mendel"
+      },
+      "correct": "A",
+      "explanation": "Hermann von Helmholtz was a German physicist and biologist who contributed to the development of biophysics, making him a pioneer in the field.",
+      "node_id": "Hermann von Helmholtz",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the primary application of HADDOCK in biophysics?",
+      "options": {
+        "A": "To study protein-ligand interactions",
+        "B": "To predict protein structures",
+        "C": "To study protein-protein interactions",
+        "D": "To determine the structure of biological molecules"
+      },
+      "correct": "C",
+      "explanation": "HADDOCK is a protein-protein docking approach that is used to study protein-protein interactions and predict protein structures.",
+      "node_id": "HADDOCK",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the primary difference between cellular transport and cell signaling?",
+      "options": {
+        "A": "Cellular transport is the movement of molecules across cell membranes, while cell signaling is the communication between cells",
+        "B": "Cellular transport is the communication between cells, while cell signaling is the movement of molecules across cell membranes",
+        "C": "Cellular transport is the movement of molecules within cells, while cell signaling is the communication between cells",
+        "D": "Cellular transport is the communication between cells, while cell signaling is the movement of molecules within cells"
+      },
+      "correct": "A",
+      "explanation": "Cellular transport refers to the movement of molecules across cell membranes, while cell signaling refers to the communication between cells.",
+      "node_id": "Cellular Transport",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary application of biophysics in medicine?",
+      "options": {
+        "A": "To develop new medical imaging techniques",
+        "B": "To develop new pharmaceuticals",
+        "C": "To study the structure of biological molecules",
+        "D": "To study the function of biological molecules"
+      },
+      "correct": "A",
+      "explanation": "Biophysics has led to the development of medical imaging techniques such as MRI and PET scans, making option A the correct answer.",
+      "node_id": "Biophysics in Medicine",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the importance of molecular motors in cellular processes.",
+      "sample_answer": "Molecular motors are essential for cellular transport and division, and play a crucial role in maintaining cellular homeostasis and responding to stimuli.",
+      "keywords": [
+        "molecular motors",
+        "cellular transport",
+        "cellular division",
+        "cellular homeostasis"
+      ],
+      "node_id": "Molecular Motors",
+      "points": 15
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Explain the differences between X-ray crystallography and NMR spectroscopy in terms of their applications and limitations.",
+      "sample_answer": "X-ray crystallography is primarily used to determine the structure of biological molecules, while NMR spectroscopy is used to study the structure and dynamics of biological molecules. X-ray crystallography requires crystallized samples, while NMR spectroscopy can be used to study molecules in solution.",
+      "keywords": [
+        "X-ray crystallography",
+        "NMR spectroscopy",
+        "structure",
+        "dynamics",
+        "crystallized samples",
+        "solution"
+      ],
+      "node_id": "X-ray Crystallography",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the role of biophysics in understanding disease mechanisms and developing treatment strategies.",
+      "sample_answer": "Biophysics plays a crucial role in understanding disease mechanisms by studying the structure and function of biological molecules. This knowledge can be used to develop treatment strategies, such as targeted therapies and personalized medicine.",
+      "keywords": [
+        "biophysics",
+        "disease mechanisms",
+        "treatment strategies",
+        "targeted therapies",
+        "personalized medicine"
+      ],
+      "node_id": "Biophysics",
+      "points": 15
+    }
+  ]
+}

@@ -1,0 +1,384 @@
+{
+  "topic": "Biophysics",
+  "category": "biology",
+  "description": "Biophysics is an interdisciplinary science that applies approaches and methods traditionally used in physics to study biological phenomena. It combines the principles of physics and biology to understand the complex mechanisms of living organisms. Biophysics has led to significant advancements in our understanding of biological systems, from molecular motors to complex cellular processes.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Biophysics",
+      "type": "core",
+      "depth": 0,
+      "description": "The application of physical principles to study biological systems",
+      "importance": 10,
+      "fun_fact": "The term 'biophysics' was first used in the 19th century"
+    },
+    {
+      "id": "N2",
+      "label": "Molecular Motors",
+      "type": "concept",
+      "depth": 1,
+      "description": "Biological molecules that convert energy into motion",
+      "importance": 9,
+      "fun_fact": "Molecular motors are essential for cellular transport and division"
+    },
+    {
+      "id": "N3",
+      "label": "Cell Signaling",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process by which cells communicate with each other",
+      "importance": 9,
+      "fun_fact": "Cell signaling is crucial for development, growth, and response to stimuli"
+    },
+    {
+      "id": "N4",
+      "label": "Biomechanics",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the mechanical properties of living organisms",
+      "importance": 8,
+      "fun_fact": "Biomechanics has led to the development of prosthetic limbs and implants"
+    },
+    {
+      "id": "N5",
+      "label": "Systems Biology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of complex biological systems and their interactions",
+      "importance": 9,
+      "fun_fact": "Systems biology has led to a better understanding of disease mechanisms and treatment strategies"
+    },
+    {
+      "id": "N6",
+      "label": "Quantum Biology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of quantum mechanical phenomena in biological systems",
+      "importance": 8,
+      "fun_fact": "Quantum biology has led to a better understanding of photosynthesis and enzyme catalysis"
+    },
+    {
+      "id": "N7",
+      "label": "Hermann von Helmholtz",
+      "type": "person",
+      "depth": 2,
+      "description": "A German physicist and biologist who contributed to the development of biophysics",
+      "importance": 7,
+      "fun_fact": "Helmholtz was a pioneer in the field of physiological optics"
+    },
+    {
+      "id": "N8",
+      "label": "X-ray Crystallography",
+      "type": "application",
+      "depth": 2,
+      "description": "A technique used to determine the structure of biological molecules",
+      "importance": 8,
+      "fun_fact": "X-ray crystallography has led to the determination of the structure of DNA and proteins"
+    },
+    {
+      "id": "N9",
+      "label": "NMR Spectroscopy",
+      "type": "application",
+      "depth": 2,
+      "description": "A technique used to study the structure and dynamics of biological molecules",
+      "importance": 8,
+      "fun_fact": "NMR spectroscopy has led to a better understanding of protein-ligand interactions"
+    },
+    {
+      "id": "N10",
+      "label": "Microplastics",
+      "type": "example",
+      "depth": 3,
+      "description": "Small plastic particles that can affect the biophysical environment of soils",
+      "importance": 6,
+      "fun_fact": "Microplastics have been found to affect soil biodiversity and function"
+    },
+    {
+      "id": "N11",
+      "label": "HADDOCK",
+      "type": "application",
+      "depth": 3,
+      "description": "A protein-protein docking approach based on biochemical or biophysical information",
+      "importance": 7,
+      "fun_fact": "HADDOCK has been used to study protein-protein interactions and predict protein structures"
+    },
+    {
+      "id": "N12",
+      "label": "Biochemical and Biophysical Research Communications",
+      "type": "event",
+      "depth": 3,
+      "description": "A scientific journal that publishes research in biophysics and biochemistry",
+      "importance": 6,
+      "fun_fact": "The journal has been publishing research in biophysics and biochemistry since 1959"
+    },
+    {
+      "id": "N13",
+      "label": "Protein Structure Determination",
+      "type": "concept",
+      "depth": 2,
+      "description": "The process of determining the three-dimensional structure of a protein",
+      "importance": 8,
+      "fun_fact": "Protein structure determination is essential for understanding protein function and development of therapeutics"
+    },
+    {
+      "id": "N14",
+      "label": "Cellular Transport",
+      "type": "concept",
+      "depth": 2,
+      "description": "The process by which cells move molecules and organelles across their membranes",
+      "importance": 8,
+      "fun_fact": "Cellular transport is essential for maintaining cellular homeostasis and responding to stimuli"
+    },
+    {
+      "id": "N15",
+      "label": "Biophysics in Medicine",
+      "type": "application",
+      "depth": 3,
+      "description": "The application of biophysics to understand and treat diseases",
+      "importance": 8,
+      "fun_fact": "Biophysics has led to the development of medical imaging techniques such as MRI and PET scans"
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Molecular motors are a key area of study in biophysics"
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Cell signaling is a crucial aspect of biophysics"
+    },
+    {
+      "source": "N1",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Biomechanics is a subfield of biophysics"
+    },
+    {
+      "source": "N1",
+      "target": "N5",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Systems biology is a key area of study in biophysics"
+    },
+    {
+      "source": "N1",
+      "target": "N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Quantum biology is a emerging field in biophysics"
+    },
+    {
+      "source": "N2",
+      "target": "N7",
+      "relation": "discovered_by",
+      "strength": 7,
+      "description": "Hermann von Helmholtz contributed to the understanding of molecular motors"
+    },
+    {
+      "source": "N3",
+      "target": "N8",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "X-ray crystallography is used to study cell signaling"
+    },
+    {
+      "source": "N4",
+      "target": "N9",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "NMR spectroscopy is used to study biomechanics"
+    },
+    {
+      "source": "N5",
+      "target": "N10",
+      "relation": "related_to",
+      "strength": 6,
+      "description": "Microplastics can affect the biophysical environment of soils, which is studied in systems biology"
+    },
+    {
+      "source": "N6",
+      "target": "N11",
+      "relation": "used_in",
+      "strength": 7,
+      "description": "HADDOCK is used to study protein-protein interactions, which is related to quantum biology"
+    },
+    {
+      "source": "N7",
+      "target": "N12",
+      "relation": "published_in",
+      "strength": 6,
+      "description": "Hermann von Helmholtz's work was published in Biochemical and Biophysical Research Communications"
+    },
+    {
+      "source": "N8",
+      "target": "N13",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "X-ray crystallography is used to determine protein structure"
+    },
+    {
+      "source": "N9",
+      "target": "N14",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "NMR spectroscopy is used to study cellular transport"
+    },
+    {
+      "source": "N10",
+      "target": "N15",
+      "relation": "related_to",
+      "strength": 6,
+      "description": "Microplastics can affect human health, which is studied in biophysics in medicine"
+    },
+    {
+      "source": "N11",
+      "target": "N15",
+      "relation": "used_in",
+      "strength": 7,
+      "description": "HADDOCK is used to study protein-protein interactions, which is related to biophysics in medicine"
+    },
+    {
+      "source": "N12",
+      "target": "N15",
+      "relation": "published_in",
+      "strength": 6,
+      "description": "Research in biophysics in medicine is published in Biochemical and Biophysical Research Communications"
+    },
+    {
+      "source": "N13",
+      "target": "N15",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Protein structure determination is essential for biophysics in medicine"
+    },
+    {
+      "source": "N14",
+      "target": "N15",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Cellular transport is studied in biophysics in medicine"
+    },
+    {
+      "source": "N1",
+      "target": "N15",
+      "relation": "enables",
+      "strength": 9,
+      "description": "Biophysics enables the development of medical treatments and therapies"
+    }
+  ],
+  "key_takeaways": [
+    "Biophysics is an interdisciplinary field that combines physics and biology to study biological systems",
+    "Molecular motors, cell signaling, and biomechanics are key areas of study in biophysics",
+    "Biophysics has led to significant advancements in our understanding of biological systems and has numerous applications in medicine and technology"
+  ],
+  "real_world_impact": "Biophysics has a significant impact on our daily lives, from the development of medical imaging techniques such as MRI and PET scans, to the understanding of disease mechanisms and the development of therapeutics. Biophysics has also led to the development of prosthetic limbs and implants, and has improved our understanding of the effects of microplastics on the environment. The study of biophysics has also led to a better understanding of the complex mechanisms of living organisms, and has the potential to lead to breakthroughs in fields such as regenerative medicine and synthetic biology.",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Biophysics_Lab_%285425574923%29.jpg",
+      "title": "Biophysics Lab (5425574923).jpg",
+      "license": "Public domain",
+      "artist": "The U.S. Food and Drug Administration",
+      "description": "Cardiac Electrophysiology\nUsing computer simulations, FDA investigators study the electrical activity of the heart as it relates to medical devices such as cardiac pacemakers and defibrillators. Both approaches involve studies of single and multiple cells, and the whole heart. Optical mapping of mem",
+      "width": 4256,
+      "height": 2832,
+      "source_query": "Biophysics"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Biophysique_pdf.jpg",
+      "title": "Biophysique pdf.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Mohamed Nahli",
+      "description": "cours de Biophysique",
+      "width": 800,
+      "height": 450,
+      "source_query": "Biophysics"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Faculty_of_Biochemistry%2C_Biophysics_and_Biotechnology_of_the_Jagiellonian_University.jpg",
+      "title": "Faculty of Biochemistry, Biophysics and Biotechnology of the Jagiellonian University.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Slawojar2",
+      "description": "Building of the Faculty of Biochemistry, Biophysics and Biotechnology of the Jagiellonian University in 2020",
+      "width": 5664,
+      "height": 3184,
+      "source_query": "Biophysics"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Image_from_page_67_of_%22Biophysics-_concepts_and_mechanisms%22_%281962%29.jpg",
+      "title": "Image from page 67 of \"Biophysics- concepts and mechanisms\" (1962).jpg",
+      "license": "CC0",
+      "artist": "Internet Archive Book Images",
+      "description": "Title: Biophysics: concepts and mechanisms\nIdentifier: biophysicsconcep00case\nYear: 1962 (1960s)\nAuthors: Casey, Edmund Jeremiah, 1924-\nSubjects: Biophysics\nPublisher: New York, Reinhold Pub. Corp\nContributing Library: MBLWHOI Library\nDigitizing Sponsor: MBLWHOI Library\nView Book Page: Book Viewer\nA",
+      "width": 1738,
+      "height": 758,
+      "source_query": "Biophysics"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Kinesin_walking.gif",
+      "title": "Kinesin walking.gif",
+      "license": "CC0",
+      "artist": "Jzp706",
+      "description": "motor protein Animation",
+      "width": 380,
+      "height": 286,
+      "source_query": "Biophysics"
+    }
+  ],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Biophysics",
+    "papers": [
+      {
+        "title": "Biochemical and Biophysical Research Communications",
+        "url": "https://doi.org/10.1038/186124d0"
+      },
+      {
+        "title": "HADDOCK:\u2009 A Protein\u2212Protein Docking Approach Based on Biochemical or Biophysical Information",
+        "url": "https://doi.org/10.1021/ja026939x"
+      },
+      {
+        "title": "Impacts of Microplastics on the Soil Biophysical Environment",
+        "url": "https://doi.org/10.1021/acs.est.8b02212"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 19"
+      ],
+      "node_count": 15,
+      "edge_count": 19
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Bioinformatics",
+        "Computational Biophysics"
+      ],
+      "strengths": [
+        "Interdisciplinary connections",
+        "Key areas of study in biophysics"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

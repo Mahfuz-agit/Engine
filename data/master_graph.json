@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 21,
-  "total_nodes": 314,
-  "total_edges": 385,
+  "total_topics": 22,
+  "total_nodes": 329,
+  "total_edges": 404,
   "topics": [
     {
       "topic": "Climate Change",
@@ -192,6 +192,15 @@
       "edge_count": 20,
       "description": "Ethnobotany is an interdisciplinary field that studies the relationships between humans and plants, focusing on traditional knowledge of plant use, management, and perception in human societies. It integrates knowledge from botany, anthropology, ecology, and chemistry to study plant-related customs across cultures. Researchers in this field document and analyze how different societies use local flora for various purposes, including medicine, food, and religious use.",
       "added_at": "2026-06-29T20:32:57.816713"
+    },
+    {
+      "topic": "Biophysics",
+      "slug": "biophysics",
+      "category": "biology",
+      "node_count": 15,
+      "edge_count": 19,
+      "description": "Biophysics is an interdisciplinary science that applies approaches and methods traditionally used in physics to study biological phenomena. It combines the principles of physics and biology to understand the complex mechanisms of living organisms. Biophysics has led to significant advancements in our understanding of biological systems, from molecular motors to complex cellular processes.",
+      "added_at": "2026-06-30T10:42:34.287268"
     }
   ],
   "global_nodes": [
@@ -3648,6 +3657,171 @@
       "fun_fact": "Sustainable use of plant resources is a key goal of ethnobotany, as it reflects the need to balance human needs with environmental conservation.",
       "topic_slug": "ethnobotany",
       "topic": "Ethnobotany"
+    },
+    {
+      "id": "biophysics__N1",
+      "label": "Biophysics",
+      "type": "core",
+      "depth": 0,
+      "description": "The application of physical principles to study biological systems",
+      "importance": 10,
+      "fun_fact": "The term 'biophysics' was first used in the 19th century",
+      "topic_slug": "biophysics",
+      "topic": "Biophysics"
+    },
+    {
+      "id": "biophysics__N2",
+      "label": "Molecular Motors",
+      "type": "concept",
+      "depth": 1,
+      "description": "Biological molecules that convert energy into motion",
+      "importance": 9,
+      "fun_fact": "Molecular motors are essential for cellular transport and division",
+      "topic_slug": "biophysics",
+      "topic": "Biophysics"
+    },
+    {
+      "id": "biophysics__N3",
+      "label": "Cell Signaling",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process by which cells communicate with each other",
+      "importance": 9,
+      "fun_fact": "Cell signaling is crucial for development, growth, and response to stimuli",
+      "topic_slug": "biophysics",
+      "topic": "Biophysics"
+    },
+    {
+      "id": "biophysics__N4",
+      "label": "Biomechanics",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the mechanical properties of living organisms",
+      "importance": 8,
+      "fun_fact": "Biomechanics has led to the development of prosthetic limbs and implants",
+      "topic_slug": "biophysics",
+      "topic": "Biophysics"
+    },
+    {
+      "id": "biophysics__N5",
+      "label": "Systems Biology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of complex biological systems and their interactions",
+      "importance": 9,
+      "fun_fact": "Systems biology has led to a better understanding of disease mechanisms and treatment strategies",
+      "topic_slug": "biophysics",
+      "topic": "Biophysics"
+    },
+    {
+      "id": "biophysics__N6",
+      "label": "Quantum Biology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of quantum mechanical phenomena in biological systems",
+      "importance": 8,
+      "fun_fact": "Quantum biology has led to a better understanding of photosynthesis and enzyme catalysis",
+      "topic_slug": "biophysics",
+      "topic": "Biophysics"
+    },
+    {
+      "id": "biophysics__N7",
+      "label": "Hermann von Helmholtz",
+      "type": "person",
+      "depth": 2,
+      "description": "A German physicist and biologist who contributed to the development of biophysics",
+      "importance": 7,
+      "fun_fact": "Helmholtz was a pioneer in the field of physiological optics",
+      "topic_slug": "biophysics",
+      "topic": "Biophysics"
+    },
+    {
+      "id": "biophysics__N8",
+      "label": "X-ray Crystallography",
+      "type": "application",
+      "depth": 2,
+      "description": "A technique used to determine the structure of biological molecules",
+      "importance": 8,
+      "fun_fact": "X-ray crystallography has led to the determination of the structure of DNA and proteins",
+      "topic_slug": "biophysics",
+      "topic": "Biophysics"
+    },
+    {
+      "id": "biophysics__N9",
+      "label": "NMR Spectroscopy",
+      "type": "application",
+      "depth": 2,
+      "description": "A technique used to study the structure and dynamics of biological molecules",
+      "importance": 8,
+      "fun_fact": "NMR spectroscopy has led to a better understanding of protein-ligand interactions",
+      "topic_slug": "biophysics",
+      "topic": "Biophysics"
+    },
+    {
+      "id": "biophysics__N10",
+      "label": "Microplastics",
+      "type": "example",
+      "depth": 3,
+      "description": "Small plastic particles that can affect the biophysical environment of soils",
+      "importance": 6,
+      "fun_fact": "Microplastics have been found to affect soil biodiversity and function",
+      "topic_slug": "biophysics",
+      "topic": "Biophysics"
+    },
+    {
+      "id": "biophysics__N11",
+      "label": "HADDOCK",
+      "type": "application",
+      "depth": 3,
+      "description": "A protein-protein docking approach based on biochemical or biophysical information",
+      "importance": 7,
+      "fun_fact": "HADDOCK has been used to study protein-protein interactions and predict protein structures",
+      "topic_slug": "biophysics",
+      "topic": "Biophysics"
+    },
+    {
+      "id": "biophysics__N12",
+      "label": "Biochemical and Biophysical Research Communications",
+      "type": "event",
+      "depth": 3,
+      "description": "A scientific journal that publishes research in biophysics and biochemistry",
+      "importance": 6,
+      "fun_fact": "The journal has been publishing research in biophysics and biochemistry since 1959",
+      "topic_slug": "biophysics",
+      "topic": "Biophysics"
+    },
+    {
+      "id": "biophysics__N13",
+      "label": "Protein Structure Determination",
+      "type": "concept",
+      "depth": 2,
+      "description": "The process of determining the three-dimensional structure of a protein",
+      "importance": 8,
+      "fun_fact": "Protein structure determination is essential for understanding protein function and development of therapeutics",
+      "topic_slug": "biophysics",
+      "topic": "Biophysics"
+    },
+    {
+      "id": "biophysics__N14",
+      "label": "Cellular Transport",
+      "type": "concept",
+      "depth": 2,
+      "description": "The process by which cells move molecules and organelles across their membranes",
+      "importance": 8,
+      "fun_fact": "Cellular transport is essential for maintaining cellular homeostasis and responding to stimuli",
+      "topic_slug": "biophysics",
+      "topic": "Biophysics"
+    },
+    {
+      "id": "biophysics__N15",
+      "label": "Biophysics in Medicine",
+      "type": "application",
+      "depth": 3,
+      "description": "The application of biophysics to understand and treat diseases",
+      "importance": 8,
+      "fun_fact": "Biophysics has led to the development of medical imaging techniques such as MRI and PET scans",
+      "topic_slug": "biophysics",
+      "topic": "Biophysics"
     }
   ],
   "global_edges": [
@@ -6345,6 +6519,139 @@
       "relation": "enables",
       "strength": 9,
       "topic": "Ethnobotany"
+    },
+    {
+      "source": "biophysics__N1",
+      "target": "biophysics__N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Biophysics"
+    },
+    {
+      "source": "biophysics__N1",
+      "target": "biophysics__N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Biophysics"
+    },
+    {
+      "source": "biophysics__N1",
+      "target": "biophysics__N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Biophysics"
+    },
+    {
+      "source": "biophysics__N1",
+      "target": "biophysics__N5",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Biophysics"
+    },
+    {
+      "source": "biophysics__N1",
+      "target": "biophysics__N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Biophysics"
+    },
+    {
+      "source": "biophysics__N2",
+      "target": "biophysics__N7",
+      "relation": "discovered_by",
+      "strength": 7,
+      "topic": "Biophysics"
+    },
+    {
+      "source": "biophysics__N3",
+      "target": "biophysics__N8",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Biophysics"
+    },
+    {
+      "source": "biophysics__N4",
+      "target": "biophysics__N9",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Biophysics"
+    },
+    {
+      "source": "biophysics__N5",
+      "target": "biophysics__N10",
+      "relation": "related_to",
+      "strength": 6,
+      "topic": "Biophysics"
+    },
+    {
+      "source": "biophysics__N6",
+      "target": "biophysics__N11",
+      "relation": "used_in",
+      "strength": 7,
+      "topic": "Biophysics"
+    },
+    {
+      "source": "biophysics__N7",
+      "target": "biophysics__N12",
+      "relation": "published_in",
+      "strength": 6,
+      "topic": "Biophysics"
+    },
+    {
+      "source": "biophysics__N8",
+      "target": "biophysics__N13",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Biophysics"
+    },
+    {
+      "source": "biophysics__N9",
+      "target": "biophysics__N14",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Biophysics"
+    },
+    {
+      "source": "biophysics__N10",
+      "target": "biophysics__N15",
+      "relation": "related_to",
+      "strength": 6,
+      "topic": "Biophysics"
+    },
+    {
+      "source": "biophysics__N11",
+      "target": "biophysics__N15",
+      "relation": "used_in",
+      "strength": 7,
+      "topic": "Biophysics"
+    },
+    {
+      "source": "biophysics__N12",
+      "target": "biophysics__N15",
+      "relation": "published_in",
+      "strength": 6,
+      "topic": "Biophysics"
+    },
+    {
+      "source": "biophysics__N13",
+      "target": "biophysics__N15",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Biophysics"
+    },
+    {
+      "source": "biophysics__N14",
+      "target": "biophysics__N15",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Biophysics"
+    },
+    {
+      "source": "biophysics__N1",
+      "target": "biophysics__N15",
+      "relation": "enables",
+      "strength": 9,
+      "topic": "Biophysics"
     }
   ],
   "cross_topic_edges": [
@@ -6427,7 +6734,8 @@
       "biogeochemistry",
       "microbiology",
       "biochemistry",
-      "ethnobotany"
+      "ethnobotany",
+      "biophysics"
     ],
     "psychology": [
       "neuroplasticity"
@@ -6453,5 +6761,5 @@
       "archaeoastronomy"
     ]
   },
-  "last_updated": "2026-06-29T20:32:57.816745"
+  "last_updated": "2026-06-30T10:42:34.287298"
 }
