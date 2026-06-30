@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 23,
-  "total_nodes": 344,
-  "total_edges": 423,
+  "total_topics": 24,
+  "total_nodes": 359,
+  "total_edges": 442,
   "topics": [
     {
       "topic": "Climate Change",
@@ -210,6 +210,15 @@
       "edge_count": 19,
       "description": "Radiation Oncology is a medical specialty that uses ionizing radiation to treat cancer. It involves the use of radiation therapy to kill or control the growth of cancer cells. Radiation oncology is a multidisciplinary field that combines cancer biology, radiation therapy, medical imaging, and tumor microenvironment to provide effective treatment for cancer patients.",
       "added_at": "2026-06-30T18:24:13.786643"
+    },
+    {
+      "topic": "Geophysics",
+      "slug": "geophysics",
+      "category": "physics",
+      "node_count": 15,
+      "edge_count": 19,
+      "description": "Geophysics is a physical science concerned with the processes and properties of Earth and its surrounding space environment. It focuses primarily on Earth\u2019s shape and its gravitational, magnetic, and electromagnetic fields. Geophysics also encompasses a broader Earth-system and planetary perspective, including the oceans, atmosphere, cryosphere, ionosphere, magnetosphere, as well as solar\u2013terrestrial interactions and analogous processes on the Moon, other planets, and their satellites.",
+      "added_at": "2026-06-30T23:53:51.109568"
     }
   ],
   "global_nodes": [
@@ -3996,6 +4005,171 @@
       "fun_fact": "The concept of the tumor microenvironment was first proposed in the 1960s",
       "topic_slug": "radiation_oncology",
       "topic": "Radiation Oncology"
+    },
+    {
+      "id": "geophysics__N1",
+      "label": "Geophysics",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of the Earth's physical properties and processes",
+      "importance": 10,
+      "fun_fact": "Geophysics helps us understand the Earth's internal structure and composition",
+      "topic_slug": "geophysics",
+      "topic": "Geophysics"
+    },
+    {
+      "id": "geophysics__N2",
+      "label": "Seismology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of earthquakes and seismic waves",
+      "importance": 9,
+      "fun_fact": "Seismology helps us understand the Earth's internal structure and plate tectonics",
+      "topic_slug": "geophysics",
+      "topic": "Geophysics"
+    },
+    {
+      "id": "geophysics__N3",
+      "label": "Gravitational Field",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the Earth's gravitational field and its variations",
+      "importance": 9,
+      "fun_fact": "The gravitational field helps us understand the Earth's mass distribution and internal structure",
+      "topic_slug": "geophysics",
+      "topic": "Geophysics"
+    },
+    {
+      "id": "geophysics__N4",
+      "label": "Magnetic Field",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the Earth's magnetic field and its variations",
+      "importance": 9,
+      "fun_fact": "The magnetic field helps us understand the Earth's core and its dynamics",
+      "topic_slug": "geophysics",
+      "topic": "Geophysics"
+    },
+    {
+      "id": "geophysics__N5",
+      "label": "Thermal Conduction",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of heat transfer and thermal conduction in the Earth",
+      "importance": 8,
+      "fun_fact": "Thermal conduction helps us understand the Earth's internal heat budget and climate",
+      "topic_slug": "geophysics",
+      "topic": "Geophysics"
+    },
+    {
+      "id": "geophysics__N6",
+      "label": "Plate Tectonics",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the Earth's lithospheric plates and their movements",
+      "importance": 10,
+      "fun_fact": "Plate tectonics helps us understand the Earth's surface processes and geological history",
+      "topic_slug": "geophysics",
+      "topic": "Geophysics"
+    },
+    {
+      "id": "geophysics__N7",
+      "label": "Geophysical Exploration",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of geophysics in mineral, hydrocarbon, and groundwater exploration",
+      "importance": 8,
+      "fun_fact": "Geophysical exploration helps us locate natural resources and understand the subsurface",
+      "topic_slug": "geophysics",
+      "topic": "Geophysics"
+    },
+    {
+      "id": "geophysics__N8",
+      "label": "Environmental Geophysics",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of geophysics in environmental investigations and monitoring",
+      "importance": 8,
+      "fun_fact": "Environmental geophysics helps us understand and mitigate environmental hazards",
+      "topic_slug": "geophysics",
+      "topic": "Geophysics"
+    },
+    {
+      "id": "geophysics__N9",
+      "label": "Inge Lehmann",
+      "type": "person",
+      "depth": 2,
+      "description": "A Danish seismologist who discovered the Earth's inner core",
+      "importance": 8,
+      "fun_fact": "Inge Lehmann's discovery revolutionized our understanding of the Earth's internal structure",
+      "topic_slug": "geophysics",
+      "topic": "Geophysics"
+    },
+    {
+      "id": "geophysics__N10",
+      "label": "Alfred Wegener",
+      "type": "person",
+      "depth": 2,
+      "description": "A German geophysicist who proposed the theory of continental drift",
+      "importance": 9,
+      "fun_fact": "Alfred Wegener's theory laid the foundation for modern plate tectonics",
+      "topic_slug": "geophysics",
+      "topic": "Geophysics"
+    },
+    {
+      "id": "geophysics__N11",
+      "label": "Seismic Tomography",
+      "type": "example",
+      "depth": 3,
+      "description": "A technique used to image the Earth's internal structure using seismic waves",
+      "importance": 7,
+      "fun_fact": "Seismic tomography helps us understand the Earth's internal structure and composition",
+      "topic_slug": "geophysics",
+      "topic": "Geophysics"
+    },
+    {
+      "id": "geophysics__N12",
+      "label": "Gravity Anomalies",
+      "type": "example",
+      "depth": 3,
+      "description": "Variations in the Earth's gravitational field that help us understand the subsurface",
+      "importance": 7,
+      "fun_fact": "Gravity anomalies help us locate mineral deposits and understand the Earth's internal structure",
+      "topic_slug": "geophysics",
+      "topic": "Geophysics"
+    },
+    {
+      "id": "geophysics__N13",
+      "label": "Magnetic Reversals",
+      "type": "example",
+      "depth": 3,
+      "description": "Reversals of the Earth's magnetic field that help us understand the Earth's core and climate",
+      "importance": 7,
+      "fun_fact": "Magnetic reversals help us understand the Earth's geological history and climate",
+      "topic_slug": "geophysics",
+      "topic": "Geophysics"
+    },
+    {
+      "id": "geophysics__N14",
+      "label": "Geothermal Energy",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of geothermal energy as a sustainable energy source",
+      "importance": 8,
+      "fun_fact": "Geothermal energy helps us reduce our reliance on fossil fuels and mitigate climate change",
+      "topic_slug": "geophysics",
+      "topic": "Geophysics"
+    },
+    {
+      "id": "geophysics__N15",
+      "label": "Earthquake Prediction",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of geophysics to predict and prepare for earthquakes",
+      "importance": 9,
+      "fun_fact": "Earthquake prediction helps us save lives and mitigate the impact of earthquakes",
+      "topic_slug": "geophysics",
+      "topic": "Geophysics"
     }
   ],
   "global_edges": [
@@ -6959,6 +7133,139 @@
       "relation": "is_part_of",
       "strength": 5,
       "topic": "Radiation Oncology"
+    },
+    {
+      "source": "geophysics__N1",
+      "target": "geophysics__N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Geophysics"
+    },
+    {
+      "source": "geophysics__N1",
+      "target": "geophysics__N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Geophysics"
+    },
+    {
+      "source": "geophysics__N1",
+      "target": "geophysics__N4",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Geophysics"
+    },
+    {
+      "source": "geophysics__N1",
+      "target": "geophysics__N5",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Geophysics"
+    },
+    {
+      "source": "geophysics__N1",
+      "target": "geophysics__N6",
+      "relation": "is_part_of",
+      "strength": 10,
+      "topic": "Geophysics"
+    },
+    {
+      "source": "geophysics__N2",
+      "target": "geophysics__N9",
+      "relation": "discovered_by",
+      "strength": 8,
+      "topic": "Geophysics"
+    },
+    {
+      "source": "geophysics__N6",
+      "target": "geophysics__N10",
+      "relation": "discovered_by",
+      "strength": 9,
+      "topic": "Geophysics"
+    },
+    {
+      "source": "geophysics__N3",
+      "target": "geophysics__N11",
+      "relation": "used_in",
+      "strength": 7,
+      "topic": "Geophysics"
+    },
+    {
+      "source": "geophysics__N4",
+      "target": "geophysics__N12",
+      "relation": "used_in",
+      "strength": 7,
+      "topic": "Geophysics"
+    },
+    {
+      "source": "geophysics__N5",
+      "target": "geophysics__N13",
+      "relation": "used_in",
+      "strength": 7,
+      "topic": "Geophysics"
+    },
+    {
+      "source": "geophysics__N1",
+      "target": "geophysics__N7",
+      "relation": "enables",
+      "strength": 8,
+      "topic": "Geophysics"
+    },
+    {
+      "source": "geophysics__N1",
+      "target": "geophysics__N8",
+      "relation": "enables",
+      "strength": 8,
+      "topic": "Geophysics"
+    },
+    {
+      "source": "geophysics__N1",
+      "target": "geophysics__N14",
+      "relation": "enables",
+      "strength": 8,
+      "topic": "Geophysics"
+    },
+    {
+      "source": "geophysics__N1",
+      "target": "geophysics__N15",
+      "relation": "enables",
+      "strength": 9,
+      "topic": "Geophysics"
+    },
+    {
+      "source": "geophysics__N7",
+      "target": "geophysics__N11",
+      "relation": "uses",
+      "strength": 7,
+      "topic": "Geophysics"
+    },
+    {
+      "source": "geophysics__N8",
+      "target": "geophysics__N12",
+      "relation": "uses",
+      "strength": 7,
+      "topic": "Geophysics"
+    },
+    {
+      "source": "geophysics__N14",
+      "target": "geophysics__N13",
+      "relation": "uses",
+      "strength": 7,
+      "topic": "Geophysics"
+    },
+    {
+      "source": "geophysics__N15",
+      "target": "geophysics__N9",
+      "relation": "uses",
+      "strength": 8,
+      "topic": "Geophysics"
+    },
+    {
+      "source": "geophysics__N10",
+      "target": "geophysics__N6",
+      "relation": "evolved_from",
+      "strength": 9,
+      "topic": "Geophysics"
     }
   ],
   "cross_topic_edges": [
@@ -6996,6 +7303,13 @@
       "relation": "cross_topic_connection",
       "strength": 6,
       "label": "epigenetics"
+    },
+    {
+      "source": "geomorphology__N2",
+      "target": "geophysics__N6",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "plate tectonics"
     },
     {
       "source": "microbiology__N7",
@@ -7048,7 +7362,8 @@
       "neuroplasticity"
     ],
     "physics": [
-      "sustainable_energy"
+      "sustainable_energy",
+      "geophysics"
     ],
     "computer_science": [
       "artificial_intelligence",
@@ -7069,5 +7384,5 @@
       "archaeoastronomy"
     ]
   },
-  "last_updated": "2026-06-30T18:24:13.786676"
+  "last_updated": "2026-06-30T23:53:51.109603"
 }

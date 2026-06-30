@@ -297,5 +297,18 @@
     "master_total_topics": 23,
     "ended_at": "2026-06-30T18:24:13.792170",
     "duration_seconds": 38.6
+  },
+  {
+    "started_at": "2026-06-30T23:53:12.597175",
+    "status": "success",
+    "topic": "Geophysics",
+    "sources_found": 7,
+    "images_found": 5,
+    "quality_score": 87.5,
+    "quality_passed": true,
+    "exam_questions": 10,
+    "master_total_topics": 24,
+    "ended_at": "2026-06-30T23:53:51.115057",
+    "duration_seconds": 38.5
   }
 ]

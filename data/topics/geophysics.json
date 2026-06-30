@@ -1,0 +1,389 @@
+{
+  "topic": "Geophysics",
+  "category": "physics",
+  "description": "Geophysics is a physical science concerned with the processes and properties of Earth and its surrounding space environment. It focuses primarily on Earth\u2019s shape and its gravitational, magnetic, and electromagnetic fields. Geophysics also encompasses a broader Earth-system and planetary perspective, including the oceans, atmosphere, cryosphere, ionosphere, magnetosphere, as well as solar\u2013terrestrial interactions and analogous processes on the Moon, other planets, and their satellites.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Geophysics",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of the Earth's physical properties and processes",
+      "importance": 10,
+      "fun_fact": "Geophysics helps us understand the Earth's internal structure and composition"
+    },
+    {
+      "id": "N2",
+      "label": "Seismology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of earthquakes and seismic waves",
+      "importance": 9,
+      "fun_fact": "Seismology helps us understand the Earth's internal structure and plate tectonics"
+    },
+    {
+      "id": "N3",
+      "label": "Gravitational Field",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the Earth's gravitational field and its variations",
+      "importance": 9,
+      "fun_fact": "The gravitational field helps us understand the Earth's mass distribution and internal structure"
+    },
+    {
+      "id": "N4",
+      "label": "Magnetic Field",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the Earth's magnetic field and its variations",
+      "importance": 9,
+      "fun_fact": "The magnetic field helps us understand the Earth's core and its dynamics"
+    },
+    {
+      "id": "N5",
+      "label": "Thermal Conduction",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of heat transfer and thermal conduction in the Earth",
+      "importance": 8,
+      "fun_fact": "Thermal conduction helps us understand the Earth's internal heat budget and climate"
+    },
+    {
+      "id": "N6",
+      "label": "Plate Tectonics",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the Earth's lithospheric plates and their movements",
+      "importance": 10,
+      "fun_fact": "Plate tectonics helps us understand the Earth's surface processes and geological history"
+    },
+    {
+      "id": "N7",
+      "label": "Geophysical Exploration",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of geophysics in mineral, hydrocarbon, and groundwater exploration",
+      "importance": 8,
+      "fun_fact": "Geophysical exploration helps us locate natural resources and understand the subsurface"
+    },
+    {
+      "id": "N8",
+      "label": "Environmental Geophysics",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of geophysics in environmental investigations and monitoring",
+      "importance": 8,
+      "fun_fact": "Environmental geophysics helps us understand and mitigate environmental hazards"
+    },
+    {
+      "id": "N9",
+      "label": "Inge Lehmann",
+      "type": "person",
+      "depth": 2,
+      "description": "A Danish seismologist who discovered the Earth's inner core",
+      "importance": 8,
+      "fun_fact": "Inge Lehmann's discovery revolutionized our understanding of the Earth's internal structure"
+    },
+    {
+      "id": "N10",
+      "label": "Alfred Wegener",
+      "type": "person",
+      "depth": 2,
+      "description": "A German geophysicist who proposed the theory of continental drift",
+      "importance": 9,
+      "fun_fact": "Alfred Wegener's theory laid the foundation for modern plate tectonics"
+    },
+    {
+      "id": "N11",
+      "label": "Seismic Tomography",
+      "type": "example",
+      "depth": 3,
+      "description": "A technique used to image the Earth's internal structure using seismic waves",
+      "importance": 7,
+      "fun_fact": "Seismic tomography helps us understand the Earth's internal structure and composition"
+    },
+    {
+      "id": "N12",
+      "label": "Gravity Anomalies",
+      "type": "example",
+      "depth": 3,
+      "description": "Variations in the Earth's gravitational field that help us understand the subsurface",
+      "importance": 7,
+      "fun_fact": "Gravity anomalies help us locate mineral deposits and understand the Earth's internal structure"
+    },
+    {
+      "id": "N13",
+      "label": "Magnetic Reversals",
+      "type": "example",
+      "depth": 3,
+      "description": "Reversals of the Earth's magnetic field that help us understand the Earth's core and climate",
+      "importance": 7,
+      "fun_fact": "Magnetic reversals help us understand the Earth's geological history and climate"
+    },
+    {
+      "id": "N14",
+      "label": "Geothermal Energy",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of geothermal energy as a sustainable energy source",
+      "importance": 8,
+      "fun_fact": "Geothermal energy helps us reduce our reliance on fossil fuels and mitigate climate change"
+    },
+    {
+      "id": "N15",
+      "label": "Earthquake Prediction",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of geophysics to predict and prepare for earthquakes",
+      "importance": 9,
+      "fun_fact": "Earthquake prediction helps us save lives and mitigate the impact of earthquakes"
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Seismology is a subfield of geophysics"
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Gravitational field is a subfield of geophysics"
+    },
+    {
+      "source": "N1",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Magnetic field is a subfield of geophysics"
+    },
+    {
+      "source": "N1",
+      "target": "N5",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Thermal conduction is a subfield of geophysics"
+    },
+    {
+      "source": "N1",
+      "target": "N6",
+      "relation": "is_part_of",
+      "strength": 10,
+      "description": "Plate tectonics is a subfield of geophysics"
+    },
+    {
+      "source": "N2",
+      "target": "N9",
+      "relation": "discovered_by",
+      "strength": 8,
+      "description": "Inge Lehmann discovered the Earth's inner core using seismology"
+    },
+    {
+      "source": "N6",
+      "target": "N10",
+      "relation": "discovered_by",
+      "strength": 9,
+      "description": "Alfred Wegener proposed the theory of continental drift, which laid the foundation for plate tectonics"
+    },
+    {
+      "source": "N3",
+      "target": "N11",
+      "relation": "used_in",
+      "strength": 7,
+      "description": "Gravity anomalies are used in seismic tomography to image the Earth's internal structure"
+    },
+    {
+      "source": "N4",
+      "target": "N12",
+      "relation": "used_in",
+      "strength": 7,
+      "description": "Magnetic reversals are used to understand the Earth's core and climate"
+    },
+    {
+      "source": "N5",
+      "target": "N13",
+      "relation": "used_in",
+      "strength": 7,
+      "description": "Thermal conduction is used to understand the Earth's internal heat budget and climate"
+    },
+    {
+      "source": "N1",
+      "target": "N7",
+      "relation": "enables",
+      "strength": 8,
+      "description": "Geophysics enables geophysical exploration"
+    },
+    {
+      "source": "N1",
+      "target": "N8",
+      "relation": "enables",
+      "strength": 8,
+      "description": "Geophysics enables environmental geophysics"
+    },
+    {
+      "source": "N1",
+      "target": "N14",
+      "relation": "enables",
+      "strength": 8,
+      "description": "Geophysics enables geothermal energy"
+    },
+    {
+      "source": "N1",
+      "target": "N15",
+      "relation": "enables",
+      "strength": 9,
+      "description": "Geophysics enables earthquake prediction"
+    },
+    {
+      "source": "N7",
+      "target": "N11",
+      "relation": "uses",
+      "strength": 7,
+      "description": "Geophysical exploration uses seismic tomography"
+    },
+    {
+      "source": "N8",
+      "target": "N12",
+      "relation": "uses",
+      "strength": 7,
+      "description": "Environmental geophysics uses gravity anomalies"
+    },
+    {
+      "source": "N14",
+      "target": "N13",
+      "relation": "uses",
+      "strength": 7,
+      "description": "Geothermal energy uses thermal conduction"
+    },
+    {
+      "source": "N15",
+      "target": "N9",
+      "relation": "uses",
+      "strength": 8,
+      "description": "Earthquake prediction uses seismology"
+    },
+    {
+      "source": "N10",
+      "target": "N6",
+      "relation": "evolved_from",
+      "strength": 9,
+      "description": "Plate tectonics evolved from the theory of continental drift"
+    }
+  ],
+  "key_takeaways": [
+    "Geophysics is a physical science that studies the Earth's internal and external processes",
+    "Seismology, gravitational field, magnetic field, thermal conduction, and plate tectonics are all subfields of geophysics",
+    "Geophysics has many practical applications, including geophysical exploration, environmental geophysics, geothermal energy, and earthquake prediction"
+  ],
+  "real_world_impact": "Geophysics has a significant impact on our daily lives, from helping us understand and mitigate natural hazards like earthquakes and volcanic eruptions, to enabling the discovery of natural resources like oil and gas, and informing our understanding of the Earth's climate and internal structure. By applying geophysical principles and techniques, we can better understand the Earth's systems and make more informed decisions about how to manage and protect our planet.",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Earth_cutaway.png",
+      "title": "Earth cutaway.png",
+      "license": "CC BY-SA 3.0",
+      "artist": "CharlesC",
+      "description": "Self-made composition of [1], File:Jordens inre-numbers.svg and core from File:PIA00519 Interior of Ganymede.jpg",
+      "width": 789,
+      "height": 789,
+      "source_query": "Geophysics"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Earth_gravity.png",
+      "title": "Earth gravity.png",
+      "license": "Public domain",
+      "artist": "NASA/JPL/University of Texas Center for Space Research.",
+      "description": "A gravity model created with data from NASA's GRACE mission.",
+      "width": 440,
+      "height": 370,
+      "source_query": "Geophysics"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Geophysics_is_a_piece_of_cake.jpg",
+      "title": "Geophysics is a piece of cake.jpg",
+      "license": "CC BY 4.0",
+      "artist": "\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447 \u0413\u0443\u0440\u044c\u0435\u0432",
+      "description": "The position of geophysics among other sciences",
+      "width": 1680,
+      "height": 1260,
+      "source_query": "Geophysics"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Geophysics_popularization.jpg",
+      "title": "Geophysics popularization.jpg",
+      "license": "CC BY 4.0",
+      "artist": "\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447 \u0413\u0443\u0440\u044c\u0435\u0432",
+      "description": "The photo shows a demonstration of a geophysical model",
+      "width": 1120,
+      "height": 1680,
+      "source_query": "Geophysics"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Institute_of_Geophysics_%28University_of_Tehran%29.jpg",
+      "title": "Institute of Geophysics (University of Tehran).jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Diego Delso",
+      "description": "Institute of Geophysics (University of Tehran), Kargar Street (top), Chamran Expressway (bottom)",
+      "width": 2200,
+      "height": 1200,
+      "source_query": "Geophysics"
+    }
+  ],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Geophysics",
+    "papers": [
+      {
+        "title": "An Introduction to Applied and Environmental Geophysics",
+        "url": "https://doi.org/10.1071/pvv2011n155other"
+      },
+      {
+        "title": "Interpretation Theory in Applied Geophysics",
+        "url": "https://doi.org/10.1111/j.1365-246x.1966.tb03175.x"
+      },
+      {
+        "title": "Geochemistry, Geophysics, Geosystems",
+        "url": "https://doi.org/10.1002/(issn)1525-2027"
+      }
+    ],
+    "news": [
+      {
+        "title": "How is Water released in Hydrogen-Based Metal Oxide Reduction? Unraveling the Kinetic Bottleneck in Sustainable Metal Production",
+        "url": "https://arxiv.org/abs/2606.30221"
+      }
+    ]
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 19"
+      ],
+      "node_count": 15,
+      "edge_count": 19
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Geomagnetism",
+        "Atmospheric Science"
+      ],
+      "strengths": [
+        "Clear subfield relationships",
+        "Practical application examples"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

@@ -1,0 +1,164 @@
+{
+  "topic": "Geophysics",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary focus of geophysics?",
+      "options": {
+        "A": "The study of the Earth's physical properties and processes",
+        "B": "The study of the Earth's biological systems",
+        "C": "The study of the Earth's chemical composition",
+        "D": "The study of the Earth's astronomical context"
+      },
+      "correct": "A",
+      "explanation": "Geophysics is a physical science that studies the Earth's internal and external processes, including its shape, gravitational, magnetic, and electromagnetic fields.",
+      "node_id": "Geophysics",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which of the following is a subfield of geophysics that studies the Earth's internal structure and plate tectonics?",
+      "options": {
+        "A": "Seismology",
+        "B": "Gravitational Field",
+        "C": "Magnetic Field",
+        "D": "Atmospheric Science"
+      },
+      "correct": "A",
+      "explanation": "Seismology is the study of earthquakes and seismic waves, which helps us understand the Earth's internal structure and plate tectonics.",
+      "node_id": "Seismology",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the primary method used to image the Earth's internal structure using seismic waves?",
+      "options": {
+        "A": "Seismic Reflection",
+        "B": "Seismic Refraction",
+        "C": "Seismic Tomography",
+        "D": "Gravity Anomalies"
+      },
+      "correct": "C",
+      "explanation": "Seismic tomography is a technique used to image the Earth's internal structure using seismic waves, which helps us understand the Earth's internal structure and composition.",
+      "node_id": "Seismic Tomography",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "Who is credited with the discovery of the Earth's inner core?",
+      "options": {
+        "A": "Inge Lehmann",
+        "B": "Alfred Wegener",
+        "C": "Galileo Galilei",
+        "D": "Isaac Newton"
+      },
+      "correct": "A",
+      "explanation": "Inge Lehmann was a Danish seismologist who discovered the Earth's inner core, which revolutionized our understanding of the Earth's internal structure.",
+      "node_id": "Inge Lehmann",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term used to describe the variations in the Earth's gravitational field that help us understand the subsurface?",
+      "options": {
+        "A": "Gravity Anomalies",
+        "B": "Magnetic Reversals",
+        "C": "Seismic Waves",
+        "D": "Thermal Conduction"
+      },
+      "correct": "A",
+      "explanation": "Gravity anomalies are variations in the Earth's gravitational field that help us understand the subsurface, including the location of mineral deposits and the Earth's internal structure.",
+      "node_id": "Gravity Anomalies",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term used to describe the use of geophysics to predict and prepare for earthquakes?",
+      "options": {
+        "A": "Earthquake Prediction",
+        "B": "Seismic Hazard Assessment",
+        "C": "Geophysical Exploration",
+        "D": "Environmental Geophysics"
+      },
+      "correct": "A",
+      "explanation": "Earthquake prediction is the use of geophysics to predict and prepare for earthquakes, which helps us save lives and mitigate the impact of earthquakes.",
+      "node_id": "Earthquake Prediction",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term used to describe the use of geothermal energy as a sustainable energy source?",
+      "options": {
+        "A": "Geothermal Energy",
+        "B": "Solar Energy",
+        "C": "Wind Energy",
+        "D": "Hydro Energy"
+      },
+      "correct": "A",
+      "explanation": "Geothermal energy is the use of geothermal energy as a sustainable energy source, which helps us reduce our reliance on fossil fuels and mitigate climate change.",
+      "node_id": "Geothermal Energy",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the concept of plate tectonics and its significance in understanding the Earth's surface processes and geological history.",
+      "sample_answer": "Plate tectonics is the theory that the Earth's lithosphere is divided into several large plates that move relative to each other, resulting in the creation of mountains, volcanoes, and earthquakes. This concept is significant because it helps us understand the Earth's surface processes, such as the formation of mountain ranges and the distribution of earthquakes, and provides a framework for understanding the Earth's geological history.",
+      "keywords": [
+        "plate tectonics",
+        "lithosphere",
+        "Earth's surface processes",
+        "geological history"
+      ],
+      "node_id": "Plate Tectonics",
+      "points": 20
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Explain the concept of magnetic reversals and their significance in understanding the Earth's core and climate.",
+      "sample_answer": "Magnetic reversals are the periodic reversals of the Earth's magnetic field, which are recorded in rocks and sediments. These reversals provide valuable information about the Earth's core and its dynamics, as well as the Earth's climate and geological history. The study of magnetic reversals helps us understand the Earth's internal structure, the movement of tectonic plates, and the impact of climate change on the Earth's magnetic field.",
+      "keywords": [
+        "magnetic reversals",
+        "Earth's core",
+        "climate",
+        "geological history"
+      ],
+      "node_id": "Magnetic Reversals",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the application of geophysics in environmental investigations and monitoring, including the use of geophysical methods to mitigate environmental hazards.",
+      "sample_answer": "Geophysics is widely used in environmental investigations and monitoring to identify and mitigate environmental hazards, such as pollution, landslides, and earthquakes. Geophysical methods, such as seismic and electrical surveys, are used to characterize the subsurface and monitor environmental changes. These methods help us understand the movement of contaminants, the stability of slopes, and the impact of human activities on the environment, ultimately informing strategies for environmental remediation and mitigation.",
+      "keywords": [
+        "geophysics",
+        "environmental investigations",
+        "monitoring",
+        "mitigation"
+      ],
+      "node_id": "Environmental Geophysics",
+      "points": 20
+    }
+  ]
+}
