@@ -1,0 +1,161 @@
+{
+  "topic": "Archaeology",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary focus of the field of archaeology?",
+      "options": {
+        "A": "The study of human activity through the recovery and analysis of material culture",
+        "B": "The study of natural environments and ecosystems",
+        "C": "The study of human behavior and psychology",
+        "D": "The study of modern technologies and innovations"
+      },
+      "correct": "A",
+      "explanation": "Archaeology is an interdisciplinary field that focuses on understanding human activity through the recovery and analysis of material culture.",
+      "node_id": "Archaeology",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the main goal of cultural resource management in archaeology?",
+      "options": {
+        "A": "To preserve and protect cultural resources for future generations",
+        "B": "To excavate and analyze archaeological sites as quickly as possible",
+        "C": "To display and promote cultural resources for tourism purposes",
+        "D": "To destroy and remove cultural resources that are deemed unnecessary"
+      },
+      "correct": "A",
+      "explanation": "Cultural resource management is a key aspect of archaeology that aims to preserve and protect cultural resources, such as historical sites and artifacts, for future generations.",
+      "node_id": "Cultural Resource Management",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "How does anthropological theory inform archaeological research and interpretation?",
+      "options": {
+        "A": "By providing a framework for understanding human culture, behavior, and biology",
+        "B": "By focusing solely on the analysis of material culture",
+        "C": "By ignoring the cultural context of archaeological sites and artifacts",
+        "D": "By relying solely on historical records and written documents"
+      },
+      "correct": "A",
+      "explanation": "Anthropological theory provides a framework for understanding human culture, behavior, and biology, which informs archaeological research and interpretation.",
+      "node_id": "Anthropological Theory",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the process of systematically searching for and documenting archaeological sites and artifacts called?",
+      "options": {
+        "A": "Excavation",
+        "B": "Surveying",
+        "C": "Curation",
+        "D": "Preservation"
+      },
+      "correct": "B",
+      "explanation": "Surveying is the process of systematically searching for and documenting archaeological sites and artifacts.",
+      "node_id": "Surveying",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the significance of Howard Carter's discovery of Tutankhamun's tomb?",
+      "options": {
+        "A": "It marked the beginning of archaeological research in Egypt",
+        "B": "It led to the development of new excavation techniques",
+        "C": "It is one of the most famous archaeological discoveries of all time",
+        "D": "It had no significant impact on the field of archaeology"
+      },
+      "correct": "C",
+      "explanation": "Howard Carter's discovery of Tutankhamun's tomb is one of the most famous archaeological discoveries of all time, providing valuable insights into ancient Egyptian culture and history.",
+      "node_id": "Howard Carter",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "How does the study of material culture contribute to our understanding of human behavior and culture?",
+      "options": {
+        "A": "By providing a complete and accurate picture of past cultures",
+        "B": "By focusing solely on the analysis of written documents and historical records",
+        "C": "By offering insights into human behavior, culture, and technology",
+        "D": "By ignoring the cultural context of archaeological sites and artifacts"
+      },
+      "correct": "C",
+      "explanation": "The study of material culture provides insights into human behavior, culture, and technology, allowing us to better understand past cultures and societies.",
+      "node_id": "Material Culture",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the significance of the archaeological record?",
+      "options": {
+        "A": "It provides a complete and accurate picture of past cultures",
+        "B": "It is a collection of artifacts, sites, and other physical remains that provide evidence of past human activity",
+        "C": "It is a record of all historical events and cultures",
+        "D": "It is a collection of written documents and historical records"
+      },
+      "correct": "B",
+      "explanation": "The archaeological record is a collection of artifacts, sites, and other physical remains that provide evidence of past human activity, allowing us to understand and interpret the past.",
+      "node_id": "Archaeological Record",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What is the importance of historical preservation in archaeology, and how does it contribute to our understanding of the past?",
+      "sample_answer": "Historical preservation is essential for understanding the past, as it allows us to conserve and protect cultural resources, such as historical sites and artifacts, for future generations. This helps to promote cultural heritage and provides a window into the past, allowing us to learn from historical events and cultures.",
+      "keywords": [
+        "historical preservation",
+        "cultural resources",
+        "cultural heritage"
+      ],
+      "node_id": "Historical Preservation",
+      "points": 15
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "How does anthropological theory inform archaeological research and interpretation, and what are the implications of this relationship for our understanding of human culture and behavior?",
+      "sample_answer": "Anthropological theory provides a framework for understanding human culture, behavior, and biology, which informs archaeological research and interpretation. This relationship allows archaeologists to contextualize their findings within a broader cultural and historical framework, providing a more nuanced understanding of human culture and behavior. The implications of this relationship are significant, as it enables archaeologists to move beyond a solely descriptive approach and instead adopt a more interpretive and analytical approach to understanding the past.",
+      "keywords": [
+        "anthropological theory",
+        "archaeological research",
+        "human culture"
+      ],
+      "node_id": "Anthropological Theory",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What is the significance of excavation in archaeology, and how does it contribute to our understanding of the past?",
+      "sample_answer": "Excavation is a crucial step in the archaeological process, as it allows researchers to recover and analyze artifacts and data. This provides a window into the past, allowing us to understand human behavior, culture, and technology. Excavation also helps to promote cultural heritage and provides a unique opportunity for researchers to engage with the material culture of past societies.",
+      "keywords": [
+        "excavation",
+        "archaeological process",
+        "material culture"
+      ],
+      "node_id": "Excavation",
+      "points": 15
+    }
+  ]
+}

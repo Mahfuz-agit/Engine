@@ -1,0 +1,364 @@
+{
+  "topic": "Archaeology",
+  "category": "history",
+  "description": "Archaeology is the study of human activity through the recovery and analysis of material culture, consisting of artifacts, architecture, biofacts, sites, and cultural landscapes. It is an interdisciplinary field that combines social science and humanities to understand the past. Archaeology has various applications, including cultural resource management, historical preservation, and anthropological theory.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Archaeology",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of human activity through the recovery and analysis of material culture.",
+      "importance": 10,
+      "fun_fact": "The word 'archaeology' comes from the Greek words 'archaios' (ancient) and 'logos' (study)."
+    },
+    {
+      "id": "N2",
+      "label": "Cultural Resource Management",
+      "type": "concept",
+      "depth": 1,
+      "description": "The practice of managing and preserving cultural resources, such as historical sites and artifacts.",
+      "importance": 9,
+      "fun_fact": "Cultural resource management is a key aspect of archaeology, as it helps to preserve the cultural heritage of societies."
+    },
+    {
+      "id": "N3",
+      "label": "Historical Preservation",
+      "type": "concept",
+      "depth": 1,
+      "description": "The practice of preserving historical sites, buildings, and artifacts for future generations.",
+      "importance": 9,
+      "fun_fact": "Historical preservation is essential for understanding the past and learning from it."
+    },
+    {
+      "id": "N4",
+      "label": "Anthropological Theory",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of human culture, behavior, and biology, which informs archaeological research and interpretation.",
+      "importance": 9,
+      "fun_fact": "Anthropological theory helps archaeologists to understand the cultural context of the artifacts and sites they study."
+    },
+    {
+      "id": "N5",
+      "label": "Museum Studies",
+      "type": "application",
+      "depth": 2,
+      "description": "The study of the management and curation of museums, which often involve the display and preservation of archaeological artifacts.",
+      "importance": 8,
+      "fun_fact": "Museum studies is an important aspect of archaeology, as it helps to make archaeological findings accessible to the public."
+    },
+    {
+      "id": "N6",
+      "label": "Cultural Heritage Policy",
+      "type": "concept",
+      "depth": 2,
+      "description": "The development and implementation of policies aimed at preserving and promoting cultural heritage.",
+      "importance": 8,
+      "fun_fact": "Cultural heritage policy is essential for protecting archaeological sites and artifacts from destruction or looting."
+    },
+    {
+      "id": "N7",
+      "label": "Excavation",
+      "type": "application",
+      "depth": 2,
+      "description": "The process of carefully uncovering and documenting archaeological sites and artifacts.",
+      "importance": 8,
+      "fun_fact": "Excavation is a crucial step in the archaeological process, as it allows researchers to recover and analyze artifacts and data."
+    },
+    {
+      "id": "N8",
+      "label": "Surveying",
+      "type": "application",
+      "depth": 2,
+      "description": "The process of systematically searching for and documenting archaeological sites and artifacts.",
+      "importance": 8,
+      "fun_fact": "Surveying is an essential step in the archaeological process, as it helps researchers to identify potential sites and plan excavations."
+    },
+    {
+      "id": "N9",
+      "label": "Howard Carter",
+      "type": "person",
+      "depth": 3,
+      "description": "A British archaeologist and Egyptologist who discovered the tomb of Tutankhamun.",
+      "importance": 7,
+      "fun_fact": "Howard Carter's discovery of Tutankhamun's tomb is one of the most famous archaeological discoveries of all time."
+    },
+    {
+      "id": "N10",
+      "label": "Tutankhamun's Tomb",
+      "type": "example",
+      "depth": 3,
+      "description": "The tomb of the Egyptian pharaoh Tutankhamun, discovered by Howard Carter in 1922.",
+      "importance": 7,
+      "fun_fact": "Tutankhamun's tomb is one of the most well-preserved and famous archaeological sites in the world."
+    },
+    {
+      "id": "N11",
+      "label": "Anthropology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of human culture, behavior, and biology.",
+      "importance": 9,
+      "fun_fact": "Anthropology is a key discipline that informs archaeological research and interpretation."
+    },
+    {
+      "id": "N12",
+      "label": "History",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of past events and cultures.",
+      "importance": 9,
+      "fun_fact": "History is a key discipline that informs archaeological research and interpretation."
+    },
+    {
+      "id": "N13",
+      "label": "Geography",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the Earth's physical and human environments.",
+      "importance": 8,
+      "fun_fact": "Geography is a key discipline that informs archaeological research and interpretation."
+    },
+    {
+      "id": "N14",
+      "label": "Material Culture",
+      "type": "concept",
+      "depth": 2,
+      "description": "The physical objects and artifacts created and used by humans.",
+      "importance": 8,
+      "fun_fact": "Material culture is a key aspect of archaeological research, as it provides insights into human behavior and culture."
+    },
+    {
+      "id": "N15",
+      "label": "Archaeological Record",
+      "type": "concept",
+      "depth": 2,
+      "description": "The collection of artifacts, sites, and other physical remains that provide evidence of past human activity.",
+      "importance": 8,
+      "fun_fact": "The archaeological record is a key aspect of archaeological research, as it provides insights into human behavior and culture."
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Cultural resource management is a key aspect of archaeology."
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Historical preservation is a key aspect of archaeology."
+    },
+    {
+      "source": "N1",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Anthropological theory informs archaeological research and interpretation."
+    },
+    {
+      "source": "N2",
+      "target": "N5",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "Cultural resource management often involves the display and preservation of artifacts in museums."
+    },
+    {
+      "source": "N3",
+      "target": "N6",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "Historical preservation often involves the development and implementation of cultural heritage policy."
+    },
+    {
+      "source": "N4",
+      "target": "N11",
+      "relation": "is_type_of",
+      "strength": 9,
+      "description": "Anthropological theory is a key aspect of anthropology."
+    },
+    {
+      "source": "N1",
+      "target": "N7",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "Archaeology often involves excavation as a key step in the research process."
+    },
+    {
+      "source": "N1",
+      "target": "N8",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "Archaeology often involves surveying as a key step in the research process."
+    },
+    {
+      "source": "N7",
+      "target": "N9",
+      "relation": "used_in",
+      "strength": 7,
+      "description": "Excavation was used by Howard Carter to discover the tomb of Tutankhamun."
+    },
+    {
+      "source": "N9",
+      "target": "N10",
+      "relation": "discovered_by",
+      "strength": 7,
+      "description": "Howard Carter discovered the tomb of Tutankhamun."
+    },
+    {
+      "source": "N11",
+      "target": "N12",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "Anthropology is related to history, as both disciplines study human culture and behavior."
+    },
+    {
+      "source": "N12",
+      "target": "N13",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "History is related to geography, as both disciplines study the human and physical environments."
+    },
+    {
+      "source": "N1",
+      "target": "N14",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Material culture is a key aspect of archaeological research."
+    },
+    {
+      "source": "N1",
+      "target": "N15",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "The archaeological record is a key aspect of archaeological research."
+    },
+    {
+      "source": "N14",
+      "target": "N15",
+      "relation": "is_type_of",
+      "strength": 8,
+      "description": "Material culture is a type of archaeological record."
+    },
+    {
+      "source": "N15",
+      "target": "N10",
+      "relation": "includes",
+      "strength": 7,
+      "description": "The archaeological record includes the tomb of Tutankhamun."
+    },
+    {
+      "source": "N5",
+      "target": "N10",
+      "relation": "displays",
+      "strength": 7,
+      "description": "Museums often display artifacts from archaeological sites, such as the tomb of Tutankhamun."
+    },
+    {
+      "source": "N6",
+      "target": "N10",
+      "relation": "protects",
+      "strength": 7,
+      "description": "Cultural heritage policy helps to protect archaeological sites, such as the tomb of Tutankhamun."
+    }
+  ],
+  "key_takeaways": [
+    "Archaeology is an interdisciplinary field that combines social science and humanities",
+    "Cultural resource management and historical preservation are key aspects of archaeology",
+    "Anthropological theory informs archaeological research and interpretation"
+  ],
+  "real_world_impact": "Archaeology has a significant impact on our understanding of human history and culture. The discovery of archaeological sites and artifacts has helped to shed light on the lives and practices of ancient civilizations, and has informed our understanding of the development of human societies. Additionally, archaeology has practical applications in the fields of cultural resource management and historical preservation, helping to protect and conserve cultural heritage sites and artifacts for future generations. The study of archaeology also has the potential to inform contemporary issues, such as cultural heritage policy and the management of cultural resources.",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/02021_0531_Archaeology_of_Nowa_Huta.jpg",
+      "title": "02021 0531 Archaeology of Nowa Huta.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Silar",
+      "description": "Archaeology of Branice",
+      "width": 4928,
+      "height": 3264,
+      "source_query": "Archaeology"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/02022_0071_Archaeology_of_the_Beskid_Mountains.jpg",
+      "title": "02022 0071 Archaeology of the Beskid Mountains.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Silar",
+      "description": "Archaeology of the Beskid Mountains",
+      "width": 3943,
+      "height": 2660,
+      "source_query": "Archaeology"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/02022_0922_Archaeology_for_Nowa_Huta_%28exhibition%29.jpg",
+      "title": "02022 0922 Archaeology for Nowa Huta (exhibition).jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Silar",
+      "description": "Archaeology for Nowa Huta (exhibition)",
+      "width": 4928,
+      "height": 3264,
+      "source_query": "Archaeology"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/02024_0430_Archaeology_of_Bielsko-Bia%C5%82a.jpg",
+      "title": "02024 0430 Archaeology of Bielsko-Bia\u0142a.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Silar",
+      "description": "Archaeology of Bielsko-Bia\u0142a",
+      "width": 2496,
+      "height": 1688,
+      "source_query": "Archaeology"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/02024_0751_Archaeology_at_the_Grodzisko_of_Stare_Bielsko.jpg",
+      "title": "02024 0751 Archaeology at the Grodzisko of Stare Bielsko.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Silar",
+      "description": "Archaeology at the Grodzisko of Stare Bielsko",
+      "width": 2989,
+      "height": 1992,
+      "source_query": "Archaeology"
+    }
+  ],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Archaeology",
+    "papers": [],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 18"
+      ],
+      "node_count": 15,
+      "edge_count": 18
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Bioarchaeology",
+        "Underwater Archaeology"
+      ],
+      "strengths": [
+        "Interdisciplinary connections",
+        "Clear relationships between concepts"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

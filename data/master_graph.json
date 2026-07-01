@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 26,
-  "total_nodes": 389,
-  "total_edges": 479,
+  "total_topics": 27,
+  "total_nodes": 404,
+  "total_edges": 497,
   "topics": [
     {
       "topic": "Climate Change",
@@ -237,6 +237,15 @@
       "edge_count": 18,
       "description": "Epidemiology is the study and analysis of the distribution, patterns, and determinants of health and disease conditions in a defined population. It aims to understand the causes and risk factors of diseases, and to develop strategies for prevention and control. By applying epidemiological principles, healthcare professionals can reduce the burden of disease and improve public health.",
       "added_at": "2026-07-01T18:33:05.711305"
+    },
+    {
+      "topic": "Archaeology",
+      "slug": "archaeology",
+      "category": "history",
+      "node_count": 15,
+      "edge_count": 18,
+      "description": "Archaeology is the study of human activity through the recovery and analysis of material culture, consisting of artifacts, architecture, biofacts, sites, and cultural landscapes. It is an interdisciplinary field that combines social science and humanities to understand the past. Archaeology has various applications, including cultural resource management, historical preservation, and anthropological theory.",
+      "added_at": "2026-07-01T23:59:27.599548"
     }
   ],
   "global_nodes": [
@@ -4518,6 +4527,171 @@
       "fun_fact": "Epidemiological modeling is essential for informing public health policy and decision-making.",
       "topic_slug": "epidemiology",
       "topic": "Epidemiology"
+    },
+    {
+      "id": "archaeology__N1",
+      "label": "Archaeology",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of human activity through the recovery and analysis of material culture.",
+      "importance": 10,
+      "fun_fact": "The word 'archaeology' comes from the Greek words 'archaios' (ancient) and 'logos' (study).",
+      "topic_slug": "archaeology",
+      "topic": "Archaeology"
+    },
+    {
+      "id": "archaeology__N2",
+      "label": "Cultural Resource Management",
+      "type": "concept",
+      "depth": 1,
+      "description": "The practice of managing and preserving cultural resources, such as historical sites and artifacts.",
+      "importance": 9,
+      "fun_fact": "Cultural resource management is a key aspect of archaeology, as it helps to preserve the cultural heritage of societies.",
+      "topic_slug": "archaeology",
+      "topic": "Archaeology"
+    },
+    {
+      "id": "archaeology__N3",
+      "label": "Historical Preservation",
+      "type": "concept",
+      "depth": 1,
+      "description": "The practice of preserving historical sites, buildings, and artifacts for future generations.",
+      "importance": 9,
+      "fun_fact": "Historical preservation is essential for understanding the past and learning from it.",
+      "topic_slug": "archaeology",
+      "topic": "Archaeology"
+    },
+    {
+      "id": "archaeology__N4",
+      "label": "Anthropological Theory",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of human culture, behavior, and biology, which informs archaeological research and interpretation.",
+      "importance": 9,
+      "fun_fact": "Anthropological theory helps archaeologists to understand the cultural context of the artifacts and sites they study.",
+      "topic_slug": "archaeology",
+      "topic": "Archaeology"
+    },
+    {
+      "id": "archaeology__N5",
+      "label": "Museum Studies",
+      "type": "application",
+      "depth": 2,
+      "description": "The study of the management and curation of museums, which often involve the display and preservation of archaeological artifacts.",
+      "importance": 8,
+      "fun_fact": "Museum studies is an important aspect of archaeology, as it helps to make archaeological findings accessible to the public.",
+      "topic_slug": "archaeology",
+      "topic": "Archaeology"
+    },
+    {
+      "id": "archaeology__N6",
+      "label": "Cultural Heritage Policy",
+      "type": "concept",
+      "depth": 2,
+      "description": "The development and implementation of policies aimed at preserving and promoting cultural heritage.",
+      "importance": 8,
+      "fun_fact": "Cultural heritage policy is essential for protecting archaeological sites and artifacts from destruction or looting.",
+      "topic_slug": "archaeology",
+      "topic": "Archaeology"
+    },
+    {
+      "id": "archaeology__N7",
+      "label": "Excavation",
+      "type": "application",
+      "depth": 2,
+      "description": "The process of carefully uncovering and documenting archaeological sites and artifacts.",
+      "importance": 8,
+      "fun_fact": "Excavation is a crucial step in the archaeological process, as it allows researchers to recover and analyze artifacts and data.",
+      "topic_slug": "archaeology",
+      "topic": "Archaeology"
+    },
+    {
+      "id": "archaeology__N8",
+      "label": "Surveying",
+      "type": "application",
+      "depth": 2,
+      "description": "The process of systematically searching for and documenting archaeological sites and artifacts.",
+      "importance": 8,
+      "fun_fact": "Surveying is an essential step in the archaeological process, as it helps researchers to identify potential sites and plan excavations.",
+      "topic_slug": "archaeology",
+      "topic": "Archaeology"
+    },
+    {
+      "id": "archaeology__N9",
+      "label": "Howard Carter",
+      "type": "person",
+      "depth": 3,
+      "description": "A British archaeologist and Egyptologist who discovered the tomb of Tutankhamun.",
+      "importance": 7,
+      "fun_fact": "Howard Carter's discovery of Tutankhamun's tomb is one of the most famous archaeological discoveries of all time.",
+      "topic_slug": "archaeology",
+      "topic": "Archaeology"
+    },
+    {
+      "id": "archaeology__N10",
+      "label": "Tutankhamun's Tomb",
+      "type": "example",
+      "depth": 3,
+      "description": "The tomb of the Egyptian pharaoh Tutankhamun, discovered by Howard Carter in 1922.",
+      "importance": 7,
+      "fun_fact": "Tutankhamun's tomb is one of the most well-preserved and famous archaeological sites in the world.",
+      "topic_slug": "archaeology",
+      "topic": "Archaeology"
+    },
+    {
+      "id": "archaeology__N11",
+      "label": "Anthropology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of human culture, behavior, and biology.",
+      "importance": 9,
+      "fun_fact": "Anthropology is a key discipline that informs archaeological research and interpretation.",
+      "topic_slug": "archaeology",
+      "topic": "Archaeology"
+    },
+    {
+      "id": "archaeology__N12",
+      "label": "History",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of past events and cultures.",
+      "importance": 9,
+      "fun_fact": "History is a key discipline that informs archaeological research and interpretation.",
+      "topic_slug": "archaeology",
+      "topic": "Archaeology"
+    },
+    {
+      "id": "archaeology__N13",
+      "label": "Geography",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the Earth's physical and human environments.",
+      "importance": 8,
+      "fun_fact": "Geography is a key discipline that informs archaeological research and interpretation.",
+      "topic_slug": "archaeology",
+      "topic": "Archaeology"
+    },
+    {
+      "id": "archaeology__N14",
+      "label": "Material Culture",
+      "type": "concept",
+      "depth": 2,
+      "description": "The physical objects and artifacts created and used by humans.",
+      "importance": 8,
+      "fun_fact": "Material culture is a key aspect of archaeological research, as it provides insights into human behavior and culture.",
+      "topic_slug": "archaeology",
+      "topic": "Archaeology"
+    },
+    {
+      "id": "archaeology__N15",
+      "label": "Archaeological Record",
+      "type": "concept",
+      "depth": 2,
+      "description": "The collection of artifacts, sites, and other physical remains that provide evidence of past human activity.",
+      "importance": 8,
+      "fun_fact": "The archaeological record is a key aspect of archaeological research, as it provides insights into human behavior and culture.",
+      "topic_slug": "archaeology",
+      "topic": "Archaeology"
     }
   ],
   "global_edges": [
@@ -7873,6 +8047,132 @@
       "relation": "enables",
       "strength": 8,
       "topic": "Epidemiology"
+    },
+    {
+      "source": "archaeology__N1",
+      "target": "archaeology__N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Archaeology"
+    },
+    {
+      "source": "archaeology__N1",
+      "target": "archaeology__N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Archaeology"
+    },
+    {
+      "source": "archaeology__N1",
+      "target": "archaeology__N4",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Archaeology"
+    },
+    {
+      "source": "archaeology__N2",
+      "target": "archaeology__N5",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Archaeology"
+    },
+    {
+      "source": "archaeology__N3",
+      "target": "archaeology__N6",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Archaeology"
+    },
+    {
+      "source": "archaeology__N4",
+      "target": "archaeology__N11",
+      "relation": "is_type_of",
+      "strength": 9,
+      "topic": "Archaeology"
+    },
+    {
+      "source": "archaeology__N1",
+      "target": "archaeology__N7",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Archaeology"
+    },
+    {
+      "source": "archaeology__N1",
+      "target": "archaeology__N8",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Archaeology"
+    },
+    {
+      "source": "archaeology__N7",
+      "target": "archaeology__N9",
+      "relation": "used_in",
+      "strength": 7,
+      "topic": "Archaeology"
+    },
+    {
+      "source": "archaeology__N9",
+      "target": "archaeology__N10",
+      "relation": "discovered_by",
+      "strength": 7,
+      "topic": "Archaeology"
+    },
+    {
+      "source": "archaeology__N11",
+      "target": "archaeology__N12",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Archaeology"
+    },
+    {
+      "source": "archaeology__N12",
+      "target": "archaeology__N13",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Archaeology"
+    },
+    {
+      "source": "archaeology__N1",
+      "target": "archaeology__N14",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Archaeology"
+    },
+    {
+      "source": "archaeology__N1",
+      "target": "archaeology__N15",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Archaeology"
+    },
+    {
+      "source": "archaeology__N14",
+      "target": "archaeology__N15",
+      "relation": "is_type_of",
+      "strength": 8,
+      "topic": "Archaeology"
+    },
+    {
+      "source": "archaeology__N15",
+      "target": "archaeology__N10",
+      "relation": "includes",
+      "strength": 7,
+      "topic": "Archaeology"
+    },
+    {
+      "source": "archaeology__N5",
+      "target": "archaeology__N10",
+      "relation": "displays",
+      "strength": 7,
+      "topic": "Archaeology"
+    },
+    {
+      "source": "archaeology__N6",
+      "target": "archaeology__N10",
+      "relation": "protects",
+      "strength": 7,
+      "topic": "Archaeology"
     }
   ],
   "cross_topic_edges": [
@@ -8035,7 +8335,10 @@
     ],
     "sociology": [
       "demography"
+    ],
+    "history": [
+      "archaeology"
     ]
   },
-  "last_updated": "2026-07-01T18:33:05.711339"
+  "last_updated": "2026-07-01T23:59:27.599587"
 }
