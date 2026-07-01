@@ -1,0 +1,364 @@
+{
+  "topic": "Epidemiology",
+  "category": "medicine",
+  "description": "Epidemiology is the study and analysis of the distribution, patterns, and determinants of health and disease conditions in a defined population. It aims to understand the causes and risk factors of diseases, and to develop strategies for prevention and control. By applying epidemiological principles, healthcare professionals can reduce the burden of disease and improve public health.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Epidemiology",
+      "type": "core",
+      "depth": 0,
+      "description": "The study and analysis of the distribution, patterns, and determinants of health and disease conditions in a defined population.",
+      "importance": 10,
+      "fun_fact": "The term 'epidemiology' comes from the Greek words 'epi' meaning 'upon', 'demos' meaning 'people', and 'logos' meaning 'study'."
+    },
+    {
+      "id": "N2",
+      "label": "Infectious Disease Control",
+      "type": "concept",
+      "depth": 1,
+      "description": "The strategies and methods used to prevent and control the spread of infectious diseases.",
+      "importance": 9,
+      "fun_fact": "Vaccination is one of the most effective ways to control infectious diseases."
+    },
+    {
+      "id": "N3",
+      "label": "Statistical Analysis of Health Data",
+      "type": "concept",
+      "depth": 1,
+      "description": "The use of statistical methods to analyze and interpret health data, including disease trends and risk factors.",
+      "importance": 9,
+      "fun_fact": "Statistical analysis is crucial in identifying disease outbreaks and understanding the effectiveness of interventions."
+    },
+    {
+      "id": "N4",
+      "label": "Disease Outbreak Investigation",
+      "type": "application",
+      "depth": 2,
+      "description": "The process of identifying and investigating disease outbreaks to determine their causes and control measures.",
+      "importance": 8,
+      "fun_fact": "Disease outbreak investigations often involve a multidisciplinary team of epidemiologists, laboratory scientists, and healthcare professionals."
+    },
+    {
+      "id": "N5",
+      "label": "Vaccine Development",
+      "type": "application",
+      "depth": 2,
+      "description": "The process of designing, testing, and implementing vaccines to prevent infectious diseases.",
+      "importance": 9,
+      "fun_fact": "Vaccines have been instrumental in controlling and eliminating many infectious diseases, including smallpox and polio."
+    },
+    {
+      "id": "N6",
+      "label": "Global Health Policy",
+      "type": "concept",
+      "depth": 1,
+      "description": "The policies and guidelines that govern global health initiatives and programs, including disease control and prevention.",
+      "importance": 8,
+      "fun_fact": "Global health policy is shaped by international organizations, governments, and non-governmental organizations."
+    },
+    {
+      "id": "N7",
+      "label": "John Snow",
+      "type": "person",
+      "depth": 2,
+      "description": "A British physician who is considered one of the founders of modern epidemiology, known for his work on cholera outbreaks.",
+      "importance": 8,
+      "fun_fact": "John Snow's work on cholera led to the removal of a contaminated water pump in London, which helped to control the outbreak."
+    },
+    {
+      "id": "N8",
+      "label": "Cholera",
+      "type": "example",
+      "depth": 3,
+      "description": "A highly infectious disease caused by the bacterium Vibrio cholerae, often spread through contaminated water or food.",
+      "importance": 7,
+      "fun_fact": "Cholera outbreaks have been responsible for millions of deaths throughout history, but vaccination and improved sanitation have reduced the disease burden."
+    },
+    {
+      "id": "N9",
+      "label": "SARS-CoV-2",
+      "type": "example",
+      "depth": 3,
+      "description": "The virus responsible for the COVID-19 pandemic, which has had a significant impact on global health and economies.",
+      "importance": 9,
+      "fun_fact": "The rapid development and distribution of COVID-19 vaccines have been crucial in controlling the pandemic."
+    },
+    {
+      "id": "N10",
+      "label": "Contact Tracing",
+      "type": "application",
+      "depth": 2,
+      "description": "The process of identifying and monitoring individuals who have come into contact with someone infected with a disease, to prevent further transmission.",
+      "importance": 8,
+      "fun_fact": "Contact tracing is a critical component of disease outbreak investigation and control."
+    },
+    {
+      "id": "N11",
+      "label": "Epidemiological Study Designs",
+      "type": "concept",
+      "depth": 1,
+      "description": "The methods used to design and conduct epidemiological studies, including case-control, cohort, and cross-sectional studies.",
+      "importance": 8,
+      "fun_fact": "Epidemiological study designs are essential for understanding disease causes and risk factors."
+    },
+    {
+      "id": "N12",
+      "label": "Surveillance",
+      "type": "application",
+      "depth": 2,
+      "description": "The ongoing, systematic collection, analysis, and interpretation of health data to monitor disease trends and detect outbreaks.",
+      "importance": 8,
+      "fun_fact": "Surveillance is critical for early detection and response to disease outbreaks."
+    },
+    {
+      "id": "N13",
+      "label": "World Health Organization (WHO)",
+      "type": "organization",
+      "depth": 2,
+      "description": "A specialized agency of the United Nations responsible for international public health, including disease control and prevention.",
+      "importance": 9,
+      "fun_fact": "The WHO plays a crucial role in coordinating global health initiatives and providing technical assistance to countries."
+    },
+    {
+      "id": "N14",
+      "label": "Centers for Disease Control and Prevention (CDC)",
+      "type": "organization",
+      "depth": 2,
+      "description": "A US federal agency responsible for protecting public health and safety through disease control and prevention, including epidemiological investigations.",
+      "importance": 9,
+      "fun_fact": "The CDC is a leading authority on infectious disease control and prevention, and provides guidance and support to healthcare professionals and governments."
+    },
+    {
+      "id": "N15",
+      "label": "Epidemiological Modeling",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of mathematical models to simulate disease transmission and predict the impact of interventions.",
+      "importance": 8,
+      "fun_fact": "Epidemiological modeling is essential for informing public health policy and decision-making."
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Infectious disease control is a key component of epidemiology."
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Statistical analysis of health data is a fundamental aspect of epidemiology."
+    },
+    {
+      "source": "N1",
+      "target": "N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Global health policy is informed by epidemiological research and analysis."
+    },
+    {
+      "source": "N2",
+      "target": "N4",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "Infectious disease control measures often involve disease outbreak investigation."
+    },
+    {
+      "source": "N2",
+      "target": "N5",
+      "relation": "leads_to",
+      "strength": 9,
+      "description": "Infectious disease control measures often involve vaccine development."
+    },
+    {
+      "source": "N3",
+      "target": "N11",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Epidemiological study designs are used to analyze health data."
+    },
+    {
+      "source": "N4",
+      "target": "N7",
+      "relation": "discovered_by",
+      "strength": 8,
+      "description": "John Snow is considered one of the founders of modern epidemiology, and his work on cholera outbreaks is a classic example of disease outbreak investigation."
+    },
+    {
+      "source": "N5",
+      "target": "N9",
+      "relation": "used_in",
+      "strength": 9,
+      "description": "Vaccines have been developed and used to control the spread of SARS-CoV-2."
+    },
+    {
+      "source": "N6",
+      "target": "N13",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Global health policy is shaped by international organizations such as the WHO."
+    },
+    {
+      "source": "N7",
+      "target": "N8",
+      "relation": "discovered_by",
+      "strength": 8,
+      "description": "John Snow's work on cholera led to a greater understanding of the disease and its transmission."
+    },
+    {
+      "source": "N8",
+      "target": "N10",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "Cholera outbreaks often require contact tracing to prevent further transmission."
+    },
+    {
+      "source": "N9",
+      "target": "N12",
+      "relation": "leads_to",
+      "strength": 9,
+      "description": "The COVID-19 pandemic has highlighted the importance of surveillance in detecting and responding to disease outbreaks."
+    },
+    {
+      "source": "N10",
+      "target": "N14",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Contact tracing is a critical component of disease outbreak investigation, and is often conducted by organizations such as the CDC."
+    },
+    {
+      "source": "N11",
+      "target": "N15",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Epidemiological modeling is often used in conjunction with epidemiological study designs to simulate disease transmission and predict the impact of interventions."
+    },
+    {
+      "source": "N12",
+      "target": "N13",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Surveillance is a key component of global health policy, and is often coordinated by international organizations such as the WHO."
+    },
+    {
+      "source": "N13",
+      "target": "N14",
+      "relation": "collaborates_with",
+      "strength": 9,
+      "description": "The WHO and CDC often collaborate on global health initiatives, including disease control and prevention."
+    },
+    {
+      "source": "N14",
+      "target": "N15",
+      "relation": "uses",
+      "strength": 8,
+      "description": "The CDC uses epidemiological modeling to inform public health policy and decision-making."
+    },
+    {
+      "source": "N15",
+      "target": "N1",
+      "relation": "enables",
+      "strength": 8,
+      "description": "Epidemiological modeling enables epidemiologists to better understand disease transmission and develop effective control measures."
+    }
+  ],
+  "key_takeaways": [
+    "Epidemiology is the study and analysis of the distribution, patterns, and determinants of health and disease conditions in a defined population.",
+    "Infectious disease control, statistical analysis of health data, and global health policy are key components of epidemiology.",
+    "Epidemiological study designs, surveillance, and contact tracing are critical tools used in disease outbreak investigation and control."
+  ],
+  "real_world_impact": "Epidemiology has had a significant impact on public health, from the control of infectious diseases such as smallpox and polio, to the response to emerging threats such as COVID-19. By applying epidemiological principles, healthcare professionals can reduce the burden of disease and improve health outcomes. The development of vaccines, improvements in sanitation and hygiene, and the implementation of disease control measures have all been informed by epidemiological research and analysis. As the field continues to evolve, epidemiology will remain a critical component of global health initiatives, shaping policy and practice to protect and promote public health.",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/3548786222_7a3d3208d3_bInfluenzaGrippe.jpg",
+      "title": "3548786222 7a3d3208d3 bInfluenzaGrippe.jpg",
+      "license": "CC BY 2.0",
+      "artist": "Otis Historical Archives nat'l Museum of Health & medicine (OTIS Archive 1)",
+      "description": "Sanitation. Influenza epidemic 1918. Symptomatology.",
+      "width": 2146,
+      "height": 2792,
+      "source_query": "Epidemiology"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Centres_de_surveillance_%C3%A9pid%C3%A9miologique.jpg",
+      "title": "Centres de surveillance \u00e9pid\u00e9miologique.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "GrandBout",
+      "description": "Some national public agencies in charge of public health surveillance",
+      "width": 394,
+      "height": 301,
+      "source_query": "Epidemiology"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Coes-microcefalias---informe-epidemiol--gico---se-47.jpg",
+      "title": "Coes-microcefalias---informe-epidemiol--gico---se-47.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Poligamix",
+      "description": "Acompanhamento microcefalia 28/11/2015 - Dados do Minist\u00e9rio da Sa\u00fade",
+      "width": 690,
+      "height": 511,
+      "source_query": "Epidemiology"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Epidemiology_in_Relation_to_Air_Travel.jpg",
+      "title": "Epidemiology in Relation to Air Travel.jpg",
+      "license": "Public domain",
+      "artist": "Massey, Arthur",
+      "description": "Epidemiology in Relation to Air Travel",
+      "width": 256,
+      "height": 414,
+      "source_query": "Epidemiology"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Epidemiology_nocardiosis.jpg",
+      "title": "Epidemiology nocardiosis.jpg",
+      "license": "CC BY 4.0",
+      "artist": "Wang H, Zhu Y, Cui Q, Wu W, Li G, Chen D, Xiang L, Qu J, Shi D, Lu B.",
+      "description": "nocardiosis",
+      "width": 760,
+      "height": 493,
+      "source_query": "Epidemiology"
+    }
+  ],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Epidemiology",
+    "papers": [],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 18"
+      ],
+      "node_count": 15,
+      "edge_count": 18
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Epidemiological Informatics",
+        "Environmental Health"
+      ],
+      "strengths": [
+        "Clear representation of key concepts in epidemiology",
+        "Good coverage of applications and tools used in the field"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

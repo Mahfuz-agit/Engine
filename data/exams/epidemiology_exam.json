@@ -1,0 +1,161 @@
+{
+  "topic": "Epidemiology",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary goal of epidemiology?",
+      "options": {
+        "A": "To develop new treatments for diseases",
+        "B": "To understand the causes and risk factors of diseases",
+        "C": "To improve healthcare infrastructure",
+        "D": "To reduce healthcare costs"
+      },
+      "correct": "B",
+      "explanation": "Epidemiology aims to understand the distribution, patterns, and determinants of health and disease conditions in a defined population, which includes identifying the causes and risk factors of diseases.",
+      "node_id": "Epidemiology",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which of the following is a key component of epidemiology?",
+      "options": {
+        "A": "Genetic counseling",
+        "B": "Infectious disease control",
+        "C": "Medical imaging",
+        "D": "Pharmaceutical development"
+      },
+      "correct": "B",
+      "explanation": "Infectious disease control is a critical aspect of epidemiology, as it involves preventing and controlling the spread of infectious diseases.",
+      "node_id": "Infectious Disease Control",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the process of identifying and investigating disease outbreaks to determine their causes and control measures?",
+      "options": {
+        "A": "Disease surveillance",
+        "B": "Epidemiological modeling",
+        "C": "Disease outbreak investigation",
+        "D": "Contact tracing"
+      },
+      "correct": "C",
+      "explanation": "Disease outbreak investigation involves a multidisciplinary team of epidemiologists, laboratory scientists, and healthcare professionals working together to identify the causes of a disease outbreak and implement control measures.",
+      "node_id": "Disease Outbreak Investigation",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "Who is considered one of the founders of modern epidemiology?",
+      "options": {
+        "A": "John Snow",
+        "B": "Robert Koch",
+        "C": "Louis Pasteur",
+        "D": "Edward Jenner"
+      },
+      "correct": "A",
+      "explanation": "John Snow is known for his work on cholera outbreaks and is considered one of the founders of modern epidemiology.",
+      "node_id": "John Snow",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the use of statistical methods to analyze and interpret health data?",
+      "options": {
+        "A": "Epidemiological modeling",
+        "B": "Statistical analysis of health data",
+        "C": "Data mining",
+        "D": "Machine learning"
+      },
+      "correct": "B",
+      "explanation": "Statistical analysis of health data involves using statistical methods to analyze and interpret health data, including disease trends and risk factors.",
+      "node_id": "Statistical Analysis of Health Data",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the process of designing, testing, and implementing vaccines to prevent infectious diseases?",
+      "options": {
+        "A": "Vaccine development",
+        "B": "Infectious disease control",
+        "C": "Epidemiological modeling",
+        "D": "Immunotherapy"
+      },
+      "correct": "A",
+      "explanation": "Vaccine development involves designing, testing, and implementing vaccines to prevent infectious diseases, which is a critical aspect of epidemiology.",
+      "node_id": "Vaccine Development",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the policies and guidelines that govern global health initiatives and programs?",
+      "options": {
+        "A": "Global health policy",
+        "B": "International health regulations",
+        "C": "National health policy",
+        "D": "Local health guidelines"
+      },
+      "correct": "A",
+      "explanation": "Global health policy refers to the policies and guidelines that govern global health initiatives and programs, including disease control and prevention.",
+      "node_id": "Global Health Policy",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What is the importance of contact tracing in disease outbreak investigation?",
+      "sample_answer": "Contact tracing is critical in identifying and monitoring individuals who have come into contact with someone infected with a disease, which helps prevent further transmission and controls the spread of the disease.",
+      "keywords": [
+        "contact tracing",
+        "disease outbreak investigation",
+        "transmission control"
+      ],
+      "node_id": "Contact Tracing",
+      "points": 15
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "How does epidemiological modeling contribute to public health policy and decision-making?",
+      "sample_answer": "Epidemiological modeling uses mathematical models to simulate disease transmission and predict the impact of interventions, which informs public health policy and decision-making by providing estimates of the effectiveness of different control measures and identifying the most effective strategies for disease control.",
+      "keywords": [
+        "epidemiological modeling",
+        "public health policy",
+        "decision-making"
+      ],
+      "node_id": "Epidemiological Modeling",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What is the role of the World Health Organization (WHO) in global health initiatives?",
+      "sample_answer": "The WHO plays a crucial role in coordinating global health initiatives and providing technical assistance to countries, including setting global health policies, providing guidance and support for disease control and prevention, and coordinating international responses to public health emergencies.",
+      "keywords": [
+        "World Health Organization",
+        "global health initiatives",
+        "technical assistance"
+      ],
+      "node_id": "World Health Organization (WHO)",
+      "points": 15
+    }
+  ]
+}

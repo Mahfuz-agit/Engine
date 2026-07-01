@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 25,
-  "total_nodes": 374,
-  "total_edges": 461,
+  "total_topics": 26,
+  "total_nodes": 389,
+  "total_edges": 479,
   "topics": [
     {
       "topic": "Climate Change",
@@ -228,6 +228,15 @@
       "edge_count": 19,
       "description": "Demography is the study of the size, structure, and distribution of human populations. It examines the dynamics of population change, including fertility, mortality, and migration patterns. Understanding demography is crucial for predicting population trends, planning public services, and addressing social and economic issues.",
       "added_at": "2026-07-01T11:41:22.518373"
+    },
+    {
+      "topic": "Epidemiology",
+      "slug": "epidemiology",
+      "category": "medicine",
+      "node_count": 15,
+      "edge_count": 18,
+      "description": "Epidemiology is the study and analysis of the distribution, patterns, and determinants of health and disease conditions in a defined population. It aims to understand the causes and risk factors of diseases, and to develop strategies for prevention and control. By applying epidemiological principles, healthcare professionals can reduce the burden of disease and improve public health.",
+      "added_at": "2026-07-01T18:33:05.711305"
     }
   ],
   "global_nodes": [
@@ -4344,6 +4353,171 @@
       "fun_fact": "The UN DESA is a leading source of demographic data and analysis",
       "topic_slug": "demography",
       "topic": "Demography"
+    },
+    {
+      "id": "epidemiology__N1",
+      "label": "Epidemiology",
+      "type": "core",
+      "depth": 0,
+      "description": "The study and analysis of the distribution, patterns, and determinants of health and disease conditions in a defined population.",
+      "importance": 10,
+      "fun_fact": "The term 'epidemiology' comes from the Greek words 'epi' meaning 'upon', 'demos' meaning 'people', and 'logos' meaning 'study'.",
+      "topic_slug": "epidemiology",
+      "topic": "Epidemiology"
+    },
+    {
+      "id": "epidemiology__N2",
+      "label": "Infectious Disease Control",
+      "type": "concept",
+      "depth": 1,
+      "description": "The strategies and methods used to prevent and control the spread of infectious diseases.",
+      "importance": 9,
+      "fun_fact": "Vaccination is one of the most effective ways to control infectious diseases.",
+      "topic_slug": "epidemiology",
+      "topic": "Epidemiology"
+    },
+    {
+      "id": "epidemiology__N3",
+      "label": "Statistical Analysis of Health Data",
+      "type": "concept",
+      "depth": 1,
+      "description": "The use of statistical methods to analyze and interpret health data, including disease trends and risk factors.",
+      "importance": 9,
+      "fun_fact": "Statistical analysis is crucial in identifying disease outbreaks and understanding the effectiveness of interventions.",
+      "topic_slug": "epidemiology",
+      "topic": "Epidemiology"
+    },
+    {
+      "id": "epidemiology__N4",
+      "label": "Disease Outbreak Investigation",
+      "type": "application",
+      "depth": 2,
+      "description": "The process of identifying and investigating disease outbreaks to determine their causes and control measures.",
+      "importance": 8,
+      "fun_fact": "Disease outbreak investigations often involve a multidisciplinary team of epidemiologists, laboratory scientists, and healthcare professionals.",
+      "topic_slug": "epidemiology",
+      "topic": "Epidemiology"
+    },
+    {
+      "id": "epidemiology__N5",
+      "label": "Vaccine Development",
+      "type": "application",
+      "depth": 2,
+      "description": "The process of designing, testing, and implementing vaccines to prevent infectious diseases.",
+      "importance": 9,
+      "fun_fact": "Vaccines have been instrumental in controlling and eliminating many infectious diseases, including smallpox and polio.",
+      "topic_slug": "epidemiology",
+      "topic": "Epidemiology"
+    },
+    {
+      "id": "epidemiology__N6",
+      "label": "Global Health Policy",
+      "type": "concept",
+      "depth": 1,
+      "description": "The policies and guidelines that govern global health initiatives and programs, including disease control and prevention.",
+      "importance": 8,
+      "fun_fact": "Global health policy is shaped by international organizations, governments, and non-governmental organizations.",
+      "topic_slug": "epidemiology",
+      "topic": "Epidemiology"
+    },
+    {
+      "id": "epidemiology__N7",
+      "label": "John Snow",
+      "type": "person",
+      "depth": 2,
+      "description": "A British physician who is considered one of the founders of modern epidemiology, known for his work on cholera outbreaks.",
+      "importance": 8,
+      "fun_fact": "John Snow's work on cholera led to the removal of a contaminated water pump in London, which helped to control the outbreak.",
+      "topic_slug": "epidemiology",
+      "topic": "Epidemiology"
+    },
+    {
+      "id": "epidemiology__N8",
+      "label": "Cholera",
+      "type": "example",
+      "depth": 3,
+      "description": "A highly infectious disease caused by the bacterium Vibrio cholerae, often spread through contaminated water or food.",
+      "importance": 7,
+      "fun_fact": "Cholera outbreaks have been responsible for millions of deaths throughout history, but vaccination and improved sanitation have reduced the disease burden.",
+      "topic_slug": "epidemiology",
+      "topic": "Epidemiology"
+    },
+    {
+      "id": "epidemiology__N9",
+      "label": "SARS-CoV-2",
+      "type": "example",
+      "depth": 3,
+      "description": "The virus responsible for the COVID-19 pandemic, which has had a significant impact on global health and economies.",
+      "importance": 9,
+      "fun_fact": "The rapid development and distribution of COVID-19 vaccines have been crucial in controlling the pandemic.",
+      "topic_slug": "epidemiology",
+      "topic": "Epidemiology"
+    },
+    {
+      "id": "epidemiology__N10",
+      "label": "Contact Tracing",
+      "type": "application",
+      "depth": 2,
+      "description": "The process of identifying and monitoring individuals who have come into contact with someone infected with a disease, to prevent further transmission.",
+      "importance": 8,
+      "fun_fact": "Contact tracing is a critical component of disease outbreak investigation and control.",
+      "topic_slug": "epidemiology",
+      "topic": "Epidemiology"
+    },
+    {
+      "id": "epidemiology__N11",
+      "label": "Epidemiological Study Designs",
+      "type": "concept",
+      "depth": 1,
+      "description": "The methods used to design and conduct epidemiological studies, including case-control, cohort, and cross-sectional studies.",
+      "importance": 8,
+      "fun_fact": "Epidemiological study designs are essential for understanding disease causes and risk factors.",
+      "topic_slug": "epidemiology",
+      "topic": "Epidemiology"
+    },
+    {
+      "id": "epidemiology__N12",
+      "label": "Surveillance",
+      "type": "application",
+      "depth": 2,
+      "description": "The ongoing, systematic collection, analysis, and interpretation of health data to monitor disease trends and detect outbreaks.",
+      "importance": 8,
+      "fun_fact": "Surveillance is critical for early detection and response to disease outbreaks.",
+      "topic_slug": "epidemiology",
+      "topic": "Epidemiology"
+    },
+    {
+      "id": "epidemiology__N13",
+      "label": "World Health Organization (WHO)",
+      "type": "organization",
+      "depth": 2,
+      "description": "A specialized agency of the United Nations responsible for international public health, including disease control and prevention.",
+      "importance": 9,
+      "fun_fact": "The WHO plays a crucial role in coordinating global health initiatives and providing technical assistance to countries.",
+      "topic_slug": "epidemiology",
+      "topic": "Epidemiology"
+    },
+    {
+      "id": "epidemiology__N14",
+      "label": "Centers for Disease Control and Prevention (CDC)",
+      "type": "organization",
+      "depth": 2,
+      "description": "A US federal agency responsible for protecting public health and safety through disease control and prevention, including epidemiological investigations.",
+      "importance": 9,
+      "fun_fact": "The CDC is a leading authority on infectious disease control and prevention, and provides guidance and support to healthcare professionals and governments.",
+      "topic_slug": "epidemiology",
+      "topic": "Epidemiology"
+    },
+    {
+      "id": "epidemiology__N15",
+      "label": "Epidemiological Modeling",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of mathematical models to simulate disease transmission and predict the impact of interventions.",
+      "importance": 8,
+      "fun_fact": "Epidemiological modeling is essential for informing public health policy and decision-making.",
+      "topic_slug": "epidemiology",
+      "topic": "Epidemiology"
     }
   ],
   "global_edges": [
@@ -7573,6 +7747,132 @@
       "relation": "used_in",
       "strength": 6,
       "topic": "Demography"
+    },
+    {
+      "source": "epidemiology__N1",
+      "target": "epidemiology__N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Epidemiology"
+    },
+    {
+      "source": "epidemiology__N1",
+      "target": "epidemiology__N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Epidemiology"
+    },
+    {
+      "source": "epidemiology__N1",
+      "target": "epidemiology__N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Epidemiology"
+    },
+    {
+      "source": "epidemiology__N2",
+      "target": "epidemiology__N4",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Epidemiology"
+    },
+    {
+      "source": "epidemiology__N2",
+      "target": "epidemiology__N5",
+      "relation": "leads_to",
+      "strength": 9,
+      "topic": "Epidemiology"
+    },
+    {
+      "source": "epidemiology__N3",
+      "target": "epidemiology__N11",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Epidemiology"
+    },
+    {
+      "source": "epidemiology__N4",
+      "target": "epidemiology__N7",
+      "relation": "discovered_by",
+      "strength": 8,
+      "topic": "Epidemiology"
+    },
+    {
+      "source": "epidemiology__N5",
+      "target": "epidemiology__N9",
+      "relation": "used_in",
+      "strength": 9,
+      "topic": "Epidemiology"
+    },
+    {
+      "source": "epidemiology__N6",
+      "target": "epidemiology__N13",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Epidemiology"
+    },
+    {
+      "source": "epidemiology__N7",
+      "target": "epidemiology__N8",
+      "relation": "discovered_by",
+      "strength": 8,
+      "topic": "Epidemiology"
+    },
+    {
+      "source": "epidemiology__N8",
+      "target": "epidemiology__N10",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Epidemiology"
+    },
+    {
+      "source": "epidemiology__N9",
+      "target": "epidemiology__N12",
+      "relation": "leads_to",
+      "strength": 9,
+      "topic": "Epidemiology"
+    },
+    {
+      "source": "epidemiology__N10",
+      "target": "epidemiology__N14",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Epidemiology"
+    },
+    {
+      "source": "epidemiology__N11",
+      "target": "epidemiology__N15",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Epidemiology"
+    },
+    {
+      "source": "epidemiology__N12",
+      "target": "epidemiology__N13",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Epidemiology"
+    },
+    {
+      "source": "epidemiology__N13",
+      "target": "epidemiology__N14",
+      "relation": "collaborates_with",
+      "strength": 9,
+      "topic": "Epidemiology"
+    },
+    {
+      "source": "epidemiology__N14",
+      "target": "epidemiology__N15",
+      "relation": "uses",
+      "strength": 8,
+      "topic": "Epidemiology"
+    },
+    {
+      "source": "epidemiology__N15",
+      "target": "epidemiology__N1",
+      "relation": "enables",
+      "strength": 8,
+      "topic": "Epidemiology"
     }
   ],
   "cross_topic_edges": [
@@ -7645,6 +7945,48 @@
       "relation": "cross_topic_connection",
       "strength": 6,
       "label": "systems thinking"
+    },
+    {
+      "source": "public_health__N2",
+      "target": "epidemiology__N1",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "epidemiology"
+    },
+    {
+      "source": "public_health__N3",
+      "target": "epidemiology__N2",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "infectious disease control"
+    },
+    {
+      "source": "public_health__N7",
+      "target": "epidemiology__N7",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "john snow"
+    },
+    {
+      "source": "public_health__N9",
+      "target": "epidemiology__N13",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "world health organization (who)"
+    },
+    {
+      "source": "public_health__N10",
+      "target": "epidemiology__N14",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "centers for disease control and prevention (cdc)"
+    },
+    {
+      "source": "public_health__N12",
+      "target": "epidemiology__N10",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "contact tracing"
     }
   ],
   "category_map": {
@@ -7679,7 +8021,8 @@
     "medicine": [
       "environmental_epidemiology",
       "public_health",
-      "radiation_oncology"
+      "radiation_oncology",
+      "epidemiology"
     ],
     "science": [
       "complex_systems"
@@ -7694,5 +8037,5 @@
       "demography"
     ]
   },
-  "last_updated": "2026-07-01T11:41:22.518412"
+  "last_updated": "2026-07-01T18:33:05.711339"
 }

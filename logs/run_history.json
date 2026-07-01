@@ -323,5 +323,18 @@
     "master_total_topics": 25,
     "ended_at": "2026-07-01T11:41:22.524569",
     "duration_seconds": 34.7
+  },
+  {
+    "started_at": "2026-07-01T18:32:23.442669",
+    "status": "success",
+    "topic": "Epidemiology",
+    "sources_found": 1,
+    "images_found": 5,
+    "quality_score": 87.5,
+    "quality_passed": true,
+    "exam_questions": 10,
+    "master_total_topics": 26,
+    "ended_at": "2026-07-01T18:33:05.717456",
+    "duration_seconds": 42.3
   }
 ]
