@@ -1,0 +1,167 @@
+{
+  "topic": "Demography",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary focus of demography as a field of study?",
+      "options": {
+        "A": "The study of the size, structure, and distribution of human populations",
+        "B": "The study of economic systems and their impact on society",
+        "C": "The study of environmental factors and their effect on human health",
+        "D": "The study of political systems and their influence on population trends"
+      },
+      "correct": "A",
+      "explanation": "Demography is defined as the study of the size, structure, and distribution of human populations, making option A the correct answer.",
+      "node_id": "Demography",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which of the following factors can influence migration patterns?",
+      "options": {
+        "A": "Economic opportunities and education level",
+        "B": "War and environmental disasters",
+        "C": "Access to healthcare and family planning resources",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanation": "Migration patterns can be influenced by a variety of factors, including economic opportunities, war, environmental disasters, and more. Therefore, option D is the correct answer.",
+      "node_id": "Migration Patterns",
+      "points": 15
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the process by which a society's population changes from high birth and death rates to low birth and death rates?",
+      "options": {
+        "A": "Demographic transition",
+        "B": "Population dynamics",
+        "C": "Urbanization",
+        "D": "Fertility rate shift"
+      },
+      "correct": "A",
+      "explanation": "The demographic transition is a well-established concept in demography that describes the change in population characteristics over time. Option A is the correct answer.",
+      "node_id": "Demographic Transition",
+      "points": 20
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "Who is known for his theory that population growth will eventually outstrip food supply, leading to poverty and famine?",
+      "options": {
+        "A": "Thomas Malthus",
+        "B": "Achille Guillard",
+        "C": "Karl Marx",
+        "D": "Charles Darwin"
+      },
+      "correct": "A",
+      "explanation": "Thomas Malthus is famous for his theory on population growth and its effects on society, making option A the correct answer.",
+      "node_id": "Thomas Malthus",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is a population pyramid used for?",
+      "options": {
+        "A": "To predict future population trends and plan public services",
+        "B": "To study the impact of environmental factors on human health",
+        "C": "To analyze the effects of economic systems on society",
+        "D": "To understand the dynamics of migration patterns"
+      },
+      "correct": "A",
+      "explanation": "A population pyramid is a graphical representation of a population's age and sex structure, used to predict future population trends and plan public services. Option A is the correct answer.",
+      "node_id": "Population Pyramid",
+      "points": 15
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "Which of the following is NOT a key aspect of demography?",
+      "options": {
+        "A": "Population dynamics",
+        "B": "Migration patterns",
+        "C": "Fertility rates",
+        "D": "Geological formations"
+      },
+      "correct": "D",
+      "explanation": "Geological formations are not a key aspect of demography, which focuses on human populations. Option D is the correct answer.",
+      "node_id": "Demography",
+      "points": 20
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the study of population data to understand trends and patterns?",
+      "options": {
+        "A": "Demographic analysis",
+        "B": "Population dynamics",
+        "C": "Statistical modeling",
+        "D": "Data mining"
+      },
+      "correct": "A",
+      "explanation": "Demographic analysis is the study of population data to understand trends and patterns, making option A the correct answer.",
+      "node_id": "Demographic Analysis",
+      "points": 15
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Explain the concept of urbanization and its effects on population dynamics.",
+      "sample_answer": "Urbanization is the process of people moving from rural areas to cities, leading to changes in population dynamics, including increased fertility rates and mortality rates. This can result in a shift in the population pyramid, with a larger proportion of younger people in urban areas.",
+      "keywords": [
+        "urbanization",
+        "population dynamics",
+        "fertility rates",
+        "mortality rates"
+      ],
+      "node_id": "Urbanization",
+      "points": 20
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Describe the demographic transition and its stages, including the factors that influence the transition from high birth and death rates to low birth and death rates.",
+      "sample_answer": "The demographic transition is a model that describes the change in population characteristics over time, from high birth and death rates to low birth and death rates. The stages include: (1) high birth and death rates, (2) declining death rates, (3) declining birth rates, and (4) low birth and death rates. Factors that influence this transition include improvements in healthcare, education, and economic development.",
+      "keywords": [
+        "demographic transition",
+        "stages",
+        "factors",
+        "healthcare",
+        "education",
+        "economic development"
+      ],
+      "node_id": "Demographic Transition",
+      "points": 25
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What are some of the key applications of demographic analysis in various fields, such as marketing, healthcare, and urban planning?",
+      "sample_answer": "Demographic analysis is used in marketing to understand consumer behavior and target specific demographics. In healthcare, it is used to predict disease trends and plan healthcare services. In urban planning, it is used to design cities and plan public services, such as transportation and education.",
+      "keywords": [
+        "demographic analysis",
+        "marketing",
+        "healthcare",
+        "urban planning",
+        "applications"
+      ],
+      "node_id": "Demographic Analysis",
+      "points": 20
+    }
+  ]
+}

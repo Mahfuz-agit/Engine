@@ -1,0 +1,371 @@
+{
+  "topic": "Demography",
+  "category": "sociology",
+  "description": "Demography is the study of the size, structure, and distribution of human populations. It examines the dynamics of population change, including fertility, mortality, and migration patterns. Understanding demography is crucial for predicting population trends, planning public services, and addressing social and economic issues.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Demography",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of the size, structure, and distribution of human populations",
+      "importance": 10,
+      "fun_fact": "The term 'demography' was first used by the Belgian mathematician and statistician Achille Guillard in 1855"
+    },
+    {
+      "id": "N2",
+      "label": "Population Dynamics",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the changes in population size and structure over time",
+      "importance": 9,
+      "fun_fact": "Population dynamics is influenced by factors such as fertility, mortality, and migration"
+    },
+    {
+      "id": "N3",
+      "label": "Migration Patterns",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the movement of people from one place to another",
+      "importance": 8,
+      "fun_fact": "Migration patterns can be influenced by factors such as economic opportunities, war, and environmental disasters"
+    },
+    {
+      "id": "N4",
+      "label": "Fertility Rates",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the number of births per 1,000 people per year",
+      "importance": 8,
+      "fun_fact": "Fertility rates are influenced by factors such as education, income, and access to family planning resources"
+    },
+    {
+      "id": "N5",
+      "label": "Mortality Rates",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the number of deaths per 1,000 people per year",
+      "importance": 8,
+      "fun_fact": "Mortality rates are influenced by factors such as healthcare access, lifestyle, and environmental factors"
+    },
+    {
+      "id": "N6",
+      "label": "Urbanization",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process of people moving from rural areas to cities",
+      "importance": 8,
+      "fun_fact": "Urbanization can lead to changes in population dynamics, including increased fertility rates and mortality rates"
+    },
+    {
+      "id": "N7",
+      "label": "Thomas Malthus",
+      "type": "person",
+      "depth": 2,
+      "description": "An English economist and demographer who wrote about population growth and its effects on society",
+      "importance": 7,
+      "fun_fact": "Malthus is known for his theory that population growth will eventually outstrip food supply, leading to poverty and famine"
+    },
+    {
+      "id": "N8",
+      "label": "Demographic Transition",
+      "type": "concept",
+      "depth": 2,
+      "description": "The process by which a society's population changes from high birth and death rates to low birth and death rates",
+      "importance": 8,
+      "fun_fact": "The demographic transition is often associated with economic development and improvements in healthcare"
+    },
+    {
+      "id": "N9",
+      "label": "Population Pyramid",
+      "type": "application",
+      "depth": 2,
+      "description": "A graphical representation of a population's age and sex structure",
+      "importance": 7,
+      "fun_fact": "Population pyramids can be used to predict future population trends and plan public services"
+    },
+    {
+      "id": "N10",
+      "label": "Census Data",
+      "type": "example",
+      "depth": 3,
+      "description": "Data collected by governments to understand population size, structure, and distribution",
+      "importance": 6,
+      "fun_fact": "Census data is used to inform policy decisions and allocate resources"
+    },
+    {
+      "id": "N11",
+      "label": "Population Growth Rate",
+      "type": "formula",
+      "depth": 3,
+      "description": "The rate at which a population is growing or declining",
+      "importance": 6,
+      "fun_fact": "The population growth rate is calculated using the formula: (births - deaths + migration) / total population"
+    },
+    {
+      "id": "N12",
+      "label": "Aging Population",
+      "type": "example",
+      "depth": 3,
+      "description": "A population with a high proportion of older adults",
+      "importance": 6,
+      "fun_fact": "Aging populations can lead to changes in population dynamics, including increased healthcare costs and pension liabilities"
+    },
+    {
+      "id": "N13",
+      "label": "Youth Bulge",
+      "type": "example",
+      "depth": 3,
+      "description": "A population with a high proportion of young people",
+      "importance": 6,
+      "fun_fact": "Youth bulges can lead to changes in population dynamics, including increased economic growth and social unrest"
+    },
+    {
+      "id": "N14",
+      "label": "Demographic Analysis",
+      "type": "application",
+      "depth": 2,
+      "description": "The study of population data to understand trends and patterns",
+      "importance": 7,
+      "fun_fact": "Demographic analysis is used in a variety of fields, including marketing, healthcare, and urban planning"
+    },
+    {
+      "id": "N15",
+      "label": "United Nations Department of Economic and Social Affairs",
+      "type": "example",
+      "depth": 3,
+      "description": "A organization that provides demographic data and analysis to inform policy decisions",
+      "importance": 6,
+      "fun_fact": "The UN DESA is a leading source of demographic data and analysis"
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Population dynamics is a key aspect of demography"
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Migration patterns are an important aspect of demography"
+    },
+    {
+      "source": "N1",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Fertility rates are a key aspect of demography"
+    },
+    {
+      "source": "N1",
+      "target": "N5",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Mortality rates are an important aspect of demography"
+    },
+    {
+      "source": "N1",
+      "target": "N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Urbanization is a key aspect of demography"
+    },
+    {
+      "source": "N2",
+      "target": "N7",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "Thomas Malthus is known for his work on population growth and its effects on society"
+    },
+    {
+      "source": "N2",
+      "target": "N8",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "Population dynamics can lead to demographic transition"
+    },
+    {
+      "source": "N3",
+      "target": "N9",
+      "relation": "used_in",
+      "strength": 7,
+      "description": "Population pyramids are used to understand migration patterns"
+    },
+    {
+      "source": "N4",
+      "target": "N10",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "Census data is used to understand fertility rates"
+    },
+    {
+      "source": "N5",
+      "target": "N11",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "Population growth rate is calculated using mortality rates"
+    },
+    {
+      "source": "N6",
+      "target": "N12",
+      "relation": "leads_to",
+      "strength": 7,
+      "description": "Urbanization can lead to aging populations"
+    },
+    {
+      "source": "N6",
+      "target": "N13",
+      "relation": "leads_to",
+      "strength": 7,
+      "description": "Urbanization can lead to youth bulges"
+    },
+    {
+      "source": "N7",
+      "target": "N8",
+      "relation": "discovered_by",
+      "strength": 7,
+      "description": "Thomas Malthus is known for his work on demographic transition"
+    },
+    {
+      "source": "N8",
+      "target": "N14",
+      "relation": "used_in",
+      "strength": 7,
+      "description": "Demographic analysis is used to understand demographic transition"
+    },
+    {
+      "source": "N9",
+      "target": "N15",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "Population pyramids are used by the United Nations Department of Economic and Social Affairs"
+    },
+    {
+      "source": "N10",
+      "target": "N15",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "Census data is used by the United Nations Department of Economic and Social Affairs"
+    },
+    {
+      "source": "N11",
+      "target": "N15",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "Population growth rate is used by the United Nations Department of Economic and Social Affairs"
+    },
+    {
+      "source": "N12",
+      "target": "N15",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "Aging population data is used by the United Nations Department of Economic and Social Affairs"
+    },
+    {
+      "source": "N13",
+      "target": "N15",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "Youth bulge data is used by the United Nations Department of Economic and Social Affairs"
+    }
+  ],
+  "key_takeaways": [
+    "Demography is the study of the size, structure, and distribution of human populations",
+    "Population dynamics, migration patterns, fertility rates, mortality rates, and urbanization are all key aspects of demography",
+    "Demographic analysis is used in a variety of fields, including marketing, healthcare, and urban planning"
+  ],
+  "real_world_impact": "Understanding demography is crucial for predicting population trends, planning public services, and addressing social and economic issues. Demographic analysis is used by governments, businesses, and organizations to inform policy decisions and allocate resources. For example, demographic data is used to predict future population growth, plan healthcare services, and allocate resources for education and infrastructure. Additionally, demographic analysis is used in marketing and advertising to understand consumer behavior and target specific demographics.",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Crescimento_Populacional_de_Aba%C3%ADra.jpg",
+      "title": "Crescimento Populacional de Aba\u00edra.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "J\u00falia Silveira Mota",
+      "description": "Population growth of Aba\u00edra according to the IBGE demographic census.",
+      "width": 1150,
+      "height": 661,
+      "source_query": "Demography"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Crescimento_Populacional_de_Itua%C3%A7u.jpg",
+      "title": "Crescimento Populacional de Itua\u00e7u.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Gabriela Piloto",
+      "description": "Crescimento populacional do munic\u00edpio de Itua\u00e7u nos Censos do IBGE",
+      "width": 1512,
+      "height": 801,
+      "source_query": "Demography"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Demographic_society.png",
+      "title": "Demographic society.png",
+      "license": "CC BY-SA 4.0",
+      "artist": "TheGodfatherVitoCorleone",
+      "description": "evolution of society",
+      "width": 488,
+      "height": 373,
+      "source_query": "Demography"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Guanambi_Censo_IBGE.jpg",
+      "title": "Guanambi Censo IBGE.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Caroline Viana Jesus",
+      "description": "Popula\u00e7\u00e3o residente do munic\u00edpio Guanambi de acordo com os censos do IBGE - Brasil",
+      "width": 2000,
+      "height": 1057,
+      "source_query": "Demography"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Kerala_Population_Pyramid_in_5-year_age_groups_%282011_census%29.png",
+      "title": "Kerala Population Pyramid in 5-year age groups (2011 census).png",
+      "license": "CC BY-SA 4.0",
+      "artist": "Timothy Philip",
+      "description": "Kerala population pyramid (age pyramid) in 5-year age groups. Data from the 2011 National Indian Census. ages 0-80+.",
+      "width": 1065,
+      "height": 601,
+      "source_query": "Demography"
+    }
+  ],
+  "sources": {
+    "wikipedia_url": "",
+    "papers": [],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 19"
+      ],
+      "node_count": 15,
+      "edge_count": 19
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Population Projections",
+        "Demographic Indicators"
+      ],
+      "strengths": [
+        "Clear representation of key demographic concepts",
+        "Good connectivity between nodes"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

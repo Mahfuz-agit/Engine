@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 24,
-  "total_nodes": 359,
-  "total_edges": 442,
+  "total_topics": 25,
+  "total_nodes": 374,
+  "total_edges": 461,
   "topics": [
     {
       "topic": "Climate Change",
@@ -219,6 +219,15 @@
       "edge_count": 19,
       "description": "Geophysics is a physical science concerned with the processes and properties of Earth and its surrounding space environment. It focuses primarily on Earth\u2019s shape and its gravitational, magnetic, and electromagnetic fields. Geophysics also encompasses a broader Earth-system and planetary perspective, including the oceans, atmosphere, cryosphere, ionosphere, magnetosphere, as well as solar\u2013terrestrial interactions and analogous processes on the Moon, other planets, and their satellites.",
       "added_at": "2026-06-30T23:53:51.109568"
+    },
+    {
+      "topic": "Demography",
+      "slug": "demography",
+      "category": "sociology",
+      "node_count": 15,
+      "edge_count": 19,
+      "description": "Demography is the study of the size, structure, and distribution of human populations. It examines the dynamics of population change, including fertility, mortality, and migration patterns. Understanding demography is crucial for predicting population trends, planning public services, and addressing social and economic issues.",
+      "added_at": "2026-07-01T11:41:22.518373"
     }
   ],
   "global_nodes": [
@@ -4170,6 +4179,171 @@
       "fun_fact": "Earthquake prediction helps us save lives and mitigate the impact of earthquakes",
       "topic_slug": "geophysics",
       "topic": "Geophysics"
+    },
+    {
+      "id": "demography__N1",
+      "label": "Demography",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of the size, structure, and distribution of human populations",
+      "importance": 10,
+      "fun_fact": "The term 'demography' was first used by the Belgian mathematician and statistician Achille Guillard in 1855",
+      "topic_slug": "demography",
+      "topic": "Demography"
+    },
+    {
+      "id": "demography__N2",
+      "label": "Population Dynamics",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the changes in population size and structure over time",
+      "importance": 9,
+      "fun_fact": "Population dynamics is influenced by factors such as fertility, mortality, and migration",
+      "topic_slug": "demography",
+      "topic": "Demography"
+    },
+    {
+      "id": "demography__N3",
+      "label": "Migration Patterns",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the movement of people from one place to another",
+      "importance": 8,
+      "fun_fact": "Migration patterns can be influenced by factors such as economic opportunities, war, and environmental disasters",
+      "topic_slug": "demography",
+      "topic": "Demography"
+    },
+    {
+      "id": "demography__N4",
+      "label": "Fertility Rates",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the number of births per 1,000 people per year",
+      "importance": 8,
+      "fun_fact": "Fertility rates are influenced by factors such as education, income, and access to family planning resources",
+      "topic_slug": "demography",
+      "topic": "Demography"
+    },
+    {
+      "id": "demography__N5",
+      "label": "Mortality Rates",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the number of deaths per 1,000 people per year",
+      "importance": 8,
+      "fun_fact": "Mortality rates are influenced by factors such as healthcare access, lifestyle, and environmental factors",
+      "topic_slug": "demography",
+      "topic": "Demography"
+    },
+    {
+      "id": "demography__N6",
+      "label": "Urbanization",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process of people moving from rural areas to cities",
+      "importance": 8,
+      "fun_fact": "Urbanization can lead to changes in population dynamics, including increased fertility rates and mortality rates",
+      "topic_slug": "demography",
+      "topic": "Demography"
+    },
+    {
+      "id": "demography__N7",
+      "label": "Thomas Malthus",
+      "type": "person",
+      "depth": 2,
+      "description": "An English economist and demographer who wrote about population growth and its effects on society",
+      "importance": 7,
+      "fun_fact": "Malthus is known for his theory that population growth will eventually outstrip food supply, leading to poverty and famine",
+      "topic_slug": "demography",
+      "topic": "Demography"
+    },
+    {
+      "id": "demography__N8",
+      "label": "Demographic Transition",
+      "type": "concept",
+      "depth": 2,
+      "description": "The process by which a society's population changes from high birth and death rates to low birth and death rates",
+      "importance": 8,
+      "fun_fact": "The demographic transition is often associated with economic development and improvements in healthcare",
+      "topic_slug": "demography",
+      "topic": "Demography"
+    },
+    {
+      "id": "demography__N9",
+      "label": "Population Pyramid",
+      "type": "application",
+      "depth": 2,
+      "description": "A graphical representation of a population's age and sex structure",
+      "importance": 7,
+      "fun_fact": "Population pyramids can be used to predict future population trends and plan public services",
+      "topic_slug": "demography",
+      "topic": "Demography"
+    },
+    {
+      "id": "demography__N10",
+      "label": "Census Data",
+      "type": "example",
+      "depth": 3,
+      "description": "Data collected by governments to understand population size, structure, and distribution",
+      "importance": 6,
+      "fun_fact": "Census data is used to inform policy decisions and allocate resources",
+      "topic_slug": "demography",
+      "topic": "Demography"
+    },
+    {
+      "id": "demography__N11",
+      "label": "Population Growth Rate",
+      "type": "formula",
+      "depth": 3,
+      "description": "The rate at which a population is growing or declining",
+      "importance": 6,
+      "fun_fact": "The population growth rate is calculated using the formula: (births - deaths + migration) / total population",
+      "topic_slug": "demography",
+      "topic": "Demography"
+    },
+    {
+      "id": "demography__N12",
+      "label": "Aging Population",
+      "type": "example",
+      "depth": 3,
+      "description": "A population with a high proportion of older adults",
+      "importance": 6,
+      "fun_fact": "Aging populations can lead to changes in population dynamics, including increased healthcare costs and pension liabilities",
+      "topic_slug": "demography",
+      "topic": "Demography"
+    },
+    {
+      "id": "demography__N13",
+      "label": "Youth Bulge",
+      "type": "example",
+      "depth": 3,
+      "description": "A population with a high proportion of young people",
+      "importance": 6,
+      "fun_fact": "Youth bulges can lead to changes in population dynamics, including increased economic growth and social unrest",
+      "topic_slug": "demography",
+      "topic": "Demography"
+    },
+    {
+      "id": "demography__N14",
+      "label": "Demographic Analysis",
+      "type": "application",
+      "depth": 2,
+      "description": "The study of population data to understand trends and patterns",
+      "importance": 7,
+      "fun_fact": "Demographic analysis is used in a variety of fields, including marketing, healthcare, and urban planning",
+      "topic_slug": "demography",
+      "topic": "Demography"
+    },
+    {
+      "id": "demography__N15",
+      "label": "United Nations Department of Economic and Social Affairs",
+      "type": "example",
+      "depth": 3,
+      "description": "A organization that provides demographic data and analysis to inform policy decisions",
+      "importance": 6,
+      "fun_fact": "The UN DESA is a leading source of demographic data and analysis",
+      "topic_slug": "demography",
+      "topic": "Demography"
     }
   ],
   "global_edges": [
@@ -7266,6 +7440,139 @@
       "relation": "evolved_from",
       "strength": 9,
       "topic": "Geophysics"
+    },
+    {
+      "source": "demography__N1",
+      "target": "demography__N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Demography"
+    },
+    {
+      "source": "demography__N1",
+      "target": "demography__N3",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Demography"
+    },
+    {
+      "source": "demography__N1",
+      "target": "demography__N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Demography"
+    },
+    {
+      "source": "demography__N1",
+      "target": "demography__N5",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Demography"
+    },
+    {
+      "source": "demography__N1",
+      "target": "demography__N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Demography"
+    },
+    {
+      "source": "demography__N2",
+      "target": "demography__N7",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Demography"
+    },
+    {
+      "source": "demography__N2",
+      "target": "demography__N8",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Demography"
+    },
+    {
+      "source": "demography__N3",
+      "target": "demography__N9",
+      "relation": "used_in",
+      "strength": 7,
+      "topic": "Demography"
+    },
+    {
+      "source": "demography__N4",
+      "target": "demography__N10",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Demography"
+    },
+    {
+      "source": "demography__N5",
+      "target": "demography__N11",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Demography"
+    },
+    {
+      "source": "demography__N6",
+      "target": "demography__N12",
+      "relation": "leads_to",
+      "strength": 7,
+      "topic": "Demography"
+    },
+    {
+      "source": "demography__N6",
+      "target": "demography__N13",
+      "relation": "leads_to",
+      "strength": 7,
+      "topic": "Demography"
+    },
+    {
+      "source": "demography__N7",
+      "target": "demography__N8",
+      "relation": "discovered_by",
+      "strength": 7,
+      "topic": "Demography"
+    },
+    {
+      "source": "demography__N8",
+      "target": "demography__N14",
+      "relation": "used_in",
+      "strength": 7,
+      "topic": "Demography"
+    },
+    {
+      "source": "demography__N9",
+      "target": "demography__N15",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Demography"
+    },
+    {
+      "source": "demography__N10",
+      "target": "demography__N15",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Demography"
+    },
+    {
+      "source": "demography__N11",
+      "target": "demography__N15",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Demography"
+    },
+    {
+      "source": "demography__N12",
+      "target": "demography__N15",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Demography"
+    },
+    {
+      "source": "demography__N13",
+      "target": "demography__N15",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Demography"
     }
   ],
   "cross_topic_edges": [
@@ -7382,7 +7689,10 @@
     ],
     "astronomy": [
       "archaeoastronomy"
+    ],
+    "sociology": [
+      "demography"
     ]
   },
-  "last_updated": "2026-06-30T23:53:51.109603"
+  "last_updated": "2026-07-01T11:41:22.518412"
 }
