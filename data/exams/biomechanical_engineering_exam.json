@@ -1,0 +1,163 @@
+{
+  "topic": "Biomechanical Engineering",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary focus of biomechanical engineering?",
+      "options": {
+        "A": "To develop innovative solutions for healthcare and rehabilitation",
+        "B": "To study the chemical aspects of living systems",
+        "C": "To understand the electrical properties of biological tissues",
+        "D": "To develop new materials for industrial applications"
+      },
+      "correct": "A",
+      "explanation": "Biomechanical engineering combines principles of physics, biology, and engineering to understand the mechanical aspects of living systems, with a focus on developing innovative solutions for healthcare and rehabilitation.",
+      "node_id": "Biomechanical Engineering",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the role of biomaterials in biomechanical engineering?",
+      "options": {
+        "A": "To develop computational models of human movement",
+        "B": "To design orthopedic implants and medical devices",
+        "C": "To study the properties of living tissues",
+        "D": "To create functional tissue substitutes"
+      },
+      "correct": "B",
+      "explanation": "Biomaterials are used to develop medical devices and implants that interact with living tissues, such as orthopedic implants and medical devices.",
+      "node_id": "Biomaterials",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the difference between tissue engineering and regenerative medicine?",
+      "options": {
+        "A": "Tissue engineering focuses on developing functional tissue substitutes, while regenerative medicine focuses on repairing damaged tissues",
+        "B": "Tissue engineering focuses on repairing damaged tissues, while regenerative medicine focuses on developing functional tissue substitutes",
+        "C": "Tissue engineering is a subset of regenerative medicine",
+        "D": "Regenerative medicine is a subset of tissue engineering"
+      },
+      "correct": "A",
+      "explanation": "Tissue engineering focuses on developing functional tissue substitutes to repair or replace damaged tissues, while regenerative medicine involves the use of biomaterials, stem cells, and growth factors to develop functional tissue substitutes and repair or replace damaged tissues and organs.",
+      "node_id": "Tissue Engineering",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "Who is known as the 'father of biomechanics'?",
+      "options": {
+        "A": "Y.C. Fung",
+        "B": "Albert Einstein",
+        "C": "Isaac Newton",
+        "D": "Galileo Galilei"
+      },
+      "correct": "A",
+      "explanation": "Y.C. Fung is known as the 'father of biomechanics' for his pioneering work in the field.",
+      "node_id": "Y.C. Fung",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the application of computational modeling of human movement in biomechanical engineering?",
+      "options": {
+        "A": "To develop personalized rehabilitation plans and optimize athletic performance",
+        "B": "To design orthopedic implants and medical devices",
+        "C": "To study the properties of living tissues",
+        "D": "To create functional tissue substitutes"
+      },
+      "correct": "A",
+      "explanation": "Computational models of human movement can be used to develop personalized rehabilitation plans and optimize athletic performance.",
+      "node_id": "Computational Modeling of Human Movement",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the role of biomechanical modeling in biomechanical engineering?",
+      "options": {
+        "A": "To develop computational models of human movement",
+        "B": "To design orthopedic implants and medical devices",
+        "C": "To simulate and predict the behavior of living systems",
+        "D": "To create functional tissue substitutes"
+      },
+      "correct": "C",
+      "explanation": "Biomechanical modeling involves the use of mathematical models to simulate and predict the behavior of living systems, which can be used to develop personalized medicine and optimize treatment outcomes.",
+      "node_id": "Biomechanical Modeling",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the application of rehabilitation robotics in biomechanical engineering?",
+      "options": {
+        "A": "To develop personalized rehabilitation plans and optimize athletic performance",
+        "B": "To design orthopedic implants and medical devices",
+        "C": "To assist patients with physical disabilities or injuries during rehabilitation",
+        "D": "To create functional tissue substitutes"
+      },
+      "correct": "C",
+      "explanation": "Rehabilitation robots can provide personalized therapy and feedback to patients, improving their recovery outcomes.",
+      "node_id": "Rehabilitation Robotics",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What are the key concepts in biomechanical engineering?",
+      "sample_answer": "Biomaterials, tissue engineering, and computational modeling of human movement",
+      "keywords": [
+        "biomaterials",
+        "tissue engineering",
+        "computational modeling"
+      ],
+      "node_id": "Biomechanical Engineering",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "How does tissue growth influence the development of functional tissue substitutes in tissue engineering?",
+      "sample_answer": "Tissue growth is influenced by mechanical forces, growth factors, and biomaterials, which can be used to develop functional tissue substitutes",
+      "keywords": [
+        "tissue growth",
+        "mechanical forces",
+        "growth factors",
+        "biomaterials"
+      ],
+      "node_id": "Tissue Growth",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What is the role of collagen in biomechanical engineering?",
+      "sample_answer": "Collagen is a type of biomaterial used in tissue engineering and regenerative medicine to develop functional tissue substitutes",
+      "keywords": [
+        "collagen",
+        "biomaterial",
+        "tissue engineering",
+        "regenerative medicine"
+      ],
+      "node_id": "Collagen",
+      "points": 10
+    }
+  ]
+}

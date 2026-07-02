@@ -362,5 +362,18 @@
     "master_total_topics": 28,
     "ended_at": "2026-07-02T10:20:28.475346",
     "duration_seconds": 37.6
+  },
+  {
+    "started_at": "2026-07-02T18:17:37.980462",
+    "status": "success",
+    "topic": "Biomechanical Engineering",
+    "sources_found": 6,
+    "images_found": 5,
+    "quality_score": 87.5,
+    "quality_passed": true,
+    "exam_questions": 10,
+    "master_total_topics": 29,
+    "ended_at": "2026-07-02T18:18:16.717610",
+    "duration_seconds": 38.7
   }
 ]

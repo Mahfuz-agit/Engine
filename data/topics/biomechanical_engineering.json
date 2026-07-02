@@ -1,0 +1,384 @@
+{
+  "topic": "Biomechanical Engineering",
+  "category": "engineering",
+  "description": "Biomechanical engineering is a multidisciplinary field that combines principles of physics, biology, and engineering to understand the mechanical aspects of living systems. It involves the application of mechanical principles to medical and biological systems, with a focus on developing innovative solutions for healthcare and rehabilitation. Biomechanical engineers work on designing implants, prostheses, and medical devices, as well as developing computational models to simulate human movement and tissue mechanics.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Biomechanical Engineering",
+      "type": "core",
+      "depth": 0,
+      "description": "A multidisciplinary field that combines principles of physics, biology, and engineering to understand the mechanical aspects of living systems.",
+      "importance": 10,
+      "fun_fact": "The term 'biomechanical engineering' was first coined in the 1960s."
+    },
+    {
+      "id": "N2",
+      "label": "Biomaterials",
+      "type": "concept",
+      "depth": 1,
+      "description": "Materials used to develop medical devices and implants that interact with living tissues.",
+      "importance": 8,
+      "fun_fact": "Biomaterials can be derived from natural sources, such as collagen, or synthetic sources, such as titanium."
+    },
+    {
+      "id": "N3",
+      "label": "Tissue Engineering",
+      "type": "concept",
+      "depth": 1,
+      "description": "A field that focuses on developing functional tissue substitutes to repair or replace damaged tissues.",
+      "importance": 9,
+      "fun_fact": "Tissue engineering involves the use of biomaterials, cells, and growth factors to create functional tissue substitutes."
+    },
+    {
+      "id": "N4",
+      "label": "Orthopedic Implants",
+      "type": "application",
+      "depth": 2,
+      "description": "Medical devices used to replace or repair damaged joints, bones, and muscles.",
+      "importance": 8,
+      "fun_fact": "Orthopedic implants can be made from a variety of biomaterials, including titanium, stainless steel, and ceramic."
+    },
+    {
+      "id": "N5",
+      "label": "Rehabilitation Robotics",
+      "type": "application",
+      "depth": 2,
+      "description": "Robotic systems used to assist patients with physical disabilities or injuries during rehabilitation.",
+      "importance": 8,
+      "fun_fact": "Rehabilitation robots can provide personalized therapy and feedback to patients, improving their recovery outcomes."
+    },
+    {
+      "id": "N6",
+      "label": "Computational Modeling of Human Movement",
+      "type": "concept",
+      "depth": 1,
+      "description": "The use of mathematical models and computer simulations to understand and predict human movement patterns.",
+      "importance": 9,
+      "fun_fact": "Computational models of human movement can be used to develop personalized rehabilitation plans and optimize athletic performance."
+    },
+    {
+      "id": "N7",
+      "label": "Y.C. Fung",
+      "type": "person",
+      "depth": 2,
+      "description": "A renowned biomechanical engineer who made significant contributions to the field of biomechanics.",
+      "importance": 7,
+      "fun_fact": "Y.C. Fung is known as the 'father of biomechanics' for his pioneering work in the field."
+    },
+    {
+      "id": "N8",
+      "label": "Biomechanics",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the mechanical aspects of living systems, including the structure, function, and movement of living organisms.",
+      "importance": 9,
+      "fun_fact": "Biomechanics is an interdisciplinary field that combines principles from biology, physics, and engineering."
+    },
+    {
+      "id": "N9",
+      "label": "Regenerative Medicine",
+      "type": "application",
+      "depth": 2,
+      "description": "A field that focuses on developing innovative therapies to repair or replace damaged tissues and organs.",
+      "importance": 8,
+      "fun_fact": "Regenerative medicine involves the use of biomaterials, stem cells, and growth factors to develop functional tissue substitutes."
+    },
+    {
+      "id": "N10",
+      "label": "Collagen",
+      "type": "concept",
+      "depth": 2,
+      "description": "A type of biomaterial used in tissue engineering and regenerative medicine.",
+      "importance": 7,
+      "fun_fact": "Collagen is the most abundant protein in the human body and is used in a variety of biomedical applications."
+    },
+    {
+      "id": "N11",
+      "label": "Tissue Growth",
+      "type": "concept",
+      "depth": 2,
+      "description": "The process by which tissues develop, grow, and maintain their structure and function.",
+      "importance": 8,
+      "fun_fact": "Tissue growth is influenced by a variety of factors, including mechanical forces, growth factors, and biomaterials."
+    },
+    {
+      "id": "N12",
+      "label": "Heart Valve Replacement",
+      "type": "example",
+      "depth": 3,
+      "description": "A surgical procedure that involves replacing a damaged heart valve with a prosthetic valve.",
+      "importance": 6,
+      "fun_fact": "Heart valve replacement is a common application of biomechanical engineering in cardiovascular medicine."
+    },
+    {
+      "id": "N13",
+      "label": "Prosthetic Limbs",
+      "type": "example",
+      "depth": 3,
+      "description": "Artificial limbs used to replace missing or damaged limbs.",
+      "importance": 6,
+      "fun_fact": "Prosthetic limbs can be designed to mimic the natural movement and function of human limbs."
+    },
+    {
+      "id": "N14",
+      "label": "Biomechanical Modeling",
+      "type": "concept",
+      "depth": 2,
+      "description": "The use of mathematical models to simulate and predict the behavior of living systems.",
+      "importance": 8,
+      "fun_fact": "Biomechanical modeling can be used to develop personalized medicine and optimize treatment outcomes."
+    },
+    {
+      "id": "N15",
+      "label": "Medical Devices",
+      "type": "application",
+      "depth": 2,
+      "description": "Devices used to diagnose, treat, or prevent medical conditions.",
+      "importance": 8,
+      "fun_fact": "Medical devices can be designed using biomechanical engineering principles to improve their safety and efficacy."
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Biomaterials is a key concept in biomechanical engineering."
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Tissue engineering is a major application of biomechanical engineering."
+    },
+    {
+      "source": "N1",
+      "target": "N6",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Computational modeling of human movement is a key concept in biomechanical engineering."
+    },
+    {
+      "source": "N2",
+      "target": "N4",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Biomaterials are used in the development of orthopedic implants."
+    },
+    {
+      "source": "N2",
+      "target": "N9",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Biomaterials are used in regenerative medicine."
+    },
+    {
+      "source": "N3",
+      "target": "N9",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Tissue engineering is a key application of regenerative medicine."
+    },
+    {
+      "source": "N3",
+      "target": "N10",
+      "relation": "uses",
+      "strength": 8,
+      "description": "Tissue engineering uses collagen as a biomaterial."
+    },
+    {
+      "source": "N4",
+      "target": "N12",
+      "relation": "example_of",
+      "strength": 7,
+      "description": "Heart valve replacement is an example of orthopedic implant application."
+    },
+    {
+      "source": "N5",
+      "target": "N13",
+      "relation": "example_of",
+      "strength": 7,
+      "description": "Prosthetic limbs are an example of rehabilitation robotics application."
+    },
+    {
+      "source": "N6",
+      "target": "N14",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Biomechanical modeling is a key concept in computational modeling of human movement."
+    },
+    {
+      "source": "N7",
+      "target": "N1",
+      "relation": "discovered_by",
+      "strength": 8,
+      "description": "Y.C. Fung is a renowned biomechanical engineer who made significant contributions to the field."
+    },
+    {
+      "source": "N8",
+      "target": "N1",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Biomechanics is a key concept in biomechanical engineering."
+    },
+    {
+      "source": "N9",
+      "target": "N15",
+      "relation": "example_of",
+      "strength": 8,
+      "description": "Regenerative medicine is an example of medical device application."
+    },
+    {
+      "source": "N10",
+      "target": "N11",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "Collagen is related to tissue growth and development."
+    },
+    {
+      "source": "N11",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Tissue growth is a key concept in tissue engineering."
+    },
+    {
+      "source": "N12",
+      "target": "N4",
+      "relation": "example_of",
+      "strength": 7,
+      "description": "Heart valve replacement is an example of orthopedic implant application."
+    },
+    {
+      "source": "N13",
+      "target": "N5",
+      "relation": "example_of",
+      "strength": 7,
+      "description": "Prosthetic limbs are an example of rehabilitation robotics application."
+    },
+    {
+      "source": "N14",
+      "target": "N6",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Biomechanical modeling is a key concept in computational modeling of human movement."
+    },
+    {
+      "source": "N15",
+      "target": "N1",
+      "relation": "application_of",
+      "strength": 8,
+      "description": "Medical devices are an application of biomechanical engineering."
+    }
+  ],
+  "key_takeaways": [
+    "Biomechanical engineering is a multidisciplinary field that combines principles of physics, biology, and engineering.",
+    "Biomaterials, tissue engineering, and computational modeling of human movement are key concepts in biomechanical engineering.",
+    "Biomechanical engineering has a wide range of applications, including orthopedic implants, rehabilitation robotics, and regenerative medicine."
+  ],
+  "real_world_impact": "Biomechanical engineering has a significant impact on healthcare and rehabilitation. For example, orthopedic implants and prosthetic limbs have improved the quality of life for millions of people worldwide. Additionally, regenerative medicine and tissue engineering have the potential to revolutionize the treatment of diseases and injuries. Biomechanical engineering also has applications in sports and athletics, where it can be used to optimize performance and prevent injuries. Overall, biomechanical engineering is a rapidly growing field that has the potential to transform the way we approach healthcare, rehabilitation, and sports.",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/22-S-C5-C3-JK-biomechanics-deltoid.png",
+      "title": "22-S-C5-C3-JK-biomechanics-deltoid.png",
+      "license": "CC BY 4.0",
+      "artist": "Brina Schenk with Douglas College",
+      "description": "Statics (Classical Mechanics) Problem Image. The original editable image files are available in .ai (Adobe Illustrator) format at https://github.com/ubc-mech2/OER-mechanics-webwork/tree/master/Images/1%20Original%20AI%20Files%20By%20Brina",
+      "width": 2745,
+      "height": 2815,
+      "source_query": "Biomechanical Engineering"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/22-S-C5-C3-JK-biomechanics-sauropod.png",
+      "title": "22-S-C5-C3-JK-biomechanics-sauropod.png",
+      "license": "CC BY 4.0",
+      "artist": "Brina Schenk with Douglas College",
+      "description": "Statics (Classical Mechanics) Problem Image. The original editable image files are available in .ai (Adobe Illustrator) format at https://github.com/ubc-mech2/OER-mechanics-webwork/tree/master/Images/1%20Original%20AI%20Files%20By%20Brina",
+      "width": 2454,
+      "height": 1926,
+      "source_query": "Biomechanical Engineering"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/D%C3%A9tails_du_Conformateur_01.jpg",
+      "title": "D\u00e9tails du Conformateur 01.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Sophie Jeannin",
+      "description": "Details of the Conformateur, a unique experimental seat designed to improve seating comfort in transport at the LBMC, on the Lyon Campus of the Gustave Eiffel University.\nA unique experimental device, the experimental seat is among the experimental facilities of the Biomechanics and Impact Mechanics",
+      "width": 4856,
+      "height": 7280,
+      "source_query": "Biomechanical Engineering"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/D%C3%A9tails_du_Conformateur_02.jpg",
+      "title": "D\u00e9tails du Conformateur 02.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Sophie Jeannin",
+      "description": "Details of the Conformateur, a unique experimental seat designed to improve seating comfort in transport at the LBMC, on the Lyon Campus of the Gustave Eiffel University.\nA unique experimental device, the experimental seat is among the experimental facilities of the Biomechanics and Impact Mechanics",
+      "width": 8145,
+      "height": 5433,
+      "source_query": "Biomechanical Engineering"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/D%C3%A9tails_du_Conformateur_03.jpg",
+      "title": "D\u00e9tails du Conformateur 03.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Sophie Jeannin",
+      "description": "Details of the Conformateur, a unique experimental seat designed to improve seating comfort in transport at the LBMC, on the Lyon Campus of the Gustave Eiffel University.\nA unique experimental device, the experimental seat is among the experimental facilities of the Biomechanics and Impact Mechanics",
+      "width": 5074,
+      "height": 7608,
+      "source_query": "Biomechanical Engineering"
+    }
+  ],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Biomechanical_engineering",
+    "papers": [
+      {
+        "title": "The Impact of Biomechanics in Tissue Engineering and Regenerative Medicine",
+        "url": "https://doi.org/10.1089/ten.teb.2009.0340"
+      },
+      {
+        "title": "The Role of Collagen Cross-Links in Biomechanical Behavior of Human Aortic Heart Valve Leaflets\u2014Relevance for Tissue Engineering",
+        "url": "https://doi.org/10.1089/ten.2006.0279"
+      },
+      {
+        "title": "Biomechanics: motion, flow, stress, and growth",
+        "url": "https://doi.org/10.5860/choice.28-2130"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 19"
+      ],
+      "node_count": 15,
+      "edge_count": 19
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Biomedical Imaging",
+        "Neuroengineering"
+      ],
+      "strengths": [
+        "Clear representation of key concepts",
+        "Well-defined relationships between concepts"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

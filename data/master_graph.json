@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 28,
-  "total_nodes": 419,
-  "total_edges": 514,
+  "total_topics": 29,
+  "total_nodes": 434,
+  "total_edges": 533,
   "topics": [
     {
       "topic": "Climate Change",
@@ -255,6 +255,15 @@
       "edge_count": 17,
       "description": "Geographic Information Systems (GIS) are integrated computer hardware and software systems that store, manage, analyze, edit, output, and visualize geographic data. GIS technology is used to analyze and interpret geographically referenced data, and is widely applied in various fields such as urban planning, natural resource management, and emergency response. The use of GIS has revolutionized the way we understand and interact with our environment.",
       "added_at": "2026-07-02T10:20:28.469485"
+    },
+    {
+      "topic": "Biomechanical Engineering",
+      "slug": "biomechanical_engineering",
+      "category": "engineering",
+      "node_count": 15,
+      "edge_count": 19,
+      "description": "Biomechanical engineering is a multidisciplinary field that combines principles of physics, biology, and engineering to understand the mechanical aspects of living systems. It involves the application of mechanical principles to medical and biological systems, with a focus on developing innovative solutions for healthcare and rehabilitation. Biomechanical engineers work on designing implants, prostheses, and medical devices, as well as developing computational models to simulate human movement and tissue mechanics.",
+      "added_at": "2026-07-02T18:18:16.710423"
     }
   ],
   "global_nodes": [
@@ -4866,6 +4875,171 @@
       "fun_fact": "The first GIS was developed in the 1960s by the US Department of Defense.",
       "topic_slug": "geographic_information_systems",
       "topic": "Geographic Information Systems"
+    },
+    {
+      "id": "biomechanical_engineering__N1",
+      "label": "Biomechanical Engineering",
+      "type": "core",
+      "depth": 0,
+      "description": "A multidisciplinary field that combines principles of physics, biology, and engineering to understand the mechanical aspects of living systems.",
+      "importance": 10,
+      "fun_fact": "The term 'biomechanical engineering' was first coined in the 1960s.",
+      "topic_slug": "biomechanical_engineering",
+      "topic": "Biomechanical Engineering"
+    },
+    {
+      "id": "biomechanical_engineering__N2",
+      "label": "Biomaterials",
+      "type": "concept",
+      "depth": 1,
+      "description": "Materials used to develop medical devices and implants that interact with living tissues.",
+      "importance": 8,
+      "fun_fact": "Biomaterials can be derived from natural sources, such as collagen, or synthetic sources, such as titanium.",
+      "topic_slug": "biomechanical_engineering",
+      "topic": "Biomechanical Engineering"
+    },
+    {
+      "id": "biomechanical_engineering__N3",
+      "label": "Tissue Engineering",
+      "type": "concept",
+      "depth": 1,
+      "description": "A field that focuses on developing functional tissue substitutes to repair or replace damaged tissues.",
+      "importance": 9,
+      "fun_fact": "Tissue engineering involves the use of biomaterials, cells, and growth factors to create functional tissue substitutes.",
+      "topic_slug": "biomechanical_engineering",
+      "topic": "Biomechanical Engineering"
+    },
+    {
+      "id": "biomechanical_engineering__N4",
+      "label": "Orthopedic Implants",
+      "type": "application",
+      "depth": 2,
+      "description": "Medical devices used to replace or repair damaged joints, bones, and muscles.",
+      "importance": 8,
+      "fun_fact": "Orthopedic implants can be made from a variety of biomaterials, including titanium, stainless steel, and ceramic.",
+      "topic_slug": "biomechanical_engineering",
+      "topic": "Biomechanical Engineering"
+    },
+    {
+      "id": "biomechanical_engineering__N5",
+      "label": "Rehabilitation Robotics",
+      "type": "application",
+      "depth": 2,
+      "description": "Robotic systems used to assist patients with physical disabilities or injuries during rehabilitation.",
+      "importance": 8,
+      "fun_fact": "Rehabilitation robots can provide personalized therapy and feedback to patients, improving their recovery outcomes.",
+      "topic_slug": "biomechanical_engineering",
+      "topic": "Biomechanical Engineering"
+    },
+    {
+      "id": "biomechanical_engineering__N6",
+      "label": "Computational Modeling of Human Movement",
+      "type": "concept",
+      "depth": 1,
+      "description": "The use of mathematical models and computer simulations to understand and predict human movement patterns.",
+      "importance": 9,
+      "fun_fact": "Computational models of human movement can be used to develop personalized rehabilitation plans and optimize athletic performance.",
+      "topic_slug": "biomechanical_engineering",
+      "topic": "Biomechanical Engineering"
+    },
+    {
+      "id": "biomechanical_engineering__N7",
+      "label": "Y.C. Fung",
+      "type": "person",
+      "depth": 2,
+      "description": "A renowned biomechanical engineer who made significant contributions to the field of biomechanics.",
+      "importance": 7,
+      "fun_fact": "Y.C. Fung is known as the 'father of biomechanics' for his pioneering work in the field.",
+      "topic_slug": "biomechanical_engineering",
+      "topic": "Biomechanical Engineering"
+    },
+    {
+      "id": "biomechanical_engineering__N8",
+      "label": "Biomechanics",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the mechanical aspects of living systems, including the structure, function, and movement of living organisms.",
+      "importance": 9,
+      "fun_fact": "Biomechanics is an interdisciplinary field that combines principles from biology, physics, and engineering.",
+      "topic_slug": "biomechanical_engineering",
+      "topic": "Biomechanical Engineering"
+    },
+    {
+      "id": "biomechanical_engineering__N9",
+      "label": "Regenerative Medicine",
+      "type": "application",
+      "depth": 2,
+      "description": "A field that focuses on developing innovative therapies to repair or replace damaged tissues and organs.",
+      "importance": 8,
+      "fun_fact": "Regenerative medicine involves the use of biomaterials, stem cells, and growth factors to develop functional tissue substitutes.",
+      "topic_slug": "biomechanical_engineering",
+      "topic": "Biomechanical Engineering"
+    },
+    {
+      "id": "biomechanical_engineering__N10",
+      "label": "Collagen",
+      "type": "concept",
+      "depth": 2,
+      "description": "A type of biomaterial used in tissue engineering and regenerative medicine.",
+      "importance": 7,
+      "fun_fact": "Collagen is the most abundant protein in the human body and is used in a variety of biomedical applications.",
+      "topic_slug": "biomechanical_engineering",
+      "topic": "Biomechanical Engineering"
+    },
+    {
+      "id": "biomechanical_engineering__N11",
+      "label": "Tissue Growth",
+      "type": "concept",
+      "depth": 2,
+      "description": "The process by which tissues develop, grow, and maintain their structure and function.",
+      "importance": 8,
+      "fun_fact": "Tissue growth is influenced by a variety of factors, including mechanical forces, growth factors, and biomaterials.",
+      "topic_slug": "biomechanical_engineering",
+      "topic": "Biomechanical Engineering"
+    },
+    {
+      "id": "biomechanical_engineering__N12",
+      "label": "Heart Valve Replacement",
+      "type": "example",
+      "depth": 3,
+      "description": "A surgical procedure that involves replacing a damaged heart valve with a prosthetic valve.",
+      "importance": 6,
+      "fun_fact": "Heart valve replacement is a common application of biomechanical engineering in cardiovascular medicine.",
+      "topic_slug": "biomechanical_engineering",
+      "topic": "Biomechanical Engineering"
+    },
+    {
+      "id": "biomechanical_engineering__N13",
+      "label": "Prosthetic Limbs",
+      "type": "example",
+      "depth": 3,
+      "description": "Artificial limbs used to replace missing or damaged limbs.",
+      "importance": 6,
+      "fun_fact": "Prosthetic limbs can be designed to mimic the natural movement and function of human limbs.",
+      "topic_slug": "biomechanical_engineering",
+      "topic": "Biomechanical Engineering"
+    },
+    {
+      "id": "biomechanical_engineering__N14",
+      "label": "Biomechanical Modeling",
+      "type": "concept",
+      "depth": 2,
+      "description": "The use of mathematical models to simulate and predict the behavior of living systems.",
+      "importance": 8,
+      "fun_fact": "Biomechanical modeling can be used to develop personalized medicine and optimize treatment outcomes.",
+      "topic_slug": "biomechanical_engineering",
+      "topic": "Biomechanical Engineering"
+    },
+    {
+      "id": "biomechanical_engineering__N15",
+      "label": "Medical Devices",
+      "type": "application",
+      "depth": 2,
+      "description": "Devices used to diagnose, treat, or prevent medical conditions.",
+      "importance": 8,
+      "fun_fact": "Medical devices can be designed using biomechanical engineering principles to improve their safety and efficacy.",
+      "topic_slug": "biomechanical_engineering",
+      "topic": "Biomechanical Engineering"
     }
   ],
   "global_edges": [
@@ -8466,6 +8640,139 @@
       "relation": "enables",
       "strength": 1,
       "topic": "Geographic Information Systems"
+    },
+    {
+      "source": "biomechanical_engineering__N1",
+      "target": "biomechanical_engineering__N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Biomechanical Engineering"
+    },
+    {
+      "source": "biomechanical_engineering__N1",
+      "target": "biomechanical_engineering__N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Biomechanical Engineering"
+    },
+    {
+      "source": "biomechanical_engineering__N1",
+      "target": "biomechanical_engineering__N6",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Biomechanical Engineering"
+    },
+    {
+      "source": "biomechanical_engineering__N2",
+      "target": "biomechanical_engineering__N4",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Biomechanical Engineering"
+    },
+    {
+      "source": "biomechanical_engineering__N2",
+      "target": "biomechanical_engineering__N9",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Biomechanical Engineering"
+    },
+    {
+      "source": "biomechanical_engineering__N3",
+      "target": "biomechanical_engineering__N9",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Biomechanical Engineering"
+    },
+    {
+      "source": "biomechanical_engineering__N3",
+      "target": "biomechanical_engineering__N10",
+      "relation": "uses",
+      "strength": 8,
+      "topic": "Biomechanical Engineering"
+    },
+    {
+      "source": "biomechanical_engineering__N4",
+      "target": "biomechanical_engineering__N12",
+      "relation": "example_of",
+      "strength": 7,
+      "topic": "Biomechanical Engineering"
+    },
+    {
+      "source": "biomechanical_engineering__N5",
+      "target": "biomechanical_engineering__N13",
+      "relation": "example_of",
+      "strength": 7,
+      "topic": "Biomechanical Engineering"
+    },
+    {
+      "source": "biomechanical_engineering__N6",
+      "target": "biomechanical_engineering__N14",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Biomechanical Engineering"
+    },
+    {
+      "source": "biomechanical_engineering__N7",
+      "target": "biomechanical_engineering__N1",
+      "relation": "discovered_by",
+      "strength": 8,
+      "topic": "Biomechanical Engineering"
+    },
+    {
+      "source": "biomechanical_engineering__N8",
+      "target": "biomechanical_engineering__N1",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Biomechanical Engineering"
+    },
+    {
+      "source": "biomechanical_engineering__N9",
+      "target": "biomechanical_engineering__N15",
+      "relation": "example_of",
+      "strength": 8,
+      "topic": "Biomechanical Engineering"
+    },
+    {
+      "source": "biomechanical_engineering__N10",
+      "target": "biomechanical_engineering__N11",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Biomechanical Engineering"
+    },
+    {
+      "source": "biomechanical_engineering__N11",
+      "target": "biomechanical_engineering__N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Biomechanical Engineering"
+    },
+    {
+      "source": "biomechanical_engineering__N12",
+      "target": "biomechanical_engineering__N4",
+      "relation": "example_of",
+      "strength": 7,
+      "topic": "Biomechanical Engineering"
+    },
+    {
+      "source": "biomechanical_engineering__N13",
+      "target": "biomechanical_engineering__N5",
+      "relation": "example_of",
+      "strength": 7,
+      "topic": "Biomechanical Engineering"
+    },
+    {
+      "source": "biomechanical_engineering__N14",
+      "target": "biomechanical_engineering__N6",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Biomechanical Engineering"
+    },
+    {
+      "source": "biomechanical_engineering__N15",
+      "target": "biomechanical_engineering__N1",
+      "relation": "application_of",
+      "strength": 8,
+      "topic": "Biomechanical Engineering"
     }
   ],
   "cross_topic_edges": [
@@ -8601,6 +8908,13 @@
       "relation": "cross_topic_connection",
       "strength": 6,
       "label": "remote sensing"
+    },
+    {
+      "source": "biophysics__N4",
+      "target": "biomechanical_engineering__N8",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "biomechanics"
     }
   ],
   "category_map": {
@@ -8653,7 +8967,10 @@
     ],
     "history": [
       "archaeology"
+    ],
+    "engineering": [
+      "biomechanical_engineering"
     ]
   },
-  "last_updated": "2026-07-02T10:20:28.469526"
+  "last_updated": "2026-07-02T18:18:16.710461"
 }
