@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 27,
-  "total_nodes": 404,
-  "total_edges": 497,
+  "total_topics": 28,
+  "total_nodes": 419,
+  "total_edges": 514,
   "topics": [
     {
       "topic": "Climate Change",
@@ -246,6 +246,15 @@
       "edge_count": 18,
       "description": "Archaeology is the study of human activity through the recovery and analysis of material culture, consisting of artifacts, architecture, biofacts, sites, and cultural landscapes. It is an interdisciplinary field that combines social science and humanities to understand the past. Archaeology has various applications, including cultural resource management, historical preservation, and anthropological theory.",
       "added_at": "2026-07-01T23:59:27.599548"
+    },
+    {
+      "topic": "Geographic Information Systems",
+      "slug": "geographic_information_systems",
+      "category": "geography",
+      "node_count": 15,
+      "edge_count": 17,
+      "description": "Geographic Information Systems (GIS) are integrated computer hardware and software systems that store, manage, analyze, edit, output, and visualize geographic data. GIS technology is used to analyze and interpret geographically referenced data, and is widely applied in various fields such as urban planning, natural resource management, and emergency response. The use of GIS has revolutionized the way we understand and interact with our environment.",
+      "added_at": "2026-07-02T10:20:28.469485"
     }
   ],
   "global_nodes": [
@@ -4692,6 +4701,171 @@
       "fun_fact": "The archaeological record is a key aspect of archaeological research, as it provides insights into human behavior and culture.",
       "topic_slug": "archaeology",
       "topic": "Archaeology"
+    },
+    {
+      "id": "geographic_information_systems__GIS",
+      "label": "Geographic Information Systems",
+      "type": "core",
+      "depth": 0,
+      "description": "Integrated computer hardware and software systems that store, manage, analyze, edit, output, and visualize geographic data.",
+      "importance": 10,
+      "fun_fact": "The first GIS was developed in the 1960s by the US Department of Defense.",
+      "topic_slug": "geographic_information_systems",
+      "topic": "Geographic Information Systems"
+    },
+    {
+      "id": "geographic_information_systems__Cartographic_Modeling",
+      "label": "Cartographic Modeling",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process of creating digital models of geographic phenomena using cartographic techniques.",
+      "importance": 8,
+      "fun_fact": "Cartographic modeling is used to create 3D models of cities and landscapes.",
+      "topic_slug": "geographic_information_systems",
+      "topic": "Geographic Information Systems"
+    },
+    {
+      "id": "geographic_information_systems__Spatial_Analysis",
+      "label": "Spatial Analysis",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process of analyzing and interpreting geographically referenced data to understand patterns and relationships.",
+      "importance": 9,
+      "fun_fact": "Spatial analysis is used in epidemiology to track the spread of diseases.",
+      "topic_slug": "geographic_information_systems",
+      "topic": "Geographic Information Systems"
+    },
+    {
+      "id": "geographic_information_systems__Remote_Sensing",
+      "label": "Remote Sensing",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process of collecting data about the Earth's surface using sensors that are not in direct contact with the object being observed.",
+      "importance": 8,
+      "fun_fact": "Remote sensing is used to monitor climate change and track deforestation.",
+      "topic_slug": "geographic_information_systems",
+      "topic": "Geographic Information Systems"
+    },
+    {
+      "id": "geographic_information_systems__GIS_Mapping",
+      "label": "GIS Mapping",
+      "type": "application",
+      "depth": 2,
+      "description": "The process of creating digital maps using GIS technology.",
+      "importance": 7,
+      "fun_fact": "GIS mapping is used in navigation systems such as Google Maps.",
+      "topic_slug": "geographic_information_systems",
+      "topic": "Geographic Information Systems"
+    },
+    {
+      "id": "geographic_information_systems__Location-Based_Services",
+      "label": "Location-Based Services",
+      "type": "application",
+      "depth": 2,
+      "description": "Services that use GIS technology to provide information and entertainment based on a user's location.",
+      "importance": 6,
+      "fun_fact": "Location-based services are used in social media platforms such as Facebook and Twitter.",
+      "topic_slug": "geographic_information_systems",
+      "topic": "Geographic Information Systems"
+    },
+    {
+      "id": "geographic_information_systems__Roger_Tomlinson",
+      "label": "Roger Tomlinson",
+      "type": "person",
+      "depth": 2,
+      "description": "Known as the father of GIS, Tomlinson developed the first GIS in the 1960s.",
+      "importance": 5,
+      "fun_fact": "Tomlinson was a Canadian geographer and computer scientist.",
+      "topic_slug": "geographic_information_systems",
+      "topic": "Geographic Information Systems"
+    },
+    {
+      "id": "geographic_information_systems__US_Department_of_Defense",
+      "label": "US Department of Defense",
+      "type": "organization",
+      "depth": 2,
+      "description": "The US Department of Defense developed the first GIS in the 1960s.",
+      "importance": 4,
+      "fun_fact": "The US Department of Defense uses GIS technology for military operations and planning.",
+      "topic_slug": "geographic_information_systems",
+      "topic": "Geographic Information Systems"
+    },
+    {
+      "id": "geographic_information_systems__Urban_Planning",
+      "label": "Urban Planning",
+      "type": "example",
+      "depth": 3,
+      "description": "The use of GIS in urban planning to design and manage cities.",
+      "importance": 3,
+      "fun_fact": "GIS is used in urban planning to optimize traffic flow and reduce congestion.",
+      "topic_slug": "geographic_information_systems",
+      "topic": "Geographic Information Systems"
+    },
+    {
+      "id": "geographic_information_systems__Natural_Resource_Management",
+      "label": "Natural Resource Management",
+      "type": "example",
+      "depth": 3,
+      "description": "The use of GIS in natural resource management to monitor and manage natural resources.",
+      "importance": 3,
+      "fun_fact": "GIS is used in natural resource management to track deforestation and monitor wildlife populations.",
+      "topic_slug": "geographic_information_systems",
+      "topic": "Geographic Information Systems"
+    },
+    {
+      "id": "geographic_information_systems__Emergency_Response",
+      "label": "Emergency Response",
+      "type": "example",
+      "depth": 3,
+      "description": "The use of GIS in emergency response to quickly respond to natural disasters and emergencies.",
+      "importance": 3,
+      "fun_fact": "GIS is used in emergency response to quickly identify areas of need and allocate resources.",
+      "topic_slug": "geographic_information_systems",
+      "topic": "Geographic Information Systems"
+    },
+    {
+      "id": "geographic_information_systems__GIS_Day",
+      "label": "GIS Day",
+      "type": "event",
+      "depth": 3,
+      "description": "An annual event to promote the use of GIS technology and raise awareness about its benefits.",
+      "importance": 2,
+      "fun_fact": "GIS Day is celebrated on the third Wednesday of November every year.",
+      "topic_slug": "geographic_information_systems",
+      "topic": "Geographic Information Systems"
+    },
+    {
+      "id": "geographic_information_systems__Spatial_Autocorrelation",
+      "label": "Spatial Autocorrelation",
+      "type": "formula",
+      "depth": 3,
+      "description": "A statistical measure used to analyze the spatial distribution of data.",
+      "importance": 2,
+      "fun_fact": "Spatial autocorrelation is used to identify patterns and relationships in geographically referenced data.",
+      "topic_slug": "geographic_information_systems",
+      "topic": "Geographic Information Systems"
+    },
+    {
+      "id": "geographic_information_systems__GIS_Software",
+      "label": "GIS Software",
+      "type": "fact",
+      "depth": 3,
+      "description": "Computer programs used to analyze and interpret geographically referenced data.",
+      "importance": 1,
+      "fun_fact": "Popular GIS software includes ArcGIS, QGIS, and GRASS GIS.",
+      "topic_slug": "geographic_information_systems",
+      "topic": "Geographic Information Systems"
+    },
+    {
+      "id": "geographic_information_systems__GIS_History",
+      "label": "GIS History",
+      "type": "fact",
+      "depth": 3,
+      "description": "The development and evolution of GIS technology over time.",
+      "importance": 1,
+      "fun_fact": "The first GIS was developed in the 1960s by the US Department of Defense.",
+      "topic_slug": "geographic_information_systems",
+      "topic": "Geographic Information Systems"
     }
   ],
   "global_edges": [
@@ -8173,6 +8347,125 @@
       "relation": "protects",
       "strength": 7,
       "topic": "Archaeology"
+    },
+    {
+      "source": "geographic_information_systems__GIS",
+      "target": "geographic_information_systems__Cartographic_Modeling",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Geographic Information Systems"
+    },
+    {
+      "source": "geographic_information_systems__GIS",
+      "target": "geographic_information_systems__Spatial_Analysis",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Geographic Information Systems"
+    },
+    {
+      "source": "geographic_information_systems__GIS",
+      "target": "geographic_information_systems__Remote_Sensing",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Geographic Information Systems"
+    },
+    {
+      "source": "geographic_information_systems__Cartographic_Modeling",
+      "target": "geographic_information_systems__GIS_Mapping",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Geographic Information Systems"
+    },
+    {
+      "source": "geographic_information_systems__Spatial_Analysis",
+      "target": "geographic_information_systems__Location-Based_Services",
+      "relation": "leads_to",
+      "strength": 7,
+      "topic": "Geographic Information Systems"
+    },
+    {
+      "source": "geographic_information_systems__Roger_Tomlinson",
+      "target": "geographic_information_systems__GIS",
+      "relation": "discovered_by",
+      "strength": 6,
+      "topic": "Geographic Information Systems"
+    },
+    {
+      "source": "geographic_information_systems__US_Department_of_Defense",
+      "target": "geographic_information_systems__GIS",
+      "relation": "used_in",
+      "strength": 5,
+      "topic": "Geographic Information Systems"
+    },
+    {
+      "source": "geographic_information_systems__GIS_Mapping",
+      "target": "geographic_information_systems__Urban_Planning",
+      "relation": "used_in",
+      "strength": 4,
+      "topic": "Geographic Information Systems"
+    },
+    {
+      "source": "geographic_information_systems__Spatial_Analysis",
+      "target": "geographic_information_systems__Natural_Resource_Management",
+      "relation": "used_in",
+      "strength": 4,
+      "topic": "Geographic Information Systems"
+    },
+    {
+      "source": "geographic_information_systems__GIS",
+      "target": "geographic_information_systems__Emergency_Response",
+      "relation": "used_in",
+      "strength": 4,
+      "topic": "Geographic Information Systems"
+    },
+    {
+      "source": "geographic_information_systems__GIS_Day",
+      "target": "geographic_information_systems__GIS",
+      "relation": "related_to",
+      "strength": 3,
+      "topic": "Geographic Information Systems"
+    },
+    {
+      "source": "geographic_information_systems__Spatial_Autocorrelation",
+      "target": "geographic_information_systems__Spatial_Analysis",
+      "relation": "used_in",
+      "strength": 3,
+      "topic": "Geographic Information Systems"
+    },
+    {
+      "source": "geographic_information_systems__GIS_Software",
+      "target": "geographic_information_systems__GIS",
+      "relation": "is_part_of",
+      "strength": 2,
+      "topic": "Geographic Information Systems"
+    },
+    {
+      "source": "geographic_information_systems__GIS_History",
+      "target": "geographic_information_systems__GIS",
+      "relation": "is_part_of",
+      "strength": 2,
+      "topic": "Geographic Information Systems"
+    },
+    {
+      "source": "geographic_information_systems__Cartographic_Modeling",
+      "target": "geographic_information_systems__Remote_Sensing",
+      "relation": "contrasts_with",
+      "strength": 1,
+      "topic": "Geographic Information Systems"
+    },
+    {
+      "source": "geographic_information_systems__Spatial_Analysis",
+      "target": "geographic_information_systems__Cartographic_Modeling",
+      "relation": "depends_on",
+      "strength": 1,
+      "topic": "Geographic Information Systems"
+    },
+    {
+      "source": "geographic_information_systems__GIS",
+      "target": "geographic_information_systems__Location-Based_Services",
+      "relation": "enables",
+      "strength": 1,
+      "topic": "Geographic Information Systems"
     }
   ],
   "cross_topic_edges": [
@@ -8287,13 +8580,35 @@
       "relation": "cross_topic_connection",
       "strength": 6,
       "label": "contact tracing"
+    },
+    {
+      "source": "cartography__gis",
+      "target": "geographic_information_systems__GIS",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "geographic information systems"
+    },
+    {
+      "source": "cartography__spatial_analysis",
+      "target": "geographic_information_systems__Spatial_Analysis",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "spatial analysis"
+    },
+    {
+      "source": "cartography__remote_sensing",
+      "target": "geographic_information_systems__Remote_Sensing",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "remote sensing"
     }
   ],
   "category_map": {
     "geography": [
       "climate_change",
       "geomorphology",
-      "cartography"
+      "cartography",
+      "geographic_information_systems"
     ],
     "biology": [
       "evolutionary_biology",
@@ -8340,5 +8655,5 @@
       "archaeology"
     ]
   },
-  "last_updated": "2026-07-01T23:59:27.599587"
+  "last_updated": "2026-07-02T10:20:28.469526"
 }

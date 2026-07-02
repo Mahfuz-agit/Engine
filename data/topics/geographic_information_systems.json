@@ -1,0 +1,357 @@
+{
+  "topic": "Geographic Information Systems",
+  "category": "geography",
+  "description": "Geographic Information Systems (GIS) are integrated computer hardware and software systems that store, manage, analyze, edit, output, and visualize geographic data. GIS technology is used to analyze and interpret geographically referenced data, and is widely applied in various fields such as urban planning, natural resource management, and emergency response. The use of GIS has revolutionized the way we understand and interact with our environment.",
+  "nodes": [
+    {
+      "id": "GIS",
+      "label": "Geographic Information Systems",
+      "type": "core",
+      "depth": 0,
+      "description": "Integrated computer hardware and software systems that store, manage, analyze, edit, output, and visualize geographic data.",
+      "importance": 10,
+      "fun_fact": "The first GIS was developed in the 1960s by the US Department of Defense."
+    },
+    {
+      "id": "Cartographic_Modeling",
+      "label": "Cartographic Modeling",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process of creating digital models of geographic phenomena using cartographic techniques.",
+      "importance": 8,
+      "fun_fact": "Cartographic modeling is used to create 3D models of cities and landscapes."
+    },
+    {
+      "id": "Spatial_Analysis",
+      "label": "Spatial Analysis",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process of analyzing and interpreting geographically referenced data to understand patterns and relationships.",
+      "importance": 9,
+      "fun_fact": "Spatial analysis is used in epidemiology to track the spread of diseases."
+    },
+    {
+      "id": "Remote_Sensing",
+      "label": "Remote Sensing",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process of collecting data about the Earth's surface using sensors that are not in direct contact with the object being observed.",
+      "importance": 8,
+      "fun_fact": "Remote sensing is used to monitor climate change and track deforestation."
+    },
+    {
+      "id": "GIS_Mapping",
+      "label": "GIS Mapping",
+      "type": "application",
+      "depth": 2,
+      "description": "The process of creating digital maps using GIS technology.",
+      "importance": 7,
+      "fun_fact": "GIS mapping is used in navigation systems such as Google Maps."
+    },
+    {
+      "id": "Location-Based_Services",
+      "label": "Location-Based Services",
+      "type": "application",
+      "depth": 2,
+      "description": "Services that use GIS technology to provide information and entertainment based on a user's location.",
+      "importance": 6,
+      "fun_fact": "Location-based services are used in social media platforms such as Facebook and Twitter."
+    },
+    {
+      "id": "Roger_Tomlinson",
+      "label": "Roger Tomlinson",
+      "type": "person",
+      "depth": 2,
+      "description": "Known as the father of GIS, Tomlinson developed the first GIS in the 1960s.",
+      "importance": 5,
+      "fun_fact": "Tomlinson was a Canadian geographer and computer scientist."
+    },
+    {
+      "id": "US_Department_of_Defense",
+      "label": "US Department of Defense",
+      "type": "organization",
+      "depth": 2,
+      "description": "The US Department of Defense developed the first GIS in the 1960s.",
+      "importance": 4,
+      "fun_fact": "The US Department of Defense uses GIS technology for military operations and planning."
+    },
+    {
+      "id": "Urban_Planning",
+      "label": "Urban Planning",
+      "type": "example",
+      "depth": 3,
+      "description": "The use of GIS in urban planning to design and manage cities.",
+      "importance": 3,
+      "fun_fact": "GIS is used in urban planning to optimize traffic flow and reduce congestion."
+    },
+    {
+      "id": "Natural_Resource_Management",
+      "label": "Natural Resource Management",
+      "type": "example",
+      "depth": 3,
+      "description": "The use of GIS in natural resource management to monitor and manage natural resources.",
+      "importance": 3,
+      "fun_fact": "GIS is used in natural resource management to track deforestation and monitor wildlife populations."
+    },
+    {
+      "id": "Emergency_Response",
+      "label": "Emergency Response",
+      "type": "example",
+      "depth": 3,
+      "description": "The use of GIS in emergency response to quickly respond to natural disasters and emergencies.",
+      "importance": 3,
+      "fun_fact": "GIS is used in emergency response to quickly identify areas of need and allocate resources."
+    },
+    {
+      "id": "GIS_Day",
+      "label": "GIS Day",
+      "type": "event",
+      "depth": 3,
+      "description": "An annual event to promote the use of GIS technology and raise awareness about its benefits.",
+      "importance": 2,
+      "fun_fact": "GIS Day is celebrated on the third Wednesday of November every year."
+    },
+    {
+      "id": "Spatial_Autocorrelation",
+      "label": "Spatial Autocorrelation",
+      "type": "formula",
+      "depth": 3,
+      "description": "A statistical measure used to analyze the spatial distribution of data.",
+      "importance": 2,
+      "fun_fact": "Spatial autocorrelation is used to identify patterns and relationships in geographically referenced data."
+    },
+    {
+      "id": "GIS_Software",
+      "label": "GIS Software",
+      "type": "fact",
+      "depth": 3,
+      "description": "Computer programs used to analyze and interpret geographically referenced data.",
+      "importance": 1,
+      "fun_fact": "Popular GIS software includes ArcGIS, QGIS, and GRASS GIS."
+    },
+    {
+      "id": "GIS_History",
+      "label": "GIS History",
+      "type": "fact",
+      "depth": 3,
+      "description": "The development and evolution of GIS technology over time.",
+      "importance": 1,
+      "fun_fact": "The first GIS was developed in the 1960s by the US Department of Defense."
+    }
+  ],
+  "edges": [
+    {
+      "source": "GIS",
+      "target": "Cartographic_Modeling",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Cartographic modeling is a key component of GIS technology."
+    },
+    {
+      "source": "GIS",
+      "target": "Spatial_Analysis",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Spatial analysis is a key component of GIS technology."
+    },
+    {
+      "source": "GIS",
+      "target": "Remote_Sensing",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Remote sensing is a key component of GIS technology."
+    },
+    {
+      "source": "Cartographic_Modeling",
+      "target": "GIS_Mapping",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "Cartographic modeling leads to the creation of digital maps using GIS technology."
+    },
+    {
+      "source": "Spatial_Analysis",
+      "target": "Location-Based_Services",
+      "relation": "leads_to",
+      "strength": 7,
+      "description": "Spatial analysis leads to the development of location-based services."
+    },
+    {
+      "source": "Roger_Tomlinson",
+      "target": "GIS",
+      "relation": "discovered_by",
+      "strength": 6,
+      "description": "Roger Tomlinson is known as the father of GIS and developed the first GIS in the 1960s."
+    },
+    {
+      "source": "US_Department_of_Defense",
+      "target": "GIS",
+      "relation": "used_in",
+      "strength": 5,
+      "description": "The US Department of Defense developed and uses GIS technology for military operations and planning."
+    },
+    {
+      "source": "GIS_Mapping",
+      "target": "Urban_Planning",
+      "relation": "used_in",
+      "strength": 4,
+      "description": "GIS mapping is used in urban planning to design and manage cities."
+    },
+    {
+      "source": "Spatial_Analysis",
+      "target": "Natural_Resource_Management",
+      "relation": "used_in",
+      "strength": 4,
+      "description": "Spatial analysis is used in natural resource management to monitor and manage natural resources."
+    },
+    {
+      "source": "GIS",
+      "target": "Emergency_Response",
+      "relation": "used_in",
+      "strength": 4,
+      "description": "GIS technology is used in emergency response to quickly respond to natural disasters and emergencies."
+    },
+    {
+      "source": "GIS_Day",
+      "target": "GIS",
+      "relation": "related_to",
+      "strength": 3,
+      "description": "GIS Day is an annual event to promote the use of GIS technology and raise awareness about its benefits."
+    },
+    {
+      "source": "Spatial_Autocorrelation",
+      "target": "Spatial_Analysis",
+      "relation": "used_in",
+      "strength": 3,
+      "description": "Spatial autocorrelation is a statistical measure used in spatial analysis to analyze the spatial distribution of data."
+    },
+    {
+      "source": "GIS_Software",
+      "target": "GIS",
+      "relation": "is_part_of",
+      "strength": 2,
+      "description": "GIS software is a key component of GIS technology."
+    },
+    {
+      "source": "GIS_History",
+      "target": "GIS",
+      "relation": "is_part_of",
+      "strength": 2,
+      "description": "The history of GIS is an important part of understanding the development and evolution of GIS technology."
+    },
+    {
+      "source": "Cartographic_Modeling",
+      "target": "Remote_Sensing",
+      "relation": "contrasts_with",
+      "strength": 1,
+      "description": "Cartographic modeling and remote sensing are two different approaches to collecting and analyzing geographically referenced data."
+    },
+    {
+      "source": "Spatial_Analysis",
+      "target": "Cartographic_Modeling",
+      "relation": "depends_on",
+      "strength": 1,
+      "description": "Spatial analysis depends on cartographic modeling to create accurate and detailed digital models of geographic phenomena."
+    },
+    {
+      "source": "GIS",
+      "target": "Location-Based_Services",
+      "relation": "enables",
+      "strength": 1,
+      "description": "GIS technology enables the development of location-based services."
+    }
+  ],
+  "key_takeaways": [
+    "GIS technology is used to analyze and interpret geographically referenced data.",
+    "GIS has a wide range of applications in fields such as urban planning, natural resource management, and emergency response.",
+    "The use of GIS has revolutionized the way we understand and interact with our environment."
+  ],
+  "real_world_impact": "The use of GIS technology has had a significant impact on the way we understand and interact with our environment. GIS has been used to track the spread of diseases, monitor climate change, and optimize traffic flow in cities. The use of GIS has also enabled the development of location-based services such as navigation systems and social media platforms. Overall, the use of GIS technology has improved our ability to make informed decisions and respond to emergencies, and has had a positive impact on the environment and society as a whole.",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Digitizing_errors.svg",
+      "title": "Digitizing errors.svg",
+      "license": "Public domain",
+      "artist": "Emilio G\u00f3mez Fern\u00e1ndez",
+      "description": "Topological and digitizing errors in Geography Information Systems (GIS).",
+      "width": 210,
+      "height": 524,
+      "source_query": "Geographic Information Systems"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Discovering_the_World_Through_Geographic_Information_Systems_%2811093904826%29.jpg",
+      "title": "Discovering the World Through Geographic Information Systems (11093904826).jpg",
+      "license": "CC BY 2.0",
+      "artist": "NAVFAC",
+      "description": "On Nov. 20, Naval Facilities Engineering Command Hawaii's Peter Len assists personnel working on various real-life scenarios using current capabilities of GeoReadiness Explorer (GRX) at the command's computer training room. Photo by Denise Emsley, NAVFAC Hawaii Public Affairs.",
+      "width": 1800,
+      "height": 1200,
+      "source_query": "Geographic Information Systems"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/GIS_2.jpg",
+      "title": "GIS 2.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Sri2161k",
+      "description": "GIS",
+      "width": 702,
+      "height": 1202,
+      "source_query": "Geographic Information Systems"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Geographic_Information_System_example.jpg",
+      "title": "Geographic Information System example.jpg",
+      "license": "CC BY-SA 3.0",
+      "artist": "",
+      "description": "",
+      "width": 728,
+      "height": 836,
+      "source_query": "Geographic Information Systems"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Gombe_Geographic_information_System_main_office.jpg",
+      "title": "Gombe Geographic information System main office.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Ibjaja055",
+      "description": "The image of Gombe Geographic Information System GOGIS",
+      "width": 8160,
+      "height": 6144,
+      "source_query": "Geographic Information Systems"
+    }
+  ],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Geographic_information_system",
+    "papers": [],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 17"
+      ],
+      "node_count": 15,
+      "edge_count": 17
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Geographic Information Science",
+        "Geospatial Analysis"
+      ],
+      "strengths": [
+        "covers key applications of GIS",
+        "includes important concepts such as spatial analysis and remote sensing"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}
