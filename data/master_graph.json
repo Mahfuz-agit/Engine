@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 29,
-  "total_nodes": 434,
-  "total_edges": 533,
+  "total_topics": 30,
+  "total_nodes": 449,
+  "total_edges": 552,
   "topics": [
     {
       "topic": "Climate Change",
@@ -264,6 +264,15 @@
       "edge_count": 19,
       "description": "Biomechanical engineering is a multidisciplinary field that combines principles of physics, biology, and engineering to understand the mechanical aspects of living systems. It involves the application of mechanical principles to medical and biological systems, with a focus on developing innovative solutions for healthcare and rehabilitation. Biomechanical engineers work on designing implants, prostheses, and medical devices, as well as developing computational models to simulate human movement and tissue mechanics.",
       "added_at": "2026-07-02T18:18:16.710423"
+    },
+    {
+      "topic": "Paleoclimatology",
+      "slug": "paleoclimatology",
+      "category": "geography",
+      "node_count": 15,
+      "edge_count": 19,
+      "description": "Paleoclimatology is the study of past climates, crucial for understanding natural climate variation and evolution. It involves analyzing proxy data, such as ice cores and sedimentary rocks, to reconstruct ancient climates. This field helps scientists understand the Earth's climate history and make predictions about future climate changes.",
+      "added_at": "2026-07-02T23:44:50.651397"
     }
   ],
   "global_nodes": [
@@ -5040,6 +5049,171 @@
       "fun_fact": "Medical devices can be designed using biomechanical engineering principles to improve their safety and efficacy.",
       "topic_slug": "biomechanical_engineering",
       "topic": "Biomechanical Engineering"
+    },
+    {
+      "id": "paleoclimatology__N1",
+      "label": "Paleoclimatology",
+      "type": "core",
+      "depth": 0,
+      "description": "The scientific study of past climates, focusing on the reconstruction of ancient climate conditions using proxy data.",
+      "importance": 10,
+      "fun_fact": "The term 'paleoclimatology' was first used in the 1960s to describe this field of study.",
+      "topic_slug": "paleoclimatology",
+      "topic": "Paleoclimatology"
+    },
+    {
+      "id": "paleoclimatology__N2",
+      "label": "Ice Age Dynamics",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the formation, growth, and decay of ice ages, including the factors that influence ice sheet expansion and contraction.",
+      "importance": 9,
+      "fun_fact": "The most recent ice age, which ended about 11,700 years ago, was characterized by large ice sheets covering much of North America and Europe.",
+      "topic_slug": "paleoclimatology",
+      "topic": "Paleoclimatology"
+    },
+    {
+      "id": "paleoclimatology__N3",
+      "label": "Sea Level Changes",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of changes in sea level over time, including the factors that contribute to these changes, such as ice sheet melting and ocean thermal expansion.",
+      "importance": 9,
+      "fun_fact": "Sea levels have risen by about 20 cm since 1880, with an accelerating trend in recent decades.",
+      "topic_slug": "paleoclimatology",
+      "topic": "Paleoclimatology"
+    },
+    {
+      "id": "paleoclimatology__N4",
+      "label": "Glacial Geology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the geological features and landforms created by glaciers, including glacial erratics, moraines, and drumlins.",
+      "importance": 8,
+      "fun_fact": "Glaciers have carved out many of the world's most spectacular landscapes, including the fjords of Norway and the mountains of New Zealand.",
+      "topic_slug": "paleoclimatology",
+      "topic": "Paleoclimatology"
+    },
+    {
+      "id": "paleoclimatology__N5",
+      "label": "Climate Modeling",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of computer models to simulate the Earth's climate system, including the interactions between atmosphere, oceans, land, and ice.",
+      "importance": 9,
+      "fun_fact": "Climate models are used to predict future climate changes and to understand the impacts of different greenhouse gas emission scenarios.",
+      "topic_slug": "paleoclimatology",
+      "topic": "Paleoclimatology"
+    },
+    {
+      "id": "paleoclimatology__N6",
+      "label": "Proxy Data Analysis",
+      "type": "application",
+      "depth": 2,
+      "description": "The analysis of indirect evidence of past climate conditions, such as tree rings, coral reefs, and ice cores, to reconstruct ancient climates.",
+      "importance": 9,
+      "fun_fact": "Proxy data analysis has revealed that the Earth's climate has varied significantly over the past few thousand years, with periods of warming and cooling.",
+      "topic_slug": "paleoclimatology",
+      "topic": "Paleoclimatology"
+    },
+    {
+      "id": "paleoclimatology__N7",
+      "label": "KNMI Climate Explorer",
+      "type": "example",
+      "depth": 3,
+      "description": "A web-based research tool for high-resolution paleoclimatology, providing access to a comprehensive collection of climatic data sets and analysis tools.",
+      "importance": 7,
+      "fun_fact": "The KNMI Climate Explorer is managed by the Royal Netherlands Meteorological Institute and is widely used by researchers in the field of paleoclimatology.",
+      "topic_slug": "paleoclimatology",
+      "topic": "Paleoclimatology"
+    },
+    {
+      "id": "paleoclimatology__N8",
+      "label": "Proxy System Modeling",
+      "type": "concept",
+      "depth": 2,
+      "description": "The use of models to simulate the processes by which proxy data are formed, including the response of sensors to environmental forcing.",
+      "importance": 8,
+      "fun_fact": "Proxy system modeling helps to improve the interpretation of proxy data and to reduce uncertainties in paleoclimate reconstructions.",
+      "topic_slug": "paleoclimatology",
+      "topic": "Paleoclimatology"
+    },
+    {
+      "id": "paleoclimatology__N9",
+      "label": "Encyclopedia of Paleoclimatology and Ancient Environments",
+      "type": "example",
+      "depth": 3,
+      "description": "A comprehensive reference work covering all aspects of paleoclimatology, including the methods, techniques, and applications of the field.",
+      "importance": 6,
+      "fun_fact": "The encyclopedia is a valuable resource for researchers, students, and professionals working in the field of paleoclimatology.",
+      "topic_slug": "paleoclimatology",
+      "topic": "Paleoclimatology"
+    },
+    {
+      "id": "paleoclimatology__N10",
+      "label": "Louis Agassiz",
+      "type": "person",
+      "depth": 2,
+      "description": "A Swiss-American geologist and paleontologist who made significant contributions to the field of paleoclimatology, including the discovery of evidence for past ice ages.",
+      "importance": 8,
+      "fun_fact": "Agassiz was one of the first scientists to propose the idea of an ice age, and his work laid the foundation for modern paleoclimatology.",
+      "topic_slug": "paleoclimatology",
+      "topic": "Paleoclimatology"
+    },
+    {
+      "id": "paleoclimatology__N11",
+      "label": "Milutin Milankovic",
+      "type": "person",
+      "depth": 2,
+      "description": "A Serbian mathematician and engineer who developed the theory of ice age cycles, including the role of changes in Earth's orbit in driving climate variations.",
+      "importance": 8,
+      "fun_fact": "Milankovic's work on ice age cycles is still widely used today in paleoclimatology and climate science.",
+      "topic_slug": "paleoclimatology",
+      "topic": "Paleoclimatology"
+    },
+    {
+      "id": "paleoclimatology__N12",
+      "label": "Ice Core Drilling",
+      "type": "example",
+      "depth": 3,
+      "description": "A method of collecting ice cores from glaciers and ice sheets, which provide a record of past climate conditions, including temperature, precipitation, and atmospheric composition.",
+      "importance": 7,
+      "fun_fact": "Ice core drilling has revealed a detailed record of climate variations over the past few hundred thousand years, including the presence of greenhouse gases and other climate forcings.",
+      "topic_slug": "paleoclimatology",
+      "topic": "Paleoclimatology"
+    },
+    {
+      "id": "paleoclimatology__N13",
+      "label": "Dendrochronology",
+      "type": "concept",
+      "depth": 2,
+      "description": "The study of tree rings as a proxy for past climate conditions, including temperature, precipitation, and drought.",
+      "importance": 8,
+      "fun_fact": "Dendrochronology has been used to reconstruct climate conditions over the past few thousand years, including the presence of droughts, floods, and other extreme events.",
+      "topic_slug": "paleoclimatology",
+      "topic": "Paleoclimatology"
+    },
+    {
+      "id": "paleoclimatology__N14",
+      "label": "Climate Change Impacts",
+      "type": "application",
+      "depth": 3,
+      "description": "The study of the potential impacts of climate change on ecosystems, human health, and the economy, including the development of adaptation and mitigation strategies.",
+      "importance": 9,
+      "fun_fact": "Climate change impacts are already being felt around the world, from more frequent natural disasters to changes in the distribution of plants and animals.",
+      "topic_slug": "paleoclimatology",
+      "topic": "Paleoclimatology"
+    },
+    {
+      "id": "paleoclimatology__N15",
+      "label": "Intergovernmental Panel on Climate Change (IPCC)",
+      "type": "example",
+      "depth": 3,
+      "description": "An international organization that provides scientific advice to policymakers on climate change, including the potential impacts and mitigation strategies.",
+      "importance": 8,
+      "fun_fact": "The IPCC has played a key role in raising awareness about climate change and promoting international cooperation on climate action.",
+      "topic_slug": "paleoclimatology",
+      "topic": "Paleoclimatology"
     }
   ],
   "global_edges": [
@@ -8773,6 +8947,139 @@
       "relation": "application_of",
       "strength": 8,
       "topic": "Biomechanical Engineering"
+    },
+    {
+      "source": "paleoclimatology__N1",
+      "target": "paleoclimatology__N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Paleoclimatology"
+    },
+    {
+      "source": "paleoclimatology__N1",
+      "target": "paleoclimatology__N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Paleoclimatology"
+    },
+    {
+      "source": "paleoclimatology__N1",
+      "target": "paleoclimatology__N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Paleoclimatology"
+    },
+    {
+      "source": "paleoclimatology__N2",
+      "target": "paleoclimatology__N5",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Paleoclimatology"
+    },
+    {
+      "source": "paleoclimatology__N3",
+      "target": "paleoclimatology__N5",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Paleoclimatology"
+    },
+    {
+      "source": "paleoclimatology__N4",
+      "target": "paleoclimatology__N6",
+      "relation": "is_part_of",
+      "strength": 7,
+      "topic": "Paleoclimatology"
+    },
+    {
+      "source": "paleoclimatology__N5",
+      "target": "paleoclimatology__N7",
+      "relation": "used_in",
+      "strength": 7,
+      "topic": "Paleoclimatology"
+    },
+    {
+      "source": "paleoclimatology__N6",
+      "target": "paleoclimatology__N8",
+      "relation": "depends_on",
+      "strength": 8,
+      "topic": "Paleoclimatology"
+    },
+    {
+      "source": "paleoclimatology__N8",
+      "target": "paleoclimatology__N9",
+      "relation": "is_part_of",
+      "strength": 6,
+      "topic": "Paleoclimatology"
+    },
+    {
+      "source": "paleoclimatology__N10",
+      "target": "paleoclimatology__N1",
+      "relation": "discovered_by",
+      "strength": 8,
+      "topic": "Paleoclimatology"
+    },
+    {
+      "source": "paleoclimatology__N11",
+      "target": "paleoclimatology__N1",
+      "relation": "discovered_by",
+      "strength": 8,
+      "topic": "Paleoclimatology"
+    },
+    {
+      "source": "paleoclimatology__N12",
+      "target": "paleoclimatology__N6",
+      "relation": "is_part_of",
+      "strength": 7,
+      "topic": "Paleoclimatology"
+    },
+    {
+      "source": "paleoclimatology__N13",
+      "target": "paleoclimatology__N6",
+      "relation": "is_part_of",
+      "strength": 7,
+      "topic": "Paleoclimatology"
+    },
+    {
+      "source": "paleoclimatology__N14",
+      "target": "paleoclimatology__N5",
+      "relation": "leads_to",
+      "strength": 9,
+      "topic": "Paleoclimatology"
+    },
+    {
+      "source": "paleoclimatology__N15",
+      "target": "paleoclimatology__N14",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Paleoclimatology"
+    },
+    {
+      "source": "paleoclimatology__N1",
+      "target": "paleoclimatology__N15",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Paleoclimatology"
+    },
+    {
+      "source": "paleoclimatology__N5",
+      "target": "paleoclimatology__N10",
+      "relation": "contrasts_with",
+      "strength": 6,
+      "topic": "Paleoclimatology"
+    },
+    {
+      "source": "paleoclimatology__N6",
+      "target": "paleoclimatology__N11",
+      "relation": "evolved_from",
+      "strength": 7,
+      "topic": "Paleoclimatology"
+    },
+    {
+      "source": "paleoclimatology__N7",
+      "target": "paleoclimatology__N12",
+      "relation": "enables",
+      "strength": 7,
+      "topic": "Paleoclimatology"
     }
   ],
   "cross_topic_edges": [
@@ -8922,7 +9229,8 @@
       "climate_change",
       "geomorphology",
       "cartography",
-      "geographic_information_systems"
+      "geographic_information_systems",
+      "paleoclimatology"
     ],
     "biology": [
       "evolutionary_biology",
@@ -8972,5 +9280,5 @@
       "biomechanical_engineering"
     ]
   },
-  "last_updated": "2026-07-02T18:18:16.710461"
+  "last_updated": "2026-07-02T23:44:50.651430"
 }

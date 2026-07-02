@@ -1,0 +1,161 @@
+{
+  "topic": "Paleoclimatology",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary goal of paleoclimatology?",
+      "options": {
+        "A": "To understand the Earth's climate history and make predictions about future climate changes",
+        "B": "To study the geological features and landforms created by glaciers",
+        "C": "To analyze the impact of climate change on human health and the economy",
+        "D": "To develop new methods for ice core drilling"
+      },
+      "correct": "A",
+      "explanation": "Paleoclimatology aims to reconstruct ancient climates and understand the Earth's climate history to make informed predictions about future climate changes.",
+      "node_id": "Paleoclimatology",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the study of the formation, growth, and decay of ice ages?",
+      "options": {
+        "A": "Glacial geology",
+        "B": "Ice age dynamics",
+        "C": "Climate modeling",
+        "D": "Sea level changes"
+      },
+      "correct": "B",
+      "explanation": "Ice age dynamics is the study of the formation, growth, and decay of ice ages, including the factors that influence ice sheet expansion and contraction.",
+      "node_id": "Ice Age Dynamics",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the name of the web-based research tool for high-resolution paleoclimatology?",
+      "options": {
+        "A": "KNMI Climate Explorer",
+        "B": "IPCC Climate Database",
+        "C": "Paleoclimatology Research Tool",
+        "D": "Climate Modeling Software"
+      },
+      "correct": "A",
+      "explanation": "The KNMI Climate Explorer is a web-based research tool that provides access to a comprehensive collection of climatic data sets and analysis tools for high-resolution paleoclimatology.",
+      "node_id": "KNMI Climate Explorer",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "Who is credited with proposing the idea of an ice age?",
+      "options": {
+        "A": "Louis Agassiz",
+        "B": "Milutin Milankovic",
+        "C": "Charles Darwin",
+        "D": "Alfred Wegener"
+      },
+      "correct": "A",
+      "explanation": "Louis Agassiz was one of the first scientists to propose the idea of an ice age, and his work laid the foundation for modern paleoclimatology.",
+      "node_id": "Louis Agassiz",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the analysis of indirect evidence of past climate conditions?",
+      "options": {
+        "A": "Proxy data analysis",
+        "B": "Climate modeling",
+        "C": "Glacial geology",
+        "D": "Dendrochronology"
+      },
+      "correct": "A",
+      "explanation": "Proxy data analysis is the analysis of indirect evidence of past climate conditions, such as tree rings, coral reefs, and ice cores, to reconstruct ancient climates.",
+      "node_id": "Proxy Data Analysis",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the use of models to simulate the processes by which proxy data are formed?",
+      "options": {
+        "A": "Proxy system modeling",
+        "B": "Climate modeling",
+        "C": "Glacial geology",
+        "D": "Dendrochronology"
+      },
+      "correct": "A",
+      "explanation": "Proxy system modeling is the use of models to simulate the processes by which proxy data are formed, including the response of sensors to environmental forcing.",
+      "node_id": "Proxy System Modeling",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the study of tree rings as a proxy for past climate conditions?",
+      "options": {
+        "A": "Dendrochronology",
+        "B": "Glacial geology",
+        "C": "Climate modeling",
+        "D": "Sea level changes"
+      },
+      "correct": "A",
+      "explanation": "Dendrochronology is the study of tree rings as a proxy for past climate conditions, including temperature, precipitation, and drought.",
+      "node_id": "Dendrochronology",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the importance of ice core drilling in paleoclimatology.",
+      "sample_answer": "Ice core drilling provides a detailed record of past climate conditions, including temperature, precipitation, and atmospheric composition, which is essential for understanding the Earth's climate history and making predictions about future climate changes.",
+      "keywords": [
+        "ice core drilling",
+        "paleoclimatology",
+        "climate history"
+      ],
+      "node_id": "Ice Core Drilling",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Explain the role of Milutin Milankovic in the development of paleoclimatology.",
+      "sample_answer": "Milutin Milankovic developed the theory of ice age cycles, including the role of changes in Earth's orbit in driving climate variations, which is still widely used today in paleoclimatology and climate science.",
+      "keywords": [
+        "Milutin Milankovic",
+        "ice age cycles",
+        "paleoclimatology"
+      ],
+      "node_id": "Milutin Milankovic",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the impact of sea level changes on coastal ecosystems.",
+      "sample_answer": "Sea level changes can have significant impacts on coastal ecosystems, including saltwater intrusion, erosion, and loss of habitat for plants and animals, which can lead to changes in the distribution and abundance of species.",
+      "keywords": [
+        "sea level changes",
+        "coastal ecosystems",
+        "climate change"
+      ],
+      "node_id": "Sea Level Changes",
+      "points": 10
+    }
+  ]
+}
