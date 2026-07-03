@@ -388,5 +388,18 @@
     "master_total_topics": 30,
     "ended_at": "2026-07-02T23:44:50.658145",
     "duration_seconds": 38.6
+  },
+  {
+    "started_at": "2026-07-03T10:15:24.858235",
+    "status": "success",
+    "topic": "Oceanography",
+    "sources_found": 6,
+    "images_found": 5,
+    "quality_score": 87.5,
+    "quality_passed": true,
+    "exam_questions": 10,
+    "master_total_topics": 31,
+    "ended_at": "2026-07-03T10:16:02.380970",
+    "duration_seconds": 37.5
   }
 ]

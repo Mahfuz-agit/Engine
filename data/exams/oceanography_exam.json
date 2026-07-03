@@ -1,0 +1,165 @@
+{
+  "topic": "Oceanography",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary focus of the field of oceanography?",
+      "options": {
+        "A": "The study of the Earth's atmosphere",
+        "B": "The scientific study of the ocean, including its physics, chemistry, biology, and geology",
+        "C": "The study of the Earth's landforms and geological processes",
+        "D": "The study of the Earth's freshwater systems"
+      },
+      "correct": "B",
+      "explanation": "Oceanography is a multidisciplinary field that encompasses the study of the ocean's physical, chemical, biological, and geological properties.",
+      "node_id": "Oceanography",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which subfield of oceanography deals with the study of the ocean's physical properties, including its temperature, salinity, and circulation patterns?",
+      "options": {
+        "A": "Chemical Oceanography",
+        "B": "Biological Oceanography",
+        "C": "Marine Geology",
+        "D": "Physical Oceanography"
+      },
+      "correct": "D",
+      "explanation": "Physical oceanography is the study of the ocean's physical properties, including its temperature, salinity, and circulation patterns, which helps us understand ocean currents, waves, and the ocean's role in climate regulation.",
+      "node_id": "Physical Oceanography",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What are some of the key impacts of marine debris on marine ecosystems?",
+      "sample_answer": "Marine debris can harm marine life, contaminate the food chain, and damage coastal ecosystems.",
+      "keywords": [
+        "marine debris",
+        "harm marine life",
+        "contaminate food chain",
+        "damage coastal ecosystems"
+      ],
+      "node_id": "Marine Debris",
+      "points": 15
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term used to describe the decrease in the ocean's pH levels due to the absorption of excess carbon dioxide from the atmosphere?",
+      "options": {
+        "A": "Ocean acidification",
+        "B": "Ocean alkalization",
+        "C": "Sea level rise",
+        "D": "El Ni\u00f1o-Southern Oscillation"
+      },
+      "correct": "A",
+      "explanation": "Ocean acidification is a major concern for coral reefs, shellfish, and other marine ecosystems, as it can harm marine organisms, especially those with calcium carbonate shells.",
+      "node_id": "Ocean Acidification",
+      "points": 15
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "Who is considered the 'father of modern oceanography' for his pioneering work on ocean currents and navigation?",
+      "options": {
+        "A": "Matthew Fontaine Maury",
+        "B": "Charles Darwin",
+        "C": "Jacques Cousteau",
+        "D": "Sylvia Earle"
+      },
+      "correct": "A",
+      "explanation": "Matthew Fontaine Maury is considered the 'father of modern oceanography' for his pioneering work on ocean currents and navigation, which helped establish the United States as a major maritime power.",
+      "node_id": "Matthew Fontaine Maury",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Describe the physical oceanographic processes that transport floating marine debris, including ocean currents, winds, and waves.",
+      "sample_answer": "The physical oceanographic processes that transport floating marine debris include ocean currents, winds, and waves, which can move debris across the ocean and deposit it on coastlines or in the open ocean.",
+      "keywords": [
+        "physical oceanographic processes",
+        "ocean currents",
+        "winds",
+        "waves",
+        "floating marine debris"
+      ],
+      "node_id": "Physical Oceanography of the Transport of Floating Marine Debris",
+      "points": 20
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term used to describe the complex climate phenomenon that affects the ocean's temperature, atmospheric circulation, and weather patterns?",
+      "options": {
+        "A": "El Ni\u00f1o-Southern Oscillation",
+        "B": "La Ni\u00f1a",
+        "C": "Ocean acidification",
+        "D": "Sea level rise"
+      },
+      "correct": "A",
+      "explanation": "El Ni\u00f1o-Southern Oscillation is a complex climate phenomenon that affects the ocean's temperature, atmospheric circulation, and weather patterns, leading to droughts, floods, and other extreme weather events.",
+      "node_id": "El Ni\u00f1o-Southern Oscillation (ENSO)",
+      "points": 15
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the primary goal of ocean conservation efforts?",
+      "options": {
+        "A": "To promote sustainable fishing practices",
+        "B": "To reduce plastic pollution in the ocean",
+        "C": "To protect the ocean's ecosystems and resources from human impacts",
+        "D": "To study the ocean's physical properties"
+      },
+      "correct": "C",
+      "explanation": "Ocean conservation efforts aim to protect the ocean's ecosystems and resources from human impacts, including pollution, overfishing, and climate change.",
+      "node_id": "Ocean Conservation",
+      "points": 15
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "What is the importance of marine geology in understanding the ocean's ecosystems?",
+      "sample_answer": "Marine geology helps us understand the formation of oceanic crust and the distribution of marine resources, which is essential for managing marine resources and predicting weather patterns.",
+      "keywords": [
+        "marine geology",
+        "oceanic crust",
+        "marine resources",
+        "managing marine resources"
+      ],
+      "node_id": "Marine Geology",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which of the following is a subfield of oceanography that deals with the study of the ocean's living organisms?",
+      "options": {
+        "A": "Physical Oceanography",
+        "B": "Chemical Oceanography",
+        "C": "Biological Oceanography",
+        "D": "Marine Geology"
+      },
+      "correct": "C",
+      "explanation": "Biological oceanography is the study of the ocean's living organisms, including their diversity, distribution, and interactions, which helps us understand the ocean's ecosystems, including coral reefs, phytoplankton, and marine food webs.",
+      "node_id": "Biological Oceanography",
+      "points": 15
+    }
+  ]
+}

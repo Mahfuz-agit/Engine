@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 30,
-  "total_nodes": 449,
-  "total_edges": 552,
+  "total_topics": 31,
+  "total_nodes": 464,
+  "total_edges": 571,
   "topics": [
     {
       "topic": "Climate Change",
@@ -273,6 +273,15 @@
       "edge_count": 19,
       "description": "Paleoclimatology is the study of past climates, crucial for understanding natural climate variation and evolution. It involves analyzing proxy data, such as ice cores and sedimentary rocks, to reconstruct ancient climates. This field helps scientists understand the Earth's climate history and make predictions about future climate changes.",
       "added_at": "2026-07-02T23:44:50.651397"
+    },
+    {
+      "topic": "Oceanography",
+      "slug": "oceanography",
+      "category": "geography",
+      "node_count": 15,
+      "edge_count": 19,
+      "description": "Oceanography is the scientific study of the ocean, including its physics, chemistry, biology, and geology. It encompasses various subfields such as marine geology, physical oceanography, chemical oceanography, biological oceanography, and ocean conservation. Understanding oceanography is crucial for managing marine resources, predicting weather patterns, and mitigating the effects of climate change.",
+      "added_at": "2026-07-03T10:16:02.373348"
     }
   ],
   "global_nodes": [
@@ -5214,6 +5223,171 @@
       "fun_fact": "The IPCC has played a key role in raising awareness about climate change and promoting international cooperation on climate action.",
       "topic_slug": "paleoclimatology",
       "topic": "Paleoclimatology"
+    },
+    {
+      "id": "oceanography__N1",
+      "label": "Oceanography",
+      "type": "core",
+      "depth": 0,
+      "description": "The scientific study of the ocean, including its physics, chemistry, biology, and geology.",
+      "importance": 10,
+      "fun_fact": "The word 'oceanography' was first used in the 16th century.",
+      "topic_slug": "oceanography",
+      "topic": "Oceanography"
+    },
+    {
+      "id": "oceanography__N2",
+      "label": "Marine Geology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the Earth's oceanic crust, including its composition, structure, and processes.",
+      "importance": 8,
+      "fun_fact": "Marine geology helps us understand the formation of oceanic crust and the distribution of marine resources.",
+      "topic_slug": "oceanography",
+      "topic": "Oceanography"
+    },
+    {
+      "id": "oceanography__N3",
+      "label": "Physical Oceanography",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the ocean's physical properties, including its temperature, salinity, and circulation patterns.",
+      "importance": 9,
+      "fun_fact": "Physical oceanography helps us understand ocean currents, waves, and the ocean's role in climate regulation.",
+      "topic_slug": "oceanography",
+      "topic": "Oceanography"
+    },
+    {
+      "id": "oceanography__N4",
+      "label": "Chemical Oceanography",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the ocean's chemical composition, including its nutrients, gases, and pollutants.",
+      "importance": 8,
+      "fun_fact": "Chemical oceanography helps us understand the ocean's biogeochemical cycles and the impact of human activities on the ocean's chemistry.",
+      "topic_slug": "oceanography",
+      "topic": "Oceanography"
+    },
+    {
+      "id": "oceanography__N5",
+      "label": "Biological Oceanography",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the ocean's living organisms, including their diversity, distribution, and interactions.",
+      "importance": 9,
+      "fun_fact": "Biological oceanography helps us understand the ocean's ecosystems, including coral reefs, phytoplankton, and marine food webs.",
+      "topic_slug": "oceanography",
+      "topic": "Oceanography"
+    },
+    {
+      "id": "oceanography__N6",
+      "label": "Ocean Conservation",
+      "type": "concept",
+      "depth": 1,
+      "description": "The practice of protecting the ocean's ecosystems and resources from human impacts, including pollution, overfishing, and climate change.",
+      "importance": 9,
+      "fun_fact": "Ocean conservation efforts include the establishment of marine protected areas, sustainable fishing practices, and reduction of plastic pollution.",
+      "topic_slug": "oceanography",
+      "topic": "Oceanography"
+    },
+    {
+      "id": "oceanography__N7",
+      "label": "Matthew Fontaine Maury",
+      "type": "person",
+      "depth": 2,
+      "description": "An American oceanographer who is considered the 'father of modern oceanography' for his pioneering work on ocean currents and navigation.",
+      "importance": 7,
+      "fun_fact": "Maury's work on ocean currents helped establish the United States as a major maritime power.",
+      "topic_slug": "oceanography",
+      "topic": "Oceanography"
+    },
+    {
+      "id": "oceanography__N8",
+      "label": "Marine Debris",
+      "type": "example",
+      "depth": 2,
+      "description": "A significant environmental problem that affects marine ecosystems, including plastic pollution, oil spills, and abandoned fishing gear.",
+      "importance": 8,
+      "fun_fact": "Marine debris can harm marine life, contaminate the food chain, and damage coastal ecosystems.",
+      "topic_slug": "oceanography",
+      "topic": "Oceanography"
+    },
+    {
+      "id": "oceanography__N9",
+      "label": "Ocean Acidification",
+      "type": "example",
+      "depth": 2,
+      "description": "The decrease in the ocean's pH levels due to the absorption of excess carbon dioxide from the atmosphere, which can harm marine organisms, especially those with calcium carbonate shells.",
+      "importance": 8,
+      "fun_fact": "Ocean acidification is a major concern for coral reefs, shellfish, and other marine ecosystems.",
+      "topic_slug": "oceanography",
+      "topic": "Oceanography"
+    },
+    {
+      "id": "oceanography__N10",
+      "label": "El Ni\u00f1o-Southern Oscillation (ENSO)",
+      "type": "example",
+      "depth": 2,
+      "description": "A complex climate phenomenon that affects the ocean's temperature, atmospheric circulation, and weather patterns, leading to droughts, floods, and other extreme weather events.",
+      "importance": 8,
+      "fun_fact": "ENSO has significant impacts on global climate patterns, including precipitation, temperature, and sea level.",
+      "topic_slug": "oceanography",
+      "topic": "Oceanography"
+    },
+    {
+      "id": "oceanography__N11",
+      "label": "Southeast Asian Waters",
+      "type": "example",
+      "depth": 2,
+      "description": "A region of significant oceanographic interest, with unique physical and biological characteristics, including coral reefs, mangroves, and seagrass beds.",
+      "importance": 6,
+      "fun_fact": "The Southeast Asian Waters are home to a diverse array of marine life, including endangered species such as sea turtles and dugongs.",
+      "topic_slug": "oceanography",
+      "topic": "Oceanography"
+    },
+    {
+      "id": "oceanography__N12",
+      "label": "Floating Marine Debris",
+      "type": "example",
+      "depth": 2,
+      "description": "A significant environmental problem that affects marine ecosystems, including plastic pollution, oil spills, and abandoned fishing gear.",
+      "importance": 7,
+      "fun_fact": "Floating marine debris can harm marine life, contaminate the food chain, and damage coastal ecosystems.",
+      "topic_slug": "oceanography",
+      "topic": "Oceanography"
+    },
+    {
+      "id": "oceanography__N13",
+      "label": "Introduction to Physical Oceanography",
+      "type": "application",
+      "depth": 3,
+      "description": "A textbook that provides a comprehensive introduction to physical oceanography, including its principles, processes, and applications.",
+      "importance": 6,
+      "fun_fact": "This textbook is a valuable resource for students and researchers in the field of oceanography.",
+      "topic_slug": "oceanography",
+      "topic": "Oceanography"
+    },
+    {
+      "id": "oceanography__N14",
+      "label": "Physical Oceanography of the Transport of Floating Marine Debris",
+      "type": "application",
+      "depth": 3,
+      "description": "A research study that investigates the physical oceanographic processes that transport floating marine debris, including ocean currents, winds, and waves.",
+      "importance": 7,
+      "fun_fact": "This study provides valuable insights into the movement and fate of marine debris in the ocean.",
+      "topic_slug": "oceanography",
+      "topic": "Oceanography"
+    },
+    {
+      "id": "oceanography__N15",
+      "label": "Ocean Conservation Efforts",
+      "type": "application",
+      "depth": 3,
+      "description": "A range of practices and policies aimed at protecting the ocean's ecosystems and resources, including marine protected areas, sustainable fishing practices, and reduction of plastic pollution.",
+      "importance": 8,
+      "fun_fact": "Ocean conservation efforts can help mitigate the impacts of climate change, overfishing, and pollution on marine ecosystems.",
+      "topic_slug": "oceanography",
+      "topic": "Oceanography"
     }
   ],
   "global_edges": [
@@ -9080,6 +9254,139 @@
       "relation": "enables",
       "strength": 7,
       "topic": "Paleoclimatology"
+    },
+    {
+      "source": "oceanography__N1",
+      "target": "oceanography__N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Oceanography"
+    },
+    {
+      "source": "oceanography__N1",
+      "target": "oceanography__N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Oceanography"
+    },
+    {
+      "source": "oceanography__N1",
+      "target": "oceanography__N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Oceanography"
+    },
+    {
+      "source": "oceanography__N1",
+      "target": "oceanography__N5",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Oceanography"
+    },
+    {
+      "source": "oceanography__N1",
+      "target": "oceanography__N6",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Oceanography"
+    },
+    {
+      "source": "oceanography__N3",
+      "target": "oceanography__N7",
+      "relation": "discovered_by",
+      "strength": 7,
+      "topic": "Oceanography"
+    },
+    {
+      "source": "oceanography__N2",
+      "target": "oceanography__N8",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Oceanography"
+    },
+    {
+      "source": "oceanography__N4",
+      "target": "oceanography__N9",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Oceanography"
+    },
+    {
+      "source": "oceanography__N5",
+      "target": "oceanography__N10",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Oceanography"
+    },
+    {
+      "source": "oceanography__N3",
+      "target": "oceanography__N11",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Oceanography"
+    },
+    {
+      "source": "oceanography__N6",
+      "target": "oceanography__N12",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Oceanography"
+    },
+    {
+      "source": "oceanography__N13",
+      "target": "oceanography__N3",
+      "relation": "is_type_of",
+      "strength": 6,
+      "topic": "Oceanography"
+    },
+    {
+      "source": "oceanography__N14",
+      "target": "oceanography__N12",
+      "relation": "used_in",
+      "strength": 7,
+      "topic": "Oceanography"
+    },
+    {
+      "source": "oceanography__N15",
+      "target": "oceanography__N6",
+      "relation": "is_type_of",
+      "strength": 8,
+      "topic": "Oceanography"
+    },
+    {
+      "source": "oceanography__N1",
+      "target": "oceanography__N13",
+      "relation": "enables",
+      "strength": 6,
+      "topic": "Oceanography"
+    },
+    {
+      "source": "oceanography__N1",
+      "target": "oceanography__N14",
+      "relation": "enables",
+      "strength": 7,
+      "topic": "Oceanography"
+    },
+    {
+      "source": "oceanography__N1",
+      "target": "oceanography__N15",
+      "relation": "enables",
+      "strength": 8,
+      "topic": "Oceanography"
+    },
+    {
+      "source": "oceanography__N7",
+      "target": "oceanography__N1",
+      "relation": "evolved_from",
+      "strength": 7,
+      "topic": "Oceanography"
+    },
+    {
+      "source": "oceanography__N8",
+      "target": "oceanography__N9",
+      "relation": "contrasts_with",
+      "strength": 8,
+      "topic": "Oceanography"
     }
   ],
   "cross_topic_edges": [
@@ -9103,6 +9410,13 @@
       "relation": "cross_topic_connection",
       "strength": 6,
       "label": "sustainable development"
+    },
+    {
+      "source": "climate_change__N5",
+      "target": "oceanography__N9",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "ocean acidification"
     },
     {
       "source": "ecological_conservation__N10",
@@ -9230,7 +9544,8 @@
       "geomorphology",
       "cartography",
       "geographic_information_systems",
-      "paleoclimatology"
+      "paleoclimatology",
+      "oceanography"
     ],
     "biology": [
       "evolutionary_biology",
@@ -9280,5 +9595,5 @@
       "biomechanical_engineering"
     ]
   },
-  "last_updated": "2026-07-02T23:44:50.651430"
+  "last_updated": "2026-07-03T10:16:02.373391"
 }

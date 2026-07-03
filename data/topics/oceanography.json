@@ -1,0 +1,384 @@
+{
+  "topic": "Oceanography",
+  "category": "geography",
+  "description": "Oceanography is the scientific study of the ocean, including its physics, chemistry, biology, and geology. It encompasses various subfields such as marine geology, physical oceanography, chemical oceanography, biological oceanography, and ocean conservation. Understanding oceanography is crucial for managing marine resources, predicting weather patterns, and mitigating the effects of climate change.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Oceanography",
+      "type": "core",
+      "depth": 0,
+      "description": "The scientific study of the ocean, including its physics, chemistry, biology, and geology.",
+      "importance": 10,
+      "fun_fact": "The word 'oceanography' was first used in the 16th century."
+    },
+    {
+      "id": "N2",
+      "label": "Marine Geology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the Earth's oceanic crust, including its composition, structure, and processes.",
+      "importance": 8,
+      "fun_fact": "Marine geology helps us understand the formation of oceanic crust and the distribution of marine resources."
+    },
+    {
+      "id": "N3",
+      "label": "Physical Oceanography",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the ocean's physical properties, including its temperature, salinity, and circulation patterns.",
+      "importance": 9,
+      "fun_fact": "Physical oceanography helps us understand ocean currents, waves, and the ocean's role in climate regulation."
+    },
+    {
+      "id": "N4",
+      "label": "Chemical Oceanography",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the ocean's chemical composition, including its nutrients, gases, and pollutants.",
+      "importance": 8,
+      "fun_fact": "Chemical oceanography helps us understand the ocean's biogeochemical cycles and the impact of human activities on the ocean's chemistry."
+    },
+    {
+      "id": "N5",
+      "label": "Biological Oceanography",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the ocean's living organisms, including their diversity, distribution, and interactions.",
+      "importance": 9,
+      "fun_fact": "Biological oceanography helps us understand the ocean's ecosystems, including coral reefs, phytoplankton, and marine food webs."
+    },
+    {
+      "id": "N6",
+      "label": "Ocean Conservation",
+      "type": "concept",
+      "depth": 1,
+      "description": "The practice of protecting the ocean's ecosystems and resources from human impacts, including pollution, overfishing, and climate change.",
+      "importance": 9,
+      "fun_fact": "Ocean conservation efforts include the establishment of marine protected areas, sustainable fishing practices, and reduction of plastic pollution."
+    },
+    {
+      "id": "N7",
+      "label": "Matthew Fontaine Maury",
+      "type": "person",
+      "depth": 2,
+      "description": "An American oceanographer who is considered the 'father of modern oceanography' for his pioneering work on ocean currents and navigation.",
+      "importance": 7,
+      "fun_fact": "Maury's work on ocean currents helped establish the United States as a major maritime power."
+    },
+    {
+      "id": "N8",
+      "label": "Marine Debris",
+      "type": "example",
+      "depth": 2,
+      "description": "A significant environmental problem that affects marine ecosystems, including plastic pollution, oil spills, and abandoned fishing gear.",
+      "importance": 8,
+      "fun_fact": "Marine debris can harm marine life, contaminate the food chain, and damage coastal ecosystems."
+    },
+    {
+      "id": "N9",
+      "label": "Ocean Acidification",
+      "type": "example",
+      "depth": 2,
+      "description": "The decrease in the ocean's pH levels due to the absorption of excess carbon dioxide from the atmosphere, which can harm marine organisms, especially those with calcium carbonate shells.",
+      "importance": 8,
+      "fun_fact": "Ocean acidification is a major concern for coral reefs, shellfish, and other marine ecosystems."
+    },
+    {
+      "id": "N10",
+      "label": "El Ni\u00f1o-Southern Oscillation (ENSO)",
+      "type": "example",
+      "depth": 2,
+      "description": "A complex climate phenomenon that affects the ocean's temperature, atmospheric circulation, and weather patterns, leading to droughts, floods, and other extreme weather events.",
+      "importance": 8,
+      "fun_fact": "ENSO has significant impacts on global climate patterns, including precipitation, temperature, and sea level."
+    },
+    {
+      "id": "N11",
+      "label": "Southeast Asian Waters",
+      "type": "example",
+      "depth": 2,
+      "description": "A region of significant oceanographic interest, with unique physical and biological characteristics, including coral reefs, mangroves, and seagrass beds.",
+      "importance": 6,
+      "fun_fact": "The Southeast Asian Waters are home to a diverse array of marine life, including endangered species such as sea turtles and dugongs."
+    },
+    {
+      "id": "N12",
+      "label": "Floating Marine Debris",
+      "type": "example",
+      "depth": 2,
+      "description": "A significant environmental problem that affects marine ecosystems, including plastic pollution, oil spills, and abandoned fishing gear.",
+      "importance": 7,
+      "fun_fact": "Floating marine debris can harm marine life, contaminate the food chain, and damage coastal ecosystems."
+    },
+    {
+      "id": "N13",
+      "label": "Introduction to Physical Oceanography",
+      "type": "application",
+      "depth": 3,
+      "description": "A textbook that provides a comprehensive introduction to physical oceanography, including its principles, processes, and applications.",
+      "importance": 6,
+      "fun_fact": "This textbook is a valuable resource for students and researchers in the field of oceanography."
+    },
+    {
+      "id": "N14",
+      "label": "Physical Oceanography of the Transport of Floating Marine Debris",
+      "type": "application",
+      "depth": 3,
+      "description": "A research study that investigates the physical oceanographic processes that transport floating marine debris, including ocean currents, winds, and waves.",
+      "importance": 7,
+      "fun_fact": "This study provides valuable insights into the movement and fate of marine debris in the ocean."
+    },
+    {
+      "id": "N15",
+      "label": "Ocean Conservation Efforts",
+      "type": "application",
+      "depth": 3,
+      "description": "A range of practices and policies aimed at protecting the ocean's ecosystems and resources, including marine protected areas, sustainable fishing practices, and reduction of plastic pollution.",
+      "importance": 8,
+      "fun_fact": "Ocean conservation efforts can help mitigate the impacts of climate change, overfishing, and pollution on marine ecosystems."
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Marine geology is a subfield of oceanography that studies the Earth's oceanic crust."
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Physical oceanography is a subfield of oceanography that studies the ocean's physical properties."
+    },
+    {
+      "source": "N1",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Chemical oceanography is a subfield of oceanography that studies the ocean's chemical composition."
+    },
+    {
+      "source": "N1",
+      "target": "N5",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Biological oceanography is a subfield of oceanography that studies the ocean's living organisms."
+    },
+    {
+      "source": "N1",
+      "target": "N6",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Ocean conservation is a subfield of oceanography that focuses on protecting the ocean's ecosystems and resources."
+    },
+    {
+      "source": "N3",
+      "target": "N7",
+      "relation": "discovered_by",
+      "strength": 7,
+      "description": "Matthew Fontaine Maury is considered the 'father of modern oceanography' for his pioneering work on ocean currents and navigation."
+    },
+    {
+      "source": "N2",
+      "target": "N8",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "Marine debris is a significant environmental problem that affects marine ecosystems, including those studied in marine geology."
+    },
+    {
+      "source": "N4",
+      "target": "N9",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "Ocean acidification is a significant environmental problem that affects marine ecosystems, including those studied in chemical oceanography."
+    },
+    {
+      "source": "N5",
+      "target": "N10",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "El Ni\u00f1o-Southern Oscillation (ENSO) is a complex climate phenomenon that affects marine ecosystems, including those studied in biological oceanography."
+    },
+    {
+      "source": "N3",
+      "target": "N11",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "Physical oceanography is used to study the unique physical characteristics of the Southeast Asian Waters."
+    },
+    {
+      "source": "N6",
+      "target": "N12",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "Floating marine debris is a significant environmental problem that affects marine ecosystems, including those protected by ocean conservation efforts."
+    },
+    {
+      "source": "N13",
+      "target": "N3",
+      "relation": "is_type_of",
+      "strength": 6,
+      "description": "Introduction to Physical Oceanography is a textbook that provides a comprehensive introduction to physical oceanography."
+    },
+    {
+      "source": "N14",
+      "target": "N12",
+      "relation": "used_in",
+      "strength": 7,
+      "description": "The physical oceanography of the transport of floating marine debris is a research study that investigates the physical oceanographic processes that transport floating marine debris."
+    },
+    {
+      "source": "N15",
+      "target": "N6",
+      "relation": "is_type_of",
+      "strength": 8,
+      "description": "Ocean conservation efforts are a range of practices and policies aimed at protecting the ocean's ecosystems and resources."
+    },
+    {
+      "source": "N1",
+      "target": "N13",
+      "relation": "enables",
+      "strength": 6,
+      "description": "Oceanography enables the study of physical oceanography, which is introduced in the textbook Introduction to Physical Oceanography."
+    },
+    {
+      "source": "N1",
+      "target": "N14",
+      "relation": "enables",
+      "strength": 7,
+      "description": "Oceanography enables the study of the physical oceanography of the transport of floating marine debris."
+    },
+    {
+      "source": "N1",
+      "target": "N15",
+      "relation": "enables",
+      "strength": 8,
+      "description": "Oceanography enables the development of ocean conservation efforts, which aim to protect the ocean's ecosystems and resources."
+    },
+    {
+      "source": "N7",
+      "target": "N1",
+      "relation": "evolved_from",
+      "strength": 7,
+      "description": "Matthew Fontaine Maury's work on ocean currents and navigation evolved into the field of oceanography."
+    },
+    {
+      "source": "N8",
+      "target": "N9",
+      "relation": "contrasts_with",
+      "strength": 8,
+      "description": "Marine debris and ocean acidification are two distinct environmental problems that affect marine ecosystems in different ways."
+    }
+  ],
+  "key_takeaways": [
+    "Oceanography is a multidisciplinary field that studies the ocean's physical, chemical, biological, and geological properties.",
+    "Marine geology, physical oceanography, chemical oceanography, biological oceanography, and ocean conservation are all subfields of oceanography.",
+    "Ocean conservation efforts are crucial for protecting the ocean's ecosystems and resources from human impacts, including pollution, overfishing, and climate change."
+  ],
+  "real_world_impact": "Oceanography has significant real-world impacts, including informing climate change mitigation strategies, managing marine resources, and predicting weather patterns. For example, understanding ocean currents and circulation patterns can help predict the movement of marine debris, including plastic pollution, and inform strategies for reducing its impact on marine ecosystems. Additionally, ocean conservation efforts can help protect marine biodiversity, including endangered species such as sea turtles and dugongs, and promote sustainable fishing practices that support the livelihoods of coastal communities.",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Argo_float_deployed_from_research_vessel.jpg",
+      "title": "Argo float deployed from research vessel.jpg",
+      "license": "Public domain",
+      "artist": "NOAA GOMO (Global Ocean Monitoring and Observing Program)",
+      "description": "Deployment of an Argo float from a research vessel.",
+      "width": 762,
+      "height": 432,
+      "source_query": "Oceanography"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Mus%C3%A9e_maritime_du_Qu%C3%A9bec%2C_l%27Islet_01.jpg",
+      "title": "Mus\u00e9e maritime du Qu\u00e9bec, l'Islet 01.jpg",
+      "license": "CC BY-SA 3.0",
+      "artist": "Bernard Gagnon",
+      "description": "Mus\u00e9e maritime du Qu\u00e9bec (back facade), l'Islet, Province of Quebec, Canada",
+      "width": 3312,
+      "height": 2208,
+      "source_query": "Oceanography"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/NOAA_divers_Calcification_Accretion_Unit_Maug_Island_West_2022.png",
+      "title": "NOAA divers Calcification Accretion Unit Maug Island West 2022.png",
+      "license": "Public domain",
+      "artist": "NOAA (uncredited)",
+      "description": "Two divers from the National Oceanic and Atmospheric Administration survey ship NOAAS Rainier (S 221) install a temperature recorder off Maug Island West with a Calcification Accretion Unit (CAU) in the foreground.",
+      "width": 1220,
+      "height": 815,
+      "source_query": "Oceanography"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Ocean_Lim_Wiki_v3_transparent.png",
+      "title": "Ocean Lim Wiki v3 transparent.png",
+      "license": "CC BY-SA 4.0",
+      "artist": "Simone Des Roches",
+      "description": "Logo of WikiProject Limnology and Oceanography designed and created by Simone Des Roches. WikiProject Limnology and Oceanography editors aim to improve the reliability and accuracy of Wikipedia pages relating to the study of inland waters and marine environments.",
+      "width": 3472,
+      "height": 3472,
+      "source_query": "Oceanography"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Ocean_currents_1911.jpg",
+      "title": "Ocean currents 1911.jpg",
+      "license": "Public domain",
+      "artist": "",
+      "description": "",
+      "width": 1081,
+      "height": 768,
+      "source_query": "Oceanography"
+    }
+  ],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Oceanography",
+    "papers": [
+      {
+        "title": "Physical oceanography of the Southeast Asian waters",
+        "url": "https://escholarship.org/uc/item/49n9x3t4"
+      },
+      {
+        "title": "Introduction to Physical Oceanography",
+        "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.693.2878"
+      },
+      {
+        "title": "The physical oceanography of the transport of floating marine debris",
+        "url": "https://doi.org/10.1088/1748-9326/ab6d7d"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 19"
+      ],
+      "node_count": 15,
+      "edge_count": 19
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Ocean Currents",
+        "Marine Pollution"
+      ],
+      "strengths": [
+        "covers multiple subfields of oceanography",
+        "includes key concepts and applications"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}
