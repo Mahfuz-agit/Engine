@@ -401,5 +401,18 @@
     "master_total_topics": 31,
     "ended_at": "2026-07-03T10:16:02.380970",
     "duration_seconds": 37.5
+  },
+  {
+    "started_at": "2026-07-03T17:02:29.003735",
+    "status": "success",
+    "topic": "Toxicology",
+    "sources_found": 6,
+    "images_found": 0,
+    "quality_score": 87.5,
+    "quality_passed": true,
+    "exam_questions": 10,
+    "master_total_topics": 32,
+    "ended_at": "2026-07-03T17:03:11.029068",
+    "duration_seconds": 42.0
   }
 ]

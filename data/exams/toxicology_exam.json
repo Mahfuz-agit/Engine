@@ -1,0 +1,161 @@
+{
+  "topic": "Toxicology",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary focus of the field of toxicology?",
+      "options": {
+        "A": "The study of the beneficial effects of chemical substances on living organisms",
+        "B": "The study of the adverse effects of chemical substances on living organisms",
+        "C": "The study of the environmental impact of chemical substances",
+        "D": "The study of the economic effects of chemical substances on industries"
+      },
+      "correct": "B",
+      "explanation": "Toxicology is a multidisciplinary field that studies the adverse effects of chemical substances on living organisms",
+      "node_id": "Toxicology",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which of the following subfields of toxicology deals with the study of how an organism affects a specific drug after administration?",
+      "options": {
+        "A": "Toxicokinetics",
+        "B": "Pharmacokinetics",
+        "C": "Ecotoxicology",
+        "D": "Risk Assessment"
+      },
+      "correct": "B",
+      "explanation": "Pharmacokinetics is the study of how an organism affects a specific drug after administration",
+      "node_id": "Pharmacokinetics",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term used to describe the process of evaluating the potential risks associated with a substance or situation?",
+      "options": {
+        "A": "Risk Management",
+        "B": "Toxicological Testing",
+        "C": "Regulatory Affairs",
+        "D": "Risk Assessment"
+      },
+      "correct": "D",
+      "explanation": "Risk assessment is the process of evaluating the potential risks associated with a substance or situation",
+      "node_id": "Risk Assessment",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "Who is considered the father of toxicology?",
+      "options": {
+        "A": "Paracelsus",
+        "B": "Hippocrates",
+        "C": "Galileo",
+        "D": "Newton"
+      },
+      "correct": "A",
+      "explanation": "Paracelsus is considered the father of toxicology",
+      "node_id": "Paracelsus",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term used to describe the study of the effects of toxic substances on the environment and ecosystems?",
+      "options": {
+        "A": "Toxicology",
+        "B": "Ecotoxicology",
+        "C": "Pharmacokinetics",
+        "D": "Toxicokinetics"
+      },
+      "correct": "B",
+      "explanation": "Ecotoxicology is the study of the effects of toxic substances on the environment and ecosystems",
+      "node_id": "Ecotoxicology",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term used to describe the approach that emphasizes the use of empirical evidence to inform toxicological decisions?",
+      "options": {
+        "A": "Evidence-Based Medicine",
+        "B": "Toxicological Testing",
+        "C": "Risk Assessment",
+        "D": "Evidence-Based Toxicology"
+      },
+      "correct": "D",
+      "explanation": "Evidence-based toxicology is the approach that emphasizes the use of empirical evidence to inform toxicological decisions",
+      "node_id": "Evidence-Based Toxicology",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term used to describe the type of protein that can be used as a therapeutic agent to treat cancer?",
+      "options": {
+        "A": "Ribosome-Activating Proteins",
+        "B": "Ribosome-Inactivating Proteins",
+        "C": "Toxicokinetic Proteins",
+        "D": "Pharmacokinetic Proteins"
+      },
+      "correct": "B",
+      "explanation": "Ribosome-inactivating proteins are a type of protein that can be used as a therapeutic agent to treat cancer",
+      "node_id": "Ribosome-Inactivating Proteins",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the importance of toxicology in understanding cancer and developing new treatments",
+      "sample_answer": "Toxicology has contributed significantly to our understanding of cancer and the development of new treatments by studying the adverse effects of chemical substances on living organisms. This knowledge has led to the development of targeted therapies and a better understanding of the mechanisms of cancer.",
+      "keywords": [
+        "cancer",
+        "toxicology",
+        "treatments"
+      ],
+      "node_id": "Cancer Research",
+      "points": 20
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Explain the concept of dose-response relationships in toxicology and its significance in understanding the effects of toxic substances",
+      "sample_answer": "Dose-response relationships refer to the relationship between the dose of a toxic substance and its effects on a living organism. This concept is significant in understanding the effects of toxic substances because it allows toxicologists to predict the potential harm caused by a substance and develop safe exposure limits.",
+      "keywords": [
+        "dose-response",
+        "toxicology",
+        "substances"
+      ],
+      "node_id": "Toxicology",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the role of regulatory affairs in protecting public health and the environment from the harmful effects of toxic substances",
+      "sample_answer": "Regulatory affairs play a crucial role in protecting public health and the environment by ensuring compliance with laws and regulations related to toxic substances. This includes setting safe exposure limits, monitoring environmental pollution, and enforcing regulations to prevent the release of toxic substances into the environment.",
+      "keywords": [
+        "regulatory affairs",
+        "public health",
+        "environment"
+      ],
+      "node_id": "Regulatory Affairs",
+      "points": 20
+    }
+  ]
+}
