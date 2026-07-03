@@ -1,0 +1,163 @@
+{
+  "topic": "Ethology",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary focus of the scientific study of ethology?",
+      "options": {
+        "A": "The study of animal physiology",
+        "B": "The study of animal behavior and its interactions with the environment",
+        "C": "The study of plant ecology",
+        "D": "The study of human psychology"
+      },
+      "correct": "B",
+      "explanation": "Ethology is the scientific study of animal behavior, focusing on the interactions between animals and their environment.",
+      "node_id": "Ethology",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which of the following is a key component of cultural transmission in some animal species?",
+      "options": {
+        "A": "Genetic inheritance",
+        "B": "Social learning",
+        "C": "Environmental adaptation",
+        "D": "Instinctual behavior"
+      },
+      "correct": "B",
+      "explanation": "Social learning is a key component of cultural transmission in some animal species, allowing them to learn new behaviors by observing and imitating others.",
+      "node_id": "Social Learning",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the study of the structure and organization of the nervous system, which underlies animal behavior?",
+      "options": {
+        "A": "Neurology",
+        "B": "Neuroanatomy",
+        "C": "Ecology",
+        "D": "Evolutionary biology"
+      },
+      "correct": "B",
+      "explanation": "Neuroanatomy is the study of the structure and organization of the nervous system, which underlies animal behavior.",
+      "node_id": "Neuroanatomy",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "Who is credited with coining the term 'ethology' in 1859?",
+      "options": {
+        "A": "Charles Darwin",
+        "B": "Isidore Geoffroy Saint-Hilaire",
+        "C": "Nikolaas Tinbergen",
+        "D": "Konrad Lorenz"
+      },
+      "correct": "B",
+      "explanation": "The term 'ethology' was first coined by Isidore Geoffroy Saint-Hilaire in 1859.",
+      "node_id": "Ethology",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the exchange of information between animals, which can take many forms, including vocalizations, visual displays, and chemical signals?",
+      "options": {
+        "A": "Social learning",
+        "B": "Communication",
+        "C": "Mating and courtship",
+        "D": "Agonistic behavior"
+      },
+      "correct": "B",
+      "explanation": "Communication is the exchange of information between animals, which can take many forms, including vocalizations, visual displays, and chemical signals.",
+      "node_id": "Communication",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "Which of the following scientists was awarded the Nobel Prize in Physiology or Medicine in 1973 for his work on the behavior and social organization of honeybees?",
+      "options": {
+        "A": "Nikolaas Tinbergen",
+        "B": "Konrad Lorenz",
+        "C": "Karl von Frisch",
+        "D": "Charles Darwin"
+      },
+      "correct": "C",
+      "explanation": "Karl von Frisch was awarded the Nobel Prize in Physiology or Medicine in 1973 for his work on the behavior and social organization of honeybees.",
+      "node_id": "Karl von Frisch",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the study of the interactions between organisms and their environment, which is closely related to ethology?",
+      "options": {
+        "A": "Ecology",
+        "B": "Evolutionary biology",
+        "C": "Neuroanatomy",
+        "D": "Genetics"
+      },
+      "correct": "A",
+      "explanation": "Ecology is the study of the interactions between organisms and their environment, which is closely related to ethology.",
+      "node_id": "Ecology",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the importance of social learning in animal behavior, providing at least two examples of how it is observed in different species.",
+      "sample_answer": "Social learning is a key component of animal behavior, allowing individuals to learn new behaviors by observing and imitating others. For example, in some species of birds, young birds learn how to forage for food by watching their parents. Similarly, in primates, individuals learn social norms and behaviors by observing their group members.",
+      "keywords": [
+        "social learning",
+        "animal behavior",
+        "examples"
+      ],
+      "node_id": "Social Learning",
+      "points": 20
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Explain the concept of agonistic behavior in animals, including its different forms and functions. Provide at least one example of how agonistic behavior is observed in a specific species.",
+      "sample_answer": "Agonistic behavior refers to the study of aggressive and competitive behaviors in animals, including fighting, dominance, and submission. In some species, such as wolves, agonistic behavior is used to establish social hierarchy and resolve conflicts. For example, in a wolf pack, dominant individuals will often engage in agonistic behavior to assert their dominance over subordinate individuals.",
+      "keywords": [
+        "agonistic behavior",
+        "forms",
+        "functions",
+        "example"
+      ],
+      "node_id": "Agonistic Behavior",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the contributions of Charles Darwin to the field of ethology, including his work on evolution and animal behavior.",
+      "sample_answer": "Charles Darwin is considered one of the founders of modern ethology, and his work on evolution and animal behavior laid the foundation for the field. In his book 'On the Origin of Species', Darwin described the concept of natural selection and how it drives the evolution of species. He also observed and described the behavior of animals in their natural habitats, providing valuable insights into the study of animal behavior.",
+      "keywords": [
+        "Charles Darwin",
+        "contributions",
+        "ethology",
+        "evolution"
+      ],
+      "node_id": "Charles Darwin",
+      "points": 20
+    }
+  ]
+}

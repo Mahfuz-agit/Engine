@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 32,
-  "total_nodes": 479,
-  "total_edges": 589,
+  "total_topics": 33,
+  "total_nodes": 494,
+  "total_edges": 609,
   "topics": [
     {
       "topic": "Climate Change",
@@ -291,6 +291,15 @@
       "edge_count": 18,
       "description": "Toxicology is the study of the adverse effects of chemical substances on living organisms. It involves understanding the relationship between dose and its effects on the exposed organism, as well as factors that influence chemical toxicity. Toxicology has various applications, including pharmacology, medicine, and environmental science.",
       "added_at": "2026-07-03T17:03:11.021818"
+    },
+    {
+      "topic": "Ethology",
+      "slug": "ethology",
+      "category": "biology",
+      "node_count": 15,
+      "edge_count": 20,
+      "description": "Ethology is the scientific study of animal behavior, combining laboratory and field research to understand the complex interactions between animals and their environment. It has its roots in the work of Charles Darwin and has evolved into a multidisciplinary field, incorporating insights from neuroanatomy, ecology, and evolutionary biology. By examining the behavior of non-human animals, ethologists aim to gain a deeper understanding of the underlying mechanisms and principles that govern their actions.",
+      "added_at": "2026-07-03T21:44:08.082827"
     }
   ],
   "global_nodes": [
@@ -5562,6 +5571,171 @@
       "fun_fact": "Toxicological testing is essential in ensuring the safety of substances used in consumer products and pharmaceuticals",
       "topic_slug": "toxicology",
       "topic": "Toxicology"
+    },
+    {
+      "id": "ethology__N1",
+      "label": "Ethology",
+      "type": "core",
+      "depth": 0,
+      "description": "The scientific study of animal behavior, focusing on the interactions between animals and their environment.",
+      "importance": 10,
+      "fun_fact": "The term 'ethology' was first coined by Isidore Geoffroy Saint-Hilaire in 1859.",
+      "topic_slug": "ethology",
+      "topic": "Ethology"
+    },
+    {
+      "id": "ethology__N2",
+      "label": "Animal Behavior",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the actions and reactions of animals in response to their environment and internal states.",
+      "importance": 9,
+      "fun_fact": "Animal behavior is shaped by a combination of genetic and environmental factors.",
+      "topic_slug": "ethology",
+      "topic": "Ethology"
+    },
+    {
+      "id": "ethology__N3",
+      "label": "Social Learning",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process by which animals learn new behaviors by observing and imitating others.",
+      "importance": 8,
+      "fun_fact": "Social learning is a key component of cultural transmission in some animal species.",
+      "topic_slug": "ethology",
+      "topic": "Ethology"
+    },
+    {
+      "id": "ethology__N4",
+      "label": "Communication",
+      "type": "concept",
+      "depth": 1,
+      "description": "The exchange of information between animals, which can take many forms, including vocalizations, visual displays, and chemical signals.",
+      "importance": 8,
+      "fun_fact": "Some animals, like dolphins and primates, possess complex communication systems that rival those of humans.",
+      "topic_slug": "ethology",
+      "topic": "Ethology"
+    },
+    {
+      "id": "ethology__N5",
+      "label": "Mating and Courtship",
+      "type": "concept",
+      "depth": 1,
+      "description": "The behaviors and rituals associated with mate selection and reproduction.",
+      "importance": 7,
+      "fun_fact": "Some animal species exhibit elaborate courtship displays, such as the peacock's tail feathers.",
+      "topic_slug": "ethology",
+      "topic": "Ethology"
+    },
+    {
+      "id": "ethology__N6",
+      "label": "Agonistic Behavior",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of aggressive and competitive behaviors in animals, including fighting, dominance, and submission.",
+      "importance": 7,
+      "fun_fact": "Agonistic behavior can serve as a means of establishing social hierarchy and resolving conflicts.",
+      "topic_slug": "ethology",
+      "topic": "Ethology"
+    },
+    {
+      "id": "ethology__N7",
+      "label": "Charles Darwin",
+      "type": "person",
+      "depth": 2,
+      "description": "A British naturalist who laid the foundations for modern ethology with his work on evolution and animal behavior.",
+      "importance": 9,
+      "fun_fact": "Darwin's book 'On the Origin of Species' (1859) revolutionized the field of biology.",
+      "topic_slug": "ethology",
+      "topic": "Ethology"
+    },
+    {
+      "id": "ethology__N8",
+      "label": "Nikolaas Tinbergen",
+      "type": "person",
+      "depth": 2,
+      "description": "A Dutch biologist who, along with Konrad Lorenz and Karl von Frisch, was awarded the Nobel Prize in Physiology or Medicine in 1973 for his work on animal behavior.",
+      "importance": 8,
+      "fun_fact": "Tinbergen's work on instinct and learning in animals helped establish ethology as a distinct field.",
+      "topic_slug": "ethology",
+      "topic": "Ethology"
+    },
+    {
+      "id": "ethology__N9",
+      "label": "Konrad Lorenz",
+      "type": "person",
+      "depth": 2,
+      "description": "An Austrian biologist who made significant contributions to the field of ethology, including the study of imprinting and social behavior in animals.",
+      "importance": 8,
+      "fun_fact": "Lorenz was a key figure in the development of modern ethology and was known for his charismatic personality and writing style.",
+      "topic_slug": "ethology",
+      "topic": "Ethology"
+    },
+    {
+      "id": "ethology__N10",
+      "label": "Karl von Frisch",
+      "type": "person",
+      "depth": 2,
+      "description": "An Austrian biologist who was awarded the Nobel Prize in Physiology or Medicine in 1973 for his work on the behavior and social organization of honeybees.",
+      "importance": 8,
+      "fun_fact": "Von Frisch's research on bee communication and navigation helped establish the importance of social learning in insects.",
+      "topic_slug": "ethology",
+      "topic": "Ethology"
+    },
+    {
+      "id": "ethology__N11",
+      "label": "Neuroanatomy",
+      "type": "concept",
+      "depth": 2,
+      "description": "The study of the structure and organization of the nervous system, which underlies animal behavior.",
+      "importance": 7,
+      "fun_fact": "Understanding neuroanatomy is essential for explaining the neural basis of behavior.",
+      "topic_slug": "ethology",
+      "topic": "Ethology"
+    },
+    {
+      "id": "ethology__N12",
+      "label": "Ecology",
+      "type": "concept",
+      "depth": 2,
+      "description": "The study of the interactions between organisms and their environment, which is closely related to ethology.",
+      "importance": 7,
+      "fun_fact": "Ecological principles can help explain the evolution of animal behavior and the distribution of species.",
+      "topic_slug": "ethology",
+      "topic": "Ethology"
+    },
+    {
+      "id": "ethology__N13",
+      "label": "Evolutionary Biology",
+      "type": "concept",
+      "depth": 2,
+      "description": "The study of the processes that have shaped the diversity of life on Earth, including the evolution of animal behavior.",
+      "importance": 7,
+      "fun_fact": "Evolutionary biology provides a framework for understanding the adaptive significance of animal behavior.",
+      "topic_slug": "ethology",
+      "topic": "Ethology"
+    },
+    {
+      "id": "ethology__N14",
+      "label": "Animal Training",
+      "type": "application",
+      "depth": 3,
+      "description": "The practical application of ethological principles to train animals for various purposes, such as companionship, assistance, or conservation.",
+      "importance": 6,
+      "fun_fact": "Animal training relies on a deep understanding of animal behavior and learning processes.",
+      "topic_slug": "ethology",
+      "topic": "Ethology"
+    },
+    {
+      "id": "ethology__N15",
+      "label": "Conservation Biology",
+      "type": "application",
+      "depth": 3,
+      "description": "The application of ethological principles to conserve and manage animal populations, including the development of effective conservation strategies.",
+      "importance": 6,
+      "fun_fact": "Conservation biology relies on a thorough understanding of animal behavior and ecology to protect endangered species.",
+      "topic_slug": "ethology",
+      "topic": "Ethology"
     }
   ],
   "global_edges": [
@@ -9687,6 +9861,146 @@
       "relation": "related_to",
       "strength": 7,
       "topic": "Toxicology"
+    },
+    {
+      "source": "ethology__N1",
+      "target": "ethology__N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Ethology"
+    },
+    {
+      "source": "ethology__N1",
+      "target": "ethology__N3",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Ethology"
+    },
+    {
+      "source": "ethology__N1",
+      "target": "ethology__N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Ethology"
+    },
+    {
+      "source": "ethology__N1",
+      "target": "ethology__N5",
+      "relation": "is_part_of",
+      "strength": 7,
+      "topic": "Ethology"
+    },
+    {
+      "source": "ethology__N1",
+      "target": "ethology__N6",
+      "relation": "is_part_of",
+      "strength": 7,
+      "topic": "Ethology"
+    },
+    {
+      "source": "ethology__N2",
+      "target": "ethology__N7",
+      "relation": "discovered_by",
+      "strength": 9,
+      "topic": "Ethology"
+    },
+    {
+      "source": "ethology__N2",
+      "target": "ethology__N8",
+      "relation": "discovered_by",
+      "strength": 8,
+      "topic": "Ethology"
+    },
+    {
+      "source": "ethology__N2",
+      "target": "ethology__N9",
+      "relation": "discovered_by",
+      "strength": 8,
+      "topic": "Ethology"
+    },
+    {
+      "source": "ethology__N2",
+      "target": "ethology__N10",
+      "relation": "discovered_by",
+      "strength": 8,
+      "topic": "Ethology"
+    },
+    {
+      "source": "ethology__N3",
+      "target": "ethology__N11",
+      "relation": "depends_on",
+      "strength": 7,
+      "topic": "Ethology"
+    },
+    {
+      "source": "ethology__N4",
+      "target": "ethology__N12",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Ethology"
+    },
+    {
+      "source": "ethology__N5",
+      "target": "ethology__N13",
+      "relation": "evolved_from",
+      "strength": 7,
+      "topic": "Ethology"
+    },
+    {
+      "source": "ethology__N6",
+      "target": "ethology__N14",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Ethology"
+    },
+    {
+      "source": "ethology__N7",
+      "target": "ethology__N8",
+      "relation": "influenced",
+      "strength": 8,
+      "topic": "Ethology"
+    },
+    {
+      "source": "ethology__N8",
+      "target": "ethology__N9",
+      "relation": "collaborated_with",
+      "strength": 8,
+      "topic": "Ethology"
+    },
+    {
+      "source": "ethology__N9",
+      "target": "ethology__N10",
+      "relation": "collaborated_with",
+      "strength": 8,
+      "topic": "Ethology"
+    },
+    {
+      "source": "ethology__N11",
+      "target": "ethology__N12",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Ethology"
+    },
+    {
+      "source": "ethology__N12",
+      "target": "ethology__N13",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Ethology"
+    },
+    {
+      "source": "ethology__N13",
+      "target": "ethology__N14",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Ethology"
+    },
+    {
+      "source": "ethology__N14",
+      "target": "ethology__N15",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Ethology"
     }
   ],
   "cross_topic_edges": [
@@ -9717,6 +10031,13 @@
       "relation": "cross_topic_connection",
       "strength": 6,
       "label": "ocean acidification"
+    },
+    {
+      "source": "evolutionary_biology__charles_darwin",
+      "target": "ethology__N7",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "charles darwin"
     },
     {
       "source": "ecological_conservation__N10",
@@ -9872,7 +10193,8 @@
       "biochemistry",
       "ethnobotany",
       "biophysics",
-      "toxicology"
+      "toxicology",
+      "ethology"
     ],
     "psychology": [
       "neuroplasticity"
@@ -9910,5 +10232,5 @@
       "biomechanical_engineering"
     ]
   },
-  "last_updated": "2026-07-03T17:03:11.021858"
+  "last_updated": "2026-07-03T21:44:08.082860"
 }

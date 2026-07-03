@@ -414,5 +414,18 @@
     "master_total_topics": 32,
     "ended_at": "2026-07-03T17:03:11.029068",
     "duration_seconds": 42.0
+  },
+  {
+    "started_at": "2026-07-03T21:43:31.166866",
+    "status": "success",
+    "topic": "Ethology",
+    "sources_found": 6,
+    "images_found": 5,
+    "quality_score": 92.5,
+    "quality_passed": true,
+    "exam_questions": 10,
+    "master_total_topics": 33,
+    "ended_at": "2026-07-03T21:44:08.090051",
+    "duration_seconds": 36.9
   }
 ]

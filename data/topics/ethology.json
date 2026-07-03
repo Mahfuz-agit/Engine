@@ -1,0 +1,389 @@
+{
+  "topic": "Ethology",
+  "category": "biology",
+  "description": "Ethology is the scientific study of animal behavior, combining laboratory and field research to understand the complex interactions between animals and their environment. It has its roots in the work of Charles Darwin and has evolved into a multidisciplinary field, incorporating insights from neuroanatomy, ecology, and evolutionary biology. By examining the behavior of non-human animals, ethologists aim to gain a deeper understanding of the underlying mechanisms and principles that govern their actions.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Ethology",
+      "type": "core",
+      "depth": 0,
+      "description": "The scientific study of animal behavior, focusing on the interactions between animals and their environment.",
+      "importance": 10,
+      "fun_fact": "The term 'ethology' was first coined by Isidore Geoffroy Saint-Hilaire in 1859."
+    },
+    {
+      "id": "N2",
+      "label": "Animal Behavior",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the actions and reactions of animals in response to their environment and internal states.",
+      "importance": 9,
+      "fun_fact": "Animal behavior is shaped by a combination of genetic and environmental factors."
+    },
+    {
+      "id": "N3",
+      "label": "Social Learning",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process by which animals learn new behaviors by observing and imitating others.",
+      "importance": 8,
+      "fun_fact": "Social learning is a key component of cultural transmission in some animal species."
+    },
+    {
+      "id": "N4",
+      "label": "Communication",
+      "type": "concept",
+      "depth": 1,
+      "description": "The exchange of information between animals, which can take many forms, including vocalizations, visual displays, and chemical signals.",
+      "importance": 8,
+      "fun_fact": "Some animals, like dolphins and primates, possess complex communication systems that rival those of humans."
+    },
+    {
+      "id": "N5",
+      "label": "Mating and Courtship",
+      "type": "concept",
+      "depth": 1,
+      "description": "The behaviors and rituals associated with mate selection and reproduction.",
+      "importance": 7,
+      "fun_fact": "Some animal species exhibit elaborate courtship displays, such as the peacock's tail feathers."
+    },
+    {
+      "id": "N6",
+      "label": "Agonistic Behavior",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of aggressive and competitive behaviors in animals, including fighting, dominance, and submission.",
+      "importance": 7,
+      "fun_fact": "Agonistic behavior can serve as a means of establishing social hierarchy and resolving conflicts."
+    },
+    {
+      "id": "N7",
+      "label": "Charles Darwin",
+      "type": "person",
+      "depth": 2,
+      "description": "A British naturalist who laid the foundations for modern ethology with his work on evolution and animal behavior.",
+      "importance": 9,
+      "fun_fact": "Darwin's book 'On the Origin of Species' (1859) revolutionized the field of biology."
+    },
+    {
+      "id": "N8",
+      "label": "Nikolaas Tinbergen",
+      "type": "person",
+      "depth": 2,
+      "description": "A Dutch biologist who, along with Konrad Lorenz and Karl von Frisch, was awarded the Nobel Prize in Physiology or Medicine in 1973 for his work on animal behavior.",
+      "importance": 8,
+      "fun_fact": "Tinbergen's work on instinct and learning in animals helped establish ethology as a distinct field."
+    },
+    {
+      "id": "N9",
+      "label": "Konrad Lorenz",
+      "type": "person",
+      "depth": 2,
+      "description": "An Austrian biologist who made significant contributions to the field of ethology, including the study of imprinting and social behavior in animals.",
+      "importance": 8,
+      "fun_fact": "Lorenz was a key figure in the development of modern ethology and was known for his charismatic personality and writing style."
+    },
+    {
+      "id": "N10",
+      "label": "Karl von Frisch",
+      "type": "person",
+      "depth": 2,
+      "description": "An Austrian biologist who was awarded the Nobel Prize in Physiology or Medicine in 1973 for his work on the behavior and social organization of honeybees.",
+      "importance": 8,
+      "fun_fact": "Von Frisch's research on bee communication and navigation helped establish the importance of social learning in insects."
+    },
+    {
+      "id": "N11",
+      "label": "Neuroanatomy",
+      "type": "concept",
+      "depth": 2,
+      "description": "The study of the structure and organization of the nervous system, which underlies animal behavior.",
+      "importance": 7,
+      "fun_fact": "Understanding neuroanatomy is essential for explaining the neural basis of behavior."
+    },
+    {
+      "id": "N12",
+      "label": "Ecology",
+      "type": "concept",
+      "depth": 2,
+      "description": "The study of the interactions between organisms and their environment, which is closely related to ethology.",
+      "importance": 7,
+      "fun_fact": "Ecological principles can help explain the evolution of animal behavior and the distribution of species."
+    },
+    {
+      "id": "N13",
+      "label": "Evolutionary Biology",
+      "type": "concept",
+      "depth": 2,
+      "description": "The study of the processes that have shaped the diversity of life on Earth, including the evolution of animal behavior.",
+      "importance": 7,
+      "fun_fact": "Evolutionary biology provides a framework for understanding the adaptive significance of animal behavior."
+    },
+    {
+      "id": "N14",
+      "label": "Animal Training",
+      "type": "application",
+      "depth": 3,
+      "description": "The practical application of ethological principles to train animals for various purposes, such as companionship, assistance, or conservation.",
+      "importance": 6,
+      "fun_fact": "Animal training relies on a deep understanding of animal behavior and learning processes."
+    },
+    {
+      "id": "N15",
+      "label": "Conservation Biology",
+      "type": "application",
+      "depth": 3,
+      "description": "The application of ethological principles to conserve and manage animal populations, including the development of effective conservation strategies.",
+      "importance": 6,
+      "fun_fact": "Conservation biology relies on a thorough understanding of animal behavior and ecology to protect endangered species."
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Animal behavior is a fundamental aspect of ethology."
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Social learning is an important concept in ethology."
+    },
+    {
+      "source": "N1",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Communication is a crucial aspect of animal behavior."
+    },
+    {
+      "source": "N1",
+      "target": "N5",
+      "relation": "is_part_of",
+      "strength": 7,
+      "description": "Mating and courtship behaviors are essential for the survival of species."
+    },
+    {
+      "source": "N1",
+      "target": "N6",
+      "relation": "is_part_of",
+      "strength": 7,
+      "description": "Agonistic behavior is a common aspect of animal behavior."
+    },
+    {
+      "source": "N2",
+      "target": "N7",
+      "relation": "discovered_by",
+      "strength": 9,
+      "description": "Charles Darwin laid the foundations for modern ethology with his work on animal behavior."
+    },
+    {
+      "source": "N2",
+      "target": "N8",
+      "relation": "discovered_by",
+      "strength": 8,
+      "description": "Nikolaas Tinbergen made significant contributions to the field of ethology."
+    },
+    {
+      "source": "N2",
+      "target": "N9",
+      "relation": "discovered_by",
+      "strength": 8,
+      "description": "Konrad Lorenz was a key figure in the development of modern ethology."
+    },
+    {
+      "source": "N2",
+      "target": "N10",
+      "relation": "discovered_by",
+      "strength": 8,
+      "description": "Karl von Frisch was awarded the Nobel Prize for his work on bee behavior."
+    },
+    {
+      "source": "N3",
+      "target": "N11",
+      "relation": "depends_on",
+      "strength": 7,
+      "description": "Social learning depends on the structure and organization of the nervous system."
+    },
+    {
+      "source": "N4",
+      "target": "N12",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "Communication is closely related to ecological principles."
+    },
+    {
+      "source": "N5",
+      "target": "N13",
+      "relation": "evolved_from",
+      "strength": 7,
+      "description": "Mating and courtship behaviors have evolved over time through natural selection."
+    },
+    {
+      "source": "N6",
+      "target": "N14",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "Agonistic behavior is used in animal training to establish dominance and submission."
+    },
+    {
+      "source": "N7",
+      "target": "N8",
+      "relation": "influenced",
+      "strength": 8,
+      "description": "Charles Darwin's work influenced the development of modern ethology."
+    },
+    {
+      "source": "N8",
+      "target": "N9",
+      "relation": "collaborated_with",
+      "strength": 8,
+      "description": "Nikolaas Tinbergen and Konrad Lorenz collaborated on several projects in ethology."
+    },
+    {
+      "source": "N9",
+      "target": "N10",
+      "relation": "collaborated_with",
+      "strength": 8,
+      "description": "Konrad Lorenz and Karl von Frisch collaborated on research projects in ethology."
+    },
+    {
+      "source": "N11",
+      "target": "N12",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "Neuroanatomy is closely related to ecological principles."
+    },
+    {
+      "source": "N12",
+      "target": "N13",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "Ecology is closely related to evolutionary biology."
+    },
+    {
+      "source": "N13",
+      "target": "N14",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "Evolutionary biology is used in animal training to understand the adaptive significance of behavior."
+    },
+    {
+      "source": "N14",
+      "target": "N15",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "Animal training is used in conservation biology to protect endangered species."
+    }
+  ],
+  "key_takeaways": [
+    "Ethology is the scientific study of animal behavior, combining laboratory and field research to understand the complex interactions between animals and their environment.",
+    "Animal behavior is shaped by a combination of genetic and environmental factors.",
+    "Social learning, communication, mating and courtship, and agonistic behavior are all important aspects of animal behavior."
+  ],
+  "real_world_impact": "The study of ethology has numerous real-world applications, including animal training, conservation biology, and the development of effective conservation strategies. By understanding animal behavior, we can better manage and conserve animal populations, and promote a deeper appreciation for the natural world. Additionally, the principles of ethology can be applied to fields such as psychology, sociology, and anthropology, providing insights into human behavior and social interactions. The impact of ethology can be seen in the development of more effective animal training methods, the conservation of endangered species, and the promotion of a more sustainable and harmonious relationship between humans and the natural world.",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/024_Hippopotamus_with_mouth_open_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+      "title": "024 Hippopotamus with mouth open in the Serengeti National Park Photo by Giles Laurent.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Giles Laurent",
+      "description": "Hippopotamus with mouth open in the Serengeti National Park",
+      "width": 2158,
+      "height": 2697,
+      "source_query": "Ethology"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/4_behavior_questions.svg",
+      "title": "4 behavior questions.svg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Chiswick Chap",
+      "description": "Diagram to support 4 behavior questions, related to Niko Tinbergen's 4 questions",
+      "width": 960,
+      "height": 720,
+      "source_query": "Ethology"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Animal_behavior_%288512937149%29.jpg",
+      "title": "Animal behavior (8512937149).jpg",
+      "license": "CC BY-SA 2.0",
+      "artist": "Alex LA from Saint-Petersburg, Russia",
+      "description": "[lisboa `12]",
+      "width": 1890,
+      "height": 2834,
+      "source_query": "Ethology"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Bibliography_Human_Ethology.png",
+      "title": "Bibliography Human Ethology.png",
+      "license": "CC BY-SA 4.0",
+      "artist": "Pidopram",
+      "description": "Hasil generalisasi metadata",
+      "width": 3004,
+      "height": 1826,
+      "source_query": "Ethology"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Ethology_diversity.jpg",
+      "title": "Ethology diversity.jpg",
+      "license": "CC BY-SA 3.0",
+      "artist": "DrChrissy",
+      "description": "This is a collection of images intended to show a diversity of animal behaviour (ethology).  All the images were taken from the wikimedia commons.",
+      "width": 1421,
+      "height": 2059,
+      "source_query": "Ethology"
+    }
+  ],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ethology",
+    "papers": [
+      {
+        "title": "The Foundations of Ethology",
+        "url": "https://doi.org/10.1007/978-3-7091-3671-3"
+      },
+      {
+        "title": "Ethology and neurobiology of grooming behavior",
+        "url": "https://doi.org/10.1152/physrev.1992.72.3.825"
+      },
+      {
+        "title": "Toward a Science of Computational Ethology",
+        "url": "https://doi.org/10.1016/j.neuron.2014.09.005"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 100,
+      "issues": [],
+      "node_count": 15,
+      "edge_count": 20
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Physiological Basis of Behavior",
+        "Cognitive Ethology"
+      ],
+      "strengths": [
+        "covers key concepts in ethology",
+        "includes important researchers in the field"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 92.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}
