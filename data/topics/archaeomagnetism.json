@@ -1,0 +1,363 @@
+{
+  "topic": "Archaeomagnetism",
+  "category": "geography",
+  "description": "Archaeomagnetism is the study of the Earth's magnetic field as recorded in archaeological materials, used to date and understand the past. It involves analyzing the magnetic signatures in ferromagnetic materials to reconstruct the geomagnetic polarity time scale. This technique has been used to date sites within the last 10,000 years and has been instrumental in understanding the Earth's magnetic field and its variations over time.",
+  "nodes": [
+    {
+      "id": "node_1",
+      "label": "Archaeomagnetism",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of the Earth's magnetic field as recorded in archaeological materials",
+      "importance": 10,
+      "fun_fact": "Archaeomagnetism was first conceived by \u00c9mile Thellier in the 1930s"
+    },
+    {
+      "id": "node_2",
+      "label": "Geomagnetic Reversals",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process by which the Earth's magnetic field reverses its polarity",
+      "importance": 9,
+      "fun_fact": "Geomagnetic reversals have occurred many times in the Earth's history"
+    },
+    {
+      "id": "node_3",
+      "label": "Paleomagnetism",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the Earth's magnetic field as recorded in rocks and sediments",
+      "importance": 9,
+      "fun_fact": "Paleomagnetism is used to reconstruct the Earth's magnetic field in the past"
+    },
+    {
+      "id": "node_4",
+      "label": "Magnetic Dating",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of archaeomagnetism to date archaeological sites",
+      "importance": 8,
+      "fun_fact": "Magnetic dating is used to date sites within the last 10,000 years"
+    },
+    {
+      "id": "node_5",
+      "label": "Geophysical Surveying",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of geophysical techniques to survey and map the subsurface",
+      "importance": 8,
+      "fun_fact": "Geophysical surveying is used to locate and map archaeological sites"
+    },
+    {
+      "id": "node_6",
+      "label": "Geoarchaeology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The application of geological techniques to archaeological research",
+      "importance": 9,
+      "fun_fact": "Geoarchaeology is used to reconstruct the environmental and geological context of archaeological sites"
+    },
+    {
+      "id": "node_7",
+      "label": "\u00c9mile Thellier",
+      "type": "person",
+      "depth": 1,
+      "description": "The French geophysicist who first conceived the idea of archaeomagnetism",
+      "importance": 8,
+      "fun_fact": "Thellier's work laid the foundation for the development of archaeomagnetism as a dating technique"
+    },
+    {
+      "id": "node_8",
+      "label": "SQUID Magnetometers",
+      "type": "application",
+      "depth": 2,
+      "description": "Highly sensitive magnetometers used to measure the magnetic properties of materials",
+      "importance": 8,
+      "fun_fact": "SQUID magnetometers have greatly improved the accuracy and precision of archaeomagnetic dating"
+    },
+    {
+      "id": "node_9",
+      "label": "Italian Archaeomagnetic Data",
+      "type": "example",
+      "depth": 3,
+      "description": "A compilation of archaeomagnetic data from Italy, including new results and a preliminary secular variation curve",
+      "importance": 6,
+      "fun_fact": "The Italian data set includes results from volcanic deposits of unquestionable age"
+    },
+    {
+      "id": "node_10",
+      "label": "Hungarian Archaeomagnetic Database",
+      "type": "example",
+      "depth": 3,
+      "description": "A database of archaeomagnetic directions from Hungary, with age estimates falling between BC 350 and AD 1800",
+      "importance": 6,
+      "fun_fact": "The Hungarian database has been increased by the addition of 60 new directional results"
+    },
+    {
+      "id": "node_11",
+      "label": "British Directional Database",
+      "type": "example",
+      "depth": 3,
+      "description": "A database of archaeomagnetic directions from Britain, with age estimates falling between BC 2000 and AD 2000",
+      "importance": 6,
+      "fun_fact": "The British database includes results from 466 archaeological sites"
+    },
+    {
+      "id": "node_12",
+      "label": "Radiometric Dating",
+      "type": "concept",
+      "depth": 1,
+      "description": "A technique used to date materials by measuring the decay of radioactive isotopes",
+      "importance": 9,
+      "fun_fact": "Radiometric dating is often used in conjunction with archaeomagnetism to date archaeological sites"
+    },
+    {
+      "id": "node_13",
+      "label": "Geomagnetic Polarity Time Scale",
+      "type": "concept",
+      "depth": 1,
+      "description": "A record of the Earth's magnetic field polarity over time",
+      "importance": 9,
+      "fun_fact": "The geomagnetic polarity time scale is used to constrain the age of materials"
+    },
+    {
+      "id": "node_14",
+      "label": "Ferromagnetic Materials",
+      "type": "concept",
+      "depth": 1,
+      "description": "Materials that exhibit magnetic properties, such as magnetite",
+      "importance": 8,
+      "fun_fact": "Ferromagnetic materials are used to record the Earth's magnetic field in archaeological materials"
+    },
+    {
+      "id": "node_15",
+      "label": "Curie Point",
+      "type": "concept",
+      "depth": 1,
+      "description": "The temperature below which a material becomes ferromagnetic",
+      "importance": 8,
+      "fun_fact": "The Curie point is important in archaeomagnetism as it determines when a material becomes magnetized"
+    }
+  ],
+  "edges": [
+    {
+      "source": "node_1",
+      "target": "node_2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Geomagnetic reversals are a key aspect of archaeomagnetism"
+    },
+    {
+      "source": "node_1",
+      "target": "node_3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Paleomagnetism is a related field to archaeomagnetism"
+    },
+    {
+      "source": "node_1",
+      "target": "node_6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Geoarchaeology is an application of archaeomagnetism"
+    },
+    {
+      "source": "node_2",
+      "target": "node_12",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "Geomagnetic reversals are related to radiometric dating"
+    },
+    {
+      "source": "node_3",
+      "target": "node_13",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "Paleomagnetism leads to the construction of the geomagnetic polarity time scale"
+    },
+    {
+      "source": "node_4",
+      "target": "node_8",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "SQUID magnetometers are used in magnetic dating"
+    },
+    {
+      "source": "node_5",
+      "target": "node_9",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "Geophysical surveying is used to locate and map archaeological sites in Italy"
+    },
+    {
+      "source": "node_6",
+      "target": "node_10",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "Geoarchaeology is used to reconstruct the environmental and geological context of archaeological sites in Hungary"
+    },
+    {
+      "source": "node_7",
+      "target": "node_1",
+      "relation": "discovered_by",
+      "strength": 9,
+      "description": "\u00c9mile Thellier conceived the idea of archaeomagnetism"
+    },
+    {
+      "source": "node_8",
+      "target": "node_4",
+      "relation": "enables",
+      "strength": 8,
+      "description": "SQUID magnetometers enable accurate magnetic dating"
+    },
+    {
+      "source": "node_9",
+      "target": "node_11",
+      "relation": "related_to",
+      "strength": 6,
+      "description": "The Italian and British databases are related"
+    },
+    {
+      "source": "node_10",
+      "target": "node_11",
+      "relation": "related_to",
+      "strength": 6,
+      "description": "The Hungarian and British databases are related"
+    },
+    {
+      "source": "node_12",
+      "target": "node_13",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Radiometric dating is used to constrain the age of materials"
+    },
+    {
+      "source": "node_13",
+      "target": "node_14",
+      "relation": "depends_on",
+      "strength": 8,
+      "description": "The geomagnetic polarity time scale depends on ferromagnetic materials"
+    },
+    {
+      "source": "node_14",
+      "target": "node_15",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "Ferromagnetic materials are related to the Curie point"
+    },
+    {
+      "source": "node_15",
+      "target": "node_1",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "The Curie point is an important concept in archaeomagnetism"
+    }
+  ],
+  "key_takeaways": [
+    "Archaeomagnetism is a technique used to date archaeological sites by analyzing the magnetic properties of materials",
+    "Geomagnetic reversals and paleomagnetism are key concepts in archaeomagnetism",
+    "SQUID magnetometers have greatly improved the accuracy and precision of archaeomagnetic dating"
+  ],
+  "real_world_impact": "Archaeomagnetism has had a significant impact on our understanding of the past, allowing researchers to date archaeological sites with greater accuracy and precision. The technique has been used to date sites around the world, from the ancient civilizations of Italy and Hungary to the medieval sites of Britain. By reconstructing the Earth's magnetic field in the past, archaeomagnetism has also provided valuable insights into the Earth's geological and environmental history. As a result, archaeomagnetism has become an essential tool in the field of archaeology, enabling researchers to build a more detailed and accurate picture of human history.",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Balka_Kantserka_pottery.jpg",
+      "title": "Balka Kantserka pottery.jpg",
+      "license": "CC0",
+      "artist": "Lishleb",
+      "description": "\u041a\u0443\u0432\u0448\u0438\u043d\u044b \u043a\u0430\u043d\u0446\u0435\u0440\u0441\u043a\u043e\u0433\u043e \u0442\u0438\u043f\u0430",
+      "width": 2073,
+      "height": 1193,
+      "source_query": "Archaeomagnetism"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Earth_Magnetic_Field_Declination_from_1590_to_1990.gif",
+      "title": "Earth Magnetic Field Declination from 1590 to 1990.gif",
+      "license": "Public domain",
+      "artist": "U.S. Geological Survey (USGS) http://www.usgs.gov/",
+      "description": "Earth Magnetic Field Declination from 1590 to 1990",
+      "width": 351,
+      "height": 293,
+      "source_query": "Archaeomagnetism"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Bernard_Brunhes_Memorial_Plate.jpg",
+      "title": "Bernard Brunhes Memorial Plate.jpg",
+      "license": "CC0",
+      "artist": "Jacques Kornprobst",
+      "description": "Plaque commemorating the centenary of the discovery by Bernard Brunhes of geomagnetic field reversals. This enamelled-lava plate is arranged at the entrance of the Observatoire de physique du globe de Clermont-Ferrand (OPGC), France.",
+      "width": 2000,
+      "height": 1285,
+      "source_query": "Geomagnetic Reversals"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Brunhes_geomagnetism_western_US.png",
+      "title": "Brunhes geomagnetism western US.png",
+      "license": "Public domain",
+      "artist": "",
+      "description": "",
+      "width": 863,
+      "height": 1074,
+      "source_query": "Geomagnetic Reversals"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Chibanian_Strata_Stake.jpg",
+      "title": "Chibanian Strata Stake.jpg",
+      "license": "CC0",
+      "artist": "MaedaAkihiko",
+      "description": "The Chibanian stratum, which dates back to the Chiba period, is located along the Yoro River in Ichihara City, Chiba Prefecture. At the bottom left is a golden spike that marks the boundary between eras. The color-coded stakes on the right mark the boundaries of geological formations, indicating tha",
+      "width": 5471,
+      "height": 3647,
+      "source_query": "Geomagnetic Reversals"
+    }
+  ],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Archaeomagnetic_dating",
+    "papers": [
+      {
+        "title": "Archaeomagnetism in Italy: a compilation of data including new results and a preliminary Italian secular variation curve",
+        "url": "https://doi.org/10.1111/j.1365-246x.2006.03150.x"
+      },
+      {
+        "title": "Recent achievements in archaeomagnetism in Hungary",
+        "url": "https://doi.org/10.1046/j.1365-246x.2003.01931.x"
+      },
+      {
+        "title": "Archaeomagnetism: An Error Assessment of Fired Material Observations in the British Directional Database.",
+        "url": "https://doi.org/10.5636/jgg.47.5"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 16"
+      ],
+      "node_count": 15,
+      "edge_count": 16
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Archaeomagnetic Secular Variation",
+        "Rock Magnetism"
+      ],
+      "strengths": [
+        "Clear connections between archaeomagnetism and related concepts",
+        "Inclusion of key applications and techniques"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

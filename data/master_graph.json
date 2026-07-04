@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 35,
-  "total_nodes": 524,
-  "total_edges": 646,
+  "total_topics": 36,
+  "total_nodes": 539,
+  "total_edges": 662,
   "topics": [
     {
       "topic": "Climate Change",
@@ -318,6 +318,15 @@
       "edge_count": 19,
       "description": "Food security is the state of having reliable access to a sufficient quantity of affordable, healthy food. It includes resilience to future disruptions of food supply and is crucial for human well-being. Ensuring food security is a complex task that involves multiple factors, including agricultural economics, nutrition science, sustainable agriculture, climate resilience, and global food systems.",
       "added_at": "2026-07-04T14:50:52.971689"
+    },
+    {
+      "topic": "Archaeomagnetism",
+      "slug": "archaeomagnetism",
+      "category": "geography",
+      "node_count": 15,
+      "edge_count": 16,
+      "description": "Archaeomagnetism is the study of the Earth's magnetic field as recorded in archaeological materials, used to date and understand the past. It involves analyzing the magnetic signatures in ferromagnetic materials to reconstruct the geomagnetic polarity time scale. This technique has been used to date sites within the last 10,000 years and has been instrumental in understanding the Earth's magnetic field and its variations over time.",
+      "added_at": "2026-07-04T20:15:03.916468"
     }
   ],
   "global_nodes": [
@@ -6084,6 +6093,171 @@
       "fun_fact": "Food waste is a major problem globally, with an estimated one-third of all food produced being lost or wasted.",
       "topic_slug": "food_security",
       "topic": "Food Security"
+    },
+    {
+      "id": "archaeomagnetism__node_1",
+      "label": "Archaeomagnetism",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of the Earth's magnetic field as recorded in archaeological materials",
+      "importance": 10,
+      "fun_fact": "Archaeomagnetism was first conceived by \u00c9mile Thellier in the 1930s",
+      "topic_slug": "archaeomagnetism",
+      "topic": "Archaeomagnetism"
+    },
+    {
+      "id": "archaeomagnetism__node_2",
+      "label": "Geomagnetic Reversals",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process by which the Earth's magnetic field reverses its polarity",
+      "importance": 9,
+      "fun_fact": "Geomagnetic reversals have occurred many times in the Earth's history",
+      "topic_slug": "archaeomagnetism",
+      "topic": "Archaeomagnetism"
+    },
+    {
+      "id": "archaeomagnetism__node_3",
+      "label": "Paleomagnetism",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the Earth's magnetic field as recorded in rocks and sediments",
+      "importance": 9,
+      "fun_fact": "Paleomagnetism is used to reconstruct the Earth's magnetic field in the past",
+      "topic_slug": "archaeomagnetism",
+      "topic": "Archaeomagnetism"
+    },
+    {
+      "id": "archaeomagnetism__node_4",
+      "label": "Magnetic Dating",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of archaeomagnetism to date archaeological sites",
+      "importance": 8,
+      "fun_fact": "Magnetic dating is used to date sites within the last 10,000 years",
+      "topic_slug": "archaeomagnetism",
+      "topic": "Archaeomagnetism"
+    },
+    {
+      "id": "archaeomagnetism__node_5",
+      "label": "Geophysical Surveying",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of geophysical techniques to survey and map the subsurface",
+      "importance": 8,
+      "fun_fact": "Geophysical surveying is used to locate and map archaeological sites",
+      "topic_slug": "archaeomagnetism",
+      "topic": "Archaeomagnetism"
+    },
+    {
+      "id": "archaeomagnetism__node_6",
+      "label": "Geoarchaeology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The application of geological techniques to archaeological research",
+      "importance": 9,
+      "fun_fact": "Geoarchaeology is used to reconstruct the environmental and geological context of archaeological sites",
+      "topic_slug": "archaeomagnetism",
+      "topic": "Archaeomagnetism"
+    },
+    {
+      "id": "archaeomagnetism__node_7",
+      "label": "\u00c9mile Thellier",
+      "type": "person",
+      "depth": 1,
+      "description": "The French geophysicist who first conceived the idea of archaeomagnetism",
+      "importance": 8,
+      "fun_fact": "Thellier's work laid the foundation for the development of archaeomagnetism as a dating technique",
+      "topic_slug": "archaeomagnetism",
+      "topic": "Archaeomagnetism"
+    },
+    {
+      "id": "archaeomagnetism__node_8",
+      "label": "SQUID Magnetometers",
+      "type": "application",
+      "depth": 2,
+      "description": "Highly sensitive magnetometers used to measure the magnetic properties of materials",
+      "importance": 8,
+      "fun_fact": "SQUID magnetometers have greatly improved the accuracy and precision of archaeomagnetic dating",
+      "topic_slug": "archaeomagnetism",
+      "topic": "Archaeomagnetism"
+    },
+    {
+      "id": "archaeomagnetism__node_9",
+      "label": "Italian Archaeomagnetic Data",
+      "type": "example",
+      "depth": 3,
+      "description": "A compilation of archaeomagnetic data from Italy, including new results and a preliminary secular variation curve",
+      "importance": 6,
+      "fun_fact": "The Italian data set includes results from volcanic deposits of unquestionable age",
+      "topic_slug": "archaeomagnetism",
+      "topic": "Archaeomagnetism"
+    },
+    {
+      "id": "archaeomagnetism__node_10",
+      "label": "Hungarian Archaeomagnetic Database",
+      "type": "example",
+      "depth": 3,
+      "description": "A database of archaeomagnetic directions from Hungary, with age estimates falling between BC 350 and AD 1800",
+      "importance": 6,
+      "fun_fact": "The Hungarian database has been increased by the addition of 60 new directional results",
+      "topic_slug": "archaeomagnetism",
+      "topic": "Archaeomagnetism"
+    },
+    {
+      "id": "archaeomagnetism__node_11",
+      "label": "British Directional Database",
+      "type": "example",
+      "depth": 3,
+      "description": "A database of archaeomagnetic directions from Britain, with age estimates falling between BC 2000 and AD 2000",
+      "importance": 6,
+      "fun_fact": "The British database includes results from 466 archaeological sites",
+      "topic_slug": "archaeomagnetism",
+      "topic": "Archaeomagnetism"
+    },
+    {
+      "id": "archaeomagnetism__node_12",
+      "label": "Radiometric Dating",
+      "type": "concept",
+      "depth": 1,
+      "description": "A technique used to date materials by measuring the decay of radioactive isotopes",
+      "importance": 9,
+      "fun_fact": "Radiometric dating is often used in conjunction with archaeomagnetism to date archaeological sites",
+      "topic_slug": "archaeomagnetism",
+      "topic": "Archaeomagnetism"
+    },
+    {
+      "id": "archaeomagnetism__node_13",
+      "label": "Geomagnetic Polarity Time Scale",
+      "type": "concept",
+      "depth": 1,
+      "description": "A record of the Earth's magnetic field polarity over time",
+      "importance": 9,
+      "fun_fact": "The geomagnetic polarity time scale is used to constrain the age of materials",
+      "topic_slug": "archaeomagnetism",
+      "topic": "Archaeomagnetism"
+    },
+    {
+      "id": "archaeomagnetism__node_14",
+      "label": "Ferromagnetic Materials",
+      "type": "concept",
+      "depth": 1,
+      "description": "Materials that exhibit magnetic properties, such as magnetite",
+      "importance": 8,
+      "fun_fact": "Ferromagnetic materials are used to record the Earth's magnetic field in archaeological materials",
+      "topic_slug": "archaeomagnetism",
+      "topic": "Archaeomagnetism"
+    },
+    {
+      "id": "archaeomagnetism__node_15",
+      "label": "Curie Point",
+      "type": "concept",
+      "depth": 1,
+      "description": "The temperature below which a material becomes ferromagnetic",
+      "importance": 8,
+      "fun_fact": "The Curie point is important in archaeomagnetism as it determines when a material becomes magnetized",
+      "topic_slug": "archaeomagnetism",
+      "topic": "Archaeomagnetism"
     }
   ],
   "global_edges": [
@@ -10608,6 +10782,118 @@
       "relation": "related_to",
       "strength": 8,
       "topic": "Food Security"
+    },
+    {
+      "source": "archaeomagnetism__node_1",
+      "target": "archaeomagnetism__node_2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Archaeomagnetism"
+    },
+    {
+      "source": "archaeomagnetism__node_1",
+      "target": "archaeomagnetism__node_3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Archaeomagnetism"
+    },
+    {
+      "source": "archaeomagnetism__node_1",
+      "target": "archaeomagnetism__node_6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Archaeomagnetism"
+    },
+    {
+      "source": "archaeomagnetism__node_2",
+      "target": "archaeomagnetism__node_12",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Archaeomagnetism"
+    },
+    {
+      "source": "archaeomagnetism__node_3",
+      "target": "archaeomagnetism__node_13",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Archaeomagnetism"
+    },
+    {
+      "source": "archaeomagnetism__node_4",
+      "target": "archaeomagnetism__node_8",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Archaeomagnetism"
+    },
+    {
+      "source": "archaeomagnetism__node_5",
+      "target": "archaeomagnetism__node_9",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Archaeomagnetism"
+    },
+    {
+      "source": "archaeomagnetism__node_6",
+      "target": "archaeomagnetism__node_10",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Archaeomagnetism"
+    },
+    {
+      "source": "archaeomagnetism__node_7",
+      "target": "archaeomagnetism__node_1",
+      "relation": "discovered_by",
+      "strength": 9,
+      "topic": "Archaeomagnetism"
+    },
+    {
+      "source": "archaeomagnetism__node_8",
+      "target": "archaeomagnetism__node_4",
+      "relation": "enables",
+      "strength": 8,
+      "topic": "Archaeomagnetism"
+    },
+    {
+      "source": "archaeomagnetism__node_9",
+      "target": "archaeomagnetism__node_11",
+      "relation": "related_to",
+      "strength": 6,
+      "topic": "Archaeomagnetism"
+    },
+    {
+      "source": "archaeomagnetism__node_10",
+      "target": "archaeomagnetism__node_11",
+      "relation": "related_to",
+      "strength": 6,
+      "topic": "Archaeomagnetism"
+    },
+    {
+      "source": "archaeomagnetism__node_12",
+      "target": "archaeomagnetism__node_13",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Archaeomagnetism"
+    },
+    {
+      "source": "archaeomagnetism__node_13",
+      "target": "archaeomagnetism__node_14",
+      "relation": "depends_on",
+      "strength": 8,
+      "topic": "Archaeomagnetism"
+    },
+    {
+      "source": "archaeomagnetism__node_14",
+      "target": "archaeomagnetism__node_15",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Archaeomagnetism"
+    },
+    {
+      "source": "archaeomagnetism__node_15",
+      "target": "archaeomagnetism__node_1",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Archaeomagnetism"
     }
   ],
   "cross_topic_edges": [
@@ -10796,7 +11082,8 @@
       "paleoclimatology",
       "oceanography",
       "hydrology",
-      "food_security"
+      "food_security",
+      "archaeomagnetism"
     ],
     "biology": [
       "evolutionary_biology",
@@ -10848,5 +11135,5 @@
       "biomechanical_engineering"
     ]
   },
-  "last_updated": "2026-07-04T14:50:52.971722"
+  "last_updated": "2026-07-04T20:15:03.916500"
 }

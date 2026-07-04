@@ -1,0 +1,163 @@
+{
+  "topic": "Archaeomagnetism",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary purpose of archaeomagnetism?",
+      "options": {
+        "A": "To study the Earth's magnetic field as recorded in archaeological materials",
+        "B": "To date sites using radiometric dating techniques",
+        "C": "To locate and map archaeological sites using geophysical surveying",
+        "D": "To reconstruct the environmental context of archaeological sites"
+      },
+      "correct": "A",
+      "explanation": "Archaeomagnetism is a technique used to study the Earth's magnetic field as recorded in archaeological materials, which helps in dating and understanding the past.",
+      "node_id": "Archaeomagnetism",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the significance of geomagnetic reversals in archaeomagnetism?",
+      "options": {
+        "A": "They provide a record of the Earth's magnetic field polarity over time",
+        "B": "They are used to date sites using radiometric dating techniques",
+        "C": "They are a type of geophysical surveying technique",
+        "D": "They are used to reconstruct the environmental context of archaeological sites"
+      },
+      "correct": "A",
+      "explanation": "Geomagnetic reversals provide a record of the Earth's magnetic field polarity over time, which is used to constrain the age of materials and date archaeological sites.",
+      "node_id": "Geomagnetic Reversals",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the role of SQUID magnetometers in archaeomagnetism?",
+      "options": {
+        "A": "They are used to measure the magnetic properties of materials with high accuracy and precision",
+        "B": "They are used to date sites using radiometric dating techniques",
+        "C": "They are a type of geophysical surveying technique",
+        "D": "They are used to reconstruct the environmental context of archaeological sites"
+      },
+      "correct": "A",
+      "explanation": "SQUID magnetometers are highly sensitive magnetometers used to measure the magnetic properties of materials with high accuracy and precision, which has greatly improved the accuracy and precision of archaeomagnetic dating.",
+      "node_id": "SQUID Magnetometers",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "Who is credited with conceiving the idea of archaeomagnetism?",
+      "options": {
+        "A": "\u00c9mile Thellier",
+        "B": "William Gilbert",
+        "C": "James Clerk Maxwell",
+        "D": "Michael Faraday"
+      },
+      "correct": "A",
+      "explanation": "\u00c9mile Thellier is credited with conceiving the idea of archaeomagnetism in the 1930s, which laid the foundation for the development of archaeomagnetism as a dating technique.",
+      "node_id": "\u00c9mile Thellier",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the relationship between paleomagnetism and archaeomagnetism?",
+      "options": {
+        "A": "Paleomagnetism is a subset of archaeomagnetism",
+        "B": "Archaeomagnetism is a subset of paleomagnetism",
+        "C": "They are two distinct fields of study with no overlap",
+        "D": "They are used to study the Earth's magnetic field in different contexts"
+      },
+      "correct": "B",
+      "explanation": "Archaeomagnetism is a subset of paleomagnetism, as it involves the study of the Earth's magnetic field as recorded in archaeological materials, which is a specific application of paleomagnetism.",
+      "node_id": "Paleomagnetism",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the significance of the Curie point in archaeomagnetism?",
+      "options": {
+        "A": "It is the temperature below which a material becomes ferromagnetic",
+        "B": "It is the temperature above which a material becomes paramagnetic",
+        "C": "It is the temperature at which a material becomes magnetized",
+        "D": "It is the temperature at which a material loses its magnetic properties"
+      },
+      "correct": "A",
+      "explanation": "The Curie point is the temperature below which a material becomes ferromagnetic, which is important in archaeomagnetism as it determines when a material becomes magnetized and can record the Earth's magnetic field.",
+      "node_id": "Curie Point",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the purpose of geophysical surveying in archaeomagnetism?",
+      "options": {
+        "A": "To locate and map archaeological sites",
+        "B": "To date sites using radiometric dating techniques",
+        "C": "To reconstruct the environmental context of archaeological sites",
+        "D": "To measure the magnetic properties of materials"
+      },
+      "correct": "A",
+      "explanation": "Geophysical surveying is used to locate and map archaeological sites, which can provide valuable information for archaeomagnetic dating and reconstruction of the past.",
+      "node_id": "Geophysical Surveying",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the process of geomagnetic reversals and their significance in archaeomagnetism.",
+      "sample_answer": "Geomagnetic reversals occur when the Earth's magnetic field reverses its polarity, resulting in a change in the magnetic signature of archaeological materials. This process provides a record of the Earth's magnetic field polarity over time, which is used to constrain the age of materials and date archaeological sites.",
+      "keywords": [
+        "geomagnetic reversals",
+        "polarity",
+        "archaeomagnetism",
+        "dating"
+      ],
+      "node_id": "Geomagnetic Reversals",
+      "points": 20
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Explain the role of ferromagnetic materials in archaeomagnetism and how they are used to record the Earth's magnetic field.",
+      "sample_answer": "Ferromagnetic materials, such as magnetite, exhibit magnetic properties that allow them to record the Earth's magnetic field. When these materials are heated above their Curie point and then cooled, they become magnetized and retain a record of the Earth's magnetic field at the time of cooling. This record can be used to date archaeological sites and reconstruct the past.",
+      "keywords": [
+        "ferromagnetic materials",
+        "magnetite",
+        "Curie point",
+        "magnetization"
+      ],
+      "node_id": "Ferromagnetic Materials",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the relationship between archaeomagnetism and radiometric dating, and how they are used together to date archaeological sites.",
+      "sample_answer": "Archaeomagnetism and radiometric dating are two distinct dating techniques that can be used together to date archaeological sites. Archaeomagnetism provides a record of the Earth's magnetic field polarity over time, while radiometric dating provides an absolute age for the site. By combining these two techniques, archaeologists can obtain a more accurate and precise date for the site.",
+      "keywords": [
+        "archaeomagnetism",
+        "radiometric dating",
+        "dating techniques"
+      ],
+      "node_id": "Radiometric Dating",
+      "points": 20
+    }
+  ]
+}
