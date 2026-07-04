@@ -1,0 +1,384 @@
+{
+  "topic": "Food Security",
+  "category": "geography",
+  "description": "Food security is the state of having reliable access to a sufficient quantity of affordable, healthy food. It includes resilience to future disruptions of food supply and is crucial for human well-being. Ensuring food security is a complex task that involves multiple factors, including agricultural economics, nutrition science, sustainable agriculture, climate resilience, and global food systems.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Food Security",
+      "type": "core",
+      "depth": 0,
+      "description": "The state of having reliable access to a sufficient quantity of affordable, healthy food.",
+      "importance": 10,
+      "fun_fact": "The concept of food security was first introduced in 1974 at the World Food Conference."
+    },
+    {
+      "id": "N2",
+      "label": "Agricultural Economics",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the production, distribution, and consumption of agricultural products.",
+      "importance": 9,
+      "fun_fact": "Agricultural economics is a key factor in ensuring food security, as it helps to optimize crop yields and reduce waste."
+    },
+    {
+      "id": "N3",
+      "label": "Nutrition Science",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the relationship between food and human health.",
+      "importance": 9,
+      "fun_fact": "Nutrition science plays a critical role in ensuring that food is not only available, but also nutritious and safe to eat."
+    },
+    {
+      "id": "N4",
+      "label": "Sustainable Agriculture",
+      "type": "concept",
+      "depth": 1,
+      "description": "The practice of farming in a way that minimizes environmental impact and promotes long-term sustainability.",
+      "importance": 9,
+      "fun_fact": "Sustainable agriculture is essential for maintaining soil health, conserving water, and reducing greenhouse gas emissions."
+    },
+    {
+      "id": "N5",
+      "label": "Climate Resilience",
+      "type": "concept",
+      "depth": 1,
+      "description": "The ability of agricultural systems to withstand and recover from climate-related shocks and stresses.",
+      "importance": 9,
+      "fun_fact": "Climate resilience is critical for ensuring that food systems can adapt to the impacts of climate change, such as droughts and floods."
+    },
+    {
+      "id": "N6",
+      "label": "Global Food Systems",
+      "type": "concept",
+      "depth": 1,
+      "description": "The complex network of systems that produce, process, distribute, and consume food globally.",
+      "importance": 9,
+      "fun_fact": "Global food systems are influenced by a range of factors, including trade policies, transportation infrastructure, and consumer demand."
+    },
+    {
+      "id": "N7",
+      "label": "Precision Agriculture",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of advanced technologies, such as drones and satellite imaging, to optimize crop yields and reduce waste.",
+      "importance": 8,
+      "fun_fact": "Precision agriculture can help farmers to reduce their environmental impact while increasing productivity and efficiency."
+    },
+    {
+      "id": "N8",
+      "label": "Food Insecurity",
+      "type": "concept",
+      "depth": 1,
+      "description": "The state of being without reliable access to a sufficient quantity of affordable, healthy food.",
+      "importance": 8,
+      "fun_fact": "Food insecurity affects over 820 million people worldwide, with the majority living in developing countries."
+    },
+    {
+      "id": "N9",
+      "label": "Climate Change",
+      "type": "concept",
+      "depth": 1,
+      "description": "The long-term warming of the planet due to human activities, such as burning fossil fuels and deforestation.",
+      "importance": 9,
+      "fun_fact": "Climate change is a major threat to food security, as it can lead to more frequent and severe weather events, such as droughts and floods."
+    },
+    {
+      "id": "N10",
+      "label": "Norman Borlaug",
+      "type": "person",
+      "depth": 2,
+      "description": "An American agronomist who developed high-yielding, disease-resistant wheat varieties that helped to increase food production in developing countries.",
+      "importance": 8,
+      "fun_fact": "Norman Borlaug was awarded the Nobel Peace Prize in 1970 for his contributions to food security and world peace."
+    },
+    {
+      "id": "N11",
+      "label": "Green Revolution",
+      "type": "event",
+      "depth": 2,
+      "description": "A period of rapid increase in food production in the 1960s and 1970s, driven by the introduction of high-yielding crop varieties and irrigation systems.",
+      "importance": 8,
+      "fun_fact": "The Green Revolution helped to reduce hunger and poverty in many developing countries, but also had negative environmental impacts, such as soil degradation and water pollution."
+    },
+    {
+      "id": "N12",
+      "label": "FAO",
+      "type": "organization",
+      "depth": 2,
+      "description": "The Food and Agriculture Organization of the United Nations, which works to reduce hunger and poverty by promoting sustainable agriculture and food security.",
+      "importance": 8,
+      "fun_fact": "The FAO was established in 1945 and has 194 member countries, making it one of the largest and most diverse organizations in the world."
+    },
+    {
+      "id": "N13",
+      "label": "Sustainable Development Goals",
+      "type": "event",
+      "depth": 2,
+      "description": "A set of 17 goals adopted by the United Nations in 2015, which aim to end poverty, protect the planet, and ensure peace and prosperity for all.",
+      "importance": 9,
+      "fun_fact": "The Sustainable Development Goals include a specific goal on food security (Goal 2), which aims to end hunger and all forms of malnutrition by 2030."
+    },
+    {
+      "id": "N14",
+      "label": "Agroecology",
+      "type": "concept",
+      "depth": 2,
+      "description": "An approach to agriculture that emphasizes the use of ecological principles to promote sustainable and resilient food systems.",
+      "importance": 8,
+      "fun_fact": "Agroecology can help to promote biodiversity, improve soil health, and reduce the use of external inputs, such as fertilizers and pesticides."
+    },
+    {
+      "id": "N15",
+      "label": "Food Waste",
+      "type": "concept",
+      "depth": 2,
+      "description": "The loss or discard of food that is safe and nutritious for human consumption.",
+      "importance": 8,
+      "fun_fact": "Food waste is a major problem globally, with an estimated one-third of all food produced being lost or wasted."
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Agricultural economics is a key component of food security, as it helps to optimize crop yields and reduce waste."
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Nutrition science is essential for ensuring that food is not only available, but also nutritious and safe to eat."
+    },
+    {
+      "source": "N1",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Sustainable agriculture is critical for maintaining soil health, conserving water, and reducing greenhouse gas emissions."
+    },
+    {
+      "source": "N1",
+      "target": "N5",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Climate resilience is essential for ensuring that food systems can adapt to the impacts of climate change, such as droughts and floods."
+    },
+    {
+      "source": "N1",
+      "target": "N6",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Global food systems are influenced by a range of factors, including trade policies, transportation infrastructure, and consumer demand."
+    },
+    {
+      "source": "N2",
+      "target": "N7",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Precision agriculture is a key application of agricultural economics, as it helps to optimize crop yields and reduce waste."
+    },
+    {
+      "source": "N3",
+      "target": "N8",
+      "relation": "contrasts_with",
+      "strength": 8,
+      "description": "Food insecurity is the opposite of food security, and is a major problem globally, affecting over 820 million people."
+    },
+    {
+      "source": "N4",
+      "target": "N9",
+      "relation": "depends_on",
+      "strength": 8,
+      "description": "Sustainable agriculture is critical for reducing the environmental impact of food production, including greenhouse gas emissions."
+    },
+    {
+      "source": "N5",
+      "target": "N10",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "Norman Borlaug's work on high-yielding, disease-resistant wheat varieties helped to increase food production in developing countries and reduce the impact of climate change."
+    },
+    {
+      "source": "N6",
+      "target": "N11",
+      "relation": "evolved_from",
+      "strength": 8,
+      "description": "The Green Revolution was a period of rapid increase in food production in the 1960s and 1970s, driven by the introduction of high-yielding crop varieties and irrigation systems."
+    },
+    {
+      "source": "N7",
+      "target": "N12",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "The FAO works to promote sustainable agriculture and food security, and has adopted precision agriculture as a key strategy for achieving these goals."
+    },
+    {
+      "source": "N8",
+      "target": "N13",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "The Sustainable Development Goals include a specific goal on food security (Goal 2), which aims to end hunger and all forms of malnutrition by 2030."
+    },
+    {
+      "source": "N9",
+      "target": "N14",
+      "relation": "depends_on",
+      "strength": 8,
+      "description": "Agroecology is an approach to agriculture that emphasizes the use of ecological principles to promote sustainable and resilient food systems, and can help to reduce the impact of climate change."
+    },
+    {
+      "source": "N10",
+      "target": "N15",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "Food waste is a major problem globally, and reducing waste is critical for ensuring that food is available and accessible to all."
+    },
+    {
+      "source": "N11",
+      "target": "N1",
+      "relation": "evolved_from",
+      "strength": 8,
+      "description": "The Green Revolution was a key event in the history of food security, and helped to increase food production and reduce hunger in many developing countries."
+    },
+    {
+      "source": "N12",
+      "target": "N1",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "The FAO works to promote food security and sustainable agriculture, and has adopted a range of strategies, including precision agriculture and agroecology."
+    },
+    {
+      "source": "N13",
+      "target": "N1",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "The Sustainable Development Goals include a specific goal on food security (Goal 2), which aims to end hunger and all forms of malnutrition by 2030."
+    },
+    {
+      "source": "N14",
+      "target": "N1",
+      "relation": "depends_on",
+      "strength": 8,
+      "description": "Agroecology is an approach to agriculture that emphasizes the use of ecological principles to promote sustainable and resilient food systems, and can help to reduce the impact of climate change."
+    },
+    {
+      "source": "N15",
+      "target": "N1",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "Food waste is a major problem globally, and reducing waste is critical for ensuring that food is available and accessible to all."
+    }
+  ],
+  "key_takeaways": [
+    "Food security is a complex issue that involves multiple factors, including agricultural economics, nutrition science, sustainable agriculture, climate resilience, and global food systems.",
+    "Sustainable agriculture and climate resilience are critical for ensuring that food systems can adapt to the impacts of climate change, such as droughts and floods.",
+    "Reducing food waste and promoting sustainable agriculture are essential for ensuring that food is available and accessible to all, and for reducing the environmental impact of food production."
+  ],
+  "real_world_impact": "Food security is a critical issue globally, with over 820 million people affected by hunger and malnutrition. Ensuring food security is essential for human well-being, economic development, and environmental sustainability. The impact of food insecurity can be seen in many areas, including health, education, and economic productivity. For example, hunger and malnutrition can lead to stunted growth and development in children, and can reduce productivity and economic opportunities for adults. Additionally, food insecurity can exacerbate social and economic inequalities, and can contribute to social unrest and conflict. Therefore, it is essential to address the root causes of food insecurity, including poverty, lack of access to education and healthcare, and environmental degradation.",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Africa_Food_Security_11_%2810665081134%29.jpg",
+      "title": "Africa Food Security 11 (10665081134).jpg",
+      "license": "CC BY 2.0",
+      "artist": "Stephen Morrison/Africa Practice",
+      "description": "Otu nwaany\u1ecb Malawi na-ak\u1ecdr\u1ecd \u1ecdka n\u2019obodo ya d\u1ecb n\u00e1 mp\u1ee5ga Lilongwe, Malawi.  \u1eccstrelia na-eji nka na ah\u1ee5m\u1ecbhe ya nyere aka kwalite nchekwa nri na mba Africa.",
+      "width": 3504,
+      "height": 2332,
+      "source_query": "Food Security"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Global_Food_Security_Summit%2C_London_on_20_November_2023_-_10.jpg",
+      "title": "Global Food Security Summit, London on 20 November 2023 - 10.jpg",
+      "license": "CC BY 2.0",
+      "artist": "Foreign, Commonwealth & Development Office",
+      "description": "Session 1. New approaches to ending preventable deaths of children. Minister Mitchell chairing and moderating.",
+      "width": 2048,
+      "height": 1365,
+      "source_query": "Food Security"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Global_Food_Security_Summit%2C_London_on_20_November_2023_-_14.jpg",
+      "title": "Global Food Security Summit, London on 20 November 2023 - 14.jpg",
+      "license": "CC BY 2.0",
+      "artist": "Foreign, Commonwealth & Development Office",
+      "description": "Session 1. New approaches to ending preventable deaths of children. Minister Mitchell chairing and moderating.",
+      "width": 2048,
+      "height": 1365,
+      "source_query": "Food Security"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Global_Food_Security_Summit%2C_London_on_20_November_2023_-_17.jpg",
+      "title": "Global Food Security Summit, London on 20 November 2023 - 17.jpg",
+      "license": "CC BY 2.0",
+      "artist": "Foreign, Commonwealth & Development Office",
+      "description": "Global Food Security Summit November 2023",
+      "width": 2048,
+      "height": 1365,
+      "source_query": "Food Security"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Global_Food_Security_Summit%2C_London_on_20_November_2023_-_18.jpg",
+      "title": "Global Food Security Summit, London on 20 November 2023 - 18.jpg",
+      "license": "CC BY 2.0",
+      "artist": "Foreign, Commonwealth & Development Office",
+      "description": "Global Food Security Summit November 2023 Session 4 Building a climate-resilient and sustainable agriculture sector and food system.\nExecutive Director, Just Rural Transition Program Melissa Pinfield, Moderator",
+      "width": 2048,
+      "height": 1365,
+      "source_query": "Food Security"
+    }
+  ],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Food_security",
+    "papers": [
+      {
+        "title": "Global food security under climate change",
+        "url": "https://doi.org/10.1073/pnas.0701976104"
+      },
+      {
+        "title": "Precision Agriculture and Food Security",
+        "url": "https://doi.org/10.1126/science.1183899"
+      },
+      {
+        "title": "Global food security, biodiversity conservation and the future of agricultural intensification",
+        "url": "https://doi.org/10.1016/j.biocon.2012.01.068"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 19"
+      ],
+      "node_count": 15,
+      "edge_count": 19
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Food Distribution",
+        "Food Policy"
+      ],
+      "strengths": [
+        "Interconnectedness of concepts",
+        "Inclusion of key events and people"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

@@ -1,0 +1,169 @@
+{
+  "topic": "Food Security",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary goal of food security?",
+      "options": {
+        "A": "To increase food production",
+        "B": "To reduce food waste",
+        "C": "To ensure reliable access to sufficient, affordable, and healthy food",
+        "D": "To promote sustainable agriculture"
+      },
+      "correct": "C",
+      "explanation": "Food security is defined as the state of having reliable access to a sufficient quantity of affordable, healthy food. This is the primary goal of food security.",
+      "node_id": "Food Security",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the role of agricultural economics in ensuring food security?",
+      "options": {
+        "A": "To study the environmental impact of agriculture",
+        "B": "To optimize crop yields and reduce waste",
+        "C": "To promote sustainable agriculture practices",
+        "D": "To reduce food prices"
+      },
+      "correct": "B",
+      "explanation": "Agricultural economics plays a key role in ensuring food security by optimizing crop yields and reducing waste, which helps to increase food availability and reduce costs.",
+      "node_id": "Agricultural Economics",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the relationship between climate change and food security?",
+      "options": {
+        "A": "Climate change has no impact on food security",
+        "B": "Climate change only affects food production in developing countries",
+        "C": "Climate change can lead to more frequent and severe weather events, affecting food availability and access",
+        "D": "Climate change only affects food prices"
+      },
+      "correct": "C",
+      "explanation": "Climate change can lead to more frequent and severe weather events, such as droughts and floods, which can affect food availability and access, thereby impacting food security.",
+      "node_id": "Climate Change",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the definition of sustainable agriculture?",
+      "options": {
+        "A": "The practice of farming using only organic methods",
+        "B": "The practice of farming that minimizes environmental impact and promotes long-term sustainability",
+        "C": "The practice of farming that prioritizes high yields over environmental concerns",
+        "D": "The practice of farming that uses only traditional methods"
+      },
+      "correct": "B",
+      "explanation": "Sustainable agriculture is defined as the practice of farming that minimizes environmental impact and promotes long-term sustainability.",
+      "node_id": "Sustainable Agriculture",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the role of the FAO in promoting food security?",
+      "options": {
+        "A": "To provide emergency food aid to countries in need",
+        "B": "To promote sustainable agriculture practices and reduce hunger and poverty",
+        "C": "To regulate international food trade",
+        "D": "To conduct research on food security issues"
+      },
+      "correct": "B",
+      "explanation": "The FAO works to reduce hunger and poverty by promoting sustainable agriculture practices and supporting countries in achieving food security.",
+      "node_id": "FAO",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the concept of agroecology, and how does it relate to food security?",
+      "options": {
+        "A": "Agroecology is the practice of using high-tech farming methods to increase yields",
+        "B": "Agroecology is the study of the relationship between agriculture and ecology, and it promotes sustainable and resilient food systems",
+        "C": "Agroecology is the practice of farming using only organic methods",
+        "D": "Agroecology is the study of the impact of agriculture on the environment"
+      },
+      "correct": "B",
+      "explanation": "Agroecology is the study of the relationship between agriculture and ecology, and it promotes sustainable and resilient food systems, which is essential for ensuring food security.",
+      "node_id": "Agroecology",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the definition of food waste?",
+      "options": {
+        "A": "The loss or discard of food that is spoiled or rotten",
+        "B": "The loss or discard of food that is safe and nutritious for human consumption",
+        "C": "The excess food produced by farmers",
+        "D": "The food that is not consumed by humans"
+      },
+      "correct": "B",
+      "explanation": "Food waste is defined as the loss or discard of food that is safe and nutritious for human consumption.",
+      "node_id": "Food Waste",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What are the key factors that contribute to food insecurity, and how can they be addressed?",
+      "sample_answer": "Food insecurity is caused by a range of factors, including poverty, lack of access to land and resources, and climate change. To address food insecurity, it is essential to promote sustainable agriculture practices, support small-scale farmers, and implement policies that reduce poverty and inequality.",
+      "keywords": [
+        "poverty",
+        "lack of access to land and resources",
+        "climate change",
+        "sustainable agriculture",
+        "small-scale farmers"
+      ],
+      "node_id": "Food Insecurity",
+      "points": 15
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "How can precision agriculture contribute to food security, and what are the potential challenges and limitations of adopting this approach?",
+      "sample_answer": "Precision agriculture can contribute to food security by optimizing crop yields, reducing waste, and promoting sustainable agriculture practices. However, the adoption of precision agriculture may be limited by the high cost of technology, lack of access to data and expertise, and potential environmental impacts. To overcome these challenges, it is essential to develop affordable and accessible technologies, provide training and support to farmers, and ensure that precision agriculture is used in a way that prioritizes sustainability and equity.",
+      "keywords": [
+        "precision agriculture",
+        "sustainable agriculture",
+        "crop yields",
+        "waste reduction",
+        "technology",
+        "data",
+        "expertise"
+      ],
+      "node_id": "Precision Agriculture",
+      "points": 15
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What is the role of the Sustainable Development Goals in promoting food security, and how can they be achieved?",
+      "sample_answer": "The Sustainable Development Goals, particularly Goal 2, aim to end hunger and all forms of malnutrition by 2030. To achieve this goal, it is essential to promote sustainable agriculture practices, support small-scale farmers, and implement policies that reduce poverty and inequality. This can be achieved through a range of strategies, including increasing investment in agriculture, improving access to land and resources, and promoting climate-resilient agriculture practices.",
+      "keywords": [
+        "Sustainable Development Goals",
+        "food security",
+        "sustainable agriculture",
+        "small-scale farmers",
+        "poverty reduction"
+      ],
+      "node_id": "Sustainable Development Goals",
+      "points": 15
+    }
+  ]
+}
