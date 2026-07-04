@@ -1,0 +1,377 @@
+{
+  "topic": "Hydrology",
+  "category": "geography",
+  "description": "Hydrology is the scientific study of the movement, distribution, and management of water on Earth and other planets. It encompasses various aspects, including the water cycle, groundwater flow, surface water runoff, watershed management, and flood control. Hydrologists use analytical methods and scientific techniques to collect and analyze data to help solve water-related problems.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Hydrology",
+      "type": "core",
+      "depth": 0,
+      "description": "The scientific study of the movement, distribution, and management of water on Earth and other planets.",
+      "importance": 10,
+      "fun_fact": "The word 'hydrology' comes from the Greek words 'hydor' meaning water and 'logos' meaning study."
+    },
+    {
+      "id": "N2",
+      "label": "Water Cycle",
+      "type": "concept",
+      "depth": 1,
+      "description": "The continuous process by which water is circulated between the Earth and the atmosphere.",
+      "importance": 9,
+      "fun_fact": "The water cycle is also known as the hydrologic cycle."
+    },
+    {
+      "id": "N3",
+      "label": "Groundwater Flow",
+      "type": "concept",
+      "depth": 1,
+      "description": "The movement of water beneath the Earth's surface.",
+      "importance": 8,
+      "fun_fact": "Groundwater flow is an important component of the water cycle."
+    },
+    {
+      "id": "N4",
+      "label": "Surface Water Runoff",
+      "type": "concept",
+      "depth": 1,
+      "description": "The flow of water over the Earth's surface.",
+      "importance": 8,
+      "fun_fact": "Surface water runoff can lead to flooding and erosion."
+    },
+    {
+      "id": "N5",
+      "label": "Watershed Management",
+      "type": "application",
+      "depth": 2,
+      "description": "The practice of managing and protecting watersheds to maintain water quality and prevent flooding.",
+      "importance": 9,
+      "fun_fact": "Watershed management involves a combination of technical, social, and economic approaches."
+    },
+    {
+      "id": "N6",
+      "label": "Flood Control",
+      "type": "application",
+      "depth": 2,
+      "description": "The practice of preventing or mitigating the effects of flooding.",
+      "importance": 9,
+      "fun_fact": "Flood control measures can include dams, levees, and floodplain management."
+    },
+    {
+      "id": "N7",
+      "label": "Hydrologist",
+      "type": "person",
+      "depth": 2,
+      "description": "A scientist who studies the movement, distribution, and management of water on Earth and other planets.",
+      "importance": 8,
+      "fun_fact": "Hydrologists can work in a variety of fields, including environmental science, civil engineering, and physical geography."
+    },
+    {
+      "id": "N8",
+      "label": "Statistics of Extremes",
+      "type": "formula",
+      "depth": 3,
+      "description": "A statistical approach to understanding extreme hydrological events, such as floods and droughts.",
+      "importance": 7,
+      "fun_fact": "Statistics of extremes is used to predict and prepare for rare but potentially catastrophic events."
+    },
+    {
+      "id": "N9",
+      "label": "Physically Based Modeling",
+      "type": "formula",
+      "depth": 3,
+      "description": "A modeling approach that uses physical principles to simulate hydrological processes.",
+      "importance": 8,
+      "fun_fact": "Physically based modeling is used to predict water flow, sediment transport, and other hydrological processes."
+    },
+    {
+      "id": "N10",
+      "label": "Twenty-three Unsolved Problems in Hydrology",
+      "type": "event",
+      "depth": 3,
+      "description": "A community initiative to identify and address major unsolved scientific problems in hydrology.",
+      "importance": 8,
+      "fun_fact": "The initiative aims to harmonize research efforts and advance the field of hydrology."
+    },
+    {
+      "id": "N11",
+      "label": "Water Resources Management",
+      "type": "application",
+      "depth": 2,
+      "description": "The practice of managing and conserving water resources to meet human needs and protect the environment.",
+      "importance": 9,
+      "fun_fact": "Water resources management involves a combination of technical, social, and economic approaches."
+    },
+    {
+      "id": "N12",
+      "label": "Drainage Basin Sustainability",
+      "type": "concept",
+      "depth": 1,
+      "description": "The ability of a drainage basin to maintain its natural processes and functions over time.",
+      "importance": 8,
+      "fun_fact": "Drainage basin sustainability is critical for maintaining water quality and preventing flooding."
+    },
+    {
+      "id": "N13",
+      "label": "Channel Network Topology",
+      "type": "concept",
+      "depth": 2,
+      "description": "The study of the geometric and topological properties of channel networks.",
+      "importance": 7,
+      "fun_fact": "Channel network topology is used to understand and predict water flow and sediment transport."
+    },
+    {
+      "id": "N14",
+      "label": "Dynamic Contributing Areas",
+      "type": "concept",
+      "depth": 2,
+      "description": "The areas that contribute to runoff and flooding in a given watershed.",
+      "importance": 7,
+      "fun_fact": "Dynamic contributing areas are used to predict and prepare for flooding and erosion."
+    },
+    {
+      "id": "N15",
+      "label": "Hydrological Forecasting",
+      "type": "application",
+      "depth": 2,
+      "description": "The practice of predicting future hydrological events, such as floods and droughts.",
+      "importance": 9,
+      "fun_fact": "Hydrological forecasting is used to inform decision-making and mitigate the impacts of extreme events."
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "The water cycle is a fundamental component of hydrology."
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Groundwater flow is an important aspect of hydrology."
+    },
+    {
+      "source": "N1",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Surface water runoff is a key component of hydrology."
+    },
+    {
+      "source": "N2",
+      "target": "N5",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "Understanding the water cycle is essential for effective watershed management."
+    },
+    {
+      "source": "N3",
+      "target": "N6",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "Groundwater flow is critical for flood control."
+    },
+    {
+      "source": "N4",
+      "target": "N6",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "Surface water runoff can lead to flooding and erosion."
+    },
+    {
+      "source": "N5",
+      "target": "N11",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Watershed management is a key component of water resources management."
+    },
+    {
+      "source": "N6",
+      "target": "N11",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Flood control is an important aspect of water resources management."
+    },
+    {
+      "source": "N7",
+      "target": "N1",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "Hydrologists study and work in the field of hydrology."
+    },
+    {
+      "source": "N8",
+      "target": "N10",
+      "relation": "used_in",
+      "strength": 7,
+      "description": "Statistics of extremes is used to address unsolved problems in hydrology."
+    },
+    {
+      "source": "N9",
+      "target": "N10",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Physically based modeling is used to address unsolved problems in hydrology."
+    },
+    {
+      "source": "N10",
+      "target": "N1",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "The twenty-three unsolved problems in hydrology initiative aims to advance the field of hydrology."
+    },
+    {
+      "source": "N11",
+      "target": "N12",
+      "relation": "depends_on",
+      "strength": 8,
+      "description": "Water resources management depends on drainage basin sustainability."
+    },
+    {
+      "source": "N12",
+      "target": "N13",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "Drainage basin sustainability is related to channel network topology."
+    },
+    {
+      "source": "N13",
+      "target": "N14",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "Channel network topology is related to dynamic contributing areas."
+    },
+    {
+      "source": "N14",
+      "target": "N6",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "Dynamic contributing areas can lead to flooding and erosion."
+    },
+    {
+      "source": "N15",
+      "target": "N6",
+      "relation": "used_in",
+      "strength": 9,
+      "description": "Hydrological forecasting is used in flood control."
+    },
+    {
+      "source": "N15",
+      "target": "N5",
+      "relation": "used_in",
+      "strength": 9,
+      "description": "Hydrological forecasting is used in watershed management."
+    }
+  ],
+  "key_takeaways": [
+    "Hydrology is the scientific study of the movement, distribution, and management of water on Earth and other planets.",
+    "The water cycle, groundwater flow, and surface water runoff are fundamental components of hydrology.",
+    "Watershed management, flood control, and water resources management are critical applications of hydrology."
+  ],
+  "real_world_impact": "Hydrology has a significant impact on our daily lives, from providing clean drinking water to predicting and mitigating the effects of flooding and droughts. Hydrologists work to understand and manage water resources, ensuring that communities have access to safe and reliable water supplies. By advancing our understanding of hydrological processes, we can better manage water resources, protect the environment, and promote sustainable development.",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Centre_for_Ecology_and_Hydrology%2C_Banchory_-_geograph.org.uk_-_16409.jpg",
+      "title": "Centre for Ecology and Hydrology, Banchory - geograph.org.uk - 16409.jpg",
+      "license": "CC BY-SA 2.0",
+      "artist": "Lizzie",
+      "description": "Centre for Ecology and Hydrology, Banchory. Research centre just outside the town of Banchory",
+      "width": 640,
+      "height": 480,
+      "source_query": "Hydrology"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Centre_for_Ecology_and_Hydrology%2C_Bush_Estate_-_geograph.org.uk_-_3265561.jpg",
+      "title": "Centre for Ecology and Hydrology, Bush Estate - geograph.org.uk - 3265561.jpg",
+      "license": "CC BY-SA 2.0",
+      "artist": "Jim Barton",
+      "description": "Centre for Ecology and Hydrology, Bush Estate",
+      "width": 800,
+      "height": 600,
+      "source_query": "Hydrology"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Centre_for_Ecology_and_Hydrology_-_geograph.org.uk_-_830156.jpg",
+      "title": "Centre for Ecology and Hydrology - geograph.org.uk - 830156.jpg",
+      "license": "CC BY-SA 2.0",
+      "artist": "Bill Nicholls",
+      "description": "Centre for Ecology & Hydrology Used to be known as the Ministry of Hydrology when I was an apprentice; it also was in Howbury Park.",
+      "width": 640,
+      "height": 426,
+      "source_query": "Hydrology"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Graphique_de_gumbel.jpg",
+      "title": "Graphique de gumbel.jpg",
+      "license": "CC0",
+      "artist": "Remilio27",
+      "description": "Exemple d\u2019un ajustement de la loi de Gumbel",
+      "width": 1682,
+      "height": 1303,
+      "source_query": "Hydrology"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Hydrological_measurement_station.jpg",
+      "title": "Hydrological measurement station.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Ehsnils",
+      "description": "This image shows a hydrological measurement station measuring the water level in a stream.\nThis unit is operated by the Swedish Meteorological institute SMHI.",
+      "width": 1024,
+      "height": 1365,
+      "source_query": "Hydrology"
+    }
+  ],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hydrology",
+    "papers": [
+      {
+        "title": "Statistics of extremes in hydrology",
+        "url": "https://doi.org/10.1016/s0309-1708(02)00056-8"
+      },
+      {
+        "title": "A physically based, variable contributing area model of basin hydrology / Un mod\u00e8le \u00e0 base physique de zone d'appel variable de l'hydrologie du bassin versant",
+        "url": "https://doi.org/10.1080/02626667909491834"
+      },
+      {
+        "title": "Twenty-three unsolved problems in hydrology (UPH) \u2013 a community perspective",
+        "url": "https://doi.org/10.1080/02626667.2019.1620507"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 18"
+      ],
+      "node_count": 15,
+      "edge_count": 18
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Evapotranspiration",
+        "Water Quality"
+      ],
+      "strengths": [
+        "Clear representation of hydrology concepts",
+        "Well-defined relationships between nodes"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

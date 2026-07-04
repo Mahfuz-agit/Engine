@@ -1,0 +1,165 @@
+{
+  "topic": "Hydrology",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary focus of the scientific study of hydrology?",
+      "options": {
+        "A": "The movement, distribution, and management of water on Earth and other planets",
+        "B": "The study of the Earth's atmosphere and its effects on climate",
+        "C": "The analysis of the Earth's geology and its impact on landforms",
+        "D": "The examination of the Earth's oceans and their role in the water cycle"
+      },
+      "correct": "A",
+      "explanation": "Hydrology is the scientific study of the movement, distribution, and management of water on Earth and other planets, making option A the correct answer.",
+      "node_id": "Hydrology",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term used to describe the continuous process by which water is circulated between the Earth and the atmosphere?",
+      "options": {
+        "A": "Water cycle",
+        "B": "Hydrologic cycle",
+        "C": "Atmospheric circulation",
+        "D": "Evapotranspiration"
+      },
+      "correct": "A",
+      "explanation": "The water cycle, also known as the hydrologic cycle, is the continuous process by which water is circulated between the Earth and the atmosphere, making option A the correct answer.",
+      "node_id": "Water Cycle",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What statistical approach is used to understand extreme hydrological events, such as floods and droughts?",
+      "options": {
+        "A": "Statistics of extremes",
+        "B": "Probability distribution",
+        "C": "Time series analysis",
+        "D": "Spectral analysis"
+      },
+      "correct": "A",
+      "explanation": "Statistics of extremes is a statistical approach used to understand extreme hydrological events, such as floods and droughts, making option A the correct answer.",
+      "node_id": "Statistics of Extremes",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the term used to describe the flow of water over the Earth's surface?",
+      "options": {
+        "A": "Groundwater flow",
+        "B": "Surface water runoff",
+        "C": "Channel flow",
+        "D": "Drainage flow"
+      },
+      "correct": "B",
+      "explanation": "Surface water runoff is the flow of water over the Earth's surface, making option B the correct answer.",
+      "node_id": "Surface Water Runoff",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the practice of managing and protecting watersheds to maintain water quality and prevent flooding?",
+      "options": {
+        "A": "Watershed management",
+        "B": "Flood control",
+        "C": "Water resources management",
+        "D": "Drainage basin management"
+      },
+      "correct": "A",
+      "explanation": "Watershed management is the practice of managing and protecting watersheds to maintain water quality and prevent flooding, making option A the correct answer.",
+      "node_id": "Watershed Management",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term used to describe the ability of a drainage basin to maintain its natural processes and functions over time?",
+      "options": {
+        "A": "Drainage basin sustainability",
+        "B": "Watershed resilience",
+        "C": "Channel network stability",
+        "D": "Floodplain management"
+      },
+      "correct": "A",
+      "explanation": "Drainage basin sustainability is the ability of a drainage basin to maintain its natural processes and functions over time, making option A the correct answer.",
+      "node_id": "Drainage Basin Sustainability",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term used to describe the study of the geometric and topological properties of channel networks?",
+      "options": {
+        "A": "Channel network topology",
+        "B": "Drainage basin morphology",
+        "C": "Watershed geometry",
+        "D": "River network analysis"
+      },
+      "correct": "A",
+      "explanation": "Channel network topology is the study of the geometric and topological properties of channel networks, making option A the correct answer.",
+      "node_id": "Channel Network Topology",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What are the key components of the water cycle, and how do they interact with each other?",
+      "sample_answer": "The key components of the water cycle include evaporation, condensation, precipitation, runoff, and infiltration. These components interact with each other through a series of processes, including the movement of water from the oceans to the atmosphere, and then to the land and back to the oceans.",
+      "keywords": [
+        "evaporation",
+        "condensation",
+        "precipitation",
+        "runoff",
+        "infiltration"
+      ],
+      "node_id": "Water Cycle",
+      "points": 15
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "What are the advantages and limitations of using physically based modeling in hydrology, and how can it be applied to real-world problems?",
+      "sample_answer": "Physically based modeling in hydrology uses physical principles to simulate hydrological processes, such as water flow and sediment transport. The advantages of this approach include its ability to provide detailed and accurate predictions, while the limitations include its complexity and requirement for large amounts of data. Physically based modeling can be applied to real-world problems, such as predicting flood risk and optimizing water resources management.",
+      "keywords": [
+        "physically based modeling",
+        "hydrological processes",
+        "water flow",
+        "sediment transport"
+      ],
+      "node_id": "Physically Based Modeling",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What are the key challenges and opportunities in watershed management, and how can they be addressed through sustainable practices?",
+      "sample_answer": "The key challenges in watershed management include balancing human needs with environmental protection, managing water quality and quantity, and addressing the impacts of climate change. The opportunities include implementing sustainable practices, such as reforestation and wetland restoration, and engaging with local communities to promote watershed stewardship. Sustainable practices can help address these challenges by reducing pollution, conserving water, and promoting ecosystem services.",
+      "keywords": [
+        "watershed management",
+        "sustainable practices",
+        "water quality",
+        "climate change"
+      ],
+      "node_id": "Watershed Management",
+      "points": 15
+    }
+  ]
+}

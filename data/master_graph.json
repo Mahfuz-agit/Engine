@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 33,
-  "total_nodes": 494,
-  "total_edges": 609,
+  "total_topics": 34,
+  "total_nodes": 509,
+  "total_edges": 627,
   "topics": [
     {
       "topic": "Climate Change",
@@ -300,6 +300,15 @@
       "edge_count": 20,
       "description": "Ethology is the scientific study of animal behavior, combining laboratory and field research to understand the complex interactions between animals and their environment. It has its roots in the work of Charles Darwin and has evolved into a multidisciplinary field, incorporating insights from neuroanatomy, ecology, and evolutionary biology. By examining the behavior of non-human animals, ethologists aim to gain a deeper understanding of the underlying mechanisms and principles that govern their actions.",
       "added_at": "2026-07-03T21:44:08.082827"
+    },
+    {
+      "topic": "Hydrology",
+      "slug": "hydrology",
+      "category": "geography",
+      "node_count": 15,
+      "edge_count": 18,
+      "description": "Hydrology is the scientific study of the movement, distribution, and management of water on Earth and other planets. It encompasses various aspects, including the water cycle, groundwater flow, surface water runoff, watershed management, and flood control. Hydrologists use analytical methods and scientific techniques to collect and analyze data to help solve water-related problems.",
+      "added_at": "2026-07-04T08:12:58.109505"
     }
   ],
   "global_nodes": [
@@ -5736,6 +5745,171 @@
       "fun_fact": "Conservation biology relies on a thorough understanding of animal behavior and ecology to protect endangered species.",
       "topic_slug": "ethology",
       "topic": "Ethology"
+    },
+    {
+      "id": "hydrology__N1",
+      "label": "Hydrology",
+      "type": "core",
+      "depth": 0,
+      "description": "The scientific study of the movement, distribution, and management of water on Earth and other planets.",
+      "importance": 10,
+      "fun_fact": "The word 'hydrology' comes from the Greek words 'hydor' meaning water and 'logos' meaning study.",
+      "topic_slug": "hydrology",
+      "topic": "Hydrology"
+    },
+    {
+      "id": "hydrology__N2",
+      "label": "Water Cycle",
+      "type": "concept",
+      "depth": 1,
+      "description": "The continuous process by which water is circulated between the Earth and the atmosphere.",
+      "importance": 9,
+      "fun_fact": "The water cycle is also known as the hydrologic cycle.",
+      "topic_slug": "hydrology",
+      "topic": "Hydrology"
+    },
+    {
+      "id": "hydrology__N3",
+      "label": "Groundwater Flow",
+      "type": "concept",
+      "depth": 1,
+      "description": "The movement of water beneath the Earth's surface.",
+      "importance": 8,
+      "fun_fact": "Groundwater flow is an important component of the water cycle.",
+      "topic_slug": "hydrology",
+      "topic": "Hydrology"
+    },
+    {
+      "id": "hydrology__N4",
+      "label": "Surface Water Runoff",
+      "type": "concept",
+      "depth": 1,
+      "description": "The flow of water over the Earth's surface.",
+      "importance": 8,
+      "fun_fact": "Surface water runoff can lead to flooding and erosion.",
+      "topic_slug": "hydrology",
+      "topic": "Hydrology"
+    },
+    {
+      "id": "hydrology__N5",
+      "label": "Watershed Management",
+      "type": "application",
+      "depth": 2,
+      "description": "The practice of managing and protecting watersheds to maintain water quality and prevent flooding.",
+      "importance": 9,
+      "fun_fact": "Watershed management involves a combination of technical, social, and economic approaches.",
+      "topic_slug": "hydrology",
+      "topic": "Hydrology"
+    },
+    {
+      "id": "hydrology__N6",
+      "label": "Flood Control",
+      "type": "application",
+      "depth": 2,
+      "description": "The practice of preventing or mitigating the effects of flooding.",
+      "importance": 9,
+      "fun_fact": "Flood control measures can include dams, levees, and floodplain management.",
+      "topic_slug": "hydrology",
+      "topic": "Hydrology"
+    },
+    {
+      "id": "hydrology__N7",
+      "label": "Hydrologist",
+      "type": "person",
+      "depth": 2,
+      "description": "A scientist who studies the movement, distribution, and management of water on Earth and other planets.",
+      "importance": 8,
+      "fun_fact": "Hydrologists can work in a variety of fields, including environmental science, civil engineering, and physical geography.",
+      "topic_slug": "hydrology",
+      "topic": "Hydrology"
+    },
+    {
+      "id": "hydrology__N8",
+      "label": "Statistics of Extremes",
+      "type": "formula",
+      "depth": 3,
+      "description": "A statistical approach to understanding extreme hydrological events, such as floods and droughts.",
+      "importance": 7,
+      "fun_fact": "Statistics of extremes is used to predict and prepare for rare but potentially catastrophic events.",
+      "topic_slug": "hydrology",
+      "topic": "Hydrology"
+    },
+    {
+      "id": "hydrology__N9",
+      "label": "Physically Based Modeling",
+      "type": "formula",
+      "depth": 3,
+      "description": "A modeling approach that uses physical principles to simulate hydrological processes.",
+      "importance": 8,
+      "fun_fact": "Physically based modeling is used to predict water flow, sediment transport, and other hydrological processes.",
+      "topic_slug": "hydrology",
+      "topic": "Hydrology"
+    },
+    {
+      "id": "hydrology__N10",
+      "label": "Twenty-three Unsolved Problems in Hydrology",
+      "type": "event",
+      "depth": 3,
+      "description": "A community initiative to identify and address major unsolved scientific problems in hydrology.",
+      "importance": 8,
+      "fun_fact": "The initiative aims to harmonize research efforts and advance the field of hydrology.",
+      "topic_slug": "hydrology",
+      "topic": "Hydrology"
+    },
+    {
+      "id": "hydrology__N11",
+      "label": "Water Resources Management",
+      "type": "application",
+      "depth": 2,
+      "description": "The practice of managing and conserving water resources to meet human needs and protect the environment.",
+      "importance": 9,
+      "fun_fact": "Water resources management involves a combination of technical, social, and economic approaches.",
+      "topic_slug": "hydrology",
+      "topic": "Hydrology"
+    },
+    {
+      "id": "hydrology__N12",
+      "label": "Drainage Basin Sustainability",
+      "type": "concept",
+      "depth": 1,
+      "description": "The ability of a drainage basin to maintain its natural processes and functions over time.",
+      "importance": 8,
+      "fun_fact": "Drainage basin sustainability is critical for maintaining water quality and preventing flooding.",
+      "topic_slug": "hydrology",
+      "topic": "Hydrology"
+    },
+    {
+      "id": "hydrology__N13",
+      "label": "Channel Network Topology",
+      "type": "concept",
+      "depth": 2,
+      "description": "The study of the geometric and topological properties of channel networks.",
+      "importance": 7,
+      "fun_fact": "Channel network topology is used to understand and predict water flow and sediment transport.",
+      "topic_slug": "hydrology",
+      "topic": "Hydrology"
+    },
+    {
+      "id": "hydrology__N14",
+      "label": "Dynamic Contributing Areas",
+      "type": "concept",
+      "depth": 2,
+      "description": "The areas that contribute to runoff and flooding in a given watershed.",
+      "importance": 7,
+      "fun_fact": "Dynamic contributing areas are used to predict and prepare for flooding and erosion.",
+      "topic_slug": "hydrology",
+      "topic": "Hydrology"
+    },
+    {
+      "id": "hydrology__N15",
+      "label": "Hydrological Forecasting",
+      "type": "application",
+      "depth": 2,
+      "description": "The practice of predicting future hydrological events, such as floods and droughts.",
+      "importance": 9,
+      "fun_fact": "Hydrological forecasting is used to inform decision-making and mitigate the impacts of extreme events.",
+      "topic_slug": "hydrology",
+      "topic": "Hydrology"
     }
   ],
   "global_edges": [
@@ -10001,6 +10175,132 @@
       "relation": "used_in",
       "strength": 6,
       "topic": "Ethology"
+    },
+    {
+      "source": "hydrology__N1",
+      "target": "hydrology__N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Hydrology"
+    },
+    {
+      "source": "hydrology__N1",
+      "target": "hydrology__N3",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Hydrology"
+    },
+    {
+      "source": "hydrology__N1",
+      "target": "hydrology__N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Hydrology"
+    },
+    {
+      "source": "hydrology__N2",
+      "target": "hydrology__N5",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Hydrology"
+    },
+    {
+      "source": "hydrology__N3",
+      "target": "hydrology__N6",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Hydrology"
+    },
+    {
+      "source": "hydrology__N4",
+      "target": "hydrology__N6",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Hydrology"
+    },
+    {
+      "source": "hydrology__N5",
+      "target": "hydrology__N11",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Hydrology"
+    },
+    {
+      "source": "hydrology__N6",
+      "target": "hydrology__N11",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Hydrology"
+    },
+    {
+      "source": "hydrology__N7",
+      "target": "hydrology__N1",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Hydrology"
+    },
+    {
+      "source": "hydrology__N8",
+      "target": "hydrology__N10",
+      "relation": "used_in",
+      "strength": 7,
+      "topic": "Hydrology"
+    },
+    {
+      "source": "hydrology__N9",
+      "target": "hydrology__N10",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Hydrology"
+    },
+    {
+      "source": "hydrology__N10",
+      "target": "hydrology__N1",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Hydrology"
+    },
+    {
+      "source": "hydrology__N11",
+      "target": "hydrology__N12",
+      "relation": "depends_on",
+      "strength": 8,
+      "topic": "Hydrology"
+    },
+    {
+      "source": "hydrology__N12",
+      "target": "hydrology__N13",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Hydrology"
+    },
+    {
+      "source": "hydrology__N13",
+      "target": "hydrology__N14",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Hydrology"
+    },
+    {
+      "source": "hydrology__N14",
+      "target": "hydrology__N6",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Hydrology"
+    },
+    {
+      "source": "hydrology__N15",
+      "target": "hydrology__N6",
+      "relation": "used_in",
+      "strength": 9,
+      "topic": "Hydrology"
+    },
+    {
+      "source": "hydrology__N15",
+      "target": "hydrology__N5",
+      "relation": "used_in",
+      "strength": 9,
+      "topic": "Hydrology"
     }
   ],
   "cross_topic_edges": [
@@ -10180,7 +10480,8 @@
       "cartography",
       "geographic_information_systems",
       "paleoclimatology",
-      "oceanography"
+      "oceanography",
+      "hydrology"
     ],
     "biology": [
       "evolutionary_biology",
@@ -10232,5 +10533,5 @@
       "biomechanical_engineering"
     ]
   },
-  "last_updated": "2026-07-03T21:44:08.082860"
+  "last_updated": "2026-07-04T08:12:58.109545"
 }
