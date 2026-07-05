@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 36,
-  "total_nodes": 539,
-  "total_edges": 662,
+  "total_topics": 37,
+  "total_nodes": 554,
+  "total_edges": 681,
   "topics": [
     {
       "topic": "Climate Change",
@@ -327,6 +327,15 @@
       "edge_count": 16,
       "description": "Archaeomagnetism is the study of the Earth's magnetic field as recorded in archaeological materials, used to date and understand the past. It involves analyzing the magnetic signatures in ferromagnetic materials to reconstruct the geomagnetic polarity time scale. This technique has been used to date sites within the last 10,000 years and has been instrumental in understanding the Earth's magnetic field and its variations over time.",
       "added_at": "2026-07-04T20:15:03.916468"
+    },
+    {
+      "topic": "Anthropology",
+      "slug": "anthropology",
+      "category": "anthropology",
+      "node_count": 15,
+      "edge_count": 19,
+      "description": "Anthropology is the scientific study of humanity, crossing biology and sociology to understand human behavior, biology, cultures, societies, and linguistics. It encompasses various subfields, including cultural, linguistic, archaeological, biological, and applied anthropology. By exploring these areas, anthropologists gain insights into human evolution, cultural diversity, and the complexities of human societies.",
+      "added_at": "2026-07-05T08:32:43.504558"
     }
   ],
   "global_nodes": [
@@ -6258,6 +6267,171 @@
       "fun_fact": "The Curie point is important in archaeomagnetism as it determines when a material becomes magnetized",
       "topic_slug": "archaeomagnetism",
       "topic": "Archaeomagnetism"
+    },
+    {
+      "id": "anthropology__N1",
+      "label": "Anthropology",
+      "type": "core",
+      "depth": 0,
+      "description": "The scientific study of humanity, encompassing biology, sociology, and culture.",
+      "importance": 10,
+      "fun_fact": "The term 'anthropology' was first used in the 16th century.",
+      "topic_slug": "anthropology",
+      "topic": "Anthropology"
+    },
+    {
+      "id": "anthropology__N2",
+      "label": "Cultural Anthropology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of cultural meaning, including norms, values, and practices.",
+      "importance": 9,
+      "fun_fact": "Cultural anthropology emerged as a distinct field in the early 20th century.",
+      "topic_slug": "anthropology",
+      "topic": "Anthropology"
+    },
+    {
+      "id": "anthropology__N3",
+      "label": "Linguistic Anthropology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of language and its influence on social life.",
+      "importance": 8,
+      "fun_fact": "Linguistic anthropology has shed light on the diversity of human languages.",
+      "topic_slug": "anthropology",
+      "topic": "Anthropology"
+    },
+    {
+      "id": "anthropology__N4",
+      "label": "Archaeological Anthropology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of past human cultures through material remains.",
+      "importance": 8,
+      "fun_fact": "Archaeological anthropology has uncovered the secrets of ancient civilizations.",
+      "topic_slug": "anthropology",
+      "topic": "Anthropology"
+    },
+    {
+      "id": "anthropology__N5",
+      "label": "Biological Anthropology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of human biology and evolution.",
+      "importance": 9,
+      "fun_fact": "Biological anthropology has revealed the origins of the human species.",
+      "topic_slug": "anthropology",
+      "topic": "Anthropology"
+    },
+    {
+      "id": "anthropology__N6",
+      "label": "Applied Anthropology",
+      "type": "application",
+      "depth": 2,
+      "description": "The practical application of anthropological knowledge to real-world problems.",
+      "importance": 8,
+      "fun_fact": "Applied anthropology has improved healthcare, education, and economic development in many communities.",
+      "topic_slug": "anthropology",
+      "topic": "Anthropology"
+    },
+    {
+      "id": "anthropology__N7",
+      "label": "Franz Boas",
+      "type": "person",
+      "depth": 2,
+      "description": "A German-American anthropologist who founded the American Anthropological Association.",
+      "importance": 8,
+      "fun_fact": "Boas is considered one of the founders of modern anthropology.",
+      "topic_slug": "anthropology",
+      "topic": "Anthropology"
+    },
+    {
+      "id": "anthropology__N8",
+      "label": "Margaret Mead",
+      "type": "person",
+      "depth": 2,
+      "description": "An American anthropologist who studied cultural differences and their impact on human behavior.",
+      "importance": 8,
+      "fun_fact": "Mead's work on adolescence in different cultures remains influential to this day.",
+      "topic_slug": "anthropology",
+      "topic": "Anthropology"
+    },
+    {
+      "id": "anthropology__N9",
+      "label": "Human Evolution",
+      "type": "concept",
+      "depth": 2,
+      "description": "The study of the biological and cultural development of the human species.",
+      "importance": 9,
+      "fun_fact": "Human evolution is a complex and still-unfolding process.",
+      "topic_slug": "anthropology",
+      "topic": "Anthropology"
+    },
+    {
+      "id": "anthropology__N10",
+      "label": "Cultural Relativism",
+      "type": "concept",
+      "depth": 2,
+      "description": "The idea that cultural practices and values should be understood within their own context.",
+      "importance": 8,
+      "fun_fact": "Cultural relativism has helped anthropologists avoid ethnocentric biases.",
+      "topic_slug": "anthropology",
+      "topic": "Anthropology"
+    },
+    {
+      "id": "anthropology__N11",
+      "label": "Ethnography",
+      "type": "application",
+      "depth": 3,
+      "description": "A research methodology that involves long-term immersion in a culture to gain in-depth understanding.",
+      "importance": 8,
+      "fun_fact": "Ethnography has been used to study a wide range of cultures, from indigenous communities to urban gangs.",
+      "topic_slug": "anthropology",
+      "topic": "Anthropology"
+    },
+    {
+      "id": "anthropology__N12",
+      "label": "Forensic Anthropology",
+      "type": "application",
+      "depth": 3,
+      "description": "The application of anthropological knowledge to aid in the identification of human remains.",
+      "importance": 8,
+      "fun_fact": "Forensic anthropology has helped solve crimes and identify victims of natural disasters.",
+      "topic_slug": "anthropology",
+      "topic": "Anthropology"
+    },
+    {
+      "id": "anthropology__N13",
+      "label": "Medical Anthropology",
+      "type": "application",
+      "depth": 3,
+      "description": "The study of the cultural and social factors that influence health and healthcare.",
+      "importance": 8,
+      "fun_fact": "Medical anthropology has improved our understanding of the social determinants of health.",
+      "topic_slug": "anthropology",
+      "topic": "Anthropology"
+    },
+    {
+      "id": "anthropology__N14",
+      "label": "Anthropological Theory",
+      "type": "concept",
+      "depth": 3,
+      "description": "The development of theoretical frameworks to explain human culture and behavior.",
+      "importance": 8,
+      "fun_fact": "Anthropological theory has been influenced by a range of disciplines, including sociology, psychology, and philosophy.",
+      "topic_slug": "anthropology",
+      "topic": "Anthropology"
+    },
+    {
+      "id": "anthropology__N15",
+      "label": "Anthropology and Policy",
+      "type": "application",
+      "depth": 3,
+      "description": "The application of anthropological knowledge to inform policy decisions.",
+      "importance": 8,
+      "fun_fact": "Anthropology has been used to inform policy on issues such as immigration, education, and environmental conservation.",
+      "topic_slug": "anthropology",
+      "topic": "Anthropology"
     }
   ],
   "global_edges": [
@@ -10894,6 +11068,139 @@
       "relation": "is_part_of",
       "strength": 8,
       "topic": "Archaeomagnetism"
+    },
+    {
+      "source": "anthropology__N1",
+      "target": "anthropology__N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Anthropology"
+    },
+    {
+      "source": "anthropology__N1",
+      "target": "anthropology__N3",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Anthropology"
+    },
+    {
+      "source": "anthropology__N1",
+      "target": "anthropology__N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Anthropology"
+    },
+    {
+      "source": "anthropology__N1",
+      "target": "anthropology__N5",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Anthropology"
+    },
+    {
+      "source": "anthropology__N2",
+      "target": "anthropology__N6",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Anthropology"
+    },
+    {
+      "source": "anthropology__N3",
+      "target": "anthropology__N6",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Anthropology"
+    },
+    {
+      "source": "anthropology__N7",
+      "target": "anthropology__N1",
+      "relation": "discovered_by",
+      "strength": 8,
+      "topic": "Anthropology"
+    },
+    {
+      "source": "anthropology__N8",
+      "target": "anthropology__N1",
+      "relation": "discovered_by",
+      "strength": 8,
+      "topic": "Anthropology"
+    },
+    {
+      "source": "anthropology__N9",
+      "target": "anthropology__N5",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Anthropology"
+    },
+    {
+      "source": "anthropology__N10",
+      "target": "anthropology__N2",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Anthropology"
+    },
+    {
+      "source": "anthropology__N11",
+      "target": "anthropology__N6",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Anthropology"
+    },
+    {
+      "source": "anthropology__N12",
+      "target": "anthropology__N6",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Anthropology"
+    },
+    {
+      "source": "anthropology__N13",
+      "target": "anthropology__N6",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Anthropology"
+    },
+    {
+      "source": "anthropology__N14",
+      "target": "anthropology__N1",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Anthropology"
+    },
+    {
+      "source": "anthropology__N15",
+      "target": "anthropology__N6",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Anthropology"
+    },
+    {
+      "source": "anthropology__N1",
+      "target": "anthropology__N14",
+      "relation": "depends_on",
+      "strength": 8,
+      "topic": "Anthropology"
+    },
+    {
+      "source": "anthropology__N5",
+      "target": "anthropology__N9",
+      "relation": "evolved_from",
+      "strength": 9,
+      "topic": "Anthropology"
+    },
+    {
+      "source": "anthropology__N2",
+      "target": "anthropology__N10",
+      "relation": "contrasts_with",
+      "strength": 8,
+      "topic": "Anthropology"
+    },
+    {
+      "source": "anthropology__N6",
+      "target": "anthropology__N11",
+      "relation": "enables",
+      "strength": 8,
+      "topic": "Anthropology"
     }
   ],
   "cross_topic_edges": [
@@ -11071,6 +11378,20 @@
       "relation": "cross_topic_connection",
       "strength": 6,
       "label": "biomechanics"
+    },
+    {
+      "source": "archaeology__N4",
+      "target": "anthropology__N14",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "anthropological theory"
+    },
+    {
+      "source": "archaeology__N11",
+      "target": "anthropology__N1",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "anthropology"
     }
   ],
   "category_map": {
@@ -11133,7 +11454,10 @@
     ],
     "engineering": [
       "biomechanical_engineering"
+    ],
+    "anthropology": [
+      "anthropology"
     ]
   },
-  "last_updated": "2026-07-04T20:15:03.916500"
+  "last_updated": "2026-07-05T08:32:43.504596"
 }

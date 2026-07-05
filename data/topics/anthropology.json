@@ -1,0 +1,371 @@
+{
+  "topic": "Anthropology",
+  "category": "anthropology",
+  "description": "Anthropology is the scientific study of humanity, crossing biology and sociology to understand human behavior, biology, cultures, societies, and linguistics. It encompasses various subfields, including cultural, linguistic, archaeological, biological, and applied anthropology. By exploring these areas, anthropologists gain insights into human evolution, cultural diversity, and the complexities of human societies.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Anthropology",
+      "type": "core",
+      "depth": 0,
+      "description": "The scientific study of humanity, encompassing biology, sociology, and culture.",
+      "importance": 10,
+      "fun_fact": "The term 'anthropology' was first used in the 16th century."
+    },
+    {
+      "id": "N2",
+      "label": "Cultural Anthropology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of cultural meaning, including norms, values, and practices.",
+      "importance": 9,
+      "fun_fact": "Cultural anthropology emerged as a distinct field in the early 20th century."
+    },
+    {
+      "id": "N3",
+      "label": "Linguistic Anthropology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of language and its influence on social life.",
+      "importance": 8,
+      "fun_fact": "Linguistic anthropology has shed light on the diversity of human languages."
+    },
+    {
+      "id": "N4",
+      "label": "Archaeological Anthropology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of past human cultures through material remains.",
+      "importance": 8,
+      "fun_fact": "Archaeological anthropology has uncovered the secrets of ancient civilizations."
+    },
+    {
+      "id": "N5",
+      "label": "Biological Anthropology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of human biology and evolution.",
+      "importance": 9,
+      "fun_fact": "Biological anthropology has revealed the origins of the human species."
+    },
+    {
+      "id": "N6",
+      "label": "Applied Anthropology",
+      "type": "application",
+      "depth": 2,
+      "description": "The practical application of anthropological knowledge to real-world problems.",
+      "importance": 8,
+      "fun_fact": "Applied anthropology has improved healthcare, education, and economic development in many communities."
+    },
+    {
+      "id": "N7",
+      "label": "Franz Boas",
+      "type": "person",
+      "depth": 2,
+      "description": "A German-American anthropologist who founded the American Anthropological Association.",
+      "importance": 8,
+      "fun_fact": "Boas is considered one of the founders of modern anthropology."
+    },
+    {
+      "id": "N8",
+      "label": "Margaret Mead",
+      "type": "person",
+      "depth": 2,
+      "description": "An American anthropologist who studied cultural differences and their impact on human behavior.",
+      "importance": 8,
+      "fun_fact": "Mead's work on adolescence in different cultures remains influential to this day."
+    },
+    {
+      "id": "N9",
+      "label": "Human Evolution",
+      "type": "concept",
+      "depth": 2,
+      "description": "The study of the biological and cultural development of the human species.",
+      "importance": 9,
+      "fun_fact": "Human evolution is a complex and still-unfolding process."
+    },
+    {
+      "id": "N10",
+      "label": "Cultural Relativism",
+      "type": "concept",
+      "depth": 2,
+      "description": "The idea that cultural practices and values should be understood within their own context.",
+      "importance": 8,
+      "fun_fact": "Cultural relativism has helped anthropologists avoid ethnocentric biases."
+    },
+    {
+      "id": "N11",
+      "label": "Ethnography",
+      "type": "application",
+      "depth": 3,
+      "description": "A research methodology that involves long-term immersion in a culture to gain in-depth understanding.",
+      "importance": 8,
+      "fun_fact": "Ethnography has been used to study a wide range of cultures, from indigenous communities to urban gangs."
+    },
+    {
+      "id": "N12",
+      "label": "Forensic Anthropology",
+      "type": "application",
+      "depth": 3,
+      "description": "The application of anthropological knowledge to aid in the identification of human remains.",
+      "importance": 8,
+      "fun_fact": "Forensic anthropology has helped solve crimes and identify victims of natural disasters."
+    },
+    {
+      "id": "N13",
+      "label": "Medical Anthropology",
+      "type": "application",
+      "depth": 3,
+      "description": "The study of the cultural and social factors that influence health and healthcare.",
+      "importance": 8,
+      "fun_fact": "Medical anthropology has improved our understanding of the social determinants of health."
+    },
+    {
+      "id": "N14",
+      "label": "Anthropological Theory",
+      "type": "concept",
+      "depth": 3,
+      "description": "The development of theoretical frameworks to explain human culture and behavior.",
+      "importance": 8,
+      "fun_fact": "Anthropological theory has been influenced by a range of disciplines, including sociology, psychology, and philosophy."
+    },
+    {
+      "id": "N15",
+      "label": "Anthropology and Policy",
+      "type": "application",
+      "depth": 3,
+      "description": "The application of anthropological knowledge to inform policy decisions.",
+      "importance": 8,
+      "fun_fact": "Anthropology has been used to inform policy on issues such as immigration, education, and environmental conservation."
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Cultural anthropology is a subfield of anthropology."
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Linguistic anthropology is a subfield of anthropology."
+    },
+    {
+      "source": "N1",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Archaeological anthropology is a subfield of anthropology."
+    },
+    {
+      "source": "N1",
+      "target": "N5",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Biological anthropology is a subfield of anthropology."
+    },
+    {
+      "source": "N2",
+      "target": "N6",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "Cultural anthropology can lead to applied anthropology."
+    },
+    {
+      "source": "N3",
+      "target": "N6",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "Linguistic anthropology can lead to applied anthropology."
+    },
+    {
+      "source": "N7",
+      "target": "N1",
+      "relation": "discovered_by",
+      "strength": 8,
+      "description": "Franz Boas was a key figure in the development of anthropology."
+    },
+    {
+      "source": "N8",
+      "target": "N1",
+      "relation": "discovered_by",
+      "strength": 8,
+      "description": "Margaret Mead was a prominent anthropologist who contributed to the field."
+    },
+    {
+      "source": "N9",
+      "target": "N5",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Human evolution is a key area of study in biological anthropology."
+    },
+    {
+      "source": "N10",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Cultural relativism is a key concept in cultural anthropology."
+    },
+    {
+      "source": "N11",
+      "target": "N6",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Ethnography is a research methodology used in applied anthropology."
+    },
+    {
+      "source": "N12",
+      "target": "N6",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Forensic anthropology is an application of anthropological knowledge."
+    },
+    {
+      "source": "N13",
+      "target": "N6",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Medical anthropology is an application of anthropological knowledge."
+    },
+    {
+      "source": "N14",
+      "target": "N1",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Anthropological theory is a key area of study in anthropology."
+    },
+    {
+      "source": "N15",
+      "target": "N6",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Anthropology and policy is an application of anthropological knowledge."
+    },
+    {
+      "source": "N1",
+      "target": "N14",
+      "relation": "depends_on",
+      "strength": 8,
+      "description": "Anthropology depends on anthropological theory to explain human culture and behavior."
+    },
+    {
+      "source": "N5",
+      "target": "N9",
+      "relation": "evolved_from",
+      "strength": 9,
+      "description": "Biological anthropology has evolved from the study of human evolution."
+    },
+    {
+      "source": "N2",
+      "target": "N10",
+      "relation": "contrasts_with",
+      "strength": 8,
+      "description": "Cultural anthropology contrasts with cultural relativism in its approach to understanding cultural practices."
+    },
+    {
+      "source": "N6",
+      "target": "N11",
+      "relation": "enables",
+      "strength": 8,
+      "description": "Applied anthropology enables the use of ethnography in research."
+    }
+  ],
+  "key_takeaways": [
+    "Anthropology is a multidisciplinary field that encompasses biology, sociology, and culture.",
+    "The subfields of anthropology include cultural, linguistic, archaeological, biological, and applied anthropology.",
+    "Anthropology has many practical applications, including forensic anthropology, medical anthropology, and anthropology and policy."
+  ],
+  "real_world_impact": "Anthropology has had a significant impact on our understanding of human culture and behavior, and has many practical applications in fields such as healthcare, education, and environmental conservation. By studying the diversity of human cultures and experiences, anthropologists can inform policy decisions and improve the lives of individuals and communities around the world. For example, anthropological research on cultural differences in healthcare has led to the development of more effective and culturally sensitive healthcare programs. Similarly, anthropological studies of environmental conservation have informed policies and practices that promote sustainable development and protect the environment.",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Exhibits_at_the_National_Anthropology_Museum%2C_Mexico_City_IMG_7425.JPG",
+      "title": "Exhibits at the National Anthropology Museum, Mexico City IMG 7425.JPG",
+      "license": "CC BY-SA 3.0",
+      "artist": "Deror_avi",
+      "description": "Exhibits at the National Anthropology Museum, Mexico City.",
+      "width": 3456,
+      "height": 2304,
+      "source_query": "Anthropology"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/History_of_Anthropology_Review_Logo.png",
+      "title": "History of Anthropology Review Logo.png",
+      "license": "CC BY 4.0",
+      "artist": "History of Anthropology Review",
+      "description": "Since 1973, the History of Anthropology Review (formerly the History of Anthropology Newsletter) has been a venue for publication and conversation on the many histories of the discipline of anthropology. We became an open access web publication in 2016.",
+      "width": 458,
+      "height": 218,
+      "source_query": "Anthropology"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Homo_sapiens_sapiens_dispersal.png",
+      "title": "Homo sapiens sapiens dispersal.png",
+      "license": "CC BY 4.0",
+      "artist": "\u00dalfur \u00c1rnason & Bj\u00f6rn Hallstr\u00f6m",
+      "description": "A simplified view of Homo sapiens sapiens (Hss) dispersal. The shaded area signifies a geographically undefined Asian (Eurasian) area from which Hss dispersed. Mbuti/San mark the earliest Hss exodus into Africa followed by later Yoruba exoduses. The green tracks represent routes that signify potenti",
+      "width": 1374,
+      "height": 906,
+      "source_query": "Anthropology"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Human_constructor._Anthropology.jpg",
+      "title": "Human constructor. Anthropology.jpg",
+      "license": "CC BY 4.0",
+      "artist": "Anna Skurat",
+      "description": "The photo was taken as part of the \" Nubian Archaeological and Anthropological expedition of the Research Institute and Museum of Anthropology of Moscow State University\". In the photo , the skeleton of an adult individual .",
+      "width": 3936,
+      "height": 2624,
+      "source_query": "Anthropology"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Jutish_type.jpg",
+      "title": "Jutish type.jpg",
+      "license": "Public domain",
+      "artist": "British Association Racial Committee",
+      "description": "Jutish type.",
+      "width": 937,
+      "height": 1300,
+      "source_query": "Anthropology"
+    }
+  ],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Anthropology",
+    "papers": [],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 19"
+      ],
+      "node_count": 15,
+      "edge_count": 19
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Sociolinguistics",
+        "Ethnology"
+      ],
+      "strengths": [
+        "Clear subfield categorization",
+        "Relevant applications of anthropology"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

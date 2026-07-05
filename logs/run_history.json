@@ -466,5 +466,18 @@
     "master_total_topics": 36,
     "ended_at": "2026-07-04T20:15:03.924392",
     "duration_seconds": 38.5
+  },
+  {
+    "started_at": "2026-07-05T08:32:07.944787",
+    "status": "success",
+    "topic": "Anthropology",
+    "sources_found": 1,
+    "images_found": 5,
+    "quality_score": 87.5,
+    "quality_passed": true,
+    "exam_questions": 10,
+    "master_total_topics": 37,
+    "ended_at": "2026-07-05T08:32:43.512870",
+    "duration_seconds": 35.6
   }
 ]

@@ -1,0 +1,161 @@
+{
+  "topic": "Anthropology",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary focus of anthropology as a field of study?",
+      "options": {
+        "A": "The scientific study of humanity, encompassing biology, sociology, and culture",
+        "B": "The study of animal behavior and evolution",
+        "C": "The examination of plant species and their ecosystems",
+        "D": "The analysis of geological formations and land structures"
+      },
+      "correct": "A",
+      "explanation": "Anthropology is a multidisciplinary field that encompasses biology, sociology, and culture, making it the scientific study of humanity.",
+      "node_id": "Anthropology",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which subfield of anthropology focuses on the study of language and its influence on social life?",
+      "options": {
+        "A": "Cultural Anthropology",
+        "B": "Linguistic Anthropology",
+        "C": "Archaeological Anthropology",
+        "D": "Biological Anthropology"
+      },
+      "correct": "B",
+      "explanation": "Linguistic anthropology is the study of language and its influence on social life, making it the correct answer.",
+      "node_id": "Linguistic Anthropology",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the idea that cultural practices and values should be understood within their own context?",
+      "options": {
+        "A": "Cultural Relativism",
+        "B": "Ethnocentrism",
+        "C": "Multiculturalism",
+        "D": "Cosmopolitanism"
+      },
+      "correct": "A",
+      "explanation": "Cultural relativism is the idea that cultural practices and values should be understood within their own context, avoiding ethnocentric biases.",
+      "node_id": "Cultural Relativism",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "Who is considered one of the founders of modern anthropology?",
+      "options": {
+        "A": "Franz Boas",
+        "B": "Margaret Mead",
+        "C": "Charles Darwin",
+        "D": "Sigmund Freud"
+      },
+      "correct": "A",
+      "explanation": "Franz Boas is considered one of the founders of modern anthropology, having founded the American Anthropological Association.",
+      "node_id": "Franz Boas",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the application of anthropological knowledge to aid in the identification of human remains?",
+      "options": {
+        "A": "Forensic Anthropology",
+        "B": "Medical Anthropology",
+        "C": "Archaeological Anthropology",
+        "D": "Cultural Anthropology"
+      },
+      "correct": "A",
+      "explanation": "Forensic anthropology is the application of anthropological knowledge to aid in the identification of human remains.",
+      "node_id": "Forensic Anthropology",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the development of theoretical frameworks to explain human culture and behavior?",
+      "options": {
+        "A": "Anthropological Theory",
+        "B": "Sociological Theory",
+        "C": "Psychological Theory",
+        "D": "Philosophical Theory"
+      },
+      "correct": "A",
+      "explanation": "Anthropological theory is the development of theoretical frameworks to explain human culture and behavior.",
+      "node_id": "Anthropological Theory",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the study of the cultural and social factors that influence health and healthcare?",
+      "options": {
+        "A": "Medical Anthropology",
+        "B": "Cultural Anthropology",
+        "C": "Linguistic Anthropology",
+        "D": "Biological Anthropology"
+      },
+      "correct": "A",
+      "explanation": "Medical anthropology is the study of the cultural and social factors that influence health and healthcare.",
+      "node_id": "Medical Anthropology",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What is the significance of cultural relativism in anthropology, and how does it impact our understanding of human cultures?",
+      "sample_answer": "Cultural relativism is significant in anthropology because it allows us to understand and appreciate cultural differences without judgment. By recognizing that cultural practices and values are relative to their own context, we can avoid ethnocentric biases and gain a more nuanced understanding of human cultures.",
+      "keywords": [
+        "cultural relativism",
+        "ethnocentrism",
+        "cultural differences"
+      ],
+      "node_id": "Cultural Relativism",
+      "points": 20
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "How does the concept of human evolution inform our understanding of human biology and behavior, and what are the implications for anthropological theory?",
+      "sample_answer": "The concept of human evolution informs our understanding of human biology and behavior by highlighting the complex and dynamic process of human development. This understanding has implications for anthropological theory, as it emphasizes the importance of considering the biological and cultural aspects of human evolution in explaining human behavior and cultural diversity.",
+      "keywords": [
+        "human evolution",
+        "anthropological theory",
+        "biological and cultural aspects"
+      ],
+      "node_id": "Human Evolution",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What is the role of anthropology in informing policy decisions, and how can anthropological knowledge be applied to address real-world problems?",
+      "sample_answer": "Anthropology plays a significant role in informing policy decisions by providing insights into the cultural and social factors that shape human behavior and decision-making. Anthropological knowledge can be applied to address real-world problems, such as healthcare disparities, environmental conservation, and economic development, by considering the cultural and social contexts of these issues.",
+      "keywords": [
+        "anthropology and policy",
+        "cultural and social factors",
+        "real-world problems"
+      ],
+      "node_id": "Anthropology and Policy",
+      "points": 20
+    }
+  ]
+}
