@@ -479,5 +479,18 @@
     "master_total_topics": 37,
     "ended_at": "2026-07-05T08:32:43.512870",
     "duration_seconds": 35.6
+  },
+  {
+    "started_at": "2026-07-05T15:01:14.618748",
+    "status": "success",
+    "topic": "Biodiversity",
+    "sources_found": 7,
+    "images_found": 5,
+    "quality_score": 87.5,
+    "quality_passed": true,
+    "exam_questions": 10,
+    "master_total_topics": 38,
+    "ended_at": "2026-07-05T15:01:52.734609",
+    "duration_seconds": 38.1
   }
 ]

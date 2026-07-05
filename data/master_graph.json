@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 37,
-  "total_nodes": 554,
-  "total_edges": 681,
+  "total_topics": 38,
+  "total_nodes": 569,
+  "total_edges": 699,
   "topics": [
     {
       "topic": "Climate Change",
@@ -336,6 +336,15 @@
       "edge_count": 19,
       "description": "Anthropology is the scientific study of humanity, crossing biology and sociology to understand human behavior, biology, cultures, societies, and linguistics. It encompasses various subfields, including cultural, linguistic, archaeological, biological, and applied anthropology. By exploring these areas, anthropologists gain insights into human evolution, cultural diversity, and the complexities of human societies.",
       "added_at": "2026-07-05T08:32:43.504558"
+    },
+    {
+      "topic": "Biodiversity",
+      "slug": "biodiversity",
+      "category": "biology",
+      "node_count": 15,
+      "edge_count": 18,
+      "description": "Biodiversity refers to the variability of life on Earth, encompassing genetic, species, ecosystem, and phylogenetic diversity. The distribution of biodiversity is not uniform, with the tropics hosting a significantly higher number of species due to their warm climate and high primary productivity. Understanding and preserving biodiversity is crucial for maintaining ecosystem services and ensuring the long-term health of our planet.",
+      "added_at": "2026-07-05T15:01:52.726245"
     }
   ],
   "global_nodes": [
@@ -6432,6 +6441,171 @@
       "fun_fact": "Anthropology has been used to inform policy on issues such as immigration, education, and environmental conservation.",
       "topic_slug": "anthropology",
       "topic": "Anthropology"
+    },
+    {
+      "id": "biodiversity__N1",
+      "label": "Biodiversity",
+      "type": "core",
+      "depth": 0,
+      "description": "The variability of life on Earth, including genetic, species, ecosystem, and phylogenetic diversity.",
+      "importance": 10,
+      "fun_fact": "The term 'biodiversity' was coined in 1985 by biologist Walter G. Rosen.",
+      "topic_slug": "biodiversity",
+      "topic": "Biodiversity"
+    },
+    {
+      "id": "biodiversity__N2",
+      "label": "Species Extinction",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process by which a species becomes extinct, often due to human activities such as habitat destruction and climate change.",
+      "importance": 9,
+      "fun_fact": "The current rate of species extinction is estimated to be 100-1,000 times higher than the natural rate.",
+      "topic_slug": "biodiversity",
+      "topic": "Biodiversity"
+    },
+    {
+      "id": "biodiversity__N3",
+      "label": "Ecosystem Services",
+      "type": "concept",
+      "depth": 1,
+      "description": "The benefits that humans derive from functioning ecosystems, including clean air and water, soil formation, and climate regulation.",
+      "importance": 9,
+      "fun_fact": "Ecosystem services are estimated to be worth over $33 trillion annually, which is more than the global GDP.",
+      "topic_slug": "biodiversity",
+      "topic": "Biodiversity"
+    },
+    {
+      "id": "biodiversity__N4",
+      "label": "Conservation Biology",
+      "type": "application",
+      "depth": 2,
+      "description": "The scientific study of the conservation of species and ecosystems, with the goal of preserving biodiversity and maintaining ecosystem services.",
+      "importance": 8,
+      "fun_fact": "Conservation biology is an interdisciplinary field that combines biology, ecology, economics, and social sciences.",
+      "topic_slug": "biodiversity",
+      "topic": "Biodiversity"
+    },
+    {
+      "id": "biodiversity__N5",
+      "label": "Taxonomy",
+      "type": "concept",
+      "depth": 1,
+      "description": "The science of classifying and naming living organisms, which is essential for understanding biodiversity and conservation.",
+      "importance": 8,
+      "fun_fact": "The most widely used taxonomic system is the Linnaean system, developed by Carl Linnaeus in the 18th century.",
+      "topic_slug": "biodiversity",
+      "topic": "Biodiversity"
+    },
+    {
+      "id": "biodiversity__N6",
+      "label": "Ecological Restoration",
+      "type": "application",
+      "depth": 2,
+      "description": "The process of restoring degraded or damaged ecosystems to a healthy and functional state, which can help to preserve biodiversity and ecosystem services.",
+      "importance": 8,
+      "fun_fact": "Ecological restoration can be used to restore a variety of ecosystems, including wetlands, forests, and grasslands.",
+      "topic_slug": "biodiversity",
+      "topic": "Biodiversity"
+    },
+    {
+      "id": "biodiversity__N7",
+      "label": "Tropical Forests",
+      "type": "example",
+      "depth": 2,
+      "description": "Ecosystems found near the equator, which are home to a vast array of plant and animal species and provide important ecosystem services.",
+      "importance": 7,
+      "fun_fact": "Tropical forests cover less than 10% of the Earth's surface but are home to over 50% of all species.",
+      "topic_slug": "biodiversity",
+      "topic": "Biodiversity"
+    },
+    {
+      "id": "biodiversity__N8",
+      "label": "Latitudinal Gradients",
+      "type": "concept",
+      "depth": 1,
+      "description": "The patterns of species diversity and distribution that vary with latitude, with the tropics generally having higher species diversity than temperate regions.",
+      "importance": 7,
+      "fun_fact": "Latitudinal gradients are influenced by a variety of factors, including climate, geography, and evolutionary history.",
+      "topic_slug": "biodiversity",
+      "topic": "Biodiversity"
+    },
+    {
+      "id": "biodiversity__N9",
+      "label": "Biodiversity Hotspots",
+      "type": "example",
+      "depth": 2,
+      "description": "Regions with exceptionally high levels of endemism and species diversity, which are often prioritized for conservation efforts.",
+      "importance": 7,
+      "fun_fact": "There are currently 36 recognized biodiversity hotspots around the world, which cover only 2.3% of the Earth's surface but are home to over 50% of all plant species and 42% of all terrestrial vertebrate species.",
+      "topic_slug": "biodiversity",
+      "topic": "Biodiversity"
+    },
+    {
+      "id": "biodiversity__N10",
+      "label": "Walter G. Rosen",
+      "type": "person",
+      "depth": 2,
+      "description": "An American biologist who coined the term 'biodiversity' in 1985 and played a key role in promoting the conservation of biodiversity.",
+      "importance": 6,
+      "fun_fact": "Walter G. Rosen was a prominent figure in the development of the field of conservation biology.",
+      "topic_slug": "biodiversity",
+      "topic": "Biodiversity"
+    },
+    {
+      "id": "biodiversity__N11",
+      "label": "Food Webs",
+      "type": "concept",
+      "depth": 1,
+      "description": "The networks of relationships between species that feed on each other, which are essential for understanding ecosystem functioning and biodiversity.",
+      "importance": 6,
+      "fun_fact": "Food webs can be complex and involve many different species, making them challenging to study and model.",
+      "topic_slug": "biodiversity",
+      "topic": "Biodiversity"
+    },
+    {
+      "id": "biodiversity__N12",
+      "label": "Ecosystem Functioning",
+      "type": "concept",
+      "depth": 1,
+      "description": "The processes that occur within ecosystems, including primary production, decomposition, and nutrient cycling, which are essential for maintaining ecosystem services.",
+      "importance": 6,
+      "fun_fact": "Ecosystem functioning is influenced by a variety of factors, including climate, geography, and species composition.",
+      "topic_slug": "biodiversity",
+      "topic": "Biodiversity"
+    },
+    {
+      "id": "biodiversity__N13",
+      "label": "Human Water Security",
+      "type": "concept",
+      "depth": 1,
+      "description": "The availability of sufficient and safe water for human consumption, which is often threatened by human activities such as pollution and over-extraction.",
+      "importance": 5,
+      "fun_fact": "Human water security is closely linked to biodiversity and ecosystem services, as healthy ecosystems are essential for maintaining water quality and quantity.",
+      "topic_slug": "biodiversity",
+      "topic": "Biodiversity"
+    },
+    {
+      "id": "biodiversity__N14",
+      "label": "River Biodiversity",
+      "type": "example",
+      "depth": 2,
+      "description": "The variety of plant and animal species found in rivers, which are often threatened by human activities such as damming and pollution.",
+      "importance": 5,
+      "fun_fact": "Rivers are home to a wide variety of species, including fish, amphibians, and birds, and play a critical role in maintaining ecosystem services.",
+      "topic_slug": "biodiversity",
+      "topic": "Biodiversity"
+    },
+    {
+      "id": "biodiversity__N15",
+      "label": "Climate Change",
+      "type": "concept",
+      "depth": 1,
+      "description": "The long-term warming of the planet due to human activities such as burning fossil fuels and deforestation, which is a major threat to biodiversity and ecosystem services.",
+      "importance": 5,
+      "fun_fact": "Climate change is projected to have significant impacts on biodiversity and ecosystem services, including changes in species distribution and extinction risk.",
+      "topic_slug": "biodiversity",
+      "topic": "Biodiversity"
     }
   ],
   "global_edges": [
@@ -11201,6 +11375,132 @@
       "relation": "enables",
       "strength": 8,
       "topic": "Anthropology"
+    },
+    {
+      "source": "biodiversity__N1",
+      "target": "biodiversity__N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Biodiversity"
+    },
+    {
+      "source": "biodiversity__N1",
+      "target": "biodiversity__N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Biodiversity"
+    },
+    {
+      "source": "biodiversity__N1",
+      "target": "biodiversity__N5",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Biodiversity"
+    },
+    {
+      "source": "biodiversity__N2",
+      "target": "biodiversity__N4",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Biodiversity"
+    },
+    {
+      "source": "biodiversity__N3",
+      "target": "biodiversity__N6",
+      "relation": "enables",
+      "strength": 8,
+      "topic": "Biodiversity"
+    },
+    {
+      "source": "biodiversity__N5",
+      "target": "biodiversity__N7",
+      "relation": "is_type_of",
+      "strength": 7,
+      "topic": "Biodiversity"
+    },
+    {
+      "source": "biodiversity__N7",
+      "target": "biodiversity__N9",
+      "relation": "is_part_of",
+      "strength": 7,
+      "topic": "Biodiversity"
+    },
+    {
+      "source": "biodiversity__N8",
+      "target": "biodiversity__N10",
+      "relation": "related_to",
+      "strength": 6,
+      "topic": "Biodiversity"
+    },
+    {
+      "source": "biodiversity__N11",
+      "target": "biodiversity__N12",
+      "relation": "is_part_of",
+      "strength": 6,
+      "topic": "Biodiversity"
+    },
+    {
+      "source": "biodiversity__N12",
+      "target": "biodiversity__N13",
+      "relation": "depends_on",
+      "strength": 5,
+      "topic": "Biodiversity"
+    },
+    {
+      "source": "biodiversity__N13",
+      "target": "biodiversity__N14",
+      "relation": "is_type_of",
+      "strength": 5,
+      "topic": "Biodiversity"
+    },
+    {
+      "source": "biodiversity__N14",
+      "target": "biodiversity__N15",
+      "relation": "contrasts_with",
+      "strength": 5,
+      "topic": "Biodiversity"
+    },
+    {
+      "source": "biodiversity__N1",
+      "target": "biodiversity__N10",
+      "relation": "related_to",
+      "strength": 6,
+      "topic": "Biodiversity"
+    },
+    {
+      "source": "biodiversity__N4",
+      "target": "biodiversity__N6",
+      "relation": "enables",
+      "strength": 8,
+      "topic": "Biodiversity"
+    },
+    {
+      "source": "biodiversity__N5",
+      "target": "biodiversity__N11",
+      "relation": "is_part_of",
+      "strength": 6,
+      "topic": "Biodiversity"
+    },
+    {
+      "source": "biodiversity__N7",
+      "target": "biodiversity__N12",
+      "relation": "is_part_of",
+      "strength": 7,
+      "topic": "Biodiversity"
+    },
+    {
+      "source": "biodiversity__N9",
+      "target": "biodiversity__N13",
+      "relation": "depends_on",
+      "strength": 5,
+      "topic": "Biodiversity"
+    },
+    {
+      "source": "biodiversity__N10",
+      "target": "biodiversity__N14",
+      "relation": "related_to",
+      "strength": 5,
+      "topic": "Biodiversity"
     }
   ],
   "cross_topic_edges": [
@@ -11247,8 +11547,29 @@
       "label": "charles darwin"
     },
     {
+      "source": "ecological_conservation__N2",
+      "target": "biodiversity__N1",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "biodiversity"
+    },
+    {
+      "source": "ecological_conservation__N3",
+      "target": "biodiversity__N3",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "ecosystem services"
+    },
+    {
       "source": "ecological_conservation__N10",
       "target": "ethnobotany__N6",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "conservation biology"
+    },
+    {
+      "source": "ethnobotany__N6",
+      "target": "biodiversity__N4",
       "relation": "cross_topic_connection",
       "strength": 6,
       "label": "conservation biology"
@@ -11418,7 +11739,8 @@
       "ethnobotany",
       "biophysics",
       "toxicology",
-      "ethology"
+      "ethology",
+      "biodiversity"
     ],
     "psychology": [
       "neuroplasticity"
@@ -11459,5 +11781,5 @@
       "anthropology"
     ]
   },
-  "last_updated": "2026-07-05T08:32:43.504596"
+  "last_updated": "2026-07-05T15:01:52.726282"
 }

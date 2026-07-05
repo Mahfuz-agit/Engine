@@ -1,0 +1,164 @@
+{
+  "topic": "Biodiversity",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary factor contributing to the higher number of species in the tropics?",
+      "options": {
+        "A": "Warm climate and high primary productivity",
+        "B": "Abundance of freshwater resources",
+        "C": "Presence of mountain ranges",
+        "D": "Proximity to the ocean"
+      },
+      "correct": "A",
+      "explanation": "The tropics have a warm climate and high primary productivity, which supports a wide range of plant and animal species.",
+      "node_id": "Latitudinal Gradients",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which of the following is an example of an ecosystem service?",
+      "options": {
+        "A": "The production of fossil fuels",
+        "B": "The purification of water by wetlands",
+        "C": "The manufacture of pesticides",
+        "D": "The construction of roads"
+      },
+      "correct": "B",
+      "explanation": "Ecosystem services include the benefits that humans derive from functioning ecosystems, such as the purification of water by wetlands.",
+      "node_id": "Ecosystem Services",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the process of restoring degraded or damaged ecosystems to a healthy and functional state?",
+      "options": {
+        "A": "Conservation biology",
+        "B": "Ecological restoration",
+        "C": "Sustainable development",
+        "D": "Environmental management"
+      },
+      "correct": "B",
+      "explanation": "Ecological restoration is the process of restoring degraded or damaged ecosystems to a healthy and functional state, which can help to preserve biodiversity and ecosystem services.",
+      "node_id": "Ecological Restoration",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the term for the variability of life on Earth, including genetic, species, ecosystem, and phylogenetic diversity?",
+      "options": {
+        "A": "Ecosystem services",
+        "B": "Biodiversity",
+        "C": "Conservation biology",
+        "D": "Taxonomy"
+      },
+      "correct": "B",
+      "explanation": "Biodiversity refers to the variability of life on Earth, encompassing genetic, species, ecosystem, and phylogenetic diversity.",
+      "node_id": "Biodiversity",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which of the following is a characteristic of biodiversity hotspots?",
+      "options": {
+        "A": "Low levels of endemism and species diversity",
+        "B": "High levels of endemism and species diversity",
+        "C": "Presence of only a few species",
+        "D": "Absence of human impact"
+      },
+      "correct": "B",
+      "explanation": "Biodiversity hotspots are regions with exceptionally high levels of endemism and species diversity, which are often prioritized for conservation efforts.",
+      "node_id": "Biodiversity Hotspots",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the estimated value of ecosystem services annually?",
+      "options": {
+        "A": "$10 trillion",
+        "B": "$33 trillion",
+        "C": "$50 trillion",
+        "D": "$100 trillion"
+      },
+      "correct": "B",
+      "explanation": "Ecosystem services are estimated to be worth over $33 trillion annually, which is more than the global GDP.",
+      "node_id": "Ecosystem Services",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which of the following is a fun fact about the term 'biodiversity'?",
+      "options": {
+        "A": "It was coined in 1980 by a team of scientists",
+        "B": "It was coined in 1985 by biologist Walter G. Rosen",
+        "C": "It was coined in 1990 by a conservation organization",
+        "D": "It was coined in 2000 by a group of policymakers"
+      },
+      "correct": "B",
+      "explanation": "The term 'biodiversity' was coined in 1985 by biologist Walter G. Rosen.",
+      "node_id": "Biodiversity",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What are the benefits of preserving tropical forests, and how can they be protected?",
+      "sample_answer": "Tropical forests provide important ecosystem services, including climate regulation, water purification, and soil formation. They can be protected through sustainable forest management, conservation efforts, and reducing deforestation.",
+      "keywords": [
+        "tropical forests",
+        "ecosystem services",
+        "conservation",
+        "sustainable forest management"
+      ],
+      "node_id": "Tropical Forests",
+      "points": 15
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "What is the current rate of species extinction, and what are the main drivers of this process?",
+      "sample_answer": "The current rate of species extinction is estimated to be 100-1,000 times higher than the natural rate. The main drivers of this process include habitat destruction, climate change, pollution, and overexploitation of resources.",
+      "keywords": [
+        "species extinction",
+        "habitat destruction",
+        "climate change",
+        "pollution"
+      ],
+      "node_id": "Species Extinction",
+      "points": 15
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What is the importance of taxonomy in understanding biodiversity, and how is it used in conservation efforts?",
+      "sample_answer": "Taxonomy is the science of classifying and naming living organisms, which is essential for understanding biodiversity and conservation. It is used to identify and classify species, and to develop effective conservation strategies.",
+      "keywords": [
+        "taxonomy",
+        "biodiversity",
+        "conservation",
+        "species classification"
+      ],
+      "node_id": "Taxonomy",
+      "points": 15
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "topic": "Biodiversity",
+  "category": "biology",
+  "description": "Biodiversity refers to the variability of life on Earth, encompassing genetic, species, ecosystem, and phylogenetic diversity. The distribution of biodiversity is not uniform, with the tropics hosting a significantly higher number of species due to their warm climate and high primary productivity. Understanding and preserving biodiversity is crucial for maintaining ecosystem services and ensuring the long-term health of our planet.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Biodiversity",
+      "type": "core",
+      "depth": 0,
+      "description": "The variability of life on Earth, including genetic, species, ecosystem, and phylogenetic diversity.",
+      "importance": 10,
+      "fun_fact": "The term 'biodiversity' was coined in 1985 by biologist Walter G. Rosen."
+    },
+    {
+      "id": "N2",
+      "label": "Species Extinction",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process by which a species becomes extinct, often due to human activities such as habitat destruction and climate change.",
+      "importance": 9,
+      "fun_fact": "The current rate of species extinction is estimated to be 100-1,000 times higher than the natural rate."
+    },
+    {
+      "id": "N3",
+      "label": "Ecosystem Services",
+      "type": "concept",
+      "depth": 1,
+      "description": "The benefits that humans derive from functioning ecosystems, including clean air and water, soil formation, and climate regulation.",
+      "importance": 9,
+      "fun_fact": "Ecosystem services are estimated to be worth over $33 trillion annually, which is more than the global GDP."
+    },
+    {
+      "id": "N4",
+      "label": "Conservation Biology",
+      "type": "application",
+      "depth": 2,
+      "description": "The scientific study of the conservation of species and ecosystems, with the goal of preserving biodiversity and maintaining ecosystem services.",
+      "importance": 8,
+      "fun_fact": "Conservation biology is an interdisciplinary field that combines biology, ecology, economics, and social sciences."
+    },
+    {
+      "id": "N5",
+      "label": "Taxonomy",
+      "type": "concept",
+      "depth": 1,
+      "description": "The science of classifying and naming living organisms, which is essential for understanding biodiversity and conservation.",
+      "importance": 8,
+      "fun_fact": "The most widely used taxonomic system is the Linnaean system, developed by Carl Linnaeus in the 18th century."
+    },
+    {
+      "id": "N6",
+      "label": "Ecological Restoration",
+      "type": "application",
+      "depth": 2,
+      "description": "The process of restoring degraded or damaged ecosystems to a healthy and functional state, which can help to preserve biodiversity and ecosystem services.",
+      "importance": 8,
+      "fun_fact": "Ecological restoration can be used to restore a variety of ecosystems, including wetlands, forests, and grasslands."
+    },
+    {
+      "id": "N7",
+      "label": "Tropical Forests",
+      "type": "example",
+      "depth": 2,
+      "description": "Ecosystems found near the equator, which are home to a vast array of plant and animal species and provide important ecosystem services.",
+      "importance": 7,
+      "fun_fact": "Tropical forests cover less than 10% of the Earth's surface but are home to over 50% of all species."
+    },
+    {
+      "id": "N8",
+      "label": "Latitudinal Gradients",
+      "type": "concept",
+      "depth": 1,
+      "description": "The patterns of species diversity and distribution that vary with latitude, with the tropics generally having higher species diversity than temperate regions.",
+      "importance": 7,
+      "fun_fact": "Latitudinal gradients are influenced by a variety of factors, including climate, geography, and evolutionary history."
+    },
+    {
+      "id": "N9",
+      "label": "Biodiversity Hotspots",
+      "type": "example",
+      "depth": 2,
+      "description": "Regions with exceptionally high levels of endemism and species diversity, which are often prioritized for conservation efforts.",
+      "importance": 7,
+      "fun_fact": "There are currently 36 recognized biodiversity hotspots around the world, which cover only 2.3% of the Earth's surface but are home to over 50% of all plant species and 42% of all terrestrial vertebrate species."
+    },
+    {
+      "id": "N10",
+      "label": "Walter G. Rosen",
+      "type": "person",
+      "depth": 2,
+      "description": "An American biologist who coined the term 'biodiversity' in 1985 and played a key role in promoting the conservation of biodiversity.",
+      "importance": 6,
+      "fun_fact": "Walter G. Rosen was a prominent figure in the development of the field of conservation biology."
+    },
+    {
+      "id": "N11",
+      "label": "Food Webs",
+      "type": "concept",
+      "depth": 1,
+      "description": "The networks of relationships between species that feed on each other, which are essential for understanding ecosystem functioning and biodiversity.",
+      "importance": 6,
+      "fun_fact": "Food webs can be complex and involve many different species, making them challenging to study and model."
+    },
+    {
+      "id": "N12",
+      "label": "Ecosystem Functioning",
+      "type": "concept",
+      "depth": 1,
+      "description": "The processes that occur within ecosystems, including primary production, decomposition, and nutrient cycling, which are essential for maintaining ecosystem services.",
+      "importance": 6,
+      "fun_fact": "Ecosystem functioning is influenced by a variety of factors, including climate, geography, and species composition."
+    },
+    {
+      "id": "N13",
+      "label": "Human Water Security",
+      "type": "concept",
+      "depth": 1,
+      "description": "The availability of sufficient and safe water for human consumption, which is often threatened by human activities such as pollution and over-extraction.",
+      "importance": 5,
+      "fun_fact": "Human water security is closely linked to biodiversity and ecosystem services, as healthy ecosystems are essential for maintaining water quality and quantity."
+    },
+    {
+      "id": "N14",
+      "label": "River Biodiversity",
+      "type": "example",
+      "depth": 2,
+      "description": "The variety of plant and animal species found in rivers, which are often threatened by human activities such as damming and pollution.",
+      "importance": 5,
+      "fun_fact": "Rivers are home to a wide variety of species, including fish, amphibians, and birds, and play a critical role in maintaining ecosystem services."
+    },
+    {
+      "id": "N15",
+      "label": "Climate Change",
+      "type": "concept",
+      "depth": 1,
+      "description": "The long-term warming of the planet due to human activities such as burning fossil fuels and deforestation, which is a major threat to biodiversity and ecosystem services.",
+      "importance": 5,
+      "fun_fact": "Climate change is projected to have significant impacts on biodiversity and ecosystem services, including changes in species distribution and extinction risk."
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Species extinction is a key component of biodiversity, as it reflects the loss of species and the decline of ecosystem services."
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Ecosystem services are a critical component of biodiversity, as they provide essential benefits to humans and support the health of ecosystems."
+    },
+    {
+      "source": "N1",
+      "target": "N5",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Taxonomy is essential for understanding biodiversity, as it provides a framework for classifying and naming species."
+    },
+    {
+      "source": "N2",
+      "target": "N4",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "Species extinction is a major driver of conservation biology, as it highlights the need to protect and preserve species and ecosystems."
+    },
+    {
+      "source": "N3",
+      "target": "N6",
+      "relation": "enables",
+      "strength": 8,
+      "description": "Ecosystem services are essential for maintaining ecosystem functioning, which is critical for preserving biodiversity and supporting human well-being."
+    },
+    {
+      "source": "N5",
+      "target": "N7",
+      "relation": "is_type_of",
+      "strength": 7,
+      "description": "Tropical forests are a type of ecosystem that is characterized by high levels of species diversity and endemism."
+    },
+    {
+      "source": "N7",
+      "target": "N9",
+      "relation": "is_part_of",
+      "strength": 7,
+      "description": "Biodiversity hotspots are often found in tropical forests, which are characterized by high levels of endemism and species diversity."
+    },
+    {
+      "source": "N8",
+      "target": "N10",
+      "relation": "related_to",
+      "strength": 6,
+      "description": "Walter G. Rosen's work on biodiversity hotspots is closely related to the concept of latitudinal gradients, which reflects the patterns of species diversity and distribution that vary with latitude."
+    },
+    {
+      "source": "N11",
+      "target": "N12",
+      "relation": "is_part_of",
+      "strength": 6,
+      "description": "Food webs are a critical component of ecosystem functioning, as they reflect the relationships between species that feed on each other."
+    },
+    {
+      "source": "N12",
+      "target": "N13",
+      "relation": "depends_on",
+      "strength": 5,
+      "description": "Ecosystem functioning is dependent on human water security, as healthy ecosystems are essential for maintaining water quality and quantity."
+    },
+    {
+      "source": "N13",
+      "target": "N14",
+      "relation": "is_type_of",
+      "strength": 5,
+      "description": "River biodiversity is a type of ecosystem that is critical for maintaining ecosystem services, including water quality and quantity."
+    },
+    {
+      "source": "N14",
+      "target": "N15",
+      "relation": "contrasts_with",
+      "strength": 5,
+      "description": "River biodiversity is often threatened by climate change, which can alter the distribution and abundance of species and disrupt ecosystem services."
+    },
+    {
+      "source": "N1",
+      "target": "N10",
+      "relation": "related_to",
+      "strength": 6,
+      "description": "Walter G. Rosen's work on biodiversity is closely related to the concept of biodiversity, which reflects the variability of life on Earth."
+    },
+    {
+      "source": "N4",
+      "target": "N6",
+      "relation": "enables",
+      "strength": 8,
+      "description": "Conservation biology enables ecological restoration, which is critical for preserving biodiversity and supporting human well-being."
+    },
+    {
+      "source": "N5",
+      "target": "N11",
+      "relation": "is_part_of",
+      "strength": 6,
+      "description": "Taxonomy is essential for understanding food webs, as it provides a framework for classifying and naming species."
+    },
+    {
+      "source": "N7",
+      "target": "N12",
+      "relation": "is_part_of",
+      "strength": 7,
+      "description": "Tropical forests are a critical component of ecosystem functioning, as they provide essential ecosystem services and support high levels of biodiversity."
+    },
+    {
+      "source": "N9",
+      "target": "N13",
+      "relation": "depends_on",
+      "strength": 5,
+      "description": "Biodiversity hotspots are dependent on human water security, as healthy ecosystems are essential for maintaining water quality and quantity."
+    },
+    {
+      "source": "N10",
+      "target": "N14",
+      "relation": "related_to",
+      "strength": 5,
+      "description": "Walter G. Rosen's work on biodiversity hotspots is closely related to the concept of river biodiversity, which reflects the variety of plant and animal species found in rivers."
+    }
+  ],
+  "key_takeaways": [
+    "Biodiversity is the variability of life on Earth, encompassing genetic, species, ecosystem, and phylogenetic diversity.",
+    "The distribution of biodiversity is not uniform, with the tropics hosting a significantly higher number of species due to their warm climate and high primary productivity.",
+    "Understanding and preserving biodiversity is crucial for maintaining ecosystem services and ensuring the long-term health of our planet."
+  ],
+  "real_world_impact": "The loss of biodiversity has significant real-world impacts, including the decline of ecosystem services, reduced water quality, and decreased crop yields. For example, the loss of pollinators such as bees and butterflies can have devastating impacts on food production, while the decline of coral reefs can lead to the loss of fisheries and tourism revenue. Additionally, the loss of biodiversity can have significant economic impacts, with estimates suggesting that the loss of ecosystem services could cost the global economy trillions of dollars annually. Therefore, it is essential to take action to preserve biodiversity and maintain ecosystem services, including protecting and restoring natural habitats, promoting sustainable land-use practices, and reducing pollution and climate change.",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Biodiversity_Park_Bir_Dyalpura.jpg",
+      "title": "Biodiversity Park Bir Dyalpura.jpg",
+      "license": "CC0",
+      "artist": "Gillsaab1998",
+      "description": "Biodiversity Park Bir Dyalpura Bhaika",
+      "width": 577,
+      "height": 720,
+      "source_query": "Biodiversity"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Biodiversity_and_related_topics_in_the_MaRDI_Knowledge_Graph_-_2024-04-23.png",
+      "title": "Biodiversity and related topics in the MaRDI Knowledge Graph - 2024-04-23.png",
+      "license": "CC0",
+      "artist": "Daniel Mietchen",
+      "description": "Biodiversity and related topics in the MaRDI Knowledge Graph, as per this query.",
+      "width": 823,
+      "height": 744,
+      "source_query": "Biodiversity"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Conference_of_the_Parties_%28COP-11%29_to_the_Convention_on_Biological_Diversity_Hyderabad_India_DSCF5231.JPG",
+      "title": "Conference of the Parties (COP-11) to the Convention on Biological Diversity Hyderabad India DSCF5231.JPG",
+      "license": "CC BY-SA 3.0",
+      "artist": "Dr. Raju Kasambe",
+      "description": "Conference of the Parties (COP-11) to the Convention on Biological Diversity Hyderabad India",
+      "width": 2042,
+      "height": 2916,
+      "source_query": "Biodiversity"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Conference_of_the_Parties_%28COP-11%29_to_the_Convention_on_Biological_Diversity_Hyderabad_India_DSCF5260.JPG",
+      "title": "Conference of the Parties (COP-11) to the Convention on Biological Diversity Hyderabad India DSCF5260.JPG",
+      "license": "CC BY-SA 3.0",
+      "artist": "Dr. Raju Kasambe",
+      "description": "Conference of the Parties (COP-11) to the Convention on Biological Diversity Hyderabad India",
+      "width": 2448,
+      "height": 3264,
+      "source_query": "Biodiversity"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Conference_of_the_Parties_%28COP-11%29_to_the_Convention_on_Biological_Diversity_Hyderabad_India_DSCF5875.JPG",
+      "title": "Conference of the Parties (COP-11) to the Convention on Biological Diversity Hyderabad India DSCF5875.JPG",
+      "license": "CC BY-SA 3.0",
+      "artist": "Dr. Raju Kasambe",
+      "description": "Conference of the Parties (COP-11) to the Convention on Biological Diversity Hyderabad India",
+      "width": 2448,
+      "height": 3264,
+      "source_query": "Biodiversity"
+    }
+  ],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Biodiversity",
+    "papers": [
+      {
+        "title": "Biodiversity hotspots for conservation priorities",
+        "url": "https://doi.org/10.1038/35002501"
+      },
+      {
+        "title": "Global threats to human water security and river biodiversity",
+        "url": "https://doi.org/10.1038/nature09440"
+      },
+      {
+        "title": "EFFECTS OF BIODIVERSITY ON ECOSYSTEM FUNCTIONING: A CONSENSUS OF CURRENT KNOWLEDGE",
+        "url": "https://doi.org/10.1890/04-0922"
+      }
+    ],
+    "news": [
+      {
+        "title": "Food web complexity underlies biodiversity effects on ecosystem functioning",
+        "url": "https://www.nature.com/articles/s41586-026-10710-5"
+      }
+    ]
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 18"
+      ],
+      "node_count": 15,
+      "edge_count": 18
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Evolutionary Biology",
+        "Sustainability"
+      ],
+      "strengths": [
+        "Clear relationships between biodiversity concepts",
+        "Inclusion of key applications like Conservation Biology and Ecological Restoration"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}
