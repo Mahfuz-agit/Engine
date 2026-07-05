@@ -1,0 +1,164 @@
+{
+  "topic": "Soil Science",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary focus of the field of pedology?",
+      "options": {
+        "A": "The study of the relationship between soils and plants",
+        "B": "The study of the formation, properties, and classification of soils",
+        "C": "The study of soil erosion and degradation",
+        "D": "The study of soil conservation and sustainable land management"
+      },
+      "correct": "B",
+      "explanation": "Pedology is the study of the formation, properties, and classification of soils, which is a fundamental aspect of soil science.",
+      "node_id": "Pedology",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the region of soil surrounding plant roots, where complex interactions between plants, microorganisms, and soil occur?",
+      "options": {
+        "A": "Rhizosphere",
+        "B": "Pedosphere",
+        "C": "Soil profile",
+        "D": "Soil horizon"
+      },
+      "correct": "A",
+      "explanation": "The rhizosphere is a critical zone for nutrient cycling and plant nutrition, and is characterized by complex interactions between plants, microorganisms, and soil.",
+      "node_id": "Rhizosphere",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the primary mechanism by which soil erosion occurs?",
+      "options": {
+        "A": "Water infiltration",
+        "B": "Soil compaction",
+        "C": "Wind and water transport",
+        "D": "Microbial activity"
+      },
+      "correct": "C",
+      "explanation": "Soil erosion occurs primarily through the transport of soil particles by wind and water, which can be exacerbated by human activities such as deforestation and overgrazing.",
+      "node_id": "Soil Erosion",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the term for the study of the relationship between soils and plants, including soil fertility and plant nutrition?",
+      "options": {
+        "A": "Pedology",
+        "B": "Edaphology",
+        "C": "Soil biology",
+        "D": "Soil chemistry"
+      },
+      "correct": "B",
+      "explanation": "Edaphology is the study of the relationship between soils and plants, and is essential for understanding how to optimize crop yields and promote sustainable agriculture.",
+      "node_id": "Edaphology",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the primary goal of soil conservation?",
+      "options": {
+        "A": "To increase crop yields",
+        "B": "To reduce soil erosion",
+        "C": "To improve soil fertility",
+        "D": "To promote sustainable land use"
+      },
+      "correct": "B",
+      "explanation": "Soil conservation aims to protect and preserve soil resources by reducing soil erosion and promoting sustainable land management techniques.",
+      "node_id": "Soil Conservation",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the use of advanced technologies, such as GPS and drones, to optimize crop yields, reduce waste, and promote sustainable agriculture?",
+      "options": {
+        "A": "Precision agriculture",
+        "B": "Sustainable agriculture",
+        "C": "Organic farming",
+        "D": "Conservation agriculture"
+      },
+      "correct": "A",
+      "explanation": "Precision agriculture relies on advanced technologies to optimize crop yields, reduce waste, and promote sustainable agriculture, and is a key application of soil science.",
+      "node_id": "Precision Agriculture",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the primary factor that influences soil fertility?",
+      "options": {
+        "A": "Soil pH",
+        "B": "Nutrient availability",
+        "C": "Microbial activity",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanation": "Soil fertility is influenced by a combination of factors, including soil pH, nutrient availability, and microbial activity, which all interact to affect the overall fertility of the soil.",
+      "node_id": "Soil Fertility",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the importance of the rhizosphere in soil science.",
+      "sample_answer": "The rhizosphere is a critical zone for nutrient cycling and plant nutrition, where complex interactions between plants, microorganisms, and soil occur. It plays a key role in determining soil fertility and plant growth, and is essential for understanding how to optimize crop yields and promote sustainable agriculture.",
+      "keywords": [
+        "rhizosphere",
+        "nutrient cycling",
+        "plant nutrition",
+        "soil fertility"
+      ],
+      "node_id": "Rhizosphere",
+      "points": 20
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Explain the relationship between soil erosion and sustainable development.",
+      "sample_answer": "Soil erosion is a major threat to sustainable development, as it can lead to significant economic and environmental losses, including decreased crop yields, increased sedimentation in waterways, and loss of biodiversity. Sustainable land management practices, such as soil conservation and reforestation, are essential for reducing soil erosion and promoting sustainable development.",
+      "keywords": [
+        "soil erosion",
+        "sustainable development",
+        "land management",
+        "biodiversity"
+      ],
+      "node_id": "Soil Erosion",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the role of soil science in achieving the UN Sustainable Development Goals.",
+      "sample_answer": "Soil science plays a vital role in achieving several of the UN Sustainable Development Goals, including Zero Hunger, Clean Water and Sanitation, and Life on Land. By understanding soil properties and processes, we can develop sustainable land management practices that promote soil health, reduce soil erosion, and support biodiversity, ultimately contributing to a more sustainable and food-secure future.",
+      "keywords": [
+        "soil science",
+        "sustainable development",
+        "UN SDGs",
+        "soil health"
+      ],
+      "node_id": "Sustainable Development",
+      "points": 20
+    }
+  ]
+}

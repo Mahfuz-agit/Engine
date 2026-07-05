@@ -492,5 +492,18 @@
     "master_total_topics": 38,
     "ended_at": "2026-07-05T15:01:52.734609",
     "duration_seconds": 38.1
+  },
+  {
+    "started_at": "2026-07-05T20:20:42.819401",
+    "status": "success",
+    "topic": "Soil Science",
+    "sources_found": 6,
+    "images_found": 0,
+    "quality_score": 87.5,
+    "quality_passed": true,
+    "exam_questions": 10,
+    "master_total_topics": 39,
+    "ended_at": "2026-07-05T20:21:20.379484",
+    "duration_seconds": 37.6
   }
 ]

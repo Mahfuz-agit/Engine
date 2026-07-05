@@ -1,0 +1,306 @@
+{
+  "topic": "Soil Science",
+  "category": "geography",
+  "description": "Soil science is the study of soil as a natural resource, encompassing its formation, classification, and properties. It involves understanding the physical, chemical, biological, and fertility aspects of soils and their management. This field is crucial for sustainable development, environmental conservation, and food security.",
+  "nodes": [
+    {
+      "id": "soil_science",
+      "label": "Soil Science",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of soil as a natural resource, including its formation, classification, and properties.",
+      "importance": 10,
+      "fun_fact": "Soil science is a multidisciplinary field that draws from biology, chemistry, physics, and geology."
+    },
+    {
+      "id": "pedology",
+      "label": "Pedology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the formation, properties, and classification of soils.",
+      "importance": 9,
+      "fun_fact": "The term 'pedology' comes from the Greek word 'pedon,' meaning soil or earth."
+    },
+    {
+      "id": "edaphology",
+      "label": "Edaphology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the relationship between soils and plants, including soil fertility and plant nutrition.",
+      "importance": 9,
+      "fun_fact": "Edaphology is essential for understanding how to optimize crop yields and promote sustainable agriculture."
+    },
+    {
+      "id": "soil_erosion",
+      "label": "Soil Erosion",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process of soil being worn away or removed by natural or human-induced factors, such as wind or water.",
+      "importance": 8,
+      "fun_fact": "Soil erosion can lead to significant economic and environmental losses, including decreased crop yields and increased sedimentation in waterways."
+    },
+    {
+      "id": "soil_conservation",
+      "label": "Soil Conservation",
+      "type": "concept",
+      "depth": 1,
+      "description": "The practice of protecting and preserving soil resources through sustainable land management techniques.",
+      "importance": 9,
+      "fun_fact": "Soil conservation is critical for maintaining soil health, preventing erosion, and supporting biodiversity."
+    },
+    {
+      "id": "soil_fertility",
+      "label": "Soil Fertility",
+      "type": "concept",
+      "depth": 1,
+      "description": "The ability of soil to support plant growth and provide essential nutrients.",
+      "importance": 9,
+      "fun_fact": "Soil fertility is influenced by factors such as soil pH, nutrient availability, and microbial activity."
+    },
+    {
+      "id": "hiltner",
+      "label": "Hiltner",
+      "type": "person",
+      "depth": 2,
+      "description": "A German scientist who recognized the importance of the rhizosphere in soil science.",
+      "importance": 7,
+      "fun_fact": "Hiltner's work laid the foundation for modern understanding of soil-plant interactions."
+    },
+    {
+      "id": "rhizosphere",
+      "label": "Rhizosphere",
+      "type": "concept",
+      "depth": 2,
+      "description": "The region of soil surrounding plant roots, where complex interactions between plants, microorganisms, and soil occur.",
+      "importance": 8,
+      "fun_fact": "The rhizosphere is a critical zone for nutrient cycling and plant nutrition."
+    },
+    {
+      "id": "sustainable_development",
+      "label": "Sustainable Development",
+      "type": "concept",
+      "depth": 2,
+      "description": "The practice of meeting present needs without compromising the ability of future generations to meet their own needs.",
+      "importance": 9,
+      "fun_fact": "Soil science plays a vital role in achieving sustainable development goals, such as food security and environmental conservation."
+    },
+    {
+      "id": "un_sdg",
+      "label": "UN Sustainable Development Goals",
+      "type": "event",
+      "depth": 2,
+      "description": "A set of 17 global goals adopted by the United Nations in 2015, aiming to promote sustainable development and address pressing global challenges.",
+      "importance": 9,
+      "fun_fact": "Soil science contributes to several UN SDGs, including Zero Hunger, Clean Water and Sanitation, and Life on Land."
+    },
+    {
+      "id": "electrical_resistivity",
+      "label": "Electrical Resistivity",
+      "type": "concept",
+      "depth": 2,
+      "description": "A non-invasive technique used to measure the electrical properties of soils and assess their composition and structure.",
+      "importance": 7,
+      "fun_fact": "Electrical resistivity surveys can help identify soil contaminants, map soil layers, and monitor soil moisture."
+    },
+    {
+      "id": "soil_mapping",
+      "label": "Soil Mapping",
+      "type": "application",
+      "depth": 3,
+      "description": "The process of creating detailed maps of soil types, properties, and distributions.",
+      "importance": 8,
+      "fun_fact": "Soil mapping is essential for land use planning, natural resource management, and environmental monitoring."
+    },
+    {
+      "id": "precision_agriculture",
+      "label": "Precision Agriculture",
+      "type": "application",
+      "depth": 3,
+      "description": "The use of advanced technologies, such as GPS and drones, to optimize crop yields, reduce waste, and promote sustainable agriculture.",
+      "importance": 8,
+      "fun_fact": "Precision agriculture relies heavily on soil science and spatial analysis to make data-driven decisions."
+    },
+    {
+      "id": "soil_biology",
+      "label": "Soil Biology",
+      "type": "concept",
+      "depth": 3,
+      "description": "The study of the living organisms in soil, including microorganisms, plants, and animals.",
+      "importance": 8,
+      "fun_fact": "Soil biology plays a critical role in ecosystem functioning, nutrient cycling, and soil health."
+    },
+    {
+      "id": "soil_chemistry",
+      "label": "Soil Chemistry",
+      "type": "concept",
+      "depth": 3,
+      "description": "The study of the chemical properties and processes that occur in soils.",
+      "importance": 8,
+      "fun_fact": "Soil chemistry is essential for understanding soil fertility, nutrient availability, and environmental pollution."
+    }
+  ],
+  "edges": [
+    {
+      "source": "soil_science",
+      "target": "pedology",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Pedology is a fundamental component of soil science, focusing on soil formation, properties, and classification."
+    },
+    {
+      "source": "soil_science",
+      "target": "edaphology",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Edaphology is a key aspect of soil science, examining the relationships between soils, plants, and the environment."
+    },
+    {
+      "source": "soil_science",
+      "target": "soil_erosion",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Soil erosion is a critical concern in soil science, as it can lead to significant environmental and economic losses."
+    },
+    {
+      "source": "soil_science",
+      "target": "soil_conservation",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Soil conservation is a vital component of soil science, aiming to protect and preserve soil resources for future generations."
+    },
+    {
+      "source": "soil_science",
+      "target": "soil_fertility",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Soil fertility is a fundamental aspect of soil science, as it directly impacts plant growth, crop yields, and ecosystem functioning."
+    },
+    {
+      "source": "hiltner",
+      "target": "rhizosphere",
+      "relation": "discovered_by",
+      "strength": 7,
+      "description": "Hiltner recognized the importance of the rhizosphere in soil science, laying the foundation for modern understanding of soil-plant interactions."
+    },
+    {
+      "source": "rhizosphere",
+      "target": "soil_biology",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "The rhizosphere is a critical zone for soil biology, where complex interactions between plants, microorganisms, and soil occur."
+    },
+    {
+      "source": "soil_science",
+      "target": "sustainable_development",
+      "relation": "related_to",
+      "strength": 9,
+      "description": "Soil science plays a vital role in achieving sustainable development goals, such as food security, environmental conservation, and climate change mitigation."
+    },
+    {
+      "source": "un_sdg",
+      "target": "soil_science",
+      "relation": "depends_on",
+      "strength": 9,
+      "description": "The UN Sustainable Development Goals rely on soil science to address pressing global challenges, such as hunger, poverty, and environmental degradation."
+    },
+    {
+      "source": "electrical_resistivity",
+      "target": "soil_mapping",
+      "relation": "used_in",
+      "strength": 7,
+      "description": "Electrical resistivity surveys are used in soil mapping to assess soil properties, identify contaminants, and monitor soil moisture."
+    },
+    {
+      "source": "soil_mapping",
+      "target": "precision_agriculture",
+      "relation": "enables",
+      "strength": 8,
+      "description": "Soil mapping is essential for precision agriculture, providing critical information for optimizing crop yields, reducing waste, and promoting sustainable agriculture."
+    },
+    {
+      "source": "soil_biology",
+      "target": "soil_chemistry",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "Soil biology and soil chemistry are closely linked, as microbial activity and chemical processes interact to influence soil fertility, nutrient cycling, and ecosystem functioning."
+    },
+    {
+      "source": "soil_chemistry",
+      "target": "soil_fertility",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Soil chemistry is essential for understanding soil fertility, as it examines the chemical properties and processes that occur in soils and impact plant growth."
+    },
+    {
+      "source": "soil_science",
+      "target": "soil_biology",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Soil biology is a critical component of soil science, examining the living organisms in soil and their roles in ecosystem functioning."
+    },
+    {
+      "source": "soil_science",
+      "target": "soil_chemistry",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Soil chemistry is a fundamental aspect of soil science, studying the chemical properties and processes that occur in soils."
+    }
+  ],
+  "key_takeaways": [
+    "Soil science is a multidisciplinary field that draws from biology, chemistry, physics, and geology.",
+    "Soil erosion and degradation can have significant environmental and economic impacts.",
+    "Soil conservation and sustainable land management are critical for maintaining soil health and promoting ecosystem services.",
+    "Soil science plays a vital role in achieving sustainable development goals, such as food security and environmental conservation."
+  ],
+  "real_world_impact": "Soil science has a significant impact on our daily lives, from the food we eat to the air we breathe. By understanding soil properties, processes, and management, we can promote sustainable agriculture, reduce environmental pollution, and mitigate climate change. Soil science informs policy decisions, guides land use planning, and supports ecosystem conservation, ultimately contributing to a more sustainable and equitable future for all.",
+  "images": [],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Soil_science",
+    "papers": [
+      {
+        "title": "The significance of soils and soil science towards realization of the United Nations Sustainable Development Goals",
+        "url": "https://doi.org/10.5194/soil-2-111-2016"
+      },
+      {
+        "title": "Electrical resistivity survey in soil science: a review",
+        "url": "https://doi.org/10.1016/j.still.2004.10.004"
+      },
+      {
+        "title": "Roots, rhizosphere and soil: the route to a better understanding of soil science?",
+        "url": "https://doi.org/10.1111/j.1365-2389.2005.00778.x"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 15"
+      ],
+      "node_count": 15,
+      "edge_count": 15
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "soil_physics",
+        "soil_classification"
+      ],
+      "strengths": [
+        "interdisciplinary connections",
+        "clear relationships between concepts"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}
