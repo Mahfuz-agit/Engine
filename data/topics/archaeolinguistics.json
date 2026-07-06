@@ -1,0 +1,377 @@
+{
+  "topic": "Archaeolinguistics",
+  "category": "history",
+  "description": "Archaeolinguistics is the study of the distant human past by linguistic means, exploring the relationship between language and culture. It involves analyzing ancient languages, linguistic paleontology, and etymological analysis to understand the migration and diffusion of languages. By examining language isolates and phylogenetic reconstruction, archaeolinguists can shed light on the history of human populations and their cultural practices.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Archaeolinguistics",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of the distant human past by linguistic means, exploring the relationship between language and culture.",
+      "importance": 10,
+      "fun_fact": "The term 'archaeolinguistics' was first coined in the 1990s."
+    },
+    {
+      "id": "N2",
+      "label": "Language Isolation",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of languages that have no known relatives, providing insights into the history and migration of human populations.",
+      "importance": 9,
+      "fun_fact": "The Basque language is an example of a language isolate."
+    },
+    {
+      "id": "N3",
+      "label": "Linguistic Paleontology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of ancient languages to reconstruct the culture, history, and migration patterns of ancient human populations.",
+      "importance": 9,
+      "fun_fact": "Linguistic paleontology has been used to study the origins of the Indo-European language family."
+    },
+    {
+      "id": "N4",
+      "label": "Etymological Analysis",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the origins and history of words and their meanings, providing insights into cultural and linguistic evolution.",
+      "importance": 8,
+      "fun_fact": "Etymological analysis has been used to study the origins of the English language."
+    },
+    {
+      "id": "N5",
+      "label": "Phylogenetic Reconstruction",
+      "type": "concept",
+      "depth": 1,
+      "description": "The use of linguistic data to reconstruct the evolutionary history of languages and language families.",
+      "importance": 9,
+      "fun_fact": "Phylogenetic reconstruction has been used to study the origins of the Austronesian language family."
+    },
+    {
+      "id": "N6",
+      "label": "Cultural Diffusion",
+      "type": "concept",
+      "depth": 1,
+      "description": "The spread of cultural practices, languages, and ideas from one population to another, often through migration or trade.",
+      "importance": 8,
+      "fun_fact": "Cultural diffusion has been used to explain the spread of agriculture from the Fertile Crescent to Europe."
+    },
+    {
+      "id": "N7",
+      "label": "Koreanic Language Family",
+      "type": "example",
+      "depth": 2,
+      "description": "A language family spoken in Korea and parts of China, with a complex history of migration and cultural exchange.",
+      "importance": 7,
+      "fun_fact": "The Koreanic language family is thought to have originated in the Korean Peninsula around 1000 BCE."
+    },
+    {
+      "id": "N8",
+      "label": "Ancient Genomes",
+      "type": "example",
+      "depth": 2,
+      "description": "The study of ancient DNA to understand human migration patterns, population dynamics, and cultural exchange.",
+      "importance": 8,
+      "fun_fact": "Ancient genomes have been used to study the origins of the Indo-European language family."
+    },
+    {
+      "id": "N9",
+      "label": "Corpus-Based Approach",
+      "type": "application",
+      "depth": 2,
+      "description": "A methodology used in archaeolinguistics to analyze large datasets of texts and languages.",
+      "importance": 8,
+      "fun_fact": "Corpus-based approaches have been used to study the evolution of the English language."
+    },
+    {
+      "id": "N10",
+      "label": "Long-Rangers",
+      "type": "person",
+      "depth": 2,
+      "description": "A group of linguists who advocate for the use of linguistic data to study the distant human past, often using unconventional methods.",
+      "importance": 6,
+      "fun_fact": "The term 'long-rangers' was coined to describe this group of linguists."
+    },
+    {
+      "id": "N11",
+      "label": "Paleolinguistics",
+      "type": "concept",
+      "depth": 1,
+      "description": "A term used by some linguists to describe the study of the distant human past by linguistic means.",
+      "importance": 8,
+      "fun_fact": "The term 'paleolinguistics' is not widely accepted by mainstream historical linguists."
+    },
+    {
+      "id": "N12",
+      "label": "Historical Linguistics",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of language change and language history, often using comparative and philological methods.",
+      "importance": 9,
+      "fun_fact": "Historical linguistics has been used to study the evolution of the Indo-European language family."
+    },
+    {
+      "id": "N13",
+      "label": "Migration Patterns",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of human migration patterns and their impact on language and culture.",
+      "importance": 8,
+      "fun_fact": "Migration patterns have been used to explain the spread of languages and cultural practices."
+    },
+    {
+      "id": "N14",
+      "label": "Linguistic Anthropology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of language and culture, often using ethnographic and anthropological methods.",
+      "importance": 8,
+      "fun_fact": "Linguistic anthropology has been used to study the language and culture of indigenous populations."
+    },
+    {
+      "id": "N15",
+      "label": "Archaeological Record",
+      "type": "example",
+      "depth": 2,
+      "description": "The material remains of past human cultures, often used to study language and cultural evolution.",
+      "importance": 7,
+      "fun_fact": "The archaeological record has been used to study the origins of writing and language."
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Language isolation is a key concept in archaeolinguistics."
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Linguistic paleontology is a key concept in archaeolinguistics."
+    },
+    {
+      "source": "N1",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Etymological analysis is a key concept in archaeolinguistics."
+    },
+    {
+      "source": "N1",
+      "target": "N5",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Phylogenetic reconstruction is a key concept in archaeolinguistics."
+    },
+    {
+      "source": "N1",
+      "target": "N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Cultural diffusion is a key concept in archaeolinguistics."
+    },
+    {
+      "source": "N2",
+      "target": "N7",
+      "relation": "used_in",
+      "strength": 7,
+      "description": "Language isolation has been used to study the Koreanic language family."
+    },
+    {
+      "source": "N3",
+      "target": "N8",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Linguistic paleontology has been used to study ancient genomes."
+    },
+    {
+      "source": "N4",
+      "target": "N9",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Etymological analysis has been used in corpus-based approaches."
+    },
+    {
+      "source": "N5",
+      "target": "N10",
+      "relation": "used_by",
+      "strength": 6,
+      "description": "Phylogenetic reconstruction has been used by long-rangers."
+    },
+    {
+      "source": "N6",
+      "target": "N11",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "Cultural diffusion is related to paleolinguistics."
+    },
+    {
+      "source": "N11",
+      "target": "N12",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Paleolinguistics is a part of historical linguistics."
+    },
+    {
+      "source": "N12",
+      "target": "N13",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Historical linguistics has been used to study migration patterns."
+    },
+    {
+      "source": "N13",
+      "target": "N14",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "Migration patterns are related to linguistic anthropology."
+    },
+    {
+      "source": "N14",
+      "target": "N15",
+      "relation": "used_in",
+      "strength": 7,
+      "description": "Linguistic anthropology has been used to study the archaeological record."
+    },
+    {
+      "source": "N1",
+      "target": "N14",
+      "relation": "depends_on",
+      "strength": 8,
+      "description": "Archaeolinguistics depends on linguistic anthropology."
+    },
+    {
+      "source": "N5",
+      "target": "N8",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Phylogenetic reconstruction has been used to study ancient genomes."
+    },
+    {
+      "source": "N9",
+      "target": "N7",
+      "relation": "used_in",
+      "strength": 7,
+      "description": "Corpus-based approaches have been used to study the Koreanic language family."
+    },
+    {
+      "source": "N10",
+      "target": "N11",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "Long-rangers have used paleolinguistics in their research."
+    }
+  ],
+  "key_takeaways": [
+    "Archaeolinguistics is the study of the distant human past by linguistic means.",
+    "Language isolation, linguistic paleontology, etymological analysis, and phylogenetic reconstruction are key concepts in archaeolinguistics.",
+    "Cultural diffusion and migration patterns are important factors in understanding language and cultural evolution."
+  ],
+  "real_world_impact": "Archaeolinguistics has real-world implications for our understanding of human history and cultural evolution. By studying language and cultural practices, archaeolinguists can shed light on the migration patterns and cultural exchange of ancient human populations. This knowledge can inform our understanding of contemporary linguistic and cultural diversity, and provide insights into the complex relationships between language, culture, and human identity. For example, the study of language isolates has been used to inform language preservation and revitalization efforts, while the analysis of ancient genomes has been used to study the origins of human populations and their migration patterns.",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Langues_Buyeo.png",
+      "title": "Langues Buyeo.png",
+      "license": "CC BY-SA 4.0",
+      "artist": "Richaringan",
+      "description": "Buyeo\n\u00a0 Goguryeoan\n\u00a0 Balhae\n\u00a0 Okjeo\n\u00a0 Ye-maek\n\u00a0 Baekje\nSources\u00a0:\nKi-Moon Lee et S. Robert Ramsey (2011), A History of the Korean Language\nAlexander Vovin (2013), From Koguryo to Tamna: Slowly riding to the South with speakers of Proto-Korean\nAlexander Vovin (2015), Korean as a Paleosiberian Language",
+      "width": 1430,
+      "height": 944,
+      "source_query": "Archaeolinguistics"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Langues_Ry%C5%ABky%C5%AB.png",
+      "title": "Langues Ry\u016bky\u016b.png",
+      "license": "CC BY-SA 4.0",
+      "artist": "Richaringan",
+      "description": "Sources\u00a0:\nTakeshi Shibata (1972), Zenkoku h\u014dgen shiry\u014d\u00a0: Dai j\u016bikkan Ry\u016bky\u016b hen II\nManer Lawton Thorpe (1983), Ry\u016bky\u016ban language history\nTeruo Hirayama (1992-1994), Gendai nihongo h\u014dgen daijiten\nShigehisa Karimata (1999), Ry\u016bky\u016b Miyako shoh\u014dgen no on\u2019in\nShigehisa Karimata (2000), Amami Okinawa h\u014dgen",
+      "width": 2081,
+      "height": 944,
+      "source_query": "Archaeolinguistics"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Langues_japoniques.png",
+      "title": "Langues japoniques.png",
+      "license": "CC BY-SA 4.0",
+      "artist": "Richaringan",
+      "description": "Sources\u00a0:\nAleksandra Jarosz (2017), Japonic languages an overview Jarosz\nAleksandra Jarosz (2019), Non-Core Vocabulary Cognates in Ryukyuan and Kyushu\nAlexander K. Makiyama (2015), Coincidence or Contact: A Study of Sound Changes in Eastern Old Japanese Dialects and Ryukyuan Languages\nAlexander Vovi",
+      "width": 1430,
+      "height": 944,
+      "source_query": "Archaeolinguistics"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Langues_japon%C3%A9siques.png",
+      "title": "Langues japon\u00e9siques.png",
+      "license": "CC BY-SA 4.0",
+      "artist": "Richaringan",
+      "description": "Sources\u00a0:\nAlexander Vovin (2014), Out of Southern China?\nAlexander Vovin (2017), And So Flows History (in Endangered Languages of the Caucasus and Beyond)\nAlexander Vovin (2017), Origins of the Japanese Language\nAndrei A. Avram (2017), \u201cTwo sides of the same coin\u201d:Yokohama Pidgin Japanese and Japane",
+      "width": 1430,
+      "height": 944,
+      "source_query": "Archaeolinguistics"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Langues_ry%C5%ABky%C5%AB_du_Nord.png",
+      "title": "Langues ry\u016bky\u016b du Nord.png",
+      "license": "CC BY-SA 4.0",
+      "artist": "Richaringan",
+      "description": "Sources\u00a0:\nTakeshi Shibata (1972), Zenkoku h\u014dgen shiry\u014d\u00a0: Dai j\u016bikkan Ry\u016bky\u016b hen II\nManer Lawton Thorpe (1983), Ry\u016bky\u016ban language history\nTeruo Hirayama (1992-1994), Gendai nihongo h\u014dgen daijiten\nShigehisa Karimata (1999), Ry\u016bky\u016b Miyako shoh\u014dgen no on\u2019in\nShigehisa Karimata (2000), Amami Okinawa h\u014dgen",
+      "width": 1402,
+      "height": 844,
+      "source_query": "Archaeolinguistics"
+    }
+  ],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Paleolinguistics",
+    "papers": [
+      {
+        "title": "Archaeolinguistic evidence for the farming/language dispersal of Koreanic",
+        "url": "https://doi.org/10.1017/ehs.2020.49"
+      },
+      {
+        "title": "A corpus-based approach in archaeolinguistics",
+        "url": "https://doi.org/10.33910/2687-0215-2020-2-2-147-159"
+      },
+      {
+        "title": "Ancient genomes from northern China suggest links between subsistence changes and human migration",
+        "url": "https://doi.org/10.1038/s41467-020-16557-2"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 18"
+      ],
+      "node_count": 15,
+      "edge_count": 18
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Sociolinguistics",
+        "Language Contact"
+      ],
+      "strengths": [
+        "Clear representation of key concepts in archaeolinguistics",
+        "Good connectivity between related concepts"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

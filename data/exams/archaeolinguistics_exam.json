@@ -1,0 +1,161 @@
+{
+  "topic": "Archaeolinguistics",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary goal of archaeolinguistics?",
+      "options": {
+        "A": "To study the grammar of ancient languages",
+        "B": "To explore the relationship between language and culture in the distant human past",
+        "C": "To analyze the phonetics of extinct languages",
+        "D": "To reconstruct ancient civilizations through archaeological findings only"
+      },
+      "correct": "B",
+      "explanation": "Archaeolinguistics aims to understand the relationship between language and culture in the distant human past, making option B the correct answer.",
+      "node_id": "Archaeolinguistics",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which of the following is an example of a language isolate?",
+      "options": {
+        "A": "Latin",
+        "B": "Greek",
+        "C": "Basque",
+        "D": "Sanskrit"
+      },
+      "correct": "C",
+      "explanation": "The Basque language is an example of a language isolate, meaning it has no known relatives.",
+      "node_id": "Language Isolation",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term used to describe the study of ancient languages to reconstruct the culture, history, and migration patterns of ancient human populations?",
+      "options": {
+        "A": "Linguistic anthropology",
+        "B": "Historical linguistics",
+        "C": "Linguistic paleontology",
+        "D": "Paleolinguistics"
+      },
+      "correct": "C",
+      "explanation": "Linguistic paleontology is the study of ancient languages to reconstruct the culture, history, and migration patterns of ancient human populations.",
+      "node_id": "Linguistic Paleontology",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is etymological analysis used for in archaeolinguistics?",
+      "options": {
+        "A": "To study the grammar of ancient languages",
+        "B": "To analyze the phonetics of extinct languages",
+        "C": "To understand the origins and history of words and their meanings",
+        "D": "To reconstruct ancient civilizations through archaeological findings only"
+      },
+      "correct": "C",
+      "explanation": "Etymological analysis is used to understand the origins and history of words and their meanings, providing insights into cultural and linguistic evolution.",
+      "node_id": "Etymological Analysis",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is phylogenetic reconstruction used for in archaeolinguistics?",
+      "options": {
+        "A": "To study the migration patterns of ancient human populations",
+        "B": "To analyze the cultural practices of ancient civilizations",
+        "C": "To reconstruct the evolutionary history of languages and language families",
+        "D": "To understand the grammatical structures of ancient languages"
+      },
+      "correct": "C",
+      "explanation": "Phylogenetic reconstruction is used to reconstruct the evolutionary history of languages and language families.",
+      "node_id": "Phylogenetic Reconstruction",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term used to describe the spread of cultural practices, languages, and ideas from one population to another?",
+      "options": {
+        "A": "Cultural diffusion",
+        "B": "Linguistic paleontology",
+        "C": "Phylogenetic reconstruction",
+        "D": "Etymological analysis"
+      },
+      "correct": "A",
+      "explanation": "Cultural diffusion refers to the spread of cultural practices, languages, and ideas from one population to another, often through migration or trade.",
+      "node_id": "Cultural Diffusion",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the study of ancient DNA used for in archaeolinguistics?",
+      "options": {
+        "A": "To reconstruct ancient languages",
+        "B": "To analyze the cultural practices of ancient civilizations",
+        "C": "To understand human migration patterns, population dynamics, and cultural exchange",
+        "D": "To study the grammar of ancient languages"
+      },
+      "correct": "C",
+      "explanation": "The study of ancient DNA, or ancient genomes, is used to understand human migration patterns, population dynamics, and cultural exchange.",
+      "node_id": "Ancient Genomes",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Explain the concept of language isolation and its significance in archaeolinguistics.",
+      "sample_answer": "Language isolation refers to the study of languages that have no known relatives, providing insights into the history and migration of human populations. This concept is significant in archaeolinguistics as it allows researchers to reconstruct the cultural and linguistic evolution of ancient human populations.",
+      "keywords": [
+        "language isolate",
+        "linguistic evolution",
+        "human migration"
+      ],
+      "node_id": "Language Isolation",
+      "points": 20
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Discuss the role of phylogenetic reconstruction in understanding the evolutionary history of languages and language families.",
+      "sample_answer": "Phylogenetic reconstruction is a crucial tool in archaeolinguistics, allowing researchers to reconstruct the evolutionary history of languages and language families. By analyzing linguistic data, researchers can identify patterns of language change and migration, providing insights into the cultural and linguistic evolution of ancient human populations.",
+      "keywords": [
+        "phylogenetic reconstruction",
+        "language evolution",
+        "linguistic data"
+      ],
+      "node_id": "Phylogenetic Reconstruction",
+      "points": 25
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the significance of cultural diffusion in understanding the spread of languages and cultural practices.",
+      "sample_answer": "Cultural diffusion refers to the spread of cultural practices, languages, and ideas from one population to another, often through migration or trade. This concept is significant in archaeolinguistics as it allows researchers to understand the complex interactions between ancient human populations and the resulting cultural and linguistic exchange.",
+      "keywords": [
+        "cultural diffusion",
+        "language spread",
+        "cultural exchange"
+      ],
+      "node_id": "Cultural Diffusion",
+      "points": 20
+    }
+  ]
+}

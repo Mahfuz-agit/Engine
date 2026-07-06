@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 40,
-  "total_nodes": 599,
-  "total_edges": 732,
+  "total_topics": 41,
+  "total_nodes": 614,
+  "total_edges": 750,
   "topics": [
     {
       "topic": "Climate Change",
@@ -363,6 +363,15 @@
       "edge_count": 18,
       "description": "Radiation protection refers to the practices and measures used to prevent or minimize the harmful effects of ionizing radiation on humans and the environment. It involves understanding the risks associated with radiation exposure and implementing strategies to reduce these risks. Effective radiation protection is crucial in various fields, including nuclear safety, medical applications, and environmental monitoring.",
       "added_at": "2026-07-06T12:28:21.160952"
+    },
+    {
+      "topic": "Archaeolinguistics",
+      "slug": "archaeolinguistics",
+      "category": "history",
+      "node_count": 15,
+      "edge_count": 18,
+      "description": "Archaeolinguistics is the study of the distant human past by linguistic means, exploring the relationship between language and culture. It involves analyzing ancient languages, linguistic paleontology, and etymological analysis to understand the migration and diffusion of languages. By examining language isolates and phylogenetic reconstruction, archaeolinguists can shed light on the history of human populations and their cultural practices.",
+      "added_at": "2026-07-06T20:59:02.550956"
     }
   ],
   "global_nodes": [
@@ -6954,6 +6963,171 @@
       "fun_fact": "Radiation protection regulations are enforced by government agencies and international organizations to ensure public safety.",
       "topic_slug": "radiation_protection",
       "topic": "Radiation Protection"
+    },
+    {
+      "id": "archaeolinguistics__N1",
+      "label": "Archaeolinguistics",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of the distant human past by linguistic means, exploring the relationship between language and culture.",
+      "importance": 10,
+      "fun_fact": "The term 'archaeolinguistics' was first coined in the 1990s.",
+      "topic_slug": "archaeolinguistics",
+      "topic": "Archaeolinguistics"
+    },
+    {
+      "id": "archaeolinguistics__N2",
+      "label": "Language Isolation",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of languages that have no known relatives, providing insights into the history and migration of human populations.",
+      "importance": 9,
+      "fun_fact": "The Basque language is an example of a language isolate.",
+      "topic_slug": "archaeolinguistics",
+      "topic": "Archaeolinguistics"
+    },
+    {
+      "id": "archaeolinguistics__N3",
+      "label": "Linguistic Paleontology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of ancient languages to reconstruct the culture, history, and migration patterns of ancient human populations.",
+      "importance": 9,
+      "fun_fact": "Linguistic paleontology has been used to study the origins of the Indo-European language family.",
+      "topic_slug": "archaeolinguistics",
+      "topic": "Archaeolinguistics"
+    },
+    {
+      "id": "archaeolinguistics__N4",
+      "label": "Etymological Analysis",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the origins and history of words and their meanings, providing insights into cultural and linguistic evolution.",
+      "importance": 8,
+      "fun_fact": "Etymological analysis has been used to study the origins of the English language.",
+      "topic_slug": "archaeolinguistics",
+      "topic": "Archaeolinguistics"
+    },
+    {
+      "id": "archaeolinguistics__N5",
+      "label": "Phylogenetic Reconstruction",
+      "type": "concept",
+      "depth": 1,
+      "description": "The use of linguistic data to reconstruct the evolutionary history of languages and language families.",
+      "importance": 9,
+      "fun_fact": "Phylogenetic reconstruction has been used to study the origins of the Austronesian language family.",
+      "topic_slug": "archaeolinguistics",
+      "topic": "Archaeolinguistics"
+    },
+    {
+      "id": "archaeolinguistics__N6",
+      "label": "Cultural Diffusion",
+      "type": "concept",
+      "depth": 1,
+      "description": "The spread of cultural practices, languages, and ideas from one population to another, often through migration or trade.",
+      "importance": 8,
+      "fun_fact": "Cultural diffusion has been used to explain the spread of agriculture from the Fertile Crescent to Europe.",
+      "topic_slug": "archaeolinguistics",
+      "topic": "Archaeolinguistics"
+    },
+    {
+      "id": "archaeolinguistics__N7",
+      "label": "Koreanic Language Family",
+      "type": "example",
+      "depth": 2,
+      "description": "A language family spoken in Korea and parts of China, with a complex history of migration and cultural exchange.",
+      "importance": 7,
+      "fun_fact": "The Koreanic language family is thought to have originated in the Korean Peninsula around 1000 BCE.",
+      "topic_slug": "archaeolinguistics",
+      "topic": "Archaeolinguistics"
+    },
+    {
+      "id": "archaeolinguistics__N8",
+      "label": "Ancient Genomes",
+      "type": "example",
+      "depth": 2,
+      "description": "The study of ancient DNA to understand human migration patterns, population dynamics, and cultural exchange.",
+      "importance": 8,
+      "fun_fact": "Ancient genomes have been used to study the origins of the Indo-European language family.",
+      "topic_slug": "archaeolinguistics",
+      "topic": "Archaeolinguistics"
+    },
+    {
+      "id": "archaeolinguistics__N9",
+      "label": "Corpus-Based Approach",
+      "type": "application",
+      "depth": 2,
+      "description": "A methodology used in archaeolinguistics to analyze large datasets of texts and languages.",
+      "importance": 8,
+      "fun_fact": "Corpus-based approaches have been used to study the evolution of the English language.",
+      "topic_slug": "archaeolinguistics",
+      "topic": "Archaeolinguistics"
+    },
+    {
+      "id": "archaeolinguistics__N10",
+      "label": "Long-Rangers",
+      "type": "person",
+      "depth": 2,
+      "description": "A group of linguists who advocate for the use of linguistic data to study the distant human past, often using unconventional methods.",
+      "importance": 6,
+      "fun_fact": "The term 'long-rangers' was coined to describe this group of linguists.",
+      "topic_slug": "archaeolinguistics",
+      "topic": "Archaeolinguistics"
+    },
+    {
+      "id": "archaeolinguistics__N11",
+      "label": "Paleolinguistics",
+      "type": "concept",
+      "depth": 1,
+      "description": "A term used by some linguists to describe the study of the distant human past by linguistic means.",
+      "importance": 8,
+      "fun_fact": "The term 'paleolinguistics' is not widely accepted by mainstream historical linguists.",
+      "topic_slug": "archaeolinguistics",
+      "topic": "Archaeolinguistics"
+    },
+    {
+      "id": "archaeolinguistics__N12",
+      "label": "Historical Linguistics",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of language change and language history, often using comparative and philological methods.",
+      "importance": 9,
+      "fun_fact": "Historical linguistics has been used to study the evolution of the Indo-European language family.",
+      "topic_slug": "archaeolinguistics",
+      "topic": "Archaeolinguistics"
+    },
+    {
+      "id": "archaeolinguistics__N13",
+      "label": "Migration Patterns",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of human migration patterns and their impact on language and culture.",
+      "importance": 8,
+      "fun_fact": "Migration patterns have been used to explain the spread of languages and cultural practices.",
+      "topic_slug": "archaeolinguistics",
+      "topic": "Archaeolinguistics"
+    },
+    {
+      "id": "archaeolinguistics__N14",
+      "label": "Linguistic Anthropology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of language and culture, often using ethnographic and anthropological methods.",
+      "importance": 8,
+      "fun_fact": "Linguistic anthropology has been used to study the language and culture of indigenous populations.",
+      "topic_slug": "archaeolinguistics",
+      "topic": "Archaeolinguistics"
+    },
+    {
+      "id": "archaeolinguistics__N15",
+      "label": "Archaeological Record",
+      "type": "example",
+      "depth": 2,
+      "description": "The material remains of past human cultures, often used to study language and cultural evolution.",
+      "importance": 7,
+      "fun_fact": "The archaeological record has been used to study the origins of writing and language.",
+      "topic_slug": "archaeolinguistics",
+      "topic": "Archaeolinguistics"
     }
   ],
   "global_edges": [
@@ -12080,6 +12254,132 @@
       "relation": "is_part_of",
       "strength": 5,
       "topic": "Radiation Protection"
+    },
+    {
+      "source": "archaeolinguistics__N1",
+      "target": "archaeolinguistics__N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Archaeolinguistics"
+    },
+    {
+      "source": "archaeolinguistics__N1",
+      "target": "archaeolinguistics__N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Archaeolinguistics"
+    },
+    {
+      "source": "archaeolinguistics__N1",
+      "target": "archaeolinguistics__N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Archaeolinguistics"
+    },
+    {
+      "source": "archaeolinguistics__N1",
+      "target": "archaeolinguistics__N5",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Archaeolinguistics"
+    },
+    {
+      "source": "archaeolinguistics__N1",
+      "target": "archaeolinguistics__N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Archaeolinguistics"
+    },
+    {
+      "source": "archaeolinguistics__N2",
+      "target": "archaeolinguistics__N7",
+      "relation": "used_in",
+      "strength": 7,
+      "topic": "Archaeolinguistics"
+    },
+    {
+      "source": "archaeolinguistics__N3",
+      "target": "archaeolinguistics__N8",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Archaeolinguistics"
+    },
+    {
+      "source": "archaeolinguistics__N4",
+      "target": "archaeolinguistics__N9",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Archaeolinguistics"
+    },
+    {
+      "source": "archaeolinguistics__N5",
+      "target": "archaeolinguistics__N10",
+      "relation": "used_by",
+      "strength": 6,
+      "topic": "Archaeolinguistics"
+    },
+    {
+      "source": "archaeolinguistics__N6",
+      "target": "archaeolinguistics__N11",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Archaeolinguistics"
+    },
+    {
+      "source": "archaeolinguistics__N11",
+      "target": "archaeolinguistics__N12",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Archaeolinguistics"
+    },
+    {
+      "source": "archaeolinguistics__N12",
+      "target": "archaeolinguistics__N13",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Archaeolinguistics"
+    },
+    {
+      "source": "archaeolinguistics__N13",
+      "target": "archaeolinguistics__N14",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Archaeolinguistics"
+    },
+    {
+      "source": "archaeolinguistics__N14",
+      "target": "archaeolinguistics__N15",
+      "relation": "used_in",
+      "strength": 7,
+      "topic": "Archaeolinguistics"
+    },
+    {
+      "source": "archaeolinguistics__N1",
+      "target": "archaeolinguistics__N14",
+      "relation": "depends_on",
+      "strength": 8,
+      "topic": "Archaeolinguistics"
+    },
+    {
+      "source": "archaeolinguistics__N5",
+      "target": "archaeolinguistics__N8",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Archaeolinguistics"
+    },
+    {
+      "source": "archaeolinguistics__N9",
+      "target": "archaeolinguistics__N7",
+      "relation": "used_in",
+      "strength": 7,
+      "topic": "Archaeolinguistics"
+    },
+    {
+      "source": "archaeolinguistics__N10",
+      "target": "archaeolinguistics__N11",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Archaeolinguistics"
     }
   ],
   "cross_topic_edges": [
@@ -12301,6 +12601,13 @@
       "label": "radiation therapy"
     },
     {
+      "source": "demography__N3",
+      "target": "archaeolinguistics__N13",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "migration patterns"
+    },
+    {
       "source": "archaeology__N4",
       "target": "anthropology__N14",
       "relation": "cross_topic_connection",
@@ -12320,6 +12627,13 @@
       "relation": "cross_topic_connection",
       "strength": 6,
       "label": "precision agriculture"
+    },
+    {
+      "source": "anthropology__N3",
+      "target": "archaeolinguistics__N14",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "linguistic anthropology"
     }
   ],
   "category_map": {
@@ -12381,7 +12695,8 @@
       "demography"
     ],
     "history": [
-      "archaeology"
+      "archaeology",
+      "archaeolinguistics"
     ],
     "engineering": [
       "biomechanical_engineering"
@@ -12390,5 +12705,5 @@
       "anthropology"
     ]
   },
-  "last_updated": "2026-07-06T12:28:21.161004"
+  "last_updated": "2026-07-06T20:59:02.550986"
 }
