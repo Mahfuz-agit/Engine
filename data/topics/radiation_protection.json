@@ -1,0 +1,326 @@
+{
+  "topic": "Radiation Protection",
+  "category": "physics",
+  "description": "Radiation protection refers to the practices and measures used to prevent or minimize the harmful effects of ionizing radiation on humans and the environment. It involves understanding the risks associated with radiation exposure and implementing strategies to reduce these risks. Effective radiation protection is crucial in various fields, including nuclear safety, medical applications, and environmental monitoring.",
+  "nodes": [
+    {
+      "id": "RP1",
+      "label": "Radiation Protection",
+      "type": "core",
+      "depth": 0,
+      "description": "The practice of protecting humans and the environment from the harmful effects of ionizing radiation.",
+      "importance": 10,
+      "fun_fact": "The first radiation protection standards were established in the 1930s."
+    },
+    {
+      "id": "RP2",
+      "label": "Nuclear Safety",
+      "type": "concept",
+      "depth": 1,
+      "description": "The set of practices and regulations aimed at preventing accidents and minimizing the consequences of radiation exposure in nuclear facilities.",
+      "importance": 9,
+      "fun_fact": "The Chernobyl disaster in 1986 highlighted the importance of nuclear safety."
+    },
+    {
+      "id": "RP3",
+      "label": "Ionizing Radiation",
+      "type": "concept",
+      "depth": 1,
+      "description": "Radiation with enough energy to remove tightly bound electrons from atoms, resulting in the formation of ions.",
+      "importance": 9,
+      "fun_fact": "Ionizing radiation can come from natural sources, such as cosmic rays, or artificial sources, such as X-rays."
+    },
+    {
+      "id": "RP4",
+      "label": "Radiation Dosimetry",
+      "type": "concept",
+      "depth": 1,
+      "description": "The measurement and calculation of the dose of radiation absorbed by the human body.",
+      "importance": 9,
+      "fun_fact": "Radiation dosimetry is used to assess the risk of radiation exposure and to develop strategies for minimizing this risk."
+    },
+    {
+      "id": "RP5",
+      "label": "Shielding Techniques",
+      "type": "concept",
+      "depth": 1,
+      "description": "Methods used to reduce the intensity of radiation by placing a barrier between the source and the target.",
+      "importance": 8,
+      "fun_fact": "Lead is a common material used for radiation shielding due to its high density and high atomic number."
+    },
+    {
+      "id": "RP6",
+      "label": "Environmental Radiation Monitoring",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process of measuring and tracking the levels of radiation in the environment to assess the risk to humans and the ecosystem.",
+      "importance": 8,
+      "fun_fact": "Environmental radiation monitoring is crucial for detecting and responding to radiation accidents or spills."
+    },
+    {
+      "id": "RP7",
+      "label": "ICRP",
+      "type": "organization",
+      "depth": 2,
+      "description": "The International Commission on Radiological Protection, an independent organization that provides guidance on radiation protection.",
+      "importance": 9,
+      "fun_fact": "ICRP was established in 1928 and has played a key role in developing international radiation protection standards."
+    },
+    {
+      "id": "RP8",
+      "label": "Radiation Protection Standards",
+      "type": "concept",
+      "depth": 2,
+      "description": "Guidelines and regulations that outline the requirements for radiation protection in various industries and applications.",
+      "importance": 9,
+      "fun_fact": "Radiation protection standards are regularly updated to reflect new research and technologies."
+    },
+    {
+      "id": "RP9",
+      "label": "Marie Curie",
+      "type": "person",
+      "depth": 2,
+      "description": "A Polish-born physicist and chemist who pioneered the study of radioactivity and radiation protection.",
+      "importance": 8,
+      "fun_fact": "Marie Curie was the first woman to win a Nobel Prize and the first person to win two Nobel Prizes in different fields."
+    },
+    {
+      "id": "RP10",
+      "label": "Chernobyl Disaster",
+      "type": "event",
+      "depth": 2,
+      "description": "A catastrophic nuclear accident that occurred in 1986, highlighting the importance of radiation protection and nuclear safety.",
+      "importance": 9,
+      "fun_fact": "The Chernobyl disaster was the worst nuclear power plant accident in history, releasing large quantities of radioactive material into the environment."
+    },
+    {
+      "id": "RP11",
+      "label": "Radiation Therapy",
+      "type": "application",
+      "depth": 3,
+      "description": "The use of ionizing radiation to treat cancer and other diseases.",
+      "importance": 8,
+      "fun_fact": "Radiation therapy is a common treatment for many types of cancer, including breast, lung, and prostate cancer."
+    },
+    {
+      "id": "RP12",
+      "label": "Nuclear Medicine",
+      "type": "application",
+      "depth": 3,
+      "description": "The use of radioactive substances to diagnose and treat diseases.",
+      "importance": 8,
+      "fun_fact": "Nuclear medicine is used to diagnose a wide range of conditions, including cancer, cardiovascular disease, and neurological disorders."
+    },
+    {
+      "id": "RP13",
+      "label": "Radiation Protection in Space Exploration",
+      "type": "application",
+      "depth": 3,
+      "description": "The use of radiation protection measures to protect astronauts and spacecraft from the harmful effects of space radiation.",
+      "importance": 8,
+      "fun_fact": "Space radiation is a major concern for deep space missions, as it can cause damage to both humans and electronic systems."
+    },
+    {
+      "id": "RP14",
+      "label": "Radiation Protection in Medical Imaging",
+      "type": "application",
+      "depth": 3,
+      "description": "The use of radiation protection measures to minimize the risk of radiation exposure to patients and medical staff during medical imaging procedures.",
+      "importance": 8,
+      "fun_fact": "Medical imaging procedures, such as CT scans and X-rays, use ionizing radiation to produce images of the body."
+    },
+    {
+      "id": "RP15",
+      "label": "Radiation Protection Regulations",
+      "type": "concept",
+      "depth": 3,
+      "description": "Laws and guidelines that govern the use of radiation and radiation protection in various industries and applications.",
+      "importance": 8,
+      "fun_fact": "Radiation protection regulations are enforced by government agencies and international organizations to ensure public safety."
+    }
+  ],
+  "edges": [
+    {
+      "source": "RP1",
+      "target": "RP2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Nuclear safety is a key aspect of radiation protection."
+    },
+    {
+      "source": "RP1",
+      "target": "RP3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Ionizing radiation is a major concern in radiation protection."
+    },
+    {
+      "source": "RP1",
+      "target": "RP4",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Radiation dosimetry is a critical component of radiation protection."
+    },
+    {
+      "source": "RP1",
+      "target": "RP5",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Shielding techniques are used to reduce radiation exposure."
+    },
+    {
+      "source": "RP1",
+      "target": "RP6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Environmental radiation monitoring is essential for radiation protection."
+    },
+    {
+      "source": "RP2",
+      "target": "RP7",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "ICRP provides guidance on nuclear safety and radiation protection."
+    },
+    {
+      "source": "RP3",
+      "target": "RP8",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "Ionizing radiation exposure can lead to the development of radiation protection standards."
+    },
+    {
+      "source": "RP4",
+      "target": "RP9",
+      "relation": "used_in",
+      "strength": 7,
+      "description": "Marie Curie's work on radioactivity contributed to the development of radiation dosimetry."
+    },
+    {
+      "source": "RP5",
+      "target": "RP10",
+      "relation": "contrasts_with",
+      "strength": 7,
+      "description": "The Chernobyl disaster highlighted the importance of shielding techniques in radiation protection."
+    },
+    {
+      "source": "RP6",
+      "target": "RP11",
+      "relation": "enables",
+      "strength": 7,
+      "description": "Environmental radiation monitoring enables the safe use of radiation therapy."
+    },
+    {
+      "source": "RP7",
+      "target": "RP12",
+      "relation": "used_in",
+      "strength": 7,
+      "description": "ICRP guidelines are used in nuclear medicine to ensure radiation protection."
+    },
+    {
+      "source": "RP8",
+      "target": "RP13",
+      "relation": "depends_on",
+      "strength": 7,
+      "description": "Radiation protection in space exploration depends on the development of effective radiation protection regulations."
+    },
+    {
+      "source": "RP9",
+      "target": "RP14",
+      "relation": "evolved_from",
+      "strength": 6,
+      "description": "Marie Curie's work on radioactivity evolved into the development of radiation protection in medical imaging."
+    },
+    {
+      "source": "RP10",
+      "target": "RP15",
+      "relation": "leads_to",
+      "strength": 6,
+      "description": "The Chernobyl disaster led to the development of stricter radiation protection regulations."
+    },
+    {
+      "source": "RP11",
+      "target": "RP12",
+      "relation": "related_to",
+      "strength": 6,
+      "description": "Radiation therapy and nuclear medicine are both medical applications that use ionizing radiation."
+    },
+    {
+      "source": "RP13",
+      "target": "RP14",
+      "relation": "contrasts_with",
+      "strength": 5,
+      "description": "Radiation protection in space exploration contrasts with radiation protection in medical imaging due to the different types of radiation exposure."
+    },
+    {
+      "source": "RP14",
+      "target": "RP15",
+      "relation": "depends_on",
+      "strength": 5,
+      "description": "Radiation protection in medical imaging depends on the development of effective radiation protection regulations."
+    },
+    {
+      "source": "RP15",
+      "target": "RP1",
+      "relation": "is_part_of",
+      "strength": 5,
+      "description": "Radiation protection regulations are a key aspect of radiation protection."
+    }
+  ],
+  "key_takeaways": [
+    "Radiation protection is a critical aspect of nuclear safety and ionizing radiation exposure.",
+    "Effective radiation protection measures, such as shielding techniques and radiation dosimetry, are essential for minimizing the risks associated with radiation exposure.",
+    "Radiation protection regulations and guidelines, such as those developed by ICRP, play a crucial role in ensuring public safety and preventing radiation accidents."
+  ],
+  "real_world_impact": "Radiation protection has a significant impact on various aspects of our lives, from medical imaging and cancer treatment to space exploration and nuclear power generation. The development of effective radiation protection measures and regulations has saved countless lives and prevented numerous accidents. However, the ongoing challenges of radiation protection, such as the disposal of radioactive waste and the mitigation of radiation exposure in space exploration, require continued research and innovation to ensure public safety and environmental protection.",
+  "images": [],
+  "sources": {
+    "wikipedia_url": "",
+    "papers": [
+      {
+        "title": "ICRP PUBLICATION 118: ICRP Statement on Tissue Reactions and Early and Late Effects of Radiation in Normal Tissues and Organs \u2014 Threshold Doses for Tissue Reactions in a Radiation Protection Context",
+        "url": "https://doi.org/10.1016/j.icrp.2012.02.001"
+      },
+      {
+        "title": "Radiation Protection and Safety of Radiation Sources: International Basic Safety Standards",
+        "url": "https://doi.org/10.61092/iaea.u2pu-60vm"
+      },
+      {
+        "title": "Radiation protection of medical staff",
+        "url": "https://doi.org/10.1016/j.ejrad.2010.06.034"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 18"
+      ],
+      "node_count": 15,
+      "edge_count": 18
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Radiation Detection Instruments",
+        "Radiation Emergency Response"
+      ],
+      "strengths": [
+        "Comprehensive coverage of radiation protection concepts",
+        "Clear relationships between concepts"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

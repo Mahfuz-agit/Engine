@@ -1,0 +1,164 @@
+{
+  "topic": "Radiation Protection",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary goal of radiation protection?",
+      "options": {
+        "A": "To minimize the risks associated with radiation exposure",
+        "B": "To maximize the benefits of radiation therapy",
+        "C": "To reduce the cost of nuclear safety measures",
+        "D": "To increase the use of ionizing radiation in medical applications"
+      },
+      "correct": "A",
+      "explanation": "The primary goal of radiation protection is to prevent or minimize the harmful effects of ionizing radiation on humans and the environment.",
+      "node_id": "Radiation Protection",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the purpose of radiation dosimetry?",
+      "options": {
+        "A": "To measure the intensity of radiation sources",
+        "B": "To calculate the dose of radiation absorbed by the human body",
+        "C": "To assess the risk of radiation exposure to the environment",
+        "D": "To develop new radiation protection technologies"
+      },
+      "correct": "B",
+      "explanation": "Radiation dosimetry is used to measure and calculate the dose of radiation absorbed by the human body, which helps to assess the risk of radiation exposure.",
+      "node_id": "Radiation Dosimetry",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the main difference between ionizing and non-ionizing radiation?",
+      "options": {
+        "A": "Ionizing radiation has a higher frequency than non-ionizing radiation",
+        "B": "Ionizing radiation has a lower energy than non-ionizing radiation",
+        "C": "Ionizing radiation can remove tightly bound electrons from atoms, while non-ionizing radiation cannot",
+        "D": "Ionizing radiation is more commonly used in medical applications than non-ionizing radiation"
+      },
+      "correct": "C",
+      "explanation": "Ionizing radiation has enough energy to remove tightly bound electrons from atoms, resulting in the formation of ions, while non-ionizing radiation does not.",
+      "node_id": "Ionizing Radiation",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "Who is known as the pioneer of the study of radioactivity and radiation protection?",
+      "options": {
+        "A": "Marie Curie",
+        "B": "Albert Einstein",
+        "C": "Niels Bohr",
+        "D": "Ernest Rutherford"
+      },
+      "correct": "A",
+      "explanation": "Marie Curie was a Polish-born physicist and chemist who pioneered the study of radioactivity and radiation protection.",
+      "node_id": "Marie Curie",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the purpose of shielding techniques in radiation protection?",
+      "options": {
+        "A": "To increase the intensity of radiation sources",
+        "B": "To reduce the intensity of radiation by placing a barrier between the source and the target",
+        "C": "To measure the dose of radiation absorbed by the human body",
+        "D": "To develop new radiation protection technologies"
+      },
+      "correct": "B",
+      "explanation": "Shielding techniques are used to reduce the intensity of radiation by placing a barrier between the source and the target, which helps to minimize the risks associated with radiation exposure.",
+      "node_id": "Shielding Techniques",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the role of the International Commission on Radiological Protection (ICRP) in radiation protection?",
+      "options": {
+        "A": "To develop new radiation protection technologies",
+        "B": "To provide guidance on radiation protection and set international standards",
+        "C": "To measure the dose of radiation absorbed by the human body",
+        "D": "To increase the use of ionizing radiation in medical applications"
+      },
+      "correct": "B",
+      "explanation": "The ICRP provides guidance on radiation protection and sets international standards, which helps to ensure public safety and prevent radiation accidents.",
+      "node_id": "ICRP",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the purpose of environmental radiation monitoring?",
+      "options": {
+        "A": "To measure the intensity of radiation sources",
+        "B": "To calculate the dose of radiation absorbed by the human body",
+        "C": "To assess the risk of radiation exposure to the environment and detect radiation accidents or spills",
+        "D": "To develop new radiation protection technologies"
+      },
+      "correct": "C",
+      "explanation": "Environmental radiation monitoring is used to measure and track the levels of radiation in the environment, which helps to assess the risk of radiation exposure to humans and the ecosystem.",
+      "node_id": "Environmental Radiation Monitoring",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the importance of radiation protection in medical imaging procedures.",
+      "sample_answer": "Radiation protection is crucial in medical imaging procedures, such as CT scans and X-rays, to minimize the risk of radiation exposure to patients and medical staff. This can be achieved by using proper shielding techniques, optimizing radiation doses, and following radiation protection guidelines.",
+      "keywords": [
+        "radiation protection",
+        "medical imaging",
+        "shielding techniques",
+        "radiation doses"
+      ],
+      "node_id": "Radiation Protection in Medical Imaging",
+      "points": 15
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Explain the difference between radiation therapy and nuclear medicine, and describe their applications in cancer treatment.",
+      "sample_answer": "Radiation therapy uses ionizing radiation to treat cancer and other diseases, while nuclear medicine uses radioactive substances to diagnose and treat diseases. Radiation therapy is commonly used to treat various types of cancer, including breast, lung, and prostate cancer, while nuclear medicine is used to diagnose a wide range of conditions, including cancer, cardiovascular disease, and neurological disorders.",
+      "keywords": [
+        "radiation therapy",
+        "nuclear medicine",
+        "cancer treatment",
+        "ionizing radiation"
+      ],
+      "node_id": "Radiation Therapy",
+      "points": 15
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the role of the Chernobyl disaster in highlighting the importance of nuclear safety and radiation protection.",
+      "sample_answer": "The Chernobyl disaster was a catastrophic nuclear accident that highlighted the importance of nuclear safety and radiation protection. The accident resulted in the release of large quantities of radioactive material into the environment, causing widespread contamination and health effects. The disaster led to a significant increase in awareness and efforts to improve nuclear safety and radiation protection measures, including the development of new safety standards and guidelines.",
+      "keywords": [
+        "Chernobyl disaster",
+        "nuclear safety",
+        "radiation protection",
+        "radioactive material"
+      ],
+      "node_id": "Chernobyl Disaster",
+      "points": 15
+    }
+  ]
+}

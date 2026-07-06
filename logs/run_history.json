@@ -505,5 +505,18 @@
     "master_total_topics": 39,
     "ended_at": "2026-07-05T20:21:20.379484",
     "duration_seconds": 37.6
+  },
+  {
+    "started_at": "2026-07-06T12:27:42.467504",
+    "status": "success",
+    "topic": "Radiation Protection",
+    "sources_found": 5,
+    "images_found": 0,
+    "quality_score": 87.5,
+    "quality_passed": true,
+    "exam_questions": 10,
+    "master_total_topics": 40,
+    "ended_at": "2026-07-06T12:28:21.170066",
+    "duration_seconds": 38.7
   }
 ]

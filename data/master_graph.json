@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 39,
-  "total_nodes": 584,
-  "total_edges": 714,
+  "total_topics": 40,
+  "total_nodes": 599,
+  "total_edges": 732,
   "topics": [
     {
       "topic": "Climate Change",
@@ -354,6 +354,15 @@
       "edge_count": 15,
       "description": "Soil science is the study of soil as a natural resource, encompassing its formation, classification, and properties. It involves understanding the physical, chemical, biological, and fertility aspects of soils and their management. This field is crucial for sustainable development, environmental conservation, and food security.",
       "added_at": "2026-07-05T20:21:20.369593"
+    },
+    {
+      "topic": "Radiation Protection",
+      "slug": "radiation_protection",
+      "category": "physics",
+      "node_count": 15,
+      "edge_count": 18,
+      "description": "Radiation protection refers to the practices and measures used to prevent or minimize the harmful effects of ionizing radiation on humans and the environment. It involves understanding the risks associated with radiation exposure and implementing strategies to reduce these risks. Effective radiation protection is crucial in various fields, including nuclear safety, medical applications, and environmental monitoring.",
+      "added_at": "2026-07-06T12:28:21.160952"
     }
   ],
   "global_nodes": [
@@ -6780,6 +6789,171 @@
       "fun_fact": "Soil chemistry is essential for understanding soil fertility, nutrient availability, and environmental pollution.",
       "topic_slug": "soil_science",
       "topic": "Soil Science"
+    },
+    {
+      "id": "radiation_protection__RP1",
+      "label": "Radiation Protection",
+      "type": "core",
+      "depth": 0,
+      "description": "The practice of protecting humans and the environment from the harmful effects of ionizing radiation.",
+      "importance": 10,
+      "fun_fact": "The first radiation protection standards were established in the 1930s.",
+      "topic_slug": "radiation_protection",
+      "topic": "Radiation Protection"
+    },
+    {
+      "id": "radiation_protection__RP2",
+      "label": "Nuclear Safety",
+      "type": "concept",
+      "depth": 1,
+      "description": "The set of practices and regulations aimed at preventing accidents and minimizing the consequences of radiation exposure in nuclear facilities.",
+      "importance": 9,
+      "fun_fact": "The Chernobyl disaster in 1986 highlighted the importance of nuclear safety.",
+      "topic_slug": "radiation_protection",
+      "topic": "Radiation Protection"
+    },
+    {
+      "id": "radiation_protection__RP3",
+      "label": "Ionizing Radiation",
+      "type": "concept",
+      "depth": 1,
+      "description": "Radiation with enough energy to remove tightly bound electrons from atoms, resulting in the formation of ions.",
+      "importance": 9,
+      "fun_fact": "Ionizing radiation can come from natural sources, such as cosmic rays, or artificial sources, such as X-rays.",
+      "topic_slug": "radiation_protection",
+      "topic": "Radiation Protection"
+    },
+    {
+      "id": "radiation_protection__RP4",
+      "label": "Radiation Dosimetry",
+      "type": "concept",
+      "depth": 1,
+      "description": "The measurement and calculation of the dose of radiation absorbed by the human body.",
+      "importance": 9,
+      "fun_fact": "Radiation dosimetry is used to assess the risk of radiation exposure and to develop strategies for minimizing this risk.",
+      "topic_slug": "radiation_protection",
+      "topic": "Radiation Protection"
+    },
+    {
+      "id": "radiation_protection__RP5",
+      "label": "Shielding Techniques",
+      "type": "concept",
+      "depth": 1,
+      "description": "Methods used to reduce the intensity of radiation by placing a barrier between the source and the target.",
+      "importance": 8,
+      "fun_fact": "Lead is a common material used for radiation shielding due to its high density and high atomic number.",
+      "topic_slug": "radiation_protection",
+      "topic": "Radiation Protection"
+    },
+    {
+      "id": "radiation_protection__RP6",
+      "label": "Environmental Radiation Monitoring",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process of measuring and tracking the levels of radiation in the environment to assess the risk to humans and the ecosystem.",
+      "importance": 8,
+      "fun_fact": "Environmental radiation monitoring is crucial for detecting and responding to radiation accidents or spills.",
+      "topic_slug": "radiation_protection",
+      "topic": "Radiation Protection"
+    },
+    {
+      "id": "radiation_protection__RP7",
+      "label": "ICRP",
+      "type": "organization",
+      "depth": 2,
+      "description": "The International Commission on Radiological Protection, an independent organization that provides guidance on radiation protection.",
+      "importance": 9,
+      "fun_fact": "ICRP was established in 1928 and has played a key role in developing international radiation protection standards.",
+      "topic_slug": "radiation_protection",
+      "topic": "Radiation Protection"
+    },
+    {
+      "id": "radiation_protection__RP8",
+      "label": "Radiation Protection Standards",
+      "type": "concept",
+      "depth": 2,
+      "description": "Guidelines and regulations that outline the requirements for radiation protection in various industries and applications.",
+      "importance": 9,
+      "fun_fact": "Radiation protection standards are regularly updated to reflect new research and technologies.",
+      "topic_slug": "radiation_protection",
+      "topic": "Radiation Protection"
+    },
+    {
+      "id": "radiation_protection__RP9",
+      "label": "Marie Curie",
+      "type": "person",
+      "depth": 2,
+      "description": "A Polish-born physicist and chemist who pioneered the study of radioactivity and radiation protection.",
+      "importance": 8,
+      "fun_fact": "Marie Curie was the first woman to win a Nobel Prize and the first person to win two Nobel Prizes in different fields.",
+      "topic_slug": "radiation_protection",
+      "topic": "Radiation Protection"
+    },
+    {
+      "id": "radiation_protection__RP10",
+      "label": "Chernobyl Disaster",
+      "type": "event",
+      "depth": 2,
+      "description": "A catastrophic nuclear accident that occurred in 1986, highlighting the importance of radiation protection and nuclear safety.",
+      "importance": 9,
+      "fun_fact": "The Chernobyl disaster was the worst nuclear power plant accident in history, releasing large quantities of radioactive material into the environment.",
+      "topic_slug": "radiation_protection",
+      "topic": "Radiation Protection"
+    },
+    {
+      "id": "radiation_protection__RP11",
+      "label": "Radiation Therapy",
+      "type": "application",
+      "depth": 3,
+      "description": "The use of ionizing radiation to treat cancer and other diseases.",
+      "importance": 8,
+      "fun_fact": "Radiation therapy is a common treatment for many types of cancer, including breast, lung, and prostate cancer.",
+      "topic_slug": "radiation_protection",
+      "topic": "Radiation Protection"
+    },
+    {
+      "id": "radiation_protection__RP12",
+      "label": "Nuclear Medicine",
+      "type": "application",
+      "depth": 3,
+      "description": "The use of radioactive substances to diagnose and treat diseases.",
+      "importance": 8,
+      "fun_fact": "Nuclear medicine is used to diagnose a wide range of conditions, including cancer, cardiovascular disease, and neurological disorders.",
+      "topic_slug": "radiation_protection",
+      "topic": "Radiation Protection"
+    },
+    {
+      "id": "radiation_protection__RP13",
+      "label": "Radiation Protection in Space Exploration",
+      "type": "application",
+      "depth": 3,
+      "description": "The use of radiation protection measures to protect astronauts and spacecraft from the harmful effects of space radiation.",
+      "importance": 8,
+      "fun_fact": "Space radiation is a major concern for deep space missions, as it can cause damage to both humans and electronic systems.",
+      "topic_slug": "radiation_protection",
+      "topic": "Radiation Protection"
+    },
+    {
+      "id": "radiation_protection__RP14",
+      "label": "Radiation Protection in Medical Imaging",
+      "type": "application",
+      "depth": 3,
+      "description": "The use of radiation protection measures to minimize the risk of radiation exposure to patients and medical staff during medical imaging procedures.",
+      "importance": 8,
+      "fun_fact": "Medical imaging procedures, such as CT scans and X-rays, use ionizing radiation to produce images of the body.",
+      "topic_slug": "radiation_protection",
+      "topic": "Radiation Protection"
+    },
+    {
+      "id": "radiation_protection__RP15",
+      "label": "Radiation Protection Regulations",
+      "type": "concept",
+      "depth": 3,
+      "description": "Laws and guidelines that govern the use of radiation and radiation protection in various industries and applications.",
+      "importance": 8,
+      "fun_fact": "Radiation protection regulations are enforced by government agencies and international organizations to ensure public safety.",
+      "topic_slug": "radiation_protection",
+      "topic": "Radiation Protection"
     }
   ],
   "global_edges": [
@@ -11780,6 +11954,132 @@
       "relation": "is_part_of",
       "strength": 8,
       "topic": "Soil Science"
+    },
+    {
+      "source": "radiation_protection__RP1",
+      "target": "radiation_protection__RP2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Radiation Protection"
+    },
+    {
+      "source": "radiation_protection__RP1",
+      "target": "radiation_protection__RP3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Radiation Protection"
+    },
+    {
+      "source": "radiation_protection__RP1",
+      "target": "radiation_protection__RP4",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Radiation Protection"
+    },
+    {
+      "source": "radiation_protection__RP1",
+      "target": "radiation_protection__RP5",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Radiation Protection"
+    },
+    {
+      "source": "radiation_protection__RP1",
+      "target": "radiation_protection__RP6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Radiation Protection"
+    },
+    {
+      "source": "radiation_protection__RP2",
+      "target": "radiation_protection__RP7",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Radiation Protection"
+    },
+    {
+      "source": "radiation_protection__RP3",
+      "target": "radiation_protection__RP8",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Radiation Protection"
+    },
+    {
+      "source": "radiation_protection__RP4",
+      "target": "radiation_protection__RP9",
+      "relation": "used_in",
+      "strength": 7,
+      "topic": "Radiation Protection"
+    },
+    {
+      "source": "radiation_protection__RP5",
+      "target": "radiation_protection__RP10",
+      "relation": "contrasts_with",
+      "strength": 7,
+      "topic": "Radiation Protection"
+    },
+    {
+      "source": "radiation_protection__RP6",
+      "target": "radiation_protection__RP11",
+      "relation": "enables",
+      "strength": 7,
+      "topic": "Radiation Protection"
+    },
+    {
+      "source": "radiation_protection__RP7",
+      "target": "radiation_protection__RP12",
+      "relation": "used_in",
+      "strength": 7,
+      "topic": "Radiation Protection"
+    },
+    {
+      "source": "radiation_protection__RP8",
+      "target": "radiation_protection__RP13",
+      "relation": "depends_on",
+      "strength": 7,
+      "topic": "Radiation Protection"
+    },
+    {
+      "source": "radiation_protection__RP9",
+      "target": "radiation_protection__RP14",
+      "relation": "evolved_from",
+      "strength": 6,
+      "topic": "Radiation Protection"
+    },
+    {
+      "source": "radiation_protection__RP10",
+      "target": "radiation_protection__RP15",
+      "relation": "leads_to",
+      "strength": 6,
+      "topic": "Radiation Protection"
+    },
+    {
+      "source": "radiation_protection__RP11",
+      "target": "radiation_protection__RP12",
+      "relation": "related_to",
+      "strength": 6,
+      "topic": "Radiation Protection"
+    },
+    {
+      "source": "radiation_protection__RP13",
+      "target": "radiation_protection__RP14",
+      "relation": "contrasts_with",
+      "strength": 5,
+      "topic": "Radiation Protection"
+    },
+    {
+      "source": "radiation_protection__RP14",
+      "target": "radiation_protection__RP15",
+      "relation": "depends_on",
+      "strength": 5,
+      "topic": "Radiation Protection"
+    },
+    {
+      "source": "radiation_protection__RP15",
+      "target": "radiation_protection__RP1",
+      "relation": "is_part_of",
+      "strength": 5,
+      "topic": "Radiation Protection"
     }
   ],
   "cross_topic_edges": [
@@ -11994,6 +12294,13 @@
       "label": "biomechanics"
     },
     {
+      "source": "radiation_oncology__N3",
+      "target": "radiation_protection__RP11",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "radiation therapy"
+    },
+    {
       "source": "archaeology__N4",
       "target": "anthropology__N14",
       "relation": "cross_topic_connection",
@@ -12048,7 +12355,8 @@
     ],
     "physics": [
       "sustainable_energy",
-      "geophysics"
+      "geophysics",
+      "radiation_protection"
     ],
     "computer_science": [
       "artificial_intelligence",
@@ -12082,5 +12390,5 @@
       "anthropology"
     ]
   },
-  "last_updated": "2026-07-05T20:21:20.369635"
+  "last_updated": "2026-07-06T12:28:21.161004"
 }
