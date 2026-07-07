@@ -1,0 +1,161 @@
+{
+  "topic": "Cognitive Psychology",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary focus of cognitive psychology?",
+      "options": {
+        "A": "The study of human behavior",
+        "B": "The scientific study of human mental processes",
+        "C": "The analysis of environmental factors",
+        "D": "The examination of social interactions"
+      },
+      "correct": "B",
+      "explanation": "Cognitive psychology is the scientific study of human mental processes, such as attention, language use, memory, perception, problem solving, creativity, and reasoning.",
+      "node_id": "Cognitive Psychology",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which of the following is a crucial aspect of human cognition that allows us to filter out irrelevant information and focus on what is important?",
+      "options": {
+        "A": "Memory",
+        "B": "Language processing",
+        "C": "Decision making",
+        "D": "Attention"
+      },
+      "correct": "D",
+      "explanation": "Attention is a crucial aspect of human cognition, as it allows us to filter out irrelevant information and focus on what is important.",
+      "node_id": "Attention",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the name of the theoretical framework that proposes a hierarchical structure for human cognition?",
+      "options": {
+        "A": "Dual-process models",
+        "B": "Hierarchical scaffolding",
+        "C": "Cognitive science",
+        "D": "Linguistics"
+      },
+      "correct": "B",
+      "explanation": "Hierarchical scaffolding is a theoretical framework that proposes a hierarchical structure for human cognition.",
+      "node_id": "Hierarchical Scaffolding",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "Which of the following is an important aspect of cognitive psychology?",
+      "options": {
+        "A": "Emotional intelligence",
+        "B": "Social psychology",
+        "C": "Neuroscience",
+        "D": "All of the above"
+      },
+      "correct": "A",
+      "explanation": "Emotional intelligence is an important aspect of cognitive psychology, as it allows us to recognize and understand emotions in oneself and others.",
+      "node_id": "Emotional Intelligence",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Who is a prominent cognitive psychologist known for his work on the ACT-R theory?",
+      "options": {
+        "A": "John R. Anderson",
+        "B": "Ulric Neisser",
+        "C": "Daniel Kahneman",
+        "D": "Amos Tversky"
+      },
+      "correct": "A",
+      "explanation": "John R. Anderson is a prominent cognitive psychologist known for his work on the ACT-R theory, which is a cognitive architecture that simulates human cognition.",
+      "node_id": "John R. Anderson",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the name of the interdisciplinary field that combines cognitive psychology, computer science, and philosophy?",
+      "options": {
+        "A": "Cognitive science",
+        "B": "Artificial intelligence",
+        "C": "Human-computer interaction",
+        "D": "Neuroscience"
+      },
+      "correct": "A",
+      "explanation": "Cognitive science is an interdisciplinary field that combines cognitive psychology, computer science, and philosophy.",
+      "node_id": "Cognitive Science",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which of the following is a complex process that involves multiple brain regions and can be influenced by various factors, such as emotions and attention?",
+      "options": {
+        "A": "Language processing",
+        "B": "Decision making",
+        "C": "Memory",
+        "D": "Attention"
+      },
+      "correct": "C",
+      "explanation": "Memory is a complex process that involves multiple brain regions and can be influenced by various factors, such as emotions and attention.",
+      "node_id": "Memory",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What is the role of attention in human cognition, and how does it impact our ability to process information?",
+      "sample_answer": "Attention plays a crucial role in human cognition by allowing us to selectively focus on certain stimuli or information, filtering out irrelevant information and enabling us to process relevant information more efficiently.",
+      "keywords": [
+        "attention",
+        "information processing",
+        "filtering"
+      ],
+      "node_id": "Attention",
+      "points": 15
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Explain the concept of dual-process models in cognitive psychology, and provide an example of how they are applied in real-world scenarios.",
+      "sample_answer": "Dual-process models propose that the human mind operates in two distinct modes: a fast, intuitive mode and a slow, reflective mode. These models are applied in various fields, such as social psychology and decision making, to understand how people process information and make decisions.",
+      "keywords": [
+        "dual-process models",
+        "intuitive mode",
+        "reflective mode"
+      ],
+      "node_id": "Dual-Process Models",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the relationship between cognitive psychology and linguistics, and explain how cognitive psychology has influenced our understanding of language processing.",
+      "sample_answer": "Cognitive psychology and linguistics are closely related fields that study the mental processes involved in language processing. Cognitive psychology has influenced our understanding of language processing by providing insights into how people perceive, process, and produce language, and how language is represented in the mind.",
+      "keywords": [
+        "cognitive psychology",
+        "linguistics",
+        "language processing"
+      ],
+      "node_id": "Linguistics",
+      "points": 15
+    }
+  ]
+}

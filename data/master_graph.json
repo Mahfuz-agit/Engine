@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 42,
-  "total_nodes": 629,
-  "total_edges": 768,
+  "total_topics": 43,
+  "total_nodes": 644,
+  "total_edges": 788,
   "topics": [
     {
       "topic": "Climate Change",
@@ -381,6 +381,15 @@
       "edge_count": 18,
       "description": "Archaeoastronomy is the study of ancient cultures' understanding of astronomy and its impact on their societies. This field explores how ancient civilizations aligned their structures with celestial bodies and developed calendars based on astronomical observations. By examining the cultural symbolism and mythological influences of ancient cultures, archaeoastronomers can gain insights into the historical context and preservation of these ancient societies.",
       "added_at": "2026-07-07T10:34:16.784655"
+    },
+    {
+      "topic": "Cognitive Psychology",
+      "slug": "cognitive_psychology",
+      "category": "psychology",
+      "node_count": 15,
+      "edge_count": 20,
+      "description": "Cognitive psychology is the scientific study of human mental processes such as attention, language use, memory, perception, problem solving, creativity, and reasoning. It originated in the 1960s as a break from behaviorism and has since been integrated into various disciplines. Cognitive psychology aims to understand how humans process information and how this information is used to make decisions and interact with the environment.",
+      "added_at": "2026-07-07T19:17:06.511283"
     }
   ],
   "global_nodes": [
@@ -7302,6 +7311,171 @@
       "fun_fact": "Many ancient astronomical sites have been designated as UNESCO World Heritage Sites",
       "topic_slug": "archaeoastronomy_and_ancient_cultures",
       "topic": "Archaeoastronomy and Ancient Cultures"
+    },
+    {
+      "id": "cognitive_psychology__N1",
+      "label": "Cognitive Psychology",
+      "type": "core",
+      "depth": 0,
+      "description": "The scientific study of human mental processes",
+      "importance": 10,
+      "fun_fact": "Cognitive psychology has been applied in various fields, including education, marketing, and artificial intelligence",
+      "topic_slug": "cognitive_psychology",
+      "topic": "Cognitive Psychology"
+    },
+    {
+      "id": "cognitive_psychology__N2",
+      "label": "Attention",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process of selectively focusing on certain stimuli or information",
+      "importance": 8,
+      "fun_fact": "Attention is a crucial aspect of human cognition, as it allows us to filter out irrelevant information and focus on what is important",
+      "topic_slug": "cognitive_psychology",
+      "topic": "Cognitive Psychology"
+    },
+    {
+      "id": "cognitive_psychology__N3",
+      "label": "Memory",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process of encoding, storing, and retrieving information",
+      "importance": 9,
+      "fun_fact": "Memory is a complex process that involves multiple brain regions and can be influenced by various factors, such as emotions and attention",
+      "topic_slug": "cognitive_psychology",
+      "topic": "Cognitive Psychology"
+    },
+    {
+      "id": "cognitive_psychology__N4",
+      "label": "Language Processing",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process of understanding and producing language",
+      "importance": 8,
+      "fun_fact": "Language processing is a critical aspect of human cognition, as it allows us to communicate with others and convey complex ideas",
+      "topic_slug": "cognitive_psychology",
+      "topic": "Cognitive Psychology"
+    },
+    {
+      "id": "cognitive_psychology__N5",
+      "label": "Decision Making",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process of selecting a course of action from multiple options",
+      "importance": 9,
+      "fun_fact": "Decision making is a complex process that involves multiple cognitive biases and heuristics",
+      "topic_slug": "cognitive_psychology",
+      "topic": "Cognitive Psychology"
+    },
+    {
+      "id": "cognitive_psychology__N6",
+      "label": "Emotional Intelligence",
+      "type": "concept",
+      "depth": 1,
+      "description": "The ability to recognize and understand emotions in oneself and others",
+      "importance": 8,
+      "fun_fact": "Emotional intelligence is a critical aspect of human cognition, as it allows us to navigate social situations and build strong relationships",
+      "topic_slug": "cognitive_psychology",
+      "topic": "Cognitive Psychology"
+    },
+    {
+      "id": "cognitive_psychology__N7",
+      "label": "John R. Anderson",
+      "type": "person",
+      "depth": 2,
+      "description": "A prominent cognitive psychologist who has made significant contributions to the field",
+      "importance": 7,
+      "fun_fact": "John R. Anderson is known for his work on the ACT-R theory, which is a cognitive architecture that simulates human cognition",
+      "topic_slug": "cognitive_psychology",
+      "topic": "Cognitive Psychology"
+    },
+    {
+      "id": "cognitive_psychology__N8",
+      "label": "Dual-Process Models",
+      "type": "concept",
+      "depth": 2,
+      "description": "Theoretical models that propose two distinct processing modes in the human mind",
+      "importance": 8,
+      "fun_fact": "Dual-process models have been applied in various fields, including social psychology and decision making",
+      "topic_slug": "cognitive_psychology",
+      "topic": "Cognitive Psychology"
+    },
+    {
+      "id": "cognitive_psychology__N9",
+      "label": "Thematic Analysis",
+      "type": "application",
+      "depth": 2,
+      "description": "A qualitative research method used to analyze and identify patterns in data",
+      "importance": 6,
+      "fun_fact": "Thematic analysis is commonly used in psychology and social sciences to analyze text data",
+      "topic_slug": "cognitive_psychology",
+      "topic": "Cognitive Psychology"
+    },
+    {
+      "id": "cognitive_psychology__N10",
+      "label": "Indigenous Language Revival",
+      "type": "example",
+      "depth": 3,
+      "description": "A real-world application of cognitive psychology in language learning and cultural preservation",
+      "importance": 5,
+      "fun_fact": "Indigenous language revival is a critical aspect of cultural preservation, as it allows communities to maintain their linguistic and cultural heritage",
+      "topic_slug": "cognitive_psychology",
+      "topic": "Cognitive Psychology"
+    },
+    {
+      "id": "cognitive_psychology__N11",
+      "label": "Hierarchical Scaffolding",
+      "type": "concept",
+      "depth": 2,
+      "description": "A theoretical framework that proposes a hierarchical structure for human cognition",
+      "importance": 8,
+      "fun_fact": "Hierarchical scaffolding has been applied in various fields, including artificial intelligence and machine learning",
+      "topic_slug": "cognitive_psychology",
+      "topic": "Cognitive Psychology"
+    },
+    {
+      "id": "cognitive_psychology__N12",
+      "label": "Behaviorism",
+      "type": "concept",
+      "depth": 2,
+      "description": "A historical psychological theory that focused on observable behavior",
+      "importance": 6,
+      "fun_fact": "Behaviorism was a dominant psychological theory in the early 20th century, but it was later replaced by cognitive psychology",
+      "topic_slug": "cognitive_psychology",
+      "topic": "Cognitive Psychology"
+    },
+    {
+      "id": "cognitive_psychology__N13",
+      "label": "Cognitive Science",
+      "type": "application",
+      "depth": 2,
+      "description": "An interdisciplinary field that combines cognitive psychology, computer science, and philosophy",
+      "importance": 8,
+      "fun_fact": "Cognitive science has led to significant advances in artificial intelligence, human-computer interaction, and neuroscience",
+      "topic_slug": "cognitive_psychology",
+      "topic": "Cognitive Psychology"
+    },
+    {
+      "id": "cognitive_psychology__N14",
+      "label": "Linguistics",
+      "type": "application",
+      "depth": 2,
+      "description": "The scientific study of language structure, properties, and usage",
+      "importance": 7,
+      "fun_fact": "Linguistics has been influenced by cognitive psychology, as it seeks to understand how humans process and produce language",
+      "topic_slug": "cognitive_psychology",
+      "topic": "Cognitive Psychology"
+    },
+    {
+      "id": "cognitive_psychology__N15",
+      "label": "Cybernetics",
+      "type": "concept",
+      "depth": 2,
+      "description": "The study of control and communication in machines and living beings",
+      "importance": 6,
+      "fun_fact": "Cybernetics has been influential in the development of cognitive psychology, as it seeks to understand how systems process and respond to information",
+      "topic_slug": "cognitive_psychology",
+      "topic": "Cognitive Psychology"
     }
   ],
   "global_edges": [
@@ -12680,6 +12854,146 @@
       "relation": "related_to",
       "strength": 4,
       "topic": "Archaeoastronomy and Ancient Cultures"
+    },
+    {
+      "source": "cognitive_psychology__N1",
+      "target": "cognitive_psychology__N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Cognitive Psychology"
+    },
+    {
+      "source": "cognitive_psychology__N1",
+      "target": "cognitive_psychology__N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Cognitive Psychology"
+    },
+    {
+      "source": "cognitive_psychology__N1",
+      "target": "cognitive_psychology__N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Cognitive Psychology"
+    },
+    {
+      "source": "cognitive_psychology__N1",
+      "target": "cognitive_psychology__N5",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Cognitive Psychology"
+    },
+    {
+      "source": "cognitive_psychology__N1",
+      "target": "cognitive_psychology__N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Cognitive Psychology"
+    },
+    {
+      "source": "cognitive_psychology__N2",
+      "target": "cognitive_psychology__N7",
+      "relation": "related_to",
+      "strength": 6,
+      "topic": "Cognitive Psychology"
+    },
+    {
+      "source": "cognitive_psychology__N3",
+      "target": "cognitive_psychology__N8",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Cognitive Psychology"
+    },
+    {
+      "source": "cognitive_psychology__N4",
+      "target": "cognitive_psychology__N9",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Cognitive Psychology"
+    },
+    {
+      "source": "cognitive_psychology__N5",
+      "target": "cognitive_psychology__N10",
+      "relation": "enables",
+      "strength": 5,
+      "topic": "Cognitive Psychology"
+    },
+    {
+      "source": "cognitive_psychology__N6",
+      "target": "cognitive_psychology__N11",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Cognitive Psychology"
+    },
+    {
+      "source": "cognitive_psychology__N1",
+      "target": "cognitive_psychology__N12",
+      "relation": "evolved_from",
+      "strength": 6,
+      "topic": "Cognitive Psychology"
+    },
+    {
+      "source": "cognitive_psychology__N1",
+      "target": "cognitive_psychology__N13",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Cognitive Psychology"
+    },
+    {
+      "source": "cognitive_psychology__N1",
+      "target": "cognitive_psychology__N14",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Cognitive Psychology"
+    },
+    {
+      "source": "cognitive_psychology__N1",
+      "target": "cognitive_psychology__N15",
+      "relation": "related_to",
+      "strength": 6,
+      "topic": "Cognitive Psychology"
+    },
+    {
+      "source": "cognitive_psychology__N7",
+      "target": "cognitive_psychology__N8",
+      "relation": "discovered_by",
+      "strength": 7,
+      "topic": "Cognitive Psychology"
+    },
+    {
+      "source": "cognitive_psychology__N9",
+      "target": "cognitive_psychology__N10",
+      "relation": "used_in",
+      "strength": 5,
+      "topic": "Cognitive Psychology"
+    },
+    {
+      "source": "cognitive_psychology__N11",
+      "target": "cognitive_psychology__N13",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Cognitive Psychology"
+    },
+    {
+      "source": "cognitive_psychology__N12",
+      "target": "cognitive_psychology__N1",
+      "relation": "contrasts_with",
+      "strength": 6,
+      "topic": "Cognitive Psychology"
+    },
+    {
+      "source": "cognitive_psychology__N14",
+      "target": "cognitive_psychology__N1",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Cognitive Psychology"
+    },
+    {
+      "source": "cognitive_psychology__N15",
+      "target": "cognitive_psychology__N1",
+      "relation": "related_to",
+      "strength": 6,
+      "topic": "Cognitive Psychology"
     }
   ],
   "cross_topic_edges": [
@@ -12986,7 +13300,8 @@
       "biodiversity"
     ],
     "psychology": [
-      "neuroplasticity"
+      "neuroplasticity",
+      "cognitive_psychology"
     ],
     "physics": [
       "sustainable_energy",
@@ -13027,5 +13342,5 @@
       "anthropology"
     ]
   },
-  "last_updated": "2026-07-07T10:34:16.784695"
+  "last_updated": "2026-07-07T19:17:06.511317"
 }

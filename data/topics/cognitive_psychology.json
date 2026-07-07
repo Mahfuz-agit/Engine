@@ -1,0 +1,394 @@
+{
+  "topic": "Cognitive Psychology",
+  "category": "psychology",
+  "description": "Cognitive psychology is the scientific study of human mental processes such as attention, language use, memory, perception, problem solving, creativity, and reasoning. It originated in the 1960s as a break from behaviorism and has since been integrated into various disciplines. Cognitive psychology aims to understand how humans process information and how this information is used to make decisions and interact with the environment.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Cognitive Psychology",
+      "type": "core",
+      "depth": 0,
+      "description": "The scientific study of human mental processes",
+      "importance": 10,
+      "fun_fact": "Cognitive psychology has been applied in various fields, including education, marketing, and artificial intelligence"
+    },
+    {
+      "id": "N2",
+      "label": "Attention",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process of selectively focusing on certain stimuli or information",
+      "importance": 8,
+      "fun_fact": "Attention is a crucial aspect of human cognition, as it allows us to filter out irrelevant information and focus on what is important"
+    },
+    {
+      "id": "N3",
+      "label": "Memory",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process of encoding, storing, and retrieving information",
+      "importance": 9,
+      "fun_fact": "Memory is a complex process that involves multiple brain regions and can be influenced by various factors, such as emotions and attention"
+    },
+    {
+      "id": "N4",
+      "label": "Language Processing",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process of understanding and producing language",
+      "importance": 8,
+      "fun_fact": "Language processing is a critical aspect of human cognition, as it allows us to communicate with others and convey complex ideas"
+    },
+    {
+      "id": "N5",
+      "label": "Decision Making",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process of selecting a course of action from multiple options",
+      "importance": 9,
+      "fun_fact": "Decision making is a complex process that involves multiple cognitive biases and heuristics"
+    },
+    {
+      "id": "N6",
+      "label": "Emotional Intelligence",
+      "type": "concept",
+      "depth": 1,
+      "description": "The ability to recognize and understand emotions in oneself and others",
+      "importance": 8,
+      "fun_fact": "Emotional intelligence is a critical aspect of human cognition, as it allows us to navigate social situations and build strong relationships"
+    },
+    {
+      "id": "N7",
+      "label": "John R. Anderson",
+      "type": "person",
+      "depth": 2,
+      "description": "A prominent cognitive psychologist who has made significant contributions to the field",
+      "importance": 7,
+      "fun_fact": "John R. Anderson is known for his work on the ACT-R theory, which is a cognitive architecture that simulates human cognition"
+    },
+    {
+      "id": "N8",
+      "label": "Dual-Process Models",
+      "type": "concept",
+      "depth": 2,
+      "description": "Theoretical models that propose two distinct processing modes in the human mind",
+      "importance": 8,
+      "fun_fact": "Dual-process models have been applied in various fields, including social psychology and decision making"
+    },
+    {
+      "id": "N9",
+      "label": "Thematic Analysis",
+      "type": "application",
+      "depth": 2,
+      "description": "A qualitative research method used to analyze and identify patterns in data",
+      "importance": 6,
+      "fun_fact": "Thematic analysis is commonly used in psychology and social sciences to analyze text data"
+    },
+    {
+      "id": "N10",
+      "label": "Indigenous Language Revival",
+      "type": "example",
+      "depth": 3,
+      "description": "A real-world application of cognitive psychology in language learning and cultural preservation",
+      "importance": 5,
+      "fun_fact": "Indigenous language revival is a critical aspect of cultural preservation, as it allows communities to maintain their linguistic and cultural heritage"
+    },
+    {
+      "id": "N11",
+      "label": "Hierarchical Scaffolding",
+      "type": "concept",
+      "depth": 2,
+      "description": "A theoretical framework that proposes a hierarchical structure for human cognition",
+      "importance": 8,
+      "fun_fact": "Hierarchical scaffolding has been applied in various fields, including artificial intelligence and machine learning"
+    },
+    {
+      "id": "N12",
+      "label": "Behaviorism",
+      "type": "concept",
+      "depth": 2,
+      "description": "A historical psychological theory that focused on observable behavior",
+      "importance": 6,
+      "fun_fact": "Behaviorism was a dominant psychological theory in the early 20th century, but it was later replaced by cognitive psychology"
+    },
+    {
+      "id": "N13",
+      "label": "Cognitive Science",
+      "type": "application",
+      "depth": 2,
+      "description": "An interdisciplinary field that combines cognitive psychology, computer science, and philosophy",
+      "importance": 8,
+      "fun_fact": "Cognitive science has led to significant advances in artificial intelligence, human-computer interaction, and neuroscience"
+    },
+    {
+      "id": "N14",
+      "label": "Linguistics",
+      "type": "application",
+      "depth": 2,
+      "description": "The scientific study of language structure, properties, and usage",
+      "importance": 7,
+      "fun_fact": "Linguistics has been influenced by cognitive psychology, as it seeks to understand how humans process and produce language"
+    },
+    {
+      "id": "N15",
+      "label": "Cybernetics",
+      "type": "concept",
+      "depth": 2,
+      "description": "The study of control and communication in machines and living beings",
+      "importance": 6,
+      "fun_fact": "Cybernetics has been influential in the development of cognitive psychology, as it seeks to understand how systems process and respond to information"
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Attention is a fundamental aspect of cognitive psychology"
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Memory is a critical component of cognitive psychology"
+    },
+    {
+      "source": "N1",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Language processing is an essential aspect of cognitive psychology"
+    },
+    {
+      "source": "N1",
+      "target": "N5",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Decision making is a key aspect of cognitive psychology"
+    },
+    {
+      "source": "N1",
+      "target": "N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Emotional intelligence is an important aspect of cognitive psychology"
+    },
+    {
+      "source": "N2",
+      "target": "N7",
+      "relation": "related_to",
+      "strength": 6,
+      "description": "John R. Anderson's work on attention is influential in cognitive psychology"
+    },
+    {
+      "source": "N3",
+      "target": "N8",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "Memory research has led to the development of dual-process models"
+    },
+    {
+      "source": "N4",
+      "target": "N9",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "Thematic analysis is used in language processing research"
+    },
+    {
+      "source": "N5",
+      "target": "N10",
+      "relation": "enables",
+      "strength": 5,
+      "description": "Decision making is critical in indigenous language revival"
+    },
+    {
+      "source": "N6",
+      "target": "N11",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "Emotional intelligence is related to hierarchical scaffolding"
+    },
+    {
+      "source": "N1",
+      "target": "N12",
+      "relation": "evolved_from",
+      "strength": 6,
+      "description": "Cognitive psychology evolved from behaviorism"
+    },
+    {
+      "source": "N1",
+      "target": "N13",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Cognitive psychology is used in cognitive science"
+    },
+    {
+      "source": "N1",
+      "target": "N14",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "Cognitive psychology is related to linguistics"
+    },
+    {
+      "source": "N1",
+      "target": "N15",
+      "relation": "related_to",
+      "strength": 6,
+      "description": "Cognitive psychology is related to cybernetics"
+    },
+    {
+      "source": "N7",
+      "target": "N8",
+      "relation": "discovered_by",
+      "strength": 7,
+      "description": "John R. Anderson discovered dual-process models"
+    },
+    {
+      "source": "N9",
+      "target": "N10",
+      "relation": "used_in",
+      "strength": 5,
+      "description": "Thematic analysis is used in indigenous language revival"
+    },
+    {
+      "source": "N11",
+      "target": "N13",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Hierarchical scaffolding is used in cognitive science"
+    },
+    {
+      "source": "N12",
+      "target": "N1",
+      "relation": "contrasts_with",
+      "strength": 6,
+      "description": "Behaviorism contrasts with cognitive psychology"
+    },
+    {
+      "source": "N14",
+      "target": "N1",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "Linguistics is related to cognitive psychology"
+    },
+    {
+      "source": "N15",
+      "target": "N1",
+      "relation": "related_to",
+      "strength": 6,
+      "description": "Cybernetics is related to cognitive psychology"
+    }
+  ],
+  "key_takeaways": [
+    "Cognitive psychology is the scientific study of human mental processes",
+    "Attention, memory, language processing, decision making, and emotional intelligence are all important aspects of cognitive psychology",
+    "Cognitive psychology has been applied in various fields, including education, marketing, and artificial intelligence"
+  ],
+  "real_world_impact": "Cognitive psychology has had a significant impact on our understanding of human behavior and has been applied in various fields, including education, marketing, and artificial intelligence. For example, cognitive psychology has been used to develop more effective learning strategies, improve decision making, and create more human-like artificial intelligence. Additionally, cognitive psychology has been used to understand and address various social issues, such as language preservation and cultural revitalization. Overall, cognitive psychology has the potential to improve our understanding of human behavior and to develop more effective solutions to real-world problems.",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/An_Introduction_to_Mind%2C_Language_and_Cognitive_Science.jpg",
+      "title": "An Introduction to Mind, Language and Cognitive Science.jpg",
+      "license": "CC0",
+      "artist": "Or.taheri",
+      "description": "For those whom interested in Cognitive Science, Psychology, Language and Logic.",
+      "width": 1831,
+      "height": 2809,
+      "source_query": "Cognitive Psychology"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/CognitiveDissonanceDiagram.jpg",
+      "title": "CognitiveDissonanceDiagram.jpg",
+      "license": "CC BY-SA 3.0",
+      "artist": "Tesseract2",
+      "description": "A diagram of cognitive dissonance theory. Dissonance reduction can be accomplished in various ways, broadly including the addition of more, consonant elements, or else changing the existing elements.",
+      "width": 1024,
+      "height": 779,
+      "source_query": "Cognitive Psychology"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/CognitivePsychology.svg",
+      "title": "CognitivePsychology.svg",
+      "license": "Public domain",
+      "artist": "Jtneill",
+      "description": "The domain of cognitive psychology focuses on study of higher mental functions with particular emphasis on the ways in which people acquire knowledge and use it to shape and understand their experience in the world. Based on Figure 8.1 in Gerrig, R. J., Zimbardo, P. G., Campbell, A. J., Cumming, S. ",
+      "width": 1052,
+      "height": 744,
+      "source_query": "Cognitive Psychology"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Cognitive_Bias_Codex-sp.svg",
+      "title": "Cognitive Bias Codex-sp.svg",
+      "license": "CC BY 4.0",
+      "artist": "BiblioMorphosis",
+      "description": "El C\u00f3digo de los Sesgos Cognitivos",
+      "width": 1900,
+      "height": 1500,
+      "source_query": "Cognitive Psychology"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Cognitive_VS._Biological.jpg",
+      "title": "Cognitive VS. Biological.jpg",
+      "license": "CC BY-SA 3.0",
+      "artist": "Jodie Veitch",
+      "description": "Cognitive VS. Biological debate diagram.",
+      "width": 4233,
+      "height": 1987,
+      "source_query": "Cognitive Psychology"
+    }
+  ],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Cognitive_psychology",
+    "papers": [
+      {
+        "title": "Cognitive Psychology and Its Implications",
+        "url": null
+      },
+      {
+        "title": "Using thematic analysis in psychology",
+        "url": "https://doi.org/10.1191/1478088706qp063oa"
+      },
+      {
+        "title": "Dual-Process Models in Social and Cognitive Psychology: Conceptual Integration and Links to Underlying Memory Systems",
+        "url": "https://doi.org/10.1207/s15327957pspr0402_01"
+      }
+    ],
+    "news": [
+      {
+        "title": "Hierarchical Scaffolding Enables Human-Like Cognitive Selectivity under Data Scarcity",
+        "url": "https://arxiv.org/abs/2607.04709"
+      }
+    ]
+  },
+  "quality": {
+    "structural": {
+      "score": 100,
+      "issues": [],
+      "node_count": 15,
+      "edge_count": 20
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Perception",
+        "Learning"
+      ],
+      "strengths": [
+        "covers key aspects of cognitive psychology",
+        "includes relevant applications and related fields"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 92.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}
