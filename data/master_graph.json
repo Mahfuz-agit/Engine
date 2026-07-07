@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 43,
-  "total_nodes": 644,
-  "total_edges": 788,
+  "total_topics": 44,
+  "total_nodes": 659,
+  "total_edges": 806,
   "topics": [
     {
       "topic": "Climate Change",
@@ -390,6 +390,15 @@
       "edge_count": 20,
       "description": "Cognitive psychology is the scientific study of human mental processes such as attention, language use, memory, perception, problem solving, creativity, and reasoning. It originated in the 1960s as a break from behaviorism and has since been integrated into various disciplines. Cognitive psychology aims to understand how humans process information and how this information is used to make decisions and interact with the environment.",
       "added_at": "2026-07-07T19:17:06.511283"
+    },
+    {
+      "topic": "Human Nutrition",
+      "slug": "human_nutrition",
+      "category": "biology",
+      "node_count": 15,
+      "edge_count": 18,
+      "description": "Human nutrition deals with the provision of essential nutrients in food necessary to support human life and good health. Poor nutrition is a chronic problem often linked to poverty, food security, or a poor understanding of nutritional requirements. Good nutrition is necessary for children to grow physically and mentally, and for normal human biological development.",
+      "added_at": "2026-07-07T23:31:36.754417"
     }
   ],
   "global_nodes": [
@@ -7476,6 +7485,171 @@
       "fun_fact": "Cybernetics has been influential in the development of cognitive psychology, as it seeks to understand how systems process and respond to information",
       "topic_slug": "cognitive_psychology",
       "topic": "Cognitive Psychology"
+    },
+    {
+      "id": "human_nutrition__HN1",
+      "label": "Human Nutrition",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of the provision of essential nutrients in food necessary to support human life and good health.",
+      "importance": 10,
+      "fun_fact": "The concept of human nutrition has been studied for thousands of years, dating back to ancient civilizations such as Greece and Rome.",
+      "topic_slug": "human_nutrition",
+      "topic": "Human Nutrition"
+    },
+    {
+      "id": "human_nutrition__HN2",
+      "label": "Macronutrients",
+      "type": "concept",
+      "depth": 1,
+      "description": "Carbohydrates, proteins, and fats that provide energy and support growth and maintenance of body tissues.",
+      "importance": 9,
+      "fun_fact": "The recommended daily intake of macronutrients varies based on factors such as age, sex, and physical activity level.",
+      "topic_slug": "human_nutrition",
+      "topic": "Human Nutrition"
+    },
+    {
+      "id": "human_nutrition__HN3",
+      "label": "Micronutrients",
+      "type": "concept",
+      "depth": 1,
+      "description": "Vitamins and minerals that are essential for maintaining good health and preventing diseases.",
+      "importance": 9,
+      "fun_fact": "Micronutrient deficiencies can have severe health consequences, such as scurvy from vitamin C deficiency or rickets from vitamin D deficiency.",
+      "topic_slug": "human_nutrition",
+      "topic": "Human Nutrition"
+    },
+    {
+      "id": "human_nutrition__HN4",
+      "label": "Digestive System",
+      "type": "concept",
+      "depth": 1,
+      "description": "The system responsible for breaking down food into nutrients that can be absorbed and utilized by the body.",
+      "importance": 9,
+      "fun_fact": "The digestive system is home to trillions of microorganisms that play a crucial role in nutrient absorption and immune system function.",
+      "topic_slug": "human_nutrition",
+      "topic": "Human Nutrition"
+    },
+    {
+      "id": "human_nutrition__HN5",
+      "label": "Nutrient Deficiency Diseases",
+      "type": "concept",
+      "depth": 2,
+      "description": "Diseases that occur due to a lack of essential nutrients, such as scurvy, rickets, and beriberi.",
+      "importance": 8,
+      "fun_fact": "Nutrient deficiency diseases can be prevented by consuming a balanced diet that includes a variety of whole foods.",
+      "topic_slug": "human_nutrition",
+      "topic": "Human Nutrition"
+    },
+    {
+      "id": "human_nutrition__HN6",
+      "label": "Nutrition and Chronic Diseases",
+      "type": "concept",
+      "depth": 2,
+      "description": "The relationship between nutrition and the development of chronic diseases, such as heart disease, diabetes, and certain types of cancer.",
+      "importance": 9,
+      "fun_fact": "A healthy diet can help prevent or manage chronic diseases, while a poor diet can increase the risk of developing these conditions.",
+      "topic_slug": "human_nutrition",
+      "topic": "Human Nutrition"
+    },
+    {
+      "id": "human_nutrition__HN7",
+      "label": "Justus von Liebig",
+      "type": "person",
+      "depth": 2,
+      "description": "A German chemist who is considered the founder of organic chemistry and made significant contributions to the field of human nutrition.",
+      "importance": 8,
+      "fun_fact": "Liebig's work on the composition of food and the importance of nutrients laid the foundation for modern nutrition science.",
+      "topic_slug": "human_nutrition",
+      "topic": "Human Nutrition"
+    },
+    {
+      "id": "human_nutrition__HN8",
+      "label": "Elmer McCollum",
+      "type": "person",
+      "depth": 2,
+      "description": "An American biochemist who discovered vitamins A and D and made significant contributions to the field of human nutrition.",
+      "importance": 8,
+      "fun_fact": "McCollum's work on vitamins helped establish the importance of these nutrients in maintaining good health.",
+      "topic_slug": "human_nutrition",
+      "topic": "Human Nutrition"
+    },
+    {
+      "id": "human_nutrition__HN9",
+      "label": "WHO",
+      "type": "organization",
+      "depth": 2,
+      "description": "The World Health Organization, which plays a critical role in promoting good nutrition and preventing nutrient deficiency diseases worldwide.",
+      "importance": 9,
+      "fun_fact": "The WHO has developed global nutrition targets and guidelines to help countries improve their nutrition policies and programs.",
+      "topic_slug": "human_nutrition",
+      "topic": "Human Nutrition"
+    },
+    {
+      "id": "human_nutrition__HN10",
+      "label": "Food Security",
+      "type": "concept",
+      "depth": 2,
+      "description": "The availability and accessibility of sufficient, safe, and nutritious food to meet the dietary needs of all people.",
+      "importance": 9,
+      "fun_fact": "Food insecurity can have severe health consequences, including malnutrition and related diseases.",
+      "topic_slug": "human_nutrition",
+      "topic": "Human Nutrition"
+    },
+    {
+      "id": "human_nutrition__HN11",
+      "label": "Malnutrition",
+      "type": "concept",
+      "depth": 2,
+      "description": "A condition that occurs when the body does not receive the necessary nutrients to maintain good health.",
+      "importance": 9,
+      "fun_fact": "Malnutrition can be caused by a variety of factors, including poverty, food insecurity, and poor dietary habits.",
+      "topic_slug": "human_nutrition",
+      "topic": "Human Nutrition"
+    },
+    {
+      "id": "human_nutrition__HN12",
+      "label": "Nutrition Education",
+      "type": "application",
+      "depth": 3,
+      "description": "The process of teaching people about the importance of good nutrition and how to make healthy food choices.",
+      "importance": 8,
+      "fun_fact": "Nutrition education can be an effective way to promote healthy eating habits and prevent nutrition-related diseases.",
+      "topic_slug": "human_nutrition",
+      "topic": "Human Nutrition"
+    },
+    {
+      "id": "human_nutrition__HN13",
+      "label": "Food Fortification",
+      "type": "application",
+      "depth": 3,
+      "description": "The process of adding essential nutrients to food products to prevent nutrient deficiency diseases.",
+      "importance": 8,
+      "fun_fact": "Food fortification has been shown to be an effective way to improve nutrition and prevent diseases such as rickets and beriberi.",
+      "topic_slug": "human_nutrition",
+      "topic": "Human Nutrition"
+    },
+    {
+      "id": "human_nutrition__HN14",
+      "label": "Dietary Guidelines",
+      "type": "application",
+      "depth": 3,
+      "description": "Recommendations for healthy eating habits that are based on scientific evidence and designed to promote good health.",
+      "importance": 8,
+      "fun_fact": "Dietary guidelines can help people make informed food choices and reduce their risk of chronic diseases.",
+      "topic_slug": "human_nutrition",
+      "topic": "Human Nutrition"
+    },
+    {
+      "id": "human_nutrition__HN15",
+      "label": "Nutrition Research",
+      "type": "application",
+      "depth": 3,
+      "description": "The scientific study of the relationship between nutrition and health, including the effects of nutrients on the body and the prevention of diseases.",
+      "importance": 9,
+      "fun_fact": "Nutrition research has led to a greater understanding of the importance of good nutrition and the development of effective strategies for promoting healthy eating habits.",
+      "topic_slug": "human_nutrition",
+      "topic": "Human Nutrition"
     }
   ],
   "global_edges": [
@@ -12994,6 +13168,132 @@
       "relation": "related_to",
       "strength": 6,
       "topic": "Cognitive Psychology"
+    },
+    {
+      "source": "human_nutrition__HN1",
+      "target": "human_nutrition__HN2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Human Nutrition"
+    },
+    {
+      "source": "human_nutrition__HN1",
+      "target": "human_nutrition__HN3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Human Nutrition"
+    },
+    {
+      "source": "human_nutrition__HN1",
+      "target": "human_nutrition__HN4",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Human Nutrition"
+    },
+    {
+      "source": "human_nutrition__HN2",
+      "target": "human_nutrition__HN5",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Human Nutrition"
+    },
+    {
+      "source": "human_nutrition__HN3",
+      "target": "human_nutrition__HN5",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Human Nutrition"
+    },
+    {
+      "source": "human_nutrition__HN4",
+      "target": "human_nutrition__HN6",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Human Nutrition"
+    },
+    {
+      "source": "human_nutrition__HN7",
+      "target": "human_nutrition__HN1",
+      "relation": "discovered_by",
+      "strength": 8,
+      "topic": "Human Nutrition"
+    },
+    {
+      "source": "human_nutrition__HN8",
+      "target": "human_nutrition__HN1",
+      "relation": "discovered_by",
+      "strength": 8,
+      "topic": "Human Nutrition"
+    },
+    {
+      "source": "human_nutrition__HN9",
+      "target": "human_nutrition__HN1",
+      "relation": "used_in",
+      "strength": 9,
+      "topic": "Human Nutrition"
+    },
+    {
+      "source": "human_nutrition__HN10",
+      "target": "human_nutrition__HN1",
+      "relation": "related_to",
+      "strength": 9,
+      "topic": "Human Nutrition"
+    },
+    {
+      "source": "human_nutrition__HN11",
+      "target": "human_nutrition__HN1",
+      "relation": "related_to",
+      "strength": 9,
+      "topic": "Human Nutrition"
+    },
+    {
+      "source": "human_nutrition__HN12",
+      "target": "human_nutrition__HN1",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Human Nutrition"
+    },
+    {
+      "source": "human_nutrition__HN13",
+      "target": "human_nutrition__HN1",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Human Nutrition"
+    },
+    {
+      "source": "human_nutrition__HN14",
+      "target": "human_nutrition__HN1",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Human Nutrition"
+    },
+    {
+      "source": "human_nutrition__HN15",
+      "target": "human_nutrition__HN1",
+      "relation": "used_in",
+      "strength": 9,
+      "topic": "Human Nutrition"
+    },
+    {
+      "source": "human_nutrition__HN2",
+      "target": "human_nutrition__HN6",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Human Nutrition"
+    },
+    {
+      "source": "human_nutrition__HN3",
+      "target": "human_nutrition__HN6",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Human Nutrition"
+    },
+    {
+      "source": "human_nutrition__HN4",
+      "target": "human_nutrition__HN5",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Human Nutrition"
     }
   ],
   "cross_topic_edges": [
@@ -13257,6 +13557,13 @@
       "label": "anthropology"
     },
     {
+      "source": "food_security__N1",
+      "target": "human_nutrition__HN10",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "food security"
+    },
+    {
       "source": "food_security__N7",
       "target": "soil_science__precision_agriculture",
       "relation": "cross_topic_connection",
@@ -13297,7 +13604,8 @@
       "biophysics",
       "toxicology",
       "ethology",
-      "biodiversity"
+      "biodiversity",
+      "human_nutrition"
     ],
     "psychology": [
       "neuroplasticity",
@@ -13342,5 +13650,5 @@
       "anthropology"
     ]
   },
-  "last_updated": "2026-07-07T19:17:06.511317"
+  "last_updated": "2026-07-07T23:31:36.754450"
 }

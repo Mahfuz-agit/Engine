@@ -1,0 +1,174 @@
+{
+  "topic": "Human Nutrition",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary role of the digestive system in human nutrition?",
+      "options": {
+        "A": "To absorb and utilize nutrients from food",
+        "B": "To eliminate waste products from the body",
+        "C": "To produce hormones that regulate appetite",
+        "D": "To store energy for later use"
+      },
+      "correct": "A",
+      "explanation": "The digestive system plays a critical role in breaking down food into nutrients that can be absorbed and utilized by the body.",
+      "node_id": "Digestive System",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which of the following is an example of a micronutrient?",
+      "options": {
+        "A": "Carbohydrate",
+        "B": "Protein",
+        "C": "Vitamin C",
+        "D": "Fiber"
+      },
+      "correct": "C",
+      "explanation": "Vitamin C is an essential micronutrient that plays a crucial role in maintaining good health and preventing diseases.",
+      "node_id": "Micronutrients",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the relationship between nutrition and chronic diseases?",
+      "options": {
+        "A": "Poor nutrition always leads to chronic diseases",
+        "B": "Good nutrition has no impact on chronic diseases",
+        "C": "A healthy diet can help prevent or manage chronic diseases",
+        "D": "Chronic diseases are solely caused by genetic factors"
+      },
+      "correct": "C",
+      "explanation": "A healthy diet can help prevent or manage chronic diseases, while a poor diet can increase the risk of developing these conditions.",
+      "node_id": "Nutrition and Chronic Diseases",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "Who is considered the founder of organic chemistry and made significant contributions to the field of human nutrition?",
+      "options": {
+        "A": "Justus von Liebig",
+        "B": "Elmer McCollum",
+        "C": "Louis Pasteur",
+        "D": "Antoine Lavoisier"
+      },
+      "correct": "A",
+      "explanation": "Justus von Liebig is considered the founder of organic chemistry and made significant contributions to the field of human nutrition.",
+      "node_id": "Justus von Liebig",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is food security, and why is it important for human nutrition?",
+      "options": {
+        "A": "Food security refers to the availability of fast food, and it is important for convenience",
+        "B": "Food security refers to the availability and accessibility of sufficient, safe, and nutritious food, and it is important for maintaining good health",
+        "C": "Food security refers to the production of organic food, and it is important for environmental sustainability",
+        "D": "Food security refers to the trade of food products, and it is important for economic growth"
+      },
+      "correct": "B",
+      "explanation": "Food security refers to the availability and accessibility of sufficient, safe, and nutritious food, and it is important for maintaining good health.",
+      "node_id": "Food Security",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the primary goal of nutrition education?",
+      "options": {
+        "A": "To promote the consumption of supplements and vitamins",
+        "B": "To teach people about the importance of good nutrition and how to make healthy food choices",
+        "C": "To encourage the production of processed foods",
+        "D": "To restrict the availability of certain food groups"
+      },
+      "correct": "B",
+      "explanation": "Nutrition education aims to teach people about the importance of good nutrition and how to make healthy food choices.",
+      "node_id": "Nutrition Education",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the purpose of food fortification?",
+      "options": {
+        "A": "To add flavor to food products",
+        "B": "To increase the shelf life of food products",
+        "C": "To add essential nutrients to food products to prevent nutrient deficiency diseases",
+        "D": "To reduce the cost of food production"
+      },
+      "correct": "C",
+      "explanation": "Food fortification involves adding essential nutrients to food products to prevent nutrient deficiency diseases.",
+      "node_id": "Food Fortification",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What are the key differences between macronutrients and micronutrients, and how do they contribute to human nutrition?",
+      "sample_answer": "Macronutrients, such as carbohydrates, proteins, and fats, provide energy and support growth and maintenance of body tissues. Micronutrients, such as vitamins and minerals, are essential for maintaining good health and preventing diseases. Both are crucial for human nutrition, but they have distinct roles and functions.",
+      "keywords": [
+        "macronutrients",
+        "micronutrients",
+        "energy",
+        "growth",
+        "maintenance",
+        "health",
+        "diseases"
+      ],
+      "node_id": "Macronutrients",
+      "points": 15
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Discuss the relationship between nutrition and chronic diseases, and provide examples of how a healthy diet can help prevent or manage these conditions.",
+      "sample_answer": "A healthy diet can help prevent or manage chronic diseases, such as heart disease, diabetes, and certain types of cancer, by providing essential nutrients, fiber, and antioxidants. For example, a diet rich in fruits, vegetables, and whole grains can help lower the risk of heart disease by reducing blood pressure and cholesterol levels. Similarly, a diet that is low in added sugars and saturated fats can help manage diabetes by regulating blood sugar levels.",
+      "keywords": [
+        "nutrition",
+        "chronic diseases",
+        "healthy diet",
+        "prevention",
+        "management",
+        "heart disease",
+        "diabetes",
+        "cancer"
+      ],
+      "node_id": "Nutrition and Chronic Diseases",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What is malnutrition, and what are its causes and consequences?",
+      "sample_answer": "Malnutrition is a condition that occurs when the body does not receive the necessary nutrients to maintain good health. It can be caused by a variety of factors, including poverty, food insecurity, and poor dietary habits. The consequences of malnutrition can be severe, including impaired growth and development, weakened immune system, and increased risk of diseases.",
+      "keywords": [
+        "malnutrition",
+        "causes",
+        "consequences",
+        "poverty",
+        "food insecurity",
+        "dietary habits",
+        "health"
+      ],
+      "node_id": "Malnutrition",
+      "points": 15
+    }
+  ]
+}

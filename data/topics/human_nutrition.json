@@ -1,0 +1,377 @@
+{
+  "topic": "Human Nutrition",
+  "category": "biology",
+  "description": "Human nutrition deals with the provision of essential nutrients in food necessary to support human life and good health. Poor nutrition is a chronic problem often linked to poverty, food security, or a poor understanding of nutritional requirements. Good nutrition is necessary for children to grow physically and mentally, and for normal human biological development.",
+  "nodes": [
+    {
+      "id": "HN1",
+      "label": "Human Nutrition",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of the provision of essential nutrients in food necessary to support human life and good health.",
+      "importance": 10,
+      "fun_fact": "The concept of human nutrition has been studied for thousands of years, dating back to ancient civilizations such as Greece and Rome."
+    },
+    {
+      "id": "HN2",
+      "label": "Macronutrients",
+      "type": "concept",
+      "depth": 1,
+      "description": "Carbohydrates, proteins, and fats that provide energy and support growth and maintenance of body tissues.",
+      "importance": 9,
+      "fun_fact": "The recommended daily intake of macronutrients varies based on factors such as age, sex, and physical activity level."
+    },
+    {
+      "id": "HN3",
+      "label": "Micronutrients",
+      "type": "concept",
+      "depth": 1,
+      "description": "Vitamins and minerals that are essential for maintaining good health and preventing diseases.",
+      "importance": 9,
+      "fun_fact": "Micronutrient deficiencies can have severe health consequences, such as scurvy from vitamin C deficiency or rickets from vitamin D deficiency."
+    },
+    {
+      "id": "HN4",
+      "label": "Digestive System",
+      "type": "concept",
+      "depth": 1,
+      "description": "The system responsible for breaking down food into nutrients that can be absorbed and utilized by the body.",
+      "importance": 9,
+      "fun_fact": "The digestive system is home to trillions of microorganisms that play a crucial role in nutrient absorption and immune system function."
+    },
+    {
+      "id": "HN5",
+      "label": "Nutrient Deficiency Diseases",
+      "type": "concept",
+      "depth": 2,
+      "description": "Diseases that occur due to a lack of essential nutrients, such as scurvy, rickets, and beriberi.",
+      "importance": 8,
+      "fun_fact": "Nutrient deficiency diseases can be prevented by consuming a balanced diet that includes a variety of whole foods."
+    },
+    {
+      "id": "HN6",
+      "label": "Nutrition and Chronic Diseases",
+      "type": "concept",
+      "depth": 2,
+      "description": "The relationship between nutrition and the development of chronic diseases, such as heart disease, diabetes, and certain types of cancer.",
+      "importance": 9,
+      "fun_fact": "A healthy diet can help prevent or manage chronic diseases, while a poor diet can increase the risk of developing these conditions."
+    },
+    {
+      "id": "HN7",
+      "label": "Justus von Liebig",
+      "type": "person",
+      "depth": 2,
+      "description": "A German chemist who is considered the founder of organic chemistry and made significant contributions to the field of human nutrition.",
+      "importance": 8,
+      "fun_fact": "Liebig's work on the composition of food and the importance of nutrients laid the foundation for modern nutrition science."
+    },
+    {
+      "id": "HN8",
+      "label": "Elmer McCollum",
+      "type": "person",
+      "depth": 2,
+      "description": "An American biochemist who discovered vitamins A and D and made significant contributions to the field of human nutrition.",
+      "importance": 8,
+      "fun_fact": "McCollum's work on vitamins helped establish the importance of these nutrients in maintaining good health."
+    },
+    {
+      "id": "HN9",
+      "label": "WHO",
+      "type": "organization",
+      "depth": 2,
+      "description": "The World Health Organization, which plays a critical role in promoting good nutrition and preventing nutrient deficiency diseases worldwide.",
+      "importance": 9,
+      "fun_fact": "The WHO has developed global nutrition targets and guidelines to help countries improve their nutrition policies and programs."
+    },
+    {
+      "id": "HN10",
+      "label": "Food Security",
+      "type": "concept",
+      "depth": 2,
+      "description": "The availability and accessibility of sufficient, safe, and nutritious food to meet the dietary needs of all people.",
+      "importance": 9,
+      "fun_fact": "Food insecurity can have severe health consequences, including malnutrition and related diseases."
+    },
+    {
+      "id": "HN11",
+      "label": "Malnutrition",
+      "type": "concept",
+      "depth": 2,
+      "description": "A condition that occurs when the body does not receive the necessary nutrients to maintain good health.",
+      "importance": 9,
+      "fun_fact": "Malnutrition can be caused by a variety of factors, including poverty, food insecurity, and poor dietary habits."
+    },
+    {
+      "id": "HN12",
+      "label": "Nutrition Education",
+      "type": "application",
+      "depth": 3,
+      "description": "The process of teaching people about the importance of good nutrition and how to make healthy food choices.",
+      "importance": 8,
+      "fun_fact": "Nutrition education can be an effective way to promote healthy eating habits and prevent nutrition-related diseases."
+    },
+    {
+      "id": "HN13",
+      "label": "Food Fortification",
+      "type": "application",
+      "depth": 3,
+      "description": "The process of adding essential nutrients to food products to prevent nutrient deficiency diseases.",
+      "importance": 8,
+      "fun_fact": "Food fortification has been shown to be an effective way to improve nutrition and prevent diseases such as rickets and beriberi."
+    },
+    {
+      "id": "HN14",
+      "label": "Dietary Guidelines",
+      "type": "application",
+      "depth": 3,
+      "description": "Recommendations for healthy eating habits that are based on scientific evidence and designed to promote good health.",
+      "importance": 8,
+      "fun_fact": "Dietary guidelines can help people make informed food choices and reduce their risk of chronic diseases."
+    },
+    {
+      "id": "HN15",
+      "label": "Nutrition Research",
+      "type": "application",
+      "depth": 3,
+      "description": "The scientific study of the relationship between nutrition and health, including the effects of nutrients on the body and the prevention of diseases.",
+      "importance": 9,
+      "fun_fact": "Nutrition research has led to a greater understanding of the importance of good nutrition and the development of effective strategies for promoting healthy eating habits."
+    }
+  ],
+  "edges": [
+    {
+      "source": "HN1",
+      "target": "HN2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Macronutrients are a critical component of human nutrition, providing energy and supporting growth and maintenance of body tissues."
+    },
+    {
+      "source": "HN1",
+      "target": "HN3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Micronutrients are essential for maintaining good health and preventing diseases, and are a vital part of human nutrition."
+    },
+    {
+      "source": "HN1",
+      "target": "HN4",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "The digestive system plays a critical role in human nutrition, breaking down food into nutrients that can be absorbed and utilized by the body."
+    },
+    {
+      "source": "HN2",
+      "target": "HN5",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "A deficiency in macronutrients can lead to nutrient deficiency diseases, such as kwashiorkor and marasmus."
+    },
+    {
+      "source": "HN3",
+      "target": "HN5",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "A deficiency in micronutrients can lead to nutrient deficiency diseases, such as scurvy and rickets."
+    },
+    {
+      "source": "HN4",
+      "target": "HN6",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "The digestive system plays a critical role in the development of chronic diseases, such as heart disease and diabetes."
+    },
+    {
+      "source": "HN7",
+      "target": "HN1",
+      "relation": "discovered_by",
+      "strength": 8,
+      "description": "Justus von Liebig made significant contributions to the field of human nutrition, including the discovery of the importance of nutrients in food."
+    },
+    {
+      "source": "HN8",
+      "target": "HN1",
+      "relation": "discovered_by",
+      "strength": 8,
+      "description": "Elmer McCollum discovered vitamins A and D, and made significant contributions to the field of human nutrition."
+    },
+    {
+      "source": "HN9",
+      "target": "HN1",
+      "relation": "used_in",
+      "strength": 9,
+      "description": "The World Health Organization plays a critical role in promoting good nutrition and preventing nutrient deficiency diseases worldwide."
+    },
+    {
+      "source": "HN10",
+      "target": "HN1",
+      "relation": "related_to",
+      "strength": 9,
+      "description": "Food security is critical for maintaining good nutrition, as it ensures that people have access to sufficient, safe, and nutritious food."
+    },
+    {
+      "source": "HN11",
+      "target": "HN1",
+      "relation": "related_to",
+      "strength": 9,
+      "description": "Malnutrition is a significant public health problem that can have severe health consequences, including increased risk of diseases and death."
+    },
+    {
+      "source": "HN12",
+      "target": "HN1",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Nutrition education is an effective way to promote healthy eating habits and prevent nutrition-related diseases."
+    },
+    {
+      "source": "HN13",
+      "target": "HN1",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Food fortification is a strategy used to improve nutrition and prevent nutrient deficiency diseases, such as rickets and beriberi."
+    },
+    {
+      "source": "HN14",
+      "target": "HN1",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Dietary guidelines provide recommendations for healthy eating habits that are based on scientific evidence and designed to promote good health."
+    },
+    {
+      "source": "HN15",
+      "target": "HN1",
+      "relation": "used_in",
+      "strength": 9,
+      "description": "Nutrition research is critical for understanding the relationship between nutrition and health, and for developing effective strategies for promoting healthy eating habits."
+    },
+    {
+      "source": "HN2",
+      "target": "HN6",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "Macronutrients play a critical role in the development of chronic diseases, such as heart disease and diabetes."
+    },
+    {
+      "source": "HN3",
+      "target": "HN6",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "Micronutrients play a critical role in the development of chronic diseases, such as heart disease and certain types of cancer."
+    },
+    {
+      "source": "HN4",
+      "target": "HN5",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "A malfunctioning digestive system can lead to nutrient deficiency diseases, such as malabsorption and diarrhea."
+    }
+  ],
+  "key_takeaways": [
+    "Human nutrition is critical for maintaining good health and preventing diseases.",
+    "Macronutrients and micronutrients are essential for maintaining good health and preventing diseases.",
+    "The digestive system plays a critical role in human nutrition, breaking down food into nutrients that can be absorbed and utilized by the body."
+  ],
+  "real_world_impact": "Good nutrition is essential for maintaining good health and preventing diseases, and has a significant impact on the quality of life and productivity of individuals. Poor nutrition can lead to a range of health problems, including malnutrition, nutrient deficiency diseases, and chronic diseases such as heart disease and diabetes. The World Health Organization estimates that poor nutrition is responsible for approximately 1.7 million deaths worldwide each year. Therefore, it is critical to promote good nutrition and prevent nutrient deficiency diseases through strategies such as nutrition education, food fortification, and dietary guidelines.",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/2002-03-13_Terfezia_arenaria_18609.jpg",
+      "title": "2002-03-13 Terfezia arenaria 18609.jpg",
+      "license": "CC BY-SA 3.0",
+      "artist": "This image was created by user Daniel B. Wheeler (Tuberale) at Mushroom Observer, a source for mycological images.You can contact this user here.",
+      "description": "For more information about this, see the observation page at Mushroom Observer.",
+      "width": 640,
+      "height": 480,
+      "source_query": "Human Nutrition"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Banana_for_human_nutrition.jpg",
+      "title": "Banana for human nutrition.jpg",
+      "license": "CC0",
+      "artist": "Synkubito",
+      "description": "Banana for human nutrition",
+      "width": 4608,
+      "height": 3456,
+      "source_query": "Human Nutrition"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/CSIRO_ScienceImage_4333_Human_nutrition_research.jpg",
+      "title": "CSIRO ScienceImage 4333 Human nutrition research.jpg",
+      "license": "CC BY 3.0",
+      "artist": "division, CSIRO",
+      "description": "Nutritional control of cardiovascular disease. (from left) Dr Mavis Abbey, Dr Paul Roach (visiting Postdoc Fellow) and Dr Paul Nestel (Chief of Division). Photo taken in laboratory in 1986, CSIRO Division of Human Nutrition.",
+      "width": 2657,
+      "height": 1892,
+      "source_query": "Human Nutrition"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Department_of_human_nutrition_university_of_ibadan.jpg",
+      "title": "Department of human nutrition university of ibadan.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Oluwatimilehinolaibi",
+      "description": "department of human nutrition university of ibadan",
+      "width": 3264,
+      "height": 2448,
+      "source_query": "Human Nutrition"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Human_Nutrition_Building_-_1%2C_Northern_General_Hospital%2C_Sheffield_-_geograph.org.uk_-_1078454.jpg",
+      "title": "Human Nutrition Building - 1, Northern General Hospital, Sheffield - geograph.org.uk - 1078454.jpg",
+      "license": "CC BY-SA 2.0",
+      "artist": "Terry Robinson",
+      "description": "Human Nutrition Building - 1, Northern General Hospital, Sheffield. This building is one of the original buildings from the Sheffield Union Workhouse ... and was the School for the children of the inmates.  It had room for nearly 200 children.  It is now the Centre for Human Nutrition. 1078461",
+      "width": 640,
+      "height": 480,
+      "source_query": "Human Nutrition"
+    }
+  ],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Human_nutrition",
+    "papers": [
+      {
+        "title": "Increasing CO2 threatens human nutrition",
+        "url": "https://doi.org/10.1038/nature13179"
+      },
+      {
+        "title": "Betaine in human nutrition",
+        "url": "https://doi.org/10.1093/ajcn/80.3.539"
+      },
+      {
+        "title": "Bovine milk in human nutrition \u2013 a review",
+        "url": "https://doi.org/10.1186/1476-511x-6-25"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 18"
+      ],
+      "node_count": 15,
+      "edge_count": 18
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Nutrient Metabolism",
+        "Eating Disorders"
+      ],
+      "strengths": [
+        "Clear structure of human nutrition concepts",
+        "Inclusion of historical figures and organizations"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}
