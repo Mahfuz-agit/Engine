@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 41,
-  "total_nodes": 614,
-  "total_edges": 750,
+  "total_topics": 42,
+  "total_nodes": 629,
+  "total_edges": 768,
   "topics": [
     {
       "topic": "Climate Change",
@@ -372,6 +372,15 @@
       "edge_count": 18,
       "description": "Archaeolinguistics is the study of the distant human past by linguistic means, exploring the relationship between language and culture. It involves analyzing ancient languages, linguistic paleontology, and etymological analysis to understand the migration and diffusion of languages. By examining language isolates and phylogenetic reconstruction, archaeolinguists can shed light on the history of human populations and their cultural practices.",
       "added_at": "2026-07-06T20:59:02.550956"
+    },
+    {
+      "topic": "Archaeoastronomy and Ancient Cultures",
+      "slug": "archaeoastronomy_and_ancient_cultures",
+      "category": "astronomy",
+      "node_count": 15,
+      "edge_count": 18,
+      "description": "Archaeoastronomy is the study of ancient cultures' understanding of astronomy and its impact on their societies. This field explores how ancient civilizations aligned their structures with celestial bodies and developed calendars based on astronomical observations. By examining the cultural symbolism and mythological influences of ancient cultures, archaeoastronomers can gain insights into the historical context and preservation of these ancient societies.",
+      "added_at": "2026-07-07T10:34:16.784655"
     }
   ],
   "global_nodes": [
@@ -7128,6 +7137,171 @@
       "fun_fact": "The archaeological record has been used to study the origins of writing and language.",
       "topic_slug": "archaeolinguistics",
       "topic": "Archaeolinguistics"
+    },
+    {
+      "id": "archaeoastronomy_and_ancient_cultures__N1",
+      "label": "Archaeoastronomy",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of ancient cultures' understanding of astronomy and its impact on their societies",
+      "importance": 10,
+      "fun_fact": "The term 'archaeoastronomy' was first coined in the 1960s",
+      "topic_slug": "archaeoastronomy_and_ancient_cultures",
+      "topic": "Archaeoastronomy and Ancient Cultures"
+    },
+    {
+      "id": "archaeoastronomy_and_ancient_cultures__N2",
+      "label": "Astronomical Alignments",
+      "type": "concept",
+      "depth": 1,
+      "description": "The alignment of ancient structures with celestial bodies",
+      "importance": 9,
+      "fun_fact": "The Pyramids of Giza are aligned with the constellation of Orion",
+      "topic_slug": "archaeoastronomy_and_ancient_cultures",
+      "topic": "Archaeoastronomy and Ancient Cultures"
+    },
+    {
+      "id": "archaeoastronomy_and_ancient_cultures__N3",
+      "label": "Ancient Calendars",
+      "type": "concept",
+      "depth": 1,
+      "description": "Calendars developed by ancient cultures based on astronomical observations",
+      "importance": 8,
+      "fun_fact": "The Mayan calendar is based on the cycles of the planet Venus",
+      "topic_slug": "archaeoastronomy_and_ancient_cultures",
+      "topic": "Archaeoastronomy and Ancient Cultures"
+    },
+    {
+      "id": "archaeoastronomy_and_ancient_cultures__N4",
+      "label": "Cultural Symbolism",
+      "type": "concept",
+      "depth": 1,
+      "description": "The use of astronomical symbols and motifs in ancient cultures",
+      "importance": 8,
+      "fun_fact": "The ancient Egyptians used the symbol of the sun god Ra to represent their pharaohs",
+      "topic_slug": "archaeoastronomy_and_ancient_cultures",
+      "topic": "Archaeoastronomy and Ancient Cultures"
+    },
+    {
+      "id": "archaeoastronomy_and_ancient_cultures__N5",
+      "label": "Mythological Influences",
+      "type": "concept",
+      "depth": 1,
+      "description": "The influence of mythology on ancient cultures' understanding of astronomy",
+      "importance": 8,
+      "fun_fact": "The ancient Greeks believed that the constellation of Orion was a hunter in the sky",
+      "topic_slug": "archaeoastronomy_and_ancient_cultures",
+      "topic": "Archaeoastronomy and Ancient Cultures"
+    },
+    {
+      "id": "archaeoastronomy_and_ancient_cultures__N6",
+      "label": "Historical Preservation",
+      "type": "concept",
+      "depth": 1,
+      "description": "The preservation of ancient cultures' astronomical knowledge and traditions",
+      "importance": 8,
+      "fun_fact": "The ancient city of Petra is a UNESCO World Heritage Site and preserves ancient astronomical knowledge",
+      "topic_slug": "archaeoastronomy_and_ancient_cultures",
+      "topic": "Archaeoastronomy and Ancient Cultures"
+    },
+    {
+      "id": "archaeoastronomy_and_ancient_cultures__N7",
+      "label": "Stonehenge",
+      "type": "example",
+      "depth": 2,
+      "description": "A prehistoric monument in England aligned with the summer solstice",
+      "importance": 7,
+      "fun_fact": "Stonehenge is one of the most famous examples of astronomical alignments in the world",
+      "topic_slug": "archaeoastronomy_and_ancient_cultures",
+      "topic": "Archaeoastronomy and Ancient Cultures"
+    },
+    {
+      "id": "archaeoastronomy_and_ancient_cultures__N8",
+      "label": "Mayan Astronomy",
+      "type": "example",
+      "depth": 2,
+      "description": "The study of astronomy in ancient Mayan culture",
+      "importance": 7,
+      "fun_fact": "The Mayans developed a sophisticated understanding of astronomy and mathematics",
+      "topic_slug": "archaeoastronomy_and_ancient_cultures",
+      "topic": "Archaeoastronomy and Ancient Cultures"
+    },
+    {
+      "id": "archaeoastronomy_and_ancient_cultures__N9",
+      "label": "Egyptian Astronomy",
+      "type": "example",
+      "depth": 2,
+      "description": "The study of astronomy in ancient Egyptian culture",
+      "importance": 7,
+      "fun_fact": "The ancient Egyptians developed a 365-day calendar based on the cycles of the Nile River",
+      "topic_slug": "archaeoastronomy_and_ancient_cultures",
+      "topic": "Archaeoastronomy and Ancient Cultures"
+    },
+    {
+      "id": "archaeoastronomy_and_ancient_cultures__N10",
+      "label": "Anthony Aveni",
+      "type": "person",
+      "depth": 2,
+      "description": "An American archaeoastronomer who has made significant contributions to the field",
+      "importance": 6,
+      "fun_fact": "Aveni is the author of several books on archaeoastronomy and has been recognized for his work with numerous awards",
+      "topic_slug": "archaeoastronomy_and_ancient_cultures",
+      "topic": "Archaeoastronomy and Ancient Cultures"
+    },
+    {
+      "id": "archaeoastronomy_and_ancient_cultures__N11",
+      "label": "Archaeoastronomy Conference",
+      "type": "event",
+      "depth": 2,
+      "description": "A conference held to discuss the latest research and discoveries in archaeoastronomy",
+      "importance": 6,
+      "fun_fact": "The conference is held biennially and attracts scholars from around the world",
+      "topic_slug": "archaeoastronomy_and_ancient_cultures",
+      "topic": "Archaeoastronomy and Ancient Cultures"
+    },
+    {
+      "id": "archaeoastronomy_and_ancient_cultures__N12",
+      "label": "Astronomical Software",
+      "type": "application",
+      "depth": 3,
+      "description": "Software used to simulate astronomical phenomena and alignments",
+      "importance": 5,
+      "fun_fact": "Astronomical software can be used to recreate ancient astronomical alignments and events",
+      "topic_slug": "archaeoastronomy_and_ancient_cultures",
+      "topic": "Archaeoastronomy and Ancient Cultures"
+    },
+    {
+      "id": "archaeoastronomy_and_ancient_cultures__N13",
+      "label": "Ethnoastronomy",
+      "type": "concept",
+      "depth": 3,
+      "description": "The study of the cultural and astronomical practices of indigenous cultures",
+      "importance": 5,
+      "fun_fact": "Ethnoastronomy is a subfield of archaeoastronomy that focuses on the astronomical knowledge of living cultures",
+      "topic_slug": "archaeoastronomy_and_ancient_cultures",
+      "topic": "Archaeoastronomy and Ancient Cultures"
+    },
+    {
+      "id": "archaeoastronomy_and_ancient_cultures__N14",
+      "label": "Astroarchaeology",
+      "type": "concept",
+      "depth": 3,
+      "description": "The study of the astronomical alignments and symbolism of ancient structures",
+      "importance": 5,
+      "fun_fact": "Astroarchaeology is a subfield of archaeoastronomy that focuses on the astronomical aspects of ancient architecture",
+      "topic_slug": "archaeoastronomy_and_ancient_cultures",
+      "topic": "Archaeoastronomy and Ancient Cultures"
+    },
+    {
+      "id": "archaeoastronomy_and_ancient_cultures__N15",
+      "label": "UNESCO World Heritage Site",
+      "type": "fact",
+      "depth": 3,
+      "description": "A designation given to sites of cultural and historical significance",
+      "importance": 4,
+      "fun_fact": "Many ancient astronomical sites have been designated as UNESCO World Heritage Sites",
+      "topic_slug": "archaeoastronomy_and_ancient_cultures",
+      "topic": "Archaeoastronomy and Ancient Cultures"
     }
   ],
   "global_edges": [
@@ -12380,6 +12554,132 @@
       "relation": "used_in",
       "strength": 6,
       "topic": "Archaeolinguistics"
+    },
+    {
+      "source": "archaeoastronomy_and_ancient_cultures__N1",
+      "target": "archaeoastronomy_and_ancient_cultures__N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Archaeoastronomy and Ancient Cultures"
+    },
+    {
+      "source": "archaeoastronomy_and_ancient_cultures__N1",
+      "target": "archaeoastronomy_and_ancient_cultures__N3",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Archaeoastronomy and Ancient Cultures"
+    },
+    {
+      "source": "archaeoastronomy_and_ancient_cultures__N1",
+      "target": "archaeoastronomy_and_ancient_cultures__N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Archaeoastronomy and Ancient Cultures"
+    },
+    {
+      "source": "archaeoastronomy_and_ancient_cultures__N1",
+      "target": "archaeoastronomy_and_ancient_cultures__N5",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Archaeoastronomy and Ancient Cultures"
+    },
+    {
+      "source": "archaeoastronomy_and_ancient_cultures__N1",
+      "target": "archaeoastronomy_and_ancient_cultures__N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Archaeoastronomy and Ancient Cultures"
+    },
+    {
+      "source": "archaeoastronomy_and_ancient_cultures__N2",
+      "target": "archaeoastronomy_and_ancient_cultures__N7",
+      "relation": "is_type_of",
+      "strength": 7,
+      "topic": "Archaeoastronomy and Ancient Cultures"
+    },
+    {
+      "source": "archaeoastronomy_and_ancient_cultures__N3",
+      "target": "archaeoastronomy_and_ancient_cultures__N8",
+      "relation": "is_type_of",
+      "strength": 7,
+      "topic": "Archaeoastronomy and Ancient Cultures"
+    },
+    {
+      "source": "archaeoastronomy_and_ancient_cultures__N4",
+      "target": "archaeoastronomy_and_ancient_cultures__N9",
+      "relation": "is_type_of",
+      "strength": 7,
+      "topic": "Archaeoastronomy and Ancient Cultures"
+    },
+    {
+      "source": "archaeoastronomy_and_ancient_cultures__N5",
+      "target": "archaeoastronomy_and_ancient_cultures__N10",
+      "relation": "discovered_by",
+      "strength": 6,
+      "topic": "Archaeoastronomy and Ancient Cultures"
+    },
+    {
+      "source": "archaeoastronomy_and_ancient_cultures__N6",
+      "target": "archaeoastronomy_and_ancient_cultures__N11",
+      "relation": "related_to",
+      "strength": 6,
+      "topic": "Archaeoastronomy and Ancient Cultures"
+    },
+    {
+      "source": "archaeoastronomy_and_ancient_cultures__N7",
+      "target": "archaeoastronomy_and_ancient_cultures__N12",
+      "relation": "used_in",
+      "strength": 5,
+      "topic": "Archaeoastronomy and Ancient Cultures"
+    },
+    {
+      "source": "archaeoastronomy_and_ancient_cultures__N8",
+      "target": "archaeoastronomy_and_ancient_cultures__N13",
+      "relation": "evolved_from",
+      "strength": 5,
+      "topic": "Archaeoastronomy and Ancient Cultures"
+    },
+    {
+      "source": "archaeoastronomy_and_ancient_cultures__N9",
+      "target": "archaeoastronomy_and_ancient_cultures__N14",
+      "relation": "contrasts_with",
+      "strength": 5,
+      "topic": "Archaeoastronomy and Ancient Cultures"
+    },
+    {
+      "source": "archaeoastronomy_and_ancient_cultures__N10",
+      "target": "archaeoastronomy_and_ancient_cultures__N15",
+      "relation": "related_to",
+      "strength": 4,
+      "topic": "Archaeoastronomy and Ancient Cultures"
+    },
+    {
+      "source": "archaeoastronomy_and_ancient_cultures__N11",
+      "target": "archaeoastronomy_and_ancient_cultures__N12",
+      "relation": "enables",
+      "strength": 4,
+      "topic": "Archaeoastronomy and Ancient Cultures"
+    },
+    {
+      "source": "archaeoastronomy_and_ancient_cultures__N12",
+      "target": "archaeoastronomy_and_ancient_cultures__N13",
+      "relation": "depends_on",
+      "strength": 4,
+      "topic": "Archaeoastronomy and Ancient Cultures"
+    },
+    {
+      "source": "archaeoastronomy_and_ancient_cultures__N13",
+      "target": "archaeoastronomy_and_ancient_cultures__N14",
+      "relation": "is_type_of",
+      "strength": 4,
+      "topic": "Archaeoastronomy and Ancient Cultures"
+    },
+    {
+      "source": "archaeoastronomy_and_ancient_cultures__N14",
+      "target": "archaeoastronomy_and_ancient_cultures__N15",
+      "relation": "related_to",
+      "strength": 4,
+      "topic": "Archaeoastronomy and Ancient Cultures"
     }
   ],
   "cross_topic_edges": [
@@ -12587,6 +12887,20 @@
       "label": "remote sensing"
     },
     {
+      "source": "archaeoastronomy__N1",
+      "target": "archaeoastronomy_and_ancient_cultures__N1",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "archaeoastronomy"
+    },
+    {
+      "source": "archaeoastronomy__N4",
+      "target": "archaeoastronomy_and_ancient_cultures__N2",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "astronomical alignments"
+    },
+    {
       "source": "biophysics__N4",
       "target": "biomechanical_engineering__N8",
       "relation": "cross_topic_connection",
@@ -12606,6 +12920,13 @@
       "relation": "cross_topic_connection",
       "strength": 6,
       "label": "migration patterns"
+    },
+    {
+      "source": "archaeology__N3",
+      "target": "archaeoastronomy_and_ancient_cultures__N6",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "historical preservation"
     },
     {
       "source": "archaeology__N4",
@@ -12689,7 +13010,8 @@
       "systems_thinking"
     ],
     "astronomy": [
-      "archaeoastronomy"
+      "archaeoastronomy",
+      "archaeoastronomy_and_ancient_cultures"
     ],
     "sociology": [
       "demography"
@@ -12705,5 +13027,5 @@
       "anthropology"
     ]
   },
-  "last_updated": "2026-07-06T20:59:02.550986"
+  "last_updated": "2026-07-07T10:34:16.784695"
 }

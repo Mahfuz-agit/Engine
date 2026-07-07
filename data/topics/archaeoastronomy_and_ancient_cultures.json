@@ -1,0 +1,313 @@
+{
+  "topic": "Archaeoastronomy and Ancient Cultures",
+  "category": "astronomy",
+  "description": "Archaeoastronomy is the study of ancient cultures' understanding of astronomy and its impact on their societies. This field explores how ancient civilizations aligned their structures with celestial bodies and developed calendars based on astronomical observations. By examining the cultural symbolism and mythological influences of ancient cultures, archaeoastronomers can gain insights into the historical context and preservation of these ancient societies.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Archaeoastronomy",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of ancient cultures' understanding of astronomy and its impact on their societies",
+      "importance": 10,
+      "fun_fact": "The term 'archaeoastronomy' was first coined in the 1960s"
+    },
+    {
+      "id": "N2",
+      "label": "Astronomical Alignments",
+      "type": "concept",
+      "depth": 1,
+      "description": "The alignment of ancient structures with celestial bodies",
+      "importance": 9,
+      "fun_fact": "The Pyramids of Giza are aligned with the constellation of Orion"
+    },
+    {
+      "id": "N3",
+      "label": "Ancient Calendars",
+      "type": "concept",
+      "depth": 1,
+      "description": "Calendars developed by ancient cultures based on astronomical observations",
+      "importance": 8,
+      "fun_fact": "The Mayan calendar is based on the cycles of the planet Venus"
+    },
+    {
+      "id": "N4",
+      "label": "Cultural Symbolism",
+      "type": "concept",
+      "depth": 1,
+      "description": "The use of astronomical symbols and motifs in ancient cultures",
+      "importance": 8,
+      "fun_fact": "The ancient Egyptians used the symbol of the sun god Ra to represent their pharaohs"
+    },
+    {
+      "id": "N5",
+      "label": "Mythological Influences",
+      "type": "concept",
+      "depth": 1,
+      "description": "The influence of mythology on ancient cultures' understanding of astronomy",
+      "importance": 8,
+      "fun_fact": "The ancient Greeks believed that the constellation of Orion was a hunter in the sky"
+    },
+    {
+      "id": "N6",
+      "label": "Historical Preservation",
+      "type": "concept",
+      "depth": 1,
+      "description": "The preservation of ancient cultures' astronomical knowledge and traditions",
+      "importance": 8,
+      "fun_fact": "The ancient city of Petra is a UNESCO World Heritage Site and preserves ancient astronomical knowledge"
+    },
+    {
+      "id": "N7",
+      "label": "Stonehenge",
+      "type": "example",
+      "depth": 2,
+      "description": "A prehistoric monument in England aligned with the summer solstice",
+      "importance": 7,
+      "fun_fact": "Stonehenge is one of the most famous examples of astronomical alignments in the world"
+    },
+    {
+      "id": "N8",
+      "label": "Mayan Astronomy",
+      "type": "example",
+      "depth": 2,
+      "description": "The study of astronomy in ancient Mayan culture",
+      "importance": 7,
+      "fun_fact": "The Mayans developed a sophisticated understanding of astronomy and mathematics"
+    },
+    {
+      "id": "N9",
+      "label": "Egyptian Astronomy",
+      "type": "example",
+      "depth": 2,
+      "description": "The study of astronomy in ancient Egyptian culture",
+      "importance": 7,
+      "fun_fact": "The ancient Egyptians developed a 365-day calendar based on the cycles of the Nile River"
+    },
+    {
+      "id": "N10",
+      "label": "Anthony Aveni",
+      "type": "person",
+      "depth": 2,
+      "description": "An American archaeoastronomer who has made significant contributions to the field",
+      "importance": 6,
+      "fun_fact": "Aveni is the author of several books on archaeoastronomy and has been recognized for his work with numerous awards"
+    },
+    {
+      "id": "N11",
+      "label": "Archaeoastronomy Conference",
+      "type": "event",
+      "depth": 2,
+      "description": "A conference held to discuss the latest research and discoveries in archaeoastronomy",
+      "importance": 6,
+      "fun_fact": "The conference is held biennially and attracts scholars from around the world"
+    },
+    {
+      "id": "N12",
+      "label": "Astronomical Software",
+      "type": "application",
+      "depth": 3,
+      "description": "Software used to simulate astronomical phenomena and alignments",
+      "importance": 5,
+      "fun_fact": "Astronomical software can be used to recreate ancient astronomical alignments and events"
+    },
+    {
+      "id": "N13",
+      "label": "Ethnoastronomy",
+      "type": "concept",
+      "depth": 3,
+      "description": "The study of the cultural and astronomical practices of indigenous cultures",
+      "importance": 5,
+      "fun_fact": "Ethnoastronomy is a subfield of archaeoastronomy that focuses on the astronomical knowledge of living cultures"
+    },
+    {
+      "id": "N14",
+      "label": "Astroarchaeology",
+      "type": "concept",
+      "depth": 3,
+      "description": "The study of the astronomical alignments and symbolism of ancient structures",
+      "importance": 5,
+      "fun_fact": "Astroarchaeology is a subfield of archaeoastronomy that focuses on the astronomical aspects of ancient architecture"
+    },
+    {
+      "id": "N15",
+      "label": "UNESCO World Heritage Site",
+      "type": "fact",
+      "depth": 3,
+      "description": "A designation given to sites of cultural and historical significance",
+      "importance": 4,
+      "fun_fact": "Many ancient astronomical sites have been designated as UNESCO World Heritage Sites"
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Astronomical alignments are a key aspect of archaeoastronomy"
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Ancient calendars are another important area of study in archaeoastronomy"
+    },
+    {
+      "source": "N1",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Cultural symbolism is a crucial aspect of archaeoastronomy"
+    },
+    {
+      "source": "N1",
+      "target": "N5",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Mythological influences are an important area of study in archaeoastronomy"
+    },
+    {
+      "source": "N1",
+      "target": "N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Historical preservation is a key aspect of archaeoastronomy"
+    },
+    {
+      "source": "N2",
+      "target": "N7",
+      "relation": "is_type_of",
+      "strength": 7,
+      "description": "Stonehenge is an example of astronomical alignments"
+    },
+    {
+      "source": "N3",
+      "target": "N8",
+      "relation": "is_type_of",
+      "strength": 7,
+      "description": "Mayan astronomy is an example of ancient calendars"
+    },
+    {
+      "source": "N4",
+      "target": "N9",
+      "relation": "is_type_of",
+      "strength": 7,
+      "description": "Egyptian astronomy is an example of cultural symbolism"
+    },
+    {
+      "source": "N5",
+      "target": "N10",
+      "relation": "discovered_by",
+      "strength": 6,
+      "description": "Anthony Aveni has made significant contributions to the study of mythological influences in archaeoastronomy"
+    },
+    {
+      "source": "N6",
+      "target": "N11",
+      "relation": "related_to",
+      "strength": 6,
+      "description": "The Archaeoastronomy Conference is related to historical preservation"
+    },
+    {
+      "source": "N7",
+      "target": "N12",
+      "relation": "used_in",
+      "strength": 5,
+      "description": "Astronomical software can be used to simulate the astronomical alignments of Stonehenge"
+    },
+    {
+      "source": "N8",
+      "target": "N13",
+      "relation": "evolved_from",
+      "strength": 5,
+      "description": "Ethnoastronomy is a subfield of archaeoastronomy that focuses on the astronomical knowledge of living cultures"
+    },
+    {
+      "source": "N9",
+      "target": "N14",
+      "relation": "contrasts_with",
+      "strength": 5,
+      "description": "Astroarchaeology is a subfield of archaeoastronomy that focuses on the astronomical aspects of ancient architecture"
+    },
+    {
+      "source": "N10",
+      "target": "N15",
+      "relation": "related_to",
+      "strength": 4,
+      "description": "UNESCO World Heritage Sites are often related to the work of archaeoastronomers like Anthony Aveni"
+    },
+    {
+      "source": "N11",
+      "target": "N12",
+      "relation": "enables",
+      "strength": 4,
+      "description": "The Archaeoastronomy Conference enables the use of astronomical software in archaeoastronomy"
+    },
+    {
+      "source": "N12",
+      "target": "N13",
+      "relation": "depends_on",
+      "strength": 4,
+      "description": "Astronomical software depends on the study of ethnoastronomy"
+    },
+    {
+      "source": "N13",
+      "target": "N14",
+      "relation": "is_type_of",
+      "strength": 4,
+      "description": "Astroarchaeology is a type of ethnoastronomy"
+    },
+    {
+      "source": "N14",
+      "target": "N15",
+      "relation": "related_to",
+      "strength": 4,
+      "description": "Astroarchaeology is related to UNESCO World Heritage Sites"
+    }
+  ],
+  "key_takeaways": [
+    "Archaeoastronomy is the study of ancient cultures' understanding of astronomy and its impact on their societies",
+    "Astronomical alignments, ancient calendars, cultural symbolism, and mythological influences are all important areas of study in archaeoastronomy",
+    "The field of archaeoastronomy has many real-world applications, including the preservation of historical sites and the development of astronomical software"
+  ],
+  "real_world_impact": "The study of archaeoastronomy has many real-world applications, from the preservation of historical sites to the development of astronomical software. By understanding how ancient cultures understood astronomy, we can gain insights into their societies and cultures, and develop new technologies and techniques for studying the night sky. Additionally, the preservation of historical sites and the promotion of cultural heritage are important aspects of archaeoastronomy, and can have a significant impact on local communities and economies. Overall, the study of archaeoastronomy is a rich and rewarding field that can provide many benefits and insights for scholars and the general public alike.",
+  "images": [],
+  "sources": {
+    "wikipedia_url": "",
+    "papers": [],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 18"
+      ],
+      "node_count": 15,
+      "edge_count": 18
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Archaeoastronomical Methods",
+        "Ancient Astronomical Instruments"
+      ],
+      "strengths": [
+        "Well-structured nodes and edges",
+        "Clear relationships between concepts"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

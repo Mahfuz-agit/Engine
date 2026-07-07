@@ -1,0 +1,161 @@
+{
+  "topic": "Archaeoastronomy and Ancient Cultures",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary focus of the field of archaeoastronomy?",
+      "options": {
+        "A": "The study of ancient cultures' understanding of astronomy and its impact on their societies",
+        "B": "The study of the astronomical properties of celestial bodies",
+        "C": "The exploration of the cultural significance of ancient monuments",
+        "D": "The development of new astronomical software"
+      },
+      "correct": "A",
+      "explanation": "Archaeoastronomy is an interdisciplinary field that seeks to understand how ancient cultures perceived and utilized astronomical knowledge in their daily lives.",
+      "node_id": "Archaeoastronomy",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which ancient structure is famously aligned with the constellation of Orion?",
+      "options": {
+        "A": "The Great Pyramid of Cholula",
+        "B": "The Pyramids of Giza",
+        "C": "The Temple of Kukulkan",
+        "D": "The Hanging Gardens of Babylon"
+      },
+      "correct": "B",
+      "explanation": "The Pyramids of Giza are aligned with the constellation of Orion, demonstrating the ancient Egyptians' knowledge of astronomical phenomena.",
+      "node_id": "Astronomical Alignments",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the significance of the Mayan calendar in the context of archaeoastronomy.",
+      "sample_answer": "The Mayan calendar is a sophisticated system that tracks the cycles of the planet Venus and other celestial bodies, demonstrating the Mayans' advanced understanding of astronomy and mathematics.",
+      "keywords": [
+        "Mayan calendar",
+        "Venus",
+        "astronomical observations"
+      ],
+      "node_id": "Ancient Calendars",
+      "points": 15
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the use of astronomical symbols and motifs in ancient cultures?",
+      "options": {
+        "A": "Cultural astronomy",
+        "B": "Mythological influences",
+        "C": "Cultural symbolism",
+        "D": "Archaeological iconography"
+      },
+      "correct": "C",
+      "explanation": "Cultural symbolism refers to the use of astronomical symbols and motifs in ancient cultures, which often carried significant meaning and spiritual importance.",
+      "node_id": "Cultural Symbolism",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "Which ancient city is a UNESCO World Heritage Site and preserves ancient astronomical knowledge?",
+      "options": {
+        "A": "Petra",
+        "B": "Machu Picchu",
+        "C": "Angkor Wat",
+        "D": "Persepolis"
+      },
+      "correct": "A",
+      "explanation": "The ancient city of Petra is a UNESCO World Heritage Site and preserves ancient astronomical knowledge, demonstrating the significance of archaeoastronomy in understanding ancient cultures.",
+      "node_id": "Historical Preservation",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the name of the prehistoric monument in England that is aligned with the summer solstice?",
+      "options": {
+        "A": "Stonehenge",
+        "B": "Avebury",
+        "C": "Salisbury Cathedral",
+        "D": "Bath Abbey"
+      },
+      "correct": "A",
+      "explanation": "Stonehenge is a prehistoric monument in England that is aligned with the summer solstice, demonstrating the ancient Britons' knowledge of astronomical phenomena.",
+      "node_id": "Stonehenge",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Discuss the influence of mythology on ancient cultures' understanding of astronomy, using the example of the ancient Greeks.",
+      "sample_answer": "The ancient Greeks believed that the constellation of Orion was a hunter in the sky, demonstrating the significant influence of mythology on their understanding of astronomy. This mythological narrative was used to explain the changing seasons and the movement of celestial bodies.",
+      "keywords": [
+        "mythology",
+        "ancient Greeks",
+        "Orion"
+      ],
+      "node_id": "Mythological Influences",
+      "points": 20
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which ancient culture developed a sophisticated understanding of astronomy and mathematics, as evidenced by their calendar system?",
+      "options": {
+        "A": "The ancient Egyptians",
+        "B": "The ancient Mayans",
+        "C": "The ancient Babylonians",
+        "D": "The ancient Greeks"
+      },
+      "correct": "B",
+      "explanation": "The ancient Mayans developed a sophisticated understanding of astronomy and mathematics, as evidenced by their calendar system, which tracked the cycles of the planet Venus and other celestial bodies.",
+      "node_id": "Mayan Astronomy",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "easy",
+      "question": "Describe the significance of the term 'archaeoastronomy' and its relevance to the study of ancient cultures.",
+      "sample_answer": "The term 'archaeoastronomy' refers to the study of ancient cultures' understanding of astronomy and its impact on their societies. This field is significant because it allows us to understand how ancient cultures perceived and utilized astronomical knowledge in their daily lives.",
+      "keywords": [
+        "archaeoastronomy",
+        "ancient cultures",
+        "astronomy"
+      ],
+      "node_id": "Archaeoastronomy",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "Which of the following is a real-world application of archaeoastronomy?",
+      "options": {
+        "A": "The development of new astronomical software",
+        "B": "The preservation of historical sites",
+        "C": "The study of the astronomical properties of black holes",
+        "D": "The exploration of the cultural significance of modern art"
+      },
+      "correct": "B",
+      "explanation": "The preservation of historical sites is a real-world application of archaeoastronomy, as it allows us to protect and conserve ancient monuments and structures that hold significant cultural and astronomical importance.",
+      "node_id": "Historical Preservation",
+      "points": 10
+    }
+  ]
+}
