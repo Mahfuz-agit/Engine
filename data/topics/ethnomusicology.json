@@ -1,0 +1,333 @@
+{
+  "topic": "Ethnomusicology",
+  "category": "anthropology",
+  "description": "Ethnomusicology is the study of music in different cultures, focusing on its social, cultural, and historical contexts. It explores the diverse ways music is created, performed, and perceived across the world. By examining music as a universal language, ethnomusicologists gain insights into human identity, cultural exchange, and social dynamics.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Ethnomusicology",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of music in different cultures, focusing on its social, cultural, and historical contexts.",
+      "importance": 10,
+      "fun_fact": "The term 'ethnomusicology' was coined in 1950 by Jaap Kunst."
+    },
+    {
+      "id": "N2",
+      "label": "Music Archaeology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the history and development of music in ancient cultures.",
+      "importance": 8,
+      "fun_fact": "Music archaeology has uncovered evidence of ancient musical instruments, such as the Divje Babe Flute."
+    },
+    {
+      "id": "N3",
+      "label": "Cultural Identity",
+      "type": "concept",
+      "depth": 1,
+      "description": "The role of music in shaping and expressing cultural identity.",
+      "importance": 9,
+      "fun_fact": "Music is often used as a symbol of national or ethnic identity."
+    },
+    {
+      "id": "N4",
+      "label": "Musical Anthropology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of music as a part of human culture and society.",
+      "importance": 8,
+      "fun_fact": "Musical anthropology has been influenced by the work of anthropologists such as Claude Levi-Strauss."
+    },
+    {
+      "id": "N5",
+      "label": "Sociolinguistics of Music",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the relationship between music and language.",
+      "importance": 7,
+      "fun_fact": "Sociolinguistics of music explores how music reflects and influences language use."
+    },
+    {
+      "id": "N6",
+      "label": "Music and Emotion",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the emotional impact of music on individuals and societies.",
+      "importance": 8,
+      "fun_fact": "Music has been shown to have a profound impact on emotional states and well-being."
+    },
+    {
+      "id": "N7",
+      "label": "Entrainment",
+      "type": "concept",
+      "depth": 2,
+      "description": "The phenomenon of synchronization between independent rhythmic processes.",
+      "importance": 6,
+      "fun_fact": "Entrainment is observed in various forms of music and dance."
+    },
+    {
+      "id": "N8",
+      "label": "Applied Ethnomusicology",
+      "type": "application",
+      "depth": 2,
+      "description": "The practical application of ethnomusicological research in real-world contexts.",
+      "importance": 8,
+      "fun_fact": "Applied ethnomusicology has been used in music therapy, education, and cultural preservation."
+    },
+    {
+      "id": "N9",
+      "label": "Jeff Todd Titon",
+      "type": "person",
+      "depth": 2,
+      "description": "An American ethnomusicologist and expert in applied ethnomusicology.",
+      "importance": 7,
+      "fun_fact": "Titon has written extensively on the topic of applied ethnomusicology."
+    },
+    {
+      "id": "N10",
+      "label": "The Oxford Handbook of Applied Ethnomusicology",
+      "type": "fact",
+      "depth": 2,
+      "description": "A comprehensive guide to applied ethnomusicology, edited by Jeff Todd Titon and Svanibor Pettan.",
+      "importance": 6,
+      "fun_fact": "The handbook features contributions from leading experts in the field."
+    },
+    {
+      "id": "N11",
+      "label": "Ethnomusicology: A Very Short Introduction",
+      "type": "fact",
+      "depth": 2,
+      "description": "A brief introduction to the field of ethnomusicology, written by Timothy Rice.",
+      "importance": 5,
+      "fun_fact": "The book provides an overview of the history and scope of ethnomusicology."
+    },
+    {
+      "id": "N12",
+      "label": "Jaap Kunst",
+      "type": "person",
+      "depth": 2,
+      "description": "A Dutch ethnomusicologist who coined the term 'ethnomusicology'.",
+      "importance": 6,
+      "fun_fact": "Kunst was a pioneer in the field of ethnomusicology."
+    },
+    {
+      "id": "N13",
+      "label": "Divje Babe Flute",
+      "type": "example",
+      "depth": 3,
+      "description": "An ancient musical instrument discovered in Slovenia, estimated to be between 43,000 and 67,000 years old.",
+      "importance": 4,
+      "fun_fact": "The flute is considered one of the oldest known musical instruments."
+    },
+    {
+      "id": "N14",
+      "label": "Music Therapy",
+      "type": "application",
+      "depth": 3,
+      "description": "The use of music to promote physical, emotional, and cognitive well-being.",
+      "importance": 7,
+      "fun_fact": "Music therapy has been shown to have a positive impact on patients with Alzheimer's disease."
+    },
+    {
+      "id": "N15",
+      "label": "Cultural Preservation",
+      "type": "application",
+      "depth": 3,
+      "description": "The effort to protect and promote cultural heritage, including music and other artistic expressions.",
+      "importance": 8,
+      "fun_fact": "Cultural preservation is essential for maintaining cultural diversity and promoting cross-cultural understanding."
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Music archaeology is a subfield of ethnomusicology."
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Cultural identity is a key concept in ethnomusicology."
+    },
+    {
+      "source": "N1",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Musical anthropology is a related field to ethnomusicology."
+    },
+    {
+      "source": "N1",
+      "target": "N5",
+      "relation": "is_part_of",
+      "strength": 7,
+      "description": "Sociolinguistics of music is a subfield of ethnomusicology."
+    },
+    {
+      "source": "N1",
+      "target": "N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Music and emotion is a key area of study in ethnomusicology."
+    },
+    {
+      "source": "N2",
+      "target": "N7",
+      "relation": "leads_to",
+      "strength": 6,
+      "description": "Music archaeology can lead to a deeper understanding of entrainment."
+    },
+    {
+      "source": "N3",
+      "target": "N8",
+      "relation": "enables",
+      "strength": 8,
+      "description": "Cultural identity is a key concept in applied ethnomusicology."
+    },
+    {
+      "source": "N4",
+      "target": "N9",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "Jeff Todd Titon is an expert in musical anthropology and applied ethnomusicology."
+    },
+    {
+      "source": "N5",
+      "target": "N10",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "Sociolinguistics of music is discussed in The Oxford Handbook of Applied Ethnomusicology."
+    },
+    {
+      "source": "N6",
+      "target": "N11",
+      "relation": "related_to",
+      "strength": 5,
+      "description": "Music and emotion is discussed in Ethnomusicology: A Very Short Introduction."
+    },
+    {
+      "source": "N7",
+      "target": "N12",
+      "relation": "discovered_by",
+      "strength": 6,
+      "description": "Jaap Kunst was a pioneer in the field of ethnomusicology and discovered the concept of entrainment."
+    },
+    {
+      "source": "N8",
+      "target": "N13",
+      "relation": "used_in",
+      "strength": 4,
+      "description": "Applied ethnomusicology can involve the study of ancient musical instruments like the Divje Babe Flute."
+    },
+    {
+      "source": "N9",
+      "target": "N14",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "Jeff Todd Titon has written about the application of ethnomusicology in music therapy."
+    },
+    {
+      "source": "N10",
+      "target": "N15",
+      "relation": "enables",
+      "strength": 8,
+      "description": "The Oxford Handbook of Applied Ethnomusicology provides guidance on cultural preservation."
+    },
+    {
+      "source": "N11",
+      "target": "N1",
+      "relation": "is_part_of",
+      "strength": 5,
+      "description": "Ethnomusicology: A Very Short Introduction provides an overview of the field of ethnomusicology."
+    },
+    {
+      "source": "N12",
+      "target": "N1",
+      "relation": "discovered_by",
+      "strength": 6,
+      "description": "Jaap Kunst coined the term 'ethnomusicology'."
+    },
+    {
+      "source": "N13",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 4,
+      "description": "The Divje Babe Flute is an example of an ancient musical instrument studied in music archaeology."
+    },
+    {
+      "source": "N14",
+      "target": "N6",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "Music therapy is an application of the study of music and emotion."
+    },
+    {
+      "source": "N15",
+      "target": "N3",
+      "relation": "enables",
+      "strength": 8,
+      "description": "Cultural preservation is essential for maintaining cultural identity."
+    }
+  ],
+  "key_takeaways": [
+    "Ethnomusicology is the study of music in different cultures, focusing on its social, cultural, and historical contexts.",
+    "Cultural identity is a key concept in ethnomusicology, and music plays a significant role in shaping and expressing cultural identity.",
+    "Applied ethnomusicology has practical applications in music therapy, education, and cultural preservation."
+  ],
+  "real_world_impact": "Ethnomusicology has a significant impact on our understanding of human culture and society. By studying music in different cultures, ethnomusicologists can gain insights into cultural identity, social dynamics, and historical contexts. The practical applications of ethnomusicology, such as music therapy and cultural preservation, can also have a positive impact on individuals and communities. Furthermore, the study of music and emotion can inform our understanding of human emotional experiences and well-being. Overall, ethnomusicology is a rich and diverse field that can enrich our understanding of the world and our place in it.",
+  "images": [],
+  "sources": {
+    "wikipedia_url": "",
+    "papers": [
+      {
+        "title": "In time with the music: the concept of entrainment and its significance for ethnomusicology",
+        "url": "https://durham-repository.worktribe.com/file/1539297/1/Published%20Journal%20Article"
+      },
+      {
+        "title": "The Oxford Handbook of Applied Ethnomusicology",
+        "url": "https://doi.org/10.1093/oxfordhb/9780199351701.001.0001"
+      },
+      {
+        "title": "Ethnomusicology: A Very Short Introduction",
+        "url": "http://bvbr.bib-bvb.de:8991/F?func=service&doc_library=BVB01&local_base=BVB01&doc_number=027178898&sequence=000001&line_number=0001&func_code=DB_RECORDS&service_type=MEDIA"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 19"
+      ],
+      "node_count": 15,
+      "edge_count": 19
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Historical Musicology",
+        "Music Cognition"
+      ],
+      "strengths": [
+        "Strong connections between core concepts",
+        "Inclusion of key applications and related fields"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

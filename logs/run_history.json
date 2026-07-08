@@ -570,5 +570,18 @@
     "master_total_topics": 44,
     "ended_at": "2026-07-07T23:31:36.764690",
     "duration_seconds": 39.0
+  },
+  {
+    "started_at": "2026-07-08T09:15:27.603141",
+    "status": "success",
+    "topic": "Ethnomusicology",
+    "sources_found": 5,
+    "images_found": 0,
+    "quality_score": 87.5,
+    "quality_passed": true,
+    "exam_questions": 10,
+    "master_total_topics": 45,
+    "ended_at": "2026-07-08T09:16:08.213091",
+    "duration_seconds": 40.6
   }
 ]

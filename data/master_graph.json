@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 44,
-  "total_nodes": 659,
-  "total_edges": 806,
+  "total_topics": 45,
+  "total_nodes": 674,
+  "total_edges": 825,
   "topics": [
     {
       "topic": "Climate Change",
@@ -399,6 +399,15 @@
       "edge_count": 18,
       "description": "Human nutrition deals with the provision of essential nutrients in food necessary to support human life and good health. Poor nutrition is a chronic problem often linked to poverty, food security, or a poor understanding of nutritional requirements. Good nutrition is necessary for children to grow physically and mentally, and for normal human biological development.",
       "added_at": "2026-07-07T23:31:36.754417"
+    },
+    {
+      "topic": "Ethnomusicology",
+      "slug": "ethnomusicology",
+      "category": "anthropology",
+      "node_count": 15,
+      "edge_count": 19,
+      "description": "Ethnomusicology is the study of music in different cultures, focusing on its social, cultural, and historical contexts. It explores the diverse ways music is created, performed, and perceived across the world. By examining music as a universal language, ethnomusicologists gain insights into human identity, cultural exchange, and social dynamics.",
+      "added_at": "2026-07-08T09:16:08.203282"
     }
   ],
   "global_nodes": [
@@ -7650,6 +7659,171 @@
       "fun_fact": "Nutrition research has led to a greater understanding of the importance of good nutrition and the development of effective strategies for promoting healthy eating habits.",
       "topic_slug": "human_nutrition",
       "topic": "Human Nutrition"
+    },
+    {
+      "id": "ethnomusicology__N1",
+      "label": "Ethnomusicology",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of music in different cultures, focusing on its social, cultural, and historical contexts.",
+      "importance": 10,
+      "fun_fact": "The term 'ethnomusicology' was coined in 1950 by Jaap Kunst.",
+      "topic_slug": "ethnomusicology",
+      "topic": "Ethnomusicology"
+    },
+    {
+      "id": "ethnomusicology__N2",
+      "label": "Music Archaeology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the history and development of music in ancient cultures.",
+      "importance": 8,
+      "fun_fact": "Music archaeology has uncovered evidence of ancient musical instruments, such as the Divje Babe Flute.",
+      "topic_slug": "ethnomusicology",
+      "topic": "Ethnomusicology"
+    },
+    {
+      "id": "ethnomusicology__N3",
+      "label": "Cultural Identity",
+      "type": "concept",
+      "depth": 1,
+      "description": "The role of music in shaping and expressing cultural identity.",
+      "importance": 9,
+      "fun_fact": "Music is often used as a symbol of national or ethnic identity.",
+      "topic_slug": "ethnomusicology",
+      "topic": "Ethnomusicology"
+    },
+    {
+      "id": "ethnomusicology__N4",
+      "label": "Musical Anthropology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of music as a part of human culture and society.",
+      "importance": 8,
+      "fun_fact": "Musical anthropology has been influenced by the work of anthropologists such as Claude Levi-Strauss.",
+      "topic_slug": "ethnomusicology",
+      "topic": "Ethnomusicology"
+    },
+    {
+      "id": "ethnomusicology__N5",
+      "label": "Sociolinguistics of Music",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the relationship between music and language.",
+      "importance": 7,
+      "fun_fact": "Sociolinguistics of music explores how music reflects and influences language use.",
+      "topic_slug": "ethnomusicology",
+      "topic": "Ethnomusicology"
+    },
+    {
+      "id": "ethnomusicology__N6",
+      "label": "Music and Emotion",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the emotional impact of music on individuals and societies.",
+      "importance": 8,
+      "fun_fact": "Music has been shown to have a profound impact on emotional states and well-being.",
+      "topic_slug": "ethnomusicology",
+      "topic": "Ethnomusicology"
+    },
+    {
+      "id": "ethnomusicology__N7",
+      "label": "Entrainment",
+      "type": "concept",
+      "depth": 2,
+      "description": "The phenomenon of synchronization between independent rhythmic processes.",
+      "importance": 6,
+      "fun_fact": "Entrainment is observed in various forms of music and dance.",
+      "topic_slug": "ethnomusicology",
+      "topic": "Ethnomusicology"
+    },
+    {
+      "id": "ethnomusicology__N8",
+      "label": "Applied Ethnomusicology",
+      "type": "application",
+      "depth": 2,
+      "description": "The practical application of ethnomusicological research in real-world contexts.",
+      "importance": 8,
+      "fun_fact": "Applied ethnomusicology has been used in music therapy, education, and cultural preservation.",
+      "topic_slug": "ethnomusicology",
+      "topic": "Ethnomusicology"
+    },
+    {
+      "id": "ethnomusicology__N9",
+      "label": "Jeff Todd Titon",
+      "type": "person",
+      "depth": 2,
+      "description": "An American ethnomusicologist and expert in applied ethnomusicology.",
+      "importance": 7,
+      "fun_fact": "Titon has written extensively on the topic of applied ethnomusicology.",
+      "topic_slug": "ethnomusicology",
+      "topic": "Ethnomusicology"
+    },
+    {
+      "id": "ethnomusicology__N10",
+      "label": "The Oxford Handbook of Applied Ethnomusicology",
+      "type": "fact",
+      "depth": 2,
+      "description": "A comprehensive guide to applied ethnomusicology, edited by Jeff Todd Titon and Svanibor Pettan.",
+      "importance": 6,
+      "fun_fact": "The handbook features contributions from leading experts in the field.",
+      "topic_slug": "ethnomusicology",
+      "topic": "Ethnomusicology"
+    },
+    {
+      "id": "ethnomusicology__N11",
+      "label": "Ethnomusicology: A Very Short Introduction",
+      "type": "fact",
+      "depth": 2,
+      "description": "A brief introduction to the field of ethnomusicology, written by Timothy Rice.",
+      "importance": 5,
+      "fun_fact": "The book provides an overview of the history and scope of ethnomusicology.",
+      "topic_slug": "ethnomusicology",
+      "topic": "Ethnomusicology"
+    },
+    {
+      "id": "ethnomusicology__N12",
+      "label": "Jaap Kunst",
+      "type": "person",
+      "depth": 2,
+      "description": "A Dutch ethnomusicologist who coined the term 'ethnomusicology'.",
+      "importance": 6,
+      "fun_fact": "Kunst was a pioneer in the field of ethnomusicology.",
+      "topic_slug": "ethnomusicology",
+      "topic": "Ethnomusicology"
+    },
+    {
+      "id": "ethnomusicology__N13",
+      "label": "Divje Babe Flute",
+      "type": "example",
+      "depth": 3,
+      "description": "An ancient musical instrument discovered in Slovenia, estimated to be between 43,000 and 67,000 years old.",
+      "importance": 4,
+      "fun_fact": "The flute is considered one of the oldest known musical instruments.",
+      "topic_slug": "ethnomusicology",
+      "topic": "Ethnomusicology"
+    },
+    {
+      "id": "ethnomusicology__N14",
+      "label": "Music Therapy",
+      "type": "application",
+      "depth": 3,
+      "description": "The use of music to promote physical, emotional, and cognitive well-being.",
+      "importance": 7,
+      "fun_fact": "Music therapy has been shown to have a positive impact on patients with Alzheimer's disease.",
+      "topic_slug": "ethnomusicology",
+      "topic": "Ethnomusicology"
+    },
+    {
+      "id": "ethnomusicology__N15",
+      "label": "Cultural Preservation",
+      "type": "application",
+      "depth": 3,
+      "description": "The effort to protect and promote cultural heritage, including music and other artistic expressions.",
+      "importance": 8,
+      "fun_fact": "Cultural preservation is essential for maintaining cultural diversity and promoting cross-cultural understanding.",
+      "topic_slug": "ethnomusicology",
+      "topic": "Ethnomusicology"
     }
   ],
   "global_edges": [
@@ -13294,6 +13468,139 @@
       "relation": "leads_to",
       "strength": 8,
       "topic": "Human Nutrition"
+    },
+    {
+      "source": "ethnomusicology__N1",
+      "target": "ethnomusicology__N2",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Ethnomusicology"
+    },
+    {
+      "source": "ethnomusicology__N1",
+      "target": "ethnomusicology__N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Ethnomusicology"
+    },
+    {
+      "source": "ethnomusicology__N1",
+      "target": "ethnomusicology__N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Ethnomusicology"
+    },
+    {
+      "source": "ethnomusicology__N1",
+      "target": "ethnomusicology__N5",
+      "relation": "is_part_of",
+      "strength": 7,
+      "topic": "Ethnomusicology"
+    },
+    {
+      "source": "ethnomusicology__N1",
+      "target": "ethnomusicology__N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Ethnomusicology"
+    },
+    {
+      "source": "ethnomusicology__N2",
+      "target": "ethnomusicology__N7",
+      "relation": "leads_to",
+      "strength": 6,
+      "topic": "Ethnomusicology"
+    },
+    {
+      "source": "ethnomusicology__N3",
+      "target": "ethnomusicology__N8",
+      "relation": "enables",
+      "strength": 8,
+      "topic": "Ethnomusicology"
+    },
+    {
+      "source": "ethnomusicology__N4",
+      "target": "ethnomusicology__N9",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Ethnomusicology"
+    },
+    {
+      "source": "ethnomusicology__N5",
+      "target": "ethnomusicology__N10",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Ethnomusicology"
+    },
+    {
+      "source": "ethnomusicology__N6",
+      "target": "ethnomusicology__N11",
+      "relation": "related_to",
+      "strength": 5,
+      "topic": "Ethnomusicology"
+    },
+    {
+      "source": "ethnomusicology__N7",
+      "target": "ethnomusicology__N12",
+      "relation": "discovered_by",
+      "strength": 6,
+      "topic": "Ethnomusicology"
+    },
+    {
+      "source": "ethnomusicology__N8",
+      "target": "ethnomusicology__N13",
+      "relation": "used_in",
+      "strength": 4,
+      "topic": "Ethnomusicology"
+    },
+    {
+      "source": "ethnomusicology__N9",
+      "target": "ethnomusicology__N14",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Ethnomusicology"
+    },
+    {
+      "source": "ethnomusicology__N10",
+      "target": "ethnomusicology__N15",
+      "relation": "enables",
+      "strength": 8,
+      "topic": "Ethnomusicology"
+    },
+    {
+      "source": "ethnomusicology__N11",
+      "target": "ethnomusicology__N1",
+      "relation": "is_part_of",
+      "strength": 5,
+      "topic": "Ethnomusicology"
+    },
+    {
+      "source": "ethnomusicology__N12",
+      "target": "ethnomusicology__N1",
+      "relation": "discovered_by",
+      "strength": 6,
+      "topic": "Ethnomusicology"
+    },
+    {
+      "source": "ethnomusicology__N13",
+      "target": "ethnomusicology__N2",
+      "relation": "is_part_of",
+      "strength": 4,
+      "topic": "Ethnomusicology"
+    },
+    {
+      "source": "ethnomusicology__N14",
+      "target": "ethnomusicology__N6",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Ethnomusicology"
+    },
+    {
+      "source": "ethnomusicology__N15",
+      "target": "ethnomusicology__N3",
+      "relation": "enables",
+      "strength": 8,
+      "topic": "Ethnomusicology"
     }
   ],
   "cross_topic_edges": [
@@ -13647,8 +13954,9 @@
       "biomechanical_engineering"
     ],
     "anthropology": [
-      "anthropology"
+      "anthropology",
+      "ethnomusicology"
     ]
   },
-  "last_updated": "2026-07-07T23:31:36.754450"
+  "last_updated": "2026-07-08T09:16:08.203325"
 }

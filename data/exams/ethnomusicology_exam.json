@@ -1,0 +1,165 @@
+{
+  "topic": "Ethnomusicology",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary focus of ethnomusicology?",
+      "options": {
+        "A": "The study of music in different cultures, focusing on its social, cultural, and historical contexts.",
+        "B": "The study of music theory and composition.",
+        "C": "The study of music performance and technique.",
+        "D": "The study of music business and industry."
+      },
+      "correct": "A",
+      "explanation": "Ethnomusicology is the study of music in different cultures, focusing on its social, cultural, and historical contexts.",
+      "node_id": "Ethnomusicology",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the study of the history and development of music in ancient cultures?",
+      "options": {
+        "A": "Music Archaeology",
+        "B": "Musical Anthropology",
+        "C": "Sociolinguistics of Music",
+        "D": "Historical Musicology"
+      },
+      "correct": "A",
+      "explanation": "Music Archaeology is the study of the history and development of music in ancient cultures.",
+      "node_id": "Music Archaeology",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the study of the relationship between music and language?",
+      "options": {
+        "A": "Sociolinguistics of Music",
+        "B": "Music and Emotion",
+        "C": "Musical Anthropology",
+        "D": "Linguistic Musicology"
+      },
+      "correct": "A",
+      "explanation": "Sociolinguistics of Music is the study of the relationship between music and language.",
+      "node_id": "Sociolinguistics of Music",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the role of music in shaping and expressing cultural identity?",
+      "options": {
+        "A": "Music is a reflection of cultural identity.",
+        "B": "Music has no impact on cultural identity.",
+        "C": "Music is a symbol of national or ethnic identity.",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanation": "Music plays a significant role in shaping and expressing cultural identity, and is often used as a symbol of national or ethnic identity.",
+      "node_id": "Cultural Identity",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Who is an American ethnomusicologist and expert in applied ethnomusicology?",
+      "options": {
+        "A": "Jeff Todd Titon",
+        "B": "Jaap Kunst",
+        "C": "Claude Levi-Strauss",
+        "D": "Alan Lomax"
+      },
+      "correct": "A",
+      "explanation": "Jeff Todd Titon is an American ethnomusicologist and expert in applied ethnomusicology.",
+      "node_id": "Jeff Todd Titon",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the use of music to promote physical, emotional, and cognitive well-being?",
+      "options": {
+        "A": "Music Therapy",
+        "B": "Music Education",
+        "C": "Music Psychology",
+        "D": "Music Medicine"
+      },
+      "correct": "A",
+      "explanation": "Music Therapy is the use of music to promote physical, emotional, and cognitive well-being.",
+      "node_id": "Music Therapy",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the effort to protect and promote cultural heritage, including music and other artistic expressions?",
+      "options": {
+        "A": "Cultural Preservation",
+        "B": "Cultural Exchange",
+        "C": "Cultural Expression",
+        "D": "Cultural Diversity"
+      },
+      "correct": "A",
+      "explanation": "Cultural Preservation is the effort to protect and promote cultural heritage, including music and other artistic expressions.",
+      "node_id": "Cultural Preservation",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What is the significance of music in shaping and expressing cultural identity?",
+      "sample_answer": "Music plays a significant role in shaping and expressing cultural identity, as it reflects the values, beliefs, and traditions of a culture. It is often used as a symbol of national or ethnic identity and can evoke emotions and memories associated with a particular culture.",
+      "keywords": [
+        "cultural identity",
+        "music",
+        "symbol",
+        "national",
+        "ethnic"
+      ],
+      "node_id": "Cultural Identity",
+      "points": 20
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "How does applied ethnomusicology contribute to music therapy and cultural preservation?",
+      "sample_answer": "Applied ethnomusicology contributes to music therapy by providing a framework for understanding the cultural and social contexts of music-making, which can inform music therapy practices. It also contributes to cultural preservation by documenting and promoting the music and musical practices of diverse cultures, which can help to preserve cultural heritage and promote cross-cultural understanding.",
+      "keywords": [
+        "applied ethnomusicology",
+        "music therapy",
+        "cultural preservation",
+        "cultural heritage"
+      ],
+      "node_id": "Applied Ethnomusicology",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What is the relationship between music and emotion, and how does it impact human well-being?",
+      "sample_answer": "Music has a profound impact on emotional states and well-being, as it can evoke emotions, reduce stress, and promote relaxation. The relationship between music and emotion is complex and influenced by cultural, social, and personal factors. Understanding this relationship can inform music therapy practices and promote the use of music as a tool for improving human well-being.",
+      "keywords": [
+        "music",
+        "emotion",
+        "well-being",
+        "music therapy"
+      ],
+      "node_id": "Music and Emotion",
+      "points": 20
+    }
+  ]
+}
