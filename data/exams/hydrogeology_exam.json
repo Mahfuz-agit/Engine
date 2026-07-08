@@ -1,0 +1,161 @@
+{
+  "topic": "Hydrogeology",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary focus of hydrogeology?",
+      "options": {
+        "A": "The study of surface water flow",
+        "B": "The study of the distribution and movement of groundwater in the Earth's crust",
+        "C": "The study of water quality in rivers and lakes",
+        "D": "The study of ocean currents"
+      },
+      "correct": "B",
+      "explanation": "Hydrogeology is the study of the distribution and movement of groundwater in the Earth's crust, which is essential for understanding and managing water resources.",
+      "node_id": "Hydrogeology",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the primary factor driving groundwater flow?",
+      "options": {
+        "A": "Temperature gradients",
+        "B": "Gravity and pressure gradients",
+        "C": "Electrical currents",
+        "D": "Magnetic fields"
+      },
+      "correct": "B",
+      "explanation": "Groundwater flow is driven by gravity and pressure gradients, which cause water to move from areas of high pressure to areas of low pressure.",
+      "node_id": "Groundwater Flow",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the process of estimating the properties of an aquifer based on limited data and observations?",
+      "options": {
+        "A": "Direct problem in hydrogeology",
+        "B": "Inverse problem in hydrogeology",
+        "C": "Forward problem in hydrogeology",
+        "D": "Optimization problem in hydrogeology"
+      },
+      "correct": "B",
+      "explanation": "The inverse problem in hydrogeology refers to the challenge of estimating the properties of an aquifer based on limited data and observations, which requires the use of mathematical models and computational methods.",
+      "node_id": "Inverse Problem in Hydrogeology",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "Who is credited with developing the equation that describes the flow of water through porous media?",
+      "options": {
+        "A": "Isaac Newton",
+        "B": "Albert Einstein",
+        "C": "Henry Darcy",
+        "D": "Leonardo da Vinci"
+      },
+      "correct": "C",
+      "explanation": "Henry Darcy is credited with developing the equation that describes the flow of water through porous media, which is known as Darcy's law.",
+      "node_id": "Henry Darcy",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the practice of intentionally introducing water into the groundwater system to replenish aquifers?",
+      "options": {
+        "A": "Artificial depletion of groundwater",
+        "B": "Artificial recharge of groundwater",
+        "C": "Natural recharge of groundwater",
+        "D": "Groundwater harvesting"
+      },
+      "correct": "B",
+      "explanation": "Artificial recharge of groundwater is the practice of intentionally introducing water into the groundwater system to replenish aquifers, which is used to manage water resources and mitigate the effects of drought.",
+      "node_id": "Artificial Recharge of Groundwater",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the creation of maps that depict the distribution and characteristics of groundwater resources?",
+      "options": {
+        "A": "Hydrogeological mapping",
+        "B": "Geological mapping",
+        "C": "Hydrological mapping",
+        "D": "Cartography"
+      },
+      "correct": "A",
+      "explanation": "Hydrogeological mapping is the creation of maps that depict the distribution and characteristics of groundwater resources, which is a valuable tool for managing water resources and identifying areas of high groundwater potential.",
+      "node_id": "Hydrogeological Mapping",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the exchange of water between groundwater and surface water systems?",
+      "options": {
+        "A": "Groundwater-surface water interaction",
+        "B": "Surface water-groundwater interaction",
+        "C": "Hydrologic cycle",
+        "D": "Water balance"
+      },
+      "correct": "A",
+      "explanation": "Groundwater-surface water interaction refers to the exchange of water between groundwater and surface water systems, which plays a critical role in shaping the Earth's hydrologic cycle.",
+      "node_id": "Groundwater-Surface Water Interaction",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the importance of hydrogeology in water resource management.",
+      "sample_answer": "Hydrogeology is essential for managing water resources sustainably, as it helps to understand the distribution and movement of groundwater, identify areas of high groundwater potential, and mitigate the effects of subsurface contamination.",
+      "keywords": [
+        "hydrogeology",
+        "water resource management",
+        "sustainable management"
+      ],
+      "node_id": "Hydrogeology in Water Resource Management",
+      "points": 15
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Explain the concept of Darcy's law and its application in hydrogeology.",
+      "sample_answer": "Darcy's law is a mathematical equation that relates the flow of water through a porous medium to the hydraulic gradient and permeability. It is widely used in hydrogeology to model groundwater flow and contaminant transport, and is essential for understanding the behavior of groundwater systems.",
+      "keywords": [
+        "Darcy's law",
+        "groundwater flow",
+        "contaminant transport"
+      ],
+      "node_id": "Darcy's Law",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the difference between an aquifer and a groundwater reservoir.",
+      "sample_answer": "An aquifer is a geological formation that stores and transmits large amounts of water, while a groundwater reservoir is a storage system that holds water for future use. Aquifers are typically characterized by their permeability and porosity, while groundwater reservoirs are designed to store water for irrigation, drinking water, or other purposes.",
+      "keywords": [
+        "aquifer",
+        "groundwater reservoir",
+        "water storage"
+      ],
+      "node_id": "Aquifer Characteristics",
+      "points": 15
+    }
+  ]
+}

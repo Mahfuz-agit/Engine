@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 46,
-  "total_nodes": 689,
-  "total_edges": 843,
+  "total_topics": 47,
+  "total_nodes": 704,
+  "total_edges": 861,
   "topics": [
     {
       "topic": "Climate Change",
@@ -417,6 +417,15 @@
       "edge_count": 18,
       "description": "Archaeoacoustics is an interdisciplinary field that studies the relationship between people and sound throughout history, using methods from room acoustics, archaeology, and computer simulation to understand the cultural and social context of past civilizations. It involves the analysis of sound in ancient sites, rituals, and ceremonies to reveal new information about the civilizations examined. By applying acoustical methods to archaeological sites and artifacts, researchers can gain a deeper understanding of the architectural features, spatial organization, and cultural practices of past societies.",
       "added_at": "2026-07-08T16:16:21.657677"
+    },
+    {
+      "topic": "Hydrogeology",
+      "slug": "hydrogeology",
+      "category": "geography",
+      "node_count": 15,
+      "edge_count": 18,
+      "description": "Hydrogeology is the study of the distribution and movement of groundwater in the Earth's crust, encompassing aspects such as groundwater flow, aquifer characteristics, and water quality. It is a crucial field for understanding and managing water resources. Hydrogeology has numerous applications in watershed management and subsurface contamination mitigation.",
+      "added_at": "2026-07-08T21:49:07.878804"
     }
   ],
   "global_nodes": [
@@ -7998,6 +8007,171 @@
       "fun_fact": "Ethnomusicology has been used to understand the cultural and social context of music in different societies, including the use of sound and music in ancient cultures.",
       "topic_slug": "archaeoacoustics",
       "topic": "Archaeoacoustics"
+    },
+    {
+      "id": "hydrogeology__N1",
+      "label": "Hydrogeology",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of the distribution and movement of groundwater in the soil and rocks of the Earth's crust.",
+      "importance": 10,
+      "fun_fact": "Hydrogeology is often used interchangeably with groundwater hydrology and geohydrology.",
+      "topic_slug": "hydrogeology",
+      "topic": "Hydrogeology"
+    },
+    {
+      "id": "hydrogeology__N2",
+      "label": "Groundwater Flow",
+      "type": "concept",
+      "depth": 1,
+      "description": "The movement of water through the soil and rocks of the Earth's crust, driven by gravity and pressure gradients.",
+      "importance": 9,
+      "fun_fact": "Groundwater flow is a key factor in shaping the Earth's landscape.",
+      "topic_slug": "hydrogeology",
+      "topic": "Hydrogeology"
+    },
+    {
+      "id": "hydrogeology__N3",
+      "label": "Aquifer Characteristics",
+      "type": "concept",
+      "depth": 1,
+      "description": "The physical properties of rock formations that enable them to store and transmit large amounts of water.",
+      "importance": 9,
+      "fun_fact": "Aquifers can be classified into different types based on their geological characteristics.",
+      "topic_slug": "hydrogeology",
+      "topic": "Hydrogeology"
+    },
+    {
+      "id": "hydrogeology__N4",
+      "label": "Water Quality",
+      "type": "concept",
+      "depth": 1,
+      "description": "The chemical, physical, and biological characteristics of water that determine its suitability for various uses.",
+      "importance": 9,
+      "fun_fact": "Water quality is a critical aspect of hydrogeology, as it affects human health and the environment.",
+      "topic_slug": "hydrogeology",
+      "topic": "Hydrogeology"
+    },
+    {
+      "id": "hydrogeology__N5",
+      "label": "Watershed Management",
+      "type": "application",
+      "depth": 2,
+      "description": "The practice of managing water resources within a watershed to maintain water quality and quantity.",
+      "importance": 8,
+      "fun_fact": "Watershed management involves a multidisciplinary approach, including hydrogeology, ecology, and engineering.",
+      "topic_slug": "hydrogeology",
+      "topic": "Hydrogeology"
+    },
+    {
+      "id": "hydrogeology__N6",
+      "label": "Subsurface Contamination",
+      "type": "concept",
+      "depth": 1,
+      "description": "The presence of pollutants in the soil and groundwater, posing a risk to human health and the environment.",
+      "importance": 9,
+      "fun_fact": "Subsurface contamination can occur through various mechanisms, including industrial activities and agricultural practices.",
+      "topic_slug": "hydrogeology",
+      "topic": "Hydrogeology"
+    },
+    {
+      "id": "hydrogeology__N7",
+      "label": "Artificial Recharge of Groundwater",
+      "type": "application",
+      "depth": 2,
+      "description": "The practice of intentionally introducing water into the groundwater system to replenish aquifers.",
+      "importance": 8,
+      "fun_fact": "Artificial recharge of groundwater is a technique used to manage water resources and mitigate the effects of drought.",
+      "topic_slug": "hydrogeology",
+      "topic": "Hydrogeology"
+    },
+    {
+      "id": "hydrogeology__N8",
+      "label": "Inverse Problem in Hydrogeology",
+      "type": "concept",
+      "depth": 2,
+      "description": "The challenge of estimating the properties of an aquifer based on limited data and observations.",
+      "importance": 8,
+      "fun_fact": "Inverse problems in hydrogeology require the use of mathematical models and computational methods.",
+      "topic_slug": "hydrogeology",
+      "topic": "Hydrogeology"
+    },
+    {
+      "id": "hydrogeology__N9",
+      "label": "Henry Darcy",
+      "type": "person",
+      "depth": 2,
+      "description": "A French engineer who developed the equation that describes the flow of water through porous media.",
+      "importance": 8,
+      "fun_fact": "Darcy's law is a fundamental concept in hydrogeology, used to predict groundwater flow.",
+      "topic_slug": "hydrogeology",
+      "topic": "Hydrogeology"
+    },
+    {
+      "id": "hydrogeology__N10",
+      "label": "Darcy's Law",
+      "type": "formula",
+      "depth": 3,
+      "description": "A mathematical equation that relates the flow of water through a porous medium to the hydraulic gradient and permeability.",
+      "importance": 9,
+      "fun_fact": "Darcy's law is widely used in hydrogeology to model groundwater flow and contaminant transport.",
+      "topic_slug": "hydrogeology",
+      "topic": "Hydrogeology"
+    },
+    {
+      "id": "hydrogeology__N11",
+      "label": "Groundwater Modeling",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of mathematical models to simulate groundwater flow and contaminant transport.",
+      "importance": 8,
+      "fun_fact": "Groundwater modeling is a valuable tool for predicting the behavior of groundwater systems and evaluating management strategies.",
+      "topic_slug": "hydrogeology",
+      "topic": "Hydrogeology"
+    },
+    {
+      "id": "hydrogeology__N12",
+      "label": "Aquifer Storage and Recovery",
+      "type": "application",
+      "depth": 2,
+      "description": "The practice of storing water in an aquifer during periods of surplus and recovering it during periods of drought.",
+      "importance": 8,
+      "fun_fact": "Aquifer storage and recovery is a technique used to manage water resources and mitigate the effects of climate change.",
+      "topic_slug": "hydrogeology",
+      "topic": "Hydrogeology"
+    },
+    {
+      "id": "hydrogeology__N13",
+      "label": "Hydrogeological Mapping",
+      "type": "application",
+      "depth": 2,
+      "description": "The creation of maps that depict the distribution and characteristics of groundwater resources.",
+      "importance": 8,
+      "fun_fact": "Hydrogeological mapping is a valuable tool for managing water resources and identifying areas of high groundwater potential.",
+      "topic_slug": "hydrogeology",
+      "topic": "Hydrogeology"
+    },
+    {
+      "id": "hydrogeology__N14",
+      "label": "Groundwater-Surface Water Interaction",
+      "type": "concept",
+      "depth": 1,
+      "description": "The exchange of water between groundwater and surface water systems.",
+      "importance": 9,
+      "fun_fact": "Groundwater-surface water interaction plays a critical role in shaping the Earth's hydrologic cycle.",
+      "topic_slug": "hydrogeology",
+      "topic": "Hydrogeology"
+    },
+    {
+      "id": "hydrogeology__N15",
+      "label": "Hydrogeology in Water Resource Management",
+      "type": "application",
+      "depth": 2,
+      "description": "The application of hydrogeological principles to manage water resources sustainably.",
+      "importance": 9,
+      "fun_fact": "Hydrogeology is essential for ensuring the long-term availability of water resources for human consumption, agriculture, and industry.",
+      "topic_slug": "hydrogeology",
+      "topic": "Hydrogeology"
     }
   ],
   "global_edges": [
@@ -13901,6 +14075,132 @@
       "relation": "is_related_to",
       "strength": 4,
       "topic": "Archaeoacoustics"
+    },
+    {
+      "source": "hydrogeology__N1",
+      "target": "hydrogeology__N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Hydrogeology"
+    },
+    {
+      "source": "hydrogeology__N1",
+      "target": "hydrogeology__N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Hydrogeology"
+    },
+    {
+      "source": "hydrogeology__N1",
+      "target": "hydrogeology__N4",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Hydrogeology"
+    },
+    {
+      "source": "hydrogeology__N1",
+      "target": "hydrogeology__N6",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Hydrogeology"
+    },
+    {
+      "source": "hydrogeology__N2",
+      "target": "hydrogeology__N5",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Hydrogeology"
+    },
+    {
+      "source": "hydrogeology__N3",
+      "target": "hydrogeology__N7",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Hydrogeology"
+    },
+    {
+      "source": "hydrogeology__N4",
+      "target": "hydrogeology__N11",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Hydrogeology"
+    },
+    {
+      "source": "hydrogeology__N6",
+      "target": "hydrogeology__N12",
+      "relation": "contrasts_with",
+      "strength": 8,
+      "topic": "Hydrogeology"
+    },
+    {
+      "source": "hydrogeology__N9",
+      "target": "hydrogeology__N10",
+      "relation": "discovered_by",
+      "strength": 9,
+      "topic": "Hydrogeology"
+    },
+    {
+      "source": "hydrogeology__N10",
+      "target": "hydrogeology__N11",
+      "relation": "used_in",
+      "strength": 9,
+      "topic": "Hydrogeology"
+    },
+    {
+      "source": "hydrogeology__N11",
+      "target": "hydrogeology__N13",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Hydrogeology"
+    },
+    {
+      "source": "hydrogeology__N13",
+      "target": "hydrogeology__N15",
+      "relation": "enables",
+      "strength": 8,
+      "topic": "Hydrogeology"
+    },
+    {
+      "source": "hydrogeology__N14",
+      "target": "hydrogeology__N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Hydrogeology"
+    },
+    {
+      "source": "hydrogeology__N15",
+      "target": "hydrogeology__N1",
+      "relation": "evolved_from",
+      "strength": 9,
+      "topic": "Hydrogeology"
+    },
+    {
+      "source": "hydrogeology__N5",
+      "target": "hydrogeology__N6",
+      "relation": "depends_on",
+      "strength": 8,
+      "topic": "Hydrogeology"
+    },
+    {
+      "source": "hydrogeology__N7",
+      "target": "hydrogeology__N12",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Hydrogeology"
+    },
+    {
+      "source": "hydrogeology__N8",
+      "target": "hydrogeology__N10",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Hydrogeology"
+    },
+    {
+      "source": "hydrogeology__N9",
+      "target": "hydrogeology__N8",
+      "relation": "discovered_by",
+      "strength": 8,
+      "topic": "Hydrogeology"
     }
   ],
   "cross_topic_edges": [
@@ -14164,6 +14464,20 @@
       "label": "anthropology"
     },
     {
+      "source": "hydrology__N3",
+      "target": "hydrogeology__N2",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "groundwater flow"
+    },
+    {
+      "source": "hydrology__N5",
+      "target": "hydrogeology__N5",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "watershed management"
+    },
+    {
       "source": "food_security__N1",
       "target": "human_nutrition__HN10",
       "relation": "cross_topic_connection",
@@ -14196,7 +14510,8 @@
       "hydrology",
       "food_security",
       "archaeomagnetism",
-      "soil_science"
+      "soil_science",
+      "hydrogeology"
     ],
     "biology": [
       "evolutionary_biology",
@@ -14261,5 +14576,5 @@
       "archaeoacoustics"
     ]
   },
-  "last_updated": "2026-07-08T16:16:21.657708"
+  "last_updated": "2026-07-08T21:49:07.878853"
 }

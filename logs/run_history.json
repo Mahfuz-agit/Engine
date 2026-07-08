@@ -596,5 +596,18 @@
     "master_total_topics": 46,
     "ended_at": "2026-07-08T16:16:21.667538",
     "duration_seconds": 37.5
+  },
+  {
+    "started_at": "2026-07-08T21:48:31.539670",
+    "status": "success",
+    "topic": "Hydrogeology",
+    "sources_found": 6,
+    "images_found": 5,
+    "quality_score": 87.5,
+    "quality_passed": true,
+    "exam_questions": 10,
+    "master_total_topics": 47,
+    "ended_at": "2026-07-08T21:49:07.889542",
+    "duration_seconds": 36.3
   }
 ]

@@ -1,0 +1,377 @@
+{
+  "topic": "Hydrogeology",
+  "category": "geography",
+  "description": "Hydrogeology is the study of the distribution and movement of groundwater in the Earth's crust, encompassing aspects such as groundwater flow, aquifer characteristics, and water quality. It is a crucial field for understanding and managing water resources. Hydrogeology has numerous applications in watershed management and subsurface contamination mitigation.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Hydrogeology",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of the distribution and movement of groundwater in the soil and rocks of the Earth's crust.",
+      "importance": 10,
+      "fun_fact": "Hydrogeology is often used interchangeably with groundwater hydrology and geohydrology."
+    },
+    {
+      "id": "N2",
+      "label": "Groundwater Flow",
+      "type": "concept",
+      "depth": 1,
+      "description": "The movement of water through the soil and rocks of the Earth's crust, driven by gravity and pressure gradients.",
+      "importance": 9,
+      "fun_fact": "Groundwater flow is a key factor in shaping the Earth's landscape."
+    },
+    {
+      "id": "N3",
+      "label": "Aquifer Characteristics",
+      "type": "concept",
+      "depth": 1,
+      "description": "The physical properties of rock formations that enable them to store and transmit large amounts of water.",
+      "importance": 9,
+      "fun_fact": "Aquifers can be classified into different types based on their geological characteristics."
+    },
+    {
+      "id": "N4",
+      "label": "Water Quality",
+      "type": "concept",
+      "depth": 1,
+      "description": "The chemical, physical, and biological characteristics of water that determine its suitability for various uses.",
+      "importance": 9,
+      "fun_fact": "Water quality is a critical aspect of hydrogeology, as it affects human health and the environment."
+    },
+    {
+      "id": "N5",
+      "label": "Watershed Management",
+      "type": "application",
+      "depth": 2,
+      "description": "The practice of managing water resources within a watershed to maintain water quality and quantity.",
+      "importance": 8,
+      "fun_fact": "Watershed management involves a multidisciplinary approach, including hydrogeology, ecology, and engineering."
+    },
+    {
+      "id": "N6",
+      "label": "Subsurface Contamination",
+      "type": "concept",
+      "depth": 1,
+      "description": "The presence of pollutants in the soil and groundwater, posing a risk to human health and the environment.",
+      "importance": 9,
+      "fun_fact": "Subsurface contamination can occur through various mechanisms, including industrial activities and agricultural practices."
+    },
+    {
+      "id": "N7",
+      "label": "Artificial Recharge of Groundwater",
+      "type": "application",
+      "depth": 2,
+      "description": "The practice of intentionally introducing water into the groundwater system to replenish aquifers.",
+      "importance": 8,
+      "fun_fact": "Artificial recharge of groundwater is a technique used to manage water resources and mitigate the effects of drought."
+    },
+    {
+      "id": "N8",
+      "label": "Inverse Problem in Hydrogeology",
+      "type": "concept",
+      "depth": 2,
+      "description": "The challenge of estimating the properties of an aquifer based on limited data and observations.",
+      "importance": 8,
+      "fun_fact": "Inverse problems in hydrogeology require the use of mathematical models and computational methods."
+    },
+    {
+      "id": "N9",
+      "label": "Henry Darcy",
+      "type": "person",
+      "depth": 2,
+      "description": "A French engineer who developed the equation that describes the flow of water through porous media.",
+      "importance": 8,
+      "fun_fact": "Darcy's law is a fundamental concept in hydrogeology, used to predict groundwater flow."
+    },
+    {
+      "id": "N10",
+      "label": "Darcy's Law",
+      "type": "formula",
+      "depth": 3,
+      "description": "A mathematical equation that relates the flow of water through a porous medium to the hydraulic gradient and permeability.",
+      "importance": 9,
+      "fun_fact": "Darcy's law is widely used in hydrogeology to model groundwater flow and contaminant transport."
+    },
+    {
+      "id": "N11",
+      "label": "Groundwater Modeling",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of mathematical models to simulate groundwater flow and contaminant transport.",
+      "importance": 8,
+      "fun_fact": "Groundwater modeling is a valuable tool for predicting the behavior of groundwater systems and evaluating management strategies."
+    },
+    {
+      "id": "N12",
+      "label": "Aquifer Storage and Recovery",
+      "type": "application",
+      "depth": 2,
+      "description": "The practice of storing water in an aquifer during periods of surplus and recovering it during periods of drought.",
+      "importance": 8,
+      "fun_fact": "Aquifer storage and recovery is a technique used to manage water resources and mitigate the effects of climate change."
+    },
+    {
+      "id": "N13",
+      "label": "Hydrogeological Mapping",
+      "type": "application",
+      "depth": 2,
+      "description": "The creation of maps that depict the distribution and characteristics of groundwater resources.",
+      "importance": 8,
+      "fun_fact": "Hydrogeological mapping is a valuable tool for managing water resources and identifying areas of high groundwater potential."
+    },
+    {
+      "id": "N14",
+      "label": "Groundwater-Surface Water Interaction",
+      "type": "concept",
+      "depth": 1,
+      "description": "The exchange of water between groundwater and surface water systems.",
+      "importance": 9,
+      "fun_fact": "Groundwater-surface water interaction plays a critical role in shaping the Earth's hydrologic cycle."
+    },
+    {
+      "id": "N15",
+      "label": "Hydrogeology in Water Resource Management",
+      "type": "application",
+      "depth": 2,
+      "description": "The application of hydrogeological principles to manage water resources sustainably.",
+      "importance": 9,
+      "fun_fact": "Hydrogeology is essential for ensuring the long-term availability of water resources for human consumption, agriculture, and industry."
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Groundwater flow is a fundamental aspect of hydrogeology."
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Aquifer characteristics are a key component of hydrogeology."
+    },
+    {
+      "source": "N1",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Water quality is a critical aspect of hydrogeology."
+    },
+    {
+      "source": "N1",
+      "target": "N6",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Subsurface contamination is a significant concern in hydrogeology."
+    },
+    {
+      "source": "N2",
+      "target": "N5",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "Understanding groundwater flow is essential for effective watershed management."
+    },
+    {
+      "source": "N3",
+      "target": "N7",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Aquifer characteristics are crucial for artificial recharge of groundwater."
+    },
+    {
+      "source": "N4",
+      "target": "N11",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "Water quality is a key consideration in groundwater modeling."
+    },
+    {
+      "source": "N6",
+      "target": "N12",
+      "relation": "contrasts_with",
+      "strength": 8,
+      "description": "Subsurface contamination can be mitigated through aquifer storage and recovery."
+    },
+    {
+      "source": "N9",
+      "target": "N10",
+      "relation": "discovered_by",
+      "strength": 9,
+      "description": "Henry Darcy developed the equation that describes the flow of water through porous media."
+    },
+    {
+      "source": "N10",
+      "target": "N11",
+      "relation": "used_in",
+      "strength": 9,
+      "description": "Darcy's law is widely used in groundwater modeling."
+    },
+    {
+      "source": "N11",
+      "target": "N13",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "Groundwater modeling is used to inform hydrogeological mapping."
+    },
+    {
+      "source": "N13",
+      "target": "N15",
+      "relation": "enables",
+      "strength": 8,
+      "description": "Hydrogeological mapping is essential for sustainable water resource management."
+    },
+    {
+      "source": "N14",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Groundwater-surface water interaction plays a critical role in shaping groundwater flow."
+    },
+    {
+      "source": "N15",
+      "target": "N1",
+      "relation": "evolved_from",
+      "strength": 9,
+      "description": "Hydrogeology in water resource management has evolved from the fundamental principles of hydrogeology."
+    },
+    {
+      "source": "N5",
+      "target": "N6",
+      "relation": "depends_on",
+      "strength": 8,
+      "description": "Watershed management depends on understanding subsurface contamination."
+    },
+    {
+      "source": "N7",
+      "target": "N12",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "Artificial recharge of groundwater is related to aquifer storage and recovery."
+    },
+    {
+      "source": "N8",
+      "target": "N10",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Inverse problems in hydrogeology often involve the use of Darcy's law."
+    },
+    {
+      "source": "N9",
+      "target": "N8",
+      "relation": "discovered_by",
+      "strength": 8,
+      "description": "Henry Darcy's work laid the foundation for understanding inverse problems in hydrogeology."
+    }
+  ],
+  "key_takeaways": [
+    "Hydrogeology is the study of the distribution and movement of groundwater in the Earth's crust.",
+    "Understanding groundwater flow, aquifer characteristics, and water quality is crucial for managing water resources.",
+    "Hydrogeology has numerous applications in watershed management, subsurface contamination mitigation, and water resource management."
+  ],
+  "real_world_impact": "Hydrogeology has a significant impact on the real world, as it informs the management of water resources, mitigates the effects of subsurface contamination, and ensures the long-term availability of water for human consumption, agriculture, and industry. By applying hydrogeological principles, we can better understand and manage the complex interactions between groundwater and surface water systems, ultimately leading to more sustainable and equitable water resource management.",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/CSMain.png",
+      "title": "CSMain.png",
+      "license": "CC BY-SA 4.0",
+      "artist": "Shloscar",
+      "description": "Carbon sequestration. How a micro-fracture and a fault zone can affect the Carbon Dioxide flow",
+      "width": 1223,
+      "height": 1235,
+      "source_query": "Hydrogeology"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Coupe_hydrogeologique_Lantin_Rocourt_Vottem.jpg",
+      "title": "Coupe hydrogeologique Lantin Rocourt Vottem.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Jnyssen",
+      "description": "Coupe hydrogeologique Lantin Rocourt Vottem",
+      "width": 1179,
+      "height": 495,
+      "source_query": "Hydrogeology"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Fault_Zone_Architecture.png",
+      "title": "Fault Zone Architecture.png",
+      "license": "CC BY-SA 4.0",
+      "artist": "Shloscar",
+      "description": "Fault zone is subdivided into fault core and damage zone. A damage zone envelopes the fault core in 3D manner. Damage zone can be irregular in shape and varied in length.",
+      "width": 794,
+      "height": 1123,
+      "source_query": "Hydrogeology"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Hydrogeology-sketchnote.png",
+      "title": "Hydrogeology-sketchnote.png",
+      "license": "CC0",
+      "artist": "Dasaptaerwin",
+      "description": "a sketchnote of an indonesian hydrogeologist. i created this sketchnote for Sian Harris who will share it to her primary school students.",
+      "width": 1422,
+      "height": 800,
+      "source_query": "Hydrogeology"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Island_water_basin_freshwater_lens_%28zh-hans%29.png",
+      "title": "Island water basin freshwater lens (zh-hans).png",
+      "license": "CC BY-SA 4.0",
+      "artist": "\u53f0\u5317\u4eba",
+      "description": "\u200b\u6839\u636e\u76d6\u672c-\u8d6b\u5179\u65b9\u7a0b\u5f0f\uff08Ghyben-Herzberg eq.\uff09\u63a8\u5bfc\uff0c\u7406\u60f3\u4e2d\u5730\u4e0b\u6c34\uff08\u6de1\u6c34\uff09\u5728\u5c9b\u5c7f\u5730\u4e0b\u5f62\u6210\u7684\u900f\u955c\u4f53\u6784\u9020\u3002",
+      "width": 1500,
+      "height": 1500,
+      "source_query": "Hydrogeology"
+    }
+  ],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hydrogeology",
+    "papers": [
+      {
+        "title": "Artificial recharge of groundwater: hydrogeology and engineering",
+        "url": "https://doi.org/10.1007/s10040-001-0182-4"
+      },
+      {
+        "title": "Inverse problem in hydrogeology",
+        "url": "https://doi.org/10.1007/s10040-004-0404-7"
+      },
+      {
+        "title": "Inverse methods in hydrogeology: Evolution and recent trends",
+        "url": "https://doi.org/10.1016/j.advwatres.2013.10.014"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 18"
+      ],
+      "node_count": 15,
+      "edge_count": 18
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Karst Hydrogeology",
+        "Isotope Hydrology"
+      ],
+      "strengths": [
+        "clear representation of key concepts",
+        "good coverage of applications"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}
