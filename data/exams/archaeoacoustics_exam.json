@@ -1,0 +1,167 @@
+{
+  "topic": "Archaeoacoustics",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary focus of the field of archaeoacoustics?",
+      "options": {
+        "A": "The study of the relationship between people and sound throughout history",
+        "B": "The analysis of ancient artifacts and their cultural significance",
+        "C": "The reconstruction of ancient buildings and monuments",
+        "D": "The study of ancient languages and writing systems"
+      },
+      "correct": "A",
+      "explanation": "Archaeoacoustics is an interdisciplinary field that studies the relationship between people and sound throughout history, using methods from room acoustics, archaeology, and computer simulation.",
+      "node_id": "Archaeoacoustics",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term used to describe the study of sound in ancient societies, including the analysis of sound in archaeological sites, rituals, and ceremonies?",
+      "options": {
+        "A": "Sound archaeology",
+        "B": "Acoustic analysis",
+        "C": "Archaeological acoustics",
+        "D": "Psychoacoustics"
+      },
+      "correct": "A",
+      "explanation": "Sound archaeology is the study of sound in ancient societies, including the analysis of sound in archaeological sites, rituals, and ceremonies.",
+      "node_id": "Sound Archaeology",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the purpose of acoustic analysis of ancient sites, such as temples, theaters, and tombs?",
+      "options": {
+        "A": "To determine the structural integrity of the buildings",
+        "B": "To analyze the sound properties of the sites and understand their cultural significance",
+        "C": "To reconstruct the original architecture of the sites",
+        "D": "To study the historical context of the sites"
+      },
+      "correct": "B",
+      "explanation": "Acoustic analysis of ancient sites is used to analyze the sound properties of the sites and understand their cultural significance, including how sound was used in rituals and ceremonies.",
+      "node_id": "Acoustic Analysis of Ancient Sites",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the term used to describe the recreation of ancient musical instruments, such as flutes, drums, and lyres, to understand their sound properties and cultural significance?",
+      "options": {
+        "A": "Instrument reconstruction",
+        "B": "Ancient instrument reconstruction",
+        "C": "Musical archaeology",
+        "D": "Sound reconstruction"
+      },
+      "correct": "B",
+      "explanation": "Ancient instrument reconstruction is the recreation of ancient musical instruments to understand their sound properties and cultural significance.",
+      "node_id": "Ancient Instrument Reconstruction",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the purpose of studying the psychological and cognitive aspects of sound perception in ancient societies?",
+      "options": {
+        "A": "To understand the cultural significance of sound in ancient societies",
+        "B": "To analyze the sound properties of ancient sites and instruments",
+        "C": "To reconstruct the original architecture of ancient buildings",
+        "D": "To understand the role of sound in memory, emotion, and social bonding in ancient societies"
+      },
+      "correct": "D",
+      "explanation": "The study of the psychological and cognitive aspects of sound perception in ancient societies helps to understand the role of sound in memory, emotion, and social bonding.",
+      "node_id": "Psychoacoustics and Cognitive Archaeology",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the significance of the acoustic analysis of the Hal Saflieni Hypogeum, a prehistoric underground temple in Malta?",
+      "options": {
+        "A": "It revealed the temple's original architectural design",
+        "B": "It showed that the temple was used for religious rituals and ceremonies",
+        "C": "It demonstrated that the temple's design was intended to create a sense of awe and wonder, with sound playing a key role in the spiritual experiences of the ancient Maltese",
+        "D": "It provided evidence of the temple's historical significance"
+      },
+      "correct": "C",
+      "explanation": "The acoustic analysis of the Hal Saflieni Hypogeum demonstrated that the temple's design was intended to create a sense of awe and wonder, with sound playing a key role in the spiritual experiences of the ancient Maltese.",
+      "node_id": "Hal Saflieni Hypogeum",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term used to describe the study of the role of sound in ancient rituals and ceremonies, including the use of music, chanting, and other forms of sound?",
+      "options": {
+        "A": "Archaeological acoustics",
+        "B": "Sound archaeology",
+        "C": "Archaeological acoustics and rituals",
+        "D": "Ritual sound studies"
+      },
+      "correct": "C",
+      "explanation": "Archaeological acoustics and rituals is the study of the role of sound in ancient rituals and ceremonies, including the use of music, chanting, and other forms of sound.",
+      "node_id": "Archaeological Acoustics and Rituals",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the significance of sound in ancient societies, including its role in rituals, ceremonies, and cultural practices.",
+      "sample_answer": "Sound played a significant role in ancient societies, including its use in rituals, ceremonies, and cultural practices. It was used to create a sense of community and shared experience, and was often believed to have spiritual or mystical powers.",
+      "keywords": [
+        "sound",
+        "ancient societies",
+        "rituals",
+        "ceremonies",
+        "cultural practices"
+      ],
+      "node_id": "Sound Archaeology",
+      "points": 20
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Explain the methods used in archaeoacoustics to analyze the sound properties of ancient sites and instruments, including the use of computer simulation and acoustic analysis.",
+      "sample_answer": "Archaeoacoustics uses a range of methods to analyze the sound properties of ancient sites and instruments, including computer simulation, acoustic analysis, and experimental archaeology. These methods allow researchers to reconstruct the soundscapes of ancient societies and understand the cultural significance of sound in these contexts.",
+      "keywords": [
+        "archaeoacoustics",
+        "sound properties",
+        "ancient sites",
+        "instruments",
+        "computer simulation",
+        "acoustic analysis"
+      ],
+      "node_id": "Archaeoacoustics",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the significance of the Lazarica Church, a medieval church in Serbia, in the context of archaeoacoustics, including its acoustic properties and cultural significance.",
+      "sample_answer": "The Lazarica Church is a significant example of a medieval church that has been the subject of acoustic analysis. The church's design was intended to enhance the sound of chanting and singing, and its acoustic properties are still studied by researchers today. The church's cultural significance lies in its role as a place of worship and its importance in the history of the Orthodox Church.",
+      "keywords": [
+        "Lazarica Church",
+        "archaeoacoustics",
+        "acoustic properties",
+        "cultural significance"
+      ],
+      "node_id": "Lazarica Church",
+      "points": 20
+    }
+  ]
+}

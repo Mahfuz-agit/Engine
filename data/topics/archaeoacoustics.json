@@ -1,0 +1,377 @@
+{
+  "topic": "Archaeoacoustics",
+  "category": "archaeology",
+  "description": "Archaeoacoustics is an interdisciplinary field that studies the relationship between people and sound throughout history, using methods from room acoustics, archaeology, and computer simulation to understand the cultural and social context of past civilizations. It involves the analysis of sound in ancient sites, rituals, and ceremonies to reveal new information about the civilizations examined. By applying acoustical methods to archaeological sites and artifacts, researchers can gain a deeper understanding of the architectural features, spatial organization, and cultural practices of past societies.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Archaeoacoustics",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of the relationship between people and sound throughout history, using methods from room acoustics, archaeology, and computer simulation.",
+      "importance": 10,
+      "fun_fact": "The field of archaeoacoustics is still relatively new, but it has already led to significant discoveries about the cultural and social context of past civilizations."
+    },
+    {
+      "id": "N2",
+      "label": "Sound Archaeology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of sound in ancient societies, including the analysis of sound in archaeological sites, rituals, and ceremonies.",
+      "importance": 9,
+      "fun_fact": "Sound archaeology has revealed that many ancient cultures used sound to create a sense of community and shared experience."
+    },
+    {
+      "id": "N3",
+      "label": "Acoustic Analysis of Ancient Sites",
+      "type": "application",
+      "depth": 1,
+      "description": "The use of acoustic methods to analyze the sound properties of ancient sites, such as temples, theaters, and tombs.",
+      "importance": 9,
+      "fun_fact": "Acoustic analysis has shown that many ancient sites were designed to enhance the sound of rituals and ceremonies."
+    },
+    {
+      "id": "N4",
+      "label": "Archaeological Acoustics and Rituals",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the role of sound in ancient rituals and ceremonies, including the use of music, chanting, and other forms of sound.",
+      "importance": 8,
+      "fun_fact": "Many ancient cultures believed that sound had spiritual or mystical powers, and used it to communicate with the gods or ancestors."
+    },
+    {
+      "id": "N5",
+      "label": "Ancient Instrument Reconstruction",
+      "type": "application",
+      "depth": 1,
+      "description": "The recreation of ancient musical instruments, such as flutes, drums, and lyres, to understand their sound properties and cultural significance.",
+      "importance": 8,
+      "fun_fact": "The reconstruction of ancient instruments has allowed researchers to hear the sounds of ancient music and gain a deeper understanding of ancient cultures."
+    },
+    {
+      "id": "N6",
+      "label": "Psychoacoustics and Cognitive Archaeology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the psychological and cognitive aspects of sound perception in ancient societies, including the role of sound in memory, emotion, and social bonding.",
+      "importance": 8,
+      "fun_fact": "Research has shown that sound can evoke strong emotional responses and memories, and was likely used in ancient societies to create a sense of shared experience and community."
+    },
+    {
+      "id": "N7",
+      "label": "Lazarica Church",
+      "type": "example",
+      "depth": 2,
+      "description": "A medieval church in Serbia that has been the subject of acoustic analysis, revealing insights into the building's architectural heritage and the cultural practices of the Orthodox Church.",
+      "importance": 7,
+      "fun_fact": "The acoustic analysis of Lazarica Church has shown that the building's design was intended to enhance the sound of chanting and singing."
+    },
+    {
+      "id": "N8",
+      "label": "Hal Saflieni Hypogeum",
+      "type": "example",
+      "depth": 2,
+      "description": "A prehistoric underground temple in Malta that has been the subject of acoustic analysis, revealing insights into the cultural and spiritual practices of the ancient Maltese.",
+      "importance": 7,
+      "fun_fact": "The acoustic analysis of the Hal Saflieni Hypogeum has shown that the temple's design was intended to create a sense of awe and wonder, with sound playing a key role in the spiritual experiences of the ancient Maltese."
+    },
+    {
+      "id": "N9",
+      "label": "Room Acoustics",
+      "type": "concept",
+      "depth": 2,
+      "description": "The study of the physical properties of sound in enclosed spaces, including the behavior of sound waves and the design of acoustic materials.",
+      "importance": 6,
+      "fun_fact": "Room acoustics has been used to analyze the sound properties of ancient sites, such as temples and theaters, and to understand the cultural and social context of past civilizations."
+    },
+    {
+      "id": "N10",
+      "label": "Computer Simulation",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of computer models to simulate the sound properties of ancient sites and instruments, allowing researchers to test hypotheses and make predictions about the cultural and social context of past civilizations.",
+      "importance": 6,
+      "fun_fact": "Computer simulation has been used to recreate the sound of ancient instruments and to analyze the acoustic properties of ancient sites, such as the Colosseum in Rome."
+    },
+    {
+      "id": "N11",
+      "label": "Archaeoacoustic Examination of Lazarica Church",
+      "type": "example",
+      "depth": 3,
+      "description": "A research paper that presents the results of an acoustic analysis of the Lazarica Church, providing insights into the building's architectural heritage and the cultural practices of the Orthodox Church.",
+      "importance": 5,
+      "fun_fact": "The paper demonstrates the use of acoustic analysis in understanding the cultural and social context of past civilizations."
+    },
+    {
+      "id": "N12",
+      "label": "Archaeoacoustics around the World: A Literature Review",
+      "type": "example",
+      "depth": 3,
+      "description": "A research paper that reviews the current state of knowledge in the field of archaeoacoustics, highlighting the key findings and methodologies used in the study of sound in ancient societies.",
+      "importance": 5,
+      "fun_fact": "The paper provides a comprehensive overview of the field of archaeoacoustics and its applications in understanding the cultural and social context of past civilizations."
+    },
+    {
+      "id": "N13",
+      "label": "Journal of Anthropology and Archaeology",
+      "type": "example",
+      "depth": 3,
+      "description": "A peer-reviewed journal that publishes research papers on the study of human culture and society, including the field of archaeoacoustics.",
+      "importance": 4,
+      "fun_fact": "The journal provides a platform for researchers to share their findings and methodologies in the study of human culture and society."
+    },
+    {
+      "id": "N14",
+      "label": "Experimental Archaeology",
+      "type": "concept",
+      "depth": 3,
+      "description": "The use of experimental methods to recreate ancient technologies and cultural practices, including the use of sound and music.",
+      "importance": 4,
+      "fun_fact": "Experimental archaeology has been used to recreate ancient instruments and to understand the cultural and social context of past civilizations."
+    },
+    {
+      "id": "N15",
+      "label": "Ethnomusicology",
+      "type": "concept",
+      "depth": 3,
+      "description": "The study of music in different cultures, including the role of sound and music in shaping cultural identity and social bonding.",
+      "importance": 4,
+      "fun_fact": "Ethnomusicology has been used to understand the cultural and social context of music in different societies, including the use of sound and music in ancient cultures."
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Sound archaeology is a key component of the field of archaeoacoustics."
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Acoustic analysis of ancient sites is a key component of the field of archaeoacoustics."
+    },
+    {
+      "source": "N1",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Archaeological acoustics and rituals is a key component of the field of archaeoacoustics."
+    },
+    {
+      "source": "N1",
+      "target": "N5",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Ancient instrument reconstruction is a key component of the field of archaeoacoustics."
+    },
+    {
+      "source": "N1",
+      "target": "N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Psychoacoustics and cognitive archaeology is a key component of the field of archaeoacoustics."
+    },
+    {
+      "source": "N2",
+      "target": "N7",
+      "relation": "used_in",
+      "strength": 7,
+      "description": "Sound archaeology has been used to analyze the sound properties of the Lazarica Church."
+    },
+    {
+      "source": "N2",
+      "target": "N8",
+      "relation": "used_in",
+      "strength": 7,
+      "description": "Sound archaeology has been used to analyze the sound properties of the Hal Saflieni Hypogeum."
+    },
+    {
+      "source": "N3",
+      "target": "N9",
+      "relation": "depends_on",
+      "strength": 6,
+      "description": "Acoustic analysis of ancient sites depends on the principles of room acoustics."
+    },
+    {
+      "source": "N3",
+      "target": "N10",
+      "relation": "uses",
+      "strength": 6,
+      "description": "Acoustic analysis of ancient sites uses computer simulation to model and analyze sound properties."
+    },
+    {
+      "source": "N4",
+      "target": "N11",
+      "relation": "related_to",
+      "strength": 5,
+      "description": "Archaeological acoustics and rituals is related to the acoustic examination of the Lazarica Church."
+    },
+    {
+      "source": "N5",
+      "target": "N12",
+      "relation": "related_to",
+      "strength": 5,
+      "description": "Ancient instrument reconstruction is related to the literature review of archaeoacoustics around the world."
+    },
+    {
+      "source": "N6",
+      "target": "N13",
+      "relation": "published_in",
+      "strength": 4,
+      "description": "Psychoacoustics and cognitive archaeology has been published in the Journal of Anthropology and Archaeology."
+    },
+    {
+      "source": "N7",
+      "target": "N11",
+      "relation": "is_example_of",
+      "strength": 4,
+      "description": "The Lazarica Church is an example of the application of acoustic analysis in archaeoacoustics."
+    },
+    {
+      "source": "N8",
+      "target": "N12",
+      "relation": "is_example_of",
+      "strength": 4,
+      "description": "The Hal Saflieni Hypogeum is an example of the application of acoustic analysis in archaeoacoustics."
+    },
+    {
+      "source": "N9",
+      "target": "N10",
+      "relation": "is_used_in",
+      "strength": 4,
+      "description": "Room acoustics is used in computer simulation to model and analyze sound properties."
+    },
+    {
+      "source": "N10",
+      "target": "N11",
+      "relation": "is_used_in",
+      "strength": 4,
+      "description": "Computer simulation is used in the acoustic examination of the Lazarica Church."
+    },
+    {
+      "source": "N10",
+      "target": "N12",
+      "relation": "is_used_in",
+      "strength": 4,
+      "description": "Computer simulation is used in the literature review of archaeoacoustics around the world."
+    },
+    {
+      "source": "N14",
+      "target": "N15",
+      "relation": "is_related_to",
+      "strength": 4,
+      "description": "Experimental archaeology is related to ethnomusicology in the study of sound and music in ancient cultures."
+    }
+  ],
+  "key_takeaways": [
+    "Archaeoacoustics is an interdisciplinary field that studies the relationship between people and sound throughout history.",
+    "The field of archaeoacoustics has led to significant discoveries about the cultural and social context of past civilizations.",
+    "Acoustic analysis of ancient sites and instruments has revealed insights into the architectural heritage and cultural practices of ancient societies."
+  ],
+  "real_world_impact": "The field of archaeoacoustics has significant real-world impact, as it can help us understand the cultural and social context of past civilizations and inform the conservation and management of cultural heritage sites. For example, the acoustic analysis of ancient sites can help us understand how sound was used in ancient rituals and ceremonies, and how it contributed to the cultural and social bonding of ancient societies. This knowledge can be used to inform the design of modern cultural events and performances, and to create more immersive and engaging experiences for audiences. Additionally, the field of archaeoacoustics can help us develop new technologies and methods for the analysis and preservation of cultural heritage sites, and can contribute to the development of more sustainable and responsible tourism practices.",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Basement_of_Necromanteion.jpg",
+      "title": "Basement of Necromanteion.jpg",
+      "license": "CC BY 2.5",
+      "artist": "Samuli Lintula",
+      "description": "fi:Nekromanteionin oraakkeli.",
+      "width": 2048,
+      "height": 1536,
+      "source_query": "Archaeoacoustics"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Bones_mus.jpg",
+      "title": "Bones mus.jpg",
+      "license": "CC BY-SA 3.0",
+      "artist": "Ganainm",
+      "description": "Bones musical instr.",
+      "width": 198,
+      "height": 200,
+      "source_query": "Archaeoacoustics"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Da_Vinci_Vitruve_Luc_Viatour_2.svg",
+      "title": "Da Vinci Vitruve Luc Viatour 2.svg",
+      "license": "Public domain",
+      "artist": "Leonardo da Vinci",
+      "description": "Vitruvian Man",
+      "width": 1001,
+      "height": 1001,
+      "source_query": "Archaeoacoustics"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Pedra_da_G%C3%A1vea_%283772854195%29.jpg",
+      "title": "Pedra da G\u00e1vea (3772854195).jpg",
+      "license": "CC BY 2.0",
+      "artist": "Rodrigo Soldon from Rio de Janeiro, Brazil",
+      "description": "A Pedra da G\u00e1vea, ou Pedra da Barra \u00e9 um impressionante monumento natural de gnaisse com topo de granito subindo 842 metros acima do n\u00edvel do mar, e o maior bloco de pedra a beira mar do planeta. Conhecida como uma esfinge de hist\u00f3rias contradit\u00f3rias, desperta admira\u00e7\u00e3o pela impon\u00eancia e mist\u00e9rio. \u00c9",
+      "width": 3264,
+      "height": 2448,
+      "source_query": "Archaeoacoustics"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Pedra_da_G%C3%A1vea_%283772859315%29.jpg",
+      "title": "Pedra da G\u00e1vea (3772859315).jpg",
+      "license": "CC BY 2.0",
+      "artist": "Rodrigo Soldon from Rio de Janeiro, Brazil",
+      "description": "A Pedra da G\u00e1vea, ou Pedra da Barra \u00e9 um impressionante monumento natural de gnaisse com topo de granito subindo 842 metros acima do n\u00edvel do mar, e o maior bloco de pedra a beira mar do planeta. Conhecida como uma esfinge de hist\u00f3rias contradit\u00f3rias, desperta admira\u00e7\u00e3o pela impon\u00eancia e mist\u00e9rio. \u00c9",
+      "width": 3264,
+      "height": 2448,
+      "source_query": "Archaeoacoustics"
+    }
+  ],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Archaeoacoustics",
+    "papers": [
+      {
+        "title": "Archaeoacoustic Examination of Lazarica Church",
+        "url": "https://doi.org/10.3390/acoustics1020024"
+      },
+      {
+        "title": "Archaeoacoustics around the World: A Literature Review (2016\u20132022)",
+        "url": "https://doi.org/10.3390/app13042361"
+      },
+      {
+        "title": "Archaeoacoustic Analysis of the Hal Saflieni Hypogeum in Malta",
+        "url": "https://doi.org/10.15640/jaa.v3n1a4"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 18"
+      ],
+      "node_count": 15,
+      "edge_count": 18
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Acoustic Ecology",
+        "Soundscapes in Archaeology"
+      ],
+      "strengths": [
+        "Interdisciplinary approach",
+        "Diverse range of applications"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

@@ -583,5 +583,18 @@
     "master_total_topics": 45,
     "ended_at": "2026-07-08T09:16:08.213091",
     "duration_seconds": 40.6
+  },
+  {
+    "started_at": "2026-07-08T16:15:44.134196",
+    "status": "success",
+    "topic": "Archaeoacoustics",
+    "sources_found": 6,
+    "images_found": 5,
+    "quality_score": 87.5,
+    "quality_passed": true,
+    "exam_questions": 10,
+    "master_total_topics": 46,
+    "ended_at": "2026-07-08T16:16:21.667538",
+    "duration_seconds": 37.5
   }
 ]
