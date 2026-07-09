@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 47,
-  "total_nodes": 704,
-  "total_edges": 861,
+  "total_topics": 48,
+  "total_nodes": 719,
+  "total_edges": 880,
   "topics": [
     {
       "topic": "Climate Change",
@@ -426,6 +426,15 @@
       "edge_count": 18,
       "description": "Hydrogeology is the study of the distribution and movement of groundwater in the Earth's crust, encompassing aspects such as groundwater flow, aquifer characteristics, and water quality. It is a crucial field for understanding and managing water resources. Hydrogeology has numerous applications in watershed management and subsurface contamination mitigation.",
       "added_at": "2026-07-08T21:49:07.878804"
+    },
+    {
+      "topic": "Ethnopharmacology",
+      "slug": "ethnopharmacology",
+      "category": "biology",
+      "node_count": 15,
+      "edge_count": 19,
+      "description": "Ethnopharmacology is the study of the use of plants and other natural products in traditional medicine, with a focus on their phytochemical and pharmacological properties. It combines anthropology, botany, and pharmacology to understand the cultural and historical context of traditional medicine. By exploring the intersection of traditional knowledge and modern science, ethnopharmacology aims to discover new drugs and therapies.",
+      "added_at": "2026-07-09T10:33:28.222725"
     }
   ],
   "global_nodes": [
@@ -8172,6 +8181,171 @@
       "fun_fact": "Hydrogeology is essential for ensuring the long-term availability of water resources for human consumption, agriculture, and industry.",
       "topic_slug": "hydrogeology",
       "topic": "Hydrogeology"
+    },
+    {
+      "id": "ethnopharmacology__N1",
+      "label": "Ethnopharmacology",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of the use of plants and other natural products in traditional medicine",
+      "importance": 10,
+      "fun_fact": "The term 'ethnopharmacology' was first coined in 1967",
+      "topic_slug": "ethnopharmacology",
+      "topic": "Ethnopharmacology"
+    },
+    {
+      "id": "ethnopharmacology__N2",
+      "label": "Phytochemistry",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the chemical composition of plants",
+      "importance": 9,
+      "fun_fact": "Phytochemistry has led to the discovery of many important drugs, including aspirin and taxol",
+      "topic_slug": "ethnopharmacology",
+      "topic": "Ethnopharmacology"
+    },
+    {
+      "id": "ethnopharmacology__N3",
+      "label": "Pharmacognosy",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the medicinal properties of plants and other natural products",
+      "importance": 9,
+      "fun_fact": "Pharmacognosy is a key component of ethnopharmacology",
+      "topic_slug": "ethnopharmacology",
+      "topic": "Ethnopharmacology"
+    },
+    {
+      "id": "ethnopharmacology__N4",
+      "label": "Traditional Medicine",
+      "type": "concept",
+      "depth": 1,
+      "description": "The use of plants and other natural products in traditional healing practices",
+      "importance": 9,
+      "fun_fact": "Traditional medicine is used by an estimated 80% of the world's population",
+      "topic_slug": "ethnopharmacology",
+      "topic": "Ethnopharmacology"
+    },
+    {
+      "id": "ethnopharmacology__N5",
+      "label": "Medicinal Plant Conservation",
+      "type": "application",
+      "depth": 2,
+      "description": "The conservation of medicinal plants and their habitats",
+      "importance": 8,
+      "fun_fact": "Many medicinal plants are threatened by over-harvesting and habitat destruction",
+      "topic_slug": "ethnopharmacology",
+      "topic": "Ethnopharmacology"
+    },
+    {
+      "id": "ethnopharmacology__N6",
+      "label": "Cultural Anthropology of Health",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the cultural and social factors that influence health and illness",
+      "importance": 8,
+      "fun_fact": "Cultural anthropology of health is essential for understanding traditional medicine practices",
+      "topic_slug": "ethnopharmacology",
+      "topic": "Ethnopharmacology"
+    },
+    {
+      "id": "ethnopharmacology__N7",
+      "label": "Lonicera japonica",
+      "type": "example",
+      "depth": 2,
+      "description": "A plant used in traditional Chinese medicine",
+      "importance": 7,
+      "fun_fact": "Lonicera japonica has been used for centuries to treat various ailments, including fever and inflammation",
+      "topic_slug": "ethnopharmacology",
+      "topic": "Ethnopharmacology"
+    },
+    {
+      "id": "ethnopharmacology__N8",
+      "label": "Moringa oleifera",
+      "type": "example",
+      "depth": 2,
+      "description": "A plant used in traditional medicine for its nutritional and medicinal properties",
+      "importance": 7,
+      "fun_fact": "Moringa oleifera is rich in antioxidants and has been shown to have anti-inflammatory properties",
+      "topic_slug": "ethnopharmacology",
+      "topic": "Ethnopharmacology"
+    },
+    {
+      "id": "ethnopharmacology__N9",
+      "label": "Journal of Ethnopharmacology",
+      "type": "fact",
+      "depth": 2,
+      "description": "A scientific journal dedicated to the study of ethnopharmacology",
+      "importance": 6,
+      "fun_fact": "The journal was first published in 1979 and is considered a leading publication in the field",
+      "topic_slug": "ethnopharmacology",
+      "topic": "Ethnopharmacology"
+    },
+    {
+      "id": "ethnopharmacology__N10",
+      "label": "Richard Evans Schultes",
+      "type": "person",
+      "depth": 2,
+      "description": "A botanist and ethnopharmacologist who made significant contributions to the field",
+      "importance": 8,
+      "fun_fact": "Schultes was a pioneer in the field of ethnopharmacology and discovered several new species of plants",
+      "topic_slug": "ethnopharmacology",
+      "topic": "Ethnopharmacology"
+    },
+    {
+      "id": "ethnopharmacology__N11",
+      "label": "Traditional Chinese Medicine",
+      "type": "example",
+      "depth": 2,
+      "description": "A traditional medical practice that uses plants and other natural products to treat various ailments",
+      "importance": 7,
+      "fun_fact": "Traditional Chinese Medicine has been used for over 2,000 years and is still widely practiced today",
+      "topic_slug": "ethnopharmacology",
+      "topic": "Ethnopharmacology"
+    },
+    {
+      "id": "ethnopharmacology__N12",
+      "label": "Ayurvedic Medicine",
+      "type": "example",
+      "depth": 2,
+      "description": "A traditional medical practice that originated in India and uses plants and other natural products to treat various ailments",
+      "importance": 7,
+      "fun_fact": "Ayurvedic Medicine has been used for over 3,000 years and is still widely practiced today",
+      "topic_slug": "ethnopharmacology",
+      "topic": "Ethnopharmacology"
+    },
+    {
+      "id": "ethnopharmacology__N13",
+      "label": "UNESCO",
+      "type": "organization",
+      "depth": 3,
+      "description": "A United Nations agency that promotes the conservation of cultural and natural heritage",
+      "importance": 6,
+      "fun_fact": "UNESCO has recognized the importance of traditional medicine and has launched initiatives to promote its conservation",
+      "topic_slug": "ethnopharmacology",
+      "topic": "Ethnopharmacology"
+    },
+    {
+      "id": "ethnopharmacology__N14",
+      "label": "World Health Organization",
+      "type": "organization",
+      "depth": 3,
+      "description": "A specialized agency of the United Nations that promotes global health",
+      "importance": 6,
+      "fun_fact": "The World Health Organization has recognized the importance of traditional medicine and has launched initiatives to promote its safe and effective use",
+      "topic_slug": "ethnopharmacology",
+      "topic": "Ethnopharmacology"
+    },
+    {
+      "id": "ethnopharmacology__N15",
+      "label": "Ethnopharmacological Research",
+      "type": "application",
+      "depth": 3,
+      "description": "The application of ethnopharmacological principles to discover new drugs and therapies",
+      "importance": 8,
+      "fun_fact": "Ethnopharmacological research has led to the discovery of several important drugs, including artemisinin and taxol",
+      "topic_slug": "ethnopharmacology",
+      "topic": "Ethnopharmacology"
     }
   ],
   "global_edges": [
@@ -14201,6 +14375,139 @@
       "relation": "discovered_by",
       "strength": 8,
       "topic": "Hydrogeology"
+    },
+    {
+      "source": "ethnopharmacology__N1",
+      "target": "ethnopharmacology__N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Ethnopharmacology"
+    },
+    {
+      "source": "ethnopharmacology__N1",
+      "target": "ethnopharmacology__N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Ethnopharmacology"
+    },
+    {
+      "source": "ethnopharmacology__N1",
+      "target": "ethnopharmacology__N4",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Ethnopharmacology"
+    },
+    {
+      "source": "ethnopharmacology__N2",
+      "target": "ethnopharmacology__N7",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Ethnopharmacology"
+    },
+    {
+      "source": "ethnopharmacology__N3",
+      "target": "ethnopharmacology__N8",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Ethnopharmacology"
+    },
+    {
+      "source": "ethnopharmacology__N4",
+      "target": "ethnopharmacology__N11",
+      "relation": "is_type_of",
+      "strength": 8,
+      "topic": "Ethnopharmacology"
+    },
+    {
+      "source": "ethnopharmacology__N4",
+      "target": "ethnopharmacology__N12",
+      "relation": "is_type_of",
+      "strength": 8,
+      "topic": "Ethnopharmacology"
+    },
+    {
+      "source": "ethnopharmacology__N5",
+      "target": "ethnopharmacology__N13",
+      "relation": "depends_on",
+      "strength": 7,
+      "topic": "Ethnopharmacology"
+    },
+    {
+      "source": "ethnopharmacology__N5",
+      "target": "ethnopharmacology__N14",
+      "relation": "depends_on",
+      "strength": 7,
+      "topic": "Ethnopharmacology"
+    },
+    {
+      "source": "ethnopharmacology__N10",
+      "target": "ethnopharmacology__N1",
+      "relation": "discovered_by",
+      "strength": 8,
+      "topic": "Ethnopharmacology"
+    },
+    {
+      "source": "ethnopharmacology__N15",
+      "target": "ethnopharmacology__N1",
+      "relation": "enables",
+      "strength": 8,
+      "topic": "Ethnopharmacology"
+    },
+    {
+      "source": "ethnopharmacology__N9",
+      "target": "ethnopharmacology__N1",
+      "relation": "related_to",
+      "strength": 6,
+      "topic": "Ethnopharmacology"
+    },
+    {
+      "source": "ethnopharmacology__N6",
+      "target": "ethnopharmacology__N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Ethnopharmacology"
+    },
+    {
+      "source": "ethnopharmacology__N7",
+      "target": "ethnopharmacology__N11",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Ethnopharmacology"
+    },
+    {
+      "source": "ethnopharmacology__N8",
+      "target": "ethnopharmacology__N12",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Ethnopharmacology"
+    },
+    {
+      "source": "ethnopharmacology__N13",
+      "target": "ethnopharmacology__N14",
+      "relation": "collaborates_with",
+      "strength": 6,
+      "topic": "Ethnopharmacology"
+    },
+    {
+      "source": "ethnopharmacology__N1",
+      "target": "ethnopharmacology__N15",
+      "relation": "leads_to",
+      "strength": 9,
+      "topic": "Ethnopharmacology"
+    },
+    {
+      "source": "ethnopharmacology__N15",
+      "target": "ethnopharmacology__N9",
+      "relation": "published_in",
+      "strength": 6,
+      "topic": "Ethnopharmacology"
+    },
+    {
+      "source": "ethnopharmacology__N10",
+      "target": "ethnopharmacology__N15",
+      "relation": "contributes_to",
+      "strength": 8,
+      "topic": "Ethnopharmacology"
     }
   ],
   "cross_topic_edges": [
@@ -14422,6 +14729,27 @@
       "label": "astronomical alignments"
     },
     {
+      "source": "ethnobotany__N3",
+      "target": "ethnopharmacology__N4",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "traditional medicine"
+    },
+    {
+      "source": "ethnobotany__N5",
+      "target": "ethnopharmacology__N2",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "phytochemistry"
+    },
+    {
+      "source": "ethnobotany__N7",
+      "target": "ethnopharmacology__N10",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "richard evans schultes"
+    },
+    {
       "source": "biophysics__N4",
       "target": "biomechanical_engineering__N8",
       "relation": "cross_topic_connection",
@@ -14527,7 +14855,8 @@
       "toxicology",
       "ethology",
       "biodiversity",
-      "human_nutrition"
+      "human_nutrition",
+      "ethnopharmacology"
     ],
     "psychology": [
       "neuroplasticity",
@@ -14576,5 +14905,5 @@
       "archaeoacoustics"
     ]
   },
-  "last_updated": "2026-07-08T21:49:07.878853"
+  "last_updated": "2026-07-09T10:33:28.222758"
 }

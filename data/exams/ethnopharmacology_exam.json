@@ -1,0 +1,161 @@
+{
+  "topic": "Ethnopharmacology",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary focus of ethnopharmacology?",
+      "options": {
+        "A": "The study of the use of plants and other natural products in traditional medicine",
+        "B": "The development of new pharmaceuticals",
+        "C": "The conservation of medicinal plants",
+        "D": "The cultural anthropology of health"
+      },
+      "correct": "A",
+      "explanation": "Ethnopharmacology is the study of the use of plants and other natural products in traditional medicine, with a focus on their phytochemical and pharmacological properties.",
+      "node_id": "Ethnopharmacology",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the study of the chemical composition of plants?",
+      "options": {
+        "A": "Pharmacognosy",
+        "B": "Phytochemistry",
+        "C": "Ethnopharmacology",
+        "D": "Botany"
+      },
+      "correct": "B",
+      "explanation": "Phytochemistry is the study of the chemical composition of plants, which is a key component of ethnopharmacology.",
+      "node_id": "Phytochemistry",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "Who is considered a pioneer in the field of ethnopharmacology?",
+      "options": {
+        "A": "Richard Evans Schultes",
+        "B": "Charles Darwin",
+        "C": "Gregor Mendel",
+        "D": "Alexander Fleming"
+      },
+      "correct": "A",
+      "explanation": "Richard Evans Schultes was a botanist and ethnopharmacologist who made significant contributions to the field of ethnopharmacology.",
+      "node_id": "Richard Evans Schultes",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What percentage of the world's population uses traditional medicine?",
+      "options": {
+        "A": "20%",
+        "B": "50%",
+        "C": "60%",
+        "D": "80%"
+      },
+      "correct": "D",
+      "explanation": "Traditional medicine is used by an estimated 80% of the world's population.",
+      "node_id": "Traditional Medicine",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the conservation of medicinal plants and their habitats?",
+      "options": {
+        "A": "Medicinal plant conservation",
+        "B": "Pharmacognosy",
+        "C": "Phytochemistry",
+        "D": "Ethnopharmacology"
+      },
+      "correct": "A",
+      "explanation": "Medicinal plant conservation is the conservation of medicinal plants and their habitats, which is essential for the long-term availability of these plants for traditional medicine.",
+      "node_id": "Medicinal Plant Conservation",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the name of the plant used in traditional Chinese medicine to treat various ailments, including fever and inflammation?",
+      "options": {
+        "A": "Moringa oleifera",
+        "B": "Lonicera japonica",
+        "C": "Ginkgo biloba",
+        "D": "Panax ginseng"
+      },
+      "correct": "B",
+      "explanation": "Lonicera japonica is a plant used in traditional Chinese medicine to treat various ailments, including fever and inflammation.",
+      "node_id": "Lonicera japonica",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the study of the cultural and social factors that influence health and illness?",
+      "options": {
+        "A": "Cultural anthropology of health",
+        "B": "Medical anthropology",
+        "C": "Public health",
+        "D": "Epidemiology"
+      },
+      "correct": "A",
+      "explanation": "Cultural anthropology of health is the study of the cultural and social factors that influence health and illness, which is essential for understanding traditional medicine practices.",
+      "node_id": "Cultural Anthropology of Health",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What are the key components of ethnopharmacology?",
+      "sample_answer": "Phytochemistry, pharmacognosy, and traditional medicine",
+      "keywords": [
+        "phytochemistry",
+        "pharmacognosy",
+        "traditional medicine"
+      ],
+      "node_id": "Ethnopharmacology",
+      "points": 15
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Describe the significance of Richard Evans Schultes' contributions to the field of ethnopharmacology.",
+      "sample_answer": "Richard Evans Schultes was a pioneer in the field of ethnopharmacology, discovering several new species of plants and making significant contributions to the field through his research and writings.",
+      "keywords": [
+        "Richard Evans Schultes",
+        "ethnopharmacology",
+        "contributions"
+      ],
+      "node_id": "Richard Evans Schultes",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What is the importance of medicinal plant conservation in the context of ethnopharmacology?",
+      "sample_answer": "Medicinal plant conservation is essential for the long-term availability of medicinal plants for traditional medicine, and for the preservation of traditional knowledge and cultural heritage.",
+      "keywords": [
+        "medicinal plant conservation",
+        "ethnopharmacology",
+        "traditional medicine"
+      ],
+      "node_id": "Medicinal Plant Conservation",
+      "points": 15
+    }
+  ]
+}

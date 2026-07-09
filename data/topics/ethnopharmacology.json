@@ -1,0 +1,384 @@
+{
+  "topic": "Ethnopharmacology",
+  "category": "biology",
+  "description": "Ethnopharmacology is the study of the use of plants and other natural products in traditional medicine, with a focus on their phytochemical and pharmacological properties. It combines anthropology, botany, and pharmacology to understand the cultural and historical context of traditional medicine. By exploring the intersection of traditional knowledge and modern science, ethnopharmacology aims to discover new drugs and therapies.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Ethnopharmacology",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of the use of plants and other natural products in traditional medicine",
+      "importance": 10,
+      "fun_fact": "The term 'ethnopharmacology' was first coined in 1967"
+    },
+    {
+      "id": "N2",
+      "label": "Phytochemistry",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the chemical composition of plants",
+      "importance": 9,
+      "fun_fact": "Phytochemistry has led to the discovery of many important drugs, including aspirin and taxol"
+    },
+    {
+      "id": "N3",
+      "label": "Pharmacognosy",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the medicinal properties of plants and other natural products",
+      "importance": 9,
+      "fun_fact": "Pharmacognosy is a key component of ethnopharmacology"
+    },
+    {
+      "id": "N4",
+      "label": "Traditional Medicine",
+      "type": "concept",
+      "depth": 1,
+      "description": "The use of plants and other natural products in traditional healing practices",
+      "importance": 9,
+      "fun_fact": "Traditional medicine is used by an estimated 80% of the world's population"
+    },
+    {
+      "id": "N5",
+      "label": "Medicinal Plant Conservation",
+      "type": "application",
+      "depth": 2,
+      "description": "The conservation of medicinal plants and their habitats",
+      "importance": 8,
+      "fun_fact": "Many medicinal plants are threatened by over-harvesting and habitat destruction"
+    },
+    {
+      "id": "N6",
+      "label": "Cultural Anthropology of Health",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the cultural and social factors that influence health and illness",
+      "importance": 8,
+      "fun_fact": "Cultural anthropology of health is essential for understanding traditional medicine practices"
+    },
+    {
+      "id": "N7",
+      "label": "Lonicera japonica",
+      "type": "example",
+      "depth": 2,
+      "description": "A plant used in traditional Chinese medicine",
+      "importance": 7,
+      "fun_fact": "Lonicera japonica has been used for centuries to treat various ailments, including fever and inflammation"
+    },
+    {
+      "id": "N8",
+      "label": "Moringa oleifera",
+      "type": "example",
+      "depth": 2,
+      "description": "A plant used in traditional medicine for its nutritional and medicinal properties",
+      "importance": 7,
+      "fun_fact": "Moringa oleifera is rich in antioxidants and has been shown to have anti-inflammatory properties"
+    },
+    {
+      "id": "N9",
+      "label": "Journal of Ethnopharmacology",
+      "type": "fact",
+      "depth": 2,
+      "description": "A scientific journal dedicated to the study of ethnopharmacology",
+      "importance": 6,
+      "fun_fact": "The journal was first published in 1979 and is considered a leading publication in the field"
+    },
+    {
+      "id": "N10",
+      "label": "Richard Evans Schultes",
+      "type": "person",
+      "depth": 2,
+      "description": "A botanist and ethnopharmacologist who made significant contributions to the field",
+      "importance": 8,
+      "fun_fact": "Schultes was a pioneer in the field of ethnopharmacology and discovered several new species of plants"
+    },
+    {
+      "id": "N11",
+      "label": "Traditional Chinese Medicine",
+      "type": "example",
+      "depth": 2,
+      "description": "A traditional medical practice that uses plants and other natural products to treat various ailments",
+      "importance": 7,
+      "fun_fact": "Traditional Chinese Medicine has been used for over 2,000 years and is still widely practiced today"
+    },
+    {
+      "id": "N12",
+      "label": "Ayurvedic Medicine",
+      "type": "example",
+      "depth": 2,
+      "description": "A traditional medical practice that originated in India and uses plants and other natural products to treat various ailments",
+      "importance": 7,
+      "fun_fact": "Ayurvedic Medicine has been used for over 3,000 years and is still widely practiced today"
+    },
+    {
+      "id": "N13",
+      "label": "UNESCO",
+      "type": "organization",
+      "depth": 3,
+      "description": "A United Nations agency that promotes the conservation of cultural and natural heritage",
+      "importance": 6,
+      "fun_fact": "UNESCO has recognized the importance of traditional medicine and has launched initiatives to promote its conservation"
+    },
+    {
+      "id": "N14",
+      "label": "World Health Organization",
+      "type": "organization",
+      "depth": 3,
+      "description": "A specialized agency of the United Nations that promotes global health",
+      "importance": 6,
+      "fun_fact": "The World Health Organization has recognized the importance of traditional medicine and has launched initiatives to promote its safe and effective use"
+    },
+    {
+      "id": "N15",
+      "label": "Ethnopharmacological Research",
+      "type": "application",
+      "depth": 3,
+      "description": "The application of ethnopharmacological principles to discover new drugs and therapies",
+      "importance": 8,
+      "fun_fact": "Ethnopharmacological research has led to the discovery of several important drugs, including artemisinin and taxol"
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Phytochemistry is a key component of ethnopharmacology"
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Pharmacognosy is a key component of ethnopharmacology"
+    },
+    {
+      "source": "N1",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Traditional medicine is a key component of ethnopharmacology"
+    },
+    {
+      "source": "N2",
+      "target": "N7",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Phytochemistry is used to study the chemical composition of Lonicera japonica"
+    },
+    {
+      "source": "N3",
+      "target": "N8",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Pharmacognosy is used to study the medicinal properties of Moringa oleifera"
+    },
+    {
+      "source": "N4",
+      "target": "N11",
+      "relation": "is_type_of",
+      "strength": 8,
+      "description": "Traditional Chinese Medicine is a type of traditional medicine"
+    },
+    {
+      "source": "N4",
+      "target": "N12",
+      "relation": "is_type_of",
+      "strength": 8,
+      "description": "Ayurvedic Medicine is a type of traditional medicine"
+    },
+    {
+      "source": "N5",
+      "target": "N13",
+      "relation": "depends_on",
+      "strength": 7,
+      "description": "Medicinal plant conservation depends on the support of organizations like UNESCO"
+    },
+    {
+      "source": "N5",
+      "target": "N14",
+      "relation": "depends_on",
+      "strength": 7,
+      "description": "Medicinal plant conservation depends on the support of organizations like the World Health Organization"
+    },
+    {
+      "source": "N10",
+      "target": "N1",
+      "relation": "discovered_by",
+      "strength": 8,
+      "description": "Richard Evans Schultes was a pioneer in the field of ethnopharmacology"
+    },
+    {
+      "source": "N15",
+      "target": "N1",
+      "relation": "enables",
+      "strength": 8,
+      "description": "Ethnopharmacological research enables the discovery of new drugs and therapies"
+    },
+    {
+      "source": "N9",
+      "target": "N1",
+      "relation": "related_to",
+      "strength": 6,
+      "description": "The Journal of Ethnopharmacology is a leading publication in the field of ethnopharmacology"
+    },
+    {
+      "source": "N6",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Cultural anthropology of health is a key component of traditional medicine"
+    },
+    {
+      "source": "N7",
+      "target": "N11",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Lonicera japonica is used in Traditional Chinese Medicine"
+    },
+    {
+      "source": "N8",
+      "target": "N12",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Moringa oleifera is used in Ayurvedic Medicine"
+    },
+    {
+      "source": "N13",
+      "target": "N14",
+      "relation": "collaborates_with",
+      "strength": 6,
+      "description": "UNESCO and the World Health Organization collaborate on initiatives related to traditional medicine"
+    },
+    {
+      "source": "N1",
+      "target": "N15",
+      "relation": "leads_to",
+      "strength": 9,
+      "description": "Ethnopharmacology leads to ethnopharmacological research"
+    },
+    {
+      "source": "N15",
+      "target": "N9",
+      "relation": "published_in",
+      "strength": 6,
+      "description": "Ethnopharmacological research is published in the Journal of Ethnopharmacology"
+    },
+    {
+      "source": "N10",
+      "target": "N15",
+      "relation": "contributes_to",
+      "strength": 8,
+      "description": "Richard Evans Schultes' work contributes to ethnopharmacological research"
+    }
+  ],
+  "key_takeaways": [
+    "Ethnopharmacology is the study of the use of plants and other natural products in traditional medicine",
+    "Phytochemistry and pharmacognosy are key components of ethnopharmacology",
+    "Traditional medicine is a key component of ethnopharmacology and is used by an estimated 80% of the world's population"
+  ],
+  "real_world_impact": "Ethnopharmacology has led to the discovery of several important drugs, including artemisinin and taxol, and has the potential to improve global health outcomes by providing access to effective and affordable treatments for various diseases. Additionally, ethnopharmacology has helped to promote the conservation of medicinal plants and their habitats, which is essential for maintaining biodiversity and ensuring the long-term sustainability of traditional medicine practices.",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Cobra_Corpus_Ponteareas_01-02.jpg",
+      "title": "Cobra Corpus Ponteareas 01-02.jpg",
+      "license": "Public domain",
+      "artist": "P.Lameiro",
+      "description": "Camisa de cobra, usada na medicina tradicional galega.",
+      "width": 1600,
+      "height": 1200,
+      "source_query": "Ethnopharmacology"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Conepatus_semistriatus.jpg",
+      "title": "Conepatus semistriatus.jpg",
+      "license": "CC BY 2.0",
+      "artist": "Washington L. S. Vieira",
+      "description": "Photo of Conepatus semistriatus.",
+      "width": 312,
+      "height": 253,
+      "source_query": "Ethnopharmacology"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Ethnomedicine%2C_Museum_of_the_Serbian_Medical_Association.jpg",
+      "title": "Ethnomedicine, Museum of the Serbian Medical Association.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Gmihail at Serbian Wikipedia",
+      "description": "Ethnomedicine, Museum of the Serbian Medical Association",
+      "width": 6854,
+      "height": 2899,
+      "source_query": "Ethnopharmacology"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Icterus_jamacaii.jpg",
+      "title": "Icterus jamacaii.jpg",
+      "license": "CC BY 2.0",
+      "artist": "L\u00edvia Mendon\u00e7a",
+      "description": "Photo of Icterus jamaicaii.",
+      "width": 314,
+      "height": 252,
+      "source_query": "Ethnopharmacology"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Igbo_medicine_man.jpg",
+      "title": "Igbo medicine man.jpg",
+      "license": "Public domain",
+      "artist": "Unknown photographer, possibly G. T. Basden",
+      "description": "G.T Basden \"A medicine man with his stock in trade\"",
+      "width": 416,
+      "height": 364,
+      "source_query": "Ethnopharmacology"
+    }
+  ],
+  "sources": {
+    "wikipedia_url": "",
+    "papers": [
+      {
+        "title": "Journal of ethnopharmacology",
+        "url": "https://doi.org/10.1007/bf02806434"
+      },
+      {
+        "title": "Lonicera japonica Thunb.: Ethnopharmacology, phytochemistry and pharmacology of an important traditional Chinese medicine",
+        "url": "https://doi.org/10.1016/j.jep.2011.08.016"
+      },
+      {
+        "title": "Cultivation, Genetic, Ethnopharmacology, Phytochemistry and Pharmacology of Moringa oleifera Leaves: An Overview",
+        "url": "https://doi.org/10.3390/ijms160612791"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 19"
+      ],
+      "node_count": 15,
+      "edge_count": 19
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Toxicology",
+        "Clinical Trials"
+      ],
+      "strengths": [
+        "Well-represented core concepts",
+        "Good coverage of traditional medicine examples"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

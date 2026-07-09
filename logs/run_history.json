@@ -609,5 +609,18 @@
     "master_total_topics": 47,
     "ended_at": "2026-07-08T21:49:07.889542",
     "duration_seconds": 36.3
+  },
+  {
+    "started_at": "2026-07-09T10:32:54.667814",
+    "status": "success",
+    "topic": "Ethnopharmacology",
+    "sources_found": 5,
+    "images_found": 5,
+    "quality_score": 87.5,
+    "quality_passed": true,
+    "exam_questions": 10,
+    "master_total_topics": 48,
+    "ended_at": "2026-07-09T10:33:28.232930",
+    "duration_seconds": 33.6
   }
 ]
