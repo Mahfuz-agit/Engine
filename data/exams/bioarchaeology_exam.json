@@ -1,0 +1,162 @@
+{
+  "topic": "Bioarchaeology",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary focus of bioarchaeology?",
+      "options": {
+        "A": "The study of human remains from past cultures to understand the lives and deaths of ancient people.",
+        "B": "The study of animal remains from past cultures to understand the evolution of species.",
+        "C": "The study of plant remains from past cultures to understand the development of agriculture.",
+        "D": "The study of geological formations to understand the Earth's history."
+      },
+      "correct": "A",
+      "explanation": "Bioarchaeology is an interdisciplinary field that combines archaeology, anthropology, and osteology to analyze human skeletons and reconstruct the biographies of past individuals.",
+      "node_id": "Bioarchaeology",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which of the following techniques is used to analyze the isotopic composition of human remains to infer information about an individual's diet and migration patterns?",
+      "options": {
+        "A": "Ancient DNA analysis",
+        "B": "Isotopic analysis",
+        "C": "Paleopathology",
+        "D": "Osteology"
+      },
+      "correct": "B",
+      "explanation": "Isotopic analysis is a technique used to analyze the isotopic composition of human remains to infer information about an individual's diet and migration patterns.",
+      "node_id": "Isotopic Analysis",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the study of the historical context in which ancient humans lived, including their social, cultural, and environmental conditions?",
+      "options": {
+        "A": "Life course approaches",
+        "B": "Dietary reconstruction",
+        "C": "Historical context",
+        "D": "Funerary archaeology"
+      },
+      "correct": "C",
+      "explanation": "Historical context is crucial for understanding the lives and experiences of ancient humans, and it involves the study of the social, cultural, and environmental conditions in which they lived.",
+      "node_id": "Historical Context",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the study of bones and their structure, function, and development called?",
+      "options": {
+        "A": "Paleopathology",
+        "B": "Osteology",
+        "C": "Funerary archaeology",
+        "D": "Bioarchaeology"
+      },
+      "correct": "B",
+      "explanation": "Osteology is the study of bones and their structure, function, and development, and it is a crucial aspect of bioarchaeology.",
+      "node_id": "Osteology",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which of the following diseases has been studied using bioarchaeological techniques, such as paleopathology and ancient DNA analysis?",
+      "options": {
+        "A": "Malaria",
+        "B": "Tuberculosis",
+        "C": "Influenza",
+        "D": "Smallpox"
+      },
+      "correct": "B",
+      "explanation": "Tuberculosis has been studied using bioarchaeological techniques, such as paleopathology and ancient DNA analysis, to understand its evolution and impact on human populations.",
+      "node_id": "Tuberculosis",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the theoretical framework used in bioarchaeology to study the lives and experiences of ancient individuals?",
+      "options": {
+        "A": "Life course approaches",
+        "B": "Dietary reconstruction",
+        "C": "Historical context",
+        "D": "Funerary archaeology"
+      },
+      "correct": "A",
+      "explanation": "Life course approaches is a theoretical framework used in bioarchaeology to study the lives and experiences of ancient individuals, taking into account their social, cultural, and environmental contexts.",
+      "node_id": "Life Course Approaches",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which of the following techniques is used to infer information about an individual's diet based on the analysis of their skeletal remains?",
+      "options": {
+        "A": "Isotopic analysis",
+        "B": "Ancient DNA analysis",
+        "C": "Dietary reconstruction",
+        "D": "Paleopathology"
+      },
+      "correct": "C",
+      "explanation": "Dietary reconstruction is a technique used to infer information about an individual's diet based on the analysis of their skeletal remains, such as the analysis of stable isotopes and dental wear.",
+      "node_id": "Dietary Reconstruction",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What is the significance of funerary archaeology in understanding ancient societies?",
+      "sample_answer": "Funerary archaeology provides insights into the social and cultural practices of ancient societies, including their beliefs about death and the afterlife, and their treatment of the dead.",
+      "keywords": [
+        "funerary archaeology",
+        "social practices",
+        "cultural beliefs"
+      ],
+      "node_id": "Funerary Archaeology",
+      "points": 15
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "How does ancient DNA analysis contribute to our understanding of the evolution of diseases such as tuberculosis?",
+      "sample_answer": "Ancient DNA analysis allows us to study the genetic evolution of diseases such as tuberculosis over time, providing insights into the origins and spread of the disease, and its impact on human populations.",
+      "keywords": [
+        "ancient DNA analysis",
+        "disease evolution",
+        "tuberculosis"
+      ],
+      "node_id": "Ancient DNA Analysis",
+      "points": 15
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What are some of the key aspects of bioarchaeology, and how do they contribute to our understanding of ancient human societies?",
+      "sample_answer": "Some of the key aspects of bioarchaeology include osteology, paleopathology, and funerary archaeology, which provide insights into the lives and deaths of ancient individuals, including their health, diet, and social status.",
+      "keywords": [
+        "bioarchaeology",
+        "osteology",
+        "paleopathology",
+        "funerary archaeology"
+      ],
+      "node_id": "Bioarchaeology",
+      "points": 15
+    }
+  ]
+}

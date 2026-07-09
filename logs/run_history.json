@@ -622,5 +622,18 @@
     "master_total_topics": 48,
     "ended_at": "2026-07-09T10:33:28.232930",
     "duration_seconds": 33.6
+  },
+  {
+    "started_at": "2026-07-09T18:26:54.348970",
+    "status": "success",
+    "topic": "Bioarchaeology",
+    "sources_found": 5,
+    "images_found": 5,
+    "quality_score": 87.5,
+    "quality_passed": true,
+    "exam_questions": 10,
+    "master_total_topics": 49,
+    "ended_at": "2026-07-09T18:27:28.858561",
+    "duration_seconds": 34.5
   }
 ]

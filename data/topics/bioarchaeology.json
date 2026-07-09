@@ -1,0 +1,370 @@
+{
+  "topic": "Bioarchaeology",
+  "category": "anthropology",
+  "description": "Bioarchaeology is the study of human remains from past cultures to understand the lives and deaths of ancient people. It combines archaeology, anthropology, and osteology to analyze human skeletons and reconstruct the biographies of past individuals. By examining the skeletal remains, bioarchaeologists can infer information about an individual's diet, health, lifestyle, and even their social status.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Bioarchaeology",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of human remains from past cultures to understand the lives and deaths of ancient people.",
+      "importance": 10,
+      "fun_fact": "The term 'bioarchaeology' was first coined in the 1970s."
+    },
+    {
+      "id": "N2",
+      "label": "Osteology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of bones and their structure, function, and development.",
+      "importance": 9,
+      "fun_fact": "Osteology is a crucial aspect of bioarchaeology, as it provides information about an individual's age, sex, and health."
+    },
+    {
+      "id": "N3",
+      "label": "Paleopathology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of diseases and injuries in ancient human remains.",
+      "importance": 9,
+      "fun_fact": "Paleopathology has helped scientists understand the evolution of diseases such as tuberculosis and malaria."
+    },
+    {
+      "id": "N4",
+      "label": "Funerary Archaeology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of ancient burial practices and funerary rituals.",
+      "importance": 8,
+      "fun_fact": "Funerary archaeology provides insights into the social and cultural practices of ancient societies."
+    },
+    {
+      "id": "N5",
+      "label": "Isotopic Analysis",
+      "type": "application",
+      "depth": 2,
+      "description": "A technique used to analyze the isotopic composition of human remains to infer information about an individual's diet and migration patterns.",
+      "importance": 8,
+      "fun_fact": "Isotopic analysis has been used to study the migration patterns of ancient humans, such as the Vikings."
+    },
+    {
+      "id": "N6",
+      "label": "Ancient DNA Analysis",
+      "type": "application",
+      "depth": 2,
+      "description": "A technique used to analyze the DNA of ancient human remains to infer information about an individual's ancestry and health.",
+      "importance": 9,
+      "fun_fact": "Ancient DNA analysis has been used to study the origins of diseases such as the Black Death."
+    },
+    {
+      "id": "N7",
+      "label": "Tuberculosis",
+      "type": "example",
+      "depth": 2,
+      "description": "A disease that has been studied using bioarchaeological techniques, such as paleopathology and ancient DNA analysis.",
+      "importance": 7,
+      "fun_fact": "Tuberculosis has been a major public health concern throughout human history."
+    },
+    {
+      "id": "N8",
+      "label": "Jane Buikstra",
+      "type": "person",
+      "depth": 2,
+      "description": "A bioarchaeologist who has made significant contributions to the field, including the development of new methods for analyzing human remains.",
+      "importance": 6,
+      "fun_fact": "Jane Buikstra is known for her work on the bioarchaeology of ancient North America."
+    },
+    {
+      "id": "N9",
+      "label": "Life Course Approaches",
+      "type": "concept",
+      "depth": 2,
+      "description": "A theoretical framework used in bioarchaeology to study the lives and experiences of ancient individuals.",
+      "importance": 8,
+      "fun_fact": "Life course approaches have been used to study the effects of social and environmental factors on human health and well-being."
+    },
+    {
+      "id": "N10",
+      "label": "Oxygen Isotopes",
+      "type": "formula",
+      "depth": 3,
+      "description": "A type of isotopic analysis used to study the migration patterns and diet of ancient humans.",
+      "importance": 5,
+      "fun_fact": "Oxygen isotopes are used to analyze the isotopic composition of human teeth and bones."
+    },
+    {
+      "id": "N11",
+      "label": "Bone Morphology",
+      "type": "concept",
+      "depth": 3,
+      "description": "The study of the shape and structure of human bones.",
+      "importance": 6,
+      "fun_fact": "Bone morphology is used to infer information about an individual's age, sex, and health."
+    },
+    {
+      "id": "N12",
+      "label": "Dietary Reconstruction",
+      "type": "application",
+      "depth": 3,
+      "description": "A technique used to infer information about an individual's diet based on the analysis of their skeletal remains.",
+      "importance": 7,
+      "fun_fact": "Dietary reconstruction has been used to study the diets of ancient humans, such as the ancient Egyptians."
+    },
+    {
+      "id": "N13",
+      "label": "Migration Patterns",
+      "type": "example",
+      "depth": 3,
+      "description": "The study of the movement of ancient humans, using techniques such as isotopic analysis and ancient DNA analysis.",
+      "importance": 6,
+      "fun_fact": "Migration patterns have been used to study the origins and spread of diseases such as tuberculosis."
+    },
+    {
+      "id": "N14",
+      "label": "Social Status",
+      "type": "concept",
+      "depth": 3,
+      "description": "The study of an individual's social position and status in ancient societies.",
+      "importance": 5,
+      "fun_fact": "Social status has been inferred from the analysis of skeletal remains, such as the presence of certain diseases or injuries."
+    },
+    {
+      "id": "N15",
+      "label": "Historical Context",
+      "type": "fact",
+      "depth": 3,
+      "description": "The study of the historical context in which ancient humans lived, including their social, cultural, and environmental conditions.",
+      "importance": 8,
+      "fun_fact": "Historical context is crucial for understanding the lives and experiences of ancient humans."
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Osteology is a crucial aspect of bioarchaeology, as it provides information about an individual's age, sex, and health."
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Paleopathology is a key aspect of bioarchaeology, as it provides information about the diseases and injuries that affected ancient humans."
+    },
+    {
+      "source": "N1",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Funerary archaeology is an important aspect of bioarchaeology, as it provides insights into the social and cultural practices of ancient societies."
+    },
+    {
+      "source": "N2",
+      "target": "N5",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Isotopic analysis is used in osteology to infer information about an individual's diet and migration patterns."
+    },
+    {
+      "source": "N3",
+      "target": "N6",
+      "relation": "used_in",
+      "strength": 9,
+      "description": "Ancient DNA analysis is used in paleopathology to infer information about an individual's ancestry and health."
+    },
+    {
+      "source": "N4",
+      "target": "N7",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "Funerary archaeology is related to the study of diseases such as tuberculosis, as it provides insights into the social and cultural practices of ancient societies."
+    },
+    {
+      "source": "N5",
+      "target": "N8",
+      "relation": "used_by",
+      "strength": 6,
+      "description": "Isotopic analysis is used by bioarchaeologists such as Jane Buikstra to infer information about an individual's diet and migration patterns."
+    },
+    {
+      "source": "N6",
+      "target": "N9",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Ancient DNA analysis is used in life course approaches to study the lives and experiences of ancient individuals."
+    },
+    {
+      "source": "N7",
+      "target": "N10",
+      "relation": "related_to",
+      "strength": 5,
+      "description": "Tuberculosis is related to the study of oxygen isotopes, as it provides insights into the migration patterns and diet of ancient humans."
+    },
+    {
+      "source": "N8",
+      "target": "N11",
+      "relation": "used_by",
+      "strength": 6,
+      "description": "Bone morphology is used by bioarchaeologists such as Jane Buikstra to infer information about an individual's age, sex, and health."
+    },
+    {
+      "source": "N9",
+      "target": "N12",
+      "relation": "used_in",
+      "strength": 7,
+      "description": "Life course approaches are used in dietary reconstruction to infer information about an individual's diet and health."
+    },
+    {
+      "source": "N10",
+      "target": "N13",
+      "relation": "related_to",
+      "strength": 6,
+      "description": "Oxygen isotopes are related to the study of migration patterns, as they provide insights into the movement of ancient humans."
+    },
+    {
+      "source": "N11",
+      "target": "N14",
+      "relation": "used_in",
+      "strength": 5,
+      "description": "Bone morphology is used to infer information about an individual's social status."
+    },
+    {
+      "source": "N12",
+      "target": "N15",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Dietary reconstruction is used to understand the historical context in which ancient humans lived."
+    },
+    {
+      "source": "N13",
+      "target": "N1",
+      "relation": "is_part_of",
+      "strength": 6,
+      "description": "Migration patterns are an important aspect of bioarchaeology, as they provide insights into the movement and spread of ancient humans."
+    },
+    {
+      "source": "N14",
+      "target": "N3",
+      "relation": "related_to",
+      "strength": 5,
+      "description": "Social status is related to the study of diseases such as tuberculosis, as it provides insights into the social and cultural practices of ancient societies."
+    },
+    {
+      "source": "N15",
+      "target": "N1",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Historical context is a crucial aspect of bioarchaeology, as it provides insights into the social, cultural, and environmental conditions in which ancient humans lived."
+    }
+  ],
+  "key_takeaways": [
+    "Bioarchaeology is the study of human remains from past cultures to understand the lives and deaths of ancient people.",
+    "Osteology, paleopathology, and funerary archaeology are key aspects of bioarchaeology.",
+    "Isotopic analysis and ancient DNA analysis are important techniques used in bioarchaeology to infer information about an individual's diet, migration patterns, and health."
+  ],
+  "real_world_impact": "Bioarchaeology has had a significant impact on our understanding of human history and the lives of ancient people. By analyzing human remains, bioarchaeologists can infer information about an individual's diet, health, and social status, providing insights into the social, cultural, and environmental conditions in which they lived. This information can be used to inform modern public health policies and practices, as well as to understand the evolution of diseases and the impact of environmental factors on human health. Additionally, bioarchaeology has been used to study the origins and spread of diseases, such as tuberculosis, and to understand the migration patterns of ancient humans. Overall, bioarchaeology is a valuable tool for understanding human history and the lives of ancient people, and has the potential to inform a wide range of fields, from public health to anthropology and archaeology.",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/02024_0840_Bioarchaeology_Laboratory_Workshop.jpg",
+      "title": "02024 0840 Bioarchaeology Laboratory Workshop.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Silar",
+      "description": "Bioarchaeology Laboratory Workshop",
+      "width": 4239,
+      "height": 2826,
+      "source_query": "Bioarchaeology"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/02024_0842_Bioarchaeology_Laboratory_Workshop.jpg",
+      "title": "02024 0842 Bioarchaeology Laboratory Workshop.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Silar",
+      "description": "Bioarchaeology Laboratory Workshop",
+      "width": 3996,
+      "height": 2664,
+      "source_query": "Bioarchaeology"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Bioarchaeology_Laboratory%2C_picture_made_by_a_friend.jpg",
+      "title": "Bioarchaeology Laboratory, picture made by a friend.jpg",
+      "license": "CC BY 4.0",
+      "artist": "Andreacise",
+      "description": "Bioarchaeology lab made in my school in collaboration with Osteoarc association. I am reconstructing a cranium of a 7-8 year old kid.",
+      "width": 1080,
+      "height": 1620,
+      "source_query": "Bioarchaeology"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Bioarchaeology_Laboratory%2C_picture_made_by_me.jpg",
+      "title": "Bioarchaeology Laboratory, picture made by me.jpg",
+      "license": "CC BY 4.0",
+      "artist": "Andreacise",
+      "description": "Bioarchaeology lab made in my school in collaboration with Osteoarc association. Full skeleton of a 8-9 year old girl.",
+      "width": 1134,
+      "height": 2016,
+      "source_query": "Bioarchaeology"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Die_vergleichende_Osteologie_%281821%29_Civettictis_civetta_%28white_background%29.jpg",
+      "title": "Die vergleichende Osteologie (1821) Civettictis civetta (white background).jpg",
+      "license": "Public domain",
+      "artist": "Pander, Christian Heinrich, 1794-1865",
+      "description": "skeleton of African civet",
+      "width": 1479,
+      "height": 682,
+      "source_query": "Bioarchaeology"
+    }
+  ],
+  "sources": {
+    "wikipedia_url": "",
+    "papers": [
+      {
+        "title": "Oxygen isotopes in bioarchaeology: Principles and applications, challenges and opportunities",
+        "url": "https://doi.org/10.1016/j.earscirev.2018.11.005"
+      },
+      {
+        "title": "Bone morphologies and histories: Life course approaches in bioarchaeology",
+        "url": "https://doi.org/10.1002/ajpa.22905"
+      },
+      {
+        "title": "The bioarchaeology of tuberculosis: a global view on a reemerging disease",
+        "url": "https://doi.org/10.5860/choice.41-4711"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 17"
+      ],
+      "node_count": 15,
+      "edge_count": 17
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Biochemical Analysis",
+        "Taphonomy"
+      ],
+      "strengths": [
+        "Comprehensive coverage of key aspects of bioarchaeology",
+        "Inclusion of various techniques and applications"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

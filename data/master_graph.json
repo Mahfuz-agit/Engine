@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 48,
-  "total_nodes": 719,
-  "total_edges": 880,
+  "total_topics": 49,
+  "total_nodes": 734,
+  "total_edges": 897,
   "topics": [
     {
       "topic": "Climate Change",
@@ -435,6 +435,15 @@
       "edge_count": 19,
       "description": "Ethnopharmacology is the study of the use of plants and other natural products in traditional medicine, with a focus on their phytochemical and pharmacological properties. It combines anthropology, botany, and pharmacology to understand the cultural and historical context of traditional medicine. By exploring the intersection of traditional knowledge and modern science, ethnopharmacology aims to discover new drugs and therapies.",
       "added_at": "2026-07-09T10:33:28.222725"
+    },
+    {
+      "topic": "Bioarchaeology",
+      "slug": "bioarchaeology",
+      "category": "anthropology",
+      "node_count": 15,
+      "edge_count": 17,
+      "description": "Bioarchaeology is the study of human remains from past cultures to understand the lives and deaths of ancient people. It combines archaeology, anthropology, and osteology to analyze human skeletons and reconstruct the biographies of past individuals. By examining the skeletal remains, bioarchaeologists can infer information about an individual's diet, health, lifestyle, and even their social status.",
+      "added_at": "2026-07-09T18:27:28.847968"
     }
   ],
   "global_nodes": [
@@ -8346,6 +8355,171 @@
       "fun_fact": "Ethnopharmacological research has led to the discovery of several important drugs, including artemisinin and taxol",
       "topic_slug": "ethnopharmacology",
       "topic": "Ethnopharmacology"
+    },
+    {
+      "id": "bioarchaeology__N1",
+      "label": "Bioarchaeology",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of human remains from past cultures to understand the lives and deaths of ancient people.",
+      "importance": 10,
+      "fun_fact": "The term 'bioarchaeology' was first coined in the 1970s.",
+      "topic_slug": "bioarchaeology",
+      "topic": "Bioarchaeology"
+    },
+    {
+      "id": "bioarchaeology__N2",
+      "label": "Osteology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of bones and their structure, function, and development.",
+      "importance": 9,
+      "fun_fact": "Osteology is a crucial aspect of bioarchaeology, as it provides information about an individual's age, sex, and health.",
+      "topic_slug": "bioarchaeology",
+      "topic": "Bioarchaeology"
+    },
+    {
+      "id": "bioarchaeology__N3",
+      "label": "Paleopathology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of diseases and injuries in ancient human remains.",
+      "importance": 9,
+      "fun_fact": "Paleopathology has helped scientists understand the evolution of diseases such as tuberculosis and malaria.",
+      "topic_slug": "bioarchaeology",
+      "topic": "Bioarchaeology"
+    },
+    {
+      "id": "bioarchaeology__N4",
+      "label": "Funerary Archaeology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of ancient burial practices and funerary rituals.",
+      "importance": 8,
+      "fun_fact": "Funerary archaeology provides insights into the social and cultural practices of ancient societies.",
+      "topic_slug": "bioarchaeology",
+      "topic": "Bioarchaeology"
+    },
+    {
+      "id": "bioarchaeology__N5",
+      "label": "Isotopic Analysis",
+      "type": "application",
+      "depth": 2,
+      "description": "A technique used to analyze the isotopic composition of human remains to infer information about an individual's diet and migration patterns.",
+      "importance": 8,
+      "fun_fact": "Isotopic analysis has been used to study the migration patterns of ancient humans, such as the Vikings.",
+      "topic_slug": "bioarchaeology",
+      "topic": "Bioarchaeology"
+    },
+    {
+      "id": "bioarchaeology__N6",
+      "label": "Ancient DNA Analysis",
+      "type": "application",
+      "depth": 2,
+      "description": "A technique used to analyze the DNA of ancient human remains to infer information about an individual's ancestry and health.",
+      "importance": 9,
+      "fun_fact": "Ancient DNA analysis has been used to study the origins of diseases such as the Black Death.",
+      "topic_slug": "bioarchaeology",
+      "topic": "Bioarchaeology"
+    },
+    {
+      "id": "bioarchaeology__N7",
+      "label": "Tuberculosis",
+      "type": "example",
+      "depth": 2,
+      "description": "A disease that has been studied using bioarchaeological techniques, such as paleopathology and ancient DNA analysis.",
+      "importance": 7,
+      "fun_fact": "Tuberculosis has been a major public health concern throughout human history.",
+      "topic_slug": "bioarchaeology",
+      "topic": "Bioarchaeology"
+    },
+    {
+      "id": "bioarchaeology__N8",
+      "label": "Jane Buikstra",
+      "type": "person",
+      "depth": 2,
+      "description": "A bioarchaeologist who has made significant contributions to the field, including the development of new methods for analyzing human remains.",
+      "importance": 6,
+      "fun_fact": "Jane Buikstra is known for her work on the bioarchaeology of ancient North America.",
+      "topic_slug": "bioarchaeology",
+      "topic": "Bioarchaeology"
+    },
+    {
+      "id": "bioarchaeology__N9",
+      "label": "Life Course Approaches",
+      "type": "concept",
+      "depth": 2,
+      "description": "A theoretical framework used in bioarchaeology to study the lives and experiences of ancient individuals.",
+      "importance": 8,
+      "fun_fact": "Life course approaches have been used to study the effects of social and environmental factors on human health and well-being.",
+      "topic_slug": "bioarchaeology",
+      "topic": "Bioarchaeology"
+    },
+    {
+      "id": "bioarchaeology__N10",
+      "label": "Oxygen Isotopes",
+      "type": "formula",
+      "depth": 3,
+      "description": "A type of isotopic analysis used to study the migration patterns and diet of ancient humans.",
+      "importance": 5,
+      "fun_fact": "Oxygen isotopes are used to analyze the isotopic composition of human teeth and bones.",
+      "topic_slug": "bioarchaeology",
+      "topic": "Bioarchaeology"
+    },
+    {
+      "id": "bioarchaeology__N11",
+      "label": "Bone Morphology",
+      "type": "concept",
+      "depth": 3,
+      "description": "The study of the shape and structure of human bones.",
+      "importance": 6,
+      "fun_fact": "Bone morphology is used to infer information about an individual's age, sex, and health.",
+      "topic_slug": "bioarchaeology",
+      "topic": "Bioarchaeology"
+    },
+    {
+      "id": "bioarchaeology__N12",
+      "label": "Dietary Reconstruction",
+      "type": "application",
+      "depth": 3,
+      "description": "A technique used to infer information about an individual's diet based on the analysis of their skeletal remains.",
+      "importance": 7,
+      "fun_fact": "Dietary reconstruction has been used to study the diets of ancient humans, such as the ancient Egyptians.",
+      "topic_slug": "bioarchaeology",
+      "topic": "Bioarchaeology"
+    },
+    {
+      "id": "bioarchaeology__N13",
+      "label": "Migration Patterns",
+      "type": "example",
+      "depth": 3,
+      "description": "The study of the movement of ancient humans, using techniques such as isotopic analysis and ancient DNA analysis.",
+      "importance": 6,
+      "fun_fact": "Migration patterns have been used to study the origins and spread of diseases such as tuberculosis.",
+      "topic_slug": "bioarchaeology",
+      "topic": "Bioarchaeology"
+    },
+    {
+      "id": "bioarchaeology__N14",
+      "label": "Social Status",
+      "type": "concept",
+      "depth": 3,
+      "description": "The study of an individual's social position and status in ancient societies.",
+      "importance": 5,
+      "fun_fact": "Social status has been inferred from the analysis of skeletal remains, such as the presence of certain diseases or injuries.",
+      "topic_slug": "bioarchaeology",
+      "topic": "Bioarchaeology"
+    },
+    {
+      "id": "bioarchaeology__N15",
+      "label": "Historical Context",
+      "type": "fact",
+      "depth": 3,
+      "description": "The study of the historical context in which ancient humans lived, including their social, cultural, and environmental conditions.",
+      "importance": 8,
+      "fun_fact": "Historical context is crucial for understanding the lives and experiences of ancient humans.",
+      "topic_slug": "bioarchaeology",
+      "topic": "Bioarchaeology"
     }
   ],
   "global_edges": [
@@ -14508,6 +14682,125 @@
       "relation": "contributes_to",
       "strength": 8,
       "topic": "Ethnopharmacology"
+    },
+    {
+      "source": "bioarchaeology__N1",
+      "target": "bioarchaeology__N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Bioarchaeology"
+    },
+    {
+      "source": "bioarchaeology__N1",
+      "target": "bioarchaeology__N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Bioarchaeology"
+    },
+    {
+      "source": "bioarchaeology__N1",
+      "target": "bioarchaeology__N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Bioarchaeology"
+    },
+    {
+      "source": "bioarchaeology__N2",
+      "target": "bioarchaeology__N5",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Bioarchaeology"
+    },
+    {
+      "source": "bioarchaeology__N3",
+      "target": "bioarchaeology__N6",
+      "relation": "used_in",
+      "strength": 9,
+      "topic": "Bioarchaeology"
+    },
+    {
+      "source": "bioarchaeology__N4",
+      "target": "bioarchaeology__N7",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Bioarchaeology"
+    },
+    {
+      "source": "bioarchaeology__N5",
+      "target": "bioarchaeology__N8",
+      "relation": "used_by",
+      "strength": 6,
+      "topic": "Bioarchaeology"
+    },
+    {
+      "source": "bioarchaeology__N6",
+      "target": "bioarchaeology__N9",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Bioarchaeology"
+    },
+    {
+      "source": "bioarchaeology__N7",
+      "target": "bioarchaeology__N10",
+      "relation": "related_to",
+      "strength": 5,
+      "topic": "Bioarchaeology"
+    },
+    {
+      "source": "bioarchaeology__N8",
+      "target": "bioarchaeology__N11",
+      "relation": "used_by",
+      "strength": 6,
+      "topic": "Bioarchaeology"
+    },
+    {
+      "source": "bioarchaeology__N9",
+      "target": "bioarchaeology__N12",
+      "relation": "used_in",
+      "strength": 7,
+      "topic": "Bioarchaeology"
+    },
+    {
+      "source": "bioarchaeology__N10",
+      "target": "bioarchaeology__N13",
+      "relation": "related_to",
+      "strength": 6,
+      "topic": "Bioarchaeology"
+    },
+    {
+      "source": "bioarchaeology__N11",
+      "target": "bioarchaeology__N14",
+      "relation": "used_in",
+      "strength": 5,
+      "topic": "Bioarchaeology"
+    },
+    {
+      "source": "bioarchaeology__N12",
+      "target": "bioarchaeology__N15",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Bioarchaeology"
+    },
+    {
+      "source": "bioarchaeology__N13",
+      "target": "bioarchaeology__N1",
+      "relation": "is_part_of",
+      "strength": 6,
+      "topic": "Bioarchaeology"
+    },
+    {
+      "source": "bioarchaeology__N14",
+      "target": "bioarchaeology__N3",
+      "relation": "related_to",
+      "strength": 5,
+      "topic": "Bioarchaeology"
+    },
+    {
+      "source": "bioarchaeology__N15",
+      "target": "bioarchaeology__N1",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Bioarchaeology"
     }
   ],
   "cross_topic_edges": [
@@ -14899,11 +15192,12 @@
     ],
     "anthropology": [
       "anthropology",
-      "ethnomusicology"
+      "ethnomusicology",
+      "bioarchaeology"
     ],
     "archaeology": [
       "archaeoacoustics"
     ]
   },
-  "last_updated": "2026-07-09T10:33:28.222758"
+  "last_updated": "2026-07-09T18:27:28.848002"
 }
