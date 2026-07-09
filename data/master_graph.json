@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 49,
-  "total_nodes": 734,
-  "total_edges": 897,
+  "total_topics": 50,
+  "total_nodes": 749,
+  "total_edges": 917,
   "topics": [
     {
       "topic": "Climate Change",
@@ -444,6 +444,15 @@
       "edge_count": 17,
       "description": "Bioarchaeology is the study of human remains from past cultures to understand the lives and deaths of ancient people. It combines archaeology, anthropology, and osteology to analyze human skeletons and reconstruct the biographies of past individuals. By examining the skeletal remains, bioarchaeologists can infer information about an individual's diet, health, lifestyle, and even their social status.",
       "added_at": "2026-07-09T18:27:28.847968"
+    },
+    {
+      "topic": "Geopolitics",
+      "slug": "geopolitics",
+      "category": "political_science",
+      "node_count": 15,
+      "edge_count": 20,
+      "description": "Geopolitics is the study of the effects of Earth's geography on politics and international relations, examining how geographical factors influence the interactions between countries and their relationships. It encompasses various subfields, including international relations, global governance, territorial disputes, resource management, and cultural diplomacy. By understanding these dynamics, scholars and policymakers can better navigate the complexities of global politics and develop strategies for cooperation and conflict resolution.",
+      "added_at": "2026-07-09T23:54:15.689859"
     }
   ],
   "global_nodes": [
@@ -8520,6 +8529,171 @@
       "fun_fact": "Historical context is crucial for understanding the lives and experiences of ancient humans.",
       "topic_slug": "bioarchaeology",
       "topic": "Bioarchaeology"
+    },
+    {
+      "id": "geopolitics__N1",
+      "label": "Geopolitics",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of the effects of Earth's geography on politics and international relations",
+      "importance": 10,
+      "fun_fact": "The term 'geopolitics' was first coined in 1899 by Swedish political scientist Rudolf Kjell\u00e9n",
+      "topic_slug": "geopolitics",
+      "topic": "Geopolitics"
+    },
+    {
+      "id": "geopolitics__N2",
+      "label": "International Relations",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of interactions between countries, including diplomacy, trade, and conflict",
+      "importance": 9,
+      "fun_fact": "The concept of international relations has been studied since ancient times, with philosophers like Thucydides and Machiavelli contributing to its development",
+      "topic_slug": "geopolitics",
+      "topic": "Geopolitics"
+    },
+    {
+      "id": "geopolitics__N3",
+      "label": "Global Governance",
+      "type": "concept",
+      "depth": 1,
+      "description": "The system of rules, norms, and institutions that regulate global interactions and cooperation",
+      "importance": 9,
+      "fun_fact": "The United Nations is a key institution in global governance, established in 1945 to promote peace, security, and cooperation among nations",
+      "topic_slug": "geopolitics",
+      "topic": "Geopolitics"
+    },
+    {
+      "id": "geopolitics__N4",
+      "label": "Territorial Disputes",
+      "type": "concept",
+      "depth": 1,
+      "description": "Conflicts between countries over territory, resources, or borders",
+      "importance": 8,
+      "fun_fact": "The South China Sea dispute is a notable example of a territorial dispute, involving multiple countries and complex geopolitical dynamics",
+      "topic_slug": "geopolitics",
+      "topic": "Geopolitics"
+    },
+    {
+      "id": "geopolitics__N5",
+      "label": "Resource Management",
+      "type": "concept",
+      "depth": 1,
+      "description": "The management of natural resources, such as water, energy, and minerals, in the context of geopolitics",
+      "importance": 8,
+      "fun_fact": "The concept of resource curse refers to the phenomenon where countries with abundant natural resources experience poor economic development and governance",
+      "topic_slug": "geopolitics",
+      "topic": "Geopolitics"
+    },
+    {
+      "id": "geopolitics__N6",
+      "label": "Cultural Diplomacy",
+      "type": "concept",
+      "depth": 1,
+      "description": "The use of cultural exchange and dialogue to promote international understanding and cooperation",
+      "importance": 8,
+      "fun_fact": "The Fulbright Program is a notable example of cultural diplomacy, providing scholarships for international students to study in the United States",
+      "topic_slug": "geopolitics",
+      "topic": "Geopolitics"
+    },
+    {
+      "id": "geopolitics__N7",
+      "label": "Rudolf Kjell\u00e9n",
+      "type": "person",
+      "depth": 2,
+      "description": "Swedish political scientist who coined the term 'geopolitics' in 1899",
+      "importance": 7,
+      "fun_fact": "Kjell\u00e9n's work focused on the relationship between geography and politics, and he is considered one of the founders of the field of geopolitics",
+      "topic_slug": "geopolitics",
+      "topic": "Geopolitics"
+    },
+    {
+      "id": "geopolitics__N8",
+      "label": "Halford Mackinder",
+      "type": "person",
+      "depth": 2,
+      "description": "British geographer who developed the concept of the 'Heartland' theory, which posits that control of the Eurasian landmass is key to global power",
+      "importance": 7,
+      "fun_fact": "Mackinder's work had a significant influence on the development of geopolitics, particularly in the context of the Cold War",
+      "topic_slug": "geopolitics",
+      "topic": "Geopolitics"
+    },
+    {
+      "id": "geopolitics__N9",
+      "label": "Renewable Energy",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of renewable energy sources, such as solar and wind power, to reduce dependence on fossil fuels and mitigate climate change",
+      "importance": 8,
+      "fun_fact": "The cost of renewable energy has decreased dramatically in recent years, making it more competitive with fossil fuels and driving its adoption globally",
+      "topic_slug": "geopolitics",
+      "topic": "Geopolitics"
+    },
+    {
+      "id": "geopolitics__N10",
+      "label": "Feminist Geopolitics",
+      "type": "concept",
+      "depth": 2,
+      "description": "The study of the intersections between gender, power, and geopolitics, highlighting the experiences and perspectives of women and marginalized groups",
+      "importance": 8,
+      "fun_fact": "Feminist geopolitics challenges traditional notions of security and international relations, emphasizing the importance of human security and social justice",
+      "topic_slug": "geopolitics",
+      "topic": "Geopolitics"
+    },
+    {
+      "id": "geopolitics__N11",
+      "label": "Globalized Fear",
+      "type": "concept",
+      "depth": 2,
+      "description": "The phenomenon of fear being used as a tool of geopolitics, particularly in the context of terrorism and national security",
+      "importance": 7,
+      "fun_fact": "The concept of globalized fear highlights the ways in which fear can be manipulated and exploited by governments and other actors to shape public opinion and policy",
+      "topic_slug": "geopolitics",
+      "topic": "Geopolitics"
+    },
+    {
+      "id": "geopolitics__N12",
+      "label": "Emotional Geopolitics",
+      "type": "concept",
+      "depth": 2,
+      "description": "The study of the emotional dimensions of geopolitics, including the role of emotions in shaping international relations and conflict",
+      "importance": 7,
+      "fun_fact": "Emotional geopolitics emphasizes the importance of empathy and emotional intelligence in international relations, highlighting the need for more nuanced and human-centered approaches to conflict resolution",
+      "topic_slug": "geopolitics",
+      "topic": "Geopolitics"
+    },
+    {
+      "id": "geopolitics__N13",
+      "label": "United Nations",
+      "type": "example",
+      "depth": 3,
+      "description": "An international organization dedicated to promoting peace, security, and cooperation among nations",
+      "importance": 9,
+      "fun_fact": "The United Nations has played a crucial role in shaping global governance and promoting international cooperation, particularly in the areas of human rights, development, and humanitarian aid",
+      "topic_slug": "geopolitics",
+      "topic": "Geopolitics"
+    },
+    {
+      "id": "geopolitics__N14",
+      "label": "South China Sea Dispute",
+      "type": "example",
+      "depth": 3,
+      "description": "A territorial dispute between multiple countries in the South China Sea, involving complex geopolitical dynamics and competing claims",
+      "importance": 8,
+      "fun_fact": "The South China Sea dispute has significant implications for global trade, security, and the balance of power in the Asia-Pacific region",
+      "topic_slug": "geopolitics",
+      "topic": "Geopolitics"
+    },
+    {
+      "id": "geopolitics__N15",
+      "label": "Fulbright Program",
+      "type": "example",
+      "depth": 3,
+      "description": "A cultural exchange program providing scholarships for international students to study in the United States",
+      "importance": 7,
+      "fun_fact": "The Fulbright Program has been instrumental in promoting cultural diplomacy and people-to-people exchanges between the United States and other countries",
+      "topic_slug": "geopolitics",
+      "topic": "Geopolitics"
     }
   ],
   "global_edges": [
@@ -14801,6 +14975,146 @@
       "relation": "is_part_of",
       "strength": 8,
       "topic": "Bioarchaeology"
+    },
+    {
+      "source": "geopolitics__N1",
+      "target": "geopolitics__N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Geopolitics"
+    },
+    {
+      "source": "geopolitics__N1",
+      "target": "geopolitics__N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Geopolitics"
+    },
+    {
+      "source": "geopolitics__N1",
+      "target": "geopolitics__N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Geopolitics"
+    },
+    {
+      "source": "geopolitics__N1",
+      "target": "geopolitics__N5",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Geopolitics"
+    },
+    {
+      "source": "geopolitics__N1",
+      "target": "geopolitics__N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Geopolitics"
+    },
+    {
+      "source": "geopolitics__N2",
+      "target": "geopolitics__N7",
+      "relation": "discovered_by",
+      "strength": 7,
+      "topic": "Geopolitics"
+    },
+    {
+      "source": "geopolitics__N2",
+      "target": "geopolitics__N8",
+      "relation": "influenced_by",
+      "strength": 7,
+      "topic": "Geopolitics"
+    },
+    {
+      "source": "geopolitics__N3",
+      "target": "geopolitics__N9",
+      "relation": "enables",
+      "strength": 8,
+      "topic": "Geopolitics"
+    },
+    {
+      "source": "geopolitics__N4",
+      "target": "geopolitics__N10",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Geopolitics"
+    },
+    {
+      "source": "geopolitics__N5",
+      "target": "geopolitics__N11",
+      "relation": "contrasts_with",
+      "strength": 7,
+      "topic": "Geopolitics"
+    },
+    {
+      "source": "geopolitics__N6",
+      "target": "geopolitics__N12",
+      "relation": "enables",
+      "strength": 7,
+      "topic": "Geopolitics"
+    },
+    {
+      "source": "geopolitics__N7",
+      "target": "geopolitics__N13",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Geopolitics"
+    },
+    {
+      "source": "geopolitics__N8",
+      "target": "geopolitics__N14",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Geopolitics"
+    },
+    {
+      "source": "geopolitics__N9",
+      "target": "geopolitics__N15",
+      "relation": "enables",
+      "strength": 6,
+      "topic": "Geopolitics"
+    },
+    {
+      "source": "geopolitics__N10",
+      "target": "geopolitics__N1",
+      "relation": "evolved_from",
+      "strength": 8,
+      "topic": "Geopolitics"
+    },
+    {
+      "source": "geopolitics__N11",
+      "target": "geopolitics__N1",
+      "relation": "evolved_from",
+      "strength": 7,
+      "topic": "Geopolitics"
+    },
+    {
+      "source": "geopolitics__N12",
+      "target": "geopolitics__N1",
+      "relation": "evolved_from",
+      "strength": 7,
+      "topic": "Geopolitics"
+    },
+    {
+      "source": "geopolitics__N13",
+      "target": "geopolitics__N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Geopolitics"
+    },
+    {
+      "source": "geopolitics__N14",
+      "target": "geopolitics__N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Geopolitics"
+    },
+    {
+      "source": "geopolitics__N15",
+      "target": "geopolitics__N6",
+      "relation": "is_part_of",
+      "strength": 7,
+      "topic": "Geopolitics"
     }
   ],
   "cross_topic_edges": [
@@ -14821,6 +15135,13 @@
     {
       "source": "climate_change__N3",
       "target": "sustainable_energy__N2",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "renewable energy"
+    },
+    {
+      "source": "sustainable_energy__N2",
+      "target": "geopolitics__N9",
       "relation": "cross_topic_connection",
       "strength": 6,
       "label": "renewable energy"
@@ -15197,7 +15518,10 @@
     ],
     "archaeology": [
       "archaeoacoustics"
+    ],
+    "political_science": [
+      "geopolitics"
     ]
   },
-  "last_updated": "2026-07-09T18:27:28.848002"
+  "last_updated": "2026-07-09T23:54:15.689903"
 }

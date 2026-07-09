@@ -1,0 +1,389 @@
+{
+  "topic": "Geopolitics",
+  "category": "political_science",
+  "description": "Geopolitics is the study of the effects of Earth's geography on politics and international relations, examining how geographical factors influence the interactions between countries and their relationships. It encompasses various subfields, including international relations, global governance, territorial disputes, resource management, and cultural diplomacy. By understanding these dynamics, scholars and policymakers can better navigate the complexities of global politics and develop strategies for cooperation and conflict resolution.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Geopolitics",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of the effects of Earth's geography on politics and international relations",
+      "importance": 10,
+      "fun_fact": "The term 'geopolitics' was first coined in 1899 by Swedish political scientist Rudolf Kjell\u00e9n"
+    },
+    {
+      "id": "N2",
+      "label": "International Relations",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of interactions between countries, including diplomacy, trade, and conflict",
+      "importance": 9,
+      "fun_fact": "The concept of international relations has been studied since ancient times, with philosophers like Thucydides and Machiavelli contributing to its development"
+    },
+    {
+      "id": "N3",
+      "label": "Global Governance",
+      "type": "concept",
+      "depth": 1,
+      "description": "The system of rules, norms, and institutions that regulate global interactions and cooperation",
+      "importance": 9,
+      "fun_fact": "The United Nations is a key institution in global governance, established in 1945 to promote peace, security, and cooperation among nations"
+    },
+    {
+      "id": "N4",
+      "label": "Territorial Disputes",
+      "type": "concept",
+      "depth": 1,
+      "description": "Conflicts between countries over territory, resources, or borders",
+      "importance": 8,
+      "fun_fact": "The South China Sea dispute is a notable example of a territorial dispute, involving multiple countries and complex geopolitical dynamics"
+    },
+    {
+      "id": "N5",
+      "label": "Resource Management",
+      "type": "concept",
+      "depth": 1,
+      "description": "The management of natural resources, such as water, energy, and minerals, in the context of geopolitics",
+      "importance": 8,
+      "fun_fact": "The concept of resource curse refers to the phenomenon where countries with abundant natural resources experience poor economic development and governance"
+    },
+    {
+      "id": "N6",
+      "label": "Cultural Diplomacy",
+      "type": "concept",
+      "depth": 1,
+      "description": "The use of cultural exchange and dialogue to promote international understanding and cooperation",
+      "importance": 8,
+      "fun_fact": "The Fulbright Program is a notable example of cultural diplomacy, providing scholarships for international students to study in the United States"
+    },
+    {
+      "id": "N7",
+      "label": "Rudolf Kjell\u00e9n",
+      "type": "person",
+      "depth": 2,
+      "description": "Swedish political scientist who coined the term 'geopolitics' in 1899",
+      "importance": 7,
+      "fun_fact": "Kjell\u00e9n's work focused on the relationship between geography and politics, and he is considered one of the founders of the field of geopolitics"
+    },
+    {
+      "id": "N8",
+      "label": "Halford Mackinder",
+      "type": "person",
+      "depth": 2,
+      "description": "British geographer who developed the concept of the 'Heartland' theory, which posits that control of the Eurasian landmass is key to global power",
+      "importance": 7,
+      "fun_fact": "Mackinder's work had a significant influence on the development of geopolitics, particularly in the context of the Cold War"
+    },
+    {
+      "id": "N9",
+      "label": "Renewable Energy",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of renewable energy sources, such as solar and wind power, to reduce dependence on fossil fuels and mitigate climate change",
+      "importance": 8,
+      "fun_fact": "The cost of renewable energy has decreased dramatically in recent years, making it more competitive with fossil fuels and driving its adoption globally"
+    },
+    {
+      "id": "N10",
+      "label": "Feminist Geopolitics",
+      "type": "concept",
+      "depth": 2,
+      "description": "The study of the intersections between gender, power, and geopolitics, highlighting the experiences and perspectives of women and marginalized groups",
+      "importance": 8,
+      "fun_fact": "Feminist geopolitics challenges traditional notions of security and international relations, emphasizing the importance of human security and social justice"
+    },
+    {
+      "id": "N11",
+      "label": "Globalized Fear",
+      "type": "concept",
+      "depth": 2,
+      "description": "The phenomenon of fear being used as a tool of geopolitics, particularly in the context of terrorism and national security",
+      "importance": 7,
+      "fun_fact": "The concept of globalized fear highlights the ways in which fear can be manipulated and exploited by governments and other actors to shape public opinion and policy"
+    },
+    {
+      "id": "N12",
+      "label": "Emotional Geopolitics",
+      "type": "concept",
+      "depth": 2,
+      "description": "The study of the emotional dimensions of geopolitics, including the role of emotions in shaping international relations and conflict",
+      "importance": 7,
+      "fun_fact": "Emotional geopolitics emphasizes the importance of empathy and emotional intelligence in international relations, highlighting the need for more nuanced and human-centered approaches to conflict resolution"
+    },
+    {
+      "id": "N13",
+      "label": "United Nations",
+      "type": "example",
+      "depth": 3,
+      "description": "An international organization dedicated to promoting peace, security, and cooperation among nations",
+      "importance": 9,
+      "fun_fact": "The United Nations has played a crucial role in shaping global governance and promoting international cooperation, particularly in the areas of human rights, development, and humanitarian aid"
+    },
+    {
+      "id": "N14",
+      "label": "South China Sea Dispute",
+      "type": "example",
+      "depth": 3,
+      "description": "A territorial dispute between multiple countries in the South China Sea, involving complex geopolitical dynamics and competing claims",
+      "importance": 8,
+      "fun_fact": "The South China Sea dispute has significant implications for global trade, security, and the balance of power in the Asia-Pacific region"
+    },
+    {
+      "id": "N15",
+      "label": "Fulbright Program",
+      "type": "example",
+      "depth": 3,
+      "description": "A cultural exchange program providing scholarships for international students to study in the United States",
+      "importance": 7,
+      "fun_fact": "The Fulbright Program has been instrumental in promoting cultural diplomacy and people-to-people exchanges between the United States and other countries"
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "International relations is a key component of geopolitics, as it examines the interactions between countries and their relationships"
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Global governance is a critical aspect of geopolitics, as it regulates global interactions and cooperation"
+    },
+    {
+      "source": "N1",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Territorial disputes are a common feature of geopolitics, as countries compete for territory, resources, and influence"
+    },
+    {
+      "source": "N1",
+      "target": "N5",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Resource management is an important aspect of geopolitics, as countries seek to secure access to natural resources and manage their use"
+    },
+    {
+      "source": "N1",
+      "target": "N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Cultural diplomacy is a key tool of geopolitics, as countries seek to promote their culture and values abroad"
+    },
+    {
+      "source": "N2",
+      "target": "N7",
+      "relation": "discovered_by",
+      "strength": 7,
+      "description": "Rudolf Kjell\u00e9n's work on geopolitics laid the foundation for the study of international relations"
+    },
+    {
+      "source": "N2",
+      "target": "N8",
+      "relation": "influenced_by",
+      "strength": 7,
+      "description": "Halford Mackinder's Heartland theory has had a significant influence on the development of geopolitics and international relations"
+    },
+    {
+      "source": "N3",
+      "target": "N9",
+      "relation": "enables",
+      "strength": 8,
+      "description": "Global governance enables the development and implementation of renewable energy policies, promoting a more sustainable and equitable energy future"
+    },
+    {
+      "source": "N4",
+      "target": "N10",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "Feminist geopolitics highlights the importance of considering gender and power dynamics in the context of territorial disputes and conflict"
+    },
+    {
+      "source": "N5",
+      "target": "N11",
+      "relation": "contrasts_with",
+      "strength": 7,
+      "description": "The concept of globalized fear contrasts with the idea of emotional geopolitics, which emphasizes the importance of empathy and emotional intelligence in international relations"
+    },
+    {
+      "source": "N6",
+      "target": "N12",
+      "relation": "enables",
+      "strength": 7,
+      "description": "Cultural diplomacy enables the development of emotional geopolitics, as it promotes people-to-people exchanges and empathy between nations"
+    },
+    {
+      "source": "N7",
+      "target": "N13",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "The United Nations has been instrumental in promoting global governance and cooperation, reflecting the principles of geopolitics developed by Rudolf Kjell\u00e9n"
+    },
+    {
+      "source": "N8",
+      "target": "N14",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "The South China Sea dispute reflects the principles of the Heartland theory, as countries compete for control of strategic territory and resources"
+    },
+    {
+      "source": "N9",
+      "target": "N15",
+      "relation": "enables",
+      "strength": 6,
+      "description": "The Fulbright Program enables cultural diplomacy and people-to-people exchanges, promoting international cooperation and understanding in the context of renewable energy and sustainability"
+    },
+    {
+      "source": "N10",
+      "target": "N1",
+      "relation": "evolved_from",
+      "strength": 8,
+      "description": "Feminist geopolitics has evolved from the broader field of geopolitics, highlighting the importance of gender and power dynamics in international relations"
+    },
+    {
+      "source": "N11",
+      "target": "N1",
+      "relation": "evolved_from",
+      "strength": 7,
+      "description": "The concept of globalized fear has evolved from the broader field of geopolitics, reflecting the changing nature of international relations and security"
+    },
+    {
+      "source": "N12",
+      "target": "N1",
+      "relation": "evolved_from",
+      "strength": 7,
+      "description": "Emotional geopolitics has evolved from the broader field of geopolitics, highlighting the importance of emotions and empathy in international relations"
+    },
+    {
+      "source": "N13",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "The United Nations is a key institution in global governance, promoting international cooperation and cooperation"
+    },
+    {
+      "source": "N14",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "The South China Sea dispute is a notable example of a territorial dispute, reflecting the complex geopolitical dynamics of the region"
+    },
+    {
+      "source": "N15",
+      "target": "N6",
+      "relation": "is_part_of",
+      "strength": 7,
+      "description": "The Fulbright Program is a notable example of cultural diplomacy, promoting people-to-people exchanges and international cooperation"
+    }
+  ],
+  "key_takeaways": [
+    "Geopolitics is the study of the effects of Earth's geography on politics and international relations",
+    "Global governance, territorial disputes, resource management, and cultural diplomacy are key components of geopolitics",
+    "The field of geopolitics has evolved to include new perspectives, such as feminist geopolitics and emotional geopolitics"
+  ],
+  "real_world_impact": "Geopolitics has significant real-world implications, shaping international relations, global governance, and conflict resolution. The study of geopolitics informs policy decisions, promotes cultural diplomacy, and highlights the importance of considering gender and power dynamics in international relations. As the world becomes increasingly interconnected, the understanding of geopolitics is crucial for navigating the complexities of global politics and promoting a more peaceful and sustainable world.",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/2024-moldova-referendum-eu-membership.svg",
+      "title": "2024-moldova-referendum-eu-membership.svg",
+      "license": "CC BY 4.0",
+      "artist": "Dashing24",
+      "description": "Results of the 2024 Moldovan referendum on the EU by first-level administrative divisions, sectors of Chi\u0219in\u0103u and abroad; https://pv.cec.md/cec-template-referendum-results.html",
+      "width": 1235,
+      "height": 1406,
+      "source_query": "Geopolitics"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Modelo_sur-norte_de_construcci%C3%B3n_geopol%C3%ADtica_de_la_Iberofon%C3%ADa.svg",
+      "title": "Modelo sur-norte de construcci\u00f3n geopol\u00edtica de la Iberofon\u00eda.svg",
+      "license": "CC0",
+      "artist": "Nagihuin",
+      "description": "Modelo sur-norte de construcci\u00f3n geopol\u00edtica de la Iberofon\u00eda, sugerido por Marcelo Gullo.",
+      "width": 1676,
+      "height": 811,
+      "source_query": "Geopolitics"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Ob_cf43ac_copy-of-spykman.jpg",
+      "title": "Ob cf43ac copy-of-spykman.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Blog - Chronique du Grand Jeu",
+      "description": "Map of world with Rimland and Heartland's theories",
+      "width": 1200,
+      "height": 717,
+      "source_query": "Geopolitics"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/PANEL-The-State-of-Open-from-Geopolitics-to-GDP-1-2048x1152.png",
+      "title": "PANEL-The-State-of-Open-from-Geopolitics-to-GDP-1-2048x1152.png",
+      "license": "CC BY-SA 4.0",
+      "artist": "Drawnalism for Open UK",
+      "description": "a capture of the salient points of a plenary session in cartoon and textual sketch-noting",
+      "width": 2048,
+      "height": 1152,
+      "source_query": "Geopolitics"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Pivot_area.png",
+      "title": "Pivot area.png",
+      "license": "CC BY-SA 3.0",
+      "artist": "",
+      "description": "",
+      "width": 715,
+      "height": 358,
+      "source_query": "Geopolitics"
+    }
+  ],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Geopolitics",
+    "papers": [
+      {
+        "title": "Renewable energy and geopolitics: A review",
+        "url": "https://doi.org/10.1016/j.rser.2019.109547"
+      },
+      {
+        "title": "Towards a feminist geopolitics",
+        "url": "https://doi.org/10.1111/j.1541-0064.2001.tb01484.x"
+      },
+      {
+        "title": "Globalized fear? Towards an emotional geopolitics",
+        "url": "https://doi.org/10.1177/0309132508104994"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 100,
+      "issues": [],
+      "node_count": 15,
+      "edge_count": 20
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Environmental Geopolitics",
+        "Economic Sanctions"
+      ],
+      "strengths": [
+        "covers key components of geopolitics",
+        "includes influential figures in the field"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 92.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

@@ -1,0 +1,169 @@
+{
+  "topic": "Geopolitics",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary focus of the field of geopolitics?",
+      "options": {
+        "A": "The study of the effects of Earth's geography on politics and international relations",
+        "B": "The study of the effects of politics on Earth's geography",
+        "C": "The study of the effects of economy on international relations",
+        "D": "The study of the effects of culture on global governance"
+      },
+      "correct": "A",
+      "explanation": "Geopolitics is the study of the effects of Earth's geography on politics and international relations, examining how geographical factors influence the interactions between countries and their relationships.",
+      "node_id": "Geopolitics",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which of the following is a key component of geopolitics?",
+      "options": {
+        "A": "Global governance, territorial disputes, resource management, and cultural diplomacy",
+        "B": "International relations, global economy, resource management, and cultural exchange",
+        "C": "Territorial disputes, resource management, cultural diplomacy, and human rights",
+        "D": "Global governance, international relations, resource management, and environmental sustainability"
+      },
+      "correct": "A",
+      "explanation": "Global governance, territorial disputes, resource management, and cultural diplomacy are key components of geopolitics, as they all play a crucial role in shaping international relations and global interactions.",
+      "node_id": "Geopolitics",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the concept of 'resource curse' in the context of geopolitics?",
+      "options": {
+        "A": "The phenomenon where countries with abundant natural resources experience poor economic development and governance",
+        "B": "The phenomenon where countries with limited natural resources experience rapid economic development and good governance",
+        "C": "The phenomenon where countries with abundant natural resources experience rapid economic development and good governance",
+        "D": "The phenomenon where countries with limited natural resources experience poor economic development and poor governance"
+      },
+      "correct": "A",
+      "explanation": "The concept of resource curse refers to the phenomenon where countries with abundant natural resources experience poor economic development and governance, often due to the negative impacts of resource extraction and the lack of diversification in their economies.",
+      "node_id": "Resource Management",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "Who is credited with coining the term 'geopolitics' in 1899?",
+      "options": {
+        "A": "Rudolf Kjell\u00e9n",
+        "B": "Halford Mackinder",
+        "C": "Carl von Clausewitz",
+        "D": "Sun Tzu"
+      },
+      "correct": "A",
+      "explanation": "Rudolf Kjell\u00e9n is credited with coining the term 'geopolitics' in 1899, and is considered one of the founders of the field of geopolitics.",
+      "node_id": "Rudolf Kjell\u00e9n",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the primary goal of cultural diplomacy in the context of geopolitics?",
+      "options": {
+        "A": "To promote international understanding and cooperation through cultural exchange and dialogue",
+        "B": "To promote national interests and security through cultural exchange and dialogue",
+        "C": "To promote economic development and trade through cultural exchange and dialogue",
+        "D": "To promote human rights and social justice through cultural exchange and dialogue"
+      },
+      "correct": "A",
+      "explanation": "The primary goal of cultural diplomacy is to promote international understanding and cooperation through cultural exchange and dialogue, which can help to build trust and foster positive relationships between countries.",
+      "node_id": "Cultural Diplomacy",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the concept of 'emotional geopolitics' in the context of international relations?",
+      "options": {
+        "A": "The study of the emotional dimensions of geopolitics, including the role of emotions in shaping international relations and conflict",
+        "B": "The study of the rational dimensions of geopolitics, including the role of reason in shaping international relations and conflict",
+        "C": "The study of the cultural dimensions of geopolitics, including the role of culture in shaping international relations and conflict",
+        "D": "The study of the economic dimensions of geopolitics, including the role of economy in shaping international relations and conflict"
+      },
+      "correct": "A",
+      "explanation": "Emotional geopolitics is the study of the emotional dimensions of geopolitics, including the role of emotions in shaping international relations and conflict, which can help to provide a more nuanced understanding of the complex dynamics at play in international relations.",
+      "node_id": "Emotional Geopolitics",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the primary function of the United Nations in the context of global governance?",
+      "options": {
+        "A": "To promote peace, security, and cooperation among nations",
+        "B": "To promote economic development and trade among nations",
+        "C": "To promote human rights and social justice among nations",
+        "D": "To promote environmental sustainability and climate change mitigation among nations"
+      },
+      "correct": "A",
+      "explanation": "The primary function of the United Nations is to promote peace, security, and cooperation among nations, which is achieved through a range of activities, including diplomacy, mediation, and peacekeeping.",
+      "node_id": "United Nations",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the concept of 'feminist geopolitics' and its significance in the context of international relations.",
+      "sample_answer": "Feminist geopolitics is the study of the intersections between gender, power, and geopolitics, highlighting the experiences and perspectives of women and marginalized groups. It challenges traditional notions of security and international relations, emphasizing the importance of human security and social justice.",
+      "keywords": [
+        "feminist geopolitics",
+        "gender",
+        "power",
+        "geopolitics",
+        "human security",
+        "social justice"
+      ],
+      "node_id": "Feminist Geopolitics",
+      "points": 20
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Analyze the role of territorial disputes in shaping international relations, using the example of the South China Sea dispute.",
+      "sample_answer": "Territorial disputes, such as the South China Sea dispute, can have significant implications for international relations, as they often involve competing claims and interests between countries. The South China Sea dispute, for example, involves multiple countries and complex geopolitical dynamics, with implications for global trade, security, and the balance of power in the Asia-Pacific region.",
+      "keywords": [
+        "territorial disputes",
+        "South China Sea dispute",
+        "international relations",
+        "geopolitics",
+        "global trade",
+        "security"
+      ],
+      "node_id": "Territorial Disputes",
+      "points": 25
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Discuss the significance of renewable energy in the context of geopolitics, including its potential to reduce dependence on fossil fuels and mitigate climate change.",
+      "sample_answer": "Renewable energy has significant implications for geopolitics, as it can reduce dependence on fossil fuels and mitigate climate change. The adoption of renewable energy can also have geopolitical implications, such as reducing the influence of fossil fuel-producing countries and promoting energy security and independence.",
+      "keywords": [
+        "renewable energy",
+        "geopolitics",
+        "fossil fuels",
+        "climate change",
+        "energy security"
+      ],
+      "node_id": "Renewable Energy",
+      "points": 20
+    }
+  ]
+}
