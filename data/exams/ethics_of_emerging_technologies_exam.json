@@ -1,0 +1,166 @@
+{
+  "topic": "Ethics of Emerging Technologies",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary goal of the field of ethics of emerging technologies?",
+      "options": {
+        "A": "To develop new technologies as quickly as possible",
+        "B": "To evaluate and address the ethical concerns surrounding emerging technologies",
+        "C": "To promote the use of emerging technologies in all areas of life",
+        "D": "To restrict the development and use of emerging technologies"
+      },
+      "correct": "B",
+      "explanation": "The field of ethics of emerging technologies aims to provide a framework for evaluating and addressing the ethical concerns surrounding emerging technologies, such as artificial intelligence, biotechnology, and robotics.",
+      "node_id": "The Ethics of Emerging Technologies",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is a key ethical consideration in the development and use of artificial intelligence?",
+      "options": {
+        "A": "The potential for AI to surpass human intelligence",
+        "B": "The need for AI systems to be transparent and accountable",
+        "C": "The potential for AI to replace human workers",
+        "D": "The need for AI systems to be able to learn from data"
+      },
+      "correct": "B",
+      "explanation": "The development and use of artificial intelligence raises ethical concerns related to bias, transparency, and accountability, and it is essential to ensure that AI systems are designed and used in ways that are fair, transparent, and accountable.",
+      "node_id": "Artificial Intelligence Ethics",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term used to describe the ethical considerations surrounding the use of biotechnology to enhance human physical and cognitive abilities?",
+      "options": {
+        "A": "Bioethics",
+        "B": "Biotechnology and Human Enhancement",
+        "C": "Human Enhancement Ethics",
+        "D": "Genetic Engineering Ethics"
+      },
+      "correct": "B",
+      "explanation": "The term 'Biotechnology and Human Enhancement' refers to the ethical considerations surrounding the use of biotechnology to enhance human physical and cognitive abilities, including issues related to inequality, identity, and human dignity.",
+      "node_id": "Biotechnology and Human Enhancement",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the term used to describe the ethical considerations surrounding new and emerging science and technology?",
+      "options": {
+        "A": "NEST-ethics",
+        "B": "Nano-ethics",
+        "C": "Bioethics",
+        "D": "Tech-ethics"
+      },
+      "correct": "A",
+      "explanation": "The term 'NEST-ethics' refers to the ethical considerations surrounding new and emerging science and technology, including issues related to uncertainty, risk, and social responsibility.",
+      "node_id": "NEST-ethics",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is a key issue related to the use of virtual reality and surveillance technologies?",
+      "options": {
+        "A": "The potential for VR to replace human interaction",
+        "B": "The need for VR systems to be secure and private",
+        "C": "The potential for surveillance technologies to infringe on individual privacy",
+        "D": "The need for VR systems to be accessible to all people"
+      },
+      "correct": "C",
+      "explanation": "The use of virtual reality and surveillance technologies raises ethical concerns related to privacy, security, and social control, and it is essential to ensure that these technologies are designed and used in ways that respect individual privacy and autonomy.",
+      "node_id": "Virtual Reality and Surveillance",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term used to describe the international frameworks and regulations surrounding the development and use of emerging technologies?",
+      "options": {
+        "A": "Global Governance of Emerging Technologies",
+        "B": "International Ethics of Emerging Technologies",
+        "C": "Emerging Technologies Regulation",
+        "D": "Tech Governance"
+      },
+      "correct": "A",
+      "explanation": "The term 'Global Governance of Emerging Technologies' refers to the international frameworks and regulations surrounding the development and use of emerging technologies, including issues related to cooperation, standards, and enforcement.",
+      "node_id": "Global Governance of Emerging Technologies",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is a key ethical consideration in the development and use of robotics and autonomous systems?",
+      "options": {
+        "A": "The potential for robots to replace human workers",
+        "B": "The need for robots to be safe and reliable",
+        "C": "The potential for autonomous systems to make decisions that are not in the best interest of humans",
+        "D": "The need for robots to be able to learn from data"
+      },
+      "correct": "B",
+      "explanation": "The development and use of robotics and autonomous systems raises ethical concerns related to safety, accountability, and job displacement, and it is essential to ensure that these systems are designed and used in ways that prioritize human safety and well-being.",
+      "node_id": "Robotics and Autonomous Systems",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What are some of the key ethical considerations surrounding the use of nanotechnology, and how can they be addressed?",
+      "sample_answer": "The use of nanotechnology raises ethical concerns related to safety, environmental impact, and social responsibility. To address these concerns, it is essential to develop and implement regulations and guidelines that prioritize human safety and environmental protection, and to ensure that the development and use of nanotechnology is transparent and accountable.",
+      "keywords": [
+        "nanotechnology",
+        "safety",
+        "environmental impact",
+        "social responsibility"
+      ],
+      "node_id": "Nano-ethics",
+      "points": 20
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "How can global governance frameworks and regulations be used to ensure that the development and use of emerging technologies is safe, responsible, and beneficial to society?",
+      "sample_answer": "Global governance frameworks and regulations can be used to ensure that the development and use of emerging technologies is safe, responsible, and beneficial to society by establishing standards and guidelines for the development and use of these technologies, and by providing a framework for international cooperation and coordination. This can include the development of international agreements and treaties, as well as the establishment of regulatory bodies and agencies that can oversee the development and use of emerging technologies.",
+      "keywords": [
+        "global governance",
+        "regulations",
+        "emerging technologies",
+        "safety",
+        "responsibility"
+      ],
+      "node_id": "Global Governance of Emerging Technologies",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What are some of the potential benefits and risks of using artificial intelligence in decision-making, and how can these be balanced?",
+      "sample_answer": "The use of artificial intelligence in decision-making can have a number of potential benefits, including increased efficiency and accuracy. However, it also raises a number of potential risks, including the potential for bias and lack of transparency. To balance these benefits and risks, it is essential to develop and implement AI systems that are transparent, accountable, and fair, and to ensure that the development and use of AI is subject to robust regulation and oversight.",
+      "keywords": [
+        "artificial intelligence",
+        "decision-making",
+        "benefits",
+        "risks",
+        "balance"
+      ],
+      "node_id": "Artificial Intelligence Ethics",
+      "points": 20
+    }
+  ]
+}

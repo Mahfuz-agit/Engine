@@ -1,0 +1,356 @@
+{
+  "topic": "Ethics of Emerging Technologies",
+  "category": "philosophy",
+  "description": "The ethics of emerging technologies encompasses the moral principles and values that guide the development and use of new technologies, including artificial intelligence, biotechnology, robotics, and virtual reality. As these technologies continue to evolve and become increasingly integrated into our lives, it is essential to consider their potential impact on society and individuals. The field of ethics of emerging technologies seeks to provide a framework for evaluating and addressing the ethical concerns surrounding these technologies.",
+  "nodes": [
+    {
+      "id": "node1",
+      "label": "Artificial Intelligence Ethics",
+      "type": "core",
+      "depth": 0,
+      "description": "The ethical considerations surrounding the development and use of artificial intelligence, including issues related to bias, transparency, and accountability.",
+      "importance": 9,
+      "fun_fact": "The term 'artificial intelligence' was coined in 1956 by John McCarthy, a computer scientist and cognitive scientist."
+    },
+    {
+      "id": "node2",
+      "label": "Biotechnology and Human Enhancement",
+      "type": "core",
+      "depth": 0,
+      "description": "The ethical considerations surrounding the use of biotechnology to enhance human physical and cognitive abilities, including issues related to inequality, identity, and human dignity.",
+      "importance": 9,
+      "fun_fact": "The first genetically engineered organism was created in 1973 by Herbert Boyer and Stanley Cohen."
+    },
+    {
+      "id": "node3",
+      "label": "Robotics and Autonomous Systems",
+      "type": "core",
+      "depth": 0,
+      "description": "The ethical considerations surrounding the development and use of robotics and autonomous systems, including issues related to safety, accountability, and job displacement.",
+      "importance": 9,
+      "fun_fact": "The first industrial robot, the Unimate, was introduced in 1961."
+    },
+    {
+      "id": "node4",
+      "label": "Virtual Reality and Surveillance",
+      "type": "core",
+      "depth": 0,
+      "description": "The ethical considerations surrounding the use of virtual reality and surveillance technologies, including issues related to privacy, security, and social control.",
+      "importance": 9,
+      "fun_fact": "The first virtual reality headset was developed in 1968 by Ivan Sutherland."
+    },
+    {
+      "id": "node5",
+      "label": "Global Governance of Emerging Technologies",
+      "type": "core",
+      "depth": 0,
+      "description": "The international frameworks and regulations surrounding the development and use of emerging technologies, including issues related to cooperation, standards, and enforcement.",
+      "importance": 9,
+      "fun_fact": "The United Nations has established a number of initiatives and agreements related to the governance of emerging technologies, including the UN Convention on Certain Conventional Weapons."
+    },
+    {
+      "id": "node6",
+      "label": "ChatGPT",
+      "type": "example",
+      "depth": 1,
+      "description": "A generative conversational AI system that has raised ethical concerns related to bias, transparency, and accountability.",
+      "importance": 6,
+      "fun_fact": "ChatGPT was developed by OpenAI and released in 2022."
+    },
+    {
+      "id": "node7",
+      "label": "Nano-ethics",
+      "type": "concept",
+      "depth": 1,
+      "description": "The ethical considerations surrounding the development and use of nanotechnology, including issues related to safety, environmental impact, and social responsibility.",
+      "importance": 7,
+      "fun_fact": "The term 'nano-ethics' was coined in the early 2000s to describe the ethical considerations surrounding nanotechnology."
+    },
+    {
+      "id": "node8",
+      "label": "NEST-ethics",
+      "type": "concept",
+      "depth": 1,
+      "description": "The ethical considerations surrounding new and emerging science and technology, including issues related to uncertainty, risk, and social responsibility.",
+      "importance": 7,
+      "fun_fact": "The term 'NEST-ethics' was coined in the 2010s to describe the ethical considerations surrounding new and emerging science and technology."
+    },
+    {
+      "id": "node9",
+      "label": "John McCarthy",
+      "type": "person",
+      "depth": 2,
+      "description": "An American computer scientist and cognitive scientist who coined the term 'artificial intelligence' in 1956.",
+      "importance": 5,
+      "fun_fact": "John McCarthy was a key figure in the development of artificial intelligence and made significant contributions to the field."
+    },
+    {
+      "id": "node10",
+      "label": "Herbert Boyer",
+      "type": "person",
+      "depth": 2,
+      "description": "An American biochemist and entrepreneur who created the first genetically engineered organism in 1973.",
+      "importance": 5,
+      "fun_fact": "Herbert Boyer was a pioneer in the field of biotechnology and founded the company Genentech in 1976."
+    },
+    {
+      "id": "node11",
+      "label": "Ivan Sutherland",
+      "type": "person",
+      "depth": 2,
+      "description": "An American computer scientist and engineer who developed the first virtual reality headset in 1968.",
+      "importance": 5,
+      "fun_fact": "Ivan Sutherland is considered one of the founders of virtual reality and made significant contributions to the field of computer graphics."
+    },
+    {
+      "id": "node12",
+      "label": "UN Convention on Certain Conventional Weapons",
+      "type": "event",
+      "depth": 2,
+      "description": "An international agreement that regulates the use of certain conventional weapons, including those that use emerging technologies.",
+      "importance": 6,
+      "fun_fact": "The UN Convention on Certain Conventional Weapons was adopted in 1980 and has been ratified by over 120 countries."
+    },
+    {
+      "id": "node13",
+      "label": "OpenAI",
+      "type": "example",
+      "depth": 2,
+      "description": "A company that developed the ChatGPT conversational AI system and has raised ethical concerns related to bias and transparency.",
+      "importance": 6,
+      "fun_fact": "OpenAI was founded in 2015 and has received significant funding from investors including Microsoft and Reid Hoffman."
+    },
+    {
+      "id": "node14",
+      "label": "Genentech",
+      "type": "example",
+      "depth": 2,
+      "description": "A company that was founded by Herbert Boyer and has developed a number of biotechnology products, including genetically engineered organisms.",
+      "importance": 6,
+      "fun_fact": "Genentech was founded in 1976 and was acquired by Roche in 2009."
+    },
+    {
+      "id": "node15",
+      "label": "The Ethics of Emerging Technologies",
+      "type": "formula",
+      "depth": 3,
+      "description": "A framework for evaluating the ethical considerations surrounding emerging technologies, including issues related to uncertainty, risk, and social responsibility.",
+      "importance": 8,
+      "fun_fact": "The ethics of emerging technologies is a rapidly evolving field that draws on insights from philosophy, sociology, and science and technology studies."
+    }
+  ],
+  "edges": [
+    {
+      "source": "node1",
+      "target": "node6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "ChatGPT is an example of an artificial intelligence system that raises ethical concerns related to bias, transparency, and accountability."
+    },
+    {
+      "source": "node2",
+      "target": "node10",
+      "relation": "discovered_by",
+      "strength": 7,
+      "description": "Herbert Boyer was a key figure in the development of biotechnology and created the first genetically engineered organism in 1973."
+    },
+    {
+      "source": "node3",
+      "target": "node11",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "Ivan Sutherland's virtual reality headset was an early example of the use of robotics and autonomous systems in emerging technologies."
+    },
+    {
+      "source": "node4",
+      "target": "node12",
+      "relation": "regulated_by",
+      "strength": 8,
+      "description": "The UN Convention on Certain Conventional Weapons regulates the use of certain conventional weapons, including those that use emerging technologies such as virtual reality and surveillance."
+    },
+    {
+      "source": "node5",
+      "target": "node13",
+      "relation": "enables",
+      "strength": 7,
+      "description": "The development of global governance frameworks for emerging technologies enables companies like OpenAI to develop and deploy new technologies like ChatGPT."
+    },
+    {
+      "source": "node6",
+      "target": "node14",
+      "relation": "related_to",
+      "strength": 6,
+      "description": "Genentech is a company that has developed a number of biotechnology products, including genetically engineered organisms, which raises similar ethical concerns to those related to ChatGPT."
+    },
+    {
+      "source": "node7",
+      "target": "node8",
+      "relation": "is_type_of",
+      "strength": 8,
+      "description": "Nano-ethics is a type of NEST-ethics, which considers the ethical implications of new and emerging science and technology."
+    },
+    {
+      "source": "node8",
+      "target": "node15",
+      "relation": "depends_on",
+      "strength": 9,
+      "description": "The ethics of emerging technologies depends on the consideration of NEST-ethics, which provides a framework for evaluating the ethical implications of new and emerging science and technology."
+    },
+    {
+      "source": "node9",
+      "target": "node1",
+      "relation": "discovered_by",
+      "strength": 8,
+      "description": "John McCarthy was a key figure in the development of artificial intelligence and coined the term 'artificial intelligence' in 1956."
+    },
+    {
+      "source": "node10",
+      "target": "node2",
+      "relation": "discovered_by",
+      "strength": 8,
+      "description": "Herbert Boyer was a key figure in the development of biotechnology and created the first genetically engineered organism in 1973."
+    },
+    {
+      "source": "node11",
+      "target": "node3",
+      "relation": "used_in",
+      "strength": 7,
+      "description": "Ivan Sutherland's virtual reality headset was an early example of the use of robotics and autonomous systems in emerging technologies."
+    },
+    {
+      "source": "node12",
+      "target": "node5",
+      "relation": "regulated_by",
+      "strength": 8,
+      "description": "The UN Convention on Certain Conventional Weapons regulates the use of certain conventional weapons, including those that use emerging technologies such as virtual reality and surveillance."
+    },
+    {
+      "source": "node13",
+      "target": "node6",
+      "relation": "developed_by",
+      "strength": 9,
+      "description": "OpenAI developed the ChatGPT conversational AI system, which raises ethical concerns related to bias, transparency, and accountability."
+    },
+    {
+      "source": "node14",
+      "target": "node10",
+      "relation": "founded_by",
+      "strength": 8,
+      "description": "Herbert Boyer founded Genentech, a company that has developed a number of biotechnology products, including genetically engineered organisms."
+    },
+    {
+      "source": "node15",
+      "target": "node8",
+      "relation": "depends_on",
+      "strength": 9,
+      "description": "The ethics of emerging technologies depends on the consideration of NEST-ethics, which provides a framework for evaluating the ethical implications of new and emerging science and technology."
+    }
+  ],
+  "key_takeaways": [
+    "The ethics of emerging technologies is a rapidly evolving field that draws on insights from philosophy, sociology, and science and technology studies.",
+    "The development and use of emerging technologies raises a range of ethical concerns, including issues related to bias, transparency, accountability, and social responsibility.",
+    "Global governance frameworks and regulations are necessary to ensure that the development and use of emerging technologies is safe, responsible, and beneficial to society."
+  ],
+  "real_world_impact": "The ethics of emerging technologies has significant real-world implications, from the development of autonomous weapons systems to the use of biotechnology to enhance human physical and cognitive abilities. As these technologies continue to evolve and become increasingly integrated into our lives, it is essential to consider their potential impact on society and individuals, and to develop frameworks and regulations that ensure their safe and responsible use. The ethics of emerging technologies is a critical area of study and research, and one that will continue to shape the future of our world.",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/CTF_66_Conducts_Autonomous_Systems_Demonstration_During_Obangame_Express_2026_%289640619%29.jpg",
+      "title": "CTF 66 Conducts Autonomous Systems Demonstration During Obangame Express 2026 (9640619).jpg",
+      "license": "Public domain",
+      "artist": "U.S. Navy 22NCR by Chief Petty Officer Justin Stumberg",
+      "description": "Global Autonomous Reconnaissance Crafts (GARC) and Lightfish, unmanned surface vessels, deploy in formation during a live robotic and autonomous systems (RAS) demonstration with Commander, Task Force (CTF) 66 during Exercise Obangame Express 2026 in Douala, Cameroon, April 25, 2026. Obangame Express",
+      "width": 5805,
+      "height": 3870,
+      "source_query": "Robotics and Autonomous Systems"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/CTF_66_Conducts_Autonomous_Systems_Demonstration_During_Obangame_Express_2026_%289640622%29.jpg",
+      "title": "CTF 66 Conducts Autonomous Systems Demonstration During Obangame Express 2026 (9640622).jpg",
+      "license": "Public domain",
+      "artist": "U.S. Navy 22NCR by Chief Petty Officer Justin Stumberg",
+      "description": "Global Autonomous Reconnaissance Crafts (GARC) and Lightfish, unmanned surface vessels, deploy in formation during a live robotic and autonomous systems (RAS) demonstration with Commander, Task Force (CTF) 66 during Exercise Obangame Express 2026 in Douala, Cameroon, April 25, 2026. Obangame Express",
+      "width": 5992,
+      "height": 3994,
+      "source_query": "Robotics and Autonomous Systems"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/CTF_66_Conducts_Autonomous_Systems_Demonstration_During_Obangame_Express_2026_%289640625%29.jpg",
+      "title": "CTF 66 Conducts Autonomous Systems Demonstration During Obangame Express 2026 (9640625).jpg",
+      "license": "Public domain",
+      "artist": "U.S. Navy 22NCR by Chief Petty Officer Justin Stumberg",
+      "description": "Global Autonomous Reconnaissance Crafts (GARC) deploy in formation with the Brazilian Amazonas-class offshore patrol vessel Araguari (P122) during a live robotic and autonomous systems (RAS) demonstration with Commander, Task Force (CTF) 66 during Exercise Obangame Express 2026 in Douala, Cameroon, ",
+      "width": 5524,
+      "height": 3682,
+      "source_query": "Robotics and Autonomous Systems"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/CTF_66_Conducts_Autonomous_Systems_Demonstration_During_Obangame_Express_2026_%289640627%29.jpg",
+      "title": "CTF 66 Conducts Autonomous Systems Demonstration During Obangame Express 2026 (9640627).jpg",
+      "license": "Public domain",
+      "artist": "U.S. Navy 22NCR by Chief Petty Officer Justin Stumberg",
+      "description": "Global Autonomous Reconnaissance Crafts (GARC) deploy in formation with the Brazilian Amazonas-class offshore patrol vessel Araguari (P122) during a live robotic and autonomous systems (RAS) demonstration with Commander, Task Force (CTF) 66 during Exercise Obangame Express 2026 in Douala, Cameroon, ",
+      "width": 5695,
+      "height": 3796,
+      "source_query": "Robotics and Autonomous Systems"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/CTF_66_Conducts_Autonomous_Systems_Demonstration_During_Obangame_Express_2026_%289640635%29.jpg",
+      "title": "CTF 66 Conducts Autonomous Systems Demonstration During Obangame Express 2026 (9640635).jpg",
+      "license": "Public domain",
+      "artist": "U.S. Navy 22NCR by Chief Petty Officer Justin Stumberg",
+      "description": "Global Autonomous Reconnaissance Crafts (GARC) deploy in formation with the Brazilian Amazonas-class offshore patrol vessel Araguari (P122) during a live robotic and autonomous systems (RAS) demonstration with Commander, Task Force (CTF) 66 during Exercise Obangame Express 2026 in Douala, Cameroon, ",
+      "width": 6000,
+      "height": 4000,
+      "source_query": "Robotics and Autonomous Systems"
+    }
+  ],
+  "sources": {
+    "wikipedia_url": "",
+    "papers": [
+      {
+        "title": "The ethics of ChatGPT \u2013 Exploring the ethical issues of an emerging technology",
+        "url": "https://doi.org/10.1016/j.ijinfomgt.2023.102700"
+      },
+      {
+        "title": "Assessing Expectations: Towards a Toolbox for an Ethics of Emerging Technologies",
+        "url": "https://doi.org/10.1007/s11569-011-0119-x"
+      },
+      {
+        "title": "Nano-ethics as NEST-ethics: Patterns of Moral Argumentation About New and Emerging Science and Technology",
+        "url": "https://doi.org/10.1007/s11569-007-0005-8"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 15"
+      ],
+      "node_count": 15,
+      "edge_count": 15
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Environmental Impact of Emerging Technologies",
+        "Digital Divide and Accessibility"
+      ],
+      "strengths": [
+        "Comprehensive coverage of core concepts",
+        "Strong connections between nodes"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

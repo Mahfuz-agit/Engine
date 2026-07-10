@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 50,
-  "total_nodes": 749,
-  "total_edges": 917,
+  "total_topics": 51,
+  "total_nodes": 764,
+  "total_edges": 932,
   "topics": [
     {
       "topic": "Climate Change",
@@ -453,6 +453,15 @@
       "edge_count": 20,
       "description": "Geopolitics is the study of the effects of Earth's geography on politics and international relations, examining how geographical factors influence the interactions between countries and their relationships. It encompasses various subfields, including international relations, global governance, territorial disputes, resource management, and cultural diplomacy. By understanding these dynamics, scholars and policymakers can better navigate the complexities of global politics and develop strategies for cooperation and conflict resolution.",
       "added_at": "2026-07-09T23:54:15.689859"
+    },
+    {
+      "topic": "Ethics of Emerging Technologies",
+      "slug": "ethics_of_emerging_technologies",
+      "category": "philosophy",
+      "node_count": 15,
+      "edge_count": 15,
+      "description": "The ethics of emerging technologies encompasses the moral principles and values that guide the development and use of new technologies, including artificial intelligence, biotechnology, robotics, and virtual reality. As these technologies continue to evolve and become increasingly integrated into our lives, it is essential to consider their potential impact on society and individuals. The field of ethics of emerging technologies seeks to provide a framework for evaluating and addressing the ethical concerns surrounding these technologies.",
+      "added_at": "2026-07-10T11:23:24.021515"
     }
   ],
   "global_nodes": [
@@ -8694,6 +8703,171 @@
       "fun_fact": "The Fulbright Program has been instrumental in promoting cultural diplomacy and people-to-people exchanges between the United States and other countries",
       "topic_slug": "geopolitics",
       "topic": "Geopolitics"
+    },
+    {
+      "id": "ethics_of_emerging_technologies__node1",
+      "label": "Artificial Intelligence Ethics",
+      "type": "core",
+      "depth": 0,
+      "description": "The ethical considerations surrounding the development and use of artificial intelligence, including issues related to bias, transparency, and accountability.",
+      "importance": 9,
+      "fun_fact": "The term 'artificial intelligence' was coined in 1956 by John McCarthy, a computer scientist and cognitive scientist.",
+      "topic_slug": "ethics_of_emerging_technologies",
+      "topic": "Ethics of Emerging Technologies"
+    },
+    {
+      "id": "ethics_of_emerging_technologies__node2",
+      "label": "Biotechnology and Human Enhancement",
+      "type": "core",
+      "depth": 0,
+      "description": "The ethical considerations surrounding the use of biotechnology to enhance human physical and cognitive abilities, including issues related to inequality, identity, and human dignity.",
+      "importance": 9,
+      "fun_fact": "The first genetically engineered organism was created in 1973 by Herbert Boyer and Stanley Cohen.",
+      "topic_slug": "ethics_of_emerging_technologies",
+      "topic": "Ethics of Emerging Technologies"
+    },
+    {
+      "id": "ethics_of_emerging_technologies__node3",
+      "label": "Robotics and Autonomous Systems",
+      "type": "core",
+      "depth": 0,
+      "description": "The ethical considerations surrounding the development and use of robotics and autonomous systems, including issues related to safety, accountability, and job displacement.",
+      "importance": 9,
+      "fun_fact": "The first industrial robot, the Unimate, was introduced in 1961.",
+      "topic_slug": "ethics_of_emerging_technologies",
+      "topic": "Ethics of Emerging Technologies"
+    },
+    {
+      "id": "ethics_of_emerging_technologies__node4",
+      "label": "Virtual Reality and Surveillance",
+      "type": "core",
+      "depth": 0,
+      "description": "The ethical considerations surrounding the use of virtual reality and surveillance technologies, including issues related to privacy, security, and social control.",
+      "importance": 9,
+      "fun_fact": "The first virtual reality headset was developed in 1968 by Ivan Sutherland.",
+      "topic_slug": "ethics_of_emerging_technologies",
+      "topic": "Ethics of Emerging Technologies"
+    },
+    {
+      "id": "ethics_of_emerging_technologies__node5",
+      "label": "Global Governance of Emerging Technologies",
+      "type": "core",
+      "depth": 0,
+      "description": "The international frameworks and regulations surrounding the development and use of emerging technologies, including issues related to cooperation, standards, and enforcement.",
+      "importance": 9,
+      "fun_fact": "The United Nations has established a number of initiatives and agreements related to the governance of emerging technologies, including the UN Convention on Certain Conventional Weapons.",
+      "topic_slug": "ethics_of_emerging_technologies",
+      "topic": "Ethics of Emerging Technologies"
+    },
+    {
+      "id": "ethics_of_emerging_technologies__node6",
+      "label": "ChatGPT",
+      "type": "example",
+      "depth": 1,
+      "description": "A generative conversational AI system that has raised ethical concerns related to bias, transparency, and accountability.",
+      "importance": 6,
+      "fun_fact": "ChatGPT was developed by OpenAI and released in 2022.",
+      "topic_slug": "ethics_of_emerging_technologies",
+      "topic": "Ethics of Emerging Technologies"
+    },
+    {
+      "id": "ethics_of_emerging_technologies__node7",
+      "label": "Nano-ethics",
+      "type": "concept",
+      "depth": 1,
+      "description": "The ethical considerations surrounding the development and use of nanotechnology, including issues related to safety, environmental impact, and social responsibility.",
+      "importance": 7,
+      "fun_fact": "The term 'nano-ethics' was coined in the early 2000s to describe the ethical considerations surrounding nanotechnology.",
+      "topic_slug": "ethics_of_emerging_technologies",
+      "topic": "Ethics of Emerging Technologies"
+    },
+    {
+      "id": "ethics_of_emerging_technologies__node8",
+      "label": "NEST-ethics",
+      "type": "concept",
+      "depth": 1,
+      "description": "The ethical considerations surrounding new and emerging science and technology, including issues related to uncertainty, risk, and social responsibility.",
+      "importance": 7,
+      "fun_fact": "The term 'NEST-ethics' was coined in the 2010s to describe the ethical considerations surrounding new and emerging science and technology.",
+      "topic_slug": "ethics_of_emerging_technologies",
+      "topic": "Ethics of Emerging Technologies"
+    },
+    {
+      "id": "ethics_of_emerging_technologies__node9",
+      "label": "John McCarthy",
+      "type": "person",
+      "depth": 2,
+      "description": "An American computer scientist and cognitive scientist who coined the term 'artificial intelligence' in 1956.",
+      "importance": 5,
+      "fun_fact": "John McCarthy was a key figure in the development of artificial intelligence and made significant contributions to the field.",
+      "topic_slug": "ethics_of_emerging_technologies",
+      "topic": "Ethics of Emerging Technologies"
+    },
+    {
+      "id": "ethics_of_emerging_technologies__node10",
+      "label": "Herbert Boyer",
+      "type": "person",
+      "depth": 2,
+      "description": "An American biochemist and entrepreneur who created the first genetically engineered organism in 1973.",
+      "importance": 5,
+      "fun_fact": "Herbert Boyer was a pioneer in the field of biotechnology and founded the company Genentech in 1976.",
+      "topic_slug": "ethics_of_emerging_technologies",
+      "topic": "Ethics of Emerging Technologies"
+    },
+    {
+      "id": "ethics_of_emerging_technologies__node11",
+      "label": "Ivan Sutherland",
+      "type": "person",
+      "depth": 2,
+      "description": "An American computer scientist and engineer who developed the first virtual reality headset in 1968.",
+      "importance": 5,
+      "fun_fact": "Ivan Sutherland is considered one of the founders of virtual reality and made significant contributions to the field of computer graphics.",
+      "topic_slug": "ethics_of_emerging_technologies",
+      "topic": "Ethics of Emerging Technologies"
+    },
+    {
+      "id": "ethics_of_emerging_technologies__node12",
+      "label": "UN Convention on Certain Conventional Weapons",
+      "type": "event",
+      "depth": 2,
+      "description": "An international agreement that regulates the use of certain conventional weapons, including those that use emerging technologies.",
+      "importance": 6,
+      "fun_fact": "The UN Convention on Certain Conventional Weapons was adopted in 1980 and has been ratified by over 120 countries.",
+      "topic_slug": "ethics_of_emerging_technologies",
+      "topic": "Ethics of Emerging Technologies"
+    },
+    {
+      "id": "ethics_of_emerging_technologies__node13",
+      "label": "OpenAI",
+      "type": "example",
+      "depth": 2,
+      "description": "A company that developed the ChatGPT conversational AI system and has raised ethical concerns related to bias and transparency.",
+      "importance": 6,
+      "fun_fact": "OpenAI was founded in 2015 and has received significant funding from investors including Microsoft and Reid Hoffman.",
+      "topic_slug": "ethics_of_emerging_technologies",
+      "topic": "Ethics of Emerging Technologies"
+    },
+    {
+      "id": "ethics_of_emerging_technologies__node14",
+      "label": "Genentech",
+      "type": "example",
+      "depth": 2,
+      "description": "A company that was founded by Herbert Boyer and has developed a number of biotechnology products, including genetically engineered organisms.",
+      "importance": 6,
+      "fun_fact": "Genentech was founded in 1976 and was acquired by Roche in 2009.",
+      "topic_slug": "ethics_of_emerging_technologies",
+      "topic": "Ethics of Emerging Technologies"
+    },
+    {
+      "id": "ethics_of_emerging_technologies__node15",
+      "label": "The Ethics of Emerging Technologies",
+      "type": "formula",
+      "depth": 3,
+      "description": "A framework for evaluating the ethical considerations surrounding emerging technologies, including issues related to uncertainty, risk, and social responsibility.",
+      "importance": 8,
+      "fun_fact": "The ethics of emerging technologies is a rapidly evolving field that draws on insights from philosophy, sociology, and science and technology studies.",
+      "topic_slug": "ethics_of_emerging_technologies",
+      "topic": "Ethics of Emerging Technologies"
     }
   ],
   "global_edges": [
@@ -15115,6 +15289,111 @@
       "relation": "is_part_of",
       "strength": 7,
       "topic": "Geopolitics"
+    },
+    {
+      "source": "ethics_of_emerging_technologies__node1",
+      "target": "ethics_of_emerging_technologies__node6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Ethics of Emerging Technologies"
+    },
+    {
+      "source": "ethics_of_emerging_technologies__node2",
+      "target": "ethics_of_emerging_technologies__node10",
+      "relation": "discovered_by",
+      "strength": 7,
+      "topic": "Ethics of Emerging Technologies"
+    },
+    {
+      "source": "ethics_of_emerging_technologies__node3",
+      "target": "ethics_of_emerging_technologies__node11",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Ethics of Emerging Technologies"
+    },
+    {
+      "source": "ethics_of_emerging_technologies__node4",
+      "target": "ethics_of_emerging_technologies__node12",
+      "relation": "regulated_by",
+      "strength": 8,
+      "topic": "Ethics of Emerging Technologies"
+    },
+    {
+      "source": "ethics_of_emerging_technologies__node5",
+      "target": "ethics_of_emerging_technologies__node13",
+      "relation": "enables",
+      "strength": 7,
+      "topic": "Ethics of Emerging Technologies"
+    },
+    {
+      "source": "ethics_of_emerging_technologies__node6",
+      "target": "ethics_of_emerging_technologies__node14",
+      "relation": "related_to",
+      "strength": 6,
+      "topic": "Ethics of Emerging Technologies"
+    },
+    {
+      "source": "ethics_of_emerging_technologies__node7",
+      "target": "ethics_of_emerging_technologies__node8",
+      "relation": "is_type_of",
+      "strength": 8,
+      "topic": "Ethics of Emerging Technologies"
+    },
+    {
+      "source": "ethics_of_emerging_technologies__node8",
+      "target": "ethics_of_emerging_technologies__node15",
+      "relation": "depends_on",
+      "strength": 9,
+      "topic": "Ethics of Emerging Technologies"
+    },
+    {
+      "source": "ethics_of_emerging_technologies__node9",
+      "target": "ethics_of_emerging_technologies__node1",
+      "relation": "discovered_by",
+      "strength": 8,
+      "topic": "Ethics of Emerging Technologies"
+    },
+    {
+      "source": "ethics_of_emerging_technologies__node10",
+      "target": "ethics_of_emerging_technologies__node2",
+      "relation": "discovered_by",
+      "strength": 8,
+      "topic": "Ethics of Emerging Technologies"
+    },
+    {
+      "source": "ethics_of_emerging_technologies__node11",
+      "target": "ethics_of_emerging_technologies__node3",
+      "relation": "used_in",
+      "strength": 7,
+      "topic": "Ethics of Emerging Technologies"
+    },
+    {
+      "source": "ethics_of_emerging_technologies__node12",
+      "target": "ethics_of_emerging_technologies__node5",
+      "relation": "regulated_by",
+      "strength": 8,
+      "topic": "Ethics of Emerging Technologies"
+    },
+    {
+      "source": "ethics_of_emerging_technologies__node13",
+      "target": "ethics_of_emerging_technologies__node6",
+      "relation": "developed_by",
+      "strength": 9,
+      "topic": "Ethics of Emerging Technologies"
+    },
+    {
+      "source": "ethics_of_emerging_technologies__node14",
+      "target": "ethics_of_emerging_technologies__node10",
+      "relation": "founded_by",
+      "strength": 8,
+      "topic": "Ethics of Emerging Technologies"
+    },
+    {
+      "source": "ethics_of_emerging_technologies__node15",
+      "target": "ethics_of_emerging_technologies__node8",
+      "relation": "depends_on",
+      "strength": 9,
+      "topic": "Ethics of Emerging Technologies"
     }
   ],
   "cross_topic_edges": [
@@ -15521,7 +15800,10 @@
     ],
     "political_science": [
       "geopolitics"
+    ],
+    "philosophy": [
+      "ethics_of_emerging_technologies"
     ]
   },
-  "last_updated": "2026-07-09T23:54:15.689903"
+  "last_updated": "2026-07-10T11:23:24.021548"
 }
