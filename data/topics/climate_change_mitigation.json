@@ -1,0 +1,377 @@
+{
+  "topic": "Climate Change Mitigation",
+  "category": "environmental_science",
+  "description": "Climate change mitigation refers to the actions taken to reduce the amount of greenhouse gases in the atmosphere, thereby limiting the impact of climate change. This can be achieved through various methods, including the use of renewable energy sources, carbon capture and storage, and sustainable land use. The goal of climate change mitigation is to limit global warming to 1.5\u00b0C above pre-industrial levels.",
+  "nodes": [
+    {
+      "id": "CCM",
+      "label": "Climate Change Mitigation",
+      "type": "core",
+      "depth": 0,
+      "description": "The actions taken to reduce the amount of greenhouse gases in the atmosphere, thereby limiting the impact of climate change.",
+      "importance": 10,
+      "fun_fact": "The concept of climate change mitigation has been around since the 1980s, but it gained significant attention in the 2000s with the release of the IPCC report."
+    },
+    {
+      "id": "RES",
+      "label": "Renewable Energy Sources",
+      "type": "concept",
+      "depth": 1,
+      "description": "Energy sources that are replenished naturally, such as solar, wind, and hydro power.",
+      "importance": 9,
+      "fun_fact": "The first solar panel was invented in 1883 by Charles Fritts, but it wasn't until the 1950s that solar panels became commercially available."
+    },
+    {
+      "id": "CCS",
+      "label": "Carbon Capture and Storage",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process of capturing carbon dioxide emissions from power plants and industrial processes, and storing them underground.",
+      "importance": 8,
+      "fun_fact": "The first commercial carbon capture and storage project was launched in 1996 in Norway."
+    },
+    {
+      "id": "SLU",
+      "label": "Sustainable Land Use",
+      "type": "concept",
+      "depth": 1,
+      "description": "The practice of using land in a way that minimizes its environmental impact, such as through reforestation and sustainable agriculture.",
+      "importance": 8,
+      "fun_fact": "The concept of sustainable land use has been around since the 1970s, but it gained significant attention in the 2000s with the release of the IPCC report."
+    },
+    {
+      "id": "CPG",
+      "label": "Climate Policy and Governance",
+      "type": "concept",
+      "depth": 1,
+      "description": "The laws, regulations, and institutions that govern climate change mitigation efforts.",
+      "importance": 9,
+      "fun_fact": "The first international climate agreement was the United Nations Framework Convention on Climate Change, signed in 1992."
+    },
+    {
+      "id": "EBA",
+      "label": "Ecosystem-Based Adaptation",
+      "type": "concept",
+      "depth": 1,
+      "description": "The practice of using natural ecosystems to adapt to climate change, such as through the restoration of wetlands and coral reefs.",
+      "importance": 8,
+      "fun_fact": "The concept of ecosystem-based adaptation has been around since the 2000s, but it gained significant attention in the 2010s with the release of the IPCC report."
+    },
+    {
+      "id": "IPCC",
+      "label": "Intergovernmental Panel on Climate Change",
+      "type": "organization",
+      "depth": 2,
+      "description": "An international organization that provides scientific advice on climate change to governments around the world.",
+      "importance": 9,
+      "fun_fact": "The IPCC was established in 1988 by the United Nations Environment Programme and the World Meteorological Organization."
+    },
+    {
+      "id": "SRREN",
+      "label": "Special Report on Renewable Energy Sources and Climate Change Mitigation",
+      "type": "report",
+      "depth": 2,
+      "description": "A report published by the IPCC in 2011 that assesses the potential role of renewable energy in climate change mitigation.",
+      "importance": 8,
+      "fun_fact": "The SRREN report was the first comprehensive assessment of the potential of renewable energy to mitigate climate change."
+    },
+    {
+      "id": "OEdenhofer",
+      "label": "Ottmar Edenhofer",
+      "type": "person",
+      "depth": 2,
+      "description": "A German economist and climate scientist who was the co-chair of the IPCC Working Group III from 2008 to 2015.",
+      "importance": 7,
+      "fun_fact": "Ottmar Edenhofer was a key author of the SRREN report and has been a leading voice on climate change mitigation policy."
+    },
+    {
+      "id": "Solar_Power",
+      "label": "Solar Power",
+      "type": "example",
+      "depth": 3,
+      "description": "A type of renewable energy that uses sunlight to generate electricity.",
+      "importance": 6,
+      "fun_fact": "The first solar-powered satellite was launched in 1962 by the United States."
+    },
+    {
+      "id": "Wind_Power",
+      "label": "Wind Power",
+      "type": "example",
+      "depth": 3,
+      "description": "A type of renewable energy that uses wind to generate electricity.",
+      "importance": 6,
+      "fun_fact": "The first wind turbine was built in Scotland in 1887 by James Blyth."
+    },
+    {
+      "id": "Copenhagen_Accord",
+      "label": "Copenhagen Accord",
+      "type": "event",
+      "depth": 3,
+      "description": "An international agreement on climate change mitigation that was signed in 2009.",
+      "importance": 7,
+      "fun_fact": "The Copenhagen Accord was the first international agreement to recognize the need to limit global warming to 2\u00b0C above pre-industrial levels."
+    },
+    {
+      "id": "Paris_Agreement",
+      "label": "Paris Agreement",
+      "type": "event",
+      "depth": 3,
+      "description": "An international agreement on climate change mitigation that was signed in 2015.",
+      "importance": 9,
+      "fun_fact": "The Paris Agreement is the first international agreement to set a goal of limiting global warming to 1.5\u00b0C above pre-industrial levels."
+    },
+    {
+      "id": "RE100",
+      "label": "RE100",
+      "type": "application",
+      "depth": 3,
+      "description": "A global initiative that aims to promote the use of 100% renewable energy in businesses and organizations.",
+      "importance": 6,
+      "fun_fact": "RE100 was launched in 2014 and has since become one of the largest corporate renewable energy initiatives in the world."
+    },
+    {
+      "id": "CCS_Technology",
+      "label": "Carbon Capture and Storage Technology",
+      "type": "application",
+      "depth": 3,
+      "description": "A technology that captures carbon dioxide emissions from power plants and industrial processes, and stores them underground.",
+      "importance": 7,
+      "fun_fact": "The first commercial carbon capture and storage project was launched in 1996 in Norway."
+    }
+  ],
+  "edges": [
+    {
+      "source": "CCM",
+      "target": "RES",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Renewable energy sources are a key component of climate change mitigation efforts."
+    },
+    {
+      "source": "CCM",
+      "target": "CCS",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Carbon capture and storage is a technology that can be used to reduce greenhouse gas emissions from power plants and industrial processes."
+    },
+    {
+      "source": "CCM",
+      "target": "SLU",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Sustainable land use is a practice that can help to reduce greenhouse gas emissions from land use changes."
+    },
+    {
+      "source": "CCM",
+      "target": "CPG",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Climate policy and governance is a critical component of climate change mitigation efforts."
+    },
+    {
+      "source": "CCM",
+      "target": "EBA",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Ecosystem-based adaptation is a practice that can help to reduce the impacts of climate change on natural ecosystems."
+    },
+    {
+      "source": "RES",
+      "target": "IPCC",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "The IPCC has published several reports on the potential of renewable energy to mitigate climate change."
+    },
+    {
+      "source": "CCS",
+      "target": "IPCC",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "The IPCC has published several reports on the potential of carbon capture and storage to mitigate climate change."
+    },
+    {
+      "source": "SLU",
+      "target": "IPCC",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "The IPCC has published several reports on the potential of sustainable land use to mitigate climate change."
+    },
+    {
+      "source": "CPG",
+      "target": "IPCC",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "The IPCC provides scientific advice to governments on climate policy and governance."
+    },
+    {
+      "source": "EBA",
+      "target": "IPCC",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "The IPCC has published several reports on the potential of ecosystem-based adaptation to mitigate climate change."
+    },
+    {
+      "source": "SRREN",
+      "target": "RES",
+      "relation": "is_type_of",
+      "strength": 8,
+      "description": "The SRREN report assesses the potential of renewable energy to mitigate climate change."
+    },
+    {
+      "source": "OEdenhofer",
+      "target": "SRREN",
+      "relation": "discovered_by",
+      "strength": 7,
+      "description": "Ottmar Edenhofer was a co-chair of the IPCC Working Group III and a key author of the SRREN report."
+    },
+    {
+      "source": "Solar_Power",
+      "target": "RES",
+      "relation": "is_type_of",
+      "strength": 6,
+      "description": "Solar power is a type of renewable energy."
+    },
+    {
+      "source": "Wind_Power",
+      "target": "RES",
+      "relation": "is_type_of",
+      "strength": 6,
+      "description": "Wind power is a type of renewable energy."
+    },
+    {
+      "source": "Copenhagen_Accord",
+      "target": "CPG",
+      "relation": "evolved_from",
+      "strength": 7,
+      "description": "The Copenhagen Accord was an international agreement that recognized the need to limit global warming to 2\u00b0C above pre-industrial levels."
+    },
+    {
+      "source": "Paris_Agreement",
+      "target": "CPG",
+      "relation": "evolved_from",
+      "strength": 9,
+      "description": "The Paris Agreement is an international agreement that sets a goal of limiting global warming to 1.5\u00b0C above pre-industrial levels."
+    },
+    {
+      "source": "RE100",
+      "target": "RES",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "RE100 is a global initiative that promotes the use of 100% renewable energy in businesses and organizations."
+    },
+    {
+      "source": "CCS_Technology",
+      "target": "CCS",
+      "relation": "is_type_of",
+      "strength": 7,
+      "description": "Carbon capture and storage technology is a type of carbon capture and storage."
+    }
+  ],
+  "key_takeaways": [
+    "Climate change mitigation efforts require a comprehensive approach that includes the use of renewable energy sources, carbon capture and storage, and sustainable land use.",
+    "The IPCC provides scientific advice to governments on climate policy and governance.",
+    "The Paris Agreement sets a goal of limiting global warming to 1.5\u00b0C above pre-industrial levels."
+  ],
+  "real_world_impact": "Climate change mitigation efforts are having a significant impact on the real world. For example, the use of renewable energy sources is becoming increasingly cost-competitive with fossil fuels, and many countries are setting ambitious targets to reduce their greenhouse gas emissions. The Paris Agreement has also led to a surge in climate change mitigation efforts around the world, with many countries and businesses committing to reduce their emissions and transition to a low-carbon economy. However, despite these efforts, greenhouse gas emissions continue to rise, and more needs to be done to address the scale and urgency of the climate crisis.",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/20230321_Effectiveness_of_techniques_to_motivate_climate_mitigation_action_-_bar_chart.svg",
+      "title": "20230321 Effectiveness of techniques to motivate climate mitigation action - bar chart.svg",
+      "license": "CC BY-SA 4.0",
+      "artist": "RCraig09",
+      "description": "Horizontal bar chart showing relative effectiveness of different techniques to motivate individuals to take action to mitigate climate change\nData source: (21 March 2023). \"Field interventions for climate change mitigation behaviors: A second-order meta-analysis\". Proceedings of the National Academy",
+      "width": 1200,
+      "height": 675,
+      "source_query": "Climate Change Mitigation"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Climate_Change_Performance_Index_%282023%29.svg",
+      "title": "Climate Change Performance Index (2023).svg",
+      "license": "CC BY-SA 3.0",
+      "artist": "M.Bitton",
+      "description": "Countries by Climate Change Performance Index ranking in 2023",
+      "width": 2754,
+      "height": 1398,
+      "source_query": "Climate Change Mitigation"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Climate_Change_Performance_Index_2021.svg",
+      "title": "Climate Change Performance Index 2021.svg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Chipmunkdavis",
+      "description": "English (en): \n\u00a0 High\u00a0 Medium\u00a0 Low\u00a0 Very Low",
+      "width": 2754,
+      "height": 1398,
+      "source_query": "Climate Change Mitigation"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Climate_change_mitigation_and_adaptation.png",
+      "title": "Climate change mitigation and adaptation.png",
+      "license": "CC0",
+      "artist": "Emmanuella Ackon",
+      "description": "How climate change mitigation and adaptation can save our world from it's impending crisis",
+      "width": 1280,
+      "height": 853,
+      "source_query": "Climate Change Mitigation"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Climate_change_mitigation_icon.png",
+      "title": "Climate change mitigation icon.png",
+      "license": "CC0",
+      "artist": "Tommaso.sansone91",
+      "description": "Climate change mitigation consists of actions to limit the magnitude or rate of long-term global warming and its related effects",
+      "width": 1732,
+      "height": 1532,
+      "source_query": "Climate Change Mitigation"
+    }
+  ],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Climate_change_mitigation",
+    "papers": [
+      {
+        "title": "A review of renewable energy sources, sustainability issues and climate change mitigation",
+        "url": "https://doi.org/10.1080/23311916.2016.1167990"
+      },
+      {
+        "title": "IPCC Special Report on Renewable Energy Sources and Climate Change Mitigation",
+        "url": "https://energieclimat.hypotheses.org/2416"
+      },
+      {
+        "title": "Renewable Energy Sources and Climate Change Mitigation",
+        "url": "https://doi.org/10.1017/cbo9781139151153"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 18"
+      ],
+      "node_count": 15,
+      "edge_count": 18
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Energy Efficiency",
+        "Climate Change Impacts"
+      ],
+      "strengths": [
+        "Comprehensive coverage of renewable energy sources",
+        "Strong connections between climate change mitigation concepts and IPCC reports"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

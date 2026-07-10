@@ -1,0 +1,164 @@
+{
+  "topic": "Climate Change Mitigation",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary goal of climate change mitigation efforts?",
+      "options": {
+        "A": "To reduce the amount of greenhouse gases in the atmosphere and limit global warming to 1.5\u00b0C above pre-industrial levels",
+        "B": "To increase the use of fossil fuels and promote economic growth",
+        "C": "To protect biodiversity and preserve natural ecosystems",
+        "D": "To reduce the impact of climate change on human health"
+      },
+      "correct": "A",
+      "explanation": "Climate change mitigation efforts aim to reduce the amount of greenhouse gases in the atmosphere and limit global warming to 1.5\u00b0C above pre-industrial levels, as stated in the Paris Agreement.",
+      "node_id": "Climate Change Mitigation",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the role of the Intergovernmental Panel on Climate Change (IPCC) in climate change mitigation?",
+      "options": {
+        "A": "To provide scientific advice to governments on climate policy and governance",
+        "B": "To implement climate change mitigation projects and policies",
+        "C": "To conduct research on climate change impacts and vulnerability",
+        "D": "To provide funding for climate change mitigation efforts"
+      },
+      "correct": "A",
+      "explanation": "The IPCC provides scientific advice to governments on climate policy and governance, as stated in its mandate.",
+      "node_id": "Intergovernmental Panel on Climate Change",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the difference between carbon capture and storage (CCS) and carbon capture, utilization, and storage (CCUS)?",
+      "options": {
+        "A": "CCS captures carbon dioxide from power plants, while CCUS captures carbon dioxide from industrial processes",
+        "B": "CCS stores carbon dioxide underground, while CCUS uses carbon dioxide for industrial applications",
+        "C": "CCS is a more expensive technology than CCUS",
+        "D": "CCUS is a more efficient technology than CCS"
+      },
+      "correct": "B",
+      "explanation": "CCUS uses carbon dioxide for industrial applications, such as producing chemicals and fuels, whereas CCS stores carbon dioxide underground.",
+      "node_id": "Carbon Capture and Storage Technology",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the purpose of the Special Report on Renewable Energy Sources and Climate Change Mitigation (SRREN)?",
+      "options": {
+        "A": "To assess the potential role of renewable energy in climate change mitigation",
+        "B": "To evaluate the impact of climate change on renewable energy sources",
+        "C": "To promote the use of fossil fuels in energy production",
+        "D": "To develop new technologies for carbon capture and storage"
+      },
+      "correct": "A",
+      "explanation": "The SRREN report assesses the potential role of renewable energy in climate change mitigation, as stated in its introduction.",
+      "node_id": "Special Report on Renewable Energy Sources and Climate Change Mitigation",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the concept of ecosystem-based adaptation in climate change mitigation?",
+      "options": {
+        "A": "Using natural ecosystems to adapt to climate change, such as through the restoration of wetlands and coral reefs",
+        "B": "Implementing engineering solutions to protect against climate change impacts",
+        "C": "Promoting sustainable land use practices to reduce greenhouse gas emissions",
+        "D": "Developing new technologies for climate change mitigation"
+      },
+      "correct": "A",
+      "explanation": "Ecosystem-based adaptation uses natural ecosystems to adapt to climate change, such as through the restoration of wetlands and coral reefs.",
+      "node_id": "Ecosystem-Based Adaptation",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the significance of the Paris Agreement in climate change mitigation?",
+      "options": {
+        "A": "It sets a goal of limiting global warming to 2\u00b0C above pre-industrial levels",
+        "B": "It promotes the use of fossil fuels in energy production",
+        "C": "It sets a goal of limiting global warming to 1.5\u00b0C above pre-industrial levels",
+        "D": "It establishes a global carbon pricing mechanism"
+      },
+      "correct": "C",
+      "explanation": "The Paris Agreement sets a goal of limiting global warming to 1.5\u00b0C above pre-industrial levels, as stated in its Article 2.",
+      "node_id": "Paris Agreement",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the role of sustainable land use in climate change mitigation?",
+      "options": {
+        "A": "To promote deforestation and land degradation",
+        "B": "To use land in a way that minimizes its environmental impact, such as through reforestation and sustainable agriculture",
+        "C": "To increase the use of fossil fuels in agriculture",
+        "D": "To develop new technologies for climate change mitigation"
+      },
+      "correct": "B",
+      "explanation": "Sustainable land use practices, such as reforestation and sustainable agriculture, can help minimize the environmental impact of land use and reduce greenhouse gas emissions.",
+      "node_id": "Sustainable Land Use",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What are the benefits of using renewable energy sources in climate change mitigation?",
+      "sample_answer": "The benefits of using renewable energy sources in climate change mitigation include reducing greenhouse gas emissions, improving air quality, and enhancing energy security.",
+      "keywords": [
+        "renewable energy",
+        "greenhouse gas emissions",
+        "air quality",
+        "energy security"
+      ],
+      "node_id": "Renewable Energy Sources",
+      "points": 15
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "How can ecosystem-based adaptation be used to promote climate change resilience in vulnerable communities?",
+      "sample_answer": "Ecosystem-based adaptation can be used to promote climate change resilience in vulnerable communities by restoring natural ecosystems, such as mangroves and coral reefs, which can provide protection against storms and sea-level rise, and by promoting sustainable land use practices, such as agroforestry and permaculture, which can help maintain ecosystem services and biodiversity.",
+      "keywords": [
+        "ecosystem-based adaptation",
+        "climate change resilience",
+        "vulnerable communities",
+        "natural ecosystems"
+      ],
+      "node_id": "Ecosystem-Based Adaptation",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What is the significance of the Intergovernmental Panel on Climate Change (IPCC) in providing scientific advice on climate change mitigation?",
+      "sample_answer": "The IPCC provides scientific advice on climate change mitigation by assessing the latest research and data on climate change impacts, vulnerability, and adaptation, and by providing guidance on effective climate change mitigation strategies and policies.",
+      "keywords": [
+        "IPCC",
+        "scientific advice",
+        "climate change mitigation",
+        "research and data"
+      ],
+      "node_id": "Intergovernmental Panel on Climate Change",
+      "points": 15
+    }
+  ]
+}

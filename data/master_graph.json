@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 52,
-  "total_nodes": 779,
-  "total_edges": 951,
+  "total_topics": 53,
+  "total_nodes": 794,
+  "total_edges": 969,
   "topics": [
     {
       "topic": "Climate Change",
@@ -471,6 +471,15 @@
       "edge_count": 19,
       "description": "Geological hazards and natural disasters refer to the harmful impact of natural phenomena on society or community, including earthquakes, volcanic eruptions, landslides, floods, and climate-related disasters. Understanding these hazards is crucial for mitigating their effects and saving lives. The study of geological hazards and natural disasters involves various disciplines, including seismology, volcanology, and climate science.",
       "added_at": "2026-07-10T18:08:50.832187"
+    },
+    {
+      "topic": "Climate Change Mitigation",
+      "slug": "climate_change_mitigation",
+      "category": "environmental_science",
+      "node_count": 15,
+      "edge_count": 18,
+      "description": "Climate change mitigation refers to the actions taken to reduce the amount of greenhouse gases in the atmosphere, thereby limiting the impact of climate change. This can be achieved through various methods, including the use of renewable energy sources, carbon capture and storage, and sustainable land use. The goal of climate change mitigation is to limit global warming to 1.5\u00b0C above pre-industrial levels.",
+      "added_at": "2026-07-10T23:32:48.896922"
     }
   ],
   "global_nodes": [
@@ -9042,6 +9051,171 @@
       "fun_fact": "Flood warning systems can help to save lives and reduce the impact of flooding by providing critical information to emergency responders and the public.",
       "topic_slug": "geological_hazards_and_natural_disasters",
       "topic": "Geological Hazards and Natural Disasters"
+    },
+    {
+      "id": "climate_change_mitigation__CCM",
+      "label": "Climate Change Mitigation",
+      "type": "core",
+      "depth": 0,
+      "description": "The actions taken to reduce the amount of greenhouse gases in the atmosphere, thereby limiting the impact of climate change.",
+      "importance": 10,
+      "fun_fact": "The concept of climate change mitigation has been around since the 1980s, but it gained significant attention in the 2000s with the release of the IPCC report.",
+      "topic_slug": "climate_change_mitigation",
+      "topic": "Climate Change Mitigation"
+    },
+    {
+      "id": "climate_change_mitigation__RES",
+      "label": "Renewable Energy Sources",
+      "type": "concept",
+      "depth": 1,
+      "description": "Energy sources that are replenished naturally, such as solar, wind, and hydro power.",
+      "importance": 9,
+      "fun_fact": "The first solar panel was invented in 1883 by Charles Fritts, but it wasn't until the 1950s that solar panels became commercially available.",
+      "topic_slug": "climate_change_mitigation",
+      "topic": "Climate Change Mitigation"
+    },
+    {
+      "id": "climate_change_mitigation__CCS",
+      "label": "Carbon Capture and Storage",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process of capturing carbon dioxide emissions from power plants and industrial processes, and storing them underground.",
+      "importance": 8,
+      "fun_fact": "The first commercial carbon capture and storage project was launched in 1996 in Norway.",
+      "topic_slug": "climate_change_mitigation",
+      "topic": "Climate Change Mitigation"
+    },
+    {
+      "id": "climate_change_mitigation__SLU",
+      "label": "Sustainable Land Use",
+      "type": "concept",
+      "depth": 1,
+      "description": "The practice of using land in a way that minimizes its environmental impact, such as through reforestation and sustainable agriculture.",
+      "importance": 8,
+      "fun_fact": "The concept of sustainable land use has been around since the 1970s, but it gained significant attention in the 2000s with the release of the IPCC report.",
+      "topic_slug": "climate_change_mitigation",
+      "topic": "Climate Change Mitigation"
+    },
+    {
+      "id": "climate_change_mitigation__CPG",
+      "label": "Climate Policy and Governance",
+      "type": "concept",
+      "depth": 1,
+      "description": "The laws, regulations, and institutions that govern climate change mitigation efforts.",
+      "importance": 9,
+      "fun_fact": "The first international climate agreement was the United Nations Framework Convention on Climate Change, signed in 1992.",
+      "topic_slug": "climate_change_mitigation",
+      "topic": "Climate Change Mitigation"
+    },
+    {
+      "id": "climate_change_mitigation__EBA",
+      "label": "Ecosystem-Based Adaptation",
+      "type": "concept",
+      "depth": 1,
+      "description": "The practice of using natural ecosystems to adapt to climate change, such as through the restoration of wetlands and coral reefs.",
+      "importance": 8,
+      "fun_fact": "The concept of ecosystem-based adaptation has been around since the 2000s, but it gained significant attention in the 2010s with the release of the IPCC report.",
+      "topic_slug": "climate_change_mitigation",
+      "topic": "Climate Change Mitigation"
+    },
+    {
+      "id": "climate_change_mitigation__IPCC",
+      "label": "Intergovernmental Panel on Climate Change",
+      "type": "organization",
+      "depth": 2,
+      "description": "An international organization that provides scientific advice on climate change to governments around the world.",
+      "importance": 9,
+      "fun_fact": "The IPCC was established in 1988 by the United Nations Environment Programme and the World Meteorological Organization.",
+      "topic_slug": "climate_change_mitigation",
+      "topic": "Climate Change Mitigation"
+    },
+    {
+      "id": "climate_change_mitigation__SRREN",
+      "label": "Special Report on Renewable Energy Sources and Climate Change Mitigation",
+      "type": "report",
+      "depth": 2,
+      "description": "A report published by the IPCC in 2011 that assesses the potential role of renewable energy in climate change mitigation.",
+      "importance": 8,
+      "fun_fact": "The SRREN report was the first comprehensive assessment of the potential of renewable energy to mitigate climate change.",
+      "topic_slug": "climate_change_mitigation",
+      "topic": "Climate Change Mitigation"
+    },
+    {
+      "id": "climate_change_mitigation__OEdenhofer",
+      "label": "Ottmar Edenhofer",
+      "type": "person",
+      "depth": 2,
+      "description": "A German economist and climate scientist who was the co-chair of the IPCC Working Group III from 2008 to 2015.",
+      "importance": 7,
+      "fun_fact": "Ottmar Edenhofer was a key author of the SRREN report and has been a leading voice on climate change mitigation policy.",
+      "topic_slug": "climate_change_mitigation",
+      "topic": "Climate Change Mitigation"
+    },
+    {
+      "id": "climate_change_mitigation__Solar_Power",
+      "label": "Solar Power",
+      "type": "example",
+      "depth": 3,
+      "description": "A type of renewable energy that uses sunlight to generate electricity.",
+      "importance": 6,
+      "fun_fact": "The first solar-powered satellite was launched in 1962 by the United States.",
+      "topic_slug": "climate_change_mitigation",
+      "topic": "Climate Change Mitigation"
+    },
+    {
+      "id": "climate_change_mitigation__Wind_Power",
+      "label": "Wind Power",
+      "type": "example",
+      "depth": 3,
+      "description": "A type of renewable energy that uses wind to generate electricity.",
+      "importance": 6,
+      "fun_fact": "The first wind turbine was built in Scotland in 1887 by James Blyth.",
+      "topic_slug": "climate_change_mitigation",
+      "topic": "Climate Change Mitigation"
+    },
+    {
+      "id": "climate_change_mitigation__Copenhagen_Accord",
+      "label": "Copenhagen Accord",
+      "type": "event",
+      "depth": 3,
+      "description": "An international agreement on climate change mitigation that was signed in 2009.",
+      "importance": 7,
+      "fun_fact": "The Copenhagen Accord was the first international agreement to recognize the need to limit global warming to 2\u00b0C above pre-industrial levels.",
+      "topic_slug": "climate_change_mitigation",
+      "topic": "Climate Change Mitigation"
+    },
+    {
+      "id": "climate_change_mitigation__Paris_Agreement",
+      "label": "Paris Agreement",
+      "type": "event",
+      "depth": 3,
+      "description": "An international agreement on climate change mitigation that was signed in 2015.",
+      "importance": 9,
+      "fun_fact": "The Paris Agreement is the first international agreement to set a goal of limiting global warming to 1.5\u00b0C above pre-industrial levels.",
+      "topic_slug": "climate_change_mitigation",
+      "topic": "Climate Change Mitigation"
+    },
+    {
+      "id": "climate_change_mitigation__RE100",
+      "label": "RE100",
+      "type": "application",
+      "depth": 3,
+      "description": "A global initiative that aims to promote the use of 100% renewable energy in businesses and organizations.",
+      "importance": 6,
+      "fun_fact": "RE100 was launched in 2014 and has since become one of the largest corporate renewable energy initiatives in the world.",
+      "topic_slug": "climate_change_mitigation",
+      "topic": "Climate Change Mitigation"
+    },
+    {
+      "id": "climate_change_mitigation__CCS_Technology",
+      "label": "Carbon Capture and Storage Technology",
+      "type": "application",
+      "depth": 3,
+      "description": "A technology that captures carbon dioxide emissions from power plants and industrial processes, and stores them underground.",
+      "importance": 7,
+      "fun_fact": "The first commercial carbon capture and storage project was launched in 1996 in Norway.",
+      "topic_slug": "climate_change_mitigation",
+      "topic": "Climate Change Mitigation"
     }
   ],
   "global_edges": [
@@ -15701,6 +15875,132 @@
       "relation": "is_part_of",
       "strength": 8,
       "topic": "Geological Hazards and Natural Disasters"
+    },
+    {
+      "source": "climate_change_mitigation__CCM",
+      "target": "climate_change_mitigation__RES",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Climate Change Mitigation"
+    },
+    {
+      "source": "climate_change_mitigation__CCM",
+      "target": "climate_change_mitigation__CCS",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Climate Change Mitigation"
+    },
+    {
+      "source": "climate_change_mitigation__CCM",
+      "target": "climate_change_mitigation__SLU",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Climate Change Mitigation"
+    },
+    {
+      "source": "climate_change_mitigation__CCM",
+      "target": "climate_change_mitigation__CPG",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Climate Change Mitigation"
+    },
+    {
+      "source": "climate_change_mitigation__CCM",
+      "target": "climate_change_mitigation__EBA",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Climate Change Mitigation"
+    },
+    {
+      "source": "climate_change_mitigation__RES",
+      "target": "climate_change_mitigation__IPCC",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Climate Change Mitigation"
+    },
+    {
+      "source": "climate_change_mitigation__CCS",
+      "target": "climate_change_mitigation__IPCC",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Climate Change Mitigation"
+    },
+    {
+      "source": "climate_change_mitigation__SLU",
+      "target": "climate_change_mitigation__IPCC",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Climate Change Mitigation"
+    },
+    {
+      "source": "climate_change_mitigation__CPG",
+      "target": "climate_change_mitigation__IPCC",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Climate Change Mitigation"
+    },
+    {
+      "source": "climate_change_mitigation__EBA",
+      "target": "climate_change_mitigation__IPCC",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Climate Change Mitigation"
+    },
+    {
+      "source": "climate_change_mitigation__SRREN",
+      "target": "climate_change_mitigation__RES",
+      "relation": "is_type_of",
+      "strength": 8,
+      "topic": "Climate Change Mitigation"
+    },
+    {
+      "source": "climate_change_mitigation__OEdenhofer",
+      "target": "climate_change_mitigation__SRREN",
+      "relation": "discovered_by",
+      "strength": 7,
+      "topic": "Climate Change Mitigation"
+    },
+    {
+      "source": "climate_change_mitigation__Solar_Power",
+      "target": "climate_change_mitigation__RES",
+      "relation": "is_type_of",
+      "strength": 6,
+      "topic": "Climate Change Mitigation"
+    },
+    {
+      "source": "climate_change_mitigation__Wind_Power",
+      "target": "climate_change_mitigation__RES",
+      "relation": "is_type_of",
+      "strength": 6,
+      "topic": "Climate Change Mitigation"
+    },
+    {
+      "source": "climate_change_mitigation__Copenhagen_Accord",
+      "target": "climate_change_mitigation__CPG",
+      "relation": "evolved_from",
+      "strength": 7,
+      "topic": "Climate Change Mitigation"
+    },
+    {
+      "source": "climate_change_mitigation__Paris_Agreement",
+      "target": "climate_change_mitigation__CPG",
+      "relation": "evolved_from",
+      "strength": 9,
+      "topic": "Climate Change Mitigation"
+    },
+    {
+      "source": "climate_change_mitigation__RE100",
+      "target": "climate_change_mitigation__RES",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Climate Change Mitigation"
+    },
+    {
+      "source": "climate_change_mitigation__CCS_Technology",
+      "target": "climate_change_mitigation__CCS",
+      "relation": "is_type_of",
+      "strength": 7,
+      "topic": "Climate Change Mitigation"
     }
   ],
   "cross_topic_edges": [
@@ -15794,6 +16094,13 @@
       "relation": "cross_topic_connection",
       "strength": 6,
       "label": "conservation biology"
+    },
+    {
+      "source": "sustainable_energy__N12",
+      "target": "climate_change_mitigation__Paris_Agreement",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "paris agreement"
     },
     {
       "source": "genomics__N5",
@@ -16125,7 +16432,10 @@
     ],
     "philosophy": [
       "ethics_of_emerging_technologies"
+    ],
+    "environmental_science": [
+      "climate_change_mitigation"
     ]
   },
-  "last_updated": "2026-07-10T18:08:50.832230"
+  "last_updated": "2026-07-10T23:32:48.896957"
 }
