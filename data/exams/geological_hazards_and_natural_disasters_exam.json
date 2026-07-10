@@ -1,0 +1,161 @@
+{
+  "topic": "Geological Hazards and Natural Disasters",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary goal of studying geological hazards and natural disasters?",
+      "options": {
+        "A": "To understand the causes and consequences of these events",
+        "B": "To predict the exact timing and location of future disasters",
+        "C": "To develop new technologies for disaster response",
+        "D": "To create more effective emergency response plans"
+      },
+      "correct": "A",
+      "explanation": "Understanding the causes and consequences of geological hazards and natural disasters is crucial for mitigating their effects and saving lives.",
+      "node_id": "Geological Hazards",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which of the following is a key factor in triggering landslides?",
+      "options": {
+        "A": "Heavy rainfall",
+        "B": "Volcanic eruptions",
+        "C": "Earthquakes",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanation": "Landslides can be triggered by a combination of factors, including heavy rainfall, earthquakes, and human activities such as mining and construction.",
+      "node_id": "Landslide Triggering Factors",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What is the significance of the Richter scale in seismology?",
+      "sample_answer": "The Richter scale is a logarithmic scale used to measure the magnitude of earthquakes, which helps to quantify the energy released during an earthquake.",
+      "keywords": [
+        "Richter scale",
+        "seismology",
+        "earthquake magnitude"
+      ],
+      "node_id": "Charles Francis Richter",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the relationship between climate change and natural disasters?",
+      "options": {
+        "A": "Climate change has no impact on natural disasters",
+        "B": "Climate change increases the frequency and severity of natural disasters",
+        "C": "Climate change only affects weather-related disasters",
+        "D": "Climate change only affects geological disasters"
+      },
+      "correct": "B",
+      "explanation": "Climate change is increasing the frequency and severity of natural disasters, including climate-related disasters such as heatwaves, droughts, and extreme weather events.",
+      "node_id": "Climate Change",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the term used to describe the study of volcanoes?",
+      "options": {
+        "A": "Seismology",
+        "B": "Volcanology",
+        "C": "Geology",
+        "D": "Meteorology"
+      },
+      "correct": "B",
+      "explanation": "Volcanology is the study of volcanoes, including their formation, eruption, and impact on the environment.",
+      "node_id": "Volcanology",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What are some strategies used in flood risk management?",
+      "sample_answer": "Flood risk management strategies include floodplain management, early warning systems, and the creation of flood-control structures such as levees and dams.",
+      "keywords": [
+        "flood risk management",
+        "floodplain management",
+        "early warning systems"
+      ],
+      "node_id": "Flood Risk Management",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the purpose of the Disaster Risk Index?",
+      "options": {
+        "A": "To predict the exact timing and location of future disasters",
+        "B": "To assess the risk of natural disasters and provide a framework for disaster risk reduction",
+        "C": "To develop new technologies for disaster response",
+        "D": "To create more effective emergency response plans"
+      },
+      "correct": "B",
+      "explanation": "The Disaster Risk Index is a model used to assess the risk of natural disasters, including factors such as exposure, vulnerability, and resilience.",
+      "node_id": "Disaster Risk Index",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the relationship between earthquakes and landslides?",
+      "options": {
+        "A": "Earthquakes can trigger landslides, but landslides cannot trigger earthquakes",
+        "B": "Landslides can trigger earthquakes, but earthquakes cannot trigger landslides",
+        "C": "Earthquakes and landslides are unrelated",
+        "D": "Earthquakes can trigger landslides, and landslides can also trigger earthquakes"
+      },
+      "correct": "A",
+      "explanation": "Earthquakes can trigger landslides, which can be devastating and widespread. However, landslides are not typically capable of triggering earthquakes.",
+      "node_id": "Earthquake-Induced Landslides",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "What are some of the challenges in predicting and mitigating the effects of climate-related disasters?",
+      "sample_answer": "Predicting and mitigating the effects of climate-related disasters is challenging due to the complexity and uncertainty of climate systems, as well as the need for international cooperation and coordination.",
+      "keywords": [
+        "climate-related disasters",
+        "prediction",
+        "mitigation"
+      ],
+      "node_id": "Climate-Related Disasters",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the importance of flood warning systems in flood risk management?",
+      "options": {
+        "A": "Flood warning systems are only useful for predicting floods, but not for mitigating their effects",
+        "B": "Flood warning systems can help to save lives and reduce the impact of flooding by providing critical information to emergency responders and the public",
+        "C": "Flood warning systems are not effective in reducing the risk of flooding",
+        "D": "Flood warning systems are only useful for small-scale floods"
+      },
+      "correct": "B",
+      "explanation": "Flood warning systems can help to save lives and reduce the impact of flooding by providing critical information to emergency responders and the public.",
+      "node_id": "Flood Warning Systems",
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,384 @@
+{
+  "topic": "Geological Hazards and Natural Disasters",
+  "category": "geography",
+  "description": "Geological hazards and natural disasters refer to the harmful impact of natural phenomena on society or community, including earthquakes, volcanic eruptions, landslides, floods, and climate-related disasters. Understanding these hazards is crucial for mitigating their effects and saving lives. The study of geological hazards and natural disasters involves various disciplines, including seismology, volcanology, and climate science.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Geological Hazards",
+      "type": "core",
+      "depth": 0,
+      "description": "Natural phenomena that pose a threat to human populations and the environment, including earthquakes, volcanic eruptions, and landslides.",
+      "importance": 10,
+      "fun_fact": "The term 'geological hazard' was first used in the 1960s to describe the potential dangers posed by natural geological processes."
+    },
+    {
+      "id": "N2",
+      "label": "Seismology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of earthquakes and the waves they produce, including the analysis of seismic data to understand the structure of the Earth's interior.",
+      "importance": 9,
+      "fun_fact": "The first seismograph was invented by Chinese philosopher Chang Heng in 132 AD."
+    },
+    {
+      "id": "N3",
+      "label": "Volcanology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of volcanoes, including their formation, eruption, and impact on the environment.",
+      "importance": 9,
+      "fun_fact": "The word 'volcano' comes from the Roman god of fire, Vulcan."
+    },
+    {
+      "id": "N4",
+      "label": "Landslide Dynamics",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the movement of rock, soil, and other materials down a slope, including the analysis of landslide triggers and mitigation strategies.",
+      "importance": 8,
+      "fun_fact": "Landslides can be triggered by heavy rainfall, earthquakes, and human activities such as mining and construction."
+    },
+    {
+      "id": "N5",
+      "label": "Flood Risk Management",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of strategies and techniques to mitigate the impact of flooding on human populations and the environment, including floodplain management and early warning systems.",
+      "importance": 9,
+      "fun_fact": "The first flood control measures were implemented in ancient China over 4,000 years ago."
+    },
+    {
+      "id": "N6",
+      "label": "Climate-Related Disasters",
+      "type": "concept",
+      "depth": 1,
+      "description": "Natural disasters that are influenced by climate change, including heatwaves, droughts, and extreme weather events.",
+      "importance": 9,
+      "fun_fact": "Climate-related disasters have increased in frequency and severity over the past few decades, with 2019 being the hottest year on record."
+    },
+    {
+      "id": "N7",
+      "label": "Charles Francis Richter",
+      "type": "person",
+      "depth": 2,
+      "description": "American seismologist who developed the Richter scale to measure earthquake magnitude.",
+      "importance": 8,
+      "fun_fact": "Richter was a pioneer in the field of seismology and his scale is still widely used today."
+    },
+    {
+      "id": "N8",
+      "label": "Disaster Risk Index",
+      "type": "formula",
+      "depth": 2,
+      "description": "A model used to assess the risk of natural disasters, including factors such as exposure, vulnerability, and resilience.",
+      "importance": 8,
+      "fun_fact": "The Disaster Risk Index was developed by the United Nations to provide a framework for disaster risk reduction."
+    },
+    {
+      "id": "N9",
+      "label": "Earthquake-Induced Landslides",
+      "type": "example",
+      "depth": 3,
+      "description": "Landslides triggered by earthquakes, which can be devastating and widespread.",
+      "importance": 7,
+      "fun_fact": "The 2008 Sichuan earthquake in China triggered over 15,000 landslides, resulting in thousands of deaths and widespread destruction."
+    },
+    {
+      "id": "N10",
+      "label": "Floodplain Management",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of strategies and techniques to manage floodplains, including the creation of flood-control structures and the restoration of natural habitats.",
+      "importance": 8,
+      "fun_fact": "Floodplain management can help to reduce the risk of flooding and protect human populations and the environment."
+    },
+    {
+      "id": "N11",
+      "label": "Climate Change",
+      "type": "concept",
+      "depth": 1,
+      "description": "The long-term warming of the planet due to human activities, including the burning of fossil fuels and deforestation.",
+      "importance": 10,
+      "fun_fact": "Climate change is one of the most pressing issues of our time, with far-reaching consequences for human populations and the environment."
+    },
+    {
+      "id": "N12",
+      "label": "Natural Disaster Mitigation",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of strategies and techniques to reduce the impact of natural disasters, including early warning systems and emergency preparedness plans.",
+      "importance": 9,
+      "fun_fact": "Natural disaster mitigation can help to save lives and reduce the economic impact of disasters."
+    },
+    {
+      "id": "N13",
+      "label": "Volcanic Eruption",
+      "type": "example",
+      "depth": 3,
+      "description": "The release of hot ash, gas, and rock from a volcano, which can be devastating and widespread.",
+      "importance": 8,
+      "fun_fact": "The 1980 eruption of Mount St. Helens in the United States was one of the most significant volcanic events in recent history."
+    },
+    {
+      "id": "N14",
+      "label": "Landslide Triggering Factors",
+      "type": "concept",
+      "depth": 2,
+      "description": "The factors that contribute to the occurrence of landslides, including heavy rainfall, earthquakes, and human activities.",
+      "importance": 8,
+      "fun_fact": "Landslide triggering factors can be complex and interconnected, making it challenging to predict when and where landslides will occur."
+    },
+    {
+      "id": "N15",
+      "label": "Flood Warning Systems",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of technology and monitoring systems to provide early warnings of flooding, including river gauges and weather forecasting models.",
+      "importance": 8,
+      "fun_fact": "Flood warning systems can help to save lives and reduce the impact of flooding by providing critical information to emergency responders and the public."
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Seismology is a key component of geological hazards, as earthquakes are a major threat to human populations and the environment."
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Volcanology is a key component of geological hazards, as volcanic eruptions can be devastating and widespread."
+    },
+    {
+      "source": "N1",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Landslide dynamics is a key component of geological hazards, as landslides can be triggered by a range of factors, including earthquakes and heavy rainfall."
+    },
+    {
+      "source": "N1",
+      "target": "N6",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Climate-related disasters are a key component of geological hazards, as climate change is increasing the frequency and severity of natural disasters."
+    },
+    {
+      "source": "N2",
+      "target": "N7",
+      "relation": "discovered_by",
+      "strength": 8,
+      "description": "Charles Francis Richter was a key figure in the development of seismology, and his scale is still widely used today."
+    },
+    {
+      "source": "N3",
+      "target": "N13",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "Volcanic eruptions can be devastating and widespread, and can trigger a range of secondary hazards, including landslides and pyroclastic flows."
+    },
+    {
+      "source": "N4",
+      "target": "N9",
+      "relation": "leads_to",
+      "strength": 7,
+      "description": "Landslides can be triggered by earthquakes, and can be devastating and widespread."
+    },
+    {
+      "source": "N5",
+      "target": "N10",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Floodplain management is a key component of flood risk management, as it can help to reduce the risk of flooding and protect human populations and the environment."
+    },
+    {
+      "source": "N5",
+      "target": "N15",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Flood warning systems are a key component of flood risk management, as they can provide critical information to emergency responders and the public."
+    },
+    {
+      "source": "N6",
+      "target": "N11",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Climate change is a key driver of climate-related disasters, as it is increasing the frequency and severity of natural disasters."
+    },
+    {
+      "source": "N7",
+      "target": "N2",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "The Richter scale is widely used in seismology to measure earthquake magnitude."
+    },
+    {
+      "source": "N8",
+      "target": "N1",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "The Disaster Risk Index is a model used to assess the risk of natural disasters, including geological hazards."
+    },
+    {
+      "source": "N9",
+      "target": "N4",
+      "relation": "is_type_of",
+      "strength": 7,
+      "description": "Earthquake-induced landslides are a type of landslide that can be triggered by earthquakes."
+    },
+    {
+      "source": "N10",
+      "target": "N5",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Floodplain management is a key component of flood risk management, as it can help to reduce the risk of flooding and protect human populations and the environment."
+    },
+    {
+      "source": "N11",
+      "target": "N6",
+      "relation": "leads_to",
+      "strength": 9,
+      "description": "Climate change is increasing the frequency and severity of natural disasters, including climate-related disasters."
+    },
+    {
+      "source": "N12",
+      "target": "N1",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Natural disaster mitigation is a key component of geological hazards, as it can help to reduce the impact of natural disasters and save lives."
+    },
+    {
+      "source": "N13",
+      "target": "N3",
+      "relation": "is_type_of",
+      "strength": 8,
+      "description": "Volcanic eruptions are a type of geological hazard that can be devastating and widespread."
+    },
+    {
+      "source": "N14",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Landslide triggering factors are a key component of landslide dynamics, as they can help to predict when and where landslides will occur."
+    },
+    {
+      "source": "N15",
+      "target": "N5",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Flood warning systems are a key component of flood risk management, as they can provide critical information to emergency responders and the public."
+    }
+  ],
+  "key_takeaways": [
+    "Geological hazards and natural disasters are a major threat to human populations and the environment.",
+    "Understanding the causes and consequences of geological hazards is crucial for mitigating their effects.",
+    "Climate change is increasing the frequency and severity of natural disasters, including climate-related disasters."
+  ],
+  "real_world_impact": "Geological hazards and natural disasters have a significant impact on human populations and the environment, resulting in loss of life, property damage, and economic disruption. For example, the 2011 Tohoku earthquake and tsunami in Japan resulted in over 15,000 deaths and $235 billion in economic losses. Similarly, the 2018 Camp Fire in California resulted in 85 deaths and $16.5 billion in economic losses. Understanding and mitigating the effects of geological hazards is critical for reducing the risk of natural disasters and saving lives.",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/A_Deadly_Eruption_Rocks_Guatemala%2C_June_3%2C_2018.png",
+      "title": "A Deadly Eruption Rocks Guatemala, June 3, 2018.png",
+      "license": "Public domain",
+      "artist": "NASA",
+      "description": "A Deadly Eruption Rocks GuatemalaFuego in Guatemala is one of Central America\u2019s most active volcanoes. For years, the towering Volc\u00e1n de Fuego has puffed continuously, punctuated by occasional episodes of explosive activity, big ash plumes, lava flows, and avalanche-like debris slides known as pyroc",
+      "width": 720,
+      "height": 480,
+      "source_query": "Geological Hazards and Natural Disasters"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Caraballeda_1999_Deposits_and_Damage.jpg",
+      "title": "Caraballeda 1999 Deposits and Damage.jpg",
+      "license": "Public domain",
+      "artist": "Image: Smith, Lawson, US ACE; Paper: Wieczorek, G.F., Larsen, M.C., Eaton, L.S., Morgan, B.A. and Blair, J. L.",
+      "description": "(taken verbatim from USGS caption): Aerial view of debris-flow deposition resulting in widespread destruction on the Caraballeda fan of the Quebrada San Juli\u00e1n.  Avulsion of the main channel (left side of photo) resulted in deposits up to 6-m in thickness and totaling about 1.8 million cubic meters ",
+      "width": 553,
+      "height": 369,
+      "source_query": "Geological Hazards and Natural Disasters"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Disaster_Response_Coordination_System_Briefing_%28NHQ202406130008%29.jpg",
+      "title": "Disaster Response Coordination System Briefing (NHQ202406130008).jpg",
+      "license": "Public domain",
+      "artist": "NASA Headquarters / NASA/Bill Ingalls",
+      "description": "NASA Disasters Program Manager Shanna McClain, left, NASA Deputy Administrator Pam Melroy, National Oceanic and Atmospheric Administration Deputy Administrator Jainey Bavishi, U.S. Geological Survey Associate Director of Natural Hazards Mission Area Michael Grimm, USAID Deputy Assistant to the Admin",
+      "width": 7462,
+      "height": 4538,
+      "source_query": "Geological Hazards and Natural Disasters"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Disaster_Response_Coordination_System_Briefing_%28NHQ202406130014%29.jpg",
+      "title": "Disaster Response Coordination System Briefing (NHQ202406130014).jpg",
+      "license": "Public domain",
+      "artist": "NASA Headquarters / NASA/Bill Ingalls",
+      "description": "NASA Disasters Program Manager Shanna McClain, left, NASA Deputy Administrator Pam Melroy, National Oceanic and Atmospheric Administration Deputy Administrator Jainey Bavishi, U.S. Geological Survey Associate Director of Natural Hazards Mission Area Michael Grimm, USAID Deputy Assistant to the Admin",
+      "width": 6927,
+      "height": 5504,
+      "source_query": "Geological Hazards and Natural Disasters"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Disaster_Response_Coordination_System_Briefing_%28NHQ202406130015%29.jpg",
+      "title": "Disaster Response Coordination System Briefing (NHQ202406130015).jpg",
+      "license": "Public domain",
+      "artist": "NASA Headquarters / NASA/Bill Ingalls",
+      "description": "NASA Disasters Program Manager Shanna McClain, left, NASA Deputy Administrator Pam Melroy, National Oceanic and Atmospheric Administration Deputy Administrator Jainey Bavishi, U.S. Geological Survey Associate Director of Natural Hazards Mission Area Michael Grimm, USAID Deputy Assistant to the Admin",
+      "width": 7501,
+      "height": 4049,
+      "source_query": "Geological Hazards and Natural Disasters"
+    }
+  ],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Natural_disaster",
+    "papers": [
+      {
+        "title": "The climate hazards infrared precipitation with stations\u2014a new environmental record for monitoring extremes",
+        "url": "https://doi.org/10.1038/sdata.2015.66"
+      },
+      {
+        "title": "Earthquake\u2010Induced Chains of Geologic Hazards: Patterns, Mechanisms, and Impacts",
+        "url": "https://doi.org/10.1029/2018rg000626"
+      },
+      {
+        "title": "Assessing global exposure and vulnerability towards natural hazards: the Disaster Risk Index",
+        "url": "https://doi.org/10.5194/nhess-9-1149-2009"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 19"
+      ],
+      "node_count": 15,
+      "edge_count": 19
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Tsunami Dynamics",
+        "Soil Erosion"
+      ],
+      "strengths": [
+        "Clear structure",
+        "Relevant key takeaways"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

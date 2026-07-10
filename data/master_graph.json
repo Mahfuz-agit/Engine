@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 51,
-  "total_nodes": 764,
-  "total_edges": 932,
+  "total_topics": 52,
+  "total_nodes": 779,
+  "total_edges": 951,
   "topics": [
     {
       "topic": "Climate Change",
@@ -462,6 +462,15 @@
       "edge_count": 15,
       "description": "The ethics of emerging technologies encompasses the moral principles and values that guide the development and use of new technologies, including artificial intelligence, biotechnology, robotics, and virtual reality. As these technologies continue to evolve and become increasingly integrated into our lives, it is essential to consider their potential impact on society and individuals. The field of ethics of emerging technologies seeks to provide a framework for evaluating and addressing the ethical concerns surrounding these technologies.",
       "added_at": "2026-07-10T11:23:24.021515"
+    },
+    {
+      "topic": "Geological Hazards and Natural Disasters",
+      "slug": "geological_hazards_and_natural_disasters",
+      "category": "geography",
+      "node_count": 15,
+      "edge_count": 19,
+      "description": "Geological hazards and natural disasters refer to the harmful impact of natural phenomena on society or community, including earthquakes, volcanic eruptions, landslides, floods, and climate-related disasters. Understanding these hazards is crucial for mitigating their effects and saving lives. The study of geological hazards and natural disasters involves various disciplines, including seismology, volcanology, and climate science.",
+      "added_at": "2026-07-10T18:08:50.832187"
     }
   ],
   "global_nodes": [
@@ -8868,6 +8877,171 @@
       "fun_fact": "The ethics of emerging technologies is a rapidly evolving field that draws on insights from philosophy, sociology, and science and technology studies.",
       "topic_slug": "ethics_of_emerging_technologies",
       "topic": "Ethics of Emerging Technologies"
+    },
+    {
+      "id": "geological_hazards_and_natural_disasters__N1",
+      "label": "Geological Hazards",
+      "type": "core",
+      "depth": 0,
+      "description": "Natural phenomena that pose a threat to human populations and the environment, including earthquakes, volcanic eruptions, and landslides.",
+      "importance": 10,
+      "fun_fact": "The term 'geological hazard' was first used in the 1960s to describe the potential dangers posed by natural geological processes.",
+      "topic_slug": "geological_hazards_and_natural_disasters",
+      "topic": "Geological Hazards and Natural Disasters"
+    },
+    {
+      "id": "geological_hazards_and_natural_disasters__N2",
+      "label": "Seismology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of earthquakes and the waves they produce, including the analysis of seismic data to understand the structure of the Earth's interior.",
+      "importance": 9,
+      "fun_fact": "The first seismograph was invented by Chinese philosopher Chang Heng in 132 AD.",
+      "topic_slug": "geological_hazards_and_natural_disasters",
+      "topic": "Geological Hazards and Natural Disasters"
+    },
+    {
+      "id": "geological_hazards_and_natural_disasters__N3",
+      "label": "Volcanology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of volcanoes, including their formation, eruption, and impact on the environment.",
+      "importance": 9,
+      "fun_fact": "The word 'volcano' comes from the Roman god of fire, Vulcan.",
+      "topic_slug": "geological_hazards_and_natural_disasters",
+      "topic": "Geological Hazards and Natural Disasters"
+    },
+    {
+      "id": "geological_hazards_and_natural_disasters__N4",
+      "label": "Landslide Dynamics",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the movement of rock, soil, and other materials down a slope, including the analysis of landslide triggers and mitigation strategies.",
+      "importance": 8,
+      "fun_fact": "Landslides can be triggered by heavy rainfall, earthquakes, and human activities such as mining and construction.",
+      "topic_slug": "geological_hazards_and_natural_disasters",
+      "topic": "Geological Hazards and Natural Disasters"
+    },
+    {
+      "id": "geological_hazards_and_natural_disasters__N5",
+      "label": "Flood Risk Management",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of strategies and techniques to mitigate the impact of flooding on human populations and the environment, including floodplain management and early warning systems.",
+      "importance": 9,
+      "fun_fact": "The first flood control measures were implemented in ancient China over 4,000 years ago.",
+      "topic_slug": "geological_hazards_and_natural_disasters",
+      "topic": "Geological Hazards and Natural Disasters"
+    },
+    {
+      "id": "geological_hazards_and_natural_disasters__N6",
+      "label": "Climate-Related Disasters",
+      "type": "concept",
+      "depth": 1,
+      "description": "Natural disasters that are influenced by climate change, including heatwaves, droughts, and extreme weather events.",
+      "importance": 9,
+      "fun_fact": "Climate-related disasters have increased in frequency and severity over the past few decades, with 2019 being the hottest year on record.",
+      "topic_slug": "geological_hazards_and_natural_disasters",
+      "topic": "Geological Hazards and Natural Disasters"
+    },
+    {
+      "id": "geological_hazards_and_natural_disasters__N7",
+      "label": "Charles Francis Richter",
+      "type": "person",
+      "depth": 2,
+      "description": "American seismologist who developed the Richter scale to measure earthquake magnitude.",
+      "importance": 8,
+      "fun_fact": "Richter was a pioneer in the field of seismology and his scale is still widely used today.",
+      "topic_slug": "geological_hazards_and_natural_disasters",
+      "topic": "Geological Hazards and Natural Disasters"
+    },
+    {
+      "id": "geological_hazards_and_natural_disasters__N8",
+      "label": "Disaster Risk Index",
+      "type": "formula",
+      "depth": 2,
+      "description": "A model used to assess the risk of natural disasters, including factors such as exposure, vulnerability, and resilience.",
+      "importance": 8,
+      "fun_fact": "The Disaster Risk Index was developed by the United Nations to provide a framework for disaster risk reduction.",
+      "topic_slug": "geological_hazards_and_natural_disasters",
+      "topic": "Geological Hazards and Natural Disasters"
+    },
+    {
+      "id": "geological_hazards_and_natural_disasters__N9",
+      "label": "Earthquake-Induced Landslides",
+      "type": "example",
+      "depth": 3,
+      "description": "Landslides triggered by earthquakes, which can be devastating and widespread.",
+      "importance": 7,
+      "fun_fact": "The 2008 Sichuan earthquake in China triggered over 15,000 landslides, resulting in thousands of deaths and widespread destruction.",
+      "topic_slug": "geological_hazards_and_natural_disasters",
+      "topic": "Geological Hazards and Natural Disasters"
+    },
+    {
+      "id": "geological_hazards_and_natural_disasters__N10",
+      "label": "Floodplain Management",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of strategies and techniques to manage floodplains, including the creation of flood-control structures and the restoration of natural habitats.",
+      "importance": 8,
+      "fun_fact": "Floodplain management can help to reduce the risk of flooding and protect human populations and the environment.",
+      "topic_slug": "geological_hazards_and_natural_disasters",
+      "topic": "Geological Hazards and Natural Disasters"
+    },
+    {
+      "id": "geological_hazards_and_natural_disasters__N11",
+      "label": "Climate Change",
+      "type": "concept",
+      "depth": 1,
+      "description": "The long-term warming of the planet due to human activities, including the burning of fossil fuels and deforestation.",
+      "importance": 10,
+      "fun_fact": "Climate change is one of the most pressing issues of our time, with far-reaching consequences for human populations and the environment.",
+      "topic_slug": "geological_hazards_and_natural_disasters",
+      "topic": "Geological Hazards and Natural Disasters"
+    },
+    {
+      "id": "geological_hazards_and_natural_disasters__N12",
+      "label": "Natural Disaster Mitigation",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of strategies and techniques to reduce the impact of natural disasters, including early warning systems and emergency preparedness plans.",
+      "importance": 9,
+      "fun_fact": "Natural disaster mitigation can help to save lives and reduce the economic impact of disasters.",
+      "topic_slug": "geological_hazards_and_natural_disasters",
+      "topic": "Geological Hazards and Natural Disasters"
+    },
+    {
+      "id": "geological_hazards_and_natural_disasters__N13",
+      "label": "Volcanic Eruption",
+      "type": "example",
+      "depth": 3,
+      "description": "The release of hot ash, gas, and rock from a volcano, which can be devastating and widespread.",
+      "importance": 8,
+      "fun_fact": "The 1980 eruption of Mount St. Helens in the United States was one of the most significant volcanic events in recent history.",
+      "topic_slug": "geological_hazards_and_natural_disasters",
+      "topic": "Geological Hazards and Natural Disasters"
+    },
+    {
+      "id": "geological_hazards_and_natural_disasters__N14",
+      "label": "Landslide Triggering Factors",
+      "type": "concept",
+      "depth": 2,
+      "description": "The factors that contribute to the occurrence of landslides, including heavy rainfall, earthquakes, and human activities.",
+      "importance": 8,
+      "fun_fact": "Landslide triggering factors can be complex and interconnected, making it challenging to predict when and where landslides will occur.",
+      "topic_slug": "geological_hazards_and_natural_disasters",
+      "topic": "Geological Hazards and Natural Disasters"
+    },
+    {
+      "id": "geological_hazards_and_natural_disasters__N15",
+      "label": "Flood Warning Systems",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of technology and monitoring systems to provide early warnings of flooding, including river gauges and weather forecasting models.",
+      "importance": 8,
+      "fun_fact": "Flood warning systems can help to save lives and reduce the impact of flooding by providing critical information to emergency responders and the public.",
+      "topic_slug": "geological_hazards_and_natural_disasters",
+      "topic": "Geological Hazards and Natural Disasters"
     }
   ],
   "global_edges": [
@@ -15394,6 +15568,139 @@
       "relation": "depends_on",
       "strength": 9,
       "topic": "Ethics of Emerging Technologies"
+    },
+    {
+      "source": "geological_hazards_and_natural_disasters__N1",
+      "target": "geological_hazards_and_natural_disasters__N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Geological Hazards and Natural Disasters"
+    },
+    {
+      "source": "geological_hazards_and_natural_disasters__N1",
+      "target": "geological_hazards_and_natural_disasters__N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Geological Hazards and Natural Disasters"
+    },
+    {
+      "source": "geological_hazards_and_natural_disasters__N1",
+      "target": "geological_hazards_and_natural_disasters__N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Geological Hazards and Natural Disasters"
+    },
+    {
+      "source": "geological_hazards_and_natural_disasters__N1",
+      "target": "geological_hazards_and_natural_disasters__N6",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Geological Hazards and Natural Disasters"
+    },
+    {
+      "source": "geological_hazards_and_natural_disasters__N2",
+      "target": "geological_hazards_and_natural_disasters__N7",
+      "relation": "discovered_by",
+      "strength": 8,
+      "topic": "Geological Hazards and Natural Disasters"
+    },
+    {
+      "source": "geological_hazards_and_natural_disasters__N3",
+      "target": "geological_hazards_and_natural_disasters__N13",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Geological Hazards and Natural Disasters"
+    },
+    {
+      "source": "geological_hazards_and_natural_disasters__N4",
+      "target": "geological_hazards_and_natural_disasters__N9",
+      "relation": "leads_to",
+      "strength": 7,
+      "topic": "Geological Hazards and Natural Disasters"
+    },
+    {
+      "source": "geological_hazards_and_natural_disasters__N5",
+      "target": "geological_hazards_and_natural_disasters__N10",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Geological Hazards and Natural Disasters"
+    },
+    {
+      "source": "geological_hazards_and_natural_disasters__N5",
+      "target": "geological_hazards_and_natural_disasters__N15",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Geological Hazards and Natural Disasters"
+    },
+    {
+      "source": "geological_hazards_and_natural_disasters__N6",
+      "target": "geological_hazards_and_natural_disasters__N11",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Geological Hazards and Natural Disasters"
+    },
+    {
+      "source": "geological_hazards_and_natural_disasters__N7",
+      "target": "geological_hazards_and_natural_disasters__N2",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Geological Hazards and Natural Disasters"
+    },
+    {
+      "source": "geological_hazards_and_natural_disasters__N8",
+      "target": "geological_hazards_and_natural_disasters__N1",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Geological Hazards and Natural Disasters"
+    },
+    {
+      "source": "geological_hazards_and_natural_disasters__N9",
+      "target": "geological_hazards_and_natural_disasters__N4",
+      "relation": "is_type_of",
+      "strength": 7,
+      "topic": "Geological Hazards and Natural Disasters"
+    },
+    {
+      "source": "geological_hazards_and_natural_disasters__N10",
+      "target": "geological_hazards_and_natural_disasters__N5",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Geological Hazards and Natural Disasters"
+    },
+    {
+      "source": "geological_hazards_and_natural_disasters__N11",
+      "target": "geological_hazards_and_natural_disasters__N6",
+      "relation": "leads_to",
+      "strength": 9,
+      "topic": "Geological Hazards and Natural Disasters"
+    },
+    {
+      "source": "geological_hazards_and_natural_disasters__N12",
+      "target": "geological_hazards_and_natural_disasters__N1",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Geological Hazards and Natural Disasters"
+    },
+    {
+      "source": "geological_hazards_and_natural_disasters__N13",
+      "target": "geological_hazards_and_natural_disasters__N3",
+      "relation": "is_type_of",
+      "strength": 8,
+      "topic": "Geological Hazards and Natural Disasters"
+    },
+    {
+      "source": "geological_hazards_and_natural_disasters__N14",
+      "target": "geological_hazards_and_natural_disasters__N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Geological Hazards and Natural Disasters"
+    },
+    {
+      "source": "geological_hazards_and_natural_disasters__N15",
+      "target": "geological_hazards_and_natural_disasters__N5",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Geological Hazards and Natural Disasters"
     }
   ],
   "cross_topic_edges": [
@@ -15407,6 +15714,13 @@
     {
       "source": "sustainable_energy__N8",
       "target": "food_security__N9",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "climate change"
+    },
+    {
+      "source": "food_security__N9",
+      "target": "geological_hazards_and_natural_disasters__N11",
       "relation": "cross_topic_connection",
       "strength": 6,
       "label": "climate change"
@@ -15657,6 +15971,13 @@
       "label": "radiation therapy"
     },
     {
+      "source": "geophysics__N2",
+      "target": "geological_hazards_and_natural_disasters__N2",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "seismology"
+    },
+    {
       "source": "demography__N3",
       "target": "archaeolinguistics__N13",
       "relation": "cross_topic_connection",
@@ -15732,7 +16053,8 @@
       "food_security",
       "archaeomagnetism",
       "soil_science",
-      "hydrogeology"
+      "hydrogeology",
+      "geological_hazards_and_natural_disasters"
     ],
     "biology": [
       "evolutionary_biology",
@@ -15805,5 +16127,5 @@
       "ethics_of_emerging_technologies"
     ]
   },
-  "last_updated": "2026-07-10T11:23:24.021548"
+  "last_updated": "2026-07-10T18:08:50.832230"
 }

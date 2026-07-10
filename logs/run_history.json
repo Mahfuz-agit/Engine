@@ -661,5 +661,18 @@
     "master_total_topics": 51,
     "ended_at": "2026-07-10T11:23:24.032152",
     "duration_seconds": 39.0
+  },
+  {
+    "started_at": "2026-07-10T18:08:14.210341",
+    "status": "success",
+    "topic": "Geological Hazards and Natural Disasters",
+    "sources_found": 6,
+    "images_found": 5,
+    "quality_score": 87.5,
+    "quality_passed": true,
+    "exam_questions": 10,
+    "master_total_topics": 52,
+    "ended_at": "2026-07-10T18:08:50.843602",
+    "duration_seconds": 36.6
   }
 ]
