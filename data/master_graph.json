@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 53,
-  "total_nodes": 794,
-  "total_edges": 969,
+  "total_topics": 54,
+  "total_nodes": 809,
+  "total_edges": 988,
   "topics": [
     {
       "topic": "Climate Change",
@@ -480,6 +480,15 @@
       "edge_count": 18,
       "description": "Climate change mitigation refers to the actions taken to reduce the amount of greenhouse gases in the atmosphere, thereby limiting the impact of climate change. This can be achieved through various methods, including the use of renewable energy sources, carbon capture and storage, and sustainable land use. The goal of climate change mitigation is to limit global warming to 1.5\u00b0C above pre-industrial levels.",
       "added_at": "2026-07-10T23:32:48.896922"
+    },
+    {
+      "topic": "Paleoecology",
+      "slug": "paleoecology",
+      "category": "biology",
+      "node_count": 15,
+      "edge_count": 19,
+      "description": "Paleoecology is the study of interactions between organisms and their environments across geologic timescales, combining paleontology, ecology, climatology, and biology to understand ancient ecosystems and extinction events. By analyzing fossil records and evolutionary adaptations, scientists can reconstruct the history of life on Earth and better understand the complex relationships between organisms and their environments. This field has significant implications for understanding climate change, conservation, and the natural world.",
+      "added_at": "2026-07-18T22:34:01.128519"
     }
   ],
   "global_nodes": [
@@ -9216,6 +9225,171 @@
       "fun_fact": "The first commercial carbon capture and storage project was launched in 1996 in Norway.",
       "topic_slug": "climate_change_mitigation",
       "topic": "Climate Change Mitigation"
+    },
+    {
+      "id": "paleoecology__N1",
+      "label": "Paleoecology",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of interactions between organisms and their environments across geologic timescales.",
+      "importance": 10,
+      "fun_fact": "The term 'paleoecology' was first coined in the 1920s by scientist Frederic Clements.",
+      "topic_slug": "paleoecology",
+      "topic": "Paleoecology"
+    },
+    {
+      "id": "paleoecology__N2",
+      "label": "Fossil Record",
+      "type": "concept",
+      "depth": 1,
+      "description": "The preserved remains or traces of ancient organisms, providing a window into the past.",
+      "importance": 9,
+      "fun_fact": "The fossil record is incomplete, with many species never having been preserved or discovered.",
+      "topic_slug": "paleoecology",
+      "topic": "Paleoecology"
+    },
+    {
+      "id": "paleoecology__N3",
+      "label": "Ancient Ecosystems",
+      "type": "concept",
+      "depth": 1,
+      "description": "The complex networks of relationships between organisms and their environments in the past.",
+      "importance": 9,
+      "fun_fact": "Ancient ecosystems can provide insights into the resilience and adaptability of life on Earth.",
+      "topic_slug": "paleoecology",
+      "topic": "Paleoecology"
+    },
+    {
+      "id": "paleoecology__N4",
+      "label": "Extinction Events",
+      "type": "concept",
+      "depth": 1,
+      "description": "Catastrophic events that have caused the loss of many species throughout Earth's history.",
+      "importance": 9,
+      "fun_fact": "The most famous extinction event is the one that wiped out the dinosaurs, but there have been many others.",
+      "topic_slug": "paleoecology",
+      "topic": "Paleoecology"
+    },
+    {
+      "id": "paleoecology__N5",
+      "label": "Evolutionary Adaptation",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process by which organisms change over time to better fit their environments.",
+      "importance": 9,
+      "fun_fact": "Evolutionary adaptation can occur through a variety of mechanisms, including natural selection and genetic drift.",
+      "topic_slug": "paleoecology",
+      "topic": "Paleoecology"
+    },
+    {
+      "id": "paleoecology__N6",
+      "label": "Quaternary Science",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the Quaternary period, which spans from approximately 2.5 million years ago to the present.",
+      "importance": 8,
+      "fun_fact": "Quaternary science encompasses a range of disciplines, including geology, ecology, and anthropology.",
+      "topic_slug": "paleoecology",
+      "topic": "Paleoecology"
+    },
+    {
+      "id": "paleoecology__N7",
+      "label": "Treatise on Marine Ecology and Paleoecology",
+      "type": "application",
+      "depth": 2,
+      "description": "A comprehensive reference work on the ecology and paleoecology of marine ecosystems.",
+      "importance": 7,
+      "fun_fact": "This treatise is a valuable resource for researchers and students in the field of marine ecology and paleoecology.",
+      "topic_slug": "paleoecology",
+      "topic": "Paleoecology"
+    },
+    {
+      "id": "paleoecology__N8",
+      "label": "The Neotoma Paleoecology Database",
+      "type": "application",
+      "depth": 2,
+      "description": "A community-curated database of paleoecological data, supporting research on global change and environmental history.",
+      "importance": 8,
+      "fun_fact": "The Neotoma database is an essential tool for scientists studying the history of ecosystems and the impacts of climate change.",
+      "topic_slug": "paleoecology",
+      "topic": "Paleoecology"
+    },
+    {
+      "id": "paleoecology__N9",
+      "label": "Plio-Pleistocene Vertebrate Assemblages",
+      "type": "example",
+      "depth": 2,
+      "description": "A study of fossil vertebrate assemblages from the Plio-Pleistocene era, providing insights into ancient ecosystems and extinction events.",
+      "importance": 6,
+      "fun_fact": "This study has shed light on the evolution and diversity of vertebrates during a critical period in Earth's history.",
+      "topic_slug": "paleoecology",
+      "topic": "Paleoecology"
+    },
+    {
+      "id": "paleoecology__N10",
+      "label": "Frederic Clements",
+      "type": "person",
+      "depth": 2,
+      "description": "An American botanist and ecologist who coined the term 'paleoecology' and made significant contributions to the field.",
+      "importance": 7,
+      "fun_fact": "Clements was a pioneer in the field of ecology and his work laid the foundation for modern paleoecology.",
+      "topic_slug": "paleoecology",
+      "topic": "Paleoecology"
+    },
+    {
+      "id": "paleoecology__N11",
+      "label": "Climate Change Research",
+      "type": "application",
+      "depth": 3,
+      "description": "The use of paleoecological data and methods to understand and predict the impacts of climate change on ecosystems and human societies.",
+      "importance": 9,
+      "fun_fact": "Paleoecology has become a crucial component of climate change research, providing a long-term perspective on the dynamics of ecosystems and the consequences of environmental change.",
+      "topic_slug": "paleoecology",
+      "topic": "Paleoecology"
+    },
+    {
+      "id": "paleoecology__N12",
+      "label": "Conservation Biology",
+      "type": "application",
+      "depth": 3,
+      "description": "The application of paleoecological principles and methods to inform conservation strategies and protect biodiversity.",
+      "importance": 8,
+      "fun_fact": "Paleoecology can provide valuable insights into the historical dynamics of ecosystems and the impacts of human activities on the environment.",
+      "topic_slug": "paleoecology",
+      "topic": "Paleoecology"
+    },
+    {
+      "id": "paleoecology__N13",
+      "label": "Fossil Fuel Extraction",
+      "type": "example",
+      "depth": 3,
+      "description": "The removal of fossil fuels from the Earth's crust, which has significant implications for climate change and the environment.",
+      "importance": 6,
+      "fun_fact": "The extraction and burning of fossil fuels have released massive amounts of carbon dioxide into the atmosphere, contributing to global warming.",
+      "topic_slug": "paleoecology",
+      "topic": "Paleoecology"
+    },
+    {
+      "id": "paleoecology__N14",
+      "label": "Natural History Museums",
+      "type": "application",
+      "depth": 3,
+      "description": "Institutions that collect, preserve, and exhibit fossils and other natural history specimens, providing a window into the past and promoting public understanding of science.",
+      "importance": 7,
+      "fun_fact": "Natural history museums are essential repositories of paleoecological knowledge and play a critical role in educating the public about the natural world.",
+      "topic_slug": "paleoecology",
+      "topic": "Paleoecology"
+    },
+    {
+      "id": "paleoecology__N15",
+      "label": "International Union for Conservation of Nature (IUCN)",
+      "type": "organization",
+      "depth": 3,
+      "description": "A global organization that works to conserve and protect species and ecosystems, using paleoecological data and methods to inform conservation strategies.",
+      "importance": 8,
+      "fun_fact": "The IUCN is a leading authority on conservation and sustainability, and its work has a significant impact on global environmental policy.",
+      "topic_slug": "paleoecology",
+      "topic": "Paleoecology"
     }
   ],
   "global_edges": [
@@ -16001,6 +16175,139 @@
       "relation": "is_type_of",
       "strength": 7,
       "topic": "Climate Change Mitigation"
+    },
+    {
+      "source": "paleoecology__N1",
+      "target": "paleoecology__N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Paleoecology"
+    },
+    {
+      "source": "paleoecology__N1",
+      "target": "paleoecology__N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Paleoecology"
+    },
+    {
+      "source": "paleoecology__N1",
+      "target": "paleoecology__N4",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Paleoecology"
+    },
+    {
+      "source": "paleoecology__N1",
+      "target": "paleoecology__N5",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Paleoecology"
+    },
+    {
+      "source": "paleoecology__N1",
+      "target": "paleoecology__N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Paleoecology"
+    },
+    {
+      "source": "paleoecology__N2",
+      "target": "paleoecology__N7",
+      "relation": "used_in",
+      "strength": 7,
+      "topic": "Paleoecology"
+    },
+    {
+      "source": "paleoecology__N3",
+      "target": "paleoecology__N8",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Paleoecology"
+    },
+    {
+      "source": "paleoecology__N4",
+      "target": "paleoecology__N9",
+      "relation": "related_to",
+      "strength": 6,
+      "topic": "Paleoecology"
+    },
+    {
+      "source": "paleoecology__N5",
+      "target": "paleoecology__N10",
+      "relation": "discovered_by",
+      "strength": 7,
+      "topic": "Paleoecology"
+    },
+    {
+      "source": "paleoecology__N6",
+      "target": "paleoecology__N11",
+      "relation": "enables",
+      "strength": 9,
+      "topic": "Paleoecology"
+    },
+    {
+      "source": "paleoecology__N7",
+      "target": "paleoecology__N12",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Paleoecology"
+    },
+    {
+      "source": "paleoecology__N8",
+      "target": "paleoecology__N13",
+      "relation": "contrasts_with",
+      "strength": 6,
+      "topic": "Paleoecology"
+    },
+    {
+      "source": "paleoecology__N9",
+      "target": "paleoecology__N14",
+      "relation": "used_in",
+      "strength": 7,
+      "topic": "Paleoecology"
+    },
+    {
+      "source": "paleoecology__N10",
+      "target": "paleoecology__N15",
+      "relation": "collaborated_with",
+      "strength": 8,
+      "topic": "Paleoecology"
+    },
+    {
+      "source": "paleoecology__N11",
+      "target": "paleoecology__N1",
+      "relation": "depends_on",
+      "strength": 9,
+      "topic": "Paleoecology"
+    },
+    {
+      "source": "paleoecology__N12",
+      "target": "paleoecology__N1",
+      "relation": "depends_on",
+      "strength": 8,
+      "topic": "Paleoecology"
+    },
+    {
+      "source": "paleoecology__N13",
+      "target": "paleoecology__N1",
+      "relation": "contrasts_with",
+      "strength": 6,
+      "topic": "Paleoecology"
+    },
+    {
+      "source": "paleoecology__N14",
+      "target": "paleoecology__N1",
+      "relation": "used_in",
+      "strength": 7,
+      "topic": "Paleoecology"
+    },
+    {
+      "source": "paleoecology__N15",
+      "target": "paleoecology__N1",
+      "relation": "collaborated_with",
+      "strength": 8,
+      "topic": "Paleoecology"
     }
   ],
   "cross_topic_edges": [
@@ -16091,6 +16398,13 @@
     {
       "source": "ethnobotany__N6",
       "target": "biodiversity__N4",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "conservation biology"
+    },
+    {
+      "source": "biodiversity__N4",
+      "target": "paleoecology__N12",
       "relation": "cross_topic_connection",
       "strength": 6,
       "label": "conservation biology"
@@ -16378,7 +16692,8 @@
       "ethology",
       "biodiversity",
       "human_nutrition",
-      "ethnopharmacology"
+      "ethnopharmacology",
+      "paleoecology"
     ],
     "psychology": [
       "neuroplasticity",
@@ -16437,5 +16752,5 @@
       "climate_change_mitigation"
     ]
   },
-  "last_updated": "2026-07-10T23:32:48.896957"
+  "last_updated": "2026-07-18T22:34:01.128561"
 }
