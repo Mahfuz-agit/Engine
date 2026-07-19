@@ -1,0 +1,377 @@
+{
+  "topic": "Ecological Economics",
+  "category": "economics",
+  "description": "Ecological economics is a transdisciplinary field that addresses the interdependence and coevolution of human economies and natural ecosystems. It emphasizes the preservation of natural capital and treats the economy as a subsystem of Earth's larger ecosystem. This field is differentiated from environmental economics by its focus on strong sustainability and the rejection of physical capital as a substitute for natural capital.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Ecological Economics",
+      "type": "core",
+      "depth": 0,
+      "description": "A transdisciplinary field that addresses the interdependence and coevolution of human economies and natural ecosystems.",
+      "importance": 10,
+      "fun_fact": "Ecological economics has its roots in the 1960s and 1970s, when scientists began to recognize the limitations of traditional economic thought in addressing environmental issues."
+    },
+    {
+      "id": "N2",
+      "label": "Environmental Valuation",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process of assigning economic value to environmental goods and services, such as clean air and water, and ecosystem services, such as pollination and climate regulation.",
+      "importance": 9,
+      "fun_fact": "Environmental valuation is a crucial aspect of ecological economics, as it helps to internalize the environmental costs of economic activities and promote sustainable development."
+    },
+    {
+      "id": "N3",
+      "label": "Sustainable Development",
+      "type": "concept",
+      "depth": 1,
+      "description": "A development path that meets the needs of the present without compromising the ability of future generations to meet their own needs.",
+      "importance": 9,
+      "fun_fact": "Sustainable development is a core principle of ecological economics, as it recognizes the need to balance economic, social, and environmental objectives to achieve long-term sustainability."
+    },
+    {
+      "id": "N4",
+      "label": "Resource Depletion",
+      "type": "concept",
+      "depth": 1,
+      "description": "The depletion of natural resources, such as fossil fuels, water, and soil, due to overconsumption and unsustainable use.",
+      "importance": 8,
+      "fun_fact": "Resource depletion is a major concern in ecological economics, as it threatens the long-term sustainability of human economies and ecosystems."
+    },
+    {
+      "id": "N5",
+      "label": "Climate Change Economics",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the economic impacts of climate change and the economic benefits of reducing greenhouse gas emissions.",
+      "importance": 9,
+      "fun_fact": "Climate change economics is a rapidly growing field that recognizes the need to integrate climate change into economic decision-making and policy."
+    },
+    {
+      "id": "N6",
+      "label": "Human Well-being Metrics",
+      "type": "concept",
+      "depth": 1,
+      "description": "Measures of human well-being that go beyond traditional economic indicators, such as GDP, to include social and environmental aspects of well-being.",
+      "importance": 8,
+      "fun_fact": "Human well-being metrics are essential in ecological economics, as they help to capture the full range of benefits and costs associated with economic activities."
+    },
+    {
+      "id": "N7",
+      "label": "Otto Neurath",
+      "type": "person",
+      "depth": 2,
+      "description": "An Austrian philosopher and economist who influenced the development of ecological economics through his work on the left Vienna Circle.",
+      "importance": 7,
+      "fun_fact": "Neurath's work on the concept of 'natural capital' laid the foundation for modern ecological economics."
+    },
+    {
+      "id": "N8",
+      "label": "Left Vienna Circle",
+      "type": "event",
+      "depth": 2,
+      "description": "A group of philosophers and scientists who met in Vienna in the 1920s and 1930s to discuss the intersection of philosophy, science, and politics.",
+      "importance": 6,
+      "fun_fact": "The left Vienna Circle played a significant role in shaping the intellectual roots of ecological economics."
+    },
+    {
+      "id": "N9",
+      "label": "Ecological Footprint Analysis",
+      "type": "application",
+      "depth": 2,
+      "description": "A method for measuring the environmental impact of human activities, such as consumption and production patterns.",
+      "importance": 8,
+      "fun_fact": "Ecological footprint analysis is a widely used tool in ecological economics to assess the sustainability of human activities."
+    },
+    {
+      "id": "N10",
+      "label": "Natural Capital",
+      "type": "concept",
+      "depth": 2,
+      "description": "The stock of natural resources, such as forests, soil, and water, that provide ecosystem services and support human well-being.",
+      "importance": 9,
+      "fun_fact": "Natural capital is a central concept in ecological economics, as it recognizes the importance of preserving and restoring natural resources for long-term sustainability."
+    },
+    {
+      "id": "N11",
+      "label": "Green Economy",
+      "type": "application",
+      "depth": 2,
+      "description": "An economy that is low-carbon, resource-efficient, and socially inclusive, and that promotes sustainable development and human well-being.",
+      "importance": 8,
+      "fun_fact": "The green economy is a key application of ecological economics, as it seeks to transform economic systems to prioritize sustainability and environmental protection."
+    },
+    {
+      "id": "N12",
+      "label": "Climate Change Mitigation",
+      "type": "application",
+      "depth": 2,
+      "description": "Efforts to reduce greenhouse gas emissions and mitigate the impacts of climate change.",
+      "importance": 9,
+      "fun_fact": "Climate change mitigation is a critical application of ecological economics, as it recognizes the need to address the economic and environmental implications of climate change."
+    },
+    {
+      "id": "N13",
+      "label": "Sustainable Development Goals",
+      "type": "event",
+      "depth": 2,
+      "description": "A set of global goals adopted by the United Nations in 2015 to promote sustainable development and address global challenges.",
+      "importance": 8,
+      "fun_fact": "The Sustainable Development Goals recognize the importance of integrating economic, social, and environmental objectives to achieve long-term sustainability."
+    },
+    {
+      "id": "N14",
+      "label": "Environmental Economics",
+      "type": "concept",
+      "depth": 2,
+      "description": "A field of economics that studies the economic aspects of environmental issues and policies.",
+      "importance": 7,
+      "fun_fact": "Environmental economics is a related field to ecological economics, but it tends to focus more on the economic analysis of environmental issues rather than the integration of economic and ecological systems."
+    },
+    {
+      "id": "N15",
+      "label": "Ecosystem Services",
+      "type": "concept",
+      "depth": 2,
+      "description": "The benefits that humans derive from functioning ecosystems, such as clean air and water, and climate regulation.",
+      "importance": 8,
+      "fun_fact": "Ecosystem services are a critical aspect of ecological economics, as they recognize the importance of preserving and restoring natural ecosystems to support human well-being."
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Environmental valuation is a key aspect of ecological economics, as it helps to internalize the environmental costs of economic activities."
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Sustainable development is a core principle of ecological economics, as it recognizes the need to balance economic, social, and environmental objectives to achieve long-term sustainability."
+    },
+    {
+      "source": "N1",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Resource depletion is a major concern in ecological economics, as it threatens the long-term sustainability of human economies and ecosystems."
+    },
+    {
+      "source": "N1",
+      "target": "N5",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Climate change economics is a rapidly growing field that recognizes the need to integrate climate change into economic decision-making and policy."
+    },
+    {
+      "source": "N1",
+      "target": "N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Human well-being metrics are essential in ecological economics, as they help to capture the full range of benefits and costs associated with economic activities."
+    },
+    {
+      "source": "N2",
+      "target": "N9",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Ecological footprint analysis is a widely used tool in ecological economics to assess the sustainability of human activities."
+    },
+    {
+      "source": "N3",
+      "target": "N11",
+      "relation": "enables",
+      "strength": 8,
+      "description": "The green economy is a key application of ecological economics, as it seeks to transform economic systems to prioritize sustainability and environmental protection."
+    },
+    {
+      "source": "N4",
+      "target": "N10",
+      "relation": "depends_on",
+      "strength": 8,
+      "description": "Natural capital is a central concept in ecological economics, as it recognizes the importance of preserving and restoring natural resources for long-term sustainability."
+    },
+    {
+      "source": "N5",
+      "target": "N12",
+      "relation": "enables",
+      "strength": 9,
+      "description": "Climate change mitigation is a critical application of ecological economics, as it recognizes the need to address the economic and environmental implications of climate change."
+    },
+    {
+      "source": "N6",
+      "target": "N15",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "Ecosystem services are a critical aspect of ecological economics, as they recognize the importance of preserving and restoring natural ecosystems to support human well-being."
+    },
+    {
+      "source": "N7",
+      "target": "N1",
+      "relation": "influenced",
+      "strength": 7,
+      "description": "Otto Neurath's work on the concept of 'natural capital' laid the foundation for modern ecological economics."
+    },
+    {
+      "source": "N8",
+      "target": "N7",
+      "relation": "is_part_of",
+      "strength": 6,
+      "description": "The left Vienna Circle played a significant role in shaping the intellectual roots of ecological economics."
+    },
+    {
+      "source": "N9",
+      "target": "N10",
+      "relation": "depends_on",
+      "strength": 8,
+      "description": "Natural capital is a critical aspect of ecological footprint analysis, as it recognizes the importance of preserving and restoring natural resources for long-term sustainability."
+    },
+    {
+      "source": "N11",
+      "target": "N13",
+      "relation": "enables",
+      "strength": 8,
+      "description": "The Sustainable Development Goals recognize the importance of integrating economic, social, and environmental objectives to achieve long-term sustainability."
+    },
+    {
+      "source": "N12",
+      "target": "N5",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Climate change mitigation is a critical aspect of climate change economics, as it recognizes the need to address the economic and environmental implications of climate change."
+    },
+    {
+      "source": "N13",
+      "target": "N1",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "The Sustainable Development Goals are a key application of ecological economics, as they recognize the importance of integrating economic, social, and environmental objectives to achieve long-term sustainability."
+    },
+    {
+      "source": "N14",
+      "target": "N1",
+      "relation": "contrasts_with",
+      "strength": 7,
+      "description": "Environmental economics is a related field to ecological economics, but it tends to focus more on the economic analysis of environmental issues rather than the integration of economic and ecological systems."
+    },
+    {
+      "source": "N15",
+      "target": "N10",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Ecosystem services are a critical aspect of natural capital, as they recognize the importance of preserving and restoring natural ecosystems to support human well-being."
+    }
+  ],
+  "key_takeaways": [
+    "Ecological economics is a transdisciplinary field that addresses the interdependence and coevolution of human economies and natural ecosystems.",
+    "Sustainable development is a core principle of ecological economics, as it recognizes the need to balance economic, social, and environmental objectives to achieve long-term sustainability.",
+    "Climate change economics is a rapidly growing field that recognizes the need to integrate climate change into economic decision-making and policy."
+  ],
+  "real_world_impact": "Ecological economics has a significant impact on real-world decision-making, as it recognizes the need to integrate economic, social, and environmental objectives to achieve long-term sustainability. For example, the green economy is a key application of ecological economics, as it seeks to transform economic systems to prioritize sustainability and environmental protection. Additionally, climate change mitigation is a critical aspect of ecological economics, as it recognizes the need to address the economic and environmental implications of climate change. The Sustainable Development Goals are also a key application of ecological economics, as they recognize the importance of integrating economic, social, and environmental objectives to achieve long-term sustainability.",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Bee_pollinating_Aquilegia_vulgaris.JPG",
+      "title": "Bee pollinating Aquilegia vulgaris.JPG",
+      "license": "CC BY-SA 3.0",
+      "artist": "Roo72",
+      "description": "Bumblebee pollinating Aquilegia vulgaris",
+      "width": 1662,
+      "height": 1662,
+      "source_query": "Ecological Economics"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Bioeconomics_fig3_1.png",
+      "title": "Bioeconomics fig3 1.png",
+      "license": "Public domain",
+      "artist": "",
+      "description": "",
+      "width": 396,
+      "height": 399,
+      "source_query": "Ecological Economics"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Bioeconomics_fig3_2.png",
+      "title": "Bioeconomics fig3 2.png",
+      "license": "Public domain",
+      "artist": "",
+      "description": "",
+      "width": 400,
+      "height": 397,
+      "source_query": "Ecological Economics"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/High_life_expectancy_can_be_achieved_with_low_CO2_emissions-TR.jpg",
+      "title": "High life expectancy can be achieved with low CO2 emissions-TR.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Richard G. Wilkinson & Kate Pickett, Penguin 2009. derivative: uralunlucayakli",
+      "description": "Ruhsal D\u00fczey: Neden Daha E\u015fit Toplumlar Neredeyse Her Zaman Daha \u0130yidir",
+      "width": 1120,
+      "height": 896,
+      "source_query": "Ecological Economics"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Highlight_Findings_of_the_WA_S0E_2007_report.gif",
+      "title": "Highlight Findings of the WA S0E 2007 report.gif",
+      "license": "Public domain",
+      "artist": "John D. Croft",
+      "description": "Redrawn from by the author from the publicly available State of the Environment Report 2007, produced by the Western Australian Government.",
+      "width": 960,
+      "height": 720,
+      "source_query": "Ecological Economics"
+    }
+  ],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ecological_economics",
+    "papers": [
+      {
+        "title": "New foundations for ecological economics",
+        "url": "https://doi.org/10.1016/j.ecolecon.2012.02.004"
+      },
+      {
+        "title": "Handbook of Ecological Economics",
+        "url": "https://doi.org/10.4337/9781783471416"
+      },
+      {
+        "title": "Ecological footprints and appropriated carrying capacity: what urban economics leaves out",
+        "url": "https://doi.org/10.1177/095624789200400212"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 18"
+      ],
+      "node_count": 15,
+      "edge_count": 18
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Biodiversity Conservation",
+        "Environmental Policy"
+      ],
+      "strengths": [
+        "Clear representation of core concepts",
+        "Relevant connections between nodes"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

@@ -1,0 +1,164 @@
+{
+  "topic": "Ecological Economics",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary focus of ecological economics?",
+      "options": {
+        "A": "To maximize economic growth and profit",
+        "B": "To balance economic, social, and environmental objectives",
+        "C": "To prioritize environmental protection over economic development",
+        "D": "To promote the use of renewable energy sources"
+      },
+      "correct": "B",
+      "explanation": "Ecological economics aims to balance economic, social, and environmental objectives to achieve long-term sustainability.",
+      "node_id": "Ecological Economics",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the main difference between ecological economics and environmental economics?",
+      "options": {
+        "A": "Ecological economics focuses on the economic aspects of environmental issues, while environmental economics focuses on the ecological aspects of economic issues",
+        "B": "Ecological economics prioritizes economic growth, while environmental economics prioritizes environmental protection",
+        "C": "Ecological economics treats the economy as a subsystem of the environment, while environmental economics treats the environment as a subsystem of the economy",
+        "D": "Ecological economics focuses on strong sustainability, while environmental economics focuses on weak sustainability"
+      },
+      "correct": "D",
+      "explanation": "Ecological economics focuses on strong sustainability, which emphasizes the preservation of natural capital and the rejection of physical capital as a substitute for natural capital.",
+      "node_id": "Ecological Economics",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the concept of 'natural capital' in ecological economics?",
+      "options": {
+        "A": "The stock of human-made capital, such as buildings and infrastructure",
+        "B": "The stock of natural resources, such as forests, soil, and water, that provide ecosystem services and support human well-being",
+        "C": "The flow of natural resources, such as fossil fuels and minerals, that are used to produce goods and services",
+        "D": "The value of ecosystem services, such as pollination and climate regulation, that are provided by natural ecosystems"
+      },
+      "correct": "B",
+      "explanation": "Natural capital refers to the stock of natural resources that provide ecosystem services and support human well-being.",
+      "node_id": "Natural Capital",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the goal of sustainable development in ecological economics?",
+      "options": {
+        "A": "To maximize economic growth and profit",
+        "B": "To balance economic, social, and environmental objectives to achieve long-term sustainability",
+        "C": "To prioritize environmental protection over economic development",
+        "D": "To promote the use of renewable energy sources"
+      },
+      "correct": "B",
+      "explanation": "Sustainable development aims to balance economic, social, and environmental objectives to achieve long-term sustainability.",
+      "node_id": "Sustainable Development",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the purpose of environmental valuation in ecological economics?",
+      "options": {
+        "A": "To assign economic value to environmental goods and services",
+        "B": "To prioritize environmental protection over economic development",
+        "C": "To promote the use of renewable energy sources",
+        "D": "To maximize economic growth and profit"
+      },
+      "correct": "A",
+      "explanation": "Environmental valuation is the process of assigning economic value to environmental goods and services, such as clean air and water, and ecosystem services, such as pollination and climate regulation.",
+      "node_id": "Environmental Valuation",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the concept of 'ecological footprint' in ecological economics?",
+      "options": {
+        "A": "A measure of the environmental impact of human activities, such as consumption and production patterns",
+        "B": "A measure of the economic benefits of environmental protection",
+        "C": "A measure of the social costs of environmental degradation",
+        "D": "A measure of the economic value of ecosystem services"
+      },
+      "correct": "A",
+      "explanation": "Ecological footprint is a measure of the environmental impact of human activities, such as consumption and production patterns.",
+      "node_id": "Ecological Footprint Analysis",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the main goal of climate change economics in ecological economics?",
+      "options": {
+        "A": "To maximize economic growth and profit",
+        "B": "To prioritize environmental protection over economic development",
+        "C": "To integrate climate change into economic decision-making and policy",
+        "D": "To promote the use of renewable energy sources"
+      },
+      "correct": "C",
+      "explanation": "Climate change economics aims to integrate climate change into economic decision-making and policy.",
+      "node_id": "Climate Change Economics",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Explain the concept of 'human well-being metrics' in ecological economics.",
+      "sample_answer": "Human well-being metrics refer to measures of human well-being that go beyond traditional economic indicators, such as GDP, to include social and environmental aspects of well-being. These metrics can include indicators such as life expectancy, education, and access to clean air and water.",
+      "keywords": [
+        "human well-being",
+        "metrics",
+        "social",
+        "environmental"
+      ],
+      "node_id": "Human Well-being Metrics",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Discuss the importance of preserving natural capital in ecological economics.",
+      "sample_answer": "Preserving natural capital is important in ecological economics because it provides ecosystem services and supports human well-being. Natural capital is a critical component of the economy, and its degradation can have significant economic and social costs. Preserving natural capital requires a shift in economic decision-making and policy to prioritize sustainability and environmental protection.",
+      "keywords": [
+        "natural capital",
+        "preservation",
+        "ecosystem services",
+        "human well-being"
+      ],
+      "node_id": "Natural Capital",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Explain the concept of 'green economy' in ecological economics.",
+      "sample_answer": "A green economy is an economy that is low-carbon, resource-efficient, and socially inclusive, and that promotes sustainable development and human well-being. A green economy seeks to transform economic systems to prioritize sustainability and environmental protection, and to promote the use of renewable energy sources and sustainable technologies.",
+      "keywords": [
+        "green economy",
+        "sustainable development",
+        "low-carbon",
+        "resource-efficient"
+      ],
+      "node_id": "Green Economy",
+      "points": 10
+    }
+  ]
+}

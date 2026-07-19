@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 54,
-  "total_nodes": 809,
-  "total_edges": 988,
+  "total_topics": 55,
+  "total_nodes": 824,
+  "total_edges": 1006,
   "topics": [
     {
       "topic": "Climate Change",
@@ -489,6 +489,15 @@
       "edge_count": 19,
       "description": "Paleoecology is the study of interactions between organisms and their environments across geologic timescales, combining paleontology, ecology, climatology, and biology to understand ancient ecosystems and extinction events. By analyzing fossil records and evolutionary adaptations, scientists can reconstruct the history of life on Earth and better understand the complex relationships between organisms and their environments. This field has significant implications for understanding climate change, conservation, and the natural world.",
       "added_at": "2026-07-18T22:34:01.128519"
+    },
+    {
+      "topic": "Ecological Economics",
+      "slug": "ecological_economics",
+      "category": "economics",
+      "node_count": 15,
+      "edge_count": 18,
+      "description": "Ecological economics is a transdisciplinary field that addresses the interdependence and coevolution of human economies and natural ecosystems. It emphasizes the preservation of natural capital and treats the economy as a subsystem of Earth's larger ecosystem. This field is differentiated from environmental economics by its focus on strong sustainability and the rejection of physical capital as a substitute for natural capital.",
+      "added_at": "2026-07-19T07:50:03.371053"
     }
   ],
   "global_nodes": [
@@ -9390,6 +9399,171 @@
       "fun_fact": "The IUCN is a leading authority on conservation and sustainability, and its work has a significant impact on global environmental policy.",
       "topic_slug": "paleoecology",
       "topic": "Paleoecology"
+    },
+    {
+      "id": "ecological_economics__N1",
+      "label": "Ecological Economics",
+      "type": "core",
+      "depth": 0,
+      "description": "A transdisciplinary field that addresses the interdependence and coevolution of human economies and natural ecosystems.",
+      "importance": 10,
+      "fun_fact": "Ecological economics has its roots in the 1960s and 1970s, when scientists began to recognize the limitations of traditional economic thought in addressing environmental issues.",
+      "topic_slug": "ecological_economics",
+      "topic": "Ecological Economics"
+    },
+    {
+      "id": "ecological_economics__N2",
+      "label": "Environmental Valuation",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process of assigning economic value to environmental goods and services, such as clean air and water, and ecosystem services, such as pollination and climate regulation.",
+      "importance": 9,
+      "fun_fact": "Environmental valuation is a crucial aspect of ecological economics, as it helps to internalize the environmental costs of economic activities and promote sustainable development.",
+      "topic_slug": "ecological_economics",
+      "topic": "Ecological Economics"
+    },
+    {
+      "id": "ecological_economics__N3",
+      "label": "Sustainable Development",
+      "type": "concept",
+      "depth": 1,
+      "description": "A development path that meets the needs of the present without compromising the ability of future generations to meet their own needs.",
+      "importance": 9,
+      "fun_fact": "Sustainable development is a core principle of ecological economics, as it recognizes the need to balance economic, social, and environmental objectives to achieve long-term sustainability.",
+      "topic_slug": "ecological_economics",
+      "topic": "Ecological Economics"
+    },
+    {
+      "id": "ecological_economics__N4",
+      "label": "Resource Depletion",
+      "type": "concept",
+      "depth": 1,
+      "description": "The depletion of natural resources, such as fossil fuels, water, and soil, due to overconsumption and unsustainable use.",
+      "importance": 8,
+      "fun_fact": "Resource depletion is a major concern in ecological economics, as it threatens the long-term sustainability of human economies and ecosystems.",
+      "topic_slug": "ecological_economics",
+      "topic": "Ecological Economics"
+    },
+    {
+      "id": "ecological_economics__N5",
+      "label": "Climate Change Economics",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the economic impacts of climate change and the economic benefits of reducing greenhouse gas emissions.",
+      "importance": 9,
+      "fun_fact": "Climate change economics is a rapidly growing field that recognizes the need to integrate climate change into economic decision-making and policy.",
+      "topic_slug": "ecological_economics",
+      "topic": "Ecological Economics"
+    },
+    {
+      "id": "ecological_economics__N6",
+      "label": "Human Well-being Metrics",
+      "type": "concept",
+      "depth": 1,
+      "description": "Measures of human well-being that go beyond traditional economic indicators, such as GDP, to include social and environmental aspects of well-being.",
+      "importance": 8,
+      "fun_fact": "Human well-being metrics are essential in ecological economics, as they help to capture the full range of benefits and costs associated with economic activities.",
+      "topic_slug": "ecological_economics",
+      "topic": "Ecological Economics"
+    },
+    {
+      "id": "ecological_economics__N7",
+      "label": "Otto Neurath",
+      "type": "person",
+      "depth": 2,
+      "description": "An Austrian philosopher and economist who influenced the development of ecological economics through his work on the left Vienna Circle.",
+      "importance": 7,
+      "fun_fact": "Neurath's work on the concept of 'natural capital' laid the foundation for modern ecological economics.",
+      "topic_slug": "ecological_economics",
+      "topic": "Ecological Economics"
+    },
+    {
+      "id": "ecological_economics__N8",
+      "label": "Left Vienna Circle",
+      "type": "event",
+      "depth": 2,
+      "description": "A group of philosophers and scientists who met in Vienna in the 1920s and 1930s to discuss the intersection of philosophy, science, and politics.",
+      "importance": 6,
+      "fun_fact": "The left Vienna Circle played a significant role in shaping the intellectual roots of ecological economics.",
+      "topic_slug": "ecological_economics",
+      "topic": "Ecological Economics"
+    },
+    {
+      "id": "ecological_economics__N9",
+      "label": "Ecological Footprint Analysis",
+      "type": "application",
+      "depth": 2,
+      "description": "A method for measuring the environmental impact of human activities, such as consumption and production patterns.",
+      "importance": 8,
+      "fun_fact": "Ecological footprint analysis is a widely used tool in ecological economics to assess the sustainability of human activities.",
+      "topic_slug": "ecological_economics",
+      "topic": "Ecological Economics"
+    },
+    {
+      "id": "ecological_economics__N10",
+      "label": "Natural Capital",
+      "type": "concept",
+      "depth": 2,
+      "description": "The stock of natural resources, such as forests, soil, and water, that provide ecosystem services and support human well-being.",
+      "importance": 9,
+      "fun_fact": "Natural capital is a central concept in ecological economics, as it recognizes the importance of preserving and restoring natural resources for long-term sustainability.",
+      "topic_slug": "ecological_economics",
+      "topic": "Ecological Economics"
+    },
+    {
+      "id": "ecological_economics__N11",
+      "label": "Green Economy",
+      "type": "application",
+      "depth": 2,
+      "description": "An economy that is low-carbon, resource-efficient, and socially inclusive, and that promotes sustainable development and human well-being.",
+      "importance": 8,
+      "fun_fact": "The green economy is a key application of ecological economics, as it seeks to transform economic systems to prioritize sustainability and environmental protection.",
+      "topic_slug": "ecological_economics",
+      "topic": "Ecological Economics"
+    },
+    {
+      "id": "ecological_economics__N12",
+      "label": "Climate Change Mitigation",
+      "type": "application",
+      "depth": 2,
+      "description": "Efforts to reduce greenhouse gas emissions and mitigate the impacts of climate change.",
+      "importance": 9,
+      "fun_fact": "Climate change mitigation is a critical application of ecological economics, as it recognizes the need to address the economic and environmental implications of climate change.",
+      "topic_slug": "ecological_economics",
+      "topic": "Ecological Economics"
+    },
+    {
+      "id": "ecological_economics__N13",
+      "label": "Sustainable Development Goals",
+      "type": "event",
+      "depth": 2,
+      "description": "A set of global goals adopted by the United Nations in 2015 to promote sustainable development and address global challenges.",
+      "importance": 8,
+      "fun_fact": "The Sustainable Development Goals recognize the importance of integrating economic, social, and environmental objectives to achieve long-term sustainability.",
+      "topic_slug": "ecological_economics",
+      "topic": "Ecological Economics"
+    },
+    {
+      "id": "ecological_economics__N14",
+      "label": "Environmental Economics",
+      "type": "concept",
+      "depth": 2,
+      "description": "A field of economics that studies the economic aspects of environmental issues and policies.",
+      "importance": 7,
+      "fun_fact": "Environmental economics is a related field to ecological economics, but it tends to focus more on the economic analysis of environmental issues rather than the integration of economic and ecological systems.",
+      "topic_slug": "ecological_economics",
+      "topic": "Ecological Economics"
+    },
+    {
+      "id": "ecological_economics__N15",
+      "label": "Ecosystem Services",
+      "type": "concept",
+      "depth": 2,
+      "description": "The benefits that humans derive from functioning ecosystems, such as clean air and water, and climate regulation.",
+      "importance": 8,
+      "fun_fact": "Ecosystem services are a critical aspect of ecological economics, as they recognize the importance of preserving and restoring natural ecosystems to support human well-being.",
+      "topic_slug": "ecological_economics",
+      "topic": "Ecological Economics"
     }
   ],
   "global_edges": [
@@ -16308,6 +16482,132 @@
       "relation": "collaborated_with",
       "strength": 8,
       "topic": "Paleoecology"
+    },
+    {
+      "source": "ecological_economics__N1",
+      "target": "ecological_economics__N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Ecological Economics"
+    },
+    {
+      "source": "ecological_economics__N1",
+      "target": "ecological_economics__N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Ecological Economics"
+    },
+    {
+      "source": "ecological_economics__N1",
+      "target": "ecological_economics__N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Ecological Economics"
+    },
+    {
+      "source": "ecological_economics__N1",
+      "target": "ecological_economics__N5",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Ecological Economics"
+    },
+    {
+      "source": "ecological_economics__N1",
+      "target": "ecological_economics__N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Ecological Economics"
+    },
+    {
+      "source": "ecological_economics__N2",
+      "target": "ecological_economics__N9",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Ecological Economics"
+    },
+    {
+      "source": "ecological_economics__N3",
+      "target": "ecological_economics__N11",
+      "relation": "enables",
+      "strength": 8,
+      "topic": "Ecological Economics"
+    },
+    {
+      "source": "ecological_economics__N4",
+      "target": "ecological_economics__N10",
+      "relation": "depends_on",
+      "strength": 8,
+      "topic": "Ecological Economics"
+    },
+    {
+      "source": "ecological_economics__N5",
+      "target": "ecological_economics__N12",
+      "relation": "enables",
+      "strength": 9,
+      "topic": "Ecological Economics"
+    },
+    {
+      "source": "ecological_economics__N6",
+      "target": "ecological_economics__N15",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Ecological Economics"
+    },
+    {
+      "source": "ecological_economics__N7",
+      "target": "ecological_economics__N1",
+      "relation": "influenced",
+      "strength": 7,
+      "topic": "Ecological Economics"
+    },
+    {
+      "source": "ecological_economics__N8",
+      "target": "ecological_economics__N7",
+      "relation": "is_part_of",
+      "strength": 6,
+      "topic": "Ecological Economics"
+    },
+    {
+      "source": "ecological_economics__N9",
+      "target": "ecological_economics__N10",
+      "relation": "depends_on",
+      "strength": 8,
+      "topic": "Ecological Economics"
+    },
+    {
+      "source": "ecological_economics__N11",
+      "target": "ecological_economics__N13",
+      "relation": "enables",
+      "strength": 8,
+      "topic": "Ecological Economics"
+    },
+    {
+      "source": "ecological_economics__N12",
+      "target": "ecological_economics__N5",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Ecological Economics"
+    },
+    {
+      "source": "ecological_economics__N13",
+      "target": "ecological_economics__N1",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Ecological Economics"
+    },
+    {
+      "source": "ecological_economics__N14",
+      "target": "ecological_economics__N1",
+      "relation": "contrasts_with",
+      "strength": 7,
+      "topic": "Ecological Economics"
+    },
+    {
+      "source": "ecological_economics__N15",
+      "target": "ecological_economics__N10",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Ecological Economics"
     }
   ],
   "cross_topic_edges": [
@@ -16361,6 +16661,13 @@
       "label": "sustainable development"
     },
     {
+      "source": "soil_science__sustainable_development",
+      "target": "ecological_economics__N3",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "sustainable development"
+    },
+    {
       "source": "climate_change__N5",
       "target": "oceanography__N9",
       "relation": "cross_topic_connection",
@@ -16384,6 +16691,13 @@
     {
       "source": "ecological_conservation__N3",
       "target": "biodiversity__N3",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "ecosystem services"
+    },
+    {
+      "source": "biodiversity__N3",
+      "target": "ecological_economics__N15",
       "relation": "cross_topic_connection",
       "strength": 6,
       "label": "ecosystem services"
@@ -16655,11 +16969,25 @@
       "label": "precision agriculture"
     },
     {
+      "source": "food_security__N13",
+      "target": "ecological_economics__N13",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "sustainable development goals"
+    },
+    {
       "source": "anthropology__N3",
       "target": "archaeolinguistics__N14",
       "relation": "cross_topic_connection",
       "strength": 6,
       "label": "linguistic anthropology"
+    },
+    {
+      "source": "climate_change_mitigation__CCM",
+      "target": "ecological_economics__N12",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "climate change mitigation"
     }
   ],
   "category_map": {
@@ -16750,7 +17078,10 @@
     ],
     "environmental_science": [
       "climate_change_mitigation"
+    ],
+    "economics": [
+      "ecological_economics"
     ]
   },
-  "last_updated": "2026-07-18T22:34:01.128561"
+  "last_updated": "2026-07-19T07:50:03.371089"
 }
