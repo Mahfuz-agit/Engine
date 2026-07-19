@@ -1,0 +1,161 @@
+{
+  "topic": "Ecological Restoration",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary goal of ecological restoration?",
+      "options": {
+        "A": "To promote biodiversity recovery and ecosystem resilience",
+        "B": "To reduce greenhouse gas emissions",
+        "C": "To increase food production",
+        "D": "To extract natural resources"
+      },
+      "correct": "A",
+      "explanation": "Ecological restoration aims to recover ecosystem services, biodiversity, and habitat reconstruction, which aligns with promoting biodiversity recovery and ecosystem resilience.",
+      "node_id": "Ecological Restoration",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which organization plays a key role in advancing the science, practice, and policy of ecological restoration?",
+      "options": {
+        "A": "The Society for Conservation Biology",
+        "B": "The Society for Ecological Restoration (SER)",
+        "C": "The International Union for Conservation of Nature (IUCN)",
+        "D": "The World Wildlife Fund (WWF)"
+      },
+      "correct": "B",
+      "explanation": "The Society for Ecological Restoration (SER) is an international non-profit organization that advances the science, practice, and policy of ecological restoration.",
+      "node_id": "The Society for Ecological Restoration (SER)",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the benefits that humans derive from functioning ecosystems, including clean air and water, soil formation, and climate regulation?",
+      "options": {
+        "A": "Ecosystem services",
+        "B": "Biodiversity recovery",
+        "C": "Habitat reconstruction",
+        "D": "Sustainable land use"
+      },
+      "correct": "A",
+      "explanation": "Ecosystem services refer to the benefits that humans derive from functioning ecosystems, which include essential services like clean air and water, soil formation, and climate regulation.",
+      "node_id": "Ecosystem Services",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the process of rebuilding or restoring habitats that have been degraded or destroyed?",
+      "options": {
+        "A": "Habitat conservation",
+        "B": "Habitat reconstruction",
+        "C": "Ecosystem restoration",
+        "D": "Biodiversity recovery"
+      },
+      "correct": "B",
+      "explanation": "Habitat reconstruction is the process of rebuilding or restoring habitats that have been degraded or destroyed, which is a critical component of ecological restoration.",
+      "node_id": "Habitat Reconstruction",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the term for the ability of an ecosystem to withstand and recover from disturbances and stressors?",
+      "options": {
+        "A": "Ecosystem resilience",
+        "B": "Ecosystem services",
+        "C": "Biodiversity recovery",
+        "D": "Habitat reconstruction"
+      },
+      "correct": "A",
+      "explanation": "Ecosystem resilience refers to the ability of an ecosystem to withstand and recover from disturbances and stressors, which is a key goal of ecological restoration.",
+      "node_id": "Ecosystem Resilience",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the process of capturing and storing carbon dioxide from the atmosphere, which can be promoted through ecological restoration?",
+      "options": {
+        "A": "Carbon emission",
+        "B": "Carbon sequestration",
+        "C": "Climate change mitigation",
+        "D": "Ecosystem services"
+      },
+      "correct": "B",
+      "explanation": "Carbon sequestration is the process of capturing and storing carbon dioxide from the atmosphere, which can be promoted through ecological restoration and helps mitigate climate change.",
+      "node_id": "Carbon Sequestration",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the practice of protecting and preserving threatened and endangered species and ecosystems?",
+      "options": {
+        "A": "Biodiversity recovery",
+        "B": "Habitat reconstruction",
+        "C": "Biodiversity conservation",
+        "D": "Ecosystem restoration"
+      },
+      "correct": "C",
+      "explanation": "Biodiversity conservation is the practice of protecting and preserving threatened and endangered species and ecosystems, which is a key component of ecological restoration.",
+      "node_id": "Biodiversity Conservation",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the importance of ecological history in understanding ecosystem dynamics and restoration.",
+      "sample_answer": "Ecological history is essential for understanding the complex interactions and dynamics of ecosystems. It provides valuable insights into the historical context and development of ecosystems, which can inform restoration efforts and help predict potential outcomes.",
+      "keywords": [
+        "ecological history",
+        "ecosystem dynamics",
+        "restoration"
+      ],
+      "node_id": "Ecological History",
+      "points": 15
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Explain the relationship between ecological restoration and climate change mitigation, including the role of carbon sequestration.",
+      "sample_answer": "Ecological restoration can help promote climate change mitigation by restoring ecosystems that capture and store carbon dioxide from the atmosphere, a process known as carbon sequestration. This can be achieved through the restoration of forests, wetlands, and other ecosystems that provide essential ecosystem services.",
+      "keywords": [
+        "ecological restoration",
+        "climate change mitigation",
+        "carbon sequestration"
+      ],
+      "node_id": "Climate Change Mitigation",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Discuss the role of sustainable land use in maintaining ecosystem health and promoting ecological restoration.",
+      "sample_answer": "Sustainable land use is essential for maintaining ecosystem health and promoting ecological restoration. It involves using land in a way that minimizes harm to the environment and promotes long-term sustainability, which can help restore ecosystem services, biodiversity, and habitat quality.",
+      "keywords": [
+        "sustainable land use",
+        "ecosystem health",
+        "ecological restoration"
+      ],
+      "node_id": "Sustainable Land Use",
+      "points": 15
+    }
+  ]
+}

@@ -1,0 +1,384 @@
+{
+  "topic": "Ecological Restoration",
+  "category": "biology",
+  "description": "Ecological restoration is the process of assisting the recovery of an ecosystem that has been degraded, damaged, destroyed or transformed. It involves the recovery of ecosystem services, biodiversity, and habitat reconstruction. The United Nations has named 2021\u20132030 the Decade on Ecosystem Restoration, highlighting the importance of this field.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Ecological Restoration",
+      "type": "core",
+      "depth": 0,
+      "description": "The process of assisting the recovery of an ecosystem that has been degraded, damaged, destroyed or transformed.",
+      "importance": 10,
+      "fun_fact": "The United Nations has named 2021\u20132030 the Decade on Ecosystem Restoration."
+    },
+    {
+      "id": "N2",
+      "label": "Conservation Biology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the preservation and protection of threatened and endangered species and ecosystems.",
+      "importance": 9,
+      "fun_fact": "Conservation biology is a key component of ecological restoration."
+    },
+    {
+      "id": "N3",
+      "label": "Ecosystem Services",
+      "type": "concept",
+      "depth": 1,
+      "description": "The benefits that humans derive from functioning ecosystems, including clean air and water, soil formation, and climate regulation.",
+      "importance": 9,
+      "fun_fact": "Ecosystem services are essential for human well-being and are often restored through ecological restoration."
+    },
+    {
+      "id": "N4",
+      "label": "Biodiversity Recovery",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process of restoring the variety of plant and animal species in an ecosystem.",
+      "importance": 8,
+      "fun_fact": "Biodiversity recovery is a key goal of ecological restoration."
+    },
+    {
+      "id": "N5",
+      "label": "Habitat Reconstruction",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process of rebuilding or restoring habitats that have been degraded or destroyed.",
+      "importance": 8,
+      "fun_fact": "Habitat reconstruction is a critical component of ecological restoration."
+    },
+    {
+      "id": "N6",
+      "label": "Sustainable Land Use",
+      "type": "concept",
+      "depth": 1,
+      "description": "The practice of using land in a way that minimizes harm to the environment and promotes long-term sustainability.",
+      "importance": 8,
+      "fun_fact": "Sustainable land use is essential for maintaining ecosystem health and promoting ecological restoration."
+    },
+    {
+      "id": "N7",
+      "label": "The Society for Ecological Restoration (SER)",
+      "type": "organization",
+      "depth": 2,
+      "description": "An international non-profit organization that advances the science, practice, and policy of ecological restoration.",
+      "importance": 7,
+      "fun_fact": "SER has members in over 70 countries and provides a platform for ecological restoration professionals to share knowledge and best practices."
+    },
+    {
+      "id": "N8",
+      "label": "Ecological History",
+      "type": "concept",
+      "depth": 2,
+      "description": "The study of the historical context and development of ecosystems.",
+      "importance": 7,
+      "fun_fact": "Ecological history is essential for understanding the complex interactions and dynamics of ecosystems."
+    },
+    {
+      "id": "N9",
+      "label": "Carbon Sequestration",
+      "type": "concept",
+      "depth": 2,
+      "description": "The process of capturing and storing carbon dioxide from the atmosphere.",
+      "importance": 7,
+      "fun_fact": "Ecological restoration can help promote carbon sequestration and mitigate climate change."
+    },
+    {
+      "id": "N10",
+      "label": "China's Ecological Restoration Projects",
+      "type": "example",
+      "depth": 3,
+      "description": "A series of large-scale ecological restoration projects launched by the Chinese government to restore degraded ecosystems and promote sustainable development.",
+      "importance": 6,
+      "fun_fact": "These projects have helped to restore millions of hectares of degraded land and promote biodiversity recovery."
+    },
+    {
+      "id": "N11",
+      "label": "Decade on Ecosystem Restoration",
+      "type": "event",
+      "depth": 3,
+      "description": "A global initiative launched by the United Nations to promote ecosystem restoration and sustainable development.",
+      "importance": 6,
+      "fun_fact": "The Decade on Ecosystem Restoration aims to restore 350 million hectares of degraded land by 2030."
+    },
+    {
+      "id": "N12",
+      "label": "Dr. Kathryn M. Irvine",
+      "type": "person",
+      "depth": 3,
+      "description": "A renowned ecologist and conservation biologist who has made significant contributions to the field of ecological restoration.",
+      "importance": 5,
+      "fun_fact": "Dr. Irvine has worked on numerous ecological restoration projects around the world and has published extensively on the topic."
+    },
+    {
+      "id": "N13",
+      "label": "Ecosystem Resilience",
+      "type": "concept",
+      "depth": 2,
+      "description": "The ability of an ecosystem to withstand and recover from disturbances and stressors.",
+      "importance": 7,
+      "fun_fact": "Ecosystem resilience is a key goal of ecological restoration."
+    },
+    {
+      "id": "N14",
+      "label": "Climate Change Mitigation",
+      "type": "concept",
+      "depth": 2,
+      "description": "The process of reducing the impacts of climate change through strategies such as carbon sequestration and ecosystem restoration.",
+      "importance": 8,
+      "fun_fact": "Ecological restoration can help promote climate change mitigation and support sustainable development."
+    },
+    {
+      "id": "N15",
+      "label": "Biodiversity Conservation",
+      "type": "concept",
+      "depth": 2,
+      "description": "The practice of protecting and preserving threatened and endangered species and ecosystems.",
+      "importance": 8,
+      "fun_fact": "Biodiversity conservation is a key component of ecological restoration."
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Conservation biology is a key component of ecological restoration."
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Ecosystem services are essential for human well-being and are often restored through ecological restoration."
+    },
+    {
+      "source": "N1",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Biodiversity recovery is a key goal of ecological restoration."
+    },
+    {
+      "source": "N1",
+      "target": "N5",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Habitat reconstruction is a critical component of ecological restoration."
+    },
+    {
+      "source": "N1",
+      "target": "N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Sustainable land use is essential for maintaining ecosystem health and promoting ecological restoration."
+    },
+    {
+      "source": "N2",
+      "target": "N7",
+      "relation": "used_in",
+      "strength": 7,
+      "description": "The Society for Ecological Restoration (SER) advances the science, practice, and policy of ecological restoration."
+    },
+    {
+      "source": "N3",
+      "target": "N8",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "Ecological history is essential for understanding the complex interactions and dynamics of ecosystems."
+    },
+    {
+      "source": "N4",
+      "target": "N9",
+      "relation": "leads_to",
+      "strength": 7,
+      "description": "Biodiversity recovery can help promote carbon sequestration and mitigate climate change."
+    },
+    {
+      "source": "N5",
+      "target": "N10",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "China's ecological restoration projects have helped to restore millions of hectares of degraded land and promote biodiversity recovery."
+    },
+    {
+      "source": "N6",
+      "target": "N11",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "The Decade on Ecosystem Restoration aims to restore 350 million hectares of degraded land by 2030."
+    },
+    {
+      "source": "N7",
+      "target": "N12",
+      "relation": "discovered_by",
+      "strength": 5,
+      "description": "Dr. Kathryn M. Irvine has made significant contributions to the field of ecological restoration."
+    },
+    {
+      "source": "N8",
+      "target": "N13",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "Ecosystem resilience is a key goal of ecological restoration."
+    },
+    {
+      "source": "N9",
+      "target": "N14",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "Carbon sequestration can help mitigate climate change and support sustainable development."
+    },
+    {
+      "source": "N10",
+      "target": "N15",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "Biodiversity conservation is a key component of ecological restoration."
+    },
+    {
+      "source": "N11",
+      "target": "N1",
+      "relation": "enables",
+      "strength": 9,
+      "description": "The Decade on Ecosystem Restoration aims to promote ecological restoration and sustainable development."
+    },
+    {
+      "source": "N12",
+      "target": "N7",
+      "relation": "discovered_by",
+      "strength": 5,
+      "description": "Dr. Kathryn M. Irvine has worked with the Society for Ecological Restoration (SER) to advance the science and practice of ecological restoration."
+    },
+    {
+      "source": "N13",
+      "target": "N14",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "Ecosystem resilience is essential for promoting climate change mitigation and supporting sustainable development."
+    },
+    {
+      "source": "N14",
+      "target": "N15",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "Climate change mitigation can help promote biodiversity conservation and support ecological restoration."
+    },
+    {
+      "source": "N15",
+      "target": "N1",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Biodiversity conservation is a key component of ecological restoration."
+    }
+  ],
+  "key_takeaways": [
+    "Ecological restoration is a critical component of sustainable development and can help promote biodiversity recovery, ecosystem resilience, and climate change mitigation.",
+    "The Society for Ecological Restoration (SER) plays a key role in advancing the science, practice, and policy of ecological restoration.",
+    "China's ecological restoration projects have helped to restore millions of hectares of degraded land and promote biodiversity recovery."
+  ],
+  "real_world_impact": "Ecological restoration has numerous real-world applications and can have significant impacts on ecosystem health, biodiversity, and human well-being. For example, the restoration of wetlands can help to filter water, reduce flood risk, and promote biodiversity. Similarly, the restoration of forests can help to sequester carbon, promote ecosystem resilience, and support sustainable development. The Decade on Ecosystem Restoration aims to promote ecological restoration and sustainable development, and has the potential to make a significant impact on ecosystem health and human well-being around the world.",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Ecological_Restoration_%2814701804389%29.jpg",
+      "title": "Ecological Restoration (14701804389).jpg",
+      "license": "Public domain",
+      "artist": "Pacific Southwest Region 5",
+      "description": "Tahoe NF",
+      "width": 4000,
+      "height": 3000,
+      "source_query": "Ecological Restoration"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Ecological_Restoration_%2814701840338%29.jpg",
+      "title": "Ecological Restoration (14701840338).jpg",
+      "license": "Public domain",
+      "artist": "Pacific Southwest Region 5",
+      "description": "Tahoe NF",
+      "width": 4000,
+      "height": 3000,
+      "source_query": "Ecological Restoration"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Ecological_Restoration_%2814885392591%29.jpg",
+      "title": "Ecological Restoration (14885392591).jpg",
+      "license": "Public domain",
+      "artist": "Pacific Southwest Region 5",
+      "description": "Tahoe NF",
+      "width": 4000,
+      "height": 3000,
+      "source_query": "Ecological Restoration"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Ecological_Restoration_%2814888103202%29.jpg",
+      "title": "Ecological Restoration (14888103202).jpg",
+      "license": "Public domain",
+      "artist": "Pacific Southwest Region 5",
+      "description": "Tahoe NF",
+      "width": 4000,
+      "height": 3000,
+      "source_query": "Ecological Restoration"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Ecological_Restoration_%2814888104222%29.jpg",
+      "title": "Ecological Restoration (14888104222).jpg",
+      "license": "Public domain",
+      "artist": "Pacific Southwest Region 5",
+      "description": "Tahoe NF",
+      "width": 4000,
+      "height": 3000,
+      "source_query": "Ecological Restoration"
+    }
+  ],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ecological_restoration",
+    "papers": [
+      {
+        "title": "International principles and standards for the practice of ecological restoration. Second edition",
+        "url": "https://doi.org/10.1111/rec.13035"
+      },
+      {
+        "title": "Ecological Restoration in the Light of Ecological History",
+        "url": "https://doi.org/10.1126/science.1172977"
+      },
+      {
+        "title": "Effects of national ecological restoration projects on carbon sequestration in China from 2001 to 2010",
+        "url": "https://doi.org/10.1073/pnas.1700294115"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 19"
+      ],
+      "node_count": 15,
+      "edge_count": 19
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Ecological Economics",
+        "Environmental Policy"
+      ],
+      "strengths": [
+        "Comprehensive coverage of ecological restoration concepts",
+        "Strong connections between nodes"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}
