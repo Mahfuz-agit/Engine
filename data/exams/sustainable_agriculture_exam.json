@@ -1,0 +1,164 @@
+{
+  "topic": "Sustainable Agriculture",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary goal of sustainable agriculture?",
+      "options": {
+        "A": "To maximize crop yields at any cost",
+        "B": "To prioritize environmental stewardship, social responsibility, and economic viability",
+        "C": "To reduce labor costs and increase mechanization",
+        "D": "To promote the use of synthetic fertilizers and pesticides"
+      },
+      "correct": "B",
+      "explanation": "Sustainable agriculture aims to produce food while minimizing harm to the environment and conserving natural resources.",
+      "node_id": "Sustainable Agriculture",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which of the following is a type of sustainable agriculture that integrates trees into agricultural landscapes?",
+      "options": {
+        "A": "Permaculture",
+        "B": "Agroforestry",
+        "C": "Regenerative Agriculture",
+        "D": "Organic Farming"
+      },
+      "correct": "B",
+      "explanation": "Agroforestry is a farming practice that integrates trees into agricultural landscapes, which can increase biodiversity and reduce soil erosion.",
+      "node_id": "Agroforestry",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the process by which microorganisms solubilize phosphorus in soil, reducing the need for synthetic fertilizers?",
+      "options": {
+        "A": "Nitrogen fixation",
+        "B": "Microbial phosphorus solubilization",
+        "C": "Soil erosion",
+        "D": "Composting"
+      },
+      "correct": "B",
+      "explanation": "Microbial phosphorus solubilization is a process that uses microorganisms to solubilize phosphorus in soil, reducing the need for synthetic fertilizers.",
+      "node_id": "Microbial Phosphorus Solubilization",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the projected increase in global food demand by 2050?",
+      "options": {
+        "A": "20%",
+        "B": "30%",
+        "C": "50%",
+        "D": "70%"
+      },
+      "correct": "C",
+      "explanation": "Global food demand is projected to increase by 50% by 2050.",
+      "node_id": "Global Food Demand",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which of the following farming practices prioritizes climate resilience and adaptation?",
+      "options": {
+        "A": "Regenerative Agriculture",
+        "B": "Organic Farming",
+        "C": "Climate-Smart Agriculture",
+        "D": "Conservation Agriculture"
+      },
+      "correct": "C",
+      "explanation": "Climate-smart agriculture is a farming practice that prioritizes climate resilience and adaptation, helping farmers adapt to changing weather patterns and climate conditions.",
+      "node_id": "Climate-Smart Agriculture",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for a farming practice that prioritizes increasing crop yields while minimizing environmental impact?",
+      "options": {
+        "A": "Sustainable Intensification",
+        "B": "Regenerative Agriculture",
+        "C": "Organic Farming",
+        "D": "Conservation Agriculture"
+      },
+      "correct": "A",
+      "explanation": "Sustainable intensification is a farming practice that prioritizes increasing crop yields while minimizing environmental impact, helping to meet global food demand while reducing environmental degradation.",
+      "node_id": "Sustainable Intensification",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which international organization promotes sustainable development and has set sustainable development goals that include sustainable agriculture?",
+      "options": {
+        "A": "Food and Agriculture Organization",
+        "B": "United Nations",
+        "C": "World Health Organization",
+        "D": "International Labour Organization"
+      },
+      "correct": "B",
+      "explanation": "The United Nations is an international organization that promotes sustainable development and has set sustainable development goals that include sustainable agriculture.",
+      "node_id": "United Nations",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What are the key principles of permaculture, and how does it contribute to sustainable agriculture?",
+      "sample_answer": "Permaculture is a design system for creating sustainable and self-sufficient ecosystems. Its key principles include designing for biodiversity, using renewable resources, and minimizing waste. Permaculture contributes to sustainable agriculture by promoting ecosystem services, increasing crop yields, and reducing environmental impact.",
+      "keywords": [
+        "permaculture",
+        "sustainable agriculture",
+        "ecosystem services",
+        "biodiversity"
+      ],
+      "node_id": "Permaculture",
+      "points": 15
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "How does regenerative agriculture contribute to mitigating climate change, and what are some of its key practices?",
+      "sample_answer": "Regenerative agriculture contributes to mitigating climate change by prioritizing soil health, biodiversity, and ecosystem services. Key practices include using cover crops, reducing tillage, and integrating livestock into cropping systems. These practices help to sequester carbon, reduce synthetic fertilizer use, and promote ecosystem resilience.",
+      "keywords": [
+        "regenerative agriculture",
+        "climate change",
+        "soil health",
+        "biodiversity"
+      ],
+      "node_id": "Regenerative Agriculture",
+      "points": 15
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What are the benefits of conservation agriculture, and how does it contribute to sustainable agriculture?",
+      "sample_answer": "Conservation agriculture is a farming practice that minimizes soil disturbance and promotes soil cover. Its benefits include reducing soil erosion, improving water quality, and increasing crop yields. Conservation agriculture contributes to sustainable agriculture by promoting ecosystem services, reducing environmental impact, and improving soil health.",
+      "keywords": [
+        "conservation agriculture",
+        "sustainable agriculture",
+        "soil erosion",
+        "water quality"
+      ],
+      "node_id": "Conservation Agriculture",
+      "points": 15
+    }
+  ]
+}

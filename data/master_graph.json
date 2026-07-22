@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 56,
-  "total_nodes": 839,
-  "total_edges": 1025,
+  "total_topics": 57,
+  "total_nodes": 853,
+  "total_edges": 1043,
   "topics": [
     {
       "topic": "Climate Change",
@@ -507,6 +507,15 @@
       "edge_count": 19,
       "description": "Ecological restoration is the process of assisting the recovery of an ecosystem that has been degraded, damaged, destroyed or transformed. It involves the recovery of ecosystem services, biodiversity, and habitat reconstruction. The United Nations has named 2021\u20132030 the Decade on Ecosystem Restoration, highlighting the importance of this field.",
       "added_at": "2026-07-19T09:45:43.231479"
+    },
+    {
+      "topic": "Sustainable Agriculture",
+      "slug": "sustainable_agriculture",
+      "category": "biology",
+      "node_count": 14,
+      "edge_count": 18,
+      "description": "Sustainable agriculture refers to farming practices that prioritize environmental stewardship, social responsibility, and economic viability. It aims to produce food while minimizing harm to the environment and conserving natural resources. This approach has become increasingly important as the global population grows and the need for food security intensifies.",
+      "added_at": "2026-07-22T01:49:18.098953"
     }
   ],
   "global_nodes": [
@@ -9738,6 +9747,160 @@
       "fun_fact": "Biodiversity conservation is a key component of ecological restoration.",
       "topic_slug": "ecological_restoration",
       "topic": "Ecological Restoration"
+    },
+    {
+      "id": "sustainable_agriculture__SA",
+      "label": "Sustainable Agriculture",
+      "type": "core",
+      "depth": 0,
+      "description": "Farming practices that prioritize environmental stewardship, social responsibility, and economic viability",
+      "importance": 10,
+      "fun_fact": "Sustainable agriculture has been practiced for thousands of years, with ancient civilizations such as the Egyptians and Chinese using techniques like crop rotation and composting",
+      "topic_slug": "sustainable_agriculture",
+      "topic": "Sustainable Agriculture"
+    },
+    {
+      "id": "sustainable_agriculture__PC",
+      "label": "Permaculture",
+      "type": "concept",
+      "depth": 1,
+      "description": "A design system for creating sustainable and self-sufficient ecosystems",
+      "importance": 8,
+      "fun_fact": "Permaculture was developed in the 1970s by Bill Mollison and David Holmgren",
+      "topic_slug": "sustainable_agriculture",
+      "topic": "Sustainable Agriculture"
+    },
+    {
+      "id": "sustainable_agriculture__AF",
+      "label": "Agroforestry",
+      "type": "concept",
+      "depth": 1,
+      "description": "A farming practice that integrates trees into agricultural landscapes",
+      "importance": 8,
+      "fun_fact": "Agroforestry can increase biodiversity and reduce soil erosion",
+      "topic_slug": "sustainable_agriculture",
+      "topic": "Sustainable Agriculture"
+    },
+    {
+      "id": "sustainable_agriculture__RA",
+      "label": "Regenerative Agriculture",
+      "type": "concept",
+      "depth": 1,
+      "description": "A farming practice that prioritizes soil health, biodiversity, and ecosystem services",
+      "importance": 9,
+      "fun_fact": "Regenerative agriculture can help sequester carbon and mitigate climate change",
+      "topic_slug": "sustainable_agriculture",
+      "topic": "Sustainable Agriculture"
+    },
+    {
+      "id": "sustainable_agriculture__OF",
+      "label": "Organic Farming",
+      "type": "concept",
+      "depth": 1,
+      "description": "A farming practice that avoids the use of synthetic fertilizers and pesticides",
+      "importance": 8,
+      "fun_fact": "Organic farming can improve soil health and increase crop yields",
+      "topic_slug": "sustainable_agriculture",
+      "topic": "Sustainable Agriculture"
+    },
+    {
+      "id": "sustainable_agriculture__CSA",
+      "label": "Climate-Smart Agriculture",
+      "type": "concept",
+      "depth": 1,
+      "description": "A farming practice that prioritizes climate resilience and adaptation",
+      "importance": 9,
+      "fun_fact": "Climate-smart agriculture can help farmers adapt to changing weather patterns and climate conditions",
+      "topic_slug": "sustainable_agriculture",
+      "topic": "Sustainable Agriculture"
+    },
+    {
+      "id": "sustainable_agriculture__CA",
+      "label": "Conservation Agriculture",
+      "type": "concept",
+      "depth": 2,
+      "description": "A farming practice that minimizes soil disturbance and promotes soil cover",
+      "importance": 8,
+      "fun_fact": "Conservation agriculture can reduce soil erosion and improve water quality",
+      "topic_slug": "sustainable_agriculture",
+      "topic": "Sustainable Agriculture"
+    },
+    {
+      "id": "sustainable_agriculture__MP",
+      "label": "Microbial Phosphorus Solubilization",
+      "type": "concept",
+      "depth": 2,
+      "description": "A process that uses microorganisms to solubilize phosphorus in soil",
+      "importance": 7,
+      "fun_fact": "Microbial phosphorus solubilization can reduce the need for synthetic fertilizers",
+      "topic_slug": "sustainable_agriculture",
+      "topic": "Sustainable Agriculture"
+    },
+    {
+      "id": "sustainable_agriculture__GFD",
+      "label": "Global Food Demand",
+      "type": "concept",
+      "depth": 2,
+      "description": "The increasing demand for food globally",
+      "importance": 9,
+      "fun_fact": "Global food demand is projected to increase by 50% by 2050",
+      "topic_slug": "sustainable_agriculture",
+      "topic": "Sustainable Agriculture"
+    },
+    {
+      "id": "sustainable_agriculture__SI",
+      "label": "Sustainable Intensification",
+      "type": "concept",
+      "depth": 2,
+      "description": "A farming practice that prioritizes increasing crop yields while minimizing environmental impact",
+      "importance": 8,
+      "fun_fact": "Sustainable intensification can help meet global food demand while reducing environmental degradation",
+      "topic_slug": "sustainable_agriculture",
+      "topic": "Sustainable Agriculture"
+    },
+    {
+      "id": "sustainable_agriculture__BM",
+      "label": "Bill Mollison",
+      "type": "person",
+      "depth": 3,
+      "description": "Co-founder of permaculture",
+      "importance": 6,
+      "fun_fact": "Bill Mollison wrote the book 'Permaculture One' in 1978",
+      "topic_slug": "sustainable_agriculture",
+      "topic": "Sustainable Agriculture"
+    },
+    {
+      "id": "sustainable_agriculture__DH",
+      "label": "David Holmgren",
+      "type": "person",
+      "depth": 3,
+      "description": "Co-founder of permaculture",
+      "importance": 6,
+      "fun_fact": "David Holmgren wrote the book 'Permaculture: Principles and Pathways Beyond Sustainability' in 2002",
+      "topic_slug": "sustainable_agriculture",
+      "topic": "Sustainable Agriculture"
+    },
+    {
+      "id": "sustainable_agriculture__UN",
+      "label": "United Nations",
+      "type": "organization",
+      "depth": 3,
+      "description": "An international organization that promotes sustainable development",
+      "importance": 8,
+      "fun_fact": "The United Nations has set sustainable development goals that include sustainable agriculture",
+      "topic_slug": "sustainable_agriculture",
+      "topic": "Sustainable Agriculture"
+    },
+    {
+      "id": "sustainable_agriculture__FAO",
+      "label": "Food and Agriculture Organization",
+      "type": "organization",
+      "depth": 3,
+      "description": "A specialized agency of the United Nations that promotes sustainable agriculture",
+      "importance": 8,
+      "fun_fact": "The FAO has developed guidelines for sustainable agriculture practices",
+      "topic_slug": "sustainable_agriculture",
+      "topic": "Sustainable Agriculture"
     }
   ],
   "global_edges": [
@@ -16915,6 +17078,132 @@
       "relation": "is_part_of",
       "strength": 9,
       "topic": "Ecological Restoration"
+    },
+    {
+      "source": "sustainable_agriculture__SA",
+      "target": "sustainable_agriculture__PC",
+      "relation": "is_type_of",
+      "strength": 9,
+      "topic": "Sustainable Agriculture"
+    },
+    {
+      "source": "sustainable_agriculture__SA",
+      "target": "sustainable_agriculture__AF",
+      "relation": "is_type_of",
+      "strength": 9,
+      "topic": "Sustainable Agriculture"
+    },
+    {
+      "source": "sustainable_agriculture__SA",
+      "target": "sustainable_agriculture__RA",
+      "relation": "is_type_of",
+      "strength": 9,
+      "topic": "Sustainable Agriculture"
+    },
+    {
+      "source": "sustainable_agriculture__SA",
+      "target": "sustainable_agriculture__OF",
+      "relation": "is_type_of",
+      "strength": 9,
+      "topic": "Sustainable Agriculture"
+    },
+    {
+      "source": "sustainable_agriculture__SA",
+      "target": "sustainable_agriculture__CSA",
+      "relation": "is_type_of",
+      "strength": 9,
+      "topic": "Sustainable Agriculture"
+    },
+    {
+      "source": "sustainable_agriculture__PC",
+      "target": "sustainable_agriculture__BM",
+      "relation": "discovered_by",
+      "strength": 8,
+      "topic": "Sustainable Agriculture"
+    },
+    {
+      "source": "sustainable_agriculture__PC",
+      "target": "sustainable_agriculture__DH",
+      "relation": "discovered_by",
+      "strength": 8,
+      "topic": "Sustainable Agriculture"
+    },
+    {
+      "source": "sustainable_agriculture__AF",
+      "target": "sustainable_agriculture__CA",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Sustainable Agriculture"
+    },
+    {
+      "source": "sustainable_agriculture__RA",
+      "target": "sustainable_agriculture__MP",
+      "relation": "used_in",
+      "strength": 7,
+      "topic": "Sustainable Agriculture"
+    },
+    {
+      "source": "sustainable_agriculture__GFD",
+      "target": "sustainable_agriculture__SI",
+      "relation": "leads_to",
+      "strength": 9,
+      "topic": "Sustainable Agriculture"
+    },
+    {
+      "source": "sustainable_agriculture__UN",
+      "target": "sustainable_agriculture__FAO",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Sustainable Agriculture"
+    },
+    {
+      "source": "sustainable_agriculture__FAO",
+      "target": "sustainable_agriculture__SA",
+      "relation": "promotes",
+      "strength": 8,
+      "topic": "Sustainable Agriculture"
+    },
+    {
+      "source": "sustainable_agriculture__CSA",
+      "target": "sustainable_agriculture__UN",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Sustainable Agriculture"
+    },
+    {
+      "source": "sustainable_agriculture__SA",
+      "target": "sustainable_agriculture__GFD",
+      "relation": "contrasts_with",
+      "strength": 9,
+      "topic": "Sustainable Agriculture"
+    },
+    {
+      "source": "sustainable_agriculture__PC",
+      "target": "sustainable_agriculture__RA",
+      "relation": "evolved_from",
+      "strength": 8,
+      "topic": "Sustainable Agriculture"
+    },
+    {
+      "source": "sustainable_agriculture__AF",
+      "target": "sustainable_agriculture__CSA",
+      "relation": "enables",
+      "strength": 8,
+      "topic": "Sustainable Agriculture"
+    },
+    {
+      "source": "sustainable_agriculture__MP",
+      "target": "sustainable_agriculture__CA",
+      "relation": "used_in",
+      "strength": 7,
+      "topic": "Sustainable Agriculture"
+    },
+    {
+      "source": "sustainable_agriculture__SI",
+      "target": "sustainable_agriculture__SA",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Sustainable Agriculture"
     }
   ],
   "cross_topic_edges": [
@@ -17283,6 +17572,13 @@
       "label": "food security"
     },
     {
+      "source": "food_security__N4",
+      "target": "sustainable_agriculture__SA",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "sustainable agriculture"
+    },
+    {
       "source": "food_security__N7",
       "target": "soil_science__precision_agriculture",
       "relation": "cross_topic_connection",
@@ -17309,6 +17605,13 @@
       "relation": "cross_topic_connection",
       "strength": 6,
       "label": "ecological restoration"
+    },
+    {
+      "source": "geopolitics__N13",
+      "target": "sustainable_agriculture__UN",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "united nations"
     },
     {
       "source": "climate_change_mitigation__CCM",
@@ -17364,7 +17667,8 @@
       "human_nutrition",
       "ethnopharmacology",
       "paleoecology",
-      "ecological_restoration"
+      "ecological_restoration",
+      "sustainable_agriculture"
     ],
     "psychology": [
       "neuroplasticity",
@@ -17426,5 +17730,5 @@
       "ecological_economics"
     ]
   },
-  "last_updated": "2026-07-19T09:45:43.231522"
+  "last_updated": "2026-07-22T01:49:18.098993"
 }

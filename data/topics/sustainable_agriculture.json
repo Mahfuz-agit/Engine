@@ -1,0 +1,369 @@
+{
+  "topic": "Sustainable Agriculture",
+  "category": "biology",
+  "description": "Sustainable agriculture refers to farming practices that prioritize environmental stewardship, social responsibility, and economic viability. It aims to produce food while minimizing harm to the environment and conserving natural resources. This approach has become increasingly important as the global population grows and the need for food security intensifies.",
+  "nodes": [
+    {
+      "id": "SA",
+      "label": "Sustainable Agriculture",
+      "type": "core",
+      "depth": 0,
+      "description": "Farming practices that prioritize environmental stewardship, social responsibility, and economic viability",
+      "importance": 10,
+      "fun_fact": "Sustainable agriculture has been practiced for thousands of years, with ancient civilizations such as the Egyptians and Chinese using techniques like crop rotation and composting"
+    },
+    {
+      "id": "PC",
+      "label": "Permaculture",
+      "type": "concept",
+      "depth": 1,
+      "description": "A design system for creating sustainable and self-sufficient ecosystems",
+      "importance": 8,
+      "fun_fact": "Permaculture was developed in the 1970s by Bill Mollison and David Holmgren"
+    },
+    {
+      "id": "AF",
+      "label": "Agroforestry",
+      "type": "concept",
+      "depth": 1,
+      "description": "A farming practice that integrates trees into agricultural landscapes",
+      "importance": 8,
+      "fun_fact": "Agroforestry can increase biodiversity and reduce soil erosion"
+    },
+    {
+      "id": "RA",
+      "label": "Regenerative Agriculture",
+      "type": "concept",
+      "depth": 1,
+      "description": "A farming practice that prioritizes soil health, biodiversity, and ecosystem services",
+      "importance": 9,
+      "fun_fact": "Regenerative agriculture can help sequester carbon and mitigate climate change"
+    },
+    {
+      "id": "OF",
+      "label": "Organic Farming",
+      "type": "concept",
+      "depth": 1,
+      "description": "A farming practice that avoids the use of synthetic fertilizers and pesticides",
+      "importance": 8,
+      "fun_fact": "Organic farming can improve soil health and increase crop yields"
+    },
+    {
+      "id": "CSA",
+      "label": "Climate-Smart Agriculture",
+      "type": "concept",
+      "depth": 1,
+      "description": "A farming practice that prioritizes climate resilience and adaptation",
+      "importance": 9,
+      "fun_fact": "Climate-smart agriculture can help farmers adapt to changing weather patterns and climate conditions"
+    },
+    {
+      "id": "CA",
+      "label": "Conservation Agriculture",
+      "type": "concept",
+      "depth": 2,
+      "description": "A farming practice that minimizes soil disturbance and promotes soil cover",
+      "importance": 8,
+      "fun_fact": "Conservation agriculture can reduce soil erosion and improve water quality"
+    },
+    {
+      "id": "MP",
+      "label": "Microbial Phosphorus Solubilization",
+      "type": "concept",
+      "depth": 2,
+      "description": "A process that uses microorganisms to solubilize phosphorus in soil",
+      "importance": 7,
+      "fun_fact": "Microbial phosphorus solubilization can reduce the need for synthetic fertilizers"
+    },
+    {
+      "id": "GFD",
+      "label": "Global Food Demand",
+      "type": "concept",
+      "depth": 2,
+      "description": "The increasing demand for food globally",
+      "importance": 9,
+      "fun_fact": "Global food demand is projected to increase by 50% by 2050"
+    },
+    {
+      "id": "SI",
+      "label": "Sustainable Intensification",
+      "type": "concept",
+      "depth": 2,
+      "description": "A farming practice that prioritizes increasing crop yields while minimizing environmental impact",
+      "importance": 8,
+      "fun_fact": "Sustainable intensification can help meet global food demand while reducing environmental degradation"
+    },
+    {
+      "id": "BM",
+      "label": "Bill Mollison",
+      "type": "person",
+      "depth": 3,
+      "description": "Co-founder of permaculture",
+      "importance": 6,
+      "fun_fact": "Bill Mollison wrote the book 'Permaculture One' in 1978"
+    },
+    {
+      "id": "DH",
+      "label": "David Holmgren",
+      "type": "person",
+      "depth": 3,
+      "description": "Co-founder of permaculture",
+      "importance": 6,
+      "fun_fact": "David Holmgren wrote the book 'Permaculture: Principles and Pathways Beyond Sustainability' in 2002"
+    },
+    {
+      "id": "UN",
+      "label": "United Nations",
+      "type": "organization",
+      "depth": 3,
+      "description": "An international organization that promotes sustainable development",
+      "importance": 8,
+      "fun_fact": "The United Nations has set sustainable development goals that include sustainable agriculture"
+    },
+    {
+      "id": "FAO",
+      "label": "Food and Agriculture Organization",
+      "type": "organization",
+      "depth": 3,
+      "description": "A specialized agency of the United Nations that promotes sustainable agriculture",
+      "importance": 8,
+      "fun_fact": "The FAO has developed guidelines for sustainable agriculture practices"
+    }
+  ],
+  "edges": [
+    {
+      "source": "SA",
+      "target": "PC",
+      "relation": "is_type_of",
+      "strength": 9,
+      "description": "Permaculture is a type of sustainable agriculture"
+    },
+    {
+      "source": "SA",
+      "target": "AF",
+      "relation": "is_type_of",
+      "strength": 9,
+      "description": "Agroforestry is a type of sustainable agriculture"
+    },
+    {
+      "source": "SA",
+      "target": "RA",
+      "relation": "is_type_of",
+      "strength": 9,
+      "description": "Regenerative agriculture is a type of sustainable agriculture"
+    },
+    {
+      "source": "SA",
+      "target": "OF",
+      "relation": "is_type_of",
+      "strength": 9,
+      "description": "Organic farming is a type of sustainable agriculture"
+    },
+    {
+      "source": "SA",
+      "target": "CSA",
+      "relation": "is_type_of",
+      "strength": 9,
+      "description": "Climate-smart agriculture is a type of sustainable agriculture"
+    },
+    {
+      "source": "PC",
+      "target": "BM",
+      "relation": "discovered_by",
+      "strength": 8,
+      "description": "Bill Mollison co-founded permaculture"
+    },
+    {
+      "source": "PC",
+      "target": "DH",
+      "relation": "discovered_by",
+      "strength": 8,
+      "description": "David Holmgren co-founded permaculture"
+    },
+    {
+      "source": "AF",
+      "target": "CA",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Conservation agriculture is a part of agroforestry"
+    },
+    {
+      "source": "RA",
+      "target": "MP",
+      "relation": "used_in",
+      "strength": 7,
+      "description": "Microbial phosphorus solubilization is used in regenerative agriculture"
+    },
+    {
+      "source": "GFD",
+      "target": "SI",
+      "relation": "leads_to",
+      "strength": 9,
+      "description": "Global food demand leads to sustainable intensification"
+    },
+    {
+      "source": "UN",
+      "target": "FAO",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "The FAO is a specialized agency of the United Nations"
+    },
+    {
+      "source": "FAO",
+      "target": "SA",
+      "relation": "promotes",
+      "strength": 8,
+      "description": "The FAO promotes sustainable agriculture practices"
+    },
+    {
+      "source": "CSA",
+      "target": "UN",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "Climate-smart agriculture is related to the United Nations' sustainable development goals"
+    },
+    {
+      "source": "SA",
+      "target": "GFD",
+      "relation": "contrasts_with",
+      "strength": 9,
+      "description": "Sustainable agriculture contrasts with the increasing global food demand"
+    },
+    {
+      "source": "PC",
+      "target": "RA",
+      "relation": "evolved_from",
+      "strength": 8,
+      "description": "Regenerative agriculture evolved from permaculture principles"
+    },
+    {
+      "source": "AF",
+      "target": "CSA",
+      "relation": "enables",
+      "strength": 8,
+      "description": "Agroforestry enables climate-smart agriculture practices"
+    },
+    {
+      "source": "MP",
+      "target": "CA",
+      "relation": "used_in",
+      "strength": 7,
+      "description": "Microbial phosphorus solubilization is used in conservation agriculture"
+    },
+    {
+      "source": "SI",
+      "target": "SA",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Sustainable intensification is a part of sustainable agriculture"
+    }
+  ],
+  "key_takeaways": [
+    "Sustainable agriculture prioritizes environmental stewardship, social responsibility, and economic viability",
+    "Permaculture, agroforestry, regenerative agriculture, organic farming, and climate-smart agriculture are all types of sustainable agriculture",
+    "Sustainable agriculture can help meet global food demand while reducing environmental degradation"
+  ],
+  "real_world_impact": "Sustainable agriculture has the potential to transform the way we produce food, reducing environmental harm and improving the livelihoods of farmers and rural communities. By adopting sustainable agriculture practices, we can help mitigate climate change, protect biodiversity, and ensure food security for future generations. For example, the United Nations' Sustainable Development Goals include targets for sustainable agriculture, and organizations like the FAO are working to promote sustainable agriculture practices around the world. Additionally, companies like Patagonia and REI are supporting sustainable agriculture initiatives and promoting environmentally-friendly farming practices.",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/COP30_-_RAIZ_Event_02.jpg",
+      "title": "COP30 - RAIZ Event 02.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Xuthoria",
+      "description": "Mary Creagh, Andreas Bjelland Eriksen at High-Level Ministerial for RAIZ (Resilient Agriculture Investment for Net-Zero Land  Degradation) at COP30 in Bel\u00e9m",
+      "width": 6000,
+      "height": 3376,
+      "source_query": "Sustainable Agriculture"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/COP30_-_RAIZ_Event_04.jpg",
+      "title": "COP30 - RAIZ Event 04.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Xuthoria",
+      "description": "Mary Creagh, Andreas Bjelland Eriksen, Osamu Kubota, Nick Blong at High-Level Ministerial for RAIZ (Resilient Agriculture Investment for Net-Zero Land  Degradation) at COP30 in Bel\u00e9m",
+      "width": 6000,
+      "height": 3376,
+      "source_query": "Sustainable Agriculture"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/COP30_-_RAIZ_Event_11.jpg",
+      "title": "COP30 - RAIZ Event 11.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Xuthoria",
+      "description": "Mary Creagh, Andreas Bjelland Eriksen, Osamu Kubota, Nick Blong at High-Level Ministerial for RAIZ (Resilient Agriculture Investment for Net-Zero Land  Degradation) at COP30 in Bel\u00e9m",
+      "width": 6000,
+      "height": 3376,
+      "source_query": "Sustainable Agriculture"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/COP30_-_Simon_Watts_01.jpg",
+      "title": "COP30 - Simon Watts 01.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Xuthoria",
+      "description": "Simon Watts at COP30 in Bel\u00e9m (Nov 19, 2025)",
+      "width": 3376,
+      "height": 6000,
+      "source_query": "Sustainable Agriculture"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Coffee_farm_in_Colombia.jpg",
+      "title": "Coffee farm in Colombia.jpg",
+      "license": "CC BY 2.0",
+      "artist": "U.S. Fish and Wildlife Service Northeast Region",
+      "description": "Coffee farm in Colombia, shade-grown coffee.\n\nCredit: Brian Smith/American Bird Conservancy",
+      "width": 3072,
+      "height": 2304,
+      "source_query": "Sustainable Agriculture"
+    }
+  ],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sustainable_agriculture",
+    "papers": [
+      {
+        "title": "The role of conservation agriculture in sustainable agriculture",
+        "url": "https://doi.org/10.1098/rstb.2007.2169"
+      },
+      {
+        "title": "Microbial Phosphorus Solubilization and Its Potential for Use in Sustainable Agriculture",
+        "url": "https://doi.org/10.3389/fmicb.2017.00971"
+      },
+      {
+        "title": "Global food demand and the sustainable intensification of agriculture",
+        "url": "https://doi.org/10.1073/pnas.1116437108"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 80,
+      "issues": [
+        "Too few nodes: 14",
+        "Too few edges: 18"
+      ],
+      "node_count": 14,
+      "edge_count": 18
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Soil Conservation",
+        "Biodiversity Preservation"
+      ],
+      "strengths": [
+        "Clear definition of sustainable agriculture",
+        "Well-represented types of sustainable agriculture"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 82.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}
