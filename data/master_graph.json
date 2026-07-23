@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 57,
-  "total_nodes": 853,
-  "total_edges": 1043,
+  "total_topics": 58,
+  "total_nodes": 868,
+  "total_edges": 1061,
   "topics": [
     {
       "topic": "Climate Change",
@@ -516,6 +516,15 @@
       "edge_count": 18,
       "description": "Sustainable agriculture refers to farming practices that prioritize environmental stewardship, social responsibility, and economic viability. It aims to produce food while minimizing harm to the environment and conserving natural resources. This approach has become increasingly important as the global population grows and the need for food security intensifies.",
       "added_at": "2026-07-22T01:49:18.098953"
+    },
+    {
+      "topic": "Ecotoxicology",
+      "slug": "ecotoxicology",
+      "category": "biology",
+      "node_count": 15,
+      "edge_count": 18,
+      "description": "Ecotoxicology is the study of the toxic effects of chemicals on the environment and living organisms. It involves understanding the transport, bioaccumulation, and biomagnification of toxicants, as well as assessing ecological risk and developing conservation strategies. Ecotoxicology is an interdisciplinary field that draws on concepts from biology, chemistry, ecology, and toxicology.",
+      "added_at": "2026-07-23T05:19:18.046277"
     }
   ],
   "global_nodes": [
@@ -9901,6 +9910,171 @@
       "fun_fact": "The FAO has developed guidelines for sustainable agriculture practices",
       "topic_slug": "sustainable_agriculture",
       "topic": "Sustainable Agriculture"
+    },
+    {
+      "id": "ecotoxicology__N1",
+      "label": "Ecotoxicology",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of the toxic effects of chemicals on the environment and living organisms",
+      "importance": 10,
+      "fun_fact": "The term 'ecotoxicology' was first coined in 1969 by Ren\u00e9 Truhaut",
+      "topic_slug": "ecotoxicology",
+      "topic": "Ecotoxicology"
+    },
+    {
+      "id": "ecotoxicology__N2",
+      "label": "Toxicant Transport",
+      "type": "concept",
+      "depth": 1,
+      "description": "The movement of toxic substances through the environment, including air, water, and soil",
+      "importance": 9,
+      "fun_fact": "Toxicant transport can occur through natural processes like weathering and erosion, as well as human activities like industrial processes and waste disposal",
+      "topic_slug": "ecotoxicology",
+      "topic": "Ecotoxicology"
+    },
+    {
+      "id": "ecotoxicology__N3",
+      "label": "Bioaccumulation",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process by which organisms accumulate toxic substances in their tissues over time",
+      "importance": 9,
+      "fun_fact": "Bioaccumulation can occur through direct uptake of toxicants, as well as through the food chain",
+      "topic_slug": "ecotoxicology",
+      "topic": "Ecotoxicology"
+    },
+    {
+      "id": "ecotoxicology__N4",
+      "label": "Biomagnification",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process by which toxic substances become more concentrated in organisms as they move up the food chain",
+      "importance": 9,
+      "fun_fact": "Biomagnification can lead to high levels of toxicants in apex predators, such as bald eagles and polar bears",
+      "topic_slug": "ecotoxicology",
+      "topic": "Ecotoxicology"
+    },
+    {
+      "id": "ecotoxicology__N5",
+      "label": "Ecological Risk Assessment",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process of evaluating the potential risks of toxic substances to ecosystems and human health",
+      "importance": 9,
+      "fun_fact": "Ecological risk assessment involves considering factors like exposure, toxicity, and ecosystem sensitivity",
+      "topic_slug": "ecotoxicology",
+      "topic": "Ecotoxicology"
+    },
+    {
+      "id": "ecotoxicology__N6",
+      "label": "Conservation Biology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The application of ecological principles to conserve and manage threatened and endangered species",
+      "importance": 9,
+      "fun_fact": "Conservation biology involves developing strategies to protect and restore ecosystems, as well as educating the public about conservation issues",
+      "topic_slug": "ecotoxicology",
+      "topic": "Ecotoxicology"
+    },
+    {
+      "id": "ecotoxicology__N7",
+      "label": "Rachel Carson",
+      "type": "person",
+      "depth": 2,
+      "description": "American marine biologist and conservationist who wrote 'Silent Spring', a book that helped launch the environmental movement",
+      "importance": 8,
+      "fun_fact": "Rachel Carson's work on pesticide toxicity and ecosystem disruption helped raise public awareness about the importance of environmental protection",
+      "topic_slug": "ecotoxicology",
+      "topic": "Ecotoxicology"
+    },
+    {
+      "id": "ecotoxicology__N8",
+      "label": "DDT",
+      "type": "example",
+      "depth": 2,
+      "description": "A synthetic pesticide that was widely used in the mid-20th century, but was later banned due to its toxicity and environmental persistence",
+      "importance": 7,
+      "fun_fact": "DDT was one of the first chemicals to be identified as a major environmental pollutant, and its regulation helped establish the US Environmental Protection Agency",
+      "topic_slug": "ecotoxicology",
+      "topic": "Ecotoxicology"
+    },
+    {
+      "id": "ecotoxicology__N9",
+      "label": "Polymeric Nanoparticles",
+      "type": "application",
+      "depth": 2,
+      "description": "Tiny particles made of synthetic polymers that can be used to deliver drugs, cosmetics, and other substances",
+      "importance": 6,
+      "fun_fact": "Polymeric nanoparticles have been shown to have potential environmental and health risks, highlighting the need for careful regulation and assessment",
+      "topic_slug": "ecotoxicology",
+      "topic": "Ecotoxicology"
+    },
+    {
+      "id": "ecotoxicology__N10",
+      "label": "Adverse Outcome Pathways",
+      "type": "concept",
+      "depth": 2,
+      "description": "A framework for understanding the mechanisms by which toxic substances cause harm to organisms and ecosystems",
+      "importance": 8,
+      "fun_fact": "Adverse outcome pathways can help researchers and regulators identify key molecular and cellular targets for toxicity testing and risk assessment",
+      "topic_slug": "ecotoxicology",
+      "topic": "Ecotoxicology"
+    },
+    {
+      "id": "ecotoxicology__N11",
+      "label": "Ecotoxicology Research",
+      "type": "application",
+      "depth": 2,
+      "description": "The study of the toxic effects of chemicals on the environment and living organisms, with a focus on developing new methods and tools for risk assessment and management",
+      "importance": 8,
+      "fun_fact": "Ecotoxicology research involves collaboration between scientists, policymakers, and stakeholders to develop effective solutions to environmental pollution and conservation challenges",
+      "topic_slug": "ecotoxicology",
+      "topic": "Ecotoxicology"
+    },
+    {
+      "id": "ecotoxicology__N12",
+      "label": "Environmental Persistence",
+      "type": "concept",
+      "depth": 2,
+      "description": "The ability of a chemical to remain in the environment for a long time, potentially causing harm to organisms and ecosystems",
+      "importance": 7,
+      "fun_fact": "Environmental persistence is a key factor in determining the ecological risk of a chemical, as it can lead to long-term exposure and bioaccumulation",
+      "topic_slug": "ecotoxicology",
+      "topic": "Ecotoxicology"
+    },
+    {
+      "id": "ecotoxicology__N13",
+      "label": "Toxicity Testing",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of laboratory and field studies to assess the toxic effects of chemicals on organisms and ecosystems",
+      "importance": 8,
+      "fun_fact": "Toxicity testing can involve a range of methods, from in vitro assays to whole-organism studies, to assess the potential risks of chemicals to human health and the environment",
+      "topic_slug": "ecotoxicology",
+      "topic": "Ecotoxicology"
+    },
+    {
+      "id": "ecotoxicology__N14",
+      "label": "Ecosystem Sensitivity",
+      "type": "concept",
+      "depth": 2,
+      "description": "The degree to which an ecosystem is vulnerable to disruption or damage from toxic substances or other stressors",
+      "importance": 7,
+      "fun_fact": "Ecosystem sensitivity can depend on factors like biodiversity, nutrient cycling, and climate change, and can be used to inform conservation and management decisions",
+      "topic_slug": "ecotoxicology",
+      "topic": "Ecotoxicology"
+    },
+    {
+      "id": "ecotoxicology__N15",
+      "label": "Ren\u00e9 Truhaut",
+      "type": "person",
+      "depth": 2,
+      "description": "French toxicologist who coined the term 'ecotoxicology' and helped establish the field as a distinct area of study",
+      "importance": 6,
+      "fun_fact": "Ren\u00e9 Truhaut's work on the toxic effects of chemicals on the environment and human health helped raise awareness about the need for environmental protection and conservation",
+      "topic_slug": "ecotoxicology",
+      "topic": "Ecotoxicology"
     }
   ],
   "global_edges": [
@@ -17204,6 +17378,132 @@
       "relation": "is_part_of",
       "strength": 9,
       "topic": "Sustainable Agriculture"
+    },
+    {
+      "source": "ecotoxicology__N1",
+      "target": "ecotoxicology__N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Ecotoxicology"
+    },
+    {
+      "source": "ecotoxicology__N1",
+      "target": "ecotoxicology__N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Ecotoxicology"
+    },
+    {
+      "source": "ecotoxicology__N1",
+      "target": "ecotoxicology__N4",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Ecotoxicology"
+    },
+    {
+      "source": "ecotoxicology__N1",
+      "target": "ecotoxicology__N5",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Ecotoxicology"
+    },
+    {
+      "source": "ecotoxicology__N1",
+      "target": "ecotoxicology__N6",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Ecotoxicology"
+    },
+    {
+      "source": "ecotoxicology__N2",
+      "target": "ecotoxicology__N8",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Ecotoxicology"
+    },
+    {
+      "source": "ecotoxicology__N3",
+      "target": "ecotoxicology__N9",
+      "relation": "related_to",
+      "strength": 6,
+      "topic": "Ecotoxicology"
+    },
+    {
+      "source": "ecotoxicology__N4",
+      "target": "ecotoxicology__N10",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Ecotoxicology"
+    },
+    {
+      "source": "ecotoxicology__N5",
+      "target": "ecotoxicology__N11",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Ecotoxicology"
+    },
+    {
+      "source": "ecotoxicology__N6",
+      "target": "ecotoxicology__N12",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Ecotoxicology"
+    },
+    {
+      "source": "ecotoxicology__N7",
+      "target": "ecotoxicology__N1",
+      "relation": "discovered_by",
+      "strength": 8,
+      "topic": "Ecotoxicology"
+    },
+    {
+      "source": "ecotoxicology__N15",
+      "target": "ecotoxicology__N1",
+      "relation": "discovered_by",
+      "strength": 6,
+      "topic": "Ecotoxicology"
+    },
+    {
+      "source": "ecotoxicology__N8",
+      "target": "ecotoxicology__N13",
+      "relation": "used_in",
+      "strength": 7,
+      "topic": "Ecotoxicology"
+    },
+    {
+      "source": "ecotoxicology__N9",
+      "target": "ecotoxicology__N14",
+      "relation": "related_to",
+      "strength": 6,
+      "topic": "Ecotoxicology"
+    },
+    {
+      "source": "ecotoxicology__N10",
+      "target": "ecotoxicology__N11",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Ecotoxicology"
+    },
+    {
+      "source": "ecotoxicology__N11",
+      "target": "ecotoxicology__N12",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Ecotoxicology"
+    },
+    {
+      "source": "ecotoxicology__N12",
+      "target": "ecotoxicology__N14",
+      "relation": "related_to",
+      "strength": 6,
+      "topic": "Ecotoxicology"
+    },
+    {
+      "source": "ecotoxicology__N13",
+      "target": "ecotoxicology__N14",
+      "relation": "used_in",
+      "strength": 7,
+      "topic": "Ecotoxicology"
     }
   ],
   "cross_topic_edges": [
@@ -17329,6 +17629,13 @@
     {
       "source": "paleoecology__N12",
       "target": "ecological_restoration__N2",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "conservation biology"
+    },
+    {
+      "source": "ecological_restoration__N2",
+      "target": "ecotoxicology__N6",
       "relation": "cross_topic_connection",
       "strength": 6,
       "label": "conservation biology"
@@ -17551,6 +17858,13 @@
       "label": "anthropology"
     },
     {
+      "source": "toxicology__N4",
+      "target": "ecotoxicology__N1",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "ecotoxicology"
+    },
+    {
       "source": "hydrology__N3",
       "target": "hydrogeology__N2",
       "relation": "cross_topic_connection",
@@ -17668,7 +17982,8 @@
       "ethnopharmacology",
       "paleoecology",
       "ecological_restoration",
-      "sustainable_agriculture"
+      "sustainable_agriculture",
+      "ecotoxicology"
     ],
     "psychology": [
       "neuroplasticity",
@@ -17730,5 +18045,5 @@
       "ecological_economics"
     ]
   },
-  "last_updated": "2026-07-22T01:49:18.098993"
+  "last_updated": "2026-07-23T05:19:18.046312"
 }

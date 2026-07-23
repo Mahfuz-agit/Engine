@@ -739,5 +739,18 @@
     "master_total_topics": 57,
     "ended_at": "2026-07-22T01:49:18.112833",
     "duration_seconds": 41.7
+  },
+  {
+    "started_at": "2026-07-23T05:18:38.640334",
+    "status": "success",
+    "topic": "Ecotoxicology",
+    "sources_found": 5,
+    "images_found": 0,
+    "quality_score": 87.5,
+    "quality_passed": true,
+    "exam_questions": 10,
+    "master_total_topics": 58,
+    "ended_at": "2026-07-23T05:19:18.056675",
+    "duration_seconds": 39.4
   }
 ]

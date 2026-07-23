@@ -1,0 +1,164 @@
+{
+  "topic": "Ecotoxicology",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary focus of the field of ecotoxicology?",
+      "options": {
+        "A": "The study of the toxic effects of chemicals on human health",
+        "B": "The study of the toxic effects of chemicals on the environment and living organisms",
+        "C": "The study of the beneficial effects of chemicals on the environment and living organisms",
+        "D": "The study of the economic impacts of chemical use on society"
+      },
+      "correct": "B",
+      "explanation": "Ecotoxicology is an interdisciplinary field that draws on concepts from biology, chemistry, ecology, and toxicology to understand the toxic effects of chemicals on the environment and living organisms.",
+      "node_id": "Ecotoxicology",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the process by which organisms accumulate toxic substances in their tissues over time?",
+      "options": {
+        "A": "Biomagnification",
+        "B": "Bioaccumulation",
+        "C": "Toxicant transport",
+        "D": "Ecological risk assessment"
+      },
+      "correct": "B",
+      "explanation": "Bioaccumulation is the process by which organisms accumulate toxic substances in their tissues over time, which can occur through direct uptake of toxicants or through the food chain.",
+      "node_id": "Bioaccumulation",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the framework used to understand the mechanisms by which toxic substances cause harm to organisms and ecosystems?",
+      "options": {
+        "A": "Adverse outcome pathways",
+        "B": "Toxicity testing protocols",
+        "C": "Ecological risk assessment frameworks",
+        "D": "Conservation biology strategies"
+      },
+      "correct": "A",
+      "explanation": "Adverse outcome pathways is a framework for understanding the mechanisms by which toxic substances cause harm to organisms and ecosystems, which can help researchers and regulators identify key molecular and cellular targets for toxicity testing and risk assessment.",
+      "node_id": "Adverse Outcome Pathways",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "Who is the American marine biologist and conservationist who wrote 'Silent Spring', a book that helped launch the environmental movement?",
+      "options": {
+        "A": "Rachel Carson",
+        "B": "Ren\u00e9 Truhaut",
+        "C": "Jane Goodall",
+        "D": "Greta Thunberg"
+      },
+      "correct": "A",
+      "explanation": "Rachel Carson is the American marine biologist and conservationist who wrote 'Silent Spring', a book that helped launch the environmental movement and raise public awareness about the importance of environmental protection.",
+      "node_id": "Rachel Carson",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the ability of a chemical to remain in the environment for a long time, potentially causing harm to organisms and ecosystems?",
+      "options": {
+        "A": "Toxicity",
+        "B": "Bioaccumulation",
+        "C": "Environmental persistence",
+        "D": "Ecological risk"
+      },
+      "correct": "C",
+      "explanation": "Environmental persistence is the ability of a chemical to remain in the environment for a long time, potentially causing harm to organisms and ecosystems, which is a key factor in determining the ecological risk of a chemical.",
+      "node_id": "Environmental Persistence",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the degree to which an ecosystem is vulnerable to disruption or damage from toxic substances or other stressors?",
+      "options": {
+        "A": "Ecosystem sensitivity",
+        "B": "Ecological risk",
+        "C": "Toxicity",
+        "D": "Conservation biology"
+      },
+      "correct": "A",
+      "explanation": "Ecosystem sensitivity is the degree to which an ecosystem is vulnerable to disruption or damage from toxic substances or other stressors, which can depend on factors like biodiversity, nutrient cycling, and climate change.",
+      "node_id": "Ecosystem Sensitivity",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the process by which toxic substances become more concentrated in organisms as they move up the food chain?",
+      "options": {
+        "A": "Bioaccumulation",
+        "B": "Biomagnification",
+        "C": "Toxicant transport",
+        "D": "Ecological risk assessment"
+      },
+      "correct": "B",
+      "explanation": "Biomagnification is the process by which toxic substances become more concentrated in organisms as they move up the food chain, which can lead to high levels of toxicants in apex predators.",
+      "node_id": "Biomagnification",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the importance of ecotoxicology in understanding the impacts of chemical pollution on ecosystems and human health.",
+      "sample_answer": "Ecotoxicology is crucial for understanding the toxic effects of chemicals on the environment and living organisms, which can inform conservation and management decisions to protect ecosystems and human health.",
+      "keywords": [
+        "ecotoxicology",
+        "chemical pollution",
+        "ecosystems",
+        "human health"
+      ],
+      "node_id": "Ecotoxicology",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Explain the concept of adverse outcome pathways and its application in ecotoxicology research.",
+      "sample_answer": "Adverse outcome pathways is a framework for understanding the mechanisms by which toxic substances cause harm to organisms and ecosystems, which can help researchers and regulators identify key molecular and cellular targets for toxicity testing and risk assessment.",
+      "keywords": [
+        "adverse outcome pathways",
+        "ecotoxicology research",
+        "toxicity testing",
+        "risk assessment"
+      ],
+      "node_id": "Adverse Outcome Pathways",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Discuss the role of conservation biology in protecting and restoring ecosystems threatened by chemical pollution.",
+      "sample_answer": "Conservation biology plays a crucial role in protecting and restoring ecosystems threatened by chemical pollution by developing strategies to reduce pollution, restore habitats, and conserve species, which can inform management decisions to mitigate the impacts of chemical pollution.",
+      "keywords": [
+        "conservation biology",
+        "ecosystems",
+        "chemical pollution",
+        "management decisions"
+      ],
+      "node_id": "Conservation Biology",
+      "points": 10
+    }
+  ]
+}
