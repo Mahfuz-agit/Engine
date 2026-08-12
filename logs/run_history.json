@@ -804,5 +804,18 @@
     "master_total_topics": 62,
     "ended_at": "2026-08-12T18:50:18.019363",
     "duration_seconds": 42.2
+  },
+  {
+    "started_at": "2026-08-12T20:33:42.872841",
+    "status": "success",
+    "topic": "Environmental Psychology",
+    "sources_found": 5,
+    "images_found": 0,
+    "quality_score": 82.5,
+    "quality_passed": true,
+    "exam_questions": 10,
+    "master_total_topics": 63,
+    "ended_at": "2026-08-12T20:34:20.576480",
+    "duration_seconds": 37.7
   }
 ]

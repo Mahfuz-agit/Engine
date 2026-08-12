@@ -1,0 +1,164 @@
+{
+  "topic": "Environmental Psychology",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary focus of the field of environmental psychology?",
+      "options": {
+        "A": "The study of human behavior in social environments",
+        "B": "The study of the relationship between humans and their environment",
+        "C": "The study of human cognition and perception",
+        "D": "The study of human emotions and motivation"
+      },
+      "correct": "B",
+      "explanation": "Environmental psychology examines the relationship between humans and their environment, focusing on how people interact with and are affected by their surroundings.",
+      "node_id": "Environmental Psychology",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which concept in environmental psychology recognizes the importance of nature in promoting human well-being and sustainability?",
+      "options": {
+        "A": "Sustainable behavior",
+        "B": "Ecological identity",
+        "C": "Conservation psychology",
+        "D": "Landscape architecture"
+      },
+      "correct": "B",
+      "explanation": "Ecological identity refers to the sense of connection and identity that people have with the natural environment, which can influence their behavior and attitudes towards the environment.",
+      "node_id": "Ecological Identity",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the primary goal of conservation psychology?",
+      "options": {
+        "A": "To promote sustainable behavior and reduce environmental impact",
+        "B": "To study the psychological factors that influence human behavior towards the environment",
+        "C": "To design and plan outdoor spaces that promote sustainability and human well-being",
+        "D": "To develop green building technologies and reduce energy consumption"
+      },
+      "correct": "B",
+      "explanation": "Conservation psychology is an interdisciplinary field that draws on psychology, biology, and ecology to understand and promote conservation behavior.",
+      "node_id": "Conservation Psychology",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the term for the design and planning of outdoor spaces, such as parks, gardens, and urban landscapes, with a focus on promoting sustainability and human well-being?",
+      "options": {
+        "A": "Landscape architecture",
+        "B": "Urban ecology",
+        "C": "Green building",
+        "D": "Sustainable behavior"
+      },
+      "correct": "A",
+      "explanation": "Landscape architecture is a key application of environmental psychology, as it aims to create outdoor spaces that promote human well-being and sustainability.",
+      "node_id": "Landscape Architecture",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which theory proposes that exposure to nature can restore attentional abilities and reduce mental fatigue?",
+      "options": {
+        "A": "Attention restoration theory",
+        "B": "Sustainable behavior theory",
+        "C": "Ecological identity theory",
+        "D": "Conservation psychology theory"
+      },
+      "correct": "A",
+      "explanation": "Attention restoration theory has been influential in the development of environmental psychology, as it highlights the importance of nature in promoting human well-being.",
+      "node_id": "Attention Restoration Theory",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the process of adjusting to the impacts of climate change, with a focus on promoting sustainability and human well-being?",
+      "options": {
+        "A": "Climate change mitigation",
+        "B": "Climate change adaptation",
+        "C": "Sustainable behavior",
+        "D": "Conservation psychology"
+      },
+      "correct": "B",
+      "explanation": "Climate change adaptation is a key application of environmental psychology, as it recognizes the importance of adapting to the impacts of climate change to promote human well-being and sustainability.",
+      "node_id": "Climate Change Adaptation",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the experience of being in nature, which can have a range of psychological and physical benefits?",
+      "options": {
+        "A": "Nature experience",
+        "B": "Ecological identity",
+        "C": "Sustainable behavior",
+        "D": "Conservation psychology"
+      },
+      "correct": "A",
+      "explanation": "Nature experience is a key concept in environmental psychology, as it recognizes the importance of nature in promoting human well-being and sustainability.",
+      "node_id": "Nature Experience",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the concept of ecological identity and its importance in environmental psychology.",
+      "sample_answer": "Ecological identity refers to the sense of connection and identity that people have with the natural environment. It is important in environmental psychology because it can influence people's behavior and attitudes towards the environment, and promote sustainable behavior.",
+      "keywords": [
+        "ecological identity",
+        "sense of connection",
+        "natural environment",
+        "sustainable behavior"
+      ],
+      "node_id": "Ecological Identity",
+      "points": 20
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Explain the concept of attention restoration theory and its implications for environmental psychology.",
+      "sample_answer": "Attention restoration theory proposes that exposure to nature can restore attentional abilities and reduce mental fatigue. This theory has implications for environmental psychology because it highlights the importance of nature in promoting human well-being, and suggests that natural environments can be designed to promote attention restoration and improve cognitive functioning.",
+      "keywords": [
+        "attention restoration theory",
+        "nature",
+        "attentional abilities",
+        "mental fatigue"
+      ],
+      "node_id": "Attention Restoration Theory",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the importance of sustainable behavior in environmental psychology, and provide examples of behaviors that promote sustainability.",
+      "sample_answer": "Sustainable behavior is important in environmental psychology because it can reduce the negative impact of human activity on the environment. Examples of sustainable behaviors include reducing energy consumption, conserving natural resources, and using public transportation or walking or biking instead of driving.",
+      "keywords": [
+        "sustainable behavior",
+        "environmental impact",
+        "energy consumption",
+        "natural resources"
+      ],
+      "node_id": "Sustainable Behavior",
+      "points": 20
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "topic": "Environmental Psychology",
+  "category": "psychology",
+  "description": "Environmental psychology is a field of study that examines the relationship between humans and their environment, focusing on how people interact with and are affected by their surroundings. It encompasses various subfields, including human-environment interaction, sustainable behavior, ecological identity, conservation psychology, and landscape architecture. By understanding these dynamics, environmental psychologists aim to promote sustainable behaviors and improve the overall well-being of individuals and communities.",
+  "nodes": [
+    {
+      "id": "EP1",
+      "label": "Environmental Psychology",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of the relationship between humans and their environment, focusing on how people interact with and are affected by their surroundings.",
+      "importance": 10,
+      "fun_fact": "The field of environmental psychology emerged in the 1960s, as concern for the environment and human well-being grew."
+    },
+    {
+      "id": "HEI1",
+      "label": "Human-Environment Interaction",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of how people interact with and are affected by their environment, including the physical, social, and cultural aspects.",
+      "importance": 9,
+      "fun_fact": "Human-environment interaction is a key concept in environmental psychology, as it recognizes that people are not separate from their environment, but are an integral part of it."
+    },
+    {
+      "id": "SB1",
+      "label": "Sustainable Behavior",
+      "type": "concept",
+      "depth": 1,
+      "description": "Behaviors that promote the well-being of individuals and the environment, such as reducing energy consumption and conserving natural resources.",
+      "importance": 9,
+      "fun_fact": "Sustainable behavior is a critical aspect of environmental psychology, as it aims to reduce the negative impact of human activity on the environment."
+    },
+    {
+      "id": "EI1",
+      "label": "Ecological Identity",
+      "type": "concept",
+      "depth": 1,
+      "description": "The sense of connection and identity that people have with the natural environment, which can influence their behavior and attitudes towards the environment.",
+      "importance": 8,
+      "fun_fact": "Ecological identity is a relatively new concept in environmental psychology, but it has been shown to be an important predictor of sustainable behavior."
+    },
+    {
+      "id": "CP1",
+      "label": "Conservation Psychology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the psychological factors that influence human behavior towards the environment, with a focus on promoting conservation and sustainability.",
+      "importance": 8,
+      "fun_fact": "Conservation psychology is an interdisciplinary field that draws on psychology, biology, and ecology to understand and promote conservation behavior."
+    },
+    {
+      "id": "LA1",
+      "label": "Landscape Architecture",
+      "type": "application",
+      "depth": 2,
+      "description": "The design and planning of outdoor spaces, such as parks, gardens, and urban landscapes, with a focus on promoting sustainability and human well-being.",
+      "importance": 7,
+      "fun_fact": "Landscape architecture is a key application of environmental psychology, as it aims to create outdoor spaces that promote human well-being and sustainability."
+    },
+    {
+      "id": "RK1",
+      "label": "Rachel Kaplan",
+      "type": "person",
+      "depth": 2,
+      "description": "A prominent environmental psychologist who has made significant contributions to the field, including the development of the concept of attention restoration theory.",
+      "importance": 6,
+      "fun_fact": "Rachel Kaplan is known for her work on the restorative benefits of nature, which has been influential in the development of environmental psychology."
+    },
+    {
+      "id": "SC1",
+      "label": "Stephen Kaplan",
+      "type": "person",
+      "depth": 2,
+      "description": "A prominent environmental psychologist who has made significant contributions to the field, including the development of the concept of attention restoration theory.",
+      "importance": 6,
+      "fun_fact": "Stephen Kaplan is known for his work on the cognitive benefits of nature, which has been influential in the development of environmental psychology."
+    },
+    {
+      "id": "ART1",
+      "label": "Attention Restoration Theory",
+      "type": "concept",
+      "depth": 2,
+      "description": "A theory that proposes that exposure to nature can restore attentional abilities and reduce mental fatigue.",
+      "importance": 7,
+      "fun_fact": "Attention restoration theory has been influential in the development of environmental psychology, as it highlights the importance of nature in promoting human well-being."
+    },
+    {
+      "id": "GB1",
+      "label": "Green Building",
+      "type": "application",
+      "depth": 2,
+      "description": "The design and construction of buildings that promote sustainability and reduce environmental impact.",
+      "importance": 7,
+      "fun_fact": "Green building is a key application of environmental psychology, as it aims to create buildings that promote human well-being and sustainability."
+    },
+    {
+      "id": "UE1",
+      "label": "Urban Ecology",
+      "type": "concept",
+      "depth": 2,
+      "description": "The study of the relationships between humans and the urban environment, with a focus on promoting sustainability and human well-being.",
+      "importance": 7,
+      "fun_fact": "Urban ecology is a key concept in environmental psychology, as it recognizes the importance of the urban environment in promoting human well-being and sustainability."
+    },
+    {
+      "id": "NE1",
+      "label": "Nature Experience",
+      "type": "concept",
+      "depth": 2,
+      "description": "The experience of being in nature, which can have a range of psychological and physical benefits.",
+      "importance": 7,
+      "fun_fact": "Nature experience is a key concept in environmental psychology, as it recognizes the importance of nature in promoting human well-being and sustainability."
+    },
+    {
+      "id": "EE1",
+      "label": "Environmental Education",
+      "type": "application",
+      "depth": 2,
+      "description": "The teaching of environmental concepts and values, with a focus on promoting sustainability and human well-being.",
+      "importance": 6,
+      "fun_fact": "Environmental education is a key application of environmental psychology, as it aims to promote sustainability and human well-being through education."
+    },
+    {
+      "id": "CPA1",
+      "label": "Climate Change Adaptation",
+      "type": "application",
+      "depth": 2,
+      "description": "The process of adjusting to the impacts of climate change, with a focus on promoting sustainability and human well-being.",
+      "importance": 8,
+      "fun_fact": "Climate change adaptation is a key application of environmental psychology, as it recognizes the importance of adapting to the impacts of climate change to promote human well-being and sustainability."
+    }
+  ],
+  "edges": [
+    {
+      "source": "EP1",
+      "target": "HEI1",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Human-environment interaction is a key concept in environmental psychology."
+    },
+    {
+      "source": "EP1",
+      "target": "SB1",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Sustainable behavior is a critical aspect of environmental psychology."
+    },
+    {
+      "source": "EP1",
+      "target": "EI1",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Ecological identity is a key concept in environmental psychology."
+    },
+    {
+      "source": "EP1",
+      "target": "CP1",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Conservation psychology is a key concept in environmental psychology."
+    },
+    {
+      "source": "HEI1",
+      "target": "LA1",
+      "relation": "leads_to",
+      "strength": 7,
+      "description": "Human-environment interaction can lead to the development of landscape architecture."
+    },
+    {
+      "source": "SB1",
+      "target": "GB1",
+      "relation": "leads_to",
+      "strength": 7,
+      "description": "Sustainable behavior can lead to the development of green building."
+    },
+    {
+      "source": "EI1",
+      "target": "NE1",
+      "relation": "is_type_of",
+      "strength": 7,
+      "description": "Ecological identity is a type of nature experience."
+    },
+    {
+      "source": "CP1",
+      "target": "CPA1",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "Conservation psychology can lead to climate change adaptation."
+    },
+    {
+      "source": "RK1",
+      "target": "ART1",
+      "relation": "discovered_by",
+      "strength": 6,
+      "description": "Rachel Kaplan developed the concept of attention restoration theory."
+    },
+    {
+      "source": "SC1",
+      "target": "ART1",
+      "relation": "discovered_by",
+      "strength": 6,
+      "description": "Stephen Kaplan developed the concept of attention restoration theory."
+    },
+    {
+      "source": "ART1",
+      "target": "NE1",
+      "relation": "is_part_of",
+      "strength": 7,
+      "description": "Attention restoration theory is a key concept in nature experience."
+    },
+    {
+      "source": "UE1",
+      "target": "EE1",
+      "relation": "leads_to",
+      "strength": 6,
+      "description": "Urban ecology can lead to environmental education."
+    },
+    {
+      "source": "CPA1",
+      "target": "EE1",
+      "relation": "depends_on",
+      "strength": 6,
+      "description": "Climate change adaptation depends on environmental education."
+    },
+    {
+      "source": "LA1",
+      "target": "GB1",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "Landscape architecture is related to green building."
+    },
+    {
+      "source": "NE1",
+      "target": "UE1",
+      "relation": "is_part_of",
+      "strength": 7,
+      "description": "Nature experience is a part of urban ecology."
+    },
+    {
+      "source": "EE1",
+      "target": "CPA1",
+      "relation": "enables",
+      "strength": 6,
+      "description": "Environmental education enables climate change adaptation."
+    },
+    {
+      "source": "EP1",
+      "target": "RK1",
+      "relation": "evolved_from",
+      "strength": 6,
+      "description": "Environmental psychology evolved from the work of Rachel Kaplan."
+    },
+    {
+      "source": "EP1",
+      "target": "SC1",
+      "relation": "evolved_from",
+      "strength": 6,
+      "description": "Environmental psychology evolved from the work of Stephen Kaplan."
+    }
+  ],
+  "key_takeaways": [
+    "Environmental psychology is a field of study that examines the relationship between humans and their environment.",
+    "Sustainable behavior is a critical aspect of environmental psychology.",
+    "Ecological identity is a key concept in environmental psychology, as it recognizes the importance of nature in promoting human well-being and sustainability."
+  ],
+  "real_world_impact": "Environmental psychology has a significant impact on real-world issues, such as climate change, conservation, and sustainability. By understanding the psychological factors that influence human behavior towards the environment, environmental psychologists can develop effective interventions to promote sustainable behavior and reduce environmental degradation. For example, the development of green building and landscape architecture can promote sustainability and reduce environmental impact. Additionally, environmental education and climate change adaptation can enable individuals and communities to adapt to the impacts of climate change and promote human well-being and sustainability.",
+  "images": [],
+  "sources": {
+    "wikipedia_url": "",
+    "papers": [
+      {
+        "title": "A comprehensive model of the psychology of environmental behaviour\u2014A meta-analysis",
+        "url": "https://doi.org/10.1016/j.gloenvcha.2013.05.014"
+      },
+      {
+        "title": "Advances in Environmental Psychology",
+        "url": "https://doi.org/10.3390/bs5030384"
+      },
+      {
+        "title": "The paradox of environmental psychology.",
+        "url": "https://doi.org/10.1037/0003-066x.50.10.821"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 80,
+      "issues": [
+        "Too few nodes: 14",
+        "Too few edges: 18"
+      ],
+      "node_count": 14,
+      "edge_count": 18
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Environmental Justice",
+        "Cognitive Mapping"
+      ],
+      "strengths": [
+        "Clear representation of key concepts in environmental psychology",
+        "Well-established connections between concepts and applications"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 82.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

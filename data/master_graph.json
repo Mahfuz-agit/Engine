@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 62,
-  "total_nodes": 928,
-  "total_edges": 1136,
+  "total_topics": 63,
+  "total_nodes": 942,
+  "total_edges": 1154,
   "topics": [
     {
       "topic": "Climate Change",
@@ -561,6 +561,15 @@
       "edge_count": 19,
       "description": "Environmental justice is a social movement that addresses injustice when poor or marginalized communities are harmed by hazardous waste, resource extraction, and other land uses from which they do not benefit. The movement has generated hundreds of studies showing that exposure to environmental harm is inequitably distributed. It encompasses various subtopics including sustainability, human rights, ecological ethics, climate equity, and community engagement.",
       "added_at": "2026-08-12T18:50:18.005733"
+    },
+    {
+      "topic": "Environmental Psychology",
+      "slug": "environmental_psychology",
+      "category": "psychology",
+      "node_count": 14,
+      "edge_count": 18,
+      "description": "Environmental psychology is a field of study that examines the relationship between humans and their environment, focusing on how people interact with and are affected by their surroundings. It encompasses various subfields, including human-environment interaction, sustainable behavior, ecological identity, conservation psychology, and landscape architecture. By understanding these dynamics, environmental psychologists aim to promote sustainable behaviors and improve the overall well-being of individuals and communities.",
+      "added_at": "2026-08-12T20:34:20.561813"
     }
   ],
   "global_nodes": [
@@ -10771,6 +10780,160 @@
       "fun_fact": "The Civil Rights Movement laid the groundwork for the environmental justice movement",
       "topic_slug": "environmental_justice",
       "topic": "Environmental Justice"
+    },
+    {
+      "id": "environmental_psychology__EP1",
+      "label": "Environmental Psychology",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of the relationship between humans and their environment, focusing on how people interact with and are affected by their surroundings.",
+      "importance": 10,
+      "fun_fact": "The field of environmental psychology emerged in the 1960s, as concern for the environment and human well-being grew.",
+      "topic_slug": "environmental_psychology",
+      "topic": "Environmental Psychology"
+    },
+    {
+      "id": "environmental_psychology__HEI1",
+      "label": "Human-Environment Interaction",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of how people interact with and are affected by their environment, including the physical, social, and cultural aspects.",
+      "importance": 9,
+      "fun_fact": "Human-environment interaction is a key concept in environmental psychology, as it recognizes that people are not separate from their environment, but are an integral part of it.",
+      "topic_slug": "environmental_psychology",
+      "topic": "Environmental Psychology"
+    },
+    {
+      "id": "environmental_psychology__SB1",
+      "label": "Sustainable Behavior",
+      "type": "concept",
+      "depth": 1,
+      "description": "Behaviors that promote the well-being of individuals and the environment, such as reducing energy consumption and conserving natural resources.",
+      "importance": 9,
+      "fun_fact": "Sustainable behavior is a critical aspect of environmental psychology, as it aims to reduce the negative impact of human activity on the environment.",
+      "topic_slug": "environmental_psychology",
+      "topic": "Environmental Psychology"
+    },
+    {
+      "id": "environmental_psychology__EI1",
+      "label": "Ecological Identity",
+      "type": "concept",
+      "depth": 1,
+      "description": "The sense of connection and identity that people have with the natural environment, which can influence their behavior and attitudes towards the environment.",
+      "importance": 8,
+      "fun_fact": "Ecological identity is a relatively new concept in environmental psychology, but it has been shown to be an important predictor of sustainable behavior.",
+      "topic_slug": "environmental_psychology",
+      "topic": "Environmental Psychology"
+    },
+    {
+      "id": "environmental_psychology__CP1",
+      "label": "Conservation Psychology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the psychological factors that influence human behavior towards the environment, with a focus on promoting conservation and sustainability.",
+      "importance": 8,
+      "fun_fact": "Conservation psychology is an interdisciplinary field that draws on psychology, biology, and ecology to understand and promote conservation behavior.",
+      "topic_slug": "environmental_psychology",
+      "topic": "Environmental Psychology"
+    },
+    {
+      "id": "environmental_psychology__LA1",
+      "label": "Landscape Architecture",
+      "type": "application",
+      "depth": 2,
+      "description": "The design and planning of outdoor spaces, such as parks, gardens, and urban landscapes, with a focus on promoting sustainability and human well-being.",
+      "importance": 7,
+      "fun_fact": "Landscape architecture is a key application of environmental psychology, as it aims to create outdoor spaces that promote human well-being and sustainability.",
+      "topic_slug": "environmental_psychology",
+      "topic": "Environmental Psychology"
+    },
+    {
+      "id": "environmental_psychology__RK1",
+      "label": "Rachel Kaplan",
+      "type": "person",
+      "depth": 2,
+      "description": "A prominent environmental psychologist who has made significant contributions to the field, including the development of the concept of attention restoration theory.",
+      "importance": 6,
+      "fun_fact": "Rachel Kaplan is known for her work on the restorative benefits of nature, which has been influential in the development of environmental psychology.",
+      "topic_slug": "environmental_psychology",
+      "topic": "Environmental Psychology"
+    },
+    {
+      "id": "environmental_psychology__SC1",
+      "label": "Stephen Kaplan",
+      "type": "person",
+      "depth": 2,
+      "description": "A prominent environmental psychologist who has made significant contributions to the field, including the development of the concept of attention restoration theory.",
+      "importance": 6,
+      "fun_fact": "Stephen Kaplan is known for his work on the cognitive benefits of nature, which has been influential in the development of environmental psychology.",
+      "topic_slug": "environmental_psychology",
+      "topic": "Environmental Psychology"
+    },
+    {
+      "id": "environmental_psychology__ART1",
+      "label": "Attention Restoration Theory",
+      "type": "concept",
+      "depth": 2,
+      "description": "A theory that proposes that exposure to nature can restore attentional abilities and reduce mental fatigue.",
+      "importance": 7,
+      "fun_fact": "Attention restoration theory has been influential in the development of environmental psychology, as it highlights the importance of nature in promoting human well-being.",
+      "topic_slug": "environmental_psychology",
+      "topic": "Environmental Psychology"
+    },
+    {
+      "id": "environmental_psychology__GB1",
+      "label": "Green Building",
+      "type": "application",
+      "depth": 2,
+      "description": "The design and construction of buildings that promote sustainability and reduce environmental impact.",
+      "importance": 7,
+      "fun_fact": "Green building is a key application of environmental psychology, as it aims to create buildings that promote human well-being and sustainability.",
+      "topic_slug": "environmental_psychology",
+      "topic": "Environmental Psychology"
+    },
+    {
+      "id": "environmental_psychology__UE1",
+      "label": "Urban Ecology",
+      "type": "concept",
+      "depth": 2,
+      "description": "The study of the relationships between humans and the urban environment, with a focus on promoting sustainability and human well-being.",
+      "importance": 7,
+      "fun_fact": "Urban ecology is a key concept in environmental psychology, as it recognizes the importance of the urban environment in promoting human well-being and sustainability.",
+      "topic_slug": "environmental_psychology",
+      "topic": "Environmental Psychology"
+    },
+    {
+      "id": "environmental_psychology__NE1",
+      "label": "Nature Experience",
+      "type": "concept",
+      "depth": 2,
+      "description": "The experience of being in nature, which can have a range of psychological and physical benefits.",
+      "importance": 7,
+      "fun_fact": "Nature experience is a key concept in environmental psychology, as it recognizes the importance of nature in promoting human well-being and sustainability.",
+      "topic_slug": "environmental_psychology",
+      "topic": "Environmental Psychology"
+    },
+    {
+      "id": "environmental_psychology__EE1",
+      "label": "Environmental Education",
+      "type": "application",
+      "depth": 2,
+      "description": "The teaching of environmental concepts and values, with a focus on promoting sustainability and human well-being.",
+      "importance": 6,
+      "fun_fact": "Environmental education is a key application of environmental psychology, as it aims to promote sustainability and human well-being through education.",
+      "topic_slug": "environmental_psychology",
+      "topic": "Environmental Psychology"
+    },
+    {
+      "id": "environmental_psychology__CPA1",
+      "label": "Climate Change Adaptation",
+      "type": "application",
+      "depth": 2,
+      "description": "The process of adjusting to the impacts of climate change, with a focus on promoting sustainability and human well-being.",
+      "importance": 8,
+      "fun_fact": "Climate change adaptation is a key application of environmental psychology, as it recognizes the importance of adapting to the impacts of climate change to promote human well-being and sustainability.",
+      "topic_slug": "environmental_psychology",
+      "topic": "Environmental Psychology"
     }
   ],
   "global_edges": [
@@ -18725,6 +18888,132 @@
       "relation": "evolved_from",
       "strength": 8,
       "topic": "Environmental Justice"
+    },
+    {
+      "source": "environmental_psychology__EP1",
+      "target": "environmental_psychology__HEI1",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Environmental Psychology"
+    },
+    {
+      "source": "environmental_psychology__EP1",
+      "target": "environmental_psychology__SB1",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Environmental Psychology"
+    },
+    {
+      "source": "environmental_psychology__EP1",
+      "target": "environmental_psychology__EI1",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Environmental Psychology"
+    },
+    {
+      "source": "environmental_psychology__EP1",
+      "target": "environmental_psychology__CP1",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Environmental Psychology"
+    },
+    {
+      "source": "environmental_psychology__HEI1",
+      "target": "environmental_psychology__LA1",
+      "relation": "leads_to",
+      "strength": 7,
+      "topic": "Environmental Psychology"
+    },
+    {
+      "source": "environmental_psychology__SB1",
+      "target": "environmental_psychology__GB1",
+      "relation": "leads_to",
+      "strength": 7,
+      "topic": "Environmental Psychology"
+    },
+    {
+      "source": "environmental_psychology__EI1",
+      "target": "environmental_psychology__NE1",
+      "relation": "is_type_of",
+      "strength": 7,
+      "topic": "Environmental Psychology"
+    },
+    {
+      "source": "environmental_psychology__CP1",
+      "target": "environmental_psychology__CPA1",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Environmental Psychology"
+    },
+    {
+      "source": "environmental_psychology__RK1",
+      "target": "environmental_psychology__ART1",
+      "relation": "discovered_by",
+      "strength": 6,
+      "topic": "Environmental Psychology"
+    },
+    {
+      "source": "environmental_psychology__SC1",
+      "target": "environmental_psychology__ART1",
+      "relation": "discovered_by",
+      "strength": 6,
+      "topic": "Environmental Psychology"
+    },
+    {
+      "source": "environmental_psychology__ART1",
+      "target": "environmental_psychology__NE1",
+      "relation": "is_part_of",
+      "strength": 7,
+      "topic": "Environmental Psychology"
+    },
+    {
+      "source": "environmental_psychology__UE1",
+      "target": "environmental_psychology__EE1",
+      "relation": "leads_to",
+      "strength": 6,
+      "topic": "Environmental Psychology"
+    },
+    {
+      "source": "environmental_psychology__CPA1",
+      "target": "environmental_psychology__EE1",
+      "relation": "depends_on",
+      "strength": 6,
+      "topic": "Environmental Psychology"
+    },
+    {
+      "source": "environmental_psychology__LA1",
+      "target": "environmental_psychology__GB1",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Environmental Psychology"
+    },
+    {
+      "source": "environmental_psychology__NE1",
+      "target": "environmental_psychology__UE1",
+      "relation": "is_part_of",
+      "strength": 7,
+      "topic": "Environmental Psychology"
+    },
+    {
+      "source": "environmental_psychology__EE1",
+      "target": "environmental_psychology__CPA1",
+      "relation": "enables",
+      "strength": 6,
+      "topic": "Environmental Psychology"
+    },
+    {
+      "source": "environmental_psychology__EP1",
+      "target": "environmental_psychology__RK1",
+      "relation": "evolved_from",
+      "strength": 6,
+      "topic": "Environmental Psychology"
+    },
+    {
+      "source": "environmental_psychology__EP1",
+      "target": "environmental_psychology__SC1",
+      "relation": "evolved_from",
+      "strength": 6,
+      "topic": "Environmental Psychology"
     }
   ],
   "cross_topic_edges": [
@@ -19264,7 +19553,8 @@
     ],
     "psychology": [
       "neuroplasticity",
-      "cognitive_psychology"
+      "cognitive_psychology",
+      "environmental_psychology"
     ],
     "physics": [
       "sustainable_energy",
@@ -19328,5 +19618,5 @@
       "science_education"
     ]
   },
-  "last_updated": "2026-08-12T18:50:18.005766"
+  "last_updated": "2026-08-12T20:34:20.561850"
 }
