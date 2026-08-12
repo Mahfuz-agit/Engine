@@ -1,0 +1,333 @@
+{
+  "topic": "Environmental Governance",
+  "category": "political_science",
+  "description": "Environmental governance refers to the processes and institutions that aim to protect the environment and promote sustainable development. It involves the coordination of various stakeholders, including governments, businesses, and civil society, to address environmental challenges such as climate change, biodiversity loss, and pollution. Effective environmental governance is crucial for ensuring a healthy and sustainable future for all.",
+  "nodes": [
+    {
+      "id": "EG1",
+      "label": "Sustainable Development",
+      "type": "core",
+      "depth": 0,
+      "description": "Sustainable development is a concept that aims to balance economic, social, and environmental needs to ensure a sustainable future.",
+      "importance": 9,
+      "fun_fact": "The concept of sustainable development was first introduced in the 1987 Brundtland Commission report."
+    },
+    {
+      "id": "EG2",
+      "label": "Climate Policy",
+      "type": "concept",
+      "depth": 1,
+      "description": "Climate policy refers to the laws, regulations, and agreements that aim to mitigate and adapt to climate change.",
+      "importance": 8,
+      "fun_fact": "The Paris Agreement is a key international climate policy agreement that aims to limit global warming to well below 2\u00b0C."
+    },
+    {
+      "id": "EG3",
+      "label": "Biodiversity Conservation",
+      "type": "concept",
+      "depth": 1,
+      "description": "Biodiversity conservation refers to the efforts to preserve and protect the variety of plants, animals, and ecosystems on Earth.",
+      "importance": 8,
+      "fun_fact": "The Convention on Biological Diversity is an international agreement that aims to conserve and sustainably use biodiversity."
+    },
+    {
+      "id": "EG4",
+      "label": "Ecological Law",
+      "type": "concept",
+      "depth": 1,
+      "description": "Ecological law refers to the laws and regulations that aim to protect the environment and promote ecological sustainability.",
+      "importance": 7,
+      "fun_fact": "The concept of ecological law is based on the idea that humans are part of the natural world and must live in harmony with the environment."
+    },
+    {
+      "id": "EG5",
+      "label": "International Cooperation",
+      "type": "concept",
+      "depth": 1,
+      "description": "International cooperation refers to the collaboration between countries to address global environmental challenges.",
+      "importance": 8,
+      "fun_fact": "The United Nations Environment Programme is a key international organization that promotes environmental cooperation and coordination."
+    },
+    {
+      "id": "EG6",
+      "label": "Globalization",
+      "type": "concept",
+      "depth": 2,
+      "description": "Globalization refers to the increasing interconnectedness of the world's economies, societies, and environments.",
+      "importance": 6,
+      "fun_fact": "Globalization has led to increased trade and economic growth, but also poses environmental challenges such as increased pollution and resource depletion."
+    },
+    {
+      "id": "EG7",
+      "label": "Decentralization",
+      "type": "concept",
+      "depth": 2,
+      "description": "Decentralization refers to the transfer of power and decision-making authority from central governments to local communities and organizations.",
+      "importance": 6,
+      "fun_fact": "Decentralization can lead to more effective and sustainable environmental management, as local communities are often more aware of local environmental challenges and solutions."
+    },
+    {
+      "id": "EG8",
+      "label": "Market-Based Governance",
+      "type": "concept",
+      "depth": 2,
+      "description": "Market-based governance refers to the use of market mechanisms, such as carbon pricing and tradeable permits, to promote environmental protection.",
+      "importance": 6,
+      "fun_fact": "Market-based governance can provide a cost-effective and efficient way to reduce pollution and promote sustainable development."
+    },
+    {
+      "id": "EG9",
+      "label": "Cross-Scale Governance",
+      "type": "concept",
+      "depth": 2,
+      "description": "Cross-scale governance refers to the coordination of environmental governance across different levels, from local to global.",
+      "importance": 6,
+      "fun_fact": "Cross-scale governance is crucial for addressing global environmental challenges, as it allows for the coordination of efforts and the sharing of knowledge and resources."
+    },
+    {
+      "id": "EG10",
+      "label": "Collaborative Governance",
+      "type": "concept",
+      "depth": 2,
+      "description": "Collaborative governance refers to the collaboration between different stakeholders, including governments, businesses, and civil society, to address environmental challenges.",
+      "importance": 7,
+      "fun_fact": "Collaborative governance can lead to more effective and sustainable environmental management, as it allows for the sharing of knowledge, resources, and expertise."
+    },
+    {
+      "id": "EG11",
+      "label": "Environmental Governance Framework",
+      "type": "application",
+      "depth": 3,
+      "description": "An environmental governance framework is a set of principles, policies, and institutions that guide environmental decision-making and management.",
+      "importance": 5,
+      "fun_fact": "An environmental governance framework can help to ensure that environmental considerations are integrated into decision-making processes and that environmental protection is promoted."
+    },
+    {
+      "id": "EG12",
+      "label": "Sustainable Development Goals",
+      "type": "example",
+      "depth": 3,
+      "description": "The Sustainable Development Goals (SDGs) are a set of 17 goals that aim to promote sustainable development and address global environmental challenges.",
+      "importance": 8,
+      "fun_fact": "The SDGs were adopted by the United Nations in 2015 and provide a framework for countries to promote sustainable development and address environmental challenges."
+    },
+    {
+      "id": "EG13",
+      "label": "Climate Change Mitigation",
+      "type": "example",
+      "depth": 3,
+      "description": "Climate change mitigation refers to the efforts to reduce greenhouse gas emissions and mitigate the impacts of climate change.",
+      "importance": 8,
+      "fun_fact": "Climate change mitigation can be achieved through a range of strategies, including the transition to renewable energy, energy efficiency, and carbon capture and storage."
+    },
+    {
+      "id": "EG14",
+      "label": "Biodiversity Conservation Efforts",
+      "type": "example",
+      "depth": 3,
+      "description": "Biodiversity conservation efforts refer to the actions taken to preserve and protect biodiversity, such as the establishment of protected areas and the conservation of endangered species.",
+      "importance": 7,
+      "fun_fact": "Biodiversity conservation efforts can help to maintain ecosystem services, such as pollination and pest control, and promote human well-being."
+    },
+    {
+      "id": "EG15",
+      "label": "Ecological Restoration",
+      "type": "example",
+      "depth": 3,
+      "description": "Ecological restoration refers to the process of restoring degraded or damaged ecosystems to a healthy and sustainable state.",
+      "importance": 6,
+      "fun_fact": "Ecological restoration can help to promote biodiversity, improve ecosystem services, and support human well-being."
+    }
+  ],
+  "edges": [
+    {
+      "source": "EG1",
+      "target": "EG2",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Climate policy is a key component of sustainable development."
+    },
+    {
+      "source": "EG1",
+      "target": "EG3",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Biodiversity conservation is a key component of sustainable development."
+    },
+    {
+      "source": "EG1",
+      "target": "EG4",
+      "relation": "is_part_of",
+      "strength": 7,
+      "description": "Ecological law is a key component of sustainable development."
+    },
+    {
+      "source": "EG1",
+      "target": "EG5",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "International cooperation is a key component of sustainable development."
+    },
+    {
+      "source": "EG2",
+      "target": "EG6",
+      "relation": "related_to",
+      "strength": 6,
+      "description": "Climate policy is related to globalization, as global trade and economic activity can impact climate change."
+    },
+    {
+      "source": "EG2",
+      "target": "EG7",
+      "relation": "related_to",
+      "strength": 6,
+      "description": "Climate policy is related to decentralization, as local communities can play a key role in climate change mitigation and adaptation."
+    },
+    {
+      "source": "EG3",
+      "target": "EG8",
+      "relation": "related_to",
+      "strength": 6,
+      "description": "Biodiversity conservation is related to market-based governance, as market mechanisms can be used to promote conservation efforts."
+    },
+    {
+      "source": "EG3",
+      "target": "EG9",
+      "relation": "related_to",
+      "strength": 6,
+      "description": "Biodiversity conservation is related to cross-scale governance, as conservation efforts often require coordination across different levels."
+    },
+    {
+      "source": "EG4",
+      "target": "EG10",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "Ecological law is related to collaborative governance, as ecological law can provide a framework for collaborative decision-making and management."
+    },
+    {
+      "source": "EG5",
+      "target": "EG11",
+      "relation": "used_in",
+      "strength": 5,
+      "description": "International cooperation is used in environmental governance frameworks to promote coordination and cooperation among countries."
+    },
+    {
+      "source": "EG6",
+      "target": "EG12",
+      "relation": "enables",
+      "strength": 8,
+      "description": "Globalization enables the achievement of the Sustainable Development Goals, as global trade and economic activity can promote economic growth and development."
+    },
+    {
+      "source": "EG7",
+      "target": "EG13",
+      "relation": "enables",
+      "strength": 8,
+      "description": "Decentralization enables climate change mitigation efforts, as local communities can play a key role in reducing greenhouse gas emissions and promoting sustainable development."
+    },
+    {
+      "source": "EG8",
+      "target": "EG14",
+      "relation": "enables",
+      "strength": 7,
+      "description": "Market-based governance enables biodiversity conservation efforts, as market mechanisms can be used to promote conservation and sustainable use of biodiversity."
+    },
+    {
+      "source": "EG9",
+      "target": "EG15",
+      "relation": "enables",
+      "strength": 6,
+      "description": "Cross-scale governance enables ecological restoration efforts, as coordination across different levels can promote the restoration of degraded or damaged ecosystems."
+    },
+    {
+      "source": "EG10",
+      "target": "EG11",
+      "relation": "used_in",
+      "strength": 5,
+      "description": "Collaborative governance is used in environmental governance frameworks to promote coordination and cooperation among different stakeholders."
+    },
+    {
+      "source": "EG11",
+      "target": "EG12",
+      "relation": "enables",
+      "strength": 8,
+      "description": "Environmental governance frameworks enable the achievement of the Sustainable Development Goals, as they provide a framework for coordination and cooperation among countries."
+    },
+    {
+      "source": "EG12",
+      "target": "EG13",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "The Sustainable Development Goals are related to climate change mitigation efforts, as reducing greenhouse gas emissions and promoting sustainable development are key components of the SDGs."
+    },
+    {
+      "source": "EG13",
+      "target": "EG14",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "Climate change mitigation efforts are related to biodiversity conservation efforts, as climate change can impact biodiversity and ecosystem services."
+    },
+    {
+      "source": "EG14",
+      "target": "EG15",
+      "relation": "related_to",
+      "strength": 6,
+      "description": "Biodiversity conservation efforts are related to ecological restoration efforts, as conservation and restoration of ecosystems can promote biodiversity and ecosystem services."
+    }
+  ],
+  "key_takeaways": [
+    "Environmental governance is a complex and multi-scale issue that requires coordination and cooperation among different stakeholders.",
+    "Sustainable development, climate policy, biodiversity conservation, and ecological law are key components of environmental governance.",
+    "International cooperation, decentralization, market-based governance, and cross-scale governance are important approaches to environmental governance."
+  ],
+  "real_world_impact": "Effective environmental governance can have a significant impact on the health and well-being of both humans and the planet. For example, the implementation of climate policies can help to reduce greenhouse gas emissions and mitigate the impacts of climate change. Similarly, biodiversity conservation efforts can help to preserve ecosystem services and promote human well-being. However, environmental governance is often challenged by issues such as lack of coordination and cooperation, inadequate funding, and conflicting priorities. Therefore, it is essential to develop and implement effective environmental governance frameworks that can promote coordination, cooperation, and sustainable development.",
+  "images": [],
+  "sources": {
+    "wikipedia_url": "",
+    "papers": [
+      {
+        "title": "Environmental Governance",
+        "url": "https://doi.org/10.1146/annurev.energy.31.042605.135621"
+      },
+      {
+        "title": "Reconfiguring environmental governance: Towards a politics of scales and networks",
+        "url": "https://doi.org/10.1016/j.polgeo.2005.07.002"
+      },
+      {
+        "title": "Collaborative environmental governance: Achieving collective action in social-ecological systems",
+        "url": "https://doi.org/10.1126/science.aan1114"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 19"
+      ],
+      "node_count": 15,
+      "edge_count": 19
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Environmental Justice",
+        "Green Economy"
+      ],
+      "strengths": [
+        "Comprehensive coverage of key environmental governance concepts",
+        "Clear relationships between concepts"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

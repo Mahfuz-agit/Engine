@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 60,
-  "total_nodes": 898,
-  "total_edges": 1098,
+  "total_topics": 61,
+  "total_nodes": 913,
+  "total_edges": 1117,
   "topics": [
     {
       "topic": "Climate Change",
@@ -543,6 +543,15 @@
       "edge_count": 19,
       "description": "Environmental economics is a sub-field of economics concerned with environmental issues, studying the economic effects of environmental policies and the costs and benefits of alternative policies. It combines traditional welfare economics and economic growth theory with perspectives on the political economy of policy choice. The field has grown significantly due to increasing environmental concerns in the twenty-first century.",
       "added_at": "2026-08-12T14:50:54.808260"
+    },
+    {
+      "topic": "Environmental Governance",
+      "slug": "environmental_governance",
+      "category": "political_science",
+      "node_count": 15,
+      "edge_count": 19,
+      "description": "Environmental governance refers to the processes and institutions that aim to protect the environment and promote sustainable development. It involves the coordination of various stakeholders, including governments, businesses, and civil society, to address environmental challenges such as climate change, biodiversity loss, and pollution. Effective environmental governance is crucial for ensuring a healthy and sustainable future for all.",
+      "added_at": "2026-08-12T16:48:16.189502"
     }
   ],
   "global_nodes": [
@@ -10423,6 +10432,171 @@
       "fun_fact": "Environmental policy can take many forms, including regulations, taxes, and subsidies.",
       "topic_slug": "environmental_economics",
       "topic": "Environmental Economics"
+    },
+    {
+      "id": "environmental_governance__EG1",
+      "label": "Sustainable Development",
+      "type": "core",
+      "depth": 0,
+      "description": "Sustainable development is a concept that aims to balance economic, social, and environmental needs to ensure a sustainable future.",
+      "importance": 9,
+      "fun_fact": "The concept of sustainable development was first introduced in the 1987 Brundtland Commission report.",
+      "topic_slug": "environmental_governance",
+      "topic": "Environmental Governance"
+    },
+    {
+      "id": "environmental_governance__EG2",
+      "label": "Climate Policy",
+      "type": "concept",
+      "depth": 1,
+      "description": "Climate policy refers to the laws, regulations, and agreements that aim to mitigate and adapt to climate change.",
+      "importance": 8,
+      "fun_fact": "The Paris Agreement is a key international climate policy agreement that aims to limit global warming to well below 2\u00b0C.",
+      "topic_slug": "environmental_governance",
+      "topic": "Environmental Governance"
+    },
+    {
+      "id": "environmental_governance__EG3",
+      "label": "Biodiversity Conservation",
+      "type": "concept",
+      "depth": 1,
+      "description": "Biodiversity conservation refers to the efforts to preserve and protect the variety of plants, animals, and ecosystems on Earth.",
+      "importance": 8,
+      "fun_fact": "The Convention on Biological Diversity is an international agreement that aims to conserve and sustainably use biodiversity.",
+      "topic_slug": "environmental_governance",
+      "topic": "Environmental Governance"
+    },
+    {
+      "id": "environmental_governance__EG4",
+      "label": "Ecological Law",
+      "type": "concept",
+      "depth": 1,
+      "description": "Ecological law refers to the laws and regulations that aim to protect the environment and promote ecological sustainability.",
+      "importance": 7,
+      "fun_fact": "The concept of ecological law is based on the idea that humans are part of the natural world and must live in harmony with the environment.",
+      "topic_slug": "environmental_governance",
+      "topic": "Environmental Governance"
+    },
+    {
+      "id": "environmental_governance__EG5",
+      "label": "International Cooperation",
+      "type": "concept",
+      "depth": 1,
+      "description": "International cooperation refers to the collaboration between countries to address global environmental challenges.",
+      "importance": 8,
+      "fun_fact": "The United Nations Environment Programme is a key international organization that promotes environmental cooperation and coordination.",
+      "topic_slug": "environmental_governance",
+      "topic": "Environmental Governance"
+    },
+    {
+      "id": "environmental_governance__EG6",
+      "label": "Globalization",
+      "type": "concept",
+      "depth": 2,
+      "description": "Globalization refers to the increasing interconnectedness of the world's economies, societies, and environments.",
+      "importance": 6,
+      "fun_fact": "Globalization has led to increased trade and economic growth, but also poses environmental challenges such as increased pollution and resource depletion.",
+      "topic_slug": "environmental_governance",
+      "topic": "Environmental Governance"
+    },
+    {
+      "id": "environmental_governance__EG7",
+      "label": "Decentralization",
+      "type": "concept",
+      "depth": 2,
+      "description": "Decentralization refers to the transfer of power and decision-making authority from central governments to local communities and organizations.",
+      "importance": 6,
+      "fun_fact": "Decentralization can lead to more effective and sustainable environmental management, as local communities are often more aware of local environmental challenges and solutions.",
+      "topic_slug": "environmental_governance",
+      "topic": "Environmental Governance"
+    },
+    {
+      "id": "environmental_governance__EG8",
+      "label": "Market-Based Governance",
+      "type": "concept",
+      "depth": 2,
+      "description": "Market-based governance refers to the use of market mechanisms, such as carbon pricing and tradeable permits, to promote environmental protection.",
+      "importance": 6,
+      "fun_fact": "Market-based governance can provide a cost-effective and efficient way to reduce pollution and promote sustainable development.",
+      "topic_slug": "environmental_governance",
+      "topic": "Environmental Governance"
+    },
+    {
+      "id": "environmental_governance__EG9",
+      "label": "Cross-Scale Governance",
+      "type": "concept",
+      "depth": 2,
+      "description": "Cross-scale governance refers to the coordination of environmental governance across different levels, from local to global.",
+      "importance": 6,
+      "fun_fact": "Cross-scale governance is crucial for addressing global environmental challenges, as it allows for the coordination of efforts and the sharing of knowledge and resources.",
+      "topic_slug": "environmental_governance",
+      "topic": "Environmental Governance"
+    },
+    {
+      "id": "environmental_governance__EG10",
+      "label": "Collaborative Governance",
+      "type": "concept",
+      "depth": 2,
+      "description": "Collaborative governance refers to the collaboration between different stakeholders, including governments, businesses, and civil society, to address environmental challenges.",
+      "importance": 7,
+      "fun_fact": "Collaborative governance can lead to more effective and sustainable environmental management, as it allows for the sharing of knowledge, resources, and expertise.",
+      "topic_slug": "environmental_governance",
+      "topic": "Environmental Governance"
+    },
+    {
+      "id": "environmental_governance__EG11",
+      "label": "Environmental Governance Framework",
+      "type": "application",
+      "depth": 3,
+      "description": "An environmental governance framework is a set of principles, policies, and institutions that guide environmental decision-making and management.",
+      "importance": 5,
+      "fun_fact": "An environmental governance framework can help to ensure that environmental considerations are integrated into decision-making processes and that environmental protection is promoted.",
+      "topic_slug": "environmental_governance",
+      "topic": "Environmental Governance"
+    },
+    {
+      "id": "environmental_governance__EG12",
+      "label": "Sustainable Development Goals",
+      "type": "example",
+      "depth": 3,
+      "description": "The Sustainable Development Goals (SDGs) are a set of 17 goals that aim to promote sustainable development and address global environmental challenges.",
+      "importance": 8,
+      "fun_fact": "The SDGs were adopted by the United Nations in 2015 and provide a framework for countries to promote sustainable development and address environmental challenges.",
+      "topic_slug": "environmental_governance",
+      "topic": "Environmental Governance"
+    },
+    {
+      "id": "environmental_governance__EG13",
+      "label": "Climate Change Mitigation",
+      "type": "example",
+      "depth": 3,
+      "description": "Climate change mitigation refers to the efforts to reduce greenhouse gas emissions and mitigate the impacts of climate change.",
+      "importance": 8,
+      "fun_fact": "Climate change mitigation can be achieved through a range of strategies, including the transition to renewable energy, energy efficiency, and carbon capture and storage.",
+      "topic_slug": "environmental_governance",
+      "topic": "Environmental Governance"
+    },
+    {
+      "id": "environmental_governance__EG14",
+      "label": "Biodiversity Conservation Efforts",
+      "type": "example",
+      "depth": 3,
+      "description": "Biodiversity conservation efforts refer to the actions taken to preserve and protect biodiversity, such as the establishment of protected areas and the conservation of endangered species.",
+      "importance": 7,
+      "fun_fact": "Biodiversity conservation efforts can help to maintain ecosystem services, such as pollination and pest control, and promote human well-being.",
+      "topic_slug": "environmental_governance",
+      "topic": "Environmental Governance"
+    },
+    {
+      "id": "environmental_governance__EG15",
+      "label": "Ecological Restoration",
+      "type": "example",
+      "depth": 3,
+      "description": "Ecological restoration refers to the process of restoring degraded or damaged ecosystems to a healthy and sustainable state.",
+      "importance": 6,
+      "fun_fact": "Ecological restoration can help to promote biodiversity, improve ecosystem services, and support human well-being.",
+      "topic_slug": "environmental_governance",
+      "topic": "Environmental Governance"
     }
   ],
   "global_edges": [
@@ -18111,6 +18285,139 @@
       "relation": "used_in",
       "strength": 6,
       "topic": "Environmental Economics"
+    },
+    {
+      "source": "environmental_governance__EG1",
+      "target": "environmental_governance__EG2",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Environmental Governance"
+    },
+    {
+      "source": "environmental_governance__EG1",
+      "target": "environmental_governance__EG3",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Environmental Governance"
+    },
+    {
+      "source": "environmental_governance__EG1",
+      "target": "environmental_governance__EG4",
+      "relation": "is_part_of",
+      "strength": 7,
+      "topic": "Environmental Governance"
+    },
+    {
+      "source": "environmental_governance__EG1",
+      "target": "environmental_governance__EG5",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Environmental Governance"
+    },
+    {
+      "source": "environmental_governance__EG2",
+      "target": "environmental_governance__EG6",
+      "relation": "related_to",
+      "strength": 6,
+      "topic": "Environmental Governance"
+    },
+    {
+      "source": "environmental_governance__EG2",
+      "target": "environmental_governance__EG7",
+      "relation": "related_to",
+      "strength": 6,
+      "topic": "Environmental Governance"
+    },
+    {
+      "source": "environmental_governance__EG3",
+      "target": "environmental_governance__EG8",
+      "relation": "related_to",
+      "strength": 6,
+      "topic": "Environmental Governance"
+    },
+    {
+      "source": "environmental_governance__EG3",
+      "target": "environmental_governance__EG9",
+      "relation": "related_to",
+      "strength": 6,
+      "topic": "Environmental Governance"
+    },
+    {
+      "source": "environmental_governance__EG4",
+      "target": "environmental_governance__EG10",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Environmental Governance"
+    },
+    {
+      "source": "environmental_governance__EG5",
+      "target": "environmental_governance__EG11",
+      "relation": "used_in",
+      "strength": 5,
+      "topic": "Environmental Governance"
+    },
+    {
+      "source": "environmental_governance__EG6",
+      "target": "environmental_governance__EG12",
+      "relation": "enables",
+      "strength": 8,
+      "topic": "Environmental Governance"
+    },
+    {
+      "source": "environmental_governance__EG7",
+      "target": "environmental_governance__EG13",
+      "relation": "enables",
+      "strength": 8,
+      "topic": "Environmental Governance"
+    },
+    {
+      "source": "environmental_governance__EG8",
+      "target": "environmental_governance__EG14",
+      "relation": "enables",
+      "strength": 7,
+      "topic": "Environmental Governance"
+    },
+    {
+      "source": "environmental_governance__EG9",
+      "target": "environmental_governance__EG15",
+      "relation": "enables",
+      "strength": 6,
+      "topic": "Environmental Governance"
+    },
+    {
+      "source": "environmental_governance__EG10",
+      "target": "environmental_governance__EG11",
+      "relation": "used_in",
+      "strength": 5,
+      "topic": "Environmental Governance"
+    },
+    {
+      "source": "environmental_governance__EG11",
+      "target": "environmental_governance__EG12",
+      "relation": "enables",
+      "strength": 8,
+      "topic": "Environmental Governance"
+    },
+    {
+      "source": "environmental_governance__EG12",
+      "target": "environmental_governance__EG13",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Environmental Governance"
+    },
+    {
+      "source": "environmental_governance__EG13",
+      "target": "environmental_governance__EG14",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Environmental Governance"
+    },
+    {
+      "source": "environmental_governance__EG14",
+      "target": "environmental_governance__EG15",
+      "relation": "related_to",
+      "strength": 6,
+      "topic": "Environmental Governance"
     }
   ],
   "cross_topic_edges": [
@@ -18173,6 +18480,13 @@
     {
       "source": "ecological_economics__N3",
       "target": "environmental_economics__sustainable_dev",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "sustainable development"
+    },
+    {
+      "source": "environmental_economics__sustainable_dev",
+      "target": "environmental_governance__EG1",
       "relation": "cross_topic_connection",
       "strength": 6,
       "label": "sustainable development"
@@ -18535,6 +18849,13 @@
       "label": "sustainable development goals"
     },
     {
+      "source": "ecological_economics__N13",
+      "target": "environmental_governance__EG12",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "sustainable development goals"
+    },
+    {
       "source": "anthropology__N3",
       "target": "archaeolinguistics__N14",
       "relation": "cross_topic_connection",
@@ -18570,11 +18891,25 @@
       "label": "climate change mitigation"
     },
     {
+      "source": "ecological_restoration__N14",
+      "target": "environmental_governance__EG13",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "climate change mitigation"
+    },
+    {
       "source": "climate_change_mitigation__SLU",
       "target": "ecological_restoration__N6",
       "relation": "cross_topic_connection",
       "strength": 6,
       "label": "sustainable land use"
+    },
+    {
+      "source": "ecological_restoration__N15",
+      "target": "environmental_governance__EG3",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "biodiversity conservation"
     }
   ],
   "category_map": {
@@ -18661,7 +18996,8 @@
       "archaeoacoustics"
     ],
     "political_science": [
-      "geopolitics"
+      "geopolitics",
+      "environmental_governance"
     ],
     "philosophy": [
       "ethics_of_emerging_technologies"
@@ -18677,5 +19013,5 @@
       "science_education"
     ]
   },
-  "last_updated": "2026-08-12T14:50:54.808302"
+  "last_updated": "2026-08-12T16:48:16.189544"
 }

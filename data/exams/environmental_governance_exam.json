@@ -1,0 +1,164 @@
+{
+  "topic": "Environmental Governance",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary goal of sustainable development?",
+      "options": {
+        "A": "To prioritize economic growth over environmental concerns",
+        "B": "To balance economic, social, and environmental needs",
+        "C": "To focus solely on environmental conservation",
+        "D": "To promote social justice at the expense of economic growth"
+      },
+      "correct": "B",
+      "explanation": "Sustainable development aims to balance economic, social, and environmental needs to ensure a sustainable future.",
+      "node_id": "Sustainable Development",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the main objective of the Paris Agreement?",
+      "options": {
+        "A": "To promote international cooperation on biodiversity conservation",
+        "B": "To limit global warming to well below 2\u00b0C",
+        "C": "To establish a global framework for ecological law",
+        "D": "To develop a new economic model based on sustainable development"
+      },
+      "correct": "B",
+      "explanation": "The Paris Agreement aims to limit global warming to well below 2\u00b0C and pursue efforts to limit it to 1.5\u00b0C above pre-industrial levels.",
+      "node_id": "Climate Policy",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the key concept underlying ecological law?",
+      "options": {
+        "A": "The idea that humans are separate from the natural world",
+        "B": "The concept of sustainable development",
+        "C": "The principle of international cooperation",
+        "D": "The idea that humans are part of the natural world and must live in harmony with the environment"
+      },
+      "correct": "D",
+      "explanation": "Ecological law is based on the idea that humans are part of the natural world and must live in harmony with the environment.",
+      "node_id": "Ecological Law",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the purpose of the Convention on Biological Diversity?",
+      "options": {
+        "A": "To promote international cooperation on climate change",
+        "B": "To conserve and sustainably use biodiversity",
+        "C": "To establish a global framework for ecological law",
+        "D": "To develop a new economic model based on sustainable development"
+      },
+      "correct": "B",
+      "explanation": "The Convention on Biological Diversity aims to conserve and sustainably use biodiversity.",
+      "node_id": "Biodiversity Conservation",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the role of international cooperation in environmental governance?",
+      "options": {
+        "A": "To promote competition between countries on environmental issues",
+        "B": "To facilitate the sharing of knowledge, resources, and expertise between countries",
+        "C": "To establish a global framework for ecological law",
+        "D": "To develop a new economic model based on sustainable development"
+      },
+      "correct": "B",
+      "explanation": "International cooperation facilitates the sharing of knowledge, resources, and expertise between countries to address global environmental challenges.",
+      "node_id": "International Cooperation",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the relationship between collaborative governance and environmental management?",
+      "options": {
+        "A": "Collaborative governance leads to more ineffective and unsustainable environmental management",
+        "B": "Collaborative governance has no impact on environmental management",
+        "C": "Collaborative governance leads to more effective and sustainable environmental management",
+        "D": "Collaborative governance is only relevant to economic development"
+      },
+      "correct": "C",
+      "explanation": "Collaborative governance can lead to more effective and sustainable environmental management, as it allows for the sharing of knowledge, resources, and expertise.",
+      "node_id": "Collaborative Governance",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the purpose of the Sustainable Development Goals (SDGs)?",
+      "options": {
+        "A": "To promote international cooperation on climate change",
+        "B": "To establish a global framework for ecological law",
+        "C": "To provide a framework for countries to promote sustainable development and address environmental challenges",
+        "D": "To develop a new economic model based on sustainable development"
+      },
+      "correct": "C",
+      "explanation": "The SDGs provide a framework for countries to promote sustainable development and address environmental challenges.",
+      "node_id": "Sustainable Development Goals",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What are the key components of climate change mitigation, and how can they be achieved?",
+      "sample_answer": "Climate change mitigation involves reducing greenhouse gas emissions and transitioning to renewable energy sources. This can be achieved through strategies such as increasing energy efficiency, promoting sustainable land use, and implementing carbon pricing mechanisms.",
+      "keywords": [
+        "climate change mitigation",
+        "renewable energy",
+        "energy efficiency",
+        "carbon pricing"
+      ],
+      "node_id": "Climate Change Mitigation",
+      "points": 15
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "How do biodiversity conservation efforts contribute to human well-being, and what are some examples of effective conservation strategies?",
+      "sample_answer": "Biodiversity conservation efforts contribute to human well-being by maintaining ecosystem services such as pollination, pest control, and climate regulation. Effective conservation strategies include establishing protected areas, promoting sustainable land use, and engaging local communities in conservation efforts.",
+      "keywords": [
+        "biodiversity conservation",
+        "ecosystem services",
+        "protected areas",
+        "community engagement"
+      ],
+      "node_id": "Biodiversity Conservation Efforts",
+      "points": 15
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What is the role of ecological law in promoting environmental governance, and how can it be integrated into existing legal frameworks?",
+      "sample_answer": "Ecological law plays a crucial role in promoting environmental governance by providing a framework for environmental protection and conservation. It can be integrated into existing legal frameworks through the development of new laws and regulations, as well as the interpretation and application of existing laws in an ecologically conscious manner.",
+      "keywords": [
+        "ecological law",
+        "environmental governance",
+        "legal frameworks",
+        "integration"
+      ],
+      "node_id": "Ecological Law",
+      "points": 15
+    }
+  ]
+}
