@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 63,
-  "total_nodes": 942,
-  "total_edges": 1154,
+  "total_topics": 64,
+  "total_nodes": 957,
+  "total_edges": 1172,
   "topics": [
     {
       "topic": "Climate Change",
@@ -570,6 +570,15 @@
       "edge_count": 18,
       "description": "Environmental psychology is a field of study that examines the relationship between humans and their environment, focusing on how people interact with and are affected by their surroundings. It encompasses various subfields, including human-environment interaction, sustainable behavior, ecological identity, conservation psychology, and landscape architecture. By understanding these dynamics, environmental psychologists aim to promote sustainable behaviors and improve the overall well-being of individuals and communities.",
       "added_at": "2026-08-12T20:34:20.561813"
+    },
+    {
+      "topic": "Environmental Microbiology",
+      "slug": "environmental_microbiology",
+      "category": "biology",
+      "node_count": 15,
+      "edge_count": 18,
+      "description": "Environmental Microbiology is the study of microbial interactions and processes in the environment, encompassing various ecosystems such as soil, water, and air. It explores the roles microorganisms play in these ecosystems, including their contributions to biogeochemical cycles and their potential for bioremediation. This field is crucial for understanding and addressing environmental challenges.",
+      "added_at": "2026-08-12T22:31:17.718252"
     }
   ],
   "global_nodes": [
@@ -10934,6 +10943,171 @@
       "fun_fact": "Climate change adaptation is a key application of environmental psychology, as it recognizes the importance of adapting to the impacts of climate change to promote human well-being and sustainability.",
       "topic_slug": "environmental_psychology",
       "topic": "Environmental Psychology"
+    },
+    {
+      "id": "environmental_microbiology__N1",
+      "label": "Environmental Microbiology",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of microbial interactions and processes in the environment.",
+      "importance": 10,
+      "fun_fact": "It's an interdisciplinary field that combines microbiology, ecology, and environmental science.",
+      "topic_slug": "environmental_microbiology",
+      "topic": "Environmental Microbiology"
+    },
+    {
+      "id": "environmental_microbiology__N2",
+      "label": "Microbial Ecology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the interactions between microorganisms and their environment.",
+      "importance": 9,
+      "fun_fact": "It's a key area of research in environmental microbiology, focusing on how microorganisms interact with each other and their surroundings.",
+      "topic_slug": "environmental_microbiology",
+      "topic": "Environmental Microbiology"
+    },
+    {
+      "id": "environmental_microbiology__N3",
+      "label": "Soil Microbiology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of microorganisms in soil and their roles in soil ecosystems.",
+      "importance": 8,
+      "fun_fact": "Soil microorganisms are crucial for decomposing organic matter and cycling nutrients.",
+      "topic_slug": "environmental_microbiology",
+      "topic": "Environmental Microbiology"
+    },
+    {
+      "id": "environmental_microbiology__N4",
+      "label": "Water Microbiology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of microorganisms in water and their roles in aquatic ecosystems.",
+      "importance": 8,
+      "fun_fact": "Water microorganisms are important for water quality and the health of aquatic organisms.",
+      "topic_slug": "environmental_microbiology",
+      "topic": "Environmental Microbiology"
+    },
+    {
+      "id": "environmental_microbiology__N5",
+      "label": "Air Microbiology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of microorganisms in the air and their roles in atmospheric processes.",
+      "importance": 7,
+      "fun_fact": "Air microorganisms can influence cloud formation and precipitation patterns.",
+      "topic_slug": "environmental_microbiology",
+      "topic": "Environmental Microbiology"
+    },
+    {
+      "id": "environmental_microbiology__N6",
+      "label": "Microbial Bioremediation",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of microorganisms to clean up pollutants in the environment.",
+      "importance": 9,
+      "fun_fact": "Bioremediation is a cost-effective and environmentally friendly method for cleaning up contaminated sites.",
+      "topic_slug": "environmental_microbiology",
+      "topic": "Environmental Microbiology"
+    },
+    {
+      "id": "environmental_microbiology__N7",
+      "label": "Biogeochemical Cycles",
+      "type": "concept",
+      "depth": 2,
+      "description": "The pathways by which nutrients and elements are cycled through the environment.",
+      "importance": 8,
+      "fun_fact": "Microorganisms play a crucial role in many biogeochemical cycles, including the carbon and nitrogen cycles.",
+      "topic_slug": "environmental_microbiology",
+      "topic": "Environmental Microbiology"
+    },
+    {
+      "id": "environmental_microbiology__N8",
+      "label": "Louis Pasteur",
+      "type": "person",
+      "depth": 3,
+      "description": "A French scientist who made significant contributions to the field of microbiology.",
+      "importance": 6,
+      "fun_fact": "Pasteur developed the germ theory of disease and created the first vaccines for several diseases.",
+      "topic_slug": "environmental_microbiology",
+      "topic": "Environmental Microbiology"
+    },
+    {
+      "id": "environmental_microbiology__N9",
+      "label": "Society for Applied Microbiology",
+      "type": "organization",
+      "depth": 3,
+      "description": "A professional organization that promotes the advancement of applied microbiology.",
+      "importance": 5,
+      "fun_fact": "The society publishes several scientific journals, including Environmental Microbiology.",
+      "topic_slug": "environmental_microbiology",
+      "topic": "Environmental Microbiology"
+    },
+    {
+      "id": "environmental_microbiology__N10",
+      "label": "Environmental Microbiology Journal",
+      "type": "publication",
+      "depth": 3,
+      "description": "A scientific journal that publishes research on microbial interactions and processes in the environment.",
+      "importance": 8,
+      "fun_fact": "The journal has a high impact factor and is a leading publication in the field of environmental microbiology.",
+      "topic_slug": "environmental_microbiology",
+      "topic": "Environmental Microbiology"
+    },
+    {
+      "id": "environmental_microbiology__N11",
+      "label": "Applied and Environmental Microbiology",
+      "type": "publication",
+      "depth": 3,
+      "description": "A scientific journal that publishes research on applied microbial research and microbial ecology.",
+      "importance": 8,
+      "fun_fact": "The journal is a leading publication in the field of microbiology and has a high impact factor.",
+      "topic_slug": "environmental_microbiology",
+      "topic": "Environmental Microbiology"
+    },
+    {
+      "id": "environmental_microbiology__N12",
+      "label": "Microbial Ecology Research",
+      "type": "example",
+      "depth": 4,
+      "description": "Research on the interactions between microorganisms and their environment.",
+      "importance": 7,
+      "fun_fact": "Microbial ecology research has led to a greater understanding of the importance of microorganisms in ecosystems.",
+      "topic_slug": "environmental_microbiology",
+      "topic": "Environmental Microbiology"
+    },
+    {
+      "id": "environmental_microbiology__N13",
+      "label": "Bioremediation of Polluted Soil",
+      "type": "example",
+      "depth": 4,
+      "description": "The use of microorganisms to clean up pollutants in soil.",
+      "importance": 8,
+      "fun_fact": "Bioremediation is a cost-effective and environmentally friendly method for cleaning up contaminated soil.",
+      "topic_slug": "environmental_microbiology",
+      "topic": "Environmental Microbiology"
+    },
+    {
+      "id": "environmental_microbiology__N14",
+      "label": "Water Quality Monitoring",
+      "type": "example",
+      "depth": 4,
+      "description": "The use of microorganisms to monitor water quality.",
+      "importance": 7,
+      "fun_fact": "Microorganisms can be used as indicators of water quality and can help to identify sources of pollution.",
+      "topic_slug": "environmental_microbiology",
+      "topic": "Environmental Microbiology"
+    },
+    {
+      "id": "environmental_microbiology__N15",
+      "label": "Atmospheric Science",
+      "type": "concept",
+      "depth": 2,
+      "description": "The study of the Earth's atmosphere and its processes.",
+      "importance": 6,
+      "fun_fact": "Atmospheric science is an interdisciplinary field that combines meteorology, climatology, and atmospheric chemistry.",
+      "topic_slug": "environmental_microbiology",
+      "topic": "Environmental Microbiology"
     }
   ],
   "global_edges": [
@@ -19014,6 +19188,132 @@
       "relation": "evolved_from",
       "strength": 6,
       "topic": "Environmental Psychology"
+    },
+    {
+      "source": "environmental_microbiology__N1",
+      "target": "environmental_microbiology__N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Environmental Microbiology"
+    },
+    {
+      "source": "environmental_microbiology__N1",
+      "target": "environmental_microbiology__N3",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Environmental Microbiology"
+    },
+    {
+      "source": "environmental_microbiology__N1",
+      "target": "environmental_microbiology__N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Environmental Microbiology"
+    },
+    {
+      "source": "environmental_microbiology__N1",
+      "target": "environmental_microbiology__N5",
+      "relation": "is_part_of",
+      "strength": 7,
+      "topic": "Environmental Microbiology"
+    },
+    {
+      "source": "environmental_microbiology__N2",
+      "target": "environmental_microbiology__N6",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Environmental Microbiology"
+    },
+    {
+      "source": "environmental_microbiology__N3",
+      "target": "environmental_microbiology__N7",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Environmental Microbiology"
+    },
+    {
+      "source": "environmental_microbiology__N4",
+      "target": "environmental_microbiology__N7",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Environmental Microbiology"
+    },
+    {
+      "source": "environmental_microbiology__N5",
+      "target": "environmental_microbiology__N7",
+      "relation": "related_to",
+      "strength": 6,
+      "topic": "Environmental Microbiology"
+    },
+    {
+      "source": "environmental_microbiology__N6",
+      "target": "environmental_microbiology__N13",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Environmental Microbiology"
+    },
+    {
+      "source": "environmental_microbiology__N7",
+      "target": "environmental_microbiology__N12",
+      "relation": "is_part_of",
+      "strength": 7,
+      "topic": "Environmental Microbiology"
+    },
+    {
+      "source": "environmental_microbiology__N8",
+      "target": "environmental_microbiology__N1",
+      "relation": "discovered_by",
+      "strength": 6,
+      "topic": "Environmental Microbiology"
+    },
+    {
+      "source": "environmental_microbiology__N9",
+      "target": "environmental_microbiology__N10",
+      "relation": "publishes",
+      "strength": 5,
+      "topic": "Environmental Microbiology"
+    },
+    {
+      "source": "environmental_microbiology__N10",
+      "target": "environmental_microbiology__N1",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Environmental Microbiology"
+    },
+    {
+      "source": "environmental_microbiology__N11",
+      "target": "environmental_microbiology__N1",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Environmental Microbiology"
+    },
+    {
+      "source": "environmental_microbiology__N12",
+      "target": "environmental_microbiology__N6",
+      "relation": "example_of",
+      "strength": 7,
+      "topic": "Environmental Microbiology"
+    },
+    {
+      "source": "environmental_microbiology__N13",
+      "target": "environmental_microbiology__N6",
+      "relation": "example_of",
+      "strength": 8,
+      "topic": "Environmental Microbiology"
+    },
+    {
+      "source": "environmental_microbiology__N14",
+      "target": "environmental_microbiology__N4",
+      "relation": "example_of",
+      "strength": 7,
+      "topic": "Environmental Microbiology"
+    },
+    {
+      "source": "environmental_microbiology__N15",
+      "target": "environmental_microbiology__N5",
+      "relation": "related_to",
+      "strength": 6,
+      "topic": "Environmental Microbiology"
     }
   ],
   "cross_topic_edges": [
@@ -19240,6 +19540,13 @@
       "relation": "cross_topic_connection",
       "strength": 6,
       "label": "vaccination"
+    },
+    {
+      "source": "microbiology__N11",
+      "target": "environmental_microbiology__N2",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "microbial ecology"
     },
     {
       "source": "microbiology__N14",
@@ -19549,7 +19856,8 @@
       "paleoecology",
       "ecological_restoration",
       "sustainable_agriculture",
-      "ecotoxicology"
+      "ecotoxicology",
+      "environmental_microbiology"
     ],
     "psychology": [
       "neuroplasticity",
@@ -19618,5 +19926,5 @@
       "science_education"
     ]
   },
-  "last_updated": "2026-08-12T20:34:20.561850"
+  "last_updated": "2026-08-12T22:31:17.718290"
 }

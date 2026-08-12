@@ -1,0 +1,326 @@
+{
+  "topic": "Environmental Microbiology",
+  "category": "biology",
+  "description": "Environmental Microbiology is the study of microbial interactions and processes in the environment, encompassing various ecosystems such as soil, water, and air. It explores the roles microorganisms play in these ecosystems, including their contributions to biogeochemical cycles and their potential for bioremediation. This field is crucial for understanding and addressing environmental challenges.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Environmental Microbiology",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of microbial interactions and processes in the environment.",
+      "importance": 10,
+      "fun_fact": "It's an interdisciplinary field that combines microbiology, ecology, and environmental science."
+    },
+    {
+      "id": "N2",
+      "label": "Microbial Ecology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the interactions between microorganisms and their environment.",
+      "importance": 9,
+      "fun_fact": "It's a key area of research in environmental microbiology, focusing on how microorganisms interact with each other and their surroundings."
+    },
+    {
+      "id": "N3",
+      "label": "Soil Microbiology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of microorganisms in soil and their roles in soil ecosystems.",
+      "importance": 8,
+      "fun_fact": "Soil microorganisms are crucial for decomposing organic matter and cycling nutrients."
+    },
+    {
+      "id": "N4",
+      "label": "Water Microbiology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of microorganisms in water and their roles in aquatic ecosystems.",
+      "importance": 8,
+      "fun_fact": "Water microorganisms are important for water quality and the health of aquatic organisms."
+    },
+    {
+      "id": "N5",
+      "label": "Air Microbiology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of microorganisms in the air and their roles in atmospheric processes.",
+      "importance": 7,
+      "fun_fact": "Air microorganisms can influence cloud formation and precipitation patterns."
+    },
+    {
+      "id": "N6",
+      "label": "Microbial Bioremediation",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of microorganisms to clean up pollutants in the environment.",
+      "importance": 9,
+      "fun_fact": "Bioremediation is a cost-effective and environmentally friendly method for cleaning up contaminated sites."
+    },
+    {
+      "id": "N7",
+      "label": "Biogeochemical Cycles",
+      "type": "concept",
+      "depth": 2,
+      "description": "The pathways by which nutrients and elements are cycled through the environment.",
+      "importance": 8,
+      "fun_fact": "Microorganisms play a crucial role in many biogeochemical cycles, including the carbon and nitrogen cycles."
+    },
+    {
+      "id": "N8",
+      "label": "Louis Pasteur",
+      "type": "person",
+      "depth": 3,
+      "description": "A French scientist who made significant contributions to the field of microbiology.",
+      "importance": 6,
+      "fun_fact": "Pasteur developed the germ theory of disease and created the first vaccines for several diseases."
+    },
+    {
+      "id": "N9",
+      "label": "Society for Applied Microbiology",
+      "type": "organization",
+      "depth": 3,
+      "description": "A professional organization that promotes the advancement of applied microbiology.",
+      "importance": 5,
+      "fun_fact": "The society publishes several scientific journals, including Environmental Microbiology."
+    },
+    {
+      "id": "N10",
+      "label": "Environmental Microbiology Journal",
+      "type": "publication",
+      "depth": 3,
+      "description": "A scientific journal that publishes research on microbial interactions and processes in the environment.",
+      "importance": 8,
+      "fun_fact": "The journal has a high impact factor and is a leading publication in the field of environmental microbiology."
+    },
+    {
+      "id": "N11",
+      "label": "Applied and Environmental Microbiology",
+      "type": "publication",
+      "depth": 3,
+      "description": "A scientific journal that publishes research on applied microbial research and microbial ecology.",
+      "importance": 8,
+      "fun_fact": "The journal is a leading publication in the field of microbiology and has a high impact factor."
+    },
+    {
+      "id": "N12",
+      "label": "Microbial Ecology Research",
+      "type": "example",
+      "depth": 4,
+      "description": "Research on the interactions between microorganisms and their environment.",
+      "importance": 7,
+      "fun_fact": "Microbial ecology research has led to a greater understanding of the importance of microorganisms in ecosystems."
+    },
+    {
+      "id": "N13",
+      "label": "Bioremediation of Polluted Soil",
+      "type": "example",
+      "depth": 4,
+      "description": "The use of microorganisms to clean up pollutants in soil.",
+      "importance": 8,
+      "fun_fact": "Bioremediation is a cost-effective and environmentally friendly method for cleaning up contaminated soil."
+    },
+    {
+      "id": "N14",
+      "label": "Water Quality Monitoring",
+      "type": "example",
+      "depth": 4,
+      "description": "The use of microorganisms to monitor water quality.",
+      "importance": 7,
+      "fun_fact": "Microorganisms can be used as indicators of water quality and can help to identify sources of pollution."
+    },
+    {
+      "id": "N15",
+      "label": "Atmospheric Science",
+      "type": "concept",
+      "depth": 2,
+      "description": "The study of the Earth's atmosphere and its processes.",
+      "importance": 6,
+      "fun_fact": "Atmospheric science is an interdisciplinary field that combines meteorology, climatology, and atmospheric chemistry."
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Microbial ecology is a key area of research in environmental microbiology."
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Soil microbiology is a subfield of environmental microbiology."
+    },
+    {
+      "source": "N1",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Water microbiology is a subfield of environmental microbiology."
+    },
+    {
+      "source": "N1",
+      "target": "N5",
+      "relation": "is_part_of",
+      "strength": 7,
+      "description": "Air microbiology is a subfield of environmental microbiology."
+    },
+    {
+      "source": "N2",
+      "target": "N6",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "Microbial ecology research can lead to the development of bioremediation technologies."
+    },
+    {
+      "source": "N3",
+      "target": "N7",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "Soil microbiology is related to biogeochemical cycles."
+    },
+    {
+      "source": "N4",
+      "target": "N7",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "Water microbiology is related to biogeochemical cycles."
+    },
+    {
+      "source": "N5",
+      "target": "N7",
+      "relation": "related_to",
+      "strength": 6,
+      "description": "Air microbiology is related to biogeochemical cycles."
+    },
+    {
+      "source": "N6",
+      "target": "N13",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Bioremediation is used to clean up pollutants in soil."
+    },
+    {
+      "source": "N7",
+      "target": "N12",
+      "relation": "is_part_of",
+      "strength": 7,
+      "description": "Biogeochemical cycles are an example of microbial ecology research."
+    },
+    {
+      "source": "N8",
+      "target": "N1",
+      "relation": "discovered_by",
+      "strength": 6,
+      "description": "Louis Pasteur made significant contributions to the field of microbiology."
+    },
+    {
+      "source": "N9",
+      "target": "N10",
+      "relation": "publishes",
+      "strength": 5,
+      "description": "The Society for Applied Microbiology publishes the Environmental Microbiology journal."
+    },
+    {
+      "source": "N10",
+      "target": "N1",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "The Environmental Microbiology journal is related to the field of environmental microbiology."
+    },
+    {
+      "source": "N11",
+      "target": "N1",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "The Applied and Environmental Microbiology journal is related to the field of environmental microbiology."
+    },
+    {
+      "source": "N12",
+      "target": "N6",
+      "relation": "example_of",
+      "strength": 7,
+      "description": "Microbial ecology research is an example of bioremediation."
+    },
+    {
+      "source": "N13",
+      "target": "N6",
+      "relation": "example_of",
+      "strength": 8,
+      "description": "Bioremediation of polluted soil is an example of bioremediation."
+    },
+    {
+      "source": "N14",
+      "target": "N4",
+      "relation": "example_of",
+      "strength": 7,
+      "description": "Water quality monitoring is an example of water microbiology."
+    },
+    {
+      "source": "N15",
+      "target": "N5",
+      "relation": "related_to",
+      "strength": 6,
+      "description": "Atmospheric science is related to air microbiology."
+    }
+  ],
+  "key_takeaways": [
+    "Environmental microbiology is the study of microbial interactions and processes in the environment.",
+    "Microorganisms play a crucial role in biogeochemical cycles and can be used for bioremediation.",
+    "The field of environmental microbiology has many practical applications, including water quality monitoring and bioremediation of polluted soil."
+  ],
+  "real_world_impact": "Environmental microbiology has a significant impact on our daily lives, from the air we breathe to the water we drink. Microorganisms are essential for many ecosystem processes, and their activities can be harnessed to clean up pollutants and improve environmental health. The field of environmental microbiology is crucial for addressing environmental challenges, such as climate change, and for developing sustainable solutions for a healthier planet.",
+  "images": [],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Environmental_Microbiology",
+    "papers": [
+      {
+        "title": "Applied and Environmental Microbiology",
+        "url": "https://doi.org/10.1128/eissn.1098-5336"
+      },
+      {
+        "title": "Manual of Environmental Microbiology",
+        "url": "https://doi.org/10.1128/9781555818821"
+      },
+      {
+        "title": "APPLIED AND ENVIRONMENTAL MICROBIOLOGY",
+        "url": "https://doi.org/10.1128/aem.72.1.1-20.2006"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 18"
+      ],
+      "node_count": 15,
+      "edge_count": 18
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Microbial Genetics",
+        "Environmental Sampling Methods"
+      ],
+      "strengths": [
+        "Clear representation of key concepts in environmental microbiology",
+        "Well-structured relationships between nodes"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

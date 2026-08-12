@@ -817,5 +817,18 @@
     "master_total_topics": 63,
     "ended_at": "2026-08-12T20:34:20.576480",
     "duration_seconds": 37.7
+  },
+  {
+    "started_at": "2026-08-12T22:30:33.757770",
+    "status": "success",
+    "topic": "Environmental Microbiology",
+    "sources_found": 6,
+    "images_found": 0,
+    "quality_score": 87.5,
+    "quality_passed": true,
+    "exam_questions": 10,
+    "master_total_topics": 64,
+    "ended_at": "2026-08-12T22:31:17.732831",
+    "duration_seconds": 44.0
   }
 ]
