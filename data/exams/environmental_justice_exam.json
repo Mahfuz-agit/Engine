@@ -1,0 +1,166 @@
+{
+  "topic": "Environmental Justice",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary focus of the environmental justice movement?",
+      "options": {
+        "A": "To address the disproportionate impacts of environmental harm on marginalized communities",
+        "B": "To promote sustainable practices in industrialized countries",
+        "C": "To reduce carbon emissions in developing countries",
+        "D": "To conserve natural resources for future generations"
+      },
+      "correct": "A",
+      "explanation": "The environmental justice movement primarily focuses on addressing the disproportionate impacts of environmental harm on marginalized communities, who are often most vulnerable to environmental degradation.",
+      "node_id": "Environmental Justice",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which of the following concepts is closely related to environmental justice?",
+      "options": {
+        "A": "Climate change mitigation",
+        "B": "Sustainable development",
+        "C": "Climate justice",
+        "D": "Ecological conservation"
+      },
+      "correct": "C",
+      "explanation": "Climate justice is closely related to environmental justice, as both movements address the disproportionate impacts of environmental harm on marginalized communities.",
+      "node_id": "Climate Justice",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the process of transitioning to a more sustainable and equitable economy?",
+      "options": {
+        "A": "Just transition",
+        "B": "Sustainable development",
+        "C": "Green economy",
+        "D": "Circular economy"
+      },
+      "correct": "A",
+      "explanation": "Just transition refers to the process of transitioning to a more sustainable and equitable economy, which is a key concept in climate justice and environmental justice.",
+      "node_id": "Just Transition",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the term for the study of the moral relationship between humans and the environment?",
+      "options": {
+        "A": "Ecological ethics",
+        "B": "Environmental ethics",
+        "C": "Conservation biology",
+        "D": "Sustainability science"
+      },
+      "correct": "A",
+      "explanation": "Ecological ethics is the study of the moral relationship between humans and the environment, which is a key concept in environmental justice.",
+      "node_id": "Ecological Ethics",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which of the following is a key concept in environmental justice?",
+      "options": {
+        "A": "Human rights",
+        "B": "Climate change mitigation",
+        "C": "Sustainable development",
+        "D": "Ecological conservation"
+      },
+      "correct": "A",
+      "explanation": "Human rights is a key concept in environmental justice, as it recognizes the fundamental rights and freedoms of all individuals, including the right to a healthy environment.",
+      "node_id": "Human Rights",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the principle of fairness in addressing climate change impacts and solutions?",
+      "options": {
+        "A": "Climate equity",
+        "B": "Climate justice",
+        "C": "Sustainable development",
+        "D": "Environmental justice"
+      },
+      "correct": "A",
+      "explanation": "Climate equity refers to the principle of fairness in addressing climate change impacts and solutions, which is a key concept in environmental justice.",
+      "node_id": "Climate Equity",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the term for the process of involving communities in decision-making processes?",
+      "options": {
+        "A": "Community engagement",
+        "B": "Public participation",
+        "C": "Stakeholder involvement",
+        "D": "Citizen involvement"
+      },
+      "correct": "A",
+      "explanation": "Community engagement refers to the process of involving communities in decision-making processes, which is a key concept in environmental justice.",
+      "node_id": "Community Engagement",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the concept of just transition and its relevance to environmental justice.",
+      "sample_answer": "Just transition refers to the process of transitioning to a more sustainable and equitable economy, which is a key concept in climate justice and environmental justice. It involves a shift away from fossil fuels and towards renewable energy sources, while also ensuring that the benefits and costs of this transition are shared fairly among all members of society.",
+      "keywords": [
+        "just transition",
+        "sustainable economy",
+        "equitable economy",
+        "climate justice",
+        "environmental justice"
+      ],
+      "node_id": "Just Transition",
+      "points": 20
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Explain the relationship between ecological ethics and environmental justice, and provide an example of how ecological ethics can inform environmental justice movements.",
+      "sample_answer": "Ecological ethics is the study of the moral relationship between humans and the environment, which is a key concept in environmental justice. Ecological ethics can inform environmental justice movements by providing a framework for understanding the moral obligations of humans towards the environment and the impact of human activities on the environment. For example, the work of Aldo Leopold, a key figure in ecological ethics, has influenced environmental justice movements by highlighting the importance of preserving natural habitats and promoting sustainable land use practices.",
+      "keywords": [
+        "ecological ethics",
+        "environmental justice",
+        "moral obligations",
+        "Aldo Leopold"
+      ],
+      "node_id": "Ecological Ethics",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Describe the concept of climate equity and its relevance to environmental justice, and provide an example of how climate equity can be achieved in practice.",
+      "sample_answer": "Climate equity refers to the principle of fairness in addressing climate change impacts and solutions, which is a key concept in environmental justice. Climate equity can be achieved in practice by ensuring that the benefits and costs of climate change mitigation and adaptation efforts are shared fairly among all members of society, particularly vulnerable and marginalized communities. For example, climate equity can be achieved by providing financial support and technical assistance to developing countries to help them transition to renewable energy sources and adapt to the impacts of climate change.",
+      "keywords": [
+        "climate equity",
+        "environmental justice",
+        "fairness",
+        "climate change mitigation",
+        "climate change adaptation"
+      ],
+      "node_id": "Climate Equity",
+      "points": 20
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 61,
-  "total_nodes": 913,
-  "total_edges": 1117,
+  "total_topics": 62,
+  "total_nodes": 928,
+  "total_edges": 1136,
   "topics": [
     {
       "topic": "Climate Change",
@@ -552,6 +552,15 @@
       "edge_count": 19,
       "description": "Environmental governance refers to the processes and institutions that aim to protect the environment and promote sustainable development. It involves the coordination of various stakeholders, including governments, businesses, and civil society, to address environmental challenges such as climate change, biodiversity loss, and pollution. Effective environmental governance is crucial for ensuring a healthy and sustainable future for all.",
       "added_at": "2026-08-12T16:48:16.189502"
+    },
+    {
+      "topic": "Environmental Justice",
+      "slug": "environmental_justice",
+      "category": "political_science",
+      "node_count": 15,
+      "edge_count": 19,
+      "description": "Environmental justice is a social movement that addresses injustice when poor or marginalized communities are harmed by hazardous waste, resource extraction, and other land uses from which they do not benefit. The movement has generated hundreds of studies showing that exposure to environmental harm is inequitably distributed. It encompasses various subtopics including sustainability, human rights, ecological ethics, climate equity, and community engagement.",
+      "added_at": "2026-08-12T18:50:18.005733"
     }
   ],
   "global_nodes": [
@@ -10597,6 +10606,171 @@
       "fun_fact": "Ecological restoration can help to promote biodiversity, improve ecosystem services, and support human well-being.",
       "topic_slug": "environmental_governance",
       "topic": "Environmental Governance"
+    },
+    {
+      "id": "environmental_justice__N1",
+      "label": "Environmental Justice",
+      "type": "core",
+      "depth": 0,
+      "description": "A social movement addressing environmental harm to marginalized communities",
+      "importance": 10,
+      "fun_fact": "The movement has its roots in the 1960s Civil Rights Movement in the United States",
+      "topic_slug": "environmental_justice",
+      "topic": "Environmental Justice"
+    },
+    {
+      "id": "environmental_justice__N2",
+      "label": "Sustainability",
+      "type": "concept",
+      "depth": 1,
+      "description": "The practice of maintaining the health of the planet for future generations",
+      "importance": 9,
+      "fun_fact": "The term was first coined in the 1987 Brundtland Commission report",
+      "topic_slug": "environmental_justice",
+      "topic": "Environmental Justice"
+    },
+    {
+      "id": "environmental_justice__N3",
+      "label": "Human Rights",
+      "type": "concept",
+      "depth": 1,
+      "description": "The fundamental rights and freedoms to which all humans are entitled",
+      "importance": 9,
+      "fun_fact": "The Universal Declaration of Human Rights was adopted by the UN in 1948",
+      "topic_slug": "environmental_justice",
+      "topic": "Environmental Justice"
+    },
+    {
+      "id": "environmental_justice__N4",
+      "label": "Ecological Ethics",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the moral relationship between humans and the environment",
+      "importance": 8,
+      "fun_fact": "Aldo Leopold is considered a key figure in the development of ecological ethics",
+      "topic_slug": "environmental_justice",
+      "topic": "Environmental Justice"
+    },
+    {
+      "id": "environmental_justice__N5",
+      "label": "Climate Equity",
+      "type": "concept",
+      "depth": 1,
+      "description": "The principle of fairness in addressing climate change impacts and solutions",
+      "importance": 9,
+      "fun_fact": "Climate equity is a central theme in the Paris Agreement",
+      "topic_slug": "environmental_justice",
+      "topic": "Environmental Justice"
+    },
+    {
+      "id": "environmental_justice__N6",
+      "label": "Community Engagement",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process of involving communities in decision-making processes",
+      "importance": 8,
+      "fun_fact": "Community engagement is crucial for effective environmental justice movements",
+      "topic_slug": "environmental_justice",
+      "topic": "Environmental Justice"
+    },
+    {
+      "id": "environmental_justice__N7",
+      "label": "Urban Green Space",
+      "type": "application",
+      "depth": 2,
+      "description": "Green areas in urban environments that provide ecosystem services",
+      "importance": 7,
+      "fun_fact": "Urban green spaces can reduce urban heat island effects",
+      "topic_slug": "environmental_justice",
+      "topic": "Environmental Justice"
+    },
+    {
+      "id": "environmental_justice__N8",
+      "label": "Climate Justice",
+      "type": "concept",
+      "depth": 2,
+      "description": "The movement addressing the disproportionate impacts of climate change on marginalized communities",
+      "importance": 9,
+      "fun_fact": "Climate justice is closely related to environmental justice",
+      "topic_slug": "environmental_justice",
+      "topic": "Environmental Justice"
+    },
+    {
+      "id": "environmental_justice__N9",
+      "label": "Just Transition",
+      "type": "application",
+      "depth": 2,
+      "description": "The process of transitioning to a more sustainable and equitable economy",
+      "importance": 8,
+      "fun_fact": "Just transition is a key concept in climate justice and environmental justice",
+      "topic_slug": "environmental_justice",
+      "topic": "Environmental Justice"
+    },
+    {
+      "id": "environmental_justice__N10",
+      "label": "Natural Disasters",
+      "type": "example",
+      "depth": 3,
+      "description": "Events such as hurricanes, wildfires, and floods that have significant environmental impacts",
+      "importance": 6,
+      "fun_fact": "Natural disasters disproportionately affect marginalized communities",
+      "topic_slug": "environmental_justice",
+      "topic": "Environmental Justice"
+    },
+    {
+      "id": "environmental_justice__N11",
+      "label": "Marginalized Communities",
+      "type": "example",
+      "depth": 3,
+      "description": "Communities that are disproportionately affected by environmental harm and lack access to resources",
+      "importance": 8,
+      "fun_fact": "Marginalized communities are often at the forefront of environmental justice movements",
+      "topic_slug": "environmental_justice",
+      "topic": "Environmental Justice"
+    },
+    {
+      "id": "environmental_justice__N12",
+      "label": "Aldo Leopold",
+      "type": "person",
+      "depth": 3,
+      "description": "A key figure in the development of ecological ethics",
+      "importance": 7,
+      "fun_fact": "Leopold's book 'A Sand County Almanac' is a classic in the field of environmental ethics",
+      "topic_slug": "environmental_justice",
+      "topic": "Environmental Justice"
+    },
+    {
+      "id": "environmental_justice__N13",
+      "label": "Brundtland Commission",
+      "type": "event",
+      "depth": 3,
+      "description": "The commission that first coined the term 'sustainability' in 1987",
+      "importance": 6,
+      "fun_fact": "The Brundtland Commission's report 'Our Common Future' is a landmark document in the field of sustainability",
+      "topic_slug": "environmental_justice",
+      "topic": "Environmental Justice"
+    },
+    {
+      "id": "environmental_justice__N14",
+      "label": "Paris Agreement",
+      "type": "event",
+      "depth": 3,
+      "description": "The international agreement on climate change adopted in 2015",
+      "importance": 8,
+      "fun_fact": "The Paris Agreement aims to limit global warming to well below 2 degrees Celsius",
+      "topic_slug": "environmental_justice",
+      "topic": "Environmental Justice"
+    },
+    {
+      "id": "environmental_justice__N15",
+      "label": "Civil Rights Movement",
+      "type": "event",
+      "depth": 3,
+      "description": "The social movement in the United States that addressed racial inequality and injustice",
+      "importance": 8,
+      "fun_fact": "The Civil Rights Movement laid the groundwork for the environmental justice movement",
+      "topic_slug": "environmental_justice",
+      "topic": "Environmental Justice"
     }
   ],
   "global_edges": [
@@ -18418,6 +18592,139 @@
       "relation": "related_to",
       "strength": 6,
       "topic": "Environmental Governance"
+    },
+    {
+      "source": "environmental_justice__N1",
+      "target": "environmental_justice__N2",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Environmental Justice"
+    },
+    {
+      "source": "environmental_justice__N1",
+      "target": "environmental_justice__N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Environmental Justice"
+    },
+    {
+      "source": "environmental_justice__N1",
+      "target": "environmental_justice__N4",
+      "relation": "is_part_of",
+      "strength": 7,
+      "topic": "Environmental Justice"
+    },
+    {
+      "source": "environmental_justice__N1",
+      "target": "environmental_justice__N5",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Environmental Justice"
+    },
+    {
+      "source": "environmental_justice__N1",
+      "target": "environmental_justice__N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Environmental Justice"
+    },
+    {
+      "source": "environmental_justice__N2",
+      "target": "environmental_justice__N7",
+      "relation": "enables",
+      "strength": 6,
+      "topic": "Environmental Justice"
+    },
+    {
+      "source": "environmental_justice__N3",
+      "target": "environmental_justice__N8",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Environmental Justice"
+    },
+    {
+      "source": "environmental_justice__N4",
+      "target": "environmental_justice__N9",
+      "relation": "informs",
+      "strength": 7,
+      "topic": "Environmental Justice"
+    },
+    {
+      "source": "environmental_justice__N5",
+      "target": "environmental_justice__N10",
+      "relation": "contrasts_with",
+      "strength": 6,
+      "topic": "Environmental Justice"
+    },
+    {
+      "source": "environmental_justice__N6",
+      "target": "environmental_justice__N11",
+      "relation": "supports",
+      "strength": 8,
+      "topic": "Environmental Justice"
+    },
+    {
+      "source": "environmental_justice__N7",
+      "target": "environmental_justice__N12",
+      "relation": "influenced_by",
+      "strength": 6,
+      "topic": "Environmental Justice"
+    },
+    {
+      "source": "environmental_justice__N8",
+      "target": "environmental_justice__N13",
+      "relation": "evolved_from",
+      "strength": 7,
+      "topic": "Environmental Justice"
+    },
+    {
+      "source": "environmental_justice__N9",
+      "target": "environmental_justice__N14",
+      "relation": "enables",
+      "strength": 8,
+      "topic": "Environmental Justice"
+    },
+    {
+      "source": "environmental_justice__N10",
+      "target": "environmental_justice__N15",
+      "relation": "related_to",
+      "strength": 6,
+      "topic": "Environmental Justice"
+    },
+    {
+      "source": "environmental_justice__N11",
+      "target": "environmental_justice__N1",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Environmental Justice"
+    },
+    {
+      "source": "environmental_justice__N12",
+      "target": "environmental_justice__N4",
+      "relation": "discovered_by",
+      "strength": 7,
+      "topic": "Environmental Justice"
+    },
+    {
+      "source": "environmental_justice__N13",
+      "target": "environmental_justice__N2",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Environmental Justice"
+    },
+    {
+      "source": "environmental_justice__N14",
+      "target": "environmental_justice__N5",
+      "relation": "depends_on",
+      "strength": 8,
+      "topic": "Environmental Justice"
+    },
+    {
+      "source": "environmental_justice__N15",
+      "target": "environmental_justice__N1",
+      "relation": "evolved_from",
+      "strength": 8,
+      "topic": "Environmental Justice"
     }
   ],
   "cross_topic_edges": [
@@ -18585,6 +18892,13 @@
     {
       "source": "climate_change_mitigation__Paris_Agreement",
       "target": "environmental_economics__paris_agreement",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "paris agreement"
+    },
+    {
+      "source": "environmental_economics__paris_agreement",
+      "target": "environmental_justice__N14",
       "relation": "cross_topic_connection",
       "strength": 6,
       "label": "paris agreement"
@@ -18997,7 +19311,8 @@
     ],
     "political_science": [
       "geopolitics",
-      "environmental_governance"
+      "environmental_governance",
+      "environmental_justice"
     ],
     "philosophy": [
       "ethics_of_emerging_technologies"
@@ -19013,5 +19328,5 @@
       "science_education"
     ]
   },
-  "last_updated": "2026-08-12T16:48:16.189544"
+  "last_updated": "2026-08-12T18:50:18.005766"
 }

@@ -1,0 +1,333 @@
+{
+  "topic": "Environmental Justice",
+  "category": "political_science",
+  "description": "Environmental justice is a social movement that addresses injustice when poor or marginalized communities are harmed by hazardous waste, resource extraction, and other land uses from which they do not benefit. The movement has generated hundreds of studies showing that exposure to environmental harm is inequitably distributed. It encompasses various subtopics including sustainability, human rights, ecological ethics, climate equity, and community engagement.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Environmental Justice",
+      "type": "core",
+      "depth": 0,
+      "description": "A social movement addressing environmental harm to marginalized communities",
+      "importance": 10,
+      "fun_fact": "The movement has its roots in the 1960s Civil Rights Movement in the United States"
+    },
+    {
+      "id": "N2",
+      "label": "Sustainability",
+      "type": "concept",
+      "depth": 1,
+      "description": "The practice of maintaining the health of the planet for future generations",
+      "importance": 9,
+      "fun_fact": "The term was first coined in the 1987 Brundtland Commission report"
+    },
+    {
+      "id": "N3",
+      "label": "Human Rights",
+      "type": "concept",
+      "depth": 1,
+      "description": "The fundamental rights and freedoms to which all humans are entitled",
+      "importance": 9,
+      "fun_fact": "The Universal Declaration of Human Rights was adopted by the UN in 1948"
+    },
+    {
+      "id": "N4",
+      "label": "Ecological Ethics",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the moral relationship between humans and the environment",
+      "importance": 8,
+      "fun_fact": "Aldo Leopold is considered a key figure in the development of ecological ethics"
+    },
+    {
+      "id": "N5",
+      "label": "Climate Equity",
+      "type": "concept",
+      "depth": 1,
+      "description": "The principle of fairness in addressing climate change impacts and solutions",
+      "importance": 9,
+      "fun_fact": "Climate equity is a central theme in the Paris Agreement"
+    },
+    {
+      "id": "N6",
+      "label": "Community Engagement",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process of involving communities in decision-making processes",
+      "importance": 8,
+      "fun_fact": "Community engagement is crucial for effective environmental justice movements"
+    },
+    {
+      "id": "N7",
+      "label": "Urban Green Space",
+      "type": "application",
+      "depth": 2,
+      "description": "Green areas in urban environments that provide ecosystem services",
+      "importance": 7,
+      "fun_fact": "Urban green spaces can reduce urban heat island effects"
+    },
+    {
+      "id": "N8",
+      "label": "Climate Justice",
+      "type": "concept",
+      "depth": 2,
+      "description": "The movement addressing the disproportionate impacts of climate change on marginalized communities",
+      "importance": 9,
+      "fun_fact": "Climate justice is closely related to environmental justice"
+    },
+    {
+      "id": "N9",
+      "label": "Just Transition",
+      "type": "application",
+      "depth": 2,
+      "description": "The process of transitioning to a more sustainable and equitable economy",
+      "importance": 8,
+      "fun_fact": "Just transition is a key concept in climate justice and environmental justice"
+    },
+    {
+      "id": "N10",
+      "label": "Natural Disasters",
+      "type": "example",
+      "depth": 3,
+      "description": "Events such as hurricanes, wildfires, and floods that have significant environmental impacts",
+      "importance": 6,
+      "fun_fact": "Natural disasters disproportionately affect marginalized communities"
+    },
+    {
+      "id": "N11",
+      "label": "Marginalized Communities",
+      "type": "example",
+      "depth": 3,
+      "description": "Communities that are disproportionately affected by environmental harm and lack access to resources",
+      "importance": 8,
+      "fun_fact": "Marginalized communities are often at the forefront of environmental justice movements"
+    },
+    {
+      "id": "N12",
+      "label": "Aldo Leopold",
+      "type": "person",
+      "depth": 3,
+      "description": "A key figure in the development of ecological ethics",
+      "importance": 7,
+      "fun_fact": "Leopold's book 'A Sand County Almanac' is a classic in the field of environmental ethics"
+    },
+    {
+      "id": "N13",
+      "label": "Brundtland Commission",
+      "type": "event",
+      "depth": 3,
+      "description": "The commission that first coined the term 'sustainability' in 1987",
+      "importance": 6,
+      "fun_fact": "The Brundtland Commission's report 'Our Common Future' is a landmark document in the field of sustainability"
+    },
+    {
+      "id": "N14",
+      "label": "Paris Agreement",
+      "type": "event",
+      "depth": 3,
+      "description": "The international agreement on climate change adopted in 2015",
+      "importance": 8,
+      "fun_fact": "The Paris Agreement aims to limit global warming to well below 2 degrees Celsius"
+    },
+    {
+      "id": "N15",
+      "label": "Civil Rights Movement",
+      "type": "event",
+      "depth": 3,
+      "description": "The social movement in the United States that addressed racial inequality and injustice",
+      "importance": 8,
+      "fun_fact": "The Civil Rights Movement laid the groundwork for the environmental justice movement"
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Sustainability is a key concept in environmental justice"
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Human rights are fundamental to environmental justice"
+    },
+    {
+      "source": "N1",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 7,
+      "description": "Ecological ethics inform environmental justice principles"
+    },
+    {
+      "source": "N1",
+      "target": "N5",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Climate equity is a central theme in environmental justice"
+    },
+    {
+      "source": "N1",
+      "target": "N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Community engagement is crucial for environmental justice"
+    },
+    {
+      "source": "N2",
+      "target": "N7",
+      "relation": "enables",
+      "strength": 6,
+      "description": "Sustainability enables the creation of urban green spaces"
+    },
+    {
+      "source": "N3",
+      "target": "N8",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "Human rights lead to climate justice"
+    },
+    {
+      "source": "N4",
+      "target": "N9",
+      "relation": "informs",
+      "strength": 7,
+      "description": "Ecological ethics inform just transition principles"
+    },
+    {
+      "source": "N5",
+      "target": "N10",
+      "relation": "contrasts_with",
+      "strength": 6,
+      "description": "Climate equity contrasts with the disproportionate impacts of natural disasters"
+    },
+    {
+      "source": "N6",
+      "target": "N11",
+      "relation": "supports",
+      "strength": 8,
+      "description": "Community engagement supports marginalized communities"
+    },
+    {
+      "source": "N7",
+      "target": "N12",
+      "relation": "influenced_by",
+      "strength": 6,
+      "description": "Urban green space design is influenced by ecological ethics"
+    },
+    {
+      "source": "N8",
+      "target": "N13",
+      "relation": "evolved_from",
+      "strength": 7,
+      "description": "Climate justice evolved from the Brundtland Commission's work"
+    },
+    {
+      "source": "N9",
+      "target": "N14",
+      "relation": "enables",
+      "strength": 8,
+      "description": "Just transition enables the implementation of the Paris Agreement"
+    },
+    {
+      "source": "N10",
+      "target": "N15",
+      "relation": "related_to",
+      "strength": 6,
+      "description": "Natural disasters are related to the historical context of the Civil Rights Movement"
+    },
+    {
+      "source": "N11",
+      "target": "N1",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Marginalized communities are at the forefront of environmental justice"
+    },
+    {
+      "source": "N12",
+      "target": "N4",
+      "relation": "discovered_by",
+      "strength": 7,
+      "description": "Aldo Leopold is a key figure in the development of ecological ethics"
+    },
+    {
+      "source": "N13",
+      "target": "N2",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "The Brundtland Commission's report is used in sustainability studies"
+    },
+    {
+      "source": "N14",
+      "target": "N5",
+      "relation": "depends_on",
+      "strength": 8,
+      "description": "The Paris Agreement depends on climate equity principles"
+    },
+    {
+      "source": "N15",
+      "target": "N1",
+      "relation": "evolved_from",
+      "strength": 8,
+      "description": "The Civil Rights Movement laid the groundwork for environmental justice"
+    }
+  ],
+  "key_takeaways": [
+    "Environmental justice addresses the disproportionate impacts of environmental harm on marginalized communities",
+    "Sustainability, human rights, ecological ethics, climate equity, and community engagement are key concepts in environmental justice",
+    "The movement has its roots in the 1960s Civil Rights Movement and has evolved to address climate change and sustainability"
+  ],
+  "real_world_impact": "Environmental justice has significant real-world implications, from the creation of urban green spaces to the implementation of climate equity principles in international agreements like the Paris Agreement. The movement has also led to increased community engagement and recognition of the disproportionate impacts of natural disasters on marginalized communities. As the world continues to grapple with the challenges of climate change and sustainability, environmental justice will play a crucial role in ensuring that the transition to a more sustainable and equitable economy is just and fair for all.",
+  "images": [],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Environmental_justice",
+    "papers": [
+      {
+        "title": "Urban green space, public health, and environmental justice: The challenge of making cities \u2018just green enough\u2019",
+        "url": "https://doi.org/10.1016/j.landurbplan.2014.01.017"
+      },
+      {
+        "title": "From environmental to climate justice: climate change and the discourse of environmental justice",
+        "url": "https://doi.org/10.1002/wcc.275"
+      },
+      {
+        "title": "Just transition: Integrating climate, energy and environmental justice",
+        "url": "https://doi.org/10.1016/j.enpol.2018.04.014"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 19"
+      ],
+      "node_count": 15,
+      "edge_count": 19
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Environmental Racism",
+        "Climate Migration"
+      ],
+      "strengths": [
+        "Comprehensive coverage of key concepts",
+        "Clear connections between concepts and events"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}
