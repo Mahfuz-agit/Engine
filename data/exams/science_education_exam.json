@@ -1,0 +1,164 @@
+{
+  "topic": "Science Education",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary goal of science education?",
+      "options": {
+        "A": "To prepare students for careers in science and technology",
+        "B": "To promote scientific literacy among the general public",
+        "C": "To develop critical thinking and problem-solving skills",
+        "D": "To increase student engagement and motivation in science learning"
+      },
+      "correct": "B",
+      "explanation": "Science education aims to develop a scientifically literate population, which is essential for making informed decisions about personal and public health, environmental issues, and technological innovations.",
+      "node_id": "Science Literacy",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the role of pedagogy in science education?",
+      "options": {
+        "A": "To design curriculum and assessments",
+        "B": "To develop educational technology and resources",
+        "C": "To teach science content and process",
+        "D": "To use methods and practices that promote hands-on learning and inquiry-based learning"
+      },
+      "correct": "D",
+      "explanation": "Pedagogy refers to the methods and practices used in teaching science, including hands-on learning, inquiry-based learning, and project-based learning.",
+      "node_id": "Pedagogy",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the significance of Cronbach\u2019s Alpha in science education research?",
+      "options": {
+        "A": "It measures the validity of assessment results",
+        "B": "It evaluates the reliability of research instruments",
+        "C": "It assesses the effectiveness of teaching practices",
+        "D": "It analyzes the impact of educational technology on student learning"
+      },
+      "correct": "B",
+      "explanation": "Cronbach\u2019s Alpha is a statistical measure used to evaluate the reliability of assessments and research instruments, ensuring the validity of assessment results.",
+      "node_id": "Cronbach\u2019s Alpha",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the importance of science education in STEM education?",
+      "options": {
+        "A": "It is a separate field of study",
+        "B": "It is a critical component of STEM education",
+        "C": "It is only relevant to science and technology",
+        "D": "It is not essential for preparing students for careers in STEM fields"
+      },
+      "correct": "B",
+      "explanation": "Science education is a critical component of STEM education, as it provides a foundation for understanding the principles and concepts of science, technology, engineering, and mathematics.",
+      "node_id": "STEM Education",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the purpose of the National Science Education Standards?",
+      "options": {
+        "A": "To develop new curriculum standards and teaching practices",
+        "B": "To evaluate the effectiveness of science education programs",
+        "C": "To provide a framework for curriculum design and teaching practices",
+        "D": "To assess the impact of science education on student outcomes"
+      },
+      "correct": "C",
+      "explanation": "The National Science Education Standards provide a framework for curriculum design and teaching practices, ensuring that science education is consistent and effective across different schools and districts.",
+      "node_id": "National Science Education Standards",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the significance of John Dewey\u2019s ideas on science education?",
+      "options": {
+        "A": "He advocated for traditional teaching methods",
+        "B": "He emphasized the importance of hands-on learning and experiential education",
+        "C": "He developed the concept of STEM education",
+        "D": "He created the National Science Education Standards"
+      },
+      "correct": "B",
+      "explanation": "John Dewey\u2019s ideas about learning and education have had a lasting impact on science education, emphasizing the importance of hands-on learning and experiential education.",
+      "node_id": "John Dewey",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the role of educational technology in science education?",
+      "options": {
+        "A": "To replace traditional teaching methods",
+        "B": "To supplement traditional teaching methods",
+        "C": "To develop new curriculum standards and teaching practices",
+        "D": "To assess the impact of science education on student outcomes"
+      },
+      "correct": "B",
+      "explanation": "Educational technology can supplement traditional teaching methods, providing students with interactive and engaging learning experiences that enhance their understanding of science concepts and principles.",
+      "node_id": "Educational Technology",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What are the key components of effective science education, and how do they contribute to the development of a scientifically literate population?",
+      "sample_answer": "Effective science education includes a combination of curriculum design, pedagogy, and assessment methods. Curriculum design provides a framework for teaching and learning, while pedagogy refers to the methods and practices used in teaching science. Assessment methods evaluate student learning and understanding, ensuring that students develop a deep understanding of science concepts and principles. These components work together to develop a scientifically literate population, which is essential for making informed decisions about personal and public health, environmental issues, and technological innovations.",
+      "keywords": [
+        "curriculum design",
+        "pedagogy",
+        "assessment methods",
+        "scientific literacy"
+      ],
+      "node_id": "Science Education",
+      "points": 20
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "How does inquiry-based learning contribute to the development of critical thinking and problem-solving skills in science education, and what are the challenges and limitations of implementing this approach in the classroom?",
+      "sample_answer": "Inquiry-based learning encourages students to explore scientific concepts and principles through hands-on investigations, promoting critical thinking and problem-solving skills. This approach allows students to develop a deep understanding of science concepts and principles, as well as the ability to apply them to real-world situations. However, implementing inquiry-based learning in the classroom can be challenging, as it requires significant resources and support. Additionally, teachers may need to adapt their teaching practices to accommodate this approach, which can be time-consuming and require significant professional development.",
+      "keywords": [
+        "inquiry-based learning",
+        "critical thinking",
+        "problem-solving skills",
+        "classroom implementation"
+      ],
+      "node_id": "Inquiry-Based Learning",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What is the significance of science education reform, and how can it improve student outcomes and prepare students for careers in STEM fields?",
+      "sample_answer": "Science education reform aims to improve the quality and effectiveness of science education, ensuring that students develop a deep understanding of science concepts and principles. This can be achieved through the development of new curriculum standards and teaching practices, as well as the integration of educational technology and resources. By improving science education, reform efforts can prepare students for careers in STEM fields, as well as promote scientific literacy and critical thinking skills among the general public.",
+      "keywords": [
+        "science education reform",
+        "student outcomes",
+        "STEM fields",
+        "curriculum standards"
+      ],
+      "node_id": "Science Education Reform",
+      "points": 20
+    }
+  ]
+}

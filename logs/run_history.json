@@ -752,5 +752,18 @@
     "master_total_topics": 58,
     "ended_at": "2026-07-23T05:19:18.056675",
     "duration_seconds": 39.4
+  },
+  {
+    "started_at": "2026-08-12T12:45:53.624163",
+    "status": "success",
+    "topic": "Science Education",
+    "sources_found": 6,
+    "images_found": 0,
+    "quality_score": 87.5,
+    "quality_passed": true,
+    "exam_questions": 10,
+    "master_total_topics": 59,
+    "ended_at": "2026-08-12T12:46:39.446076",
+    "duration_seconds": 45.8
   }
 ]

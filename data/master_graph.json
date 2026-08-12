@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 58,
-  "total_nodes": 868,
-  "total_edges": 1061,
+  "total_topics": 59,
+  "total_nodes": 883,
+  "total_edges": 1079,
   "topics": [
     {
       "topic": "Climate Change",
@@ -525,6 +525,15 @@
       "edge_count": 18,
       "description": "Ecotoxicology is the study of the toxic effects of chemicals on the environment and living organisms. It involves understanding the transport, bioaccumulation, and biomagnification of toxicants, as well as assessing ecological risk and developing conservation strategies. Ecotoxicology is an interdisciplinary field that draws on concepts from biology, chemistry, ecology, and toxicology.",
       "added_at": "2026-07-23T05:19:18.046277"
+    },
+    {
+      "topic": "Science Education",
+      "slug": "science_education",
+      "category": "education",
+      "node_count": 15,
+      "edge_count": 18,
+      "description": "Science education is the teaching and learning of science to school children, college students, or adults within the general public. It encompasses work in science content, science process, some social science, and some teaching pedagogy. Effective science education is crucial for developing a scientifically literate population and preparing the next generation of scientists and thinkers.",
+      "added_at": "2026-08-12T12:46:39.435577"
     }
   ],
   "global_nodes": [
@@ -10075,6 +10084,171 @@
       "fun_fact": "Ren\u00e9 Truhaut's work on the toxic effects of chemicals on the environment and human health helped raise awareness about the need for environmental protection and conservation",
       "topic_slug": "ecotoxicology",
       "topic": "Ecotoxicology"
+    },
+    {
+      "id": "science_education__N1",
+      "label": "Science Education",
+      "type": "core",
+      "depth": 0,
+      "description": "The field of science education includes work in science content, science process, some social science, and some teaching pedagogy.",
+      "importance": 10,
+      "fun_fact": "Science education has been a key factor in driving technological innovation and economic growth.",
+      "topic_slug": "science_education",
+      "topic": "Science Education"
+    },
+    {
+      "id": "science_education__N2",
+      "label": "Curriculum Design",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process of creating a curriculum for science education, including the selection of topics, learning objectives, and assessment methods.",
+      "importance": 9,
+      "fun_fact": "The Next Generation Science Standards (NGSS) provide a framework for curriculum design in science education.",
+      "topic_slug": "science_education",
+      "topic": "Science Education"
+    },
+    {
+      "id": "science_education__N3",
+      "label": "Pedagogy",
+      "type": "concept",
+      "depth": 1,
+      "description": "The methods and practices used in teaching science, including hands-on learning, inquiry-based learning, and project-based learning.",
+      "importance": 9,
+      "fun_fact": "The use of technology in pedagogy has transformed the way science is taught and learned.",
+      "topic_slug": "science_education",
+      "topic": "Science Education"
+    },
+    {
+      "id": "science_education__N4",
+      "label": "Assessment Methods",
+      "type": "concept",
+      "depth": 1,
+      "description": "The ways in which student learning in science is evaluated, including quizzes, tests, and performance tasks.",
+      "importance": 8,
+      "fun_fact": "The use of formative assessments can help teachers identify areas where students need additional support.",
+      "topic_slug": "science_education",
+      "topic": "Science Education"
+    },
+    {
+      "id": "science_education__N5",
+      "label": "Educational Technology",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of technology to support teaching and learning in science, including simulations, virtual labs, and online resources.",
+      "importance": 8,
+      "fun_fact": "The use of educational technology can increase student engagement and motivation in science learning.",
+      "topic_slug": "science_education",
+      "topic": "Science Education"
+    },
+    {
+      "id": "science_education__N6",
+      "label": "Science Literacy",
+      "type": "concept",
+      "depth": 1,
+      "description": "The ability to understand and apply scientific knowledge and principles to real-world situations.",
+      "importance": 9,
+      "fun_fact": "Science literacy is essential for making informed decisions about personal and public health, environmental issues, and technological innovations.",
+      "topic_slug": "science_education",
+      "topic": "Science Education"
+    },
+    {
+      "id": "science_education__N7",
+      "label": "National Science Education Standards",
+      "type": "fact",
+      "depth": 2,
+      "description": "A set of standards for science education that provide a framework for curriculum design and teaching practices.",
+      "importance": 8,
+      "fun_fact": "The National Science Education Standards were developed by the National Academy of Sciences.",
+      "topic_slug": "science_education",
+      "topic": "Science Education"
+    },
+    {
+      "id": "science_education__N8",
+      "label": "Cronbach\u2019s Alpha",
+      "type": "formula",
+      "depth": 2,
+      "description": "A statistical measure used to evaluate the reliability of assessments and research instruments.",
+      "importance": 7,
+      "fun_fact": "Cronbach\u2019s alpha is widely used in educational research to ensure the validity of assessment results.",
+      "topic_slug": "science_education",
+      "topic": "Science Education"
+    },
+    {
+      "id": "science_education__N9",
+      "label": "Handbook of Research on Science Education",
+      "type": "fact",
+      "depth": 2,
+      "description": "A comprehensive research handbook that provides a synthesis of empirical and theoretical research on teaching and learning in science.",
+      "importance": 8,
+      "fun_fact": "The handbook is a valuable resource for science education researchers and practitioners.",
+      "topic_slug": "science_education",
+      "topic": "Science Education"
+    },
+    {
+      "id": "science_education__N10",
+      "label": "John Dewey",
+      "type": "person",
+      "depth": 2,
+      "description": "An American philosopher and educator who advocated for hands-on learning and experiential education.",
+      "importance": 8,
+      "fun_fact": "Dewey's ideas about learning and education have had a lasting impact on science education.",
+      "topic_slug": "science_education",
+      "topic": "Science Education"
+    },
+    {
+      "id": "science_education__N11",
+      "label": "Inquiry-Based Learning",
+      "type": "application",
+      "depth": 2,
+      "description": "A teaching approach that encourages students to explore scientific concepts and principles through hands-on investigations.",
+      "importance": 8,
+      "fun_fact": "Inquiry-based learning can help students develop critical thinking and problem-solving skills.",
+      "topic_slug": "science_education",
+      "topic": "Science Education"
+    },
+    {
+      "id": "science_education__N12",
+      "label": "Science Education Reform",
+      "type": "event",
+      "depth": 2,
+      "description": "Efforts to improve science education, including the development of new curriculum standards and teaching practices.",
+      "importance": 8,
+      "fun_fact": "Science education reform has been an ongoing process, with new initiatives and innovations emerging regularly.",
+      "topic_slug": "science_education",
+      "topic": "Science Education"
+    },
+    {
+      "id": "science_education__N13",
+      "label": "STEM Education",
+      "type": "concept",
+      "depth": 1,
+      "description": "Education in science, technology, engineering, and mathematics, which is critical for preparing students for careers in these fields.",
+      "importance": 9,
+      "fun_fact": "STEM education is essential for driving innovation and economic growth in the 21st century.",
+      "topic_slug": "science_education",
+      "topic": "Science Education"
+    },
+    {
+      "id": "science_education__N14",
+      "label": "Science Education Research",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of teaching and learning in science, including the development of new methods and approaches.",
+      "importance": 9,
+      "fun_fact": "Science education research has led to a greater understanding of how students learn science and how to improve science teaching.",
+      "topic_slug": "science_education",
+      "topic": "Science Education"
+    },
+    {
+      "id": "science_education__N15",
+      "label": "Educational Policy",
+      "type": "concept",
+      "depth": 1,
+      "description": "The development and implementation of policies that shape science education, including curriculum standards and teaching practices.",
+      "importance": 8,
+      "fun_fact": "Educational policy can have a significant impact on the quality of science education and student outcomes.",
+      "topic_slug": "science_education",
+      "topic": "Science Education"
     }
   ],
   "global_edges": [
@@ -17504,6 +17678,132 @@
       "relation": "used_in",
       "strength": 7,
       "topic": "Ecotoxicology"
+    },
+    {
+      "source": "science_education__N1",
+      "target": "science_education__N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Science Education"
+    },
+    {
+      "source": "science_education__N1",
+      "target": "science_education__N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Science Education"
+    },
+    {
+      "source": "science_education__N1",
+      "target": "science_education__N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Science Education"
+    },
+    {
+      "source": "science_education__N1",
+      "target": "science_education__N6",
+      "relation": "leads_to",
+      "strength": 9,
+      "topic": "Science Education"
+    },
+    {
+      "source": "science_education__N2",
+      "target": "science_education__N5",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Science Education"
+    },
+    {
+      "source": "science_education__N3",
+      "target": "science_education__N11",
+      "relation": "is_type_of",
+      "strength": 8,
+      "topic": "Science Education"
+    },
+    {
+      "source": "science_education__N4",
+      "target": "science_education__N8",
+      "relation": "uses",
+      "strength": 7,
+      "topic": "Science Education"
+    },
+    {
+      "source": "science_education__N6",
+      "target": "science_education__N13",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Science Education"
+    },
+    {
+      "source": "science_education__N7",
+      "target": "science_education__N2",
+      "relation": "informs",
+      "strength": 8,
+      "topic": "Science Education"
+    },
+    {
+      "source": "science_education__N9",
+      "target": "science_education__N14",
+      "relation": "supports",
+      "strength": 8,
+      "topic": "Science Education"
+    },
+    {
+      "source": "science_education__N10",
+      "target": "science_education__N3",
+      "relation": "influenced",
+      "strength": 8,
+      "topic": "Science Education"
+    },
+    {
+      "source": "science_education__N12",
+      "target": "science_education__N1",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Science Education"
+    },
+    {
+      "source": "science_education__N14",
+      "target": "science_education__N15",
+      "relation": "informs",
+      "strength": 8,
+      "topic": "Science Education"
+    },
+    {
+      "source": "science_education__N15",
+      "target": "science_education__N1",
+      "relation": "shapes",
+      "strength": 8,
+      "topic": "Science Education"
+    },
+    {
+      "source": "science_education__N5",
+      "target": "science_education__N11",
+      "relation": "supports",
+      "strength": 8,
+      "topic": "Science Education"
+    },
+    {
+      "source": "science_education__N8",
+      "target": "science_education__N4",
+      "relation": "used_in",
+      "strength": 7,
+      "topic": "Science Education"
+    },
+    {
+      "source": "science_education__N11",
+      "target": "science_education__N6",
+      "relation": "develops",
+      "strength": 8,
+      "topic": "Science Education"
+    },
+    {
+      "source": "science_education__N13",
+      "target": "science_education__N1",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Science Education"
     }
   ],
   "cross_topic_edges": [
@@ -18043,7 +18343,10 @@
     ],
     "economics": [
       "ecological_economics"
+    ],
+    "education": [
+      "science_education"
     ]
   },
-  "last_updated": "2026-07-23T05:19:18.046312"
+  "last_updated": "2026-08-12T12:46:39.435611"
 }
