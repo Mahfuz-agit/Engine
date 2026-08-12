@@ -1,0 +1,333 @@
+{
+  "topic": "Environmental Economics",
+  "category": "economics",
+  "description": "Environmental economics is a sub-field of economics concerned with environmental issues, studying the economic effects of environmental policies and the costs and benefits of alternative policies. It combines traditional welfare economics and economic growth theory with perspectives on the political economy of policy choice. The field has grown significantly due to increasing environmental concerns in the twenty-first century.",
+  "nodes": [
+    {
+      "id": "env_econ",
+      "label": "Environmental Economics",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of the economic effects of environmental policies and the costs and benefits of alternative policies.",
+      "importance": 10,
+      "fun_fact": "Environmental economics has its roots in the 1960s, but it wasn't until the 1990s that it became a major subdiscipline of economics."
+    },
+    {
+      "id": "sustainable_dev",
+      "label": "Sustainable Development",
+      "type": "concept",
+      "depth": 1,
+      "description": "Meeting the needs of the present without compromising the ability of future generations to meet their own needs.",
+      "importance": 9,
+      "fun_fact": "The concept of sustainable development was first introduced in the 1987 Brundtland Commission report."
+    },
+    {
+      "id": "climate_change_policy",
+      "label": "Climate Change Policy",
+      "type": "concept",
+      "depth": 1,
+      "description": "Policies aimed at reducing greenhouse gas emissions and mitigating the effects of climate change.",
+      "importance": 9,
+      "fun_fact": "The Paris Agreement is an example of international climate change policy, aiming to limit global warming to well below 2\u00b0C."
+    },
+    {
+      "id": "natural_resource_mgmt",
+      "label": "Natural Resource Management",
+      "type": "concept",
+      "depth": 1,
+      "description": "The management of natural resources, such as water, land, and minerals, to ensure their sustainable use.",
+      "importance": 8,
+      "fun_fact": "Natural resource management involves balancing economic, social, and environmental considerations."
+    },
+    {
+      "id": "ecological_valuation",
+      "label": "Ecological Valuation",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process of assigning economic value to ecological goods and services.",
+      "importance": 8,
+      "fun_fact": "Ecological valuation can help inform policy decisions by quantifying the economic benefits of environmental conservation."
+    },
+    {
+      "id": "green_accounting",
+      "label": "Green Accounting",
+      "type": "concept",
+      "depth": 1,
+      "description": "The practice of incorporating environmental costs and benefits into economic accounting systems.",
+      "importance": 8,
+      "fun_fact": "Green accounting can help countries better understand the environmental impacts of their economic activities."
+    },
+    {
+      "id": "pigou",
+      "label": "Arthur Pigou",
+      "type": "person",
+      "depth": 2,
+      "description": "A British economist who is considered one of the founders of environmental economics.",
+      "importance": 7,
+      "fun_fact": "Pigou's work on externalities, such as pollution, laid the foundation for modern environmental economics."
+    },
+    {
+      "id": "coase",
+      "label": "Ronald Coase",
+      "type": "person",
+      "depth": 2,
+      "description": "A British economist who made significant contributions to the field of environmental economics, particularly in the area of externalities.",
+      "importance": 7,
+      "fun_fact": "Coase's work on the Coase theorem has had a lasting impact on environmental economics and policy."
+    },
+    {
+      "id": "cost_benefit_analysis",
+      "label": "Cost-Benefit Analysis",
+      "type": "formula",
+      "depth": 2,
+      "description": "A method used to evaluate the economic viability of a project or policy by comparing its costs and benefits.",
+      "importance": 6,
+      "fun_fact": "Cost-benefit analysis is widely used in environmental economics to evaluate the economic efficiency of environmental policies."
+    },
+    {
+      "id": "paris_agreement",
+      "label": "Paris Agreement",
+      "type": "event",
+      "depth": 2,
+      "description": "An international agreement aimed at mitigating climate change by reducing greenhouse gas emissions.",
+      "importance": 8,
+      "fun_fact": "The Paris Agreement was adopted by nearly 200 countries in 2015 and has been ratified by over 180 countries."
+    },
+    {
+      "id": "green_tax",
+      "label": "Green Tax",
+      "type": "application",
+      "depth": 3,
+      "description": "A tax levied on activities that harm the environment, such as carbon emissions or pollution.",
+      "importance": 6,
+      "fun_fact": "Green taxes can be an effective way to reduce environmental degradation and raise revenue for environmental conservation."
+    },
+    {
+      "id": "carbon_trading",
+      "label": "Carbon Trading",
+      "type": "application",
+      "depth": 3,
+      "description": "A market-based system that allows companies to buy and sell carbon credits to reduce their greenhouse gas emissions.",
+      "importance": 6,
+      "fun_fact": "Carbon trading can help reduce greenhouse gas emissions by providing a financial incentive for companies to reduce their emissions."
+    },
+    {
+      "id": "renewable_energy",
+      "label": "Renewable Energy",
+      "type": "example",
+      "depth": 3,
+      "description": "Energy generated from natural resources that can be replenished over time, such as solar, wind, and hydro power.",
+      "importance": 5,
+      "fun_fact": "Renewable energy can help reduce greenhouse gas emissions and mitigate climate change."
+    },
+    {
+      "id": "sustainable_agriculture",
+      "label": "Sustainable Agriculture",
+      "type": "example",
+      "depth": 3,
+      "description": "Agricultural practices that prioritize environmental sustainability, such as organic farming and permaculture.",
+      "importance": 5,
+      "fun_fact": "Sustainable agriculture can help reduce environmental degradation and promote food security."
+    },
+    {
+      "id": "env_policy",
+      "label": "Environmental Policy",
+      "type": "concept",
+      "depth": 1,
+      "description": "Policies aimed at protecting the environment and promoting sustainable development.",
+      "importance": 8,
+      "fun_fact": "Environmental policy can take many forms, including regulations, taxes, and subsidies."
+    }
+  ],
+  "edges": [
+    {
+      "source": "env_econ",
+      "target": "sustainable_dev",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Sustainable development is a key concept in environmental economics."
+    },
+    {
+      "source": "env_econ",
+      "target": "climate_change_policy",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Climate change policy is a critical area of study in environmental economics."
+    },
+    {
+      "source": "env_econ",
+      "target": "natural_resource_mgmt",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Natural resource management is an important aspect of environmental economics."
+    },
+    {
+      "source": "env_econ",
+      "target": "ecological_valuation",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Ecological valuation is a key tool in environmental economics."
+    },
+    {
+      "source": "env_econ",
+      "target": "green_accounting",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Green accounting is an important area of study in environmental economics."
+    },
+    {
+      "source": "pigou",
+      "target": "env_econ",
+      "relation": "discovered_by",
+      "strength": 7,
+      "description": "Arthur Pigou is considered one of the founders of environmental economics."
+    },
+    {
+      "source": "coase",
+      "target": "env_econ",
+      "relation": "discovered_by",
+      "strength": 7,
+      "description": "Ronald Coase made significant contributions to the field of environmental economics."
+    },
+    {
+      "source": "cost_benefit_analysis",
+      "target": "env_econ",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "Cost-benefit analysis is a widely used method in environmental economics."
+    },
+    {
+      "source": "paris_agreement",
+      "target": "climate_change_policy",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "The Paris Agreement is an example of international climate change policy."
+    },
+    {
+      "source": "green_tax",
+      "target": "env_policy",
+      "relation": "is_part_of",
+      "strength": 6,
+      "description": "Green taxes are a type of environmental policy."
+    },
+    {
+      "source": "carbon_trading",
+      "target": "env_policy",
+      "relation": "is_part_of",
+      "strength": 6,
+      "description": "Carbon trading is a market-based environmental policy."
+    },
+    {
+      "source": "renewable_energy",
+      "target": "sustainable_dev",
+      "relation": "is_part_of",
+      "strength": 5,
+      "description": "Renewable energy is an example of sustainable development."
+    },
+    {
+      "source": "sustainable_agriculture",
+      "target": "sustainable_dev",
+      "relation": "is_part_of",
+      "strength": 5,
+      "description": "Sustainable agriculture is an example of sustainable development."
+    },
+    {
+      "source": "env_policy",
+      "target": "env_econ",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Environmental policy is a critical aspect of environmental economics."
+    },
+    {
+      "source": "env_econ",
+      "target": "env_policy",
+      "relation": "leads_to",
+      "strength": 9,
+      "description": "Environmental economics informs environmental policy."
+    },
+    {
+      "source": "climate_change_policy",
+      "target": "env_policy",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Climate change policy is a type of environmental policy."
+    },
+    {
+      "source": "natural_resource_mgmt",
+      "target": "env_policy",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Natural resource management is a type of environmental policy."
+    },
+    {
+      "source": "ecological_valuation",
+      "target": "env_policy",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "Ecological valuation is used in environmental policy."
+    },
+    {
+      "source": "green_accounting",
+      "target": "env_policy",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "Green accounting is used in environmental policy."
+    }
+  ],
+  "key_takeaways": [
+    "Environmental economics is a critical field of study that informs environmental policy.",
+    "Sustainable development, climate change policy, and natural resource management are key areas of study in environmental economics.",
+    "Ecological valuation and green accounting are important tools used in environmental economics."
+  ],
+  "real_world_impact": "Environmental economics has a significant impact on the real world, informing policy decisions and promoting sustainable development. For example, the Paris Agreement is an international agreement that aims to mitigate climate change, and it was informed by environmental economics. Additionally, green taxes and carbon trading are market-based policies that have been implemented in many countries to reduce greenhouse gas emissions. By understanding the economic effects of environmental policies, environmental economics can help promote sustainable development and reduce environmental degradation.",
+  "images": [],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Environmental_economics",
+    "papers": [
+      {
+        "title": "An Intellectual History of Environmental Economics",
+        "url": "https://doi.org/10.1146/annurev.energy.27.122001.083429"
+      },
+      {
+        "title": "Meta-Analysis in Environmental Economics",
+        "url": "https://doi.org/10.1007/978-94-015-8865-2"
+      },
+      {
+        "title": "Optimal timing problems in environmental economics",
+        "url": "https://doi.org/10.1016/s0165-1889(01)00090-2"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 19"
+      ],
+      "node_count": 15,
+      "edge_count": 19
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Economic Instruments",
+        "Environmental Impact Assessment"
+      ],
+      "strengths": [
+        "Clear representation of key concepts in environmental economics",
+        "Good connectivity between nodes"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

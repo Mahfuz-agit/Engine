@@ -1,0 +1,161 @@
+{
+  "topic": "Environmental Economics",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary focus of environmental economics?",
+      "options": {
+        "A": "The study of the economic effects of environmental policies and the costs and benefits of alternative policies",
+        "B": "The study of the economic effects of climate change on global trade",
+        "C": "The study of the economic benefits of sustainable development",
+        "D": "The study of the economic costs of natural resource depletion"
+      },
+      "correct": "A",
+      "explanation": "Environmental economics is a sub-field of economics that studies the economic effects of environmental policies and the costs and benefits of alternative policies.",
+      "node_id": "Environmental Economics",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the concept of sustainable development?",
+      "options": {
+        "A": "Meeting the needs of the present while compromising the ability of future generations to meet their own needs",
+        "B": "Meeting the needs of the present without compromising the ability of future generations to meet their own needs",
+        "C": "Meeting the needs of the present at the expense of the environment",
+        "D": "Meeting the needs of the present while depleting natural resources"
+      },
+      "correct": "B",
+      "explanation": "Sustainable development is a concept that aims to meet the needs of the present without compromising the ability of future generations to meet their own needs.",
+      "node_id": "Sustainable Development",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the Coase theorem and its significance in environmental economics?",
+      "options": {
+        "A": "The Coase theorem states that externalities can be internalized through government intervention",
+        "B": "The Coase theorem states that externalities can be internalized through market mechanisms",
+        "C": "The Coase theorem states that externalities are always negative",
+        "D": "The Coase theorem states that externalities are always positive"
+      },
+      "correct": "B",
+      "explanation": "The Coase theorem states that externalities can be internalized through market mechanisms, and it has had a significant impact on environmental economics and policy.",
+      "node_id": "Ronald Coase",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the main goal of climate change policy?",
+      "options": {
+        "A": "To reduce greenhouse gas emissions and mitigate the effects of climate change",
+        "B": "To increase greenhouse gas emissions and adapt to the effects of climate change",
+        "C": "To reduce greenhouse gas emissions but not mitigate the effects of climate change",
+        "D": "To mitigate the effects of climate change but not reduce greenhouse gas emissions"
+      },
+      "correct": "A",
+      "explanation": "The main goal of climate change policy is to reduce greenhouse gas emissions and mitigate the effects of climate change.",
+      "node_id": "Climate Change Policy",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is ecological valuation and its significance in environmental economics?",
+      "options": {
+        "A": "Ecological valuation is the process of assigning economic value to ecological goods and services, and it is not significant in environmental economics",
+        "B": "Ecological valuation is the process of assigning economic value to ecological goods and services, and it is significant in environmental economics",
+        "C": "Ecological valuation is the process of assigning economic value to environmental policies, and it is significant in environmental economics",
+        "D": "Ecological valuation is the process of assigning economic value to natural resources, and it is not significant in environmental economics"
+      },
+      "correct": "B",
+      "explanation": "Ecological valuation is the process of assigning economic value to ecological goods and services, and it is significant in environmental economics as it helps inform policy decisions.",
+      "node_id": "Ecological Valuation",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is green accounting and its significance in environmental economics?",
+      "options": {
+        "A": "Green accounting is the practice of incorporating environmental costs and benefits into economic accounting systems, and it is not significant in environmental economics",
+        "B": "Green accounting is the practice of incorporating environmental costs and benefits into economic accounting systems, and it is significant in environmental economics",
+        "C": "Green accounting is the practice of incorporating social costs and benefits into economic accounting systems, and it is significant in environmental economics",
+        "D": "Green accounting is the practice of incorporating economic costs and benefits into environmental accounting systems, and it is not significant in environmental economics"
+      },
+      "correct": "B",
+      "explanation": "Green accounting is the practice of incorporating environmental costs and benefits into economic accounting systems, and it is significant in environmental economics as it helps countries better understand the environmental impacts of their economic activities.",
+      "node_id": "Green Accounting",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "Who is considered one of the founders of environmental economics?",
+      "options": {
+        "A": "Arthur Pigou",
+        "B": "Ronald Coase",
+        "C": "John Maynard Keynes",
+        "D": "Milton Friedman"
+      },
+      "correct": "A",
+      "explanation": "Arthur Pigou is considered one of the founders of environmental economics, and his work on externalities laid the foundation for modern environmental economics.",
+      "node_id": "Arthur Pigou",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What are the key areas of study in environmental economics?",
+      "sample_answer": "The key areas of study in environmental economics include sustainable development, climate change policy, and natural resource management.",
+      "keywords": [
+        "sustainable development",
+        "climate change policy",
+        "natural resource management"
+      ],
+      "node_id": "Environmental Economics",
+      "points": 20
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "How does ecological valuation inform policy decisions in environmental economics?",
+      "sample_answer": "Ecological valuation informs policy decisions in environmental economics by quantifying the economic benefits of environmental conservation, which helps policymakers make informed decisions about environmental policies and projects.",
+      "keywords": [
+        "ecological valuation",
+        "policy decisions",
+        "environmental conservation"
+      ],
+      "node_id": "Ecological Valuation",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What is the significance of the Paris Agreement in environmental economics?",
+      "sample_answer": "The Paris Agreement is significant in environmental economics as it aims to mitigate climate change by reducing greenhouse gas emissions and promoting sustainable development.",
+      "keywords": [
+        "Paris Agreement",
+        "climate change",
+        "sustainable development"
+      ],
+      "node_id": "Paris Agreement",
+      "points": 20
+    }
+  ]
+}

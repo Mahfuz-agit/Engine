@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 59,
-  "total_nodes": 883,
-  "total_edges": 1079,
+  "total_topics": 60,
+  "total_nodes": 898,
+  "total_edges": 1098,
   "topics": [
     {
       "topic": "Climate Change",
@@ -534,6 +534,15 @@
       "edge_count": 18,
       "description": "Science education is the teaching and learning of science to school children, college students, or adults within the general public. It encompasses work in science content, science process, some social science, and some teaching pedagogy. Effective science education is crucial for developing a scientifically literate population and preparing the next generation of scientists and thinkers.",
       "added_at": "2026-08-12T12:46:39.435577"
+    },
+    {
+      "topic": "Environmental Economics",
+      "slug": "environmental_economics",
+      "category": "economics",
+      "node_count": 15,
+      "edge_count": 19,
+      "description": "Environmental economics is a sub-field of economics concerned with environmental issues, studying the economic effects of environmental policies and the costs and benefits of alternative policies. It combines traditional welfare economics and economic growth theory with perspectives on the political economy of policy choice. The field has grown significantly due to increasing environmental concerns in the twenty-first century.",
+      "added_at": "2026-08-12T14:50:54.808260"
     }
   ],
   "global_nodes": [
@@ -10249,6 +10258,171 @@
       "fun_fact": "Educational policy can have a significant impact on the quality of science education and student outcomes.",
       "topic_slug": "science_education",
       "topic": "Science Education"
+    },
+    {
+      "id": "environmental_economics__env_econ",
+      "label": "Environmental Economics",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of the economic effects of environmental policies and the costs and benefits of alternative policies.",
+      "importance": 10,
+      "fun_fact": "Environmental economics has its roots in the 1960s, but it wasn't until the 1990s that it became a major subdiscipline of economics.",
+      "topic_slug": "environmental_economics",
+      "topic": "Environmental Economics"
+    },
+    {
+      "id": "environmental_economics__sustainable_dev",
+      "label": "Sustainable Development",
+      "type": "concept",
+      "depth": 1,
+      "description": "Meeting the needs of the present without compromising the ability of future generations to meet their own needs.",
+      "importance": 9,
+      "fun_fact": "The concept of sustainable development was first introduced in the 1987 Brundtland Commission report.",
+      "topic_slug": "environmental_economics",
+      "topic": "Environmental Economics"
+    },
+    {
+      "id": "environmental_economics__climate_change_policy",
+      "label": "Climate Change Policy",
+      "type": "concept",
+      "depth": 1,
+      "description": "Policies aimed at reducing greenhouse gas emissions and mitigating the effects of climate change.",
+      "importance": 9,
+      "fun_fact": "The Paris Agreement is an example of international climate change policy, aiming to limit global warming to well below 2\u00b0C.",
+      "topic_slug": "environmental_economics",
+      "topic": "Environmental Economics"
+    },
+    {
+      "id": "environmental_economics__natural_resource_mgmt",
+      "label": "Natural Resource Management",
+      "type": "concept",
+      "depth": 1,
+      "description": "The management of natural resources, such as water, land, and minerals, to ensure their sustainable use.",
+      "importance": 8,
+      "fun_fact": "Natural resource management involves balancing economic, social, and environmental considerations.",
+      "topic_slug": "environmental_economics",
+      "topic": "Environmental Economics"
+    },
+    {
+      "id": "environmental_economics__ecological_valuation",
+      "label": "Ecological Valuation",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process of assigning economic value to ecological goods and services.",
+      "importance": 8,
+      "fun_fact": "Ecological valuation can help inform policy decisions by quantifying the economic benefits of environmental conservation.",
+      "topic_slug": "environmental_economics",
+      "topic": "Environmental Economics"
+    },
+    {
+      "id": "environmental_economics__green_accounting",
+      "label": "Green Accounting",
+      "type": "concept",
+      "depth": 1,
+      "description": "The practice of incorporating environmental costs and benefits into economic accounting systems.",
+      "importance": 8,
+      "fun_fact": "Green accounting can help countries better understand the environmental impacts of their economic activities.",
+      "topic_slug": "environmental_economics",
+      "topic": "Environmental Economics"
+    },
+    {
+      "id": "environmental_economics__pigou",
+      "label": "Arthur Pigou",
+      "type": "person",
+      "depth": 2,
+      "description": "A British economist who is considered one of the founders of environmental economics.",
+      "importance": 7,
+      "fun_fact": "Pigou's work on externalities, such as pollution, laid the foundation for modern environmental economics.",
+      "topic_slug": "environmental_economics",
+      "topic": "Environmental Economics"
+    },
+    {
+      "id": "environmental_economics__coase",
+      "label": "Ronald Coase",
+      "type": "person",
+      "depth": 2,
+      "description": "A British economist who made significant contributions to the field of environmental economics, particularly in the area of externalities.",
+      "importance": 7,
+      "fun_fact": "Coase's work on the Coase theorem has had a lasting impact on environmental economics and policy.",
+      "topic_slug": "environmental_economics",
+      "topic": "Environmental Economics"
+    },
+    {
+      "id": "environmental_economics__cost_benefit_analysis",
+      "label": "Cost-Benefit Analysis",
+      "type": "formula",
+      "depth": 2,
+      "description": "A method used to evaluate the economic viability of a project or policy by comparing its costs and benefits.",
+      "importance": 6,
+      "fun_fact": "Cost-benefit analysis is widely used in environmental economics to evaluate the economic efficiency of environmental policies.",
+      "topic_slug": "environmental_economics",
+      "topic": "Environmental Economics"
+    },
+    {
+      "id": "environmental_economics__paris_agreement",
+      "label": "Paris Agreement",
+      "type": "event",
+      "depth": 2,
+      "description": "An international agreement aimed at mitigating climate change by reducing greenhouse gas emissions.",
+      "importance": 8,
+      "fun_fact": "The Paris Agreement was adopted by nearly 200 countries in 2015 and has been ratified by over 180 countries.",
+      "topic_slug": "environmental_economics",
+      "topic": "Environmental Economics"
+    },
+    {
+      "id": "environmental_economics__green_tax",
+      "label": "Green Tax",
+      "type": "application",
+      "depth": 3,
+      "description": "A tax levied on activities that harm the environment, such as carbon emissions or pollution.",
+      "importance": 6,
+      "fun_fact": "Green taxes can be an effective way to reduce environmental degradation and raise revenue for environmental conservation.",
+      "topic_slug": "environmental_economics",
+      "topic": "Environmental Economics"
+    },
+    {
+      "id": "environmental_economics__carbon_trading",
+      "label": "Carbon Trading",
+      "type": "application",
+      "depth": 3,
+      "description": "A market-based system that allows companies to buy and sell carbon credits to reduce their greenhouse gas emissions.",
+      "importance": 6,
+      "fun_fact": "Carbon trading can help reduce greenhouse gas emissions by providing a financial incentive for companies to reduce their emissions.",
+      "topic_slug": "environmental_economics",
+      "topic": "Environmental Economics"
+    },
+    {
+      "id": "environmental_economics__renewable_energy",
+      "label": "Renewable Energy",
+      "type": "example",
+      "depth": 3,
+      "description": "Energy generated from natural resources that can be replenished over time, such as solar, wind, and hydro power.",
+      "importance": 5,
+      "fun_fact": "Renewable energy can help reduce greenhouse gas emissions and mitigate climate change.",
+      "topic_slug": "environmental_economics",
+      "topic": "Environmental Economics"
+    },
+    {
+      "id": "environmental_economics__sustainable_agriculture",
+      "label": "Sustainable Agriculture",
+      "type": "example",
+      "depth": 3,
+      "description": "Agricultural practices that prioritize environmental sustainability, such as organic farming and permaculture.",
+      "importance": 5,
+      "fun_fact": "Sustainable agriculture can help reduce environmental degradation and promote food security.",
+      "topic_slug": "environmental_economics",
+      "topic": "Environmental Economics"
+    },
+    {
+      "id": "environmental_economics__env_policy",
+      "label": "Environmental Policy",
+      "type": "concept",
+      "depth": 1,
+      "description": "Policies aimed at protecting the environment and promoting sustainable development.",
+      "importance": 8,
+      "fun_fact": "Environmental policy can take many forms, including regulations, taxes, and subsidies.",
+      "topic_slug": "environmental_economics",
+      "topic": "Environmental Economics"
     }
   ],
   "global_edges": [
@@ -17804,6 +17978,139 @@
       "relation": "is_part_of",
       "strength": 9,
       "topic": "Science Education"
+    },
+    {
+      "source": "environmental_economics__env_econ",
+      "target": "environmental_economics__sustainable_dev",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Environmental Economics"
+    },
+    {
+      "source": "environmental_economics__env_econ",
+      "target": "environmental_economics__climate_change_policy",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Environmental Economics"
+    },
+    {
+      "source": "environmental_economics__env_econ",
+      "target": "environmental_economics__natural_resource_mgmt",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Environmental Economics"
+    },
+    {
+      "source": "environmental_economics__env_econ",
+      "target": "environmental_economics__ecological_valuation",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Environmental Economics"
+    },
+    {
+      "source": "environmental_economics__env_econ",
+      "target": "environmental_economics__green_accounting",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Environmental Economics"
+    },
+    {
+      "source": "environmental_economics__pigou",
+      "target": "environmental_economics__env_econ",
+      "relation": "discovered_by",
+      "strength": 7,
+      "topic": "Environmental Economics"
+    },
+    {
+      "source": "environmental_economics__coase",
+      "target": "environmental_economics__env_econ",
+      "relation": "discovered_by",
+      "strength": 7,
+      "topic": "Environmental Economics"
+    },
+    {
+      "source": "environmental_economics__cost_benefit_analysis",
+      "target": "environmental_economics__env_econ",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Environmental Economics"
+    },
+    {
+      "source": "environmental_economics__paris_agreement",
+      "target": "environmental_economics__climate_change_policy",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Environmental Economics"
+    },
+    {
+      "source": "environmental_economics__green_tax",
+      "target": "environmental_economics__env_policy",
+      "relation": "is_part_of",
+      "strength": 6,
+      "topic": "Environmental Economics"
+    },
+    {
+      "source": "environmental_economics__carbon_trading",
+      "target": "environmental_economics__env_policy",
+      "relation": "is_part_of",
+      "strength": 6,
+      "topic": "Environmental Economics"
+    },
+    {
+      "source": "environmental_economics__renewable_energy",
+      "target": "environmental_economics__sustainable_dev",
+      "relation": "is_part_of",
+      "strength": 5,
+      "topic": "Environmental Economics"
+    },
+    {
+      "source": "environmental_economics__sustainable_agriculture",
+      "target": "environmental_economics__sustainable_dev",
+      "relation": "is_part_of",
+      "strength": 5,
+      "topic": "Environmental Economics"
+    },
+    {
+      "source": "environmental_economics__env_policy",
+      "target": "environmental_economics__env_econ",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Environmental Economics"
+    },
+    {
+      "source": "environmental_economics__env_econ",
+      "target": "environmental_economics__env_policy",
+      "relation": "leads_to",
+      "strength": 9,
+      "topic": "Environmental Economics"
+    },
+    {
+      "source": "environmental_economics__climate_change_policy",
+      "target": "environmental_economics__env_policy",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Environmental Economics"
+    },
+    {
+      "source": "environmental_economics__natural_resource_mgmt",
+      "target": "environmental_economics__env_policy",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Environmental Economics"
+    },
+    {
+      "source": "environmental_economics__ecological_valuation",
+      "target": "environmental_economics__env_policy",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Environmental Economics"
+    },
+    {
+      "source": "environmental_economics__green_accounting",
+      "target": "environmental_economics__env_policy",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Environmental Economics"
     }
   ],
   "cross_topic_edges": [
@@ -17864,6 +18171,13 @@
       "label": "sustainable development"
     },
     {
+      "source": "ecological_economics__N3",
+      "target": "environmental_economics__sustainable_dev",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "sustainable development"
+    },
+    {
       "source": "climate_change__N5",
       "target": "oceanography__N9",
       "relation": "cross_topic_connection",
@@ -17906,6 +18220,13 @@
       "label": "ecosystem services"
     },
     {
+      "source": "ecological_conservation__N6",
+      "target": "environmental_economics__env_policy",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "environmental policy"
+    },
+    {
       "source": "ecological_conservation__N10",
       "target": "ethnobotany__N6",
       "relation": "cross_topic_connection",
@@ -17943,6 +18264,13 @@
     {
       "source": "sustainable_energy__N12",
       "target": "climate_change_mitigation__Paris_Agreement",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "paris agreement"
+    },
+    {
+      "source": "climate_change_mitigation__Paris_Agreement",
+      "target": "environmental_economics__paris_agreement",
       "relation": "cross_topic_connection",
       "strength": 6,
       "label": "paris agreement"
@@ -18342,11 +18670,12 @@
       "climate_change_mitigation"
     ],
     "economics": [
-      "ecological_economics"
+      "ecological_economics",
+      "environmental_economics"
     ],
     "education": [
       "science_education"
     ]
   },
-  "last_updated": "2026-08-12T12:46:39.435611"
+  "last_updated": "2026-08-12T14:50:54.808302"
 }
