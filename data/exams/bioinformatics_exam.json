@@ -1,0 +1,161 @@
+{
+  "topic": "Bioinformatics",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary goal of bioinformatics?",
+      "options": {
+        "A": "To develop computational methods and software tools for understanding biological data",
+        "B": "To study the structure and function of proteins",
+        "C": "To analyze and interpret genomic data",
+        "D": "To reconstruct the evolutionary history of organisms"
+      },
+      "correct": "A",
+      "explanation": "Bioinformatics is an interdisciplinary field that develops computational methods and software tools for understanding biological data.",
+      "node_id": "Bioinformatics",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which of the following is a key area of research in bioinformatics?",
+      "options": {
+        "A": "Computational chemistry",
+        "B": "Genomics",
+        "C": "Systems engineering",
+        "D": "Machine learning"
+      },
+      "correct": "B",
+      "explanation": "Genomics is the study of the structure, function, and evolution of genomes, and is a key area of research in bioinformatics.",
+      "node_id": "Genomics",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the study of the evolutionary relationships between organisms?",
+      "options": {
+        "A": "Phylogenetics",
+        "B": "Gene-annotation enrichment analysis",
+        "C": "Feature selection techniques",
+        "D": "Eulerian trails"
+      },
+      "correct": "A",
+      "explanation": "Phylogenetics is the study of the evolutionary relationships between organisms, and is used to reconstruct the evolutionary history of organisms.",
+      "node_id": "Phylogenetics",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the name of the international research project that aimed to sequence the human genome?",
+      "options": {
+        "A": "The Human Genome Project",
+        "B": "The Genomics Initiative",
+        "C": "The Bioinformatics Consortium",
+        "D": "The Systems Biology Initiative"
+      },
+      "correct": "A",
+      "explanation": "The Human Genome Project was an international research project that aimed to sequence the human genome.",
+      "node_id": "The Human Genome Project",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the use of computational methods and models to analyze and interpret biological data?",
+      "options": {
+        "A": "Computational biology",
+        "B": "Bioinformatics",
+        "C": "Systems biology",
+        "D": "Machine learning"
+      },
+      "correct": "A",
+      "explanation": "Computational biology is the use of computational methods and models to analyze and interpret biological data.",
+      "node_id": "Computational Biology",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the study of complex biological systems and their interactions?",
+      "options": {
+        "A": "Systems biology",
+        "B": "Genomics",
+        "C": "Proteomics",
+        "D": "Phylogenetics"
+      },
+      "correct": "A",
+      "explanation": "Systems biology is the study of complex biological systems and their interactions.",
+      "node_id": "Systems Biology",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the name of the open-source software project for the analysis and interpretation of genomic data?",
+      "options": {
+        "A": "Bioconductor",
+        "B": "Gene-annotation enrichment analysis",
+        "C": "Feature selection techniques",
+        "D": "Eulerian trails"
+      },
+      "correct": "A",
+      "explanation": "Bioconductor is an open-source software project for the analysis and interpretation of genomic data.",
+      "node_id": "Bioconductor",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Explain the concept of gene-annotation enrichment analysis and its significance in bioinformatics.",
+      "sample_answer": "Gene-annotation enrichment analysis is a method for analyzing and interpreting large gene lists. It is used to identify functional relationships between genes and is significant in bioinformatics because it helps to understand the biological processes and pathways involved in a particular disease or condition.",
+      "keywords": [
+        "gene-annotation enrichment analysis",
+        "functional relationships",
+        "biological processes"
+      ],
+      "node_id": "Gene-Annotation Enrichment Analysis",
+      "points": 20
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "Describe the role of Eulerian trails in bioinformatics and provide an example of its application.",
+      "sample_answer": "Eulerian trails are a concept in graph theory used in bioinformatics to analyze complex biological networks. They are used to identify the shortest path between two nodes in a network and can be applied to the analysis of protein-protein interactions, gene regulatory networks, and metabolic pathways.",
+      "keywords": [
+        "Eulerian trails",
+        "graph theory",
+        "biological networks"
+      ],
+      "node_id": "Eulerian Trails",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "Explain the significance of machine learning in bioinformatics and provide an example of its application.",
+      "sample_answer": "Machine learning is a field of study that focuses on the development of algorithms and statistical models that enable machines to perform tasks without explicit instructions. In bioinformatics, machine learning is used for data analysis and interpretation, such as predicting protein structure and function, identifying gene-disease associations, and classifying biological samples.",
+      "keywords": [
+        "machine learning",
+        "bioinformatics",
+        "data analysis"
+      ],
+      "node_id": "Machine Learning",
+      "points": 20
+    }
+  ]
+}

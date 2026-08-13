@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 64,
-  "total_nodes": 957,
-  "total_edges": 1172,
+  "total_topics": 65,
+  "total_nodes": 972,
+  "total_edges": 1191,
   "topics": [
     {
       "topic": "Climate Change",
@@ -579,6 +579,15 @@
       "edge_count": 18,
       "description": "Environmental Microbiology is the study of microbial interactions and processes in the environment, encompassing various ecosystems such as soil, water, and air. It explores the roles microorganisms play in these ecosystems, including their contributions to biogeochemical cycles and their potential for bioremediation. This field is crucial for understanding and addressing environmental challenges.",
       "added_at": "2026-08-12T22:31:17.718252"
+    },
+    {
+      "topic": "Bioinformatics",
+      "slug": "bioinformatics",
+      "category": "biology",
+      "node_count": 15,
+      "edge_count": 19,
+      "description": "Bioinformatics is an interdisciplinary field that develops computational methods and software tools for understanding biological data. It integrates principles from biology, chemistry, physics, computer science, and mathematics to analyze and interpret biological data. This field has led to significant advancements in genomics, proteomics, and systems biology.",
+      "added_at": "2026-08-13T01:11:13.925273"
     }
   ],
   "global_nodes": [
@@ -11108,6 +11117,171 @@
       "fun_fact": "Atmospheric science is an interdisciplinary field that combines meteorology, climatology, and atmospheric chemistry.",
       "topic_slug": "environmental_microbiology",
       "topic": "Environmental Microbiology"
+    },
+    {
+      "id": "bioinformatics__N1",
+      "label": "Bioinformatics",
+      "type": "core",
+      "depth": 0,
+      "description": "An interdisciplinary field that develops computational methods and software tools for understanding biological data.",
+      "importance": 10,
+      "fun_fact": "The term 'bioinformatics' was first used in the 1970s.",
+      "topic_slug": "bioinformatics",
+      "topic": "Bioinformatics"
+    },
+    {
+      "id": "bioinformatics__N2",
+      "label": "Genomics",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the structure, function, and evolution of genomes.",
+      "importance": 9,
+      "fun_fact": "The Human Genome Project was completed in 2003.",
+      "topic_slug": "bioinformatics",
+      "topic": "Bioinformatics"
+    },
+    {
+      "id": "bioinformatics__N3",
+      "label": "Proteomics",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the structure, function, and interactions of proteins.",
+      "importance": 9,
+      "fun_fact": "Proteomics is a key area of research in cancer biology.",
+      "topic_slug": "bioinformatics",
+      "topic": "Bioinformatics"
+    },
+    {
+      "id": "bioinformatics__N4",
+      "label": "Systems Biology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of complex biological systems and their interactions.",
+      "importance": 9,
+      "fun_fact": "Systems biology is an interdisciplinary field that combines biology, mathematics, and computer science.",
+      "topic_slug": "bioinformatics",
+      "topic": "Bioinformatics"
+    },
+    {
+      "id": "bioinformatics__N5",
+      "label": "Computational Biology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The use of computational methods and models to analyze and interpret biological data.",
+      "importance": 9,
+      "fun_fact": "Computational biology is a key area of research in bioinformatics.",
+      "topic_slug": "bioinformatics",
+      "topic": "Bioinformatics"
+    },
+    {
+      "id": "bioinformatics__N6",
+      "label": "Phylogenetics",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the evolutionary relationships between organisms.",
+      "importance": 8,
+      "fun_fact": "Phylogenetics is used to reconstruct the evolutionary history of organisms.",
+      "topic_slug": "bioinformatics",
+      "topic": "Bioinformatics"
+    },
+    {
+      "id": "bioinformatics__N7",
+      "label": "Bioconductor",
+      "type": "application",
+      "depth": 2,
+      "description": "An open-source software project for the analysis and interpretation of genomic data.",
+      "importance": 8,
+      "fun_fact": "Bioconductor is widely used in the bioinformatics community.",
+      "topic_slug": "bioinformatics",
+      "topic": "Bioinformatics"
+    },
+    {
+      "id": "bioinformatics__N8",
+      "label": "Gene-Annotation Enrichment Analysis",
+      "type": "application",
+      "depth": 2,
+      "description": "A method for analyzing and interpreting large gene lists.",
+      "importance": 8,
+      "fun_fact": "This method is used to identify functional relationships between genes.",
+      "topic_slug": "bioinformatics",
+      "topic": "Bioinformatics"
+    },
+    {
+      "id": "bioinformatics__N9",
+      "label": "Feature Selection Techniques",
+      "type": "concept",
+      "depth": 2,
+      "description": "Methods for selecting the most relevant features in a dataset.",
+      "importance": 8,
+      "fun_fact": "Feature selection techniques are used in machine learning and data mining.",
+      "topic_slug": "bioinformatics",
+      "topic": "Bioinformatics"
+    },
+    {
+      "id": "bioinformatics__N10",
+      "label": "Eulerian Trails",
+      "type": "concept",
+      "depth": 2,
+      "description": "A concept in graph theory used in bioinformatics.",
+      "importance": 7,
+      "fun_fact": "Eulerian trails are used to analyze complex biological networks.",
+      "topic_slug": "bioinformatics",
+      "topic": "Bioinformatics"
+    },
+    {
+      "id": "bioinformatics__N11",
+      "label": "David Haussler",
+      "type": "person",
+      "depth": 3,
+      "description": "A computational biologist who has made significant contributions to the field of bioinformatics.",
+      "importance": 7,
+      "fun_fact": "David Haussler is a professor at the University of California, Santa Cruz.",
+      "topic_slug": "bioinformatics",
+      "topic": "Bioinformatics"
+    },
+    {
+      "id": "bioinformatics__N12",
+      "label": "The Human Genome Project",
+      "type": "event",
+      "depth": 3,
+      "description": "An international research project that aimed to sequence the human genome.",
+      "importance": 9,
+      "fun_fact": "The Human Genome Project was completed in 2003.",
+      "topic_slug": "bioinformatics",
+      "topic": "Bioinformatics"
+    },
+    {
+      "id": "bioinformatics__N13",
+      "label": "Bioinformatics Enrichment Tools",
+      "type": "application",
+      "depth": 2,
+      "description": "Software tools used for the functional analysis of large gene lists.",
+      "importance": 8,
+      "fun_fact": "These tools are used to identify functional relationships between genes.",
+      "topic_slug": "bioinformatics",
+      "topic": "Bioinformatics"
+    },
+    {
+      "id": "bioinformatics__N14",
+      "label": "Machine Learning",
+      "type": "concept",
+      "depth": 2,
+      "description": "A field of study that focuses on the development of algorithms and statistical models that enable machines to perform tasks without explicit instructions.",
+      "importance": 8,
+      "fun_fact": "Machine learning is widely used in bioinformatics for data analysis and interpretation.",
+      "topic_slug": "bioinformatics",
+      "topic": "Bioinformatics"
+    },
+    {
+      "id": "bioinformatics__N15",
+      "label": "Data Mining",
+      "type": "concept",
+      "depth": 2,
+      "description": "The process of discovering patterns and relationships in large datasets.",
+      "importance": 8,
+      "fun_fact": "Data mining is used in bioinformatics to identify functional relationships between genes and proteins.",
+      "topic_slug": "bioinformatics",
+      "topic": "Bioinformatics"
     }
   ],
   "global_edges": [
@@ -19314,6 +19488,139 @@
       "relation": "related_to",
       "strength": 6,
       "topic": "Environmental Microbiology"
+    },
+    {
+      "source": "bioinformatics__N1",
+      "target": "bioinformatics__N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Bioinformatics"
+    },
+    {
+      "source": "bioinformatics__N1",
+      "target": "bioinformatics__N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Bioinformatics"
+    },
+    {
+      "source": "bioinformatics__N1",
+      "target": "bioinformatics__N4",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Bioinformatics"
+    },
+    {
+      "source": "bioinformatics__N1",
+      "target": "bioinformatics__N5",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Bioinformatics"
+    },
+    {
+      "source": "bioinformatics__N2",
+      "target": "bioinformatics__N7",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Bioinformatics"
+    },
+    {
+      "source": "bioinformatics__N3",
+      "target": "bioinformatics__N8",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Bioinformatics"
+    },
+    {
+      "source": "bioinformatics__N4",
+      "target": "bioinformatics__N9",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Bioinformatics"
+    },
+    {
+      "source": "bioinformatics__N5",
+      "target": "bioinformatics__N10",
+      "relation": "used_in",
+      "strength": 7,
+      "topic": "Bioinformatics"
+    },
+    {
+      "source": "bioinformatics__N11",
+      "target": "bioinformatics__N1",
+      "relation": "discovered_by",
+      "strength": 7,
+      "topic": "Bioinformatics"
+    },
+    {
+      "source": "bioinformatics__N12",
+      "target": "bioinformatics__N1",
+      "relation": "evolved_from",
+      "strength": 9,
+      "topic": "Bioinformatics"
+    },
+    {
+      "source": "bioinformatics__N13",
+      "target": "bioinformatics__N2",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Bioinformatics"
+    },
+    {
+      "source": "bioinformatics__N14",
+      "target": "bioinformatics__N5",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Bioinformatics"
+    },
+    {
+      "source": "bioinformatics__N15",
+      "target": "bioinformatics__N5",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Bioinformatics"
+    },
+    {
+      "source": "bioinformatics__N1",
+      "target": "bioinformatics__N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Bioinformatics"
+    },
+    {
+      "source": "bioinformatics__N6",
+      "target": "bioinformatics__N7",
+      "relation": "used_in",
+      "strength": 7,
+      "topic": "Bioinformatics"
+    },
+    {
+      "source": "bioinformatics__N7",
+      "target": "bioinformatics__N8",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Bioinformatics"
+    },
+    {
+      "source": "bioinformatics__N8",
+      "target": "bioinformatics__N9",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Bioinformatics"
+    },
+    {
+      "source": "bioinformatics__N9",
+      "target": "bioinformatics__N10",
+      "relation": "related_to",
+      "strength": 6,
+      "topic": "Bioinformatics"
+    },
+    {
+      "source": "bioinformatics__N10",
+      "target": "bioinformatics__N11",
+      "relation": "discovered_by",
+      "strength": 6,
+      "topic": "Bioinformatics"
     }
   ],
   "cross_topic_edges": [
@@ -19493,11 +19800,25 @@
       "label": "paris agreement"
     },
     {
+      "source": "genomics__N1",
+      "target": "bioinformatics__N2",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "genomics"
+    },
+    {
       "source": "genomics__N5",
       "target": "epigenetics__N1",
       "relation": "cross_topic_connection",
       "strength": 6,
       "label": "epigenetics"
+    },
+    {
+      "source": "artificial_intelligence__N2",
+      "target": "bioinformatics__N14",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "machine learning"
     },
     {
       "source": "environmental_epidemiology__EE2",
@@ -19666,6 +19987,13 @@
       "relation": "cross_topic_connection",
       "strength": 6,
       "label": "biomechanics"
+    },
+    {
+      "source": "biophysics__N5",
+      "target": "bioinformatics__N4",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "systems biology"
     },
     {
       "source": "radiation_oncology__N3",
@@ -19857,7 +20185,8 @@
       "ecological_restoration",
       "sustainable_agriculture",
       "ecotoxicology",
-      "environmental_microbiology"
+      "environmental_microbiology",
+      "bioinformatics"
     ],
     "psychology": [
       "neuroplasticity",
@@ -19926,5 +20255,5 @@
       "science_education"
     ]
   },
-  "last_updated": "2026-08-12T22:31:17.718290"
+  "last_updated": "2026-08-13T01:11:13.925307"
 }

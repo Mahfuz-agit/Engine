@@ -830,5 +830,18 @@
     "master_total_topics": 64,
     "ended_at": "2026-08-12T22:31:17.732831",
     "duration_seconds": 44.0
+  },
+  {
+    "started_at": "2026-08-13T01:10:29.419031",
+    "status": "success",
+    "topic": "Bioinformatics",
+    "sources_found": 7,
+    "images_found": 0,
+    "quality_score": 87.5,
+    "quality_passed": true,
+    "exam_questions": 10,
+    "master_total_topics": 65,
+    "ended_at": "2026-08-13T01:11:13.935065",
+    "duration_seconds": 44.5
   }
 ]

@@ -1,0 +1,338 @@
+{
+  "topic": "Bioinformatics",
+  "category": "biology",
+  "description": "Bioinformatics is an interdisciplinary field that develops computational methods and software tools for understanding biological data. It integrates principles from biology, chemistry, physics, computer science, and mathematics to analyze and interpret biological data. This field has led to significant advancements in genomics, proteomics, and systems biology.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Bioinformatics",
+      "type": "core",
+      "depth": 0,
+      "description": "An interdisciplinary field that develops computational methods and software tools for understanding biological data.",
+      "importance": 10,
+      "fun_fact": "The term 'bioinformatics' was first used in the 1970s."
+    },
+    {
+      "id": "N2",
+      "label": "Genomics",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the structure, function, and evolution of genomes.",
+      "importance": 9,
+      "fun_fact": "The Human Genome Project was completed in 2003."
+    },
+    {
+      "id": "N3",
+      "label": "Proteomics",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the structure, function, and interactions of proteins.",
+      "importance": 9,
+      "fun_fact": "Proteomics is a key area of research in cancer biology."
+    },
+    {
+      "id": "N4",
+      "label": "Systems Biology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of complex biological systems and their interactions.",
+      "importance": 9,
+      "fun_fact": "Systems biology is an interdisciplinary field that combines biology, mathematics, and computer science."
+    },
+    {
+      "id": "N5",
+      "label": "Computational Biology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The use of computational methods and models to analyze and interpret biological data.",
+      "importance": 9,
+      "fun_fact": "Computational biology is a key area of research in bioinformatics."
+    },
+    {
+      "id": "N6",
+      "label": "Phylogenetics",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the evolutionary relationships between organisms.",
+      "importance": 8,
+      "fun_fact": "Phylogenetics is used to reconstruct the evolutionary history of organisms."
+    },
+    {
+      "id": "N7",
+      "label": "Bioconductor",
+      "type": "application",
+      "depth": 2,
+      "description": "An open-source software project for the analysis and interpretation of genomic data.",
+      "importance": 8,
+      "fun_fact": "Bioconductor is widely used in the bioinformatics community."
+    },
+    {
+      "id": "N8",
+      "label": "Gene-Annotation Enrichment Analysis",
+      "type": "application",
+      "depth": 2,
+      "description": "A method for analyzing and interpreting large gene lists.",
+      "importance": 8,
+      "fun_fact": "This method is used to identify functional relationships between genes."
+    },
+    {
+      "id": "N9",
+      "label": "Feature Selection Techniques",
+      "type": "concept",
+      "depth": 2,
+      "description": "Methods for selecting the most relevant features in a dataset.",
+      "importance": 8,
+      "fun_fact": "Feature selection techniques are used in machine learning and data mining."
+    },
+    {
+      "id": "N10",
+      "label": "Eulerian Trails",
+      "type": "concept",
+      "depth": 2,
+      "description": "A concept in graph theory used in bioinformatics.",
+      "importance": 7,
+      "fun_fact": "Eulerian trails are used to analyze complex biological networks."
+    },
+    {
+      "id": "N11",
+      "label": "David Haussler",
+      "type": "person",
+      "depth": 3,
+      "description": "A computational biologist who has made significant contributions to the field of bioinformatics.",
+      "importance": 7,
+      "fun_fact": "David Haussler is a professor at the University of California, Santa Cruz."
+    },
+    {
+      "id": "N12",
+      "label": "The Human Genome Project",
+      "type": "event",
+      "depth": 3,
+      "description": "An international research project that aimed to sequence the human genome.",
+      "importance": 9,
+      "fun_fact": "The Human Genome Project was completed in 2003."
+    },
+    {
+      "id": "N13",
+      "label": "Bioinformatics Enrichment Tools",
+      "type": "application",
+      "depth": 2,
+      "description": "Software tools used for the functional analysis of large gene lists.",
+      "importance": 8,
+      "fun_fact": "These tools are used to identify functional relationships between genes."
+    },
+    {
+      "id": "N14",
+      "label": "Machine Learning",
+      "type": "concept",
+      "depth": 2,
+      "description": "A field of study that focuses on the development of algorithms and statistical models that enable machines to perform tasks without explicit instructions.",
+      "importance": 8,
+      "fun_fact": "Machine learning is widely used in bioinformatics for data analysis and interpretation."
+    },
+    {
+      "id": "N15",
+      "label": "Data Mining",
+      "type": "concept",
+      "depth": 2,
+      "description": "The process of discovering patterns and relationships in large datasets.",
+      "importance": 8,
+      "fun_fact": "Data mining is used in bioinformatics to identify functional relationships between genes and proteins."
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Genomics is a key area of research in bioinformatics."
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Proteomics is a key area of research in bioinformatics."
+    },
+    {
+      "source": "N1",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Systems biology is a key area of research in bioinformatics."
+    },
+    {
+      "source": "N1",
+      "target": "N5",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Computational biology is a key area of research in bioinformatics."
+    },
+    {
+      "source": "N2",
+      "target": "N7",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Bioconductor is used in genomics research."
+    },
+    {
+      "source": "N3",
+      "target": "N8",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Gene-annotation enrichment analysis is used in proteomics research."
+    },
+    {
+      "source": "N4",
+      "target": "N9",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Feature selection techniques are used in systems biology research."
+    },
+    {
+      "source": "N5",
+      "target": "N10",
+      "relation": "used_in",
+      "strength": 7,
+      "description": "Eulerian trails are used in computational biology research."
+    },
+    {
+      "source": "N11",
+      "target": "N1",
+      "relation": "discovered_by",
+      "strength": 7,
+      "description": "David Haussler has made significant contributions to the field of bioinformatics."
+    },
+    {
+      "source": "N12",
+      "target": "N1",
+      "relation": "evolved_from",
+      "strength": 9,
+      "description": "The Human Genome Project has led to significant advancements in the field of bioinformatics."
+    },
+    {
+      "source": "N13",
+      "target": "N2",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Bioinformatics enrichment tools are used in genomics research."
+    },
+    {
+      "source": "N14",
+      "target": "N5",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Machine learning is a key area of research in computational biology."
+    },
+    {
+      "source": "N15",
+      "target": "N5",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Data mining is a key area of research in computational biology."
+    },
+    {
+      "source": "N1",
+      "target": "N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Phylogenetics is a key area of research in bioinformatics."
+    },
+    {
+      "source": "N6",
+      "target": "N7",
+      "relation": "used_in",
+      "strength": 7,
+      "description": "Bioconductor is used in phylogenetics research."
+    },
+    {
+      "source": "N7",
+      "target": "N8",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "Bioconductor and gene-annotation enrichment analysis are related tools."
+    },
+    {
+      "source": "N8",
+      "target": "N9",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "Gene-annotation enrichment analysis and feature selection techniques are related methods."
+    },
+    {
+      "source": "N9",
+      "target": "N10",
+      "relation": "related_to",
+      "strength": 6,
+      "description": "Feature selection techniques and Eulerian trails are related concepts."
+    },
+    {
+      "source": "N10",
+      "target": "N11",
+      "relation": "discovered_by",
+      "strength": 6,
+      "description": "Eulerian trails were discovered by David Haussler and others."
+    }
+  ],
+  "key_takeaways": [
+    "Bioinformatics is an interdisciplinary field that develops computational methods and software tools for understanding biological data.",
+    "Genomics, proteomics, and systems biology are key areas of research in bioinformatics.",
+    "Computational biology is a key area of research in bioinformatics that uses computational methods and models to analyze and interpret biological data."
+  ],
+  "real_world_impact": "Bioinformatics has had a significant impact on our understanding of biological systems and has led to numerous breakthroughs in fields such as medicine, agriculture, and biotechnology. The development of computational methods and software tools has enabled researchers to analyze and interpret large datasets, leading to a better understanding of the complex interactions between genes, proteins, and environments. For example, bioinformatics has been used to develop personalized medicine approaches, such as targeted therapies and genetic testing, and has also been used to improve crop yields and disease resistance in agriculture.",
+  "images": [],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Bioinformatics",
+    "papers": [
+      {
+        "title": "Bioconductor: open software development for computational biology and bioinformatics",
+        "url": "https://doi.org/10.1186/gb-2004-5-10-r80"
+      },
+      {
+        "title": "Bioinformatics enrichment tools: paths toward the comprehensive functional analysis of large gene lists",
+        "url": "https://doi.org/10.1093/nar/gkn923"
+      },
+      {
+        "title": "A review of feature selection techniques in bioinformatics",
+        "url": "https://doi.org/10.1093/bioinformatics/btm344"
+      }
+    ],
+    "news": [
+      {
+        "title": "Optimal Enumeration of Eulerian Trails in Directed Graphs",
+        "url": "https://arxiv.org/abs/2603.12894"
+      }
+    ]
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 19"
+      ],
+      "node_count": 15,
+      "edge_count": 19
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Structural Biology",
+        "Transcriptomics"
+      ],
+      "strengths": [
+        "Interdisciplinary connections",
+        "Key areas of research in bioinformatics"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}
