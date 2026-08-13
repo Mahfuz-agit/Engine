@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 65,
-  "total_nodes": 972,
-  "total_edges": 1191,
+  "total_topics": 66,
+  "total_nodes": 987,
+  "total_edges": 1209,
   "topics": [
     {
       "topic": "Climate Change",
@@ -588,6 +588,15 @@
       "edge_count": 19,
       "description": "Bioinformatics is an interdisciplinary field that develops computational methods and software tools for understanding biological data. It integrates principles from biology, chemistry, physics, computer science, and mathematics to analyze and interpret biological data. This field has led to significant advancements in genomics, proteomics, and systems biology.",
       "added_at": "2026-08-13T01:11:13.925273"
+    },
+    {
+      "topic": "Environmental Policy",
+      "slug": "environmental_policy",
+      "category": "political_science",
+      "node_count": 15,
+      "edge_count": 18,
+      "description": "Environmental policy refers to the laws, regulations, and guidelines that aim to protect the natural environment and promote sustainable development. It encompasses various subfields, including climate change policy, conservation biology, and ecological law. Effective environmental policy is crucial for mitigating the impacts of human activities on the environment and ensuring a healthy and thriving planet for future generations.",
+      "added_at": "2026-08-13T07:14:19.326024"
     }
   ],
   "global_nodes": [
@@ -11282,6 +11291,171 @@
       "fun_fact": "Data mining is used in bioinformatics to identify functional relationships between genes and proteins.",
       "topic_slug": "bioinformatics",
       "topic": "Bioinformatics"
+    },
+    {
+      "id": "environmental_policy__N1",
+      "label": "Environmental Policy",
+      "type": "core",
+      "depth": 0,
+      "description": "The overall framework of laws, regulations, and guidelines that aim to protect the natural environment and promote sustainable development.",
+      "importance": 10,
+      "fun_fact": "The first environmental policy was enacted in ancient India around 500 BCE.",
+      "topic_slug": "environmental_policy",
+      "topic": "Environmental Policy"
+    },
+    {
+      "id": "environmental_policy__N2",
+      "label": "Sustainable Development",
+      "type": "concept",
+      "depth": 1,
+      "description": "A development approach that meets the needs of the present without compromising the ability of future generations to meet their own needs.",
+      "importance": 9,
+      "fun_fact": "The concept of sustainable development was popularized by the Brundtland Commission in 1987.",
+      "topic_slug": "environmental_policy",
+      "topic": "Environmental Policy"
+    },
+    {
+      "id": "environmental_policy__N3",
+      "label": "Climate Change Policy",
+      "type": "concept",
+      "depth": 1,
+      "description": "Policies aimed at reducing greenhouse gas emissions and mitigating the impacts of climate change.",
+      "importance": 9,
+      "fun_fact": "The Paris Agreement is a landmark international climate change policy adopted in 2015.",
+      "topic_slug": "environmental_policy",
+      "topic": "Environmental Policy"
+    },
+    {
+      "id": "environmental_policy__N4",
+      "label": "Conservation Biology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The scientific study of the conservation of biological diversity and the development of strategies to protect threatened and endangered species.",
+      "importance": 8,
+      "fun_fact": "Conservation biology is an interdisciplinary field that combines ecology, genetics, and policy to conserve biodiversity.",
+      "topic_slug": "environmental_policy",
+      "topic": "Environmental Policy"
+    },
+    {
+      "id": "environmental_policy__N5",
+      "label": "Ecological Law",
+      "type": "concept",
+      "depth": 1,
+      "description": "A branch of law that focuses on the protection of the natural environment and the promotion of ecological sustainability.",
+      "importance": 8,
+      "fun_fact": "Ecological law is a rapidly evolving field that incorporates principles from ecology, ethics, and human rights.",
+      "topic_slug": "environmental_policy",
+      "topic": "Environmental Policy"
+    },
+    {
+      "id": "environmental_policy__N6",
+      "label": "International Environmental Agreements",
+      "type": "concept",
+      "depth": 1,
+      "description": "Treaties and agreements between nations aimed at addressing global environmental issues, such as climate change and biodiversity loss.",
+      "importance": 9,
+      "fun_fact": "The Montreal Protocol is a successful international environmental agreement that has reduced ozone-depleting substances.",
+      "topic_slug": "environmental_policy",
+      "topic": "Environmental Policy"
+    },
+    {
+      "id": "environmental_policy__N7",
+      "label": "European Union Emissions Trading System (EU ETS)",
+      "type": "example",
+      "depth": 2,
+      "description": "A cap-and-trade system that aims to reduce greenhouse gas emissions from certain industries in the European Union.",
+      "importance": 8,
+      "fun_fact": "The EU ETS is one of the largest and most established carbon pricing systems in the world.",
+      "topic_slug": "environmental_policy",
+      "topic": "Environmental Policy"
+    },
+    {
+      "id": "environmental_policy__N8",
+      "label": "Market-Based Environmental Policy Instruments",
+      "type": "concept",
+      "depth": 2,
+      "description": "Economic tools, such as taxes and subsidies, used to encourage environmentally friendly behaviors and reduce pollution.",
+      "importance": 8,
+      "fun_fact": "Market-based instruments can be more effective than traditional command-and-control regulations in certain contexts.",
+      "topic_slug": "environmental_policy",
+      "topic": "Environmental Policy"
+    },
+    {
+      "id": "environmental_policy__N9",
+      "label": "Technology and Environmental Policy",
+      "type": "concept",
+      "depth": 2,
+      "description": "The intersection of technological innovation and environmental policy, including the development of clean technologies and the impact of policy on technological change.",
+      "importance": 8,
+      "fun_fact": "Technological innovation can play a crucial role in reducing environmental impacts and promoting sustainable development.",
+      "topic_slug": "environmental_policy",
+      "topic": "Environmental Policy"
+    },
+    {
+      "id": "environmental_policy__N10",
+      "label": "Directed Technological Change",
+      "type": "concept",
+      "depth": 3,
+      "description": "The process of guiding technological innovation towards specific environmental or social goals, such as reducing greenhouse gas emissions.",
+      "importance": 7,
+      "fun_fact": "Directed technological change can be achieved through policy instruments, such as research and development subsidies and tax incentives.",
+      "topic_slug": "environmental_policy",
+      "topic": "Environmental Policy"
+    },
+    {
+      "id": "environmental_policy__N11",
+      "label": "Low-Carbon Innovation",
+      "type": "concept",
+      "depth": 3,
+      "description": "The development of new technologies, products, and services that reduce greenhouse gas emissions and promote sustainable energy systems.",
+      "importance": 8,
+      "fun_fact": "Low-carbon innovation is critical for achieving a low-carbon economy and mitigating climate change.",
+      "topic_slug": "environmental_policy",
+      "topic": "Environmental Policy"
+    },
+    {
+      "id": "environmental_policy__N12",
+      "label": "Gro Harlem Brundtland",
+      "type": "person",
+      "depth": 2,
+      "description": "A Norwegian politician and environmentalist who chaired the Brundtland Commission and popularized the concept of sustainable development.",
+      "importance": 7,
+      "fun_fact": "Gro Harlem Brundtland was the first woman to serve as Prime Minister of Norway.",
+      "topic_slug": "environmental_policy",
+      "topic": "Environmental Policy"
+    },
+    {
+      "id": "environmental_policy__N13",
+      "label": "The Brundtland Commission",
+      "type": "event",
+      "depth": 2,
+      "description": "A United Nations commission established in 1983 to address environmental and development issues, which published the landmark report 'Our Common Future' in 1987.",
+      "importance": 8,
+      "fun_fact": "The Brundtland Commission's report introduced the concept of sustainable development to a global audience.",
+      "topic_slug": "environmental_policy",
+      "topic": "Environmental Policy"
+    },
+    {
+      "id": "environmental_policy__N14",
+      "label": "The Paris Agreement",
+      "type": "event",
+      "depth": 2,
+      "description": "An international agreement adopted in 2015, which aims to limit global warming to well below 2\u00b0C and pursue efforts to limit it to 1.5\u00b0C above pre-industrial levels.",
+      "importance": 9,
+      "fun_fact": "The Paris Agreement is the first international agreement to bring together almost all countries in the world to address climate change.",
+      "topic_slug": "environmental_policy",
+      "topic": "Environmental Policy"
+    },
+    {
+      "id": "environmental_policy__N15",
+      "label": "Carbon Pricing",
+      "type": "concept",
+      "depth": 3,
+      "description": "A market-based instrument that puts a price on greenhouse gas emissions, providing a financial incentive for companies and individuals to reduce their emissions.",
+      "importance": 8,
+      "fun_fact": "Carbon pricing can be implemented through carbon taxes or cap-and-trade systems.",
+      "topic_slug": "environmental_policy",
+      "topic": "Environmental Policy"
     }
   ],
   "global_edges": [
@@ -19621,6 +19795,132 @@
       "relation": "discovered_by",
       "strength": 6,
       "topic": "Bioinformatics"
+    },
+    {
+      "source": "environmental_policy__N1",
+      "target": "environmental_policy__N2",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Environmental Policy"
+    },
+    {
+      "source": "environmental_policy__N1",
+      "target": "environmental_policy__N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Environmental Policy"
+    },
+    {
+      "source": "environmental_policy__N1",
+      "target": "environmental_policy__N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Environmental Policy"
+    },
+    {
+      "source": "environmental_policy__N1",
+      "target": "environmental_policy__N5",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Environmental Policy"
+    },
+    {
+      "source": "environmental_policy__N1",
+      "target": "environmental_policy__N6",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Environmental Policy"
+    },
+    {
+      "source": "environmental_policy__N3",
+      "target": "environmental_policy__N7",
+      "relation": "is_type_of",
+      "strength": 8,
+      "topic": "Environmental Policy"
+    },
+    {
+      "source": "environmental_policy__N8",
+      "target": "environmental_policy__N9",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Environmental Policy"
+    },
+    {
+      "source": "environmental_policy__N9",
+      "target": "environmental_policy__N10",
+      "relation": "leads_to",
+      "strength": 7,
+      "topic": "Environmental Policy"
+    },
+    {
+      "source": "environmental_policy__N10",
+      "target": "environmental_policy__N11",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Environmental Policy"
+    },
+    {
+      "source": "environmental_policy__N2",
+      "target": "environmental_policy__N12",
+      "relation": "discovered_by",
+      "strength": 7,
+      "topic": "Environmental Policy"
+    },
+    {
+      "source": "environmental_policy__N12",
+      "target": "environmental_policy__N13",
+      "relation": "part_of",
+      "strength": 8,
+      "topic": "Environmental Policy"
+    },
+    {
+      "source": "environmental_policy__N13",
+      "target": "environmental_policy__N14",
+      "relation": "evolved_from",
+      "strength": 8,
+      "topic": "Environmental Policy"
+    },
+    {
+      "source": "environmental_policy__N11",
+      "target": "environmental_policy__N15",
+      "relation": "enables",
+      "strength": 8,
+      "topic": "Environmental Policy"
+    },
+    {
+      "source": "environmental_policy__N6",
+      "target": "environmental_policy__N14",
+      "relation": "is_type_of",
+      "strength": 9,
+      "topic": "Environmental Policy"
+    },
+    {
+      "source": "environmental_policy__N5",
+      "target": "environmental_policy__N8",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Environmental Policy"
+    },
+    {
+      "source": "environmental_policy__N4",
+      "target": "environmental_policy__N9",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Environmental Policy"
+    },
+    {
+      "source": "environmental_policy__N3",
+      "target": "environmental_policy__N10",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Environmental Policy"
+    },
+    {
+      "source": "environmental_policy__N1",
+      "target": "environmental_policy__N15",
+      "relation": "enables",
+      "strength": 8,
+      "topic": "Environmental Policy"
     }
   ],
   "cross_topic_edges": [
@@ -19695,6 +19995,13 @@
       "label": "sustainable development"
     },
     {
+      "source": "environmental_governance__EG1",
+      "target": "environmental_policy__N2",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "sustainable development"
+    },
+    {
       "source": "climate_change__N5",
       "target": "oceanography__N9",
       "relation": "cross_topic_connection",
@@ -19744,6 +20051,13 @@
       "label": "environmental policy"
     },
     {
+      "source": "environmental_economics__env_policy",
+      "target": "environmental_policy__N1",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "environmental policy"
+    },
+    {
       "source": "ecological_conservation__N10",
       "target": "ethnobotany__N6",
       "relation": "cross_topic_connection",
@@ -19774,6 +20088,13 @@
     {
       "source": "ecological_restoration__N2",
       "target": "ecotoxicology__N6",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "conservation biology"
+    },
+    {
+      "source": "ecotoxicology__N6",
+      "target": "environmental_policy__N4",
       "relation": "cross_topic_connection",
       "strength": 6,
       "label": "conservation biology"
@@ -20148,6 +20469,13 @@
       "relation": "cross_topic_connection",
       "strength": 6,
       "label": "biodiversity conservation"
+    },
+    {
+      "source": "environmental_economics__climate_change_policy",
+      "target": "environmental_policy__N3",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "climate change policy"
     }
   ],
   "category_map": {
@@ -20239,7 +20567,8 @@
     "political_science": [
       "geopolitics",
       "environmental_governance",
-      "environmental_justice"
+      "environmental_justice",
+      "environmental_policy"
     ],
     "philosophy": [
       "ethics_of_emerging_technologies"
@@ -20255,5 +20584,5 @@
       "science_education"
     ]
   },
-  "last_updated": "2026-08-13T01:11:13.925307"
+  "last_updated": "2026-08-13T07:14:19.326059"
 }

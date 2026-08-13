@@ -843,5 +843,18 @@
     "master_total_topics": 65,
     "ended_at": "2026-08-13T01:11:13.935065",
     "duration_seconds": 44.5
+  },
+  {
+    "started_at": "2026-08-13T07:13:39.951265",
+    "status": "success",
+    "topic": "Environmental Policy",
+    "sources_found": 5,
+    "images_found": 0,
+    "quality_score": 87.5,
+    "quality_passed": true,
+    "exam_questions": 10,
+    "master_total_topics": 66,
+    "ended_at": "2026-08-13T07:14:19.340465",
+    "duration_seconds": 39.4
   }
 ]

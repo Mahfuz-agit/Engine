@@ -1,0 +1,164 @@
+{
+  "topic": "Environmental Policy",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary goal of environmental policy?",
+      "options": {
+        "A": "To promote economic growth",
+        "B": "To protect the natural environment and promote sustainable development",
+        "C": "To reduce the cost of living",
+        "D": "To increase the use of natural resources"
+      },
+      "correct": "B",
+      "explanation": "Environmental policy aims to protect the natural environment and promote sustainable development, which is essential for the well-being of current and future generations.",
+      "node_id": "Environmental Policy",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the main objective of the Paris Agreement?",
+      "options": {
+        "A": "To reduce greenhouse gas emissions by 50% by 2025",
+        "B": "To limit global warming to well below 2\u00b0C and pursue efforts to limit it to 1.5\u00b0C above pre-industrial levels",
+        "C": "To increase the use of renewable energy sources",
+        "D": "To reduce the production of ozone-depleting substances"
+      },
+      "correct": "B",
+      "explanation": "The Paris Agreement aims to limit global warming to well below 2\u00b0C and pursue efforts to limit it to 1.5\u00b0C above pre-industrial levels, which is essential for mitigating the impacts of climate change.",
+      "node_id": "The Paris Agreement",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the primary mechanism by which the European Union Emissions Trading System (EU ETS) aims to reduce greenhouse gas emissions?",
+      "options": {
+        "A": "By setting a carbon tax on all industries",
+        "B": "By implementing a cap-and-trade system for certain industries",
+        "C": "By providing subsidies for renewable energy projects",
+        "D": "By imposing a ban on the use of fossil fuels"
+      },
+      "correct": "B",
+      "explanation": "The EU ETS aims to reduce greenhouse gas emissions by implementing a cap-and-trade system for certain industries, which provides a financial incentive for companies to reduce their emissions.",
+      "node_id": "European Union Emissions Trading System (EU ETS)",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the concept of sustainable development?",
+      "options": {
+        "A": "Meeting the needs of the present without compromising the ability of future generations to meet their own needs",
+        "B": "Maximizing economic growth and development",
+        "C": "Reducing the use of natural resources",
+        "D": "Increasing the production of goods and services"
+      },
+      "correct": "A",
+      "explanation": "Sustainable development is a development approach that meets the needs of the present without compromising the ability of future generations to meet their own needs.",
+      "node_id": "Sustainable Development",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the primary focus of conservation biology?",
+      "options": {
+        "A": "To study the behavior of animals in their natural habitats",
+        "B": "To develop strategies for the conservation of threatened and endangered species",
+        "C": "To understand the impact of climate change on ecosystems",
+        "D": "To study the evolution of species over time"
+      },
+      "correct": "B",
+      "explanation": "Conservation biology is an interdisciplinary field that focuses on the conservation of biological diversity and the development of strategies to protect threatened and endangered species.",
+      "node_id": "Conservation Biology",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the primary mechanism by which carbon pricing aims to reduce greenhouse gas emissions?",
+      "options": {
+        "A": "By setting a carbon tax on all industries",
+        "B": "By providing subsidies for renewable energy projects",
+        "C": "By imposing a ban on the use of fossil fuels",
+        "D": "By providing a financial incentive for companies and individuals to reduce their emissions"
+      },
+      "correct": "D",
+      "explanation": "Carbon pricing aims to reduce greenhouse gas emissions by providing a financial incentive for companies and individuals to reduce their emissions, which can be achieved through carbon taxes or cap-and-trade systems.",
+      "node_id": "Carbon Pricing",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary goal of ecological law?",
+      "options": {
+        "A": "To protect the rights of individuals",
+        "B": "To promote economic growth and development",
+        "C": "To protect the natural environment and promote ecological sustainability",
+        "D": "To reduce the use of natural resources"
+      },
+      "correct": "C",
+      "explanation": "Ecological law is a branch of law that focuses on the protection of the natural environment and the promotion of ecological sustainability.",
+      "node_id": "Ecological Law",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What are the key components of a successful environmental policy, and how do they contribute to sustainable development?",
+      "sample_answer": "A successful environmental policy should include components such as climate change policy, conservation biology, and ecological law. These components contribute to sustainable development by reducing greenhouse gas emissions, protecting biodiversity, and promoting ecological sustainability.",
+      "keywords": [
+        "climate change policy",
+        "conservation biology",
+        "ecological law",
+        "sustainable development"
+      ],
+      "node_id": "Environmental Policy",
+      "points": 20
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "How does the concept of directed technological change contribute to the development of low-carbon innovation, and what are the potential benefits and challenges of this approach?",
+      "sample_answer": "Directed technological change involves guiding technological innovation towards specific environmental or social goals, such as reducing greenhouse gas emissions. This approach can contribute to the development of low-carbon innovation by providing a clear direction for research and development, and can lead to benefits such as reduced emissions and improved energy efficiency. However, it also poses challenges such as the need for significant investment in research and development, and the potential for technological lock-in.",
+      "keywords": [
+        "directed technological change",
+        "low-carbon innovation",
+        "greenhouse gas emissions",
+        "research and development"
+      ],
+      "node_id": "Directed Technological Change",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What is the role of international environmental agreements in addressing global environmental issues, and how do they contribute to the development of effective environmental policy?",
+      "sample_answer": "International environmental agreements, such as the Paris Agreement, play a crucial role in addressing global environmental issues by providing a framework for cooperation and coordination among countries. They contribute to the development of effective environmental policy by setting common goals and standards, and by providing a platform for the sharing of knowledge and best practices.",
+      "keywords": [
+        "international environmental agreements",
+        "global environmental issues",
+        "Paris Agreement",
+        "environmental policy"
+      ],
+      "node_id": "International Environmental Agreements",
+      "points": 20
+    }
+  ]
+}
