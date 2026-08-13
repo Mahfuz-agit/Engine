@@ -856,5 +856,18 @@
     "master_total_topics": 66,
     "ended_at": "2026-08-13T07:14:19.340465",
     "duration_seconds": 39.4
+  },
+  {
+    "started_at": "2026-08-13T22:31:42.740477",
+    "status": "success",
+    "topic": "Conservation Biology",
+    "sources_found": 6,
+    "images_found": 0,
+    "quality_score": 82.5,
+    "quality_passed": true,
+    "exam_questions": 10,
+    "master_total_topics": 67,
+    "ended_at": "2026-08-13T22:32:25.874886",
+    "duration_seconds": 43.1
   }
 ]

@@ -1,0 +1,163 @@
+{
+  "topic": "Conservation Biology",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary goal of conservation biology?",
+      "options": {
+        "A": "To protect species, habitats, and ecosystems from excessive extinction rates and erosion of biotic interactions",
+        "B": "To study the evolution of species",
+        "C": "To manage natural resources for human benefit",
+        "D": "To understand the impact of climate change on ecosystems"
+      },
+      "correct": "A",
+      "explanation": "Conservation biology aims to protect species, habitats, and ecosystems from excessive extinction rates and erosion of biotic interactions, which is its primary goal.",
+      "node_id": "Conservation Biology",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is ecological conservation?",
+      "options": {
+        "A": "The practice of protecting and preserving ecosystems and their components, including species, habitats, and ecological processes",
+        "B": "The study of the impact of human activities on ecosystems",
+        "C": "The management of wildlife populations for human benefit",
+        "D": "The restoration of degraded habitats"
+      },
+      "correct": "A",
+      "explanation": "Ecological conservation is the practice of protecting and preserving ecosystems and their components, including species, habitats, and ecological processes.",
+      "node_id": "Ecological Conservation",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the main challenge in addressing species extinction in conservation biology?",
+      "options": {
+        "A": "Lack of funding",
+        "B": "Uncertainty in ecological and conservation biological systems",
+        "C": "Limited public awareness",
+        "D": "Inadequate legislation"
+      },
+      "correct": "B",
+      "explanation": "Uncertainty in ecological and conservation biological systems is a major challenge in addressing species extinction, as it can make it difficult to predict outcomes and make decisions.",
+      "node_id": "Uncertainty in Ecology and Conservation Biology",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is habitat restoration?",
+      "options": {
+        "A": "The process of restoring degraded or damaged habitats to their natural state",
+        "B": "The management of wildlife populations",
+        "C": "The study of ecosystem function",
+        "D": "The conservation of species"
+      },
+      "correct": "A",
+      "explanation": "Habitat restoration is the process of restoring degraded or damaged habitats to their natural state, in order to conserve and protect species and ecosystems.",
+      "node_id": "Habitat Restoration",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is sustainable development?",
+      "options": {
+        "A": "The practice of meeting the needs of the present without compromising the ability of future generations to meet their own needs",
+        "B": "The conservation of natural resources for human benefit",
+        "C": "The management of ecosystems for human use",
+        "D": "The study of the impact of human activities on the environment"
+      },
+      "correct": "A",
+      "explanation": "Sustainable development is the practice of meeting the needs of the present without compromising the ability of future generations to meet their own needs.",
+      "node_id": "Sustainable Development",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the amphibian decline crisis?",
+      "options": {
+        "A": "A global crisis in which many amphibian species are experiencing significant declines in population",
+        "B": "A local issue affecting only certain species of amphibians",
+        "C": "A natural process of species evolution",
+        "D": "A consequence of climate change"
+      },
+      "correct": "A",
+      "explanation": "The amphibian decline crisis is a global crisis in which many amphibian species are experiencing significant declines in population, due to various human and natural factors.",
+      "node_id": "Amphibian Decline Crisis",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is wildlife management?",
+      "options": {
+        "A": "The practice of managing and conserving wildlife populations, including their habitats and ecosystems",
+        "B": "The study of wildlife behavior",
+        "C": "The conservation of species",
+        "D": "The management of ecosystems for human use"
+      },
+      "correct": "A",
+      "explanation": "Wildlife management is the practice of managing and conserving wildlife populations, including their habitats and ecosystems.",
+      "node_id": "Wildlife Management",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What are the key concepts in conservation biology, and how do they relate to each other?",
+      "sample_answer": "The key concepts in conservation biology include ecological conservation, species extinction, and sustainable development. Ecological conservation aims to protect and preserve ecosystems, while species extinction is a major concern due to human activities. Sustainable development is the practice of meeting the needs of the present without compromising the ability of future generations to meet their own needs, and it is closely related to ecological conservation and species extinction.",
+      "keywords": [
+        "ecological conservation",
+        "species extinction",
+        "sustainable development"
+      ],
+      "node_id": "Conservation Biology",
+      "points": 15
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "How does uncertainty in ecological and conservation biological systems affect conservation efforts, and what strategies can be used to address this uncertainty?",
+      "sample_answer": "Uncertainty in ecological and conservation biological systems can make it difficult to predict outcomes and make decisions, which can affect the effectiveness of conservation efforts. Strategies to address this uncertainty include the use of adaptive management, scenario planning, and collaborative decision-making. These strategies can help to reduce uncertainty and improve the effectiveness of conservation efforts.",
+      "keywords": [
+        "uncertainty",
+        "ecological conservation",
+        "conservation biology",
+        "adaptive management"
+      ],
+      "node_id": "Uncertainty in Ecology and Conservation Biology",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What is the importance of habitat restoration in conservation biology, and how can it be used to conserve and protect species and ecosystems?",
+      "sample_answer": "Habitat restoration is important in conservation biology because it can help to recover degraded ecosystems and promote biodiversity. Habitat restoration can be used to conserve and protect species and ecosystems by restoring degraded or damaged habitats to their natural state, which can help to maintain ecosystem function and promote species conservation.",
+      "keywords": [
+        "habitat restoration",
+        "conservation biology",
+        "ecosystem function",
+        "species conservation"
+      ],
+      "node_id": "Habitat Restoration",
+      "points": 15
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "topic": "Conservation Biology",
+  "category": "biology",
+  "description": "Conservation biology is the study of the conservation of nature and Earth's biodiversity, aiming to protect species, habitats, and ecosystems from excessive extinction rates and erosion of biotic interactions. It is an interdisciplinary field drawing on natural and social sciences, and the practice of natural resource management. Conservation biology has become increasingly important in recent years due to the rapid decline of many species and ecosystems.",
+  "nodes": [
+    {
+      "id": "CB1",
+      "label": "Conservation Biology",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of the conservation of nature and Earth's biodiversity, aiming to protect species, habitats, and ecosystems from excessive extinction rates and erosion of biotic interactions.",
+      "importance": 10,
+      "fun_fact": "Conservation biology is an interdisciplinary field that combines natural and social sciences to understand and manage the natural world."
+    },
+    {
+      "id": "EC1",
+      "label": "Ecological Conservation",
+      "type": "concept",
+      "depth": 1,
+      "description": "The practice of protecting and preserving ecosystems and their components, including species, habitats, and ecological processes.",
+      "importance": 9,
+      "fun_fact": "Ecological conservation is a key component of conservation biology, as it aims to maintain the health and integrity of ecosystems."
+    },
+    {
+      "id": "SE1",
+      "label": "Species Extinction",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process by which a species becomes extinct, either locally or globally, due to various human and natural factors.",
+      "importance": 9,
+      "fun_fact": "Species extinction is a major concern in conservation biology, as it can have significant impacts on ecosystem function and biodiversity."
+    },
+    {
+      "id": "HR1",
+      "label": "Habitat Restoration",
+      "type": "application",
+      "depth": 2,
+      "description": "The process of restoring degraded or damaged habitats to their natural state, in order to conserve and protect species and ecosystems.",
+      "importance": 8,
+      "fun_fact": "Habitat restoration is a key tool in conservation biology, as it can help to recover degraded ecosystems and promote biodiversity."
+    },
+    {
+      "id": "WM1",
+      "label": "Wildlife Management",
+      "type": "application",
+      "depth": 2,
+      "description": "The practice of managing and conserving wildlife populations, including their habitats and ecosystems.",
+      "importance": 8,
+      "fun_fact": "Wildlife management is an important aspect of conservation biology, as it aims to maintain healthy and sustainable wildlife populations."
+    },
+    {
+      "id": "SD1",
+      "label": "Sustainable Development",
+      "type": "concept",
+      "depth": 1,
+      "description": "The practice of meeting the needs of the present without compromising the ability of future generations to meet their own needs.",
+      "importance": 9,
+      "fun_fact": "Sustainable development is a key concept in conservation biology, as it aims to balance human needs with environmental protection and conservation."
+    },
+    {
+      "id": "CAK1",
+      "label": "Carol Ann Kearns",
+      "type": "person",
+      "depth": 3,
+      "description": "An American biologist who has made significant contributions to the field of conservation biology, particularly in the area of pollinator conservation.",
+      "importance": 6,
+      "fun_fact": "Carol Ann Kearns is a prominent figure in conservation biology, known for her work on pollinators and their importance in ecosystem function."
+    },
+    {
+      "id": "DWI1",
+      "label": "David William Inouye",
+      "type": "person",
+      "depth": 3,
+      "description": "An American biologist who has made significant contributions to the field of conservation biology, particularly in the area of pollinator conservation.",
+      "importance": 6,
+      "fun_fact": "David William Inouye is a prominent figure in conservation biology, known for his work on pollinators and their importance in ecosystem function."
+    },
+    {
+      "id": "AT1",
+      "label": "Amphibian Decline Crisis",
+      "type": "event",
+      "depth": 3,
+      "description": "A global crisis in which many amphibian species are experiencing significant declines in population, due to various human and natural factors.",
+      "importance": 7,
+      "fun_fact": "The amphibian decline crisis is a major concern in conservation biology, as it can have significant impacts on ecosystem function and biodiversity."
+    },
+    {
+      "id": "PFP1",
+      "label": "Pollinators, Flowering Plants, and Conservation Biology",
+      "type": "fact",
+      "depth": 3,
+      "description": "A study that highlights the importance of pollinators and flowering plants in ecosystem function and conservation biology.",
+      "importance": 5,
+      "fun_fact": "This study demonstrates the interconnectedness of pollinators, flowering plants, and ecosystem function, and highlights the importance of conservation efforts to protect these species."
+    },
+    {
+      "id": "UNC1",
+      "label": "Uncertainty in Ecology and Conservation Biology",
+      "type": "concept",
+      "depth": 2,
+      "description": "The idea that there is always some level of uncertainty in ecological and conservation biological systems, which can make it difficult to predict outcomes and make decisions.",
+      "importance": 8,
+      "fun_fact": "Uncertainty is a key concept in conservation biology, as it can affect the accuracy of predictions and the effectiveness of conservation efforts."
+    },
+    {
+      "id": "TAX1",
+      "label": "Taxonomy and Treatment of Uncertainty",
+      "type": "formula",
+      "depth": 3,
+      "description": "A framework for classifying and addressing uncertainty in ecological and conservation biological systems.",
+      "importance": 5,
+      "fun_fact": "This framework provides a structured approach to dealing with uncertainty in conservation biology, which can help to improve the accuracy of predictions and the effectiveness of conservation efforts."
+    }
+  ],
+  "edges": [
+    {
+      "source": "CB1",
+      "target": "EC1",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Ecological conservation is a key component of conservation biology."
+    },
+    {
+      "source": "CB1",
+      "target": "SE1",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Species extinction is a major concern in conservation biology."
+    },
+    {
+      "source": "CB1",
+      "target": "SD1",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Sustainable development is a key concept in conservation biology."
+    },
+    {
+      "source": "EC1",
+      "target": "HR1",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "Ecological conservation can lead to habitat restoration."
+    },
+    {
+      "source": "EC1",
+      "target": "WM1",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "Ecological conservation can lead to wildlife management."
+    },
+    {
+      "source": "SE1",
+      "target": "AT1",
+      "relation": "is_type_of",
+      "strength": 7,
+      "description": "The amphibian decline crisis is an example of species extinction."
+    },
+    {
+      "source": "SD1",
+      "target": "CB1",
+      "relation": "depends_on",
+      "strength": 8,
+      "description": "Sustainable development depends on conservation biology."
+    },
+    {
+      "source": "CAK1",
+      "target": "PFP1",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "Carol Ann Kearns' work is used in the study of pollinators, flowering plants, and conservation biology."
+    },
+    {
+      "source": "DWI1",
+      "target": "PFP1",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "David William Inouye's work is used in the study of pollinators, flowering plants, and conservation biology."
+    },
+    {
+      "source": "UNC1",
+      "target": "TAX1",
+      "relation": "evolved_from",
+      "strength": 5,
+      "description": "The taxonomy and treatment of uncertainty evolved from the concept of uncertainty in ecology and conservation biology."
+    },
+    {
+      "source": "CB1",
+      "target": "UNC1",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "Conservation biology is related to uncertainty in ecological and conservation biological systems."
+    }
+  ],
+  "key_takeaways": [
+    "Conservation biology is an interdisciplinary field that aims to protect species, habitats, and ecosystems from excessive extinction rates and erosion of biotic interactions.",
+    "Ecological conservation, species extinction, and sustainable development are key concepts in conservation biology.",
+    "Uncertainty is a major challenge in conservation biology, and addressing it is crucial for effective conservation efforts."
+  ],
+  "real_world_impact": "Conservation biology has a significant impact on the real world, as it informs conservation efforts and policy decisions. For example, the conservation of pollinators and their habitats is crucial for maintaining ecosystem function and promoting biodiversity. Additionally, the study of species extinction and the development of sustainable development strategies can help to mitigate the impacts of human activities on the environment. By understanding the complexities of ecological and conservation biological systems, conservation biologists can develop effective strategies for protecting and preserving the natural world.",
+  "images": [],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Conservation_biology",
+    "papers": [
+      {
+        "title": "A TAXONOMY AND TREATMENT OF UNCERTAINTY FOR ECOLOGY AND CONSERVATION BIOLOGY",
+        "url": "https://doi.org/10.1890/1051-0761(2002)012[0618:atatou]2.0.co;2"
+      },
+      {
+        "title": "The amphibian decline crisis: A watershed for conservation biology?",
+        "url": "https://doi.org/10.1016/j.biocon.2005.04.009"
+      },
+      {
+        "title": "Pollinators, Flowering Plants, and Conservation Biology",
+        "url": "https://doi.org/10.2307/1313191"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 80,
+      "issues": [
+        "Too few nodes: 12",
+        "Too few edges: 11"
+      ],
+      "node_count": 12,
+      "edge_count": 11
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Climate Change",
+        "Human-Wildlife Conflict"
+      ],
+      "strengths": [
+        "Interdisciplinary approach",
+        "Coverage of key concepts"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 82.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

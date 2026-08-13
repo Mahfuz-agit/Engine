@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 66,
-  "total_nodes": 987,
-  "total_edges": 1209,
+  "total_topics": 67,
+  "total_nodes": 999,
+  "total_edges": 1220,
   "topics": [
     {
       "topic": "Climate Change",
@@ -597,6 +597,15 @@
       "edge_count": 18,
       "description": "Environmental policy refers to the laws, regulations, and guidelines that aim to protect the natural environment and promote sustainable development. It encompasses various subfields, including climate change policy, conservation biology, and ecological law. Effective environmental policy is crucial for mitigating the impacts of human activities on the environment and ensuring a healthy and thriving planet for future generations.",
       "added_at": "2026-08-13T07:14:19.326024"
+    },
+    {
+      "topic": "Conservation Biology",
+      "slug": "conservation_biology",
+      "category": "biology",
+      "node_count": 12,
+      "edge_count": 11,
+      "description": "Conservation biology is the study of the conservation of nature and Earth's biodiversity, aiming to protect species, habitats, and ecosystems from excessive extinction rates and erosion of biotic interactions. It is an interdisciplinary field drawing on natural and social sciences, and the practice of natural resource management. Conservation biology has become increasingly important in recent years due to the rapid decline of many species and ecosystems.",
+      "added_at": "2026-08-13T22:32:25.860547"
     }
   ],
   "global_nodes": [
@@ -11456,6 +11465,138 @@
       "fun_fact": "Carbon pricing can be implemented through carbon taxes or cap-and-trade systems.",
       "topic_slug": "environmental_policy",
       "topic": "Environmental Policy"
+    },
+    {
+      "id": "conservation_biology__CB1",
+      "label": "Conservation Biology",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of the conservation of nature and Earth's biodiversity, aiming to protect species, habitats, and ecosystems from excessive extinction rates and erosion of biotic interactions.",
+      "importance": 10,
+      "fun_fact": "Conservation biology is an interdisciplinary field that combines natural and social sciences to understand and manage the natural world.",
+      "topic_slug": "conservation_biology",
+      "topic": "Conservation Biology"
+    },
+    {
+      "id": "conservation_biology__EC1",
+      "label": "Ecological Conservation",
+      "type": "concept",
+      "depth": 1,
+      "description": "The practice of protecting and preserving ecosystems and their components, including species, habitats, and ecological processes.",
+      "importance": 9,
+      "fun_fact": "Ecological conservation is a key component of conservation biology, as it aims to maintain the health and integrity of ecosystems.",
+      "topic_slug": "conservation_biology",
+      "topic": "Conservation Biology"
+    },
+    {
+      "id": "conservation_biology__SE1",
+      "label": "Species Extinction",
+      "type": "concept",
+      "depth": 1,
+      "description": "The process by which a species becomes extinct, either locally or globally, due to various human and natural factors.",
+      "importance": 9,
+      "fun_fact": "Species extinction is a major concern in conservation biology, as it can have significant impacts on ecosystem function and biodiversity.",
+      "topic_slug": "conservation_biology",
+      "topic": "Conservation Biology"
+    },
+    {
+      "id": "conservation_biology__HR1",
+      "label": "Habitat Restoration",
+      "type": "application",
+      "depth": 2,
+      "description": "The process of restoring degraded or damaged habitats to their natural state, in order to conserve and protect species and ecosystems.",
+      "importance": 8,
+      "fun_fact": "Habitat restoration is a key tool in conservation biology, as it can help to recover degraded ecosystems and promote biodiversity.",
+      "topic_slug": "conservation_biology",
+      "topic": "Conservation Biology"
+    },
+    {
+      "id": "conservation_biology__WM1",
+      "label": "Wildlife Management",
+      "type": "application",
+      "depth": 2,
+      "description": "The practice of managing and conserving wildlife populations, including their habitats and ecosystems.",
+      "importance": 8,
+      "fun_fact": "Wildlife management is an important aspect of conservation biology, as it aims to maintain healthy and sustainable wildlife populations.",
+      "topic_slug": "conservation_biology",
+      "topic": "Conservation Biology"
+    },
+    {
+      "id": "conservation_biology__SD1",
+      "label": "Sustainable Development",
+      "type": "concept",
+      "depth": 1,
+      "description": "The practice of meeting the needs of the present without compromising the ability of future generations to meet their own needs.",
+      "importance": 9,
+      "fun_fact": "Sustainable development is a key concept in conservation biology, as it aims to balance human needs with environmental protection and conservation.",
+      "topic_slug": "conservation_biology",
+      "topic": "Conservation Biology"
+    },
+    {
+      "id": "conservation_biology__CAK1",
+      "label": "Carol Ann Kearns",
+      "type": "person",
+      "depth": 3,
+      "description": "An American biologist who has made significant contributions to the field of conservation biology, particularly in the area of pollinator conservation.",
+      "importance": 6,
+      "fun_fact": "Carol Ann Kearns is a prominent figure in conservation biology, known for her work on pollinators and their importance in ecosystem function.",
+      "topic_slug": "conservation_biology",
+      "topic": "Conservation Biology"
+    },
+    {
+      "id": "conservation_biology__DWI1",
+      "label": "David William Inouye",
+      "type": "person",
+      "depth": 3,
+      "description": "An American biologist who has made significant contributions to the field of conservation biology, particularly in the area of pollinator conservation.",
+      "importance": 6,
+      "fun_fact": "David William Inouye is a prominent figure in conservation biology, known for his work on pollinators and their importance in ecosystem function.",
+      "topic_slug": "conservation_biology",
+      "topic": "Conservation Biology"
+    },
+    {
+      "id": "conservation_biology__AT1",
+      "label": "Amphibian Decline Crisis",
+      "type": "event",
+      "depth": 3,
+      "description": "A global crisis in which many amphibian species are experiencing significant declines in population, due to various human and natural factors.",
+      "importance": 7,
+      "fun_fact": "The amphibian decline crisis is a major concern in conservation biology, as it can have significant impacts on ecosystem function and biodiversity.",
+      "topic_slug": "conservation_biology",
+      "topic": "Conservation Biology"
+    },
+    {
+      "id": "conservation_biology__PFP1",
+      "label": "Pollinators, Flowering Plants, and Conservation Biology",
+      "type": "fact",
+      "depth": 3,
+      "description": "A study that highlights the importance of pollinators and flowering plants in ecosystem function and conservation biology.",
+      "importance": 5,
+      "fun_fact": "This study demonstrates the interconnectedness of pollinators, flowering plants, and ecosystem function, and highlights the importance of conservation efforts to protect these species.",
+      "topic_slug": "conservation_biology",
+      "topic": "Conservation Biology"
+    },
+    {
+      "id": "conservation_biology__UNC1",
+      "label": "Uncertainty in Ecology and Conservation Biology",
+      "type": "concept",
+      "depth": 2,
+      "description": "The idea that there is always some level of uncertainty in ecological and conservation biological systems, which can make it difficult to predict outcomes and make decisions.",
+      "importance": 8,
+      "fun_fact": "Uncertainty is a key concept in conservation biology, as it can affect the accuracy of predictions and the effectiveness of conservation efforts.",
+      "topic_slug": "conservation_biology",
+      "topic": "Conservation Biology"
+    },
+    {
+      "id": "conservation_biology__TAX1",
+      "label": "Taxonomy and Treatment of Uncertainty",
+      "type": "formula",
+      "depth": 3,
+      "description": "A framework for classifying and addressing uncertainty in ecological and conservation biological systems.",
+      "importance": 5,
+      "fun_fact": "This framework provides a structured approach to dealing with uncertainty in conservation biology, which can help to improve the accuracy of predictions and the effectiveness of conservation efforts.",
+      "topic_slug": "conservation_biology",
+      "topic": "Conservation Biology"
     }
   ],
   "global_edges": [
@@ -19921,6 +20062,83 @@
       "relation": "enables",
       "strength": 8,
       "topic": "Environmental Policy"
+    },
+    {
+      "source": "conservation_biology__CB1",
+      "target": "conservation_biology__EC1",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Conservation Biology"
+    },
+    {
+      "source": "conservation_biology__CB1",
+      "target": "conservation_biology__SE1",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Conservation Biology"
+    },
+    {
+      "source": "conservation_biology__CB1",
+      "target": "conservation_biology__SD1",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Conservation Biology"
+    },
+    {
+      "source": "conservation_biology__EC1",
+      "target": "conservation_biology__HR1",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Conservation Biology"
+    },
+    {
+      "source": "conservation_biology__EC1",
+      "target": "conservation_biology__WM1",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Conservation Biology"
+    },
+    {
+      "source": "conservation_biology__SE1",
+      "target": "conservation_biology__AT1",
+      "relation": "is_type_of",
+      "strength": 7,
+      "topic": "Conservation Biology"
+    },
+    {
+      "source": "conservation_biology__SD1",
+      "target": "conservation_biology__CB1",
+      "relation": "depends_on",
+      "strength": 8,
+      "topic": "Conservation Biology"
+    },
+    {
+      "source": "conservation_biology__CAK1",
+      "target": "conservation_biology__PFP1",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Conservation Biology"
+    },
+    {
+      "source": "conservation_biology__DWI1",
+      "target": "conservation_biology__PFP1",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Conservation Biology"
+    },
+    {
+      "source": "conservation_biology__UNC1",
+      "target": "conservation_biology__TAX1",
+      "relation": "evolved_from",
+      "strength": 5,
+      "topic": "Conservation Biology"
+    },
+    {
+      "source": "conservation_biology__CB1",
+      "target": "conservation_biology__UNC1",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Conservation Biology"
     }
   ],
   "cross_topic_edges": [
@@ -20002,6 +20220,13 @@
       "label": "sustainable development"
     },
     {
+      "source": "environmental_policy__N2",
+      "target": "conservation_biology__SD1",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "sustainable development"
+    },
+    {
       "source": "climate_change__N5",
       "target": "oceanography__N9",
       "relation": "cross_topic_connection",
@@ -20014,6 +20239,13 @@
       "relation": "cross_topic_connection",
       "strength": 6,
       "label": "charles darwin"
+    },
+    {
+      "source": "ecological_conservation__N1",
+      "target": "conservation_biology__EC1",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "ecological conservation"
     },
     {
       "source": "ecological_conservation__N2",
@@ -20095,6 +20327,13 @@
     {
       "source": "ecotoxicology__N6",
       "target": "environmental_policy__N4",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "conservation biology"
+    },
+    {
+      "source": "environmental_policy__N4",
+      "target": "conservation_biology__CB1",
       "relation": "cross_topic_connection",
       "strength": 6,
       "label": "conservation biology"
@@ -20422,6 +20661,13 @@
       "label": "linguistic anthropology"
     },
     {
+      "source": "biodiversity__N2",
+      "target": "conservation_biology__SE1",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "species extinction"
+    },
+    {
       "source": "biodiversity__N6",
       "target": "ecological_restoration__N1",
       "relation": "cross_topic_connection",
@@ -20514,7 +20760,8 @@
       "sustainable_agriculture",
       "ecotoxicology",
       "environmental_microbiology",
-      "bioinformatics"
+      "bioinformatics",
+      "conservation_biology"
     ],
     "psychology": [
       "neuroplasticity",
@@ -20584,5 +20831,5 @@
       "science_education"
     ]
   },
-  "last_updated": "2026-08-13T07:14:19.326059"
+  "last_updated": "2026-08-13T22:32:25.860576"
 }
