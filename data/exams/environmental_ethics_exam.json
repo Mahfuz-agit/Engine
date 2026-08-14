@@ -1,0 +1,161 @@
+{
+  "topic": "Environmental Ethics",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary focus of environmental ethics?",
+      "options": {
+        "A": "The moral relationship between humans and the environment",
+        "B": "The economic benefits of environmental conservation",
+        "C": "The scientific study of environmental systems",
+        "D": "The political aspects of environmental policy"
+      },
+      "correct": "A",
+      "explanation": "Environmental ethics is a field of practical philosophy that deals with the moral relationship between humans and the environment.",
+      "node_id": "Environmental Ethics",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which philosophical perspective considers the natural world as having inherent value and worth, regardless of its utility to humans?",
+      "options": {
+        "A": "Anthropocentrism",
+        "B": "Physiocentrism",
+        "C": "Theocentrism",
+        "D": "Ecocentrism"
+      },
+      "correct": "B",
+      "explanation": "Physiocentrism is a philosophical perspective that considers the natural world as having inherent value and worth, regardless of its utility to humans.",
+      "node_id": "Physiocentrism",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the main idea behind the concept of ecological justice?",
+      "options": {
+        "A": "The natural world has inherent value and worth, and humans have a moral obligation to protect and preserve it",
+        "B": "The natural world is a resource to be exploited for human benefit",
+        "C": "The natural world is a separate entity from human society",
+        "D": "The natural world is a reflection of human values and morals"
+      },
+      "correct": "A",
+      "explanation": "Ecological justice is the idea that the natural world has inherent value and worth, and that humans have a moral obligation to protect and preserve it.",
+      "node_id": "Ecological Justice",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the term for the ability to meet the needs of the present without compromising the ability of future generations to meet their own needs?",
+      "options": {
+        "A": "Sustainability",
+        "B": "Conservation",
+        "C": "Preservation",
+        "D": "Environmentalism"
+      },
+      "correct": "A",
+      "explanation": "Sustainability is the ability to meet the needs of the present without compromising the ability of future generations to meet their own needs.",
+      "node_id": "Sustainability",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which field of law deals with the regulation and protection of the environment?",
+      "options": {
+        "A": "Environmental Law",
+        "B": "Conservation Law",
+        "C": "Ecological Law",
+        "D": "Sustainability Law"
+      },
+      "correct": "A",
+      "explanation": "Environmental law is a field of law that deals with the regulation and protection of the environment.",
+      "node_id": "Environmental Law",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the idea that animals have inherent rights and interests that should be respected and protected?",
+      "options": {
+        "A": "Animal Welfare",
+        "B": "Animal Rights",
+        "C": "Speciesism",
+        "D": "Ecocentrism"
+      },
+      "correct": "B",
+      "explanation": "Animal rights is the idea that animals have inherent rights and interests that should be respected and protected.",
+      "node_id": "Animal Rights",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which branch of philosophy deals with the relationship between humans and the natural world?",
+      "options": {
+        "A": "Ecophilosophy",
+        "B": "Environmental Philosophy",
+        "C": "Conservation Philosophy",
+        "D": "Sustainability Philosophy"
+      },
+      "correct": "A",
+      "explanation": "Ecophilosophy is a branch of philosophy that deals with the relationship between humans and the natural world.",
+      "node_id": "Ecophilosophy",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What are the main competing paradigms in environmental ethics, and how do they differ from one another?",
+      "sample_answer": "The main competing paradigms in environmental ethics are anthropocentrism, physiocentrism, and theocentrism. Anthropocentrism places human beings at the center of the universe and considers their interests and needs as the most important. Physiocentrism considers the natural world as having inherent value and worth, regardless of its utility to humans. Theocentrism places God or a higher power at the center of the universe and considers the natural world as a reflection of divine will.",
+      "keywords": [
+        "anthropocentrism",
+        "physiocentrism",
+        "theocentrism"
+      ],
+      "node_id": "Environmental Ethics",
+      "points": 20
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "What is the concept of respect for nature, and how does it relate to environmental ethics?",
+      "sample_answer": "The concept of respect for nature refers to the idea that the natural world has inherent value and worth, and that humans have a moral obligation to protect and preserve it. This concept is central to environmental ethics, as it provides a foundation for understanding the moral relationship between humans and the environment. Respect for nature is often associated with the idea of biocentrism, which considers the natural world as a whole, rather than just individual species or ecosystems.",
+      "keywords": [
+        "respect for nature",
+        "biocentrism",
+        "environmental ethics"
+      ],
+      "node_id": "Respect for Nature",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What is the role of ecological economics in environmental ethics, and how does it differ from traditional economics?",
+      "sample_answer": "Ecological economics is a field of economics that deals with the relationship between humans and the environment. It differs from traditional economics in that it considers the natural world as a valuable resource that should be protected and preserved, rather than just exploited for human benefit. Ecological economics is often associated with the idea of valuing ecosystem services and the natural capital, and it provides a framework for understanding the economic benefits of environmental conservation.",
+      "keywords": [
+        "ecological economics",
+        "environmental ethics",
+        "valuing ecosystem services"
+      ],
+      "node_id": "Ecological Economics",
+      "points": 20
+    }
+  ]
+}

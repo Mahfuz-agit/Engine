@@ -1,0 +1,338 @@
+{
+  "topic": "Environmental Ethics",
+  "category": "philosophy",
+  "description": "Environmental ethics is a field of practical philosophy that reconstructs the essential types of argumentation for protecting natural entities and the sustainable use of natural resources. It exerts influence on various disciplines, including environmental law, environmental sociology, and ecological economics. The main competing paradigms are anthropocentrism, physiocentrism, and theocentrism.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Environmental Ethics",
+      "type": "core",
+      "depth": 0,
+      "description": "A field of practical philosophy that deals with the moral relationship between humans and the environment.",
+      "importance": 10,
+      "fun_fact": "Environmental ethics is an interdisciplinary field that draws from philosophy, science, and social sciences."
+    },
+    {
+      "id": "N2",
+      "label": "Anthropocentrism",
+      "type": "concept",
+      "depth": 1,
+      "description": "A philosophical perspective that places human beings at the center of the universe and considers their interests and needs as the most important.",
+      "importance": 8,
+      "fun_fact": "Anthropocentrism is often criticized for being responsible for environmental degradation and the exploitation of natural resources."
+    },
+    {
+      "id": "N3",
+      "label": "Physiocentrism",
+      "type": "concept",
+      "depth": 1,
+      "description": "A philosophical perspective that considers the natural world as having inherent value and worth, regardless of its utility to humans.",
+      "importance": 8,
+      "fun_fact": "Physiocentrism is often associated with deep ecology and the idea of biocentrism."
+    },
+    {
+      "id": "N4",
+      "label": "Theocentrism",
+      "type": "concept",
+      "depth": 1,
+      "description": "A philosophical perspective that places God or a higher power at the center of the universe and considers the natural world as a creation of God.",
+      "importance": 6,
+      "fun_fact": "Theocentrism is often associated with religious traditions and the idea of stewardship."
+    },
+    {
+      "id": "N5",
+      "label": "Ecophilosophy",
+      "type": "concept",
+      "depth": 1,
+      "description": "A branch of philosophy that deals with the relationship between humans and the natural world.",
+      "importance": 9,
+      "fun_fact": "Ecophilosophy is an interdisciplinary field that draws from philosophy, science, and social sciences."
+    },
+    {
+      "id": "N6",
+      "label": "Conservation Ethics",
+      "type": "concept",
+      "depth": 1,
+      "description": "A branch of ethics that deals with the moral principles and values that guide conservation efforts.",
+      "importance": 8,
+      "fun_fact": "Conservation ethics is often associated with the idea of preserving biodiversity and ecosystem services."
+    },
+    {
+      "id": "N7",
+      "label": "Sustainability",
+      "type": "concept",
+      "depth": 1,
+      "description": "The ability to meet the needs of the present without compromising the ability of future generations to meet their own needs.",
+      "importance": 9,
+      "fun_fact": "Sustainability is often associated with the idea of triple bottom line: people, planet, and profit."
+    },
+    {
+      "id": "N8",
+      "label": "Animal Rights",
+      "type": "concept",
+      "depth": 1,
+      "description": "The idea that animals have inherent rights and interests that should be respected and protected.",
+      "importance": 7,
+      "fun_fact": "Animal rights is often associated with the idea of speciesism and the moral status of non-human animals."
+    },
+    {
+      "id": "N9",
+      "label": "Ecological Justice",
+      "type": "concept",
+      "depth": 1,
+      "description": "The idea that the natural world has inherent value and worth, and that humans have a moral obligation to protect and preserve it.",
+      "importance": 8,
+      "fun_fact": "Ecological justice is often associated with the idea of environmental justice and the distribution of environmental benefits and burdens."
+    },
+    {
+      "id": "N10",
+      "label": "Paul Taylor",
+      "type": "person",
+      "depth": 2,
+      "description": "An American philosopher who wrote the book 'Respect for Nature: A Theory of Environmental Ethics'.",
+      "importance": 6,
+      "fun_fact": "Paul Taylor's work is considered a classic in the field of environmental ethics."
+    },
+    {
+      "id": "N11",
+      "label": "Respect for Nature",
+      "type": "book",
+      "depth": 2,
+      "description": "A book written by Paul Taylor that defends a deontological biocentric environmental ethic.",
+      "importance": 7,
+      "fun_fact": "The book is considered a groundbreaking work in non-anthropocentric ethics."
+    },
+    {
+      "id": "N12",
+      "label": "Environmental Law",
+      "type": "application",
+      "depth": 2,
+      "description": "A field of law that deals with the regulation and protection of the environment.",
+      "importance": 8,
+      "fun_fact": "Environmental law is often associated with the idea of environmental governance and the role of government in protecting the environment."
+    },
+    {
+      "id": "N13",
+      "label": "Environmental Sociology",
+      "type": "application",
+      "depth": 2,
+      "description": "A field of sociology that deals with the relationship between humans and the environment.",
+      "importance": 7,
+      "fun_fact": "Environmental sociology is often associated with the idea of environmental justice and the distribution of environmental benefits and burdens."
+    },
+    {
+      "id": "N14",
+      "label": "Ecological Economics",
+      "type": "application",
+      "depth": 2,
+      "description": "A field of economics that deals with the relationship between humans and the environment.",
+      "importance": 8,
+      "fun_fact": "Ecological economics is often associated with the idea of valuing ecosystem services and the natural capital."
+    },
+    {
+      "id": "N15",
+      "label": "Environmental Ethics in Practice",
+      "type": "example",
+      "depth": 3,
+      "description": "The application of environmental ethics in real-world scenarios, such as conservation efforts and sustainable development.",
+      "importance": 6,
+      "fun_fact": "Environmental ethics in practice is often associated with the idea of environmental stewardship and the role of individuals and organizations in protecting the environment."
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Anthropocentrism is a philosophical perspective that is part of environmental ethics."
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Physiocentrism is a philosophical perspective that is part of environmental ethics."
+    },
+    {
+      "source": "N1",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 6,
+      "description": "Theocentrism is a philosophical perspective that is part of environmental ethics."
+    },
+    {
+      "source": "N1",
+      "target": "N5",
+      "relation": "leads_to",
+      "strength": 9,
+      "description": "Environmental ethics leads to ecophilosophy, which is a branch of philosophy that deals with the relationship between humans and the natural world."
+    },
+    {
+      "source": "N1",
+      "target": "N6",
+      "relation": "leads_to",
+      "strength": 8,
+      "description": "Environmental ethics leads to conservation ethics, which is a branch of ethics that deals with the moral principles and values that guide conservation efforts."
+    },
+    {
+      "source": "N1",
+      "target": "N7",
+      "relation": "leads_to",
+      "strength": 9,
+      "description": "Environmental ethics leads to sustainability, which is the ability to meet the needs of the present without compromising the ability of future generations to meet their own needs."
+    },
+    {
+      "source": "N1",
+      "target": "N8",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "Environmental ethics is related to animal rights, which is the idea that animals have inherent rights and interests that should be respected and protected."
+    },
+    {
+      "source": "N1",
+      "target": "N9",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "Environmental ethics is related to ecological justice, which is the idea that the natural world has inherent value and worth, and that humans have a moral obligation to protect and preserve it."
+    },
+    {
+      "source": "N5",
+      "target": "N10",
+      "relation": "discovered_by",
+      "strength": 6,
+      "description": "Ecophilosophy was influenced by the work of Paul Taylor, who wrote the book 'Respect for Nature: A Theory of Environmental Ethics'."
+    },
+    {
+      "source": "N10",
+      "target": "N11",
+      "relation": "used_in",
+      "strength": 7,
+      "description": "Paul Taylor's work is used in the book 'Respect for Nature', which defends a deontological biocentric environmental ethic."
+    },
+    {
+      "source": "N1",
+      "target": "N12",
+      "relation": "enables",
+      "strength": 8,
+      "description": "Environmental ethics enables environmental law, which is a field of law that deals with the regulation and protection of the environment."
+    },
+    {
+      "source": "N1",
+      "target": "N13",
+      "relation": "enables",
+      "strength": 7,
+      "description": "Environmental ethics enables environmental sociology, which is a field of sociology that deals with the relationship between humans and the environment."
+    },
+    {
+      "source": "N1",
+      "target": "N14",
+      "relation": "enables",
+      "strength": 8,
+      "description": "Environmental ethics enables ecological economics, which is a field of economics that deals with the relationship between humans and the environment."
+    },
+    {
+      "source": "N1",
+      "target": "N15",
+      "relation": "enables",
+      "strength": 6,
+      "description": "Environmental ethics enables environmental ethics in practice, which is the application of environmental ethics in real-world scenarios."
+    },
+    {
+      "source": "N2",
+      "target": "N3",
+      "relation": "contrasts_with",
+      "strength": 8,
+      "description": "Anthropocentrism contrasts with physiocentrism, which considers the natural world as having inherent value and worth."
+    },
+    {
+      "source": "N3",
+      "target": "N4",
+      "relation": "contrasts_with",
+      "strength": 6,
+      "description": "Physiocentrism contrasts with theocentrism, which places God or a higher power at the center of the universe."
+    },
+    {
+      "source": "N5",
+      "target": "N6",
+      "relation": "depends_on",
+      "strength": 8,
+      "description": "Ecophilosophy depends on conservation ethics, which is a branch of ethics that deals with the moral principles and values that guide conservation efforts."
+    },
+    {
+      "source": "N6",
+      "target": "N7",
+      "relation": "depends_on",
+      "strength": 9,
+      "description": "Conservation ethics depends on sustainability, which is the ability to meet the needs of the present without compromising the ability of future generations to meet their own needs."
+    },
+    {
+      "source": "N7",
+      "target": "N8",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "Sustainability is related to animal rights, which is the idea that animals have inherent rights and interests that should be respected and protected."
+    },
+    {
+      "source": "N7",
+      "target": "N9",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "Sustainability is related to ecological justice, which is the idea that the natural world has inherent value and worth, and that humans have a moral obligation to protect and preserve it."
+    }
+  ],
+  "key_takeaways": [
+    "Environmental ethics is a field of practical philosophy that deals with the moral relationship between humans and the environment.",
+    "The main competing paradigms in environmental ethics are anthropocentrism, physiocentrism, and theocentrism.",
+    "Environmental ethics has various applications, including environmental law, environmental sociology, and ecological economics."
+  ],
+  "real_world_impact": "Environmental ethics has a significant impact on the real world, as it informs and guides decision-making and policy development related to the environment. For example, environmental ethics has been used to justify the protection of endangered species, the preservation of natural habitats, and the promotion of sustainable development. Additionally, environmental ethics has been used to critique the exploitation of natural resources and the degradation of the environment, and to advocate for environmental justice and human rights. Overall, environmental ethics plays a critical role in shaping our understanding of the natural world and our place within it, and in promoting a more sustainable and equitable future for all.",
+  "images": [],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Environmental_ethics",
+    "papers": [
+      {
+        "title": "Respect for Nature: A Theory of Environmental Ethics",
+        "url": "https://doi.org/10.32873/uno.dc.id.3.1.1077"
+      },
+      {
+        "title": "Environmental ethics, environmental performance, and competitive advantage: Role of environmental training",
+        "url": "https://doi.org/10.1016/j.techfore.2019.05.032"
+      },
+      {
+        "title": "Foundations of Environmental Ethics",
+        "url": "https://doi.org/10.2307/1399697"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 100,
+      "issues": [],
+      "node_count": 15,
+      "edge_count": 20
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Deep Ecology",
+        "Environmental Justice"
+      ],
+      "strengths": [
+        "clear representation of main paradigms in environmental ethics",
+        "good coverage of applications of environmental ethics"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 92.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

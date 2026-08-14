@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 67,
-  "total_nodes": 999,
-  "total_edges": 1220,
+  "total_topics": 68,
+  "total_nodes": 1014,
+  "total_edges": 1240,
   "topics": [
     {
       "topic": "Climate Change",
@@ -606,6 +606,15 @@
       "edge_count": 11,
       "description": "Conservation biology is the study of the conservation of nature and Earth's biodiversity, aiming to protect species, habitats, and ecosystems from excessive extinction rates and erosion of biotic interactions. It is an interdisciplinary field drawing on natural and social sciences, and the practice of natural resource management. Conservation biology has become increasingly important in recent years due to the rapid decline of many species and ecosystems.",
       "added_at": "2026-08-13T22:32:25.860547"
+    },
+    {
+      "topic": "Environmental Ethics",
+      "slug": "environmental_ethics",
+      "category": "philosophy",
+      "node_count": 15,
+      "edge_count": 20,
+      "description": "Environmental ethics is a field of practical philosophy that reconstructs the essential types of argumentation for protecting natural entities and the sustainable use of natural resources. It exerts influence on various disciplines, including environmental law, environmental sociology, and ecological economics. The main competing paradigms are anthropocentrism, physiocentrism, and theocentrism.",
+      "added_at": "2026-08-14T07:11:04.491502"
     }
   ],
   "global_nodes": [
@@ -11597,6 +11606,171 @@
       "fun_fact": "This framework provides a structured approach to dealing with uncertainty in conservation biology, which can help to improve the accuracy of predictions and the effectiveness of conservation efforts.",
       "topic_slug": "conservation_biology",
       "topic": "Conservation Biology"
+    },
+    {
+      "id": "environmental_ethics__N1",
+      "label": "Environmental Ethics",
+      "type": "core",
+      "depth": 0,
+      "description": "A field of practical philosophy that deals with the moral relationship between humans and the environment.",
+      "importance": 10,
+      "fun_fact": "Environmental ethics is an interdisciplinary field that draws from philosophy, science, and social sciences.",
+      "topic_slug": "environmental_ethics",
+      "topic": "Environmental Ethics"
+    },
+    {
+      "id": "environmental_ethics__N2",
+      "label": "Anthropocentrism",
+      "type": "concept",
+      "depth": 1,
+      "description": "A philosophical perspective that places human beings at the center of the universe and considers their interests and needs as the most important.",
+      "importance": 8,
+      "fun_fact": "Anthropocentrism is often criticized for being responsible for environmental degradation and the exploitation of natural resources.",
+      "topic_slug": "environmental_ethics",
+      "topic": "Environmental Ethics"
+    },
+    {
+      "id": "environmental_ethics__N3",
+      "label": "Physiocentrism",
+      "type": "concept",
+      "depth": 1,
+      "description": "A philosophical perspective that considers the natural world as having inherent value and worth, regardless of its utility to humans.",
+      "importance": 8,
+      "fun_fact": "Physiocentrism is often associated with deep ecology and the idea of biocentrism.",
+      "topic_slug": "environmental_ethics",
+      "topic": "Environmental Ethics"
+    },
+    {
+      "id": "environmental_ethics__N4",
+      "label": "Theocentrism",
+      "type": "concept",
+      "depth": 1,
+      "description": "A philosophical perspective that places God or a higher power at the center of the universe and considers the natural world as a creation of God.",
+      "importance": 6,
+      "fun_fact": "Theocentrism is often associated with religious traditions and the idea of stewardship.",
+      "topic_slug": "environmental_ethics",
+      "topic": "Environmental Ethics"
+    },
+    {
+      "id": "environmental_ethics__N5",
+      "label": "Ecophilosophy",
+      "type": "concept",
+      "depth": 1,
+      "description": "A branch of philosophy that deals with the relationship between humans and the natural world.",
+      "importance": 9,
+      "fun_fact": "Ecophilosophy is an interdisciplinary field that draws from philosophy, science, and social sciences.",
+      "topic_slug": "environmental_ethics",
+      "topic": "Environmental Ethics"
+    },
+    {
+      "id": "environmental_ethics__N6",
+      "label": "Conservation Ethics",
+      "type": "concept",
+      "depth": 1,
+      "description": "A branch of ethics that deals with the moral principles and values that guide conservation efforts.",
+      "importance": 8,
+      "fun_fact": "Conservation ethics is often associated with the idea of preserving biodiversity and ecosystem services.",
+      "topic_slug": "environmental_ethics",
+      "topic": "Environmental Ethics"
+    },
+    {
+      "id": "environmental_ethics__N7",
+      "label": "Sustainability",
+      "type": "concept",
+      "depth": 1,
+      "description": "The ability to meet the needs of the present without compromising the ability of future generations to meet their own needs.",
+      "importance": 9,
+      "fun_fact": "Sustainability is often associated with the idea of triple bottom line: people, planet, and profit.",
+      "topic_slug": "environmental_ethics",
+      "topic": "Environmental Ethics"
+    },
+    {
+      "id": "environmental_ethics__N8",
+      "label": "Animal Rights",
+      "type": "concept",
+      "depth": 1,
+      "description": "The idea that animals have inherent rights and interests that should be respected and protected.",
+      "importance": 7,
+      "fun_fact": "Animal rights is often associated with the idea of speciesism and the moral status of non-human animals.",
+      "topic_slug": "environmental_ethics",
+      "topic": "Environmental Ethics"
+    },
+    {
+      "id": "environmental_ethics__N9",
+      "label": "Ecological Justice",
+      "type": "concept",
+      "depth": 1,
+      "description": "The idea that the natural world has inherent value and worth, and that humans have a moral obligation to protect and preserve it.",
+      "importance": 8,
+      "fun_fact": "Ecological justice is often associated with the idea of environmental justice and the distribution of environmental benefits and burdens.",
+      "topic_slug": "environmental_ethics",
+      "topic": "Environmental Ethics"
+    },
+    {
+      "id": "environmental_ethics__N10",
+      "label": "Paul Taylor",
+      "type": "person",
+      "depth": 2,
+      "description": "An American philosopher who wrote the book 'Respect for Nature: A Theory of Environmental Ethics'.",
+      "importance": 6,
+      "fun_fact": "Paul Taylor's work is considered a classic in the field of environmental ethics.",
+      "topic_slug": "environmental_ethics",
+      "topic": "Environmental Ethics"
+    },
+    {
+      "id": "environmental_ethics__N11",
+      "label": "Respect for Nature",
+      "type": "book",
+      "depth": 2,
+      "description": "A book written by Paul Taylor that defends a deontological biocentric environmental ethic.",
+      "importance": 7,
+      "fun_fact": "The book is considered a groundbreaking work in non-anthropocentric ethics.",
+      "topic_slug": "environmental_ethics",
+      "topic": "Environmental Ethics"
+    },
+    {
+      "id": "environmental_ethics__N12",
+      "label": "Environmental Law",
+      "type": "application",
+      "depth": 2,
+      "description": "A field of law that deals with the regulation and protection of the environment.",
+      "importance": 8,
+      "fun_fact": "Environmental law is often associated with the idea of environmental governance and the role of government in protecting the environment.",
+      "topic_slug": "environmental_ethics",
+      "topic": "Environmental Ethics"
+    },
+    {
+      "id": "environmental_ethics__N13",
+      "label": "Environmental Sociology",
+      "type": "application",
+      "depth": 2,
+      "description": "A field of sociology that deals with the relationship between humans and the environment.",
+      "importance": 7,
+      "fun_fact": "Environmental sociology is often associated with the idea of environmental justice and the distribution of environmental benefits and burdens.",
+      "topic_slug": "environmental_ethics",
+      "topic": "Environmental Ethics"
+    },
+    {
+      "id": "environmental_ethics__N14",
+      "label": "Ecological Economics",
+      "type": "application",
+      "depth": 2,
+      "description": "A field of economics that deals with the relationship between humans and the environment.",
+      "importance": 8,
+      "fun_fact": "Ecological economics is often associated with the idea of valuing ecosystem services and the natural capital.",
+      "topic_slug": "environmental_ethics",
+      "topic": "Environmental Ethics"
+    },
+    {
+      "id": "environmental_ethics__N15",
+      "label": "Environmental Ethics in Practice",
+      "type": "example",
+      "depth": 3,
+      "description": "The application of environmental ethics in real-world scenarios, such as conservation efforts and sustainable development.",
+      "importance": 6,
+      "fun_fact": "Environmental ethics in practice is often associated with the idea of environmental stewardship and the role of individuals and organizations in protecting the environment.",
+      "topic_slug": "environmental_ethics",
+      "topic": "Environmental Ethics"
     }
   ],
   "global_edges": [
@@ -20139,6 +20313,146 @@
       "relation": "related_to",
       "strength": 8,
       "topic": "Conservation Biology"
+    },
+    {
+      "source": "environmental_ethics__N1",
+      "target": "environmental_ethics__N2",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Environmental Ethics"
+    },
+    {
+      "source": "environmental_ethics__N1",
+      "target": "environmental_ethics__N3",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Environmental Ethics"
+    },
+    {
+      "source": "environmental_ethics__N1",
+      "target": "environmental_ethics__N4",
+      "relation": "is_part_of",
+      "strength": 6,
+      "topic": "Environmental Ethics"
+    },
+    {
+      "source": "environmental_ethics__N1",
+      "target": "environmental_ethics__N5",
+      "relation": "leads_to",
+      "strength": 9,
+      "topic": "Environmental Ethics"
+    },
+    {
+      "source": "environmental_ethics__N1",
+      "target": "environmental_ethics__N6",
+      "relation": "leads_to",
+      "strength": 8,
+      "topic": "Environmental Ethics"
+    },
+    {
+      "source": "environmental_ethics__N1",
+      "target": "environmental_ethics__N7",
+      "relation": "leads_to",
+      "strength": 9,
+      "topic": "Environmental Ethics"
+    },
+    {
+      "source": "environmental_ethics__N1",
+      "target": "environmental_ethics__N8",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Environmental Ethics"
+    },
+    {
+      "source": "environmental_ethics__N1",
+      "target": "environmental_ethics__N9",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Environmental Ethics"
+    },
+    {
+      "source": "environmental_ethics__N5",
+      "target": "environmental_ethics__N10",
+      "relation": "discovered_by",
+      "strength": 6,
+      "topic": "Environmental Ethics"
+    },
+    {
+      "source": "environmental_ethics__N10",
+      "target": "environmental_ethics__N11",
+      "relation": "used_in",
+      "strength": 7,
+      "topic": "Environmental Ethics"
+    },
+    {
+      "source": "environmental_ethics__N1",
+      "target": "environmental_ethics__N12",
+      "relation": "enables",
+      "strength": 8,
+      "topic": "Environmental Ethics"
+    },
+    {
+      "source": "environmental_ethics__N1",
+      "target": "environmental_ethics__N13",
+      "relation": "enables",
+      "strength": 7,
+      "topic": "Environmental Ethics"
+    },
+    {
+      "source": "environmental_ethics__N1",
+      "target": "environmental_ethics__N14",
+      "relation": "enables",
+      "strength": 8,
+      "topic": "Environmental Ethics"
+    },
+    {
+      "source": "environmental_ethics__N1",
+      "target": "environmental_ethics__N15",
+      "relation": "enables",
+      "strength": 6,
+      "topic": "Environmental Ethics"
+    },
+    {
+      "source": "environmental_ethics__N2",
+      "target": "environmental_ethics__N3",
+      "relation": "contrasts_with",
+      "strength": 8,
+      "topic": "Environmental Ethics"
+    },
+    {
+      "source": "environmental_ethics__N3",
+      "target": "environmental_ethics__N4",
+      "relation": "contrasts_with",
+      "strength": 6,
+      "topic": "Environmental Ethics"
+    },
+    {
+      "source": "environmental_ethics__N5",
+      "target": "environmental_ethics__N6",
+      "relation": "depends_on",
+      "strength": 8,
+      "topic": "Environmental Ethics"
+    },
+    {
+      "source": "environmental_ethics__N6",
+      "target": "environmental_ethics__N7",
+      "relation": "depends_on",
+      "strength": 9,
+      "topic": "Environmental Ethics"
+    },
+    {
+      "source": "environmental_ethics__N7",
+      "target": "environmental_ethics__N8",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Environmental Ethics"
+    },
+    {
+      "source": "environmental_ethics__N7",
+      "target": "environmental_ethics__N9",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Environmental Ethics"
     }
   ],
   "cross_topic_edges": [
@@ -20710,6 +21024,13 @@
       "label": "sustainable land use"
     },
     {
+      "source": "ecological_economics__N1",
+      "target": "environmental_ethics__N14",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "ecological economics"
+    },
+    {
       "source": "ecological_restoration__N15",
       "target": "environmental_governance__EG3",
       "relation": "cross_topic_connection",
@@ -20722,6 +21043,13 @@
       "relation": "cross_topic_connection",
       "strength": 6,
       "label": "climate change policy"
+    },
+    {
+      "source": "environmental_justice__N2",
+      "target": "environmental_ethics__N7",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "sustainability"
     }
   ],
   "category_map": {
@@ -20818,7 +21146,8 @@
       "environmental_policy"
     ],
     "philosophy": [
-      "ethics_of_emerging_technologies"
+      "ethics_of_emerging_technologies",
+      "environmental_ethics"
     ],
     "environmental_science": [
       "climate_change_mitigation"
@@ -20831,5 +21160,5 @@
       "science_education"
     ]
   },
-  "last_updated": "2026-08-13T22:32:25.860576"
+  "last_updated": "2026-08-14T07:11:04.491536"
 }
