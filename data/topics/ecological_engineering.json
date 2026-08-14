@@ -1,0 +1,326 @@
+{
+  "topic": "Ecological Engineering",
+  "category": "engineering",
+  "description": "Ecological engineering is an interdisciplinary field that combines ecology and engineering to design, construct, and manage ecosystems that integrate human society with its natural environment. This field aims to provide benefits to both humans and the environment. Ecological engineering has various applications, including wetland restoration, ecosystem services, biomimicry, sustainable infrastructure, and environmental systems management.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Ecological Engineering",
+      "type": "core",
+      "depth": 0,
+      "description": "An interdisciplinary field that combines ecology and engineering to design, construct, and manage ecosystems",
+      "importance": 10,
+      "fun_fact": "The term 'ecological engineering' was first coined in the 1960s"
+    },
+    {
+      "id": "N2",
+      "label": "Wetland Restoration",
+      "type": "application",
+      "depth": 1,
+      "description": "The process of restoring degraded or damaged wetlands to their natural state",
+      "importance": 8,
+      "fun_fact": "Wetlands provide habitat for over 40% of the world's species"
+    },
+    {
+      "id": "N3",
+      "label": "Ecosystem Services",
+      "type": "concept",
+      "depth": 1,
+      "description": "The benefits that humans derive from functioning ecosystems, including clean air and water, soil formation, and climate regulation",
+      "importance": 9,
+      "fun_fact": "Ecosystem services are valued at over $33 trillion annually"
+    },
+    {
+      "id": "N4",
+      "label": "Biomimicry",
+      "type": "application",
+      "depth": 1,
+      "description": "The practice of using nature-inspired designs to solve human problems",
+      "importance": 8,
+      "fun_fact": "Biomimicry has led to the development of innovative materials and technologies, such as Velcro and sharkskin-inspired surfaces"
+    },
+    {
+      "id": "N5",
+      "label": "Sustainable Infrastructure",
+      "type": "application",
+      "depth": 1,
+      "description": "The design and construction of infrastructure that minimizes environmental impacts and promotes sustainability",
+      "importance": 9,
+      "fun_fact": "Sustainable infrastructure can reduce greenhouse gas emissions by up to 70%"
+    },
+    {
+      "id": "N6",
+      "label": "Environmental Systems Management",
+      "type": "application",
+      "depth": 1,
+      "description": "The management of environmental systems to maintain their health and functionality",
+      "importance": 8,
+      "fun_fact": "Environmental systems management involves the use of systems thinking and interdisciplinary approaches"
+    },
+    {
+      "id": "N7",
+      "label": "Howard Odum",
+      "type": "person",
+      "depth": 2,
+      "description": "An American ecologist who is considered one of the founders of ecological engineering",
+      "importance": 7,
+      "fun_fact": "Odum was a pioneer in the field of systems ecology"
+    },
+    {
+      "id": "N8",
+      "label": "Ecosystem Ecology",
+      "type": "concept",
+      "depth": 2,
+      "description": "The study of the interactions between organisms and their environment",
+      "importance": 8,
+      "fun_fact": "Ecosystem ecology is a key component of ecological engineering"
+    },
+    {
+      "id": "N9",
+      "label": "Systems Thinking",
+      "type": "concept",
+      "depth": 2,
+      "description": "A holistic approach to understanding complex systems and their interactions",
+      "importance": 9,
+      "fun_fact": "Systems thinking is essential for ecological engineering and environmental problem-solving"
+    },
+    {
+      "id": "N10",
+      "label": "Ecological Restoration",
+      "type": "application",
+      "depth": 2,
+      "description": "The process of restoring degraded or damaged ecosystems to their natural state",
+      "importance": 8,
+      "fun_fact": "Ecological restoration can help to recover biodiversity and ecosystem services"
+    },
+    {
+      "id": "N11",
+      "label": "Soil Ecological Engineering",
+      "type": "application",
+      "depth": 3,
+      "description": "The use of ecological engineering principles to manage and restore soil ecosystems",
+      "importance": 7,
+      "fun_fact": "Soil ecological engineering can improve soil fertility and reduce erosion"
+    },
+    {
+      "id": "N12",
+      "label": "Pond Aquaculture",
+      "type": "example",
+      "depth": 3,
+      "description": "A type of aquaculture that involves the cultivation of aquatic organisms in ponds",
+      "importance": 6,
+      "fun_fact": "Pond aquaculture is a significant contributor to global food production"
+    },
+    {
+      "id": "N13",
+      "label": "Symbiotic Nitrogen Fixation",
+      "type": "concept",
+      "depth": 3,
+      "description": "The process by which certain organisms, such as legumes, convert atmospheric nitrogen into a usable form",
+      "importance": 8,
+      "fun_fact": "Symbiotic nitrogen fixation is a critical component of ecosystem functioning"
+    },
+    {
+      "id": "N14",
+      "label": "Biodiversity",
+      "type": "concept",
+      "depth": 3,
+      "description": "The variety of different species of plants, animals, and microorganisms that live in an ecosystem",
+      "importance": 9,
+      "fun_fact": "Biodiversity is essential for ecosystem functioning and human well-being"
+    },
+    {
+      "id": "N15",
+      "label": "Climate Change",
+      "type": "concept",
+      "depth": 3,
+      "description": "The long-term warming of the planet due to an increase in average global temperature",
+      "importance": 10,
+      "fun_fact": "Climate change is one of the most significant environmental challenges facing humanity"
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Wetland restoration is a key application of ecological engineering"
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Ecosystem services are a critical component of ecological engineering"
+    },
+    {
+      "source": "N1",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Biomimicry is an important approach in ecological engineering"
+    },
+    {
+      "source": "N1",
+      "target": "N5",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Sustainable infrastructure is a key application of ecological engineering"
+    },
+    {
+      "source": "N1",
+      "target": "N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Environmental systems management is a critical component of ecological engineering"
+    },
+    {
+      "source": "N2",
+      "target": "N7",
+      "relation": "related_to",
+      "strength": 7,
+      "description": "Howard Odum's work on ecosystem ecology influenced the development of wetland restoration"
+    },
+    {
+      "source": "N3",
+      "target": "N8",
+      "relation": "is_type_of",
+      "strength": 9,
+      "description": "Ecosystem services are a type of ecosystem ecology"
+    },
+    {
+      "source": "N4",
+      "target": "N9",
+      "relation": "depends_on",
+      "strength": 8,
+      "description": "Biomimicry depends on systems thinking and an understanding of ecological principles"
+    },
+    {
+      "source": "N5",
+      "target": "N10",
+      "relation": "enables",
+      "strength": 9,
+      "description": "Sustainable infrastructure enables ecological restoration and the recovery of ecosystem services"
+    },
+    {
+      "source": "N6",
+      "target": "N11",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Soil ecological engineering is a key component of environmental systems management"
+    },
+    {
+      "source": "N7",
+      "target": "N12",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "Howard Odum's work on ecosystem ecology has been used in pond aquaculture"
+    },
+    {
+      "source": "N8",
+      "target": "N13",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Symbiotic nitrogen fixation is a critical component of ecosystem ecology"
+    },
+    {
+      "source": "N9",
+      "target": "N14",
+      "relation": "depends_on",
+      "strength": 9,
+      "description": "Systems thinking depends on an understanding of biodiversity and ecosystem functioning"
+    },
+    {
+      "source": "N10",
+      "target": "N15",
+      "relation": "contrasts_with",
+      "strength": 10,
+      "description": "Ecological restoration contrasts with climate change, which is a major driver of ecosystem degradation"
+    },
+    {
+      "source": "N11",
+      "target": "N12",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "Soil ecological engineering has been used in pond aquaculture"
+    },
+    {
+      "source": "N12",
+      "target": "N13",
+      "relation": "depends_on",
+      "strength": 8,
+      "description": "Pond aquaculture depends on symbiotic nitrogen fixation and other ecosystem processes"
+    },
+    {
+      "source": "N13",
+      "target": "N14",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Symbiotic nitrogen fixation is a critical component of biodiversity and ecosystem functioning"
+    },
+    {
+      "source": "N14",
+      "target": "N15",
+      "relation": "contrasts_with",
+      "strength": 10,
+      "description": "Biodiversity contrasts with climate change, which is a major driver of ecosystem degradation and loss of biodiversity"
+    }
+  ],
+  "key_takeaways": [
+    "Ecological engineering is an interdisciplinary field that combines ecology and engineering to design, construct, and manage ecosystems",
+    "Ecosystem services, including clean air and water, soil formation, and climate regulation, are critical components of ecological engineering",
+    "Biomimicry, sustainable infrastructure, and environmental systems management are key applications of ecological engineering"
+  ],
+  "real_world_impact": "Ecological engineering has the potential to address some of the world's most pressing environmental challenges, including climate change, biodiversity loss, and ecosystem degradation. By applying ecological engineering principles, we can design and construct sustainable infrastructure, restore degraded ecosystems, and promote ecosystem services. For example, wetland restoration can help to recover biodiversity and ecosystem services, while sustainable infrastructure can reduce greenhouse gas emissions and promote climate resilience. By adopting an ecological engineering approach, we can create a more sustainable and resilient future for all.",
+  "images": [],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ecological_engineering",
+    "papers": [
+      {
+        "title": "An Underground Revolution: Biodiversity and Soil Ecological Engineering for Agricultural Sustainability",
+        "url": "https://doi.org/10.1016/j.tree.2016.02.016"
+      },
+      {
+        "title": "Nodular diagnosis for ecological engineering of the symbiotic nitrogen fixation with legumes",
+        "url": "https://doi.org/10.1016/j.proenv.2011.11.008"
+      },
+      {
+        "title": "Ecological engineering in pond aquaculture: a review from the whole\u2010process perspective in China",
+        "url": "https://doi.org/10.1111/raq.12512"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 18"
+      ],
+      "node_count": 15,
+      "edge_count": 18
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Ecological Principles",
+        "Ecosystem Resilience"
+      ],
+      "strengths": [
+        "Interdisciplinary approach",
+        "Clear applications of ecological engineering"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}

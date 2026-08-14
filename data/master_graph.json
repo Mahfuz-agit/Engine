@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 68,
-  "total_nodes": 1014,
-  "total_edges": 1240,
+  "total_topics": 69,
+  "total_nodes": 1029,
+  "total_edges": 1258,
   "topics": [
     {
       "topic": "Climate Change",
@@ -615,6 +615,15 @@
       "edge_count": 20,
       "description": "Environmental ethics is a field of practical philosophy that reconstructs the essential types of argumentation for protecting natural entities and the sustainable use of natural resources. It exerts influence on various disciplines, including environmental law, environmental sociology, and ecological economics. The main competing paradigms are anthropocentrism, physiocentrism, and theocentrism.",
       "added_at": "2026-08-14T07:11:04.491502"
+    },
+    {
+      "topic": "Ecological Engineering",
+      "slug": "ecological_engineering",
+      "category": "engineering",
+      "node_count": 15,
+      "edge_count": 18,
+      "description": "Ecological engineering is an interdisciplinary field that combines ecology and engineering to design, construct, and manage ecosystems that integrate human society with its natural environment. This field aims to provide benefits to both humans and the environment. Ecological engineering has various applications, including wetland restoration, ecosystem services, biomimicry, sustainable infrastructure, and environmental systems management.",
+      "added_at": "2026-08-14T18:42:06.180649"
     }
   ],
   "global_nodes": [
@@ -11771,6 +11780,171 @@
       "fun_fact": "Environmental ethics in practice is often associated with the idea of environmental stewardship and the role of individuals and organizations in protecting the environment.",
       "topic_slug": "environmental_ethics",
       "topic": "Environmental Ethics"
+    },
+    {
+      "id": "ecological_engineering__N1",
+      "label": "Ecological Engineering",
+      "type": "core",
+      "depth": 0,
+      "description": "An interdisciplinary field that combines ecology and engineering to design, construct, and manage ecosystems",
+      "importance": 10,
+      "fun_fact": "The term 'ecological engineering' was first coined in the 1960s",
+      "topic_slug": "ecological_engineering",
+      "topic": "Ecological Engineering"
+    },
+    {
+      "id": "ecological_engineering__N2",
+      "label": "Wetland Restoration",
+      "type": "application",
+      "depth": 1,
+      "description": "The process of restoring degraded or damaged wetlands to their natural state",
+      "importance": 8,
+      "fun_fact": "Wetlands provide habitat for over 40% of the world's species",
+      "topic_slug": "ecological_engineering",
+      "topic": "Ecological Engineering"
+    },
+    {
+      "id": "ecological_engineering__N3",
+      "label": "Ecosystem Services",
+      "type": "concept",
+      "depth": 1,
+      "description": "The benefits that humans derive from functioning ecosystems, including clean air and water, soil formation, and climate regulation",
+      "importance": 9,
+      "fun_fact": "Ecosystem services are valued at over $33 trillion annually",
+      "topic_slug": "ecological_engineering",
+      "topic": "Ecological Engineering"
+    },
+    {
+      "id": "ecological_engineering__N4",
+      "label": "Biomimicry",
+      "type": "application",
+      "depth": 1,
+      "description": "The practice of using nature-inspired designs to solve human problems",
+      "importance": 8,
+      "fun_fact": "Biomimicry has led to the development of innovative materials and technologies, such as Velcro and sharkskin-inspired surfaces",
+      "topic_slug": "ecological_engineering",
+      "topic": "Ecological Engineering"
+    },
+    {
+      "id": "ecological_engineering__N5",
+      "label": "Sustainable Infrastructure",
+      "type": "application",
+      "depth": 1,
+      "description": "The design and construction of infrastructure that minimizes environmental impacts and promotes sustainability",
+      "importance": 9,
+      "fun_fact": "Sustainable infrastructure can reduce greenhouse gas emissions by up to 70%",
+      "topic_slug": "ecological_engineering",
+      "topic": "Ecological Engineering"
+    },
+    {
+      "id": "ecological_engineering__N6",
+      "label": "Environmental Systems Management",
+      "type": "application",
+      "depth": 1,
+      "description": "The management of environmental systems to maintain their health and functionality",
+      "importance": 8,
+      "fun_fact": "Environmental systems management involves the use of systems thinking and interdisciplinary approaches",
+      "topic_slug": "ecological_engineering",
+      "topic": "Ecological Engineering"
+    },
+    {
+      "id": "ecological_engineering__N7",
+      "label": "Howard Odum",
+      "type": "person",
+      "depth": 2,
+      "description": "An American ecologist who is considered one of the founders of ecological engineering",
+      "importance": 7,
+      "fun_fact": "Odum was a pioneer in the field of systems ecology",
+      "topic_slug": "ecological_engineering",
+      "topic": "Ecological Engineering"
+    },
+    {
+      "id": "ecological_engineering__N8",
+      "label": "Ecosystem Ecology",
+      "type": "concept",
+      "depth": 2,
+      "description": "The study of the interactions between organisms and their environment",
+      "importance": 8,
+      "fun_fact": "Ecosystem ecology is a key component of ecological engineering",
+      "topic_slug": "ecological_engineering",
+      "topic": "Ecological Engineering"
+    },
+    {
+      "id": "ecological_engineering__N9",
+      "label": "Systems Thinking",
+      "type": "concept",
+      "depth": 2,
+      "description": "A holistic approach to understanding complex systems and their interactions",
+      "importance": 9,
+      "fun_fact": "Systems thinking is essential for ecological engineering and environmental problem-solving",
+      "topic_slug": "ecological_engineering",
+      "topic": "Ecological Engineering"
+    },
+    {
+      "id": "ecological_engineering__N10",
+      "label": "Ecological Restoration",
+      "type": "application",
+      "depth": 2,
+      "description": "The process of restoring degraded or damaged ecosystems to their natural state",
+      "importance": 8,
+      "fun_fact": "Ecological restoration can help to recover biodiversity and ecosystem services",
+      "topic_slug": "ecological_engineering",
+      "topic": "Ecological Engineering"
+    },
+    {
+      "id": "ecological_engineering__N11",
+      "label": "Soil Ecological Engineering",
+      "type": "application",
+      "depth": 3,
+      "description": "The use of ecological engineering principles to manage and restore soil ecosystems",
+      "importance": 7,
+      "fun_fact": "Soil ecological engineering can improve soil fertility and reduce erosion",
+      "topic_slug": "ecological_engineering",
+      "topic": "Ecological Engineering"
+    },
+    {
+      "id": "ecological_engineering__N12",
+      "label": "Pond Aquaculture",
+      "type": "example",
+      "depth": 3,
+      "description": "A type of aquaculture that involves the cultivation of aquatic organisms in ponds",
+      "importance": 6,
+      "fun_fact": "Pond aquaculture is a significant contributor to global food production",
+      "topic_slug": "ecological_engineering",
+      "topic": "Ecological Engineering"
+    },
+    {
+      "id": "ecological_engineering__N13",
+      "label": "Symbiotic Nitrogen Fixation",
+      "type": "concept",
+      "depth": 3,
+      "description": "The process by which certain organisms, such as legumes, convert atmospheric nitrogen into a usable form",
+      "importance": 8,
+      "fun_fact": "Symbiotic nitrogen fixation is a critical component of ecosystem functioning",
+      "topic_slug": "ecological_engineering",
+      "topic": "Ecological Engineering"
+    },
+    {
+      "id": "ecological_engineering__N14",
+      "label": "Biodiversity",
+      "type": "concept",
+      "depth": 3,
+      "description": "The variety of different species of plants, animals, and microorganisms that live in an ecosystem",
+      "importance": 9,
+      "fun_fact": "Biodiversity is essential for ecosystem functioning and human well-being",
+      "topic_slug": "ecological_engineering",
+      "topic": "Ecological Engineering"
+    },
+    {
+      "id": "ecological_engineering__N15",
+      "label": "Climate Change",
+      "type": "concept",
+      "depth": 3,
+      "description": "The long-term warming of the planet due to an increase in average global temperature",
+      "importance": 10,
+      "fun_fact": "Climate change is one of the most significant environmental challenges facing humanity",
+      "topic_slug": "ecological_engineering",
+      "topic": "Ecological Engineering"
     }
   ],
   "global_edges": [
@@ -20453,6 +20627,132 @@
       "relation": "related_to",
       "strength": 8,
       "topic": "Environmental Ethics"
+    },
+    {
+      "source": "ecological_engineering__N1",
+      "target": "ecological_engineering__N2",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Ecological Engineering"
+    },
+    {
+      "source": "ecological_engineering__N1",
+      "target": "ecological_engineering__N3",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Ecological Engineering"
+    },
+    {
+      "source": "ecological_engineering__N1",
+      "target": "ecological_engineering__N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Ecological Engineering"
+    },
+    {
+      "source": "ecological_engineering__N1",
+      "target": "ecological_engineering__N5",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Ecological Engineering"
+    },
+    {
+      "source": "ecological_engineering__N1",
+      "target": "ecological_engineering__N6",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Ecological Engineering"
+    },
+    {
+      "source": "ecological_engineering__N2",
+      "target": "ecological_engineering__N7",
+      "relation": "related_to",
+      "strength": 7,
+      "topic": "Ecological Engineering"
+    },
+    {
+      "source": "ecological_engineering__N3",
+      "target": "ecological_engineering__N8",
+      "relation": "is_type_of",
+      "strength": 9,
+      "topic": "Ecological Engineering"
+    },
+    {
+      "source": "ecological_engineering__N4",
+      "target": "ecological_engineering__N9",
+      "relation": "depends_on",
+      "strength": 8,
+      "topic": "Ecological Engineering"
+    },
+    {
+      "source": "ecological_engineering__N5",
+      "target": "ecological_engineering__N10",
+      "relation": "enables",
+      "strength": 9,
+      "topic": "Ecological Engineering"
+    },
+    {
+      "source": "ecological_engineering__N6",
+      "target": "ecological_engineering__N11",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Ecological Engineering"
+    },
+    {
+      "source": "ecological_engineering__N7",
+      "target": "ecological_engineering__N12",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Ecological Engineering"
+    },
+    {
+      "source": "ecological_engineering__N8",
+      "target": "ecological_engineering__N13",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Ecological Engineering"
+    },
+    {
+      "source": "ecological_engineering__N9",
+      "target": "ecological_engineering__N14",
+      "relation": "depends_on",
+      "strength": 9,
+      "topic": "Ecological Engineering"
+    },
+    {
+      "source": "ecological_engineering__N10",
+      "target": "ecological_engineering__N15",
+      "relation": "contrasts_with",
+      "strength": 10,
+      "topic": "Ecological Engineering"
+    },
+    {
+      "source": "ecological_engineering__N11",
+      "target": "ecological_engineering__N12",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Ecological Engineering"
+    },
+    {
+      "source": "ecological_engineering__N12",
+      "target": "ecological_engineering__N13",
+      "relation": "depends_on",
+      "strength": 8,
+      "topic": "Ecological Engineering"
+    },
+    {
+      "source": "ecological_engineering__N13",
+      "target": "ecological_engineering__N14",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Ecological Engineering"
+    },
+    {
+      "source": "ecological_engineering__N14",
+      "target": "ecological_engineering__N15",
+      "relation": "contrasts_with",
+      "strength": 10,
+      "topic": "Ecological Engineering"
     }
   ],
   "cross_topic_edges": [
@@ -20473,6 +20773,13 @@
     {
       "source": "food_security__N9",
       "target": "geological_hazards_and_natural_disasters__N11",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "climate change"
+    },
+    {
+      "source": "geological_hazards_and_natural_disasters__N11",
+      "target": "ecological_engineering__N15",
       "relation": "cross_topic_connection",
       "strength": 6,
       "label": "climate change"
@@ -20569,6 +20876,13 @@
       "label": "biodiversity"
     },
     {
+      "source": "biodiversity__N1",
+      "target": "ecological_engineering__N14",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "biodiversity"
+    },
+    {
       "source": "ecological_conservation__N3",
       "target": "biodiversity__N3",
       "relation": "cross_topic_connection",
@@ -20585,6 +20899,13 @@
     {
       "source": "ecological_economics__N15",
       "target": "ecological_restoration__N3",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "ecosystem services"
+    },
+    {
+      "source": "ecological_restoration__N3",
+      "target": "ecological_engineering__N3",
       "relation": "cross_topic_connection",
       "strength": 6,
       "label": "ecosystem services"
@@ -20716,6 +21037,13 @@
       "label": "plate tectonics"
     },
     {
+      "source": "biogeochemistry__N3",
+      "target": "ecological_engineering__N8",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "ecosystem ecology"
+    },
+    {
       "source": "biogeochemistry__N5",
       "target": "soil_science__soil_science",
       "relation": "cross_topic_connection",
@@ -20753,6 +21081,13 @@
     {
       "source": "complex_systems__ST",
       "target": "systems_thinking__N1",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "systems thinking"
+    },
+    {
+      "source": "systems_thinking__N1",
+      "target": "ecological_engineering__N9",
       "relation": "cross_topic_connection",
       "strength": 6,
       "label": "systems thinking"
@@ -20989,6 +21324,13 @@
       "label": "ecological restoration"
     },
     {
+      "source": "ecological_restoration__N1",
+      "target": "ecological_engineering__N10",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "ecological restoration"
+    },
+    {
       "source": "geopolitics__N13",
       "target": "sustainable_agriculture__UN",
       "relation": "cross_topic_connection",
@@ -21129,7 +21471,8 @@
       "archaeolinguistics"
     ],
     "engineering": [
-      "biomechanical_engineering"
+      "biomechanical_engineering",
+      "ecological_engineering"
     ],
     "anthropology": [
       "anthropology",
@@ -21160,5 +21503,5 @@
       "science_education"
     ]
   },
-  "last_updated": "2026-08-14T07:11:04.491536"
+  "last_updated": "2026-08-14T18:42:06.180706"
 }

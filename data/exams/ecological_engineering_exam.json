@@ -1,0 +1,164 @@
+{
+  "topic": "Ecological Engineering",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary goal of ecological engineering?",
+      "options": {
+        "A": "To design and construct ecosystems that benefit both humans and the environment",
+        "B": "To restore degraded ecosystems to their natural state",
+        "C": "To develop sustainable infrastructure",
+        "D": "To study the interactions between organisms and their environment"
+      },
+      "correct": "A",
+      "explanation": "Ecological engineering aims to provide benefits to both humans and the environment by designing, constructing, and managing ecosystems.",
+      "node_id": "Ecological Engineering",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is biomimicry in the context of ecological engineering?",
+      "options": {
+        "A": "The use of ecological principles to design and construct infrastructure",
+        "B": "The practice of using nature-inspired designs to solve human problems",
+        "C": "The study of the interactions between organisms and their environment",
+        "D": "The process of restoring degraded ecosystems to their natural state"
+      },
+      "correct": "B",
+      "explanation": "Biomimicry involves using nature-inspired designs to solve human problems, such as developing innovative materials and technologies.",
+      "node_id": "Biomimicry",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the significance of symbiotic nitrogen fixation in ecological engineering?",
+      "options": {
+        "A": "It helps to reduce greenhouse gas emissions",
+        "B": "It improves soil fertility and reduces erosion",
+        "C": "It is a critical component of ecosystem functioning and provides a usable form of nitrogen",
+        "D": "It is a key component of sustainable infrastructure"
+      },
+      "correct": "C",
+      "explanation": "Symbiotic nitrogen fixation is a critical component of ecosystem functioning, as it provides a usable form of nitrogen for organisms.",
+      "node_id": "Symbiotic Nitrogen Fixation",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the term for the benefits that humans derive from functioning ecosystems?",
+      "options": {
+        "A": "Ecosystem services",
+        "B": "Biodiversity",
+        "C": "Sustainable infrastructure",
+        "D": "Environmental systems management"
+      },
+      "correct": "A",
+      "explanation": "Ecosystem services refer to the benefits that humans derive from functioning ecosystems, including clean air and water, soil formation, and climate regulation.",
+      "node_id": "Ecosystem Services",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Who is considered one of the founders of ecological engineering?",
+      "options": {
+        "A": "Howard Odum",
+        "B": "E.O. Wilson",
+        "C": "Jane Goodall",
+        "D": "Rachel Carson"
+      },
+      "correct": "A",
+      "explanation": "Howard Odum is considered one of the founders of ecological engineering, as he was a pioneer in the field of systems ecology.",
+      "node_id": "Howard Odum",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the significance of soil ecological engineering in ecological engineering?",
+      "options": {
+        "A": "It helps to reduce greenhouse gas emissions",
+        "B": "It improves soil fertility and reduces erosion",
+        "C": "It is a critical component of ecosystem functioning and provides a usable form of nitrogen",
+        "D": "It is a key component of sustainable infrastructure"
+      },
+      "correct": "B",
+      "explanation": "Soil ecological engineering involves using ecological principles to manage and restore soil ecosystems, which can improve soil fertility and reduce erosion.",
+      "node_id": "Soil Ecological Engineering",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the design and construction of infrastructure that minimizes environmental impacts and promotes sustainability?",
+      "options": {
+        "A": "Sustainable infrastructure",
+        "B": "Environmental systems management",
+        "C": "Ecosystem ecology",
+        "D": "Ecological restoration"
+      },
+      "correct": "A",
+      "explanation": "Sustainable infrastructure refers to the design and construction of infrastructure that minimizes environmental impacts and promotes sustainability.",
+      "node_id": "Sustainable Infrastructure",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What are the key components of ecosystem services, and how do they benefit human societies?",
+      "sample_answer": "Ecosystem services include clean air and water, soil formation, and climate regulation. These services benefit human societies by providing essential resources, regulating the climate, and supporting biodiversity.",
+      "keywords": [
+        "ecosystem services",
+        "clean air and water",
+        "soil formation",
+        "climate regulation"
+      ],
+      "node_id": "Ecosystem Services",
+      "points": 15
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "How does ecological engineering contribute to mitigating the impacts of climate change, and what are some potential applications of this approach?",
+      "sample_answer": "Ecological engineering can contribute to mitigating the impacts of climate change by designing and constructing ecosystems that sequester carbon, reduce greenhouse gas emissions, and promote sustainable infrastructure. Potential applications include wetland restoration, sustainable agriculture, and urban planning.",
+      "keywords": [
+        "ecological engineering",
+        "climate change",
+        "carbon sequestration",
+        "sustainable infrastructure"
+      ],
+      "node_id": "Climate Change",
+      "points": 20
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What is the significance of biodiversity in ecological engineering, and how can it be promoted through sustainable practices?",
+      "sample_answer": "Biodiversity is essential for ecosystem functioning and human well-being. It can be promoted through sustainable practices such as ecological restoration, sustainable agriculture, and conservation of natural habitats.",
+      "keywords": [
+        "biodiversity",
+        "ecological engineering",
+        "sustainable practices",
+        "ecological restoration"
+      ],
+      "node_id": "Biodiversity",
+      "points": 15
+    }
+  ]
+}

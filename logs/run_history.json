@@ -882,5 +882,18 @@
     "master_total_topics": 68,
     "ended_at": "2026-08-14T07:11:04.506015",
     "duration_seconds": 47.2
+  },
+  {
+    "started_at": "2026-08-14T18:41:21.559917",
+    "status": "success",
+    "topic": "Ecological Engineering",
+    "sources_found": 6,
+    "images_found": 0,
+    "quality_score": 87.5,
+    "quality_passed": true,
+    "exam_questions": 10,
+    "master_total_topics": 69,
+    "ended_at": "2026-08-14T18:42:06.194711",
+    "duration_seconds": 44.6
   }
 ]
