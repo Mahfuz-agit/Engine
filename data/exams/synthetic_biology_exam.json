@@ -1,0 +1,162 @@
+{
+  "topic": "Synthetic Biology",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary goal of synthetic biology?",
+      "options": {
+        "A": "To develop new pharmaceuticals",
+        "B": "To apply engineering principles to develop new biological systems",
+        "C": "To study the complex interactions between genes and environmental factors",
+        "D": "To develop new agricultural products"
+      },
+      "correct": "B",
+      "explanation": "Synthetic biology is a multidisciplinary field that applies engineering principles to develop new biological systems, devices, and parts.",
+      "node_id": "Synthetic Biology",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which of the following is a key component of synthetic biology?",
+      "options": {
+        "A": "Genomics",
+        "B": "Genetic Engineering",
+        "C": "Epidemiology",
+        "D": "Toxicology"
+      },
+      "correct": "B",
+      "explanation": "Genetic engineering is a key component of synthetic biology, as it involves the direct manipulation of an organism's genes to introduce desired traits.",
+      "node_id": "Genetic Engineering",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the design and construction of new genomes using synthetic biology techniques?",
+      "options": {
+        "A": "Synthetic Genomics",
+        "B": "Genome Editing",
+        "C": "Metabolic Engineering",
+        "D": "Systems Biology"
+      },
+      "correct": "A",
+      "explanation": "Synthetic genomics is the design and construction of new genomes using synthetic biology techniques, which has the potential to revolutionize the field of biotechnology and medicine.",
+      "node_id": "Synthetic Genomics",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the study of the ethical and moral implications of biological research and its applications?",
+      "options": {
+        "A": "Bioethics",
+        "B": "Biotechnology",
+        "C": "Genetic Engineering",
+        "D": "Systems Biology"
+      },
+      "correct": "A",
+      "explanation": "Bioethics is the study of the ethical and moral implications of biological research and its applications, which has led to the development of guidelines and regulations for the use of biotechnology and genetic engineering.",
+      "node_id": "Bioethics",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which of the following is an application of synthetic biology?",
+      "options": {
+        "A": "Development of new materials",
+        "B": "Production of biofuels",
+        "C": "Study of complex biological systems",
+        "D": "Development of new pharmaceuticals"
+      },
+      "correct": "B",
+      "explanation": "Synthetic biology has the potential to revolutionize various industries, including energy, and one of the applications is the production of biofuels through metabolic engineering.",
+      "node_id": "Metabolic Engineering",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "Who is an American biologist and entrepreneur who has made significant contributions to the field of synthetic biology?",
+      "options": {
+        "A": "Craig Venter",
+        "B": "James Watson",
+        "C": "Francis Crick",
+        "D": "Rosalind Franklin"
+      },
+      "correct": "A",
+      "explanation": "Craig Venter is an American biologist and entrepreneur who has made significant contributions to the field of synthetic biology, including being the first person to sequence the human genome.",
+      "node_id": "Craig Venter",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the term for the software and hardware used to design, construct, and test synthetic biological systems?",
+      "options": {
+        "A": "Synthetic Biology Tools",
+        "B": "Genetic Engineering Software",
+        "C": "Biotechnology Equipment",
+        "D": "Systems Biology Platforms"
+      },
+      "correct": "A",
+      "explanation": "Synthetic biology tools are the software and hardware used to design, construct, and test synthetic biological systems, which have enabled the rapid design and construction of new biological systems.",
+      "node_id": "Synthetic Biology Tools",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What are the potential applications of synthetic biology in the field of healthcare?",
+      "sample_answer": "Synthetic biology has the potential to revolutionize the field of healthcare by enabling the development of new vaccines, antibiotics, and other life-saving medicines.",
+      "keywords": [
+        "healthcare",
+        "vaccines",
+        "antibiotics",
+        "biotechnology"
+      ],
+      "node_id": "Synthetic Biology",
+      "points": 15
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "How does synthetic biology differ from traditional genetic engineering?",
+      "sample_answer": "Synthetic biology differs from traditional genetic engineering in that it involves the design and construction of new biological systems, devices, and parts, rather than just manipulating existing ones.",
+      "keywords": [
+        "synthetic biology",
+        "genetic engineering",
+        "biological systems"
+      ],
+      "node_id": "Synthetic Biology",
+      "points": 15
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What is the role of systems biology in synthetic biology?",
+      "sample_answer": "Systems biology plays a crucial role in synthetic biology by enabling the study of complex biological systems and their interactions, which is essential for the design and construction of new biological systems.",
+      "keywords": [
+        "systems biology",
+        "synthetic biology",
+        "biological systems"
+      ],
+      "node_id": "Systems Biology",
+      "points": 15
+    }
+  ]
+}

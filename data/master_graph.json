@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 69,
-  "total_nodes": 1029,
-  "total_edges": 1258,
+  "total_topics": 70,
+  "total_nodes": 1044,
+  "total_edges": 1276,
   "topics": [
     {
       "topic": "Climate Change",
@@ -624,6 +624,15 @@
       "edge_count": 18,
       "description": "Ecological engineering is an interdisciplinary field that combines ecology and engineering to design, construct, and manage ecosystems that integrate human society with its natural environment. This field aims to provide benefits to both humans and the environment. Ecological engineering has various applications, including wetland restoration, ecosystem services, biomimicry, sustainable infrastructure, and environmental systems management.",
       "added_at": "2026-08-14T18:42:06.180649"
+    },
+    {
+      "topic": "Synthetic Biology",
+      "slug": "synthetic_biology",
+      "category": "biology",
+      "node_count": 15,
+      "edge_count": 18,
+      "description": "Synthetic biology is a multidisciplinary field that applies engineering principles to develop new biological systems, devices, and parts. It encompasses various methodologies from biochemistry, biotechnology, and genetic engineering to redesign existing systems found in nature. The field has the potential to revolutionize various industries, including healthcare, agriculture, and energy.",
+      "added_at": "2026-08-15T22:12:04.520240"
     }
   ],
   "global_nodes": [
@@ -11945,6 +11954,171 @@
       "fun_fact": "Climate change is one of the most significant environmental challenges facing humanity",
       "topic_slug": "ecological_engineering",
       "topic": "Ecological Engineering"
+    },
+    {
+      "id": "synthetic_biology__synthetic_biology",
+      "label": "Synthetic Biology",
+      "type": "core",
+      "depth": 0,
+      "description": "A multidisciplinary field that applies engineering principles to develop new biological systems, devices, and parts.",
+      "importance": 10,
+      "fun_fact": "Synthetic biology is often referred to as the 'design and construction' of new biological systems.",
+      "topic_slug": "synthetic_biology",
+      "topic": "Synthetic Biology"
+    },
+    {
+      "id": "synthetic_biology__genetic_engineering",
+      "label": "Genetic Engineering",
+      "type": "concept",
+      "depth": 1,
+      "description": "The direct manipulation of an organism's genes using biotechnology to introduce desired traits.",
+      "importance": 9,
+      "fun_fact": "Genetic engineering has been used to develop crops that are resistant to pests and diseases.",
+      "topic_slug": "synthetic_biology",
+      "topic": "Synthetic Biology"
+    },
+    {
+      "id": "synthetic_biology__biotechnology",
+      "label": "Biotechnology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The use of biological systems, living organisms, or derivatives thereof, to develop new products and technologies.",
+      "importance": 9,
+      "fun_fact": "Biotechnology has led to the development of vaccines, antibiotics, and other life-saving medicines.",
+      "topic_slug": "synthetic_biology",
+      "topic": "Synthetic Biology"
+    },
+    {
+      "id": "synthetic_biology__systems_biology",
+      "label": "Systems Biology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of complex biological systems and their interactions using a holistic approach.",
+      "importance": 8,
+      "fun_fact": "Systems biology has helped us understand the complex interactions between genes, proteins, and environmental factors.",
+      "topic_slug": "synthetic_biology",
+      "topic": "Synthetic Biology"
+    },
+    {
+      "id": "synthetic_biology__bioethics",
+      "label": "Bioethics",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the ethical and moral implications of biological research and its applications.",
+      "importance": 8,
+      "fun_fact": "Bioethics has led to the development of guidelines and regulations for the use of biotechnology and genetic engineering.",
+      "topic_slug": "synthetic_biology",
+      "topic": "Synthetic Biology"
+    },
+    {
+      "id": "synthetic_biology__metabolic_engineering",
+      "label": "Metabolic Engineering",
+      "type": "concept",
+      "depth": 1,
+      "description": "The use of genetic engineering to modify an organism's metabolic pathways to produce desired compounds.",
+      "importance": 8,
+      "fun_fact": "Metabolic engineering has been used to develop microorganisms that produce biofuels and other valuable chemicals.",
+      "topic_slug": "synthetic_biology",
+      "topic": "Synthetic Biology"
+    },
+    {
+      "id": "synthetic_biology__craig_venter",
+      "label": "Craig Venter",
+      "type": "person",
+      "depth": 2,
+      "description": "An American biologist and entrepreneur who has made significant contributions to the field of synthetic biology.",
+      "importance": 7,
+      "fun_fact": "Craig Venter was the first person to sequence the human genome.",
+      "topic_slug": "synthetic_biology",
+      "topic": "Synthetic Biology"
+    },
+    {
+      "id": "synthetic_biology__j_craig_venter_institute",
+      "label": "J. Craig Venter Institute",
+      "type": "example",
+      "depth": 2,
+      "description": "A non-profit research organization that focuses on the development of synthetic biology and genomics.",
+      "importance": 6,
+      "fun_fact": "The J. Craig Venter Institute has developed a synthetic genome that can be used to produce biofuels and other chemicals.",
+      "topic_slug": "synthetic_biology",
+      "topic": "Synthetic Biology"
+    },
+    {
+      "id": "synthetic_biology__synthetic_genomics",
+      "label": "Synthetic Genomics",
+      "type": "application",
+      "depth": 2,
+      "description": "The design and construction of new genomes using synthetic biology techniques.",
+      "importance": 7,
+      "fun_fact": "Synthetic genomics has the potential to revolutionize the field of biotechnology and medicine.",
+      "topic_slug": "synthetic_biology",
+      "topic": "Synthetic Biology"
+    },
+    {
+      "id": "synthetic_biology__biofuels",
+      "label": "Biofuels",
+      "type": "application",
+      "depth": 2,
+      "description": "Fuels that are produced from living organisms or their byproducts.",
+      "importance": 6,
+      "fun_fact": "Biofuels have the potential to reduce our reliance on fossil fuels and mitigate climate change.",
+      "topic_slug": "synthetic_biology",
+      "topic": "Synthetic Biology"
+    },
+    {
+      "id": "synthetic_biology__vaccines",
+      "label": "Vaccines",
+      "type": "application",
+      "depth": 2,
+      "description": "Biological preparations that provide immunity to specific diseases.",
+      "importance": 6,
+      "fun_fact": "Vaccines have saved millions of lives and have been instrumental in the eradication of diseases such as smallpox.",
+      "topic_slug": "synthetic_biology",
+      "topic": "Synthetic Biology"
+    },
+    {
+      "id": "synthetic_biology__genetically_modified_crops",
+      "label": "Genetically Modified Crops",
+      "type": "example",
+      "depth": 2,
+      "description": "Crops that have been genetically engineered to introduce desired traits such as pest resistance or drought tolerance.",
+      "importance": 5,
+      "fun_fact": "Genetically modified crops have the potential to increase crop yields and reduce the use of pesticides and herbicides.",
+      "topic_slug": "synthetic_biology",
+      "topic": "Synthetic Biology"
+    },
+    {
+      "id": "synthetic_biology__bioremediation",
+      "label": "Bioremediation",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of living organisms or their byproducts to clean up pollutants in the environment.",
+      "importance": 5,
+      "fun_fact": "Bioremediation has been used to clean up oil spills and other environmental disasters.",
+      "topic_slug": "synthetic_biology",
+      "topic": "Synthetic Biology"
+    },
+    {
+      "id": "synthetic_biology__microbial_fuel_cells",
+      "label": "Microbial Fuel Cells",
+      "type": "example",
+      "depth": 2,
+      "description": "Devices that use microorganisms to generate electricity from organic matter.",
+      "importance": 4,
+      "fun_fact": "Microbial fuel cells have the potential to provide a sustainable source of energy for remote communities.",
+      "topic_slug": "synthetic_biology",
+      "topic": "Synthetic Biology"
+    },
+    {
+      "id": "synthetic_biology__synthetic_biology_tools",
+      "label": "Synthetic Biology Tools",
+      "type": "concept",
+      "depth": 1,
+      "description": "The software and hardware used to design, construct, and test synthetic biological systems.",
+      "importance": 8,
+      "fun_fact": "Synthetic biology tools have enabled the rapid design and construction of new biological systems.",
+      "topic_slug": "synthetic_biology",
+      "topic": "Synthetic Biology"
     }
   ],
   "global_edges": [
@@ -20753,6 +20927,132 @@
       "relation": "contrasts_with",
       "strength": 10,
       "topic": "Ecological Engineering"
+    },
+    {
+      "source": "synthetic_biology__synthetic_biology",
+      "target": "synthetic_biology__genetic_engineering",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Synthetic Biology"
+    },
+    {
+      "source": "synthetic_biology__synthetic_biology",
+      "target": "synthetic_biology__biotechnology",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Synthetic Biology"
+    },
+    {
+      "source": "synthetic_biology__synthetic_biology",
+      "target": "synthetic_biology__systems_biology",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Synthetic Biology"
+    },
+    {
+      "source": "synthetic_biology__synthetic_biology",
+      "target": "synthetic_biology__bioethics",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Synthetic Biology"
+    },
+    {
+      "source": "synthetic_biology__synthetic_biology",
+      "target": "synthetic_biology__metabolic_engineering",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Synthetic Biology"
+    },
+    {
+      "source": "synthetic_biology__genetic_engineering",
+      "target": "synthetic_biology__craig_venter",
+      "relation": "discovered_by",
+      "strength": 7,
+      "topic": "Synthetic Biology"
+    },
+    {
+      "source": "synthetic_biology__biotechnology",
+      "target": "synthetic_biology__j_craig_venter_institute",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Synthetic Biology"
+    },
+    {
+      "source": "synthetic_biology__systems_biology",
+      "target": "synthetic_biology__synthetic_genomics",
+      "relation": "enables",
+      "strength": 7,
+      "topic": "Synthetic Biology"
+    },
+    {
+      "source": "synthetic_biology__bioethics",
+      "target": "synthetic_biology__vaccines",
+      "relation": "related_to",
+      "strength": 6,
+      "topic": "Synthetic Biology"
+    },
+    {
+      "source": "synthetic_biology__metabolic_engineering",
+      "target": "synthetic_biology__biofuels",
+      "relation": "used_in",
+      "strength": 6,
+      "topic": "Synthetic Biology"
+    },
+    {
+      "source": "synthetic_biology__synthetic_biology",
+      "target": "synthetic_biology__synthetic_biology_tools",
+      "relation": "depends_on",
+      "strength": 8,
+      "topic": "Synthetic Biology"
+    },
+    {
+      "source": "synthetic_biology__synthetic_biology_tools",
+      "target": "synthetic_biology__genetic_engineering",
+      "relation": "enables",
+      "strength": 8,
+      "topic": "Synthetic Biology"
+    },
+    {
+      "source": "synthetic_biology__synthetic_biology_tools",
+      "target": "synthetic_biology__biotechnology",
+      "relation": "enables",
+      "strength": 8,
+      "topic": "Synthetic Biology"
+    },
+    {
+      "source": "synthetic_biology__genetically_modified_crops",
+      "target": "synthetic_biology__bioremediation",
+      "relation": "related_to",
+      "strength": 5,
+      "topic": "Synthetic Biology"
+    },
+    {
+      "source": "synthetic_biology__microbial_fuel_cells",
+      "target": "synthetic_biology__biofuels",
+      "relation": "used_in",
+      "strength": 4,
+      "topic": "Synthetic Biology"
+    },
+    {
+      "source": "synthetic_biology__synthetic_genomics",
+      "target": "synthetic_biology__vaccines",
+      "relation": "enables",
+      "strength": 6,
+      "topic": "Synthetic Biology"
+    },
+    {
+      "source": "synthetic_biology__biofuels",
+      "target": "synthetic_biology__bioremediation",
+      "relation": "related_to",
+      "strength": 5,
+      "topic": "Synthetic Biology"
+    },
+    {
+      "source": "synthetic_biology__vaccines",
+      "target": "synthetic_biology__genetically_modified_crops",
+      "relation": "related_to",
+      "strength": 5,
+      "topic": "Synthetic Biology"
     }
   ],
   "cross_topic_edges": [
@@ -21002,6 +21302,13 @@
       "label": "genomics"
     },
     {
+      "source": "genomics__N2",
+      "target": "synthetic_biology__genetic_engineering",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "genetic engineering"
+    },
+    {
       "source": "genomics__N5",
       "target": "epigenetics__N1",
       "relation": "cross_topic_connection",
@@ -21200,6 +21507,13 @@
     {
       "source": "biophysics__N5",
       "target": "bioinformatics__N4",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "systems biology"
+    },
+    {
+      "source": "bioinformatics__N4",
+      "target": "synthetic_biology__systems_biology",
       "relation": "cross_topic_connection",
       "strength": 6,
       "label": "systems biology"
@@ -21431,7 +21745,8 @@
       "ecotoxicology",
       "environmental_microbiology",
       "bioinformatics",
-      "conservation_biology"
+      "conservation_biology",
+      "synthetic_biology"
     ],
     "psychology": [
       "neuroplasticity",
@@ -21503,5 +21818,5 @@
       "science_education"
     ]
   },
-  "last_updated": "2026-08-14T18:42:06.180706"
+  "last_updated": "2026-08-15T22:12:04.520280"
 }

@@ -1,0 +1,326 @@
+{
+  "topic": "Synthetic Biology",
+  "category": "biology",
+  "description": "Synthetic biology is a multidisciplinary field that applies engineering principles to develop new biological systems, devices, and parts. It encompasses various methodologies from biochemistry, biotechnology, and genetic engineering to redesign existing systems found in nature. The field has the potential to revolutionize various industries, including healthcare, agriculture, and energy.",
+  "nodes": [
+    {
+      "id": "synthetic_biology",
+      "label": "Synthetic Biology",
+      "type": "core",
+      "depth": 0,
+      "description": "A multidisciplinary field that applies engineering principles to develop new biological systems, devices, and parts.",
+      "importance": 10,
+      "fun_fact": "Synthetic biology is often referred to as the 'design and construction' of new biological systems."
+    },
+    {
+      "id": "genetic_engineering",
+      "label": "Genetic Engineering",
+      "type": "concept",
+      "depth": 1,
+      "description": "The direct manipulation of an organism's genes using biotechnology to introduce desired traits.",
+      "importance": 9,
+      "fun_fact": "Genetic engineering has been used to develop crops that are resistant to pests and diseases."
+    },
+    {
+      "id": "biotechnology",
+      "label": "Biotechnology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The use of biological systems, living organisms, or derivatives thereof, to develop new products and technologies.",
+      "importance": 9,
+      "fun_fact": "Biotechnology has led to the development of vaccines, antibiotics, and other life-saving medicines."
+    },
+    {
+      "id": "systems_biology",
+      "label": "Systems Biology",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of complex biological systems and their interactions using a holistic approach.",
+      "importance": 8,
+      "fun_fact": "Systems biology has helped us understand the complex interactions between genes, proteins, and environmental factors."
+    },
+    {
+      "id": "bioethics",
+      "label": "Bioethics",
+      "type": "concept",
+      "depth": 1,
+      "description": "The study of the ethical and moral implications of biological research and its applications.",
+      "importance": 8,
+      "fun_fact": "Bioethics has led to the development of guidelines and regulations for the use of biotechnology and genetic engineering."
+    },
+    {
+      "id": "metabolic_engineering",
+      "label": "Metabolic Engineering",
+      "type": "concept",
+      "depth": 1,
+      "description": "The use of genetic engineering to modify an organism's metabolic pathways to produce desired compounds.",
+      "importance": 8,
+      "fun_fact": "Metabolic engineering has been used to develop microorganisms that produce biofuels and other valuable chemicals."
+    },
+    {
+      "id": "craig_venter",
+      "label": "Craig Venter",
+      "type": "person",
+      "depth": 2,
+      "description": "An American biologist and entrepreneur who has made significant contributions to the field of synthetic biology.",
+      "importance": 7,
+      "fun_fact": "Craig Venter was the first person to sequence the human genome."
+    },
+    {
+      "id": "j_craig_venter_institute",
+      "label": "J. Craig Venter Institute",
+      "type": "example",
+      "depth": 2,
+      "description": "A non-profit research organization that focuses on the development of synthetic biology and genomics.",
+      "importance": 6,
+      "fun_fact": "The J. Craig Venter Institute has developed a synthetic genome that can be used to produce biofuels and other chemicals."
+    },
+    {
+      "id": "synthetic_genomics",
+      "label": "Synthetic Genomics",
+      "type": "application",
+      "depth": 2,
+      "description": "The design and construction of new genomes using synthetic biology techniques.",
+      "importance": 7,
+      "fun_fact": "Synthetic genomics has the potential to revolutionize the field of biotechnology and medicine."
+    },
+    {
+      "id": "biofuels",
+      "label": "Biofuels",
+      "type": "application",
+      "depth": 2,
+      "description": "Fuels that are produced from living organisms or their byproducts.",
+      "importance": 6,
+      "fun_fact": "Biofuels have the potential to reduce our reliance on fossil fuels and mitigate climate change."
+    },
+    {
+      "id": "vaccines",
+      "label": "Vaccines",
+      "type": "application",
+      "depth": 2,
+      "description": "Biological preparations that provide immunity to specific diseases.",
+      "importance": 6,
+      "fun_fact": "Vaccines have saved millions of lives and have been instrumental in the eradication of diseases such as smallpox."
+    },
+    {
+      "id": "genetically_modified_crops",
+      "label": "Genetically Modified Crops",
+      "type": "example",
+      "depth": 2,
+      "description": "Crops that have been genetically engineered to introduce desired traits such as pest resistance or drought tolerance.",
+      "importance": 5,
+      "fun_fact": "Genetically modified crops have the potential to increase crop yields and reduce the use of pesticides and herbicides."
+    },
+    {
+      "id": "bioremediation",
+      "label": "Bioremediation",
+      "type": "application",
+      "depth": 2,
+      "description": "The use of living organisms or their byproducts to clean up pollutants in the environment.",
+      "importance": 5,
+      "fun_fact": "Bioremediation has been used to clean up oil spills and other environmental disasters."
+    },
+    {
+      "id": "microbial_fuel_cells",
+      "label": "Microbial Fuel Cells",
+      "type": "example",
+      "depth": 2,
+      "description": "Devices that use microorganisms to generate electricity from organic matter.",
+      "importance": 4,
+      "fun_fact": "Microbial fuel cells have the potential to provide a sustainable source of energy for remote communities."
+    },
+    {
+      "id": "synthetic_biology_tools",
+      "label": "Synthetic Biology Tools",
+      "type": "concept",
+      "depth": 1,
+      "description": "The software and hardware used to design, construct, and test synthetic biological systems.",
+      "importance": 8,
+      "fun_fact": "Synthetic biology tools have enabled the rapid design and construction of new biological systems."
+    }
+  ],
+  "edges": [
+    {
+      "source": "synthetic_biology",
+      "target": "genetic_engineering",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Genetic engineering is a key component of synthetic biology."
+    },
+    {
+      "source": "synthetic_biology",
+      "target": "biotechnology",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Biotechnology is a key component of synthetic biology."
+    },
+    {
+      "source": "synthetic_biology",
+      "target": "systems_biology",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Systems biology is a key component of synthetic biology."
+    },
+    {
+      "source": "synthetic_biology",
+      "target": "bioethics",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Bioethics is a key component of synthetic biology."
+    },
+    {
+      "source": "synthetic_biology",
+      "target": "metabolic_engineering",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Metabolic engineering is a key component of synthetic biology."
+    },
+    {
+      "source": "genetic_engineering",
+      "target": "craig_venter",
+      "relation": "discovered_by",
+      "strength": 7,
+      "description": "Craig Venter has made significant contributions to the field of genetic engineering."
+    },
+    {
+      "source": "biotechnology",
+      "target": "j_craig_venter_institute",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "The J. Craig Venter Institute uses biotechnology to develop new synthetic biological systems."
+    },
+    {
+      "source": "systems_biology",
+      "target": "synthetic_genomics",
+      "relation": "enables",
+      "strength": 7,
+      "description": "Systems biology enables the development of synthetic genomics."
+    },
+    {
+      "source": "bioethics",
+      "target": "vaccines",
+      "relation": "related_to",
+      "strength": 6,
+      "description": "Bioethics is related to the development and use of vaccines."
+    },
+    {
+      "source": "metabolic_engineering",
+      "target": "biofuels",
+      "relation": "used_in",
+      "strength": 6,
+      "description": "Metabolic engineering is used to develop biofuels."
+    },
+    {
+      "source": "synthetic_biology",
+      "target": "synthetic_biology_tools",
+      "relation": "depends_on",
+      "strength": 8,
+      "description": "Synthetic biology depends on the development of synthetic biology tools."
+    },
+    {
+      "source": "synthetic_biology_tools",
+      "target": "genetic_engineering",
+      "relation": "enables",
+      "strength": 8,
+      "description": "Synthetic biology tools enable the development of genetic engineering."
+    },
+    {
+      "source": "synthetic_biology_tools",
+      "target": "biotechnology",
+      "relation": "enables",
+      "strength": 8,
+      "description": "Synthetic biology tools enable the development of biotechnology."
+    },
+    {
+      "source": "genetically_modified_crops",
+      "target": "bioremediation",
+      "relation": "related_to",
+      "strength": 5,
+      "description": "Genetically modified crops are related to bioremediation."
+    },
+    {
+      "source": "microbial_fuel_cells",
+      "target": "biofuels",
+      "relation": "used_in",
+      "strength": 4,
+      "description": "Microbial fuel cells are used to generate biofuels."
+    },
+    {
+      "source": "synthetic_genomics",
+      "target": "vaccines",
+      "relation": "enables",
+      "strength": 6,
+      "description": "Synthetic genomics enables the development of vaccines."
+    },
+    {
+      "source": "biofuels",
+      "target": "bioremediation",
+      "relation": "related_to",
+      "strength": 5,
+      "description": "Biofuels are related to bioremediation."
+    },
+    {
+      "source": "vaccines",
+      "target": "genetically_modified_crops",
+      "relation": "related_to",
+      "strength": 5,
+      "description": "Vaccines are related to genetically modified crops."
+    }
+  ],
+  "key_takeaways": [
+    "Synthetic biology is a multidisciplinary field that applies engineering principles to develop new biological systems.",
+    "Genetic engineering, biotechnology, and systems biology are key components of synthetic biology.",
+    "Synthetic biology has the potential to revolutionize various industries, including healthcare, agriculture, and energy."
+  ],
+  "real_world_impact": "Synthetic biology has the potential to revolutionize various industries, including healthcare, agriculture, and energy. For example, synthetic biology can be used to develop new vaccines, biofuels, and bioproducts. Additionally, synthetic biology can be used to improve crop yields, reduce pesticide use, and develop new bio-based materials. However, synthetic biology also raises ethical concerns, such as the potential for unintended consequences and the need for strict regulations. As the field of synthetic biology continues to evolve, it is essential to address these concerns and ensure that the benefits of synthetic biology are realized while minimizing its risks.",
+  "images": [],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Synthetic_biology",
+    "papers": [
+      {
+        "title": "Synthetic biology: applications come of age",
+        "url": "https://doi.org/10.1038/nrg2775"
+      },
+      {
+        "title": "Synthetic biology",
+        "url": "https://doi.org/10.1038/nrg1637"
+      },
+      {
+        "title": "Synthetic biology: new engineering rules for an emerging discipline",
+        "url": "https://doi.org/10.1038/msb4100073"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 18"
+      ],
+      "node_count": 15,
+      "edge_count": 18
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "gene_editing",
+        "biosafety"
+      ],
+      "strengths": [
+        "interdisciplinary connections",
+        "key applications"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}
