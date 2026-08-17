@@ -1,8 +1,8 @@
 {
   "created_at": "2024-01-01T00:00:00",
-  "total_topics": 70,
-  "total_nodes": 1044,
-  "total_edges": 1276,
+  "total_topics": 71,
+  "total_nodes": 1059,
+  "total_edges": 1293,
   "topics": [
     {
       "topic": "Climate Change",
@@ -633,6 +633,15 @@
       "edge_count": 18,
       "description": "Synthetic biology is a multidisciplinary field that applies engineering principles to develop new biological systems, devices, and parts. It encompasses various methodologies from biochemistry, biotechnology, and genetic engineering to redesign existing systems found in nature. The field has the potential to revolutionize various industries, including healthcare, agriculture, and energy.",
       "added_at": "2026-08-15T22:12:04.520240"
+    },
+    {
+      "topic": "Geospatial Analysis",
+      "slug": "geospatial_analysis",
+      "category": "geography",
+      "node_count": 15,
+      "edge_count": 17,
+      "description": "Geospatial analysis is the study of entities using their topological, geometric, or geographic properties, primarily used in urban design and applied in various fields such as astronomy, engineering, and genomics. It involves a range of techniques, including spatial statistics, and is used to analyze and understand spatial data. Geospatial analysis has numerous applications, including mapping, disease pattern detection, and climate monitoring.",
+      "added_at": "2026-08-17T06:35:42.725272"
     }
   ],
   "global_nodes": [
@@ -12119,6 +12128,171 @@
       "fun_fact": "Synthetic biology tools have enabled the rapid design and construction of new biological systems.",
       "topic_slug": "synthetic_biology",
       "topic": "Synthetic Biology"
+    },
+    {
+      "id": "geospatial_analysis__N1",
+      "label": "Geospatial Analysis",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of entities using their topological, geometric, or geographic properties",
+      "importance": 10,
+      "fun_fact": "Geospatial analysis has been used to study the placement of galaxies in the cosmos",
+      "topic_slug": "geospatial_analysis",
+      "topic": "Geospatial Analysis"
+    },
+    {
+      "id": "geospatial_analysis__N2",
+      "label": "Cartography",
+      "type": "concept",
+      "depth": 1,
+      "description": "The science and practice of making maps",
+      "importance": 8,
+      "fun_fact": "Cartography has been used for centuries to create maps for navigation and exploration",
+      "topic_slug": "geospatial_analysis",
+      "topic": "Geospatial Analysis"
+    },
+    {
+      "id": "geospatial_analysis__N3",
+      "label": "Remote Sensing",
+      "type": "concept",
+      "depth": 1,
+      "description": "The acquisition of information about an object or area without direct physical contact",
+      "importance": 8,
+      "fun_fact": "Remote sensing is used in various fields, including agriculture, forestry, and urban planning",
+      "topic_slug": "geospatial_analysis",
+      "topic": "Geospatial Analysis"
+    },
+    {
+      "id": "geospatial_analysis__N4",
+      "label": "Spatial Autocorrelation",
+      "type": "concept",
+      "depth": 1,
+      "description": "The tendency of nearby locations to have similar values",
+      "importance": 8,
+      "fun_fact": "Spatial autocorrelation is used to identify patterns and relationships in spatial data",
+      "topic_slug": "geospatial_analysis",
+      "topic": "Geospatial Analysis"
+    },
+    {
+      "id": "geospatial_analysis__N5",
+      "label": "Geographic Information Systems (GIS)",
+      "type": "application",
+      "depth": 2,
+      "description": "A computer-based tool for analyzing and displaying geographically referenced data",
+      "importance": 9,
+      "fun_fact": "GIS is widely used in various fields, including urban planning, natural resource management, and emergency response",
+      "topic_slug": "geospatial_analysis",
+      "topic": "Geospatial Analysis"
+    },
+    {
+      "id": "geospatial_analysis__N6",
+      "label": "Location-Based Services",
+      "type": "application",
+      "depth": 2,
+      "description": "Services that use location data to provide information or entertainment to users",
+      "importance": 8,
+      "fun_fact": "Location-based services are used in various industries, including transportation, retail, and tourism",
+      "topic_slug": "geospatial_analysis",
+      "topic": "Geospatial Analysis"
+    },
+    {
+      "id": "geospatial_analysis__N7",
+      "label": "Google Earth Engine",
+      "type": "example",
+      "depth": 3,
+      "description": "A cloud-based platform for planetary-scale geospatial analysis",
+      "importance": 8,
+      "fun_fact": "Google Earth Engine is used to study deforestation, drought, disaster, disease, food security, water management, and climate monitoring",
+      "topic_slug": "geospatial_analysis",
+      "topic": "Geospatial Analysis"
+    },
+    {
+      "id": "geospatial_analysis__N8",
+      "label": "COVID-19 Pandemic",
+      "type": "event",
+      "depth": 3,
+      "description": "A global pandemic caused by the SARS-CoV-2 virus",
+      "importance": 9,
+      "fun_fact": "Geospatial analysis was used to track the spread of COVID-19 and identify areas of high risk",
+      "topic_slug": "geospatial_analysis",
+      "topic": "Geospatial Analysis"
+    },
+    {
+      "id": "geospatial_analysis__N9",
+      "label": "Ecological Models",
+      "type": "concept",
+      "depth": 2,
+      "description": "Models that study the relationships between living organisms and their environment",
+      "importance": 8,
+      "fun_fact": "Ecological models are used to understand the impact of human activities on the environment",
+      "topic_slug": "geospatial_analysis",
+      "topic": "Geospatial Analysis"
+    },
+    {
+      "id": "geospatial_analysis__N10",
+      "label": "Crime Potentials Theory",
+      "type": "concept",
+      "depth": 2,
+      "description": "A theory that asserts certain subpopulations are disposed to participate in crime",
+      "importance": 8,
+      "fun_fact": "Crime potentials theory is used to study the relationship between alcohol outlets and violent assaults",
+      "topic_slug": "geospatial_analysis",
+      "topic": "Geospatial Analysis"
+    },
+    {
+      "id": "geospatial_analysis__N11",
+      "label": "Geospatial Analysis of COVID-19",
+      "type": "example",
+      "depth": 3,
+      "description": "A scoping review of geospatial techniques used to study the COVID-19 pandemic",
+      "importance": 8,
+      "fun_fact": "Geospatial analysis was used to identify areas of high risk and track the spread of COVID-19",
+      "topic_slug": "geospatial_analysis",
+      "topic": "Geospatial Analysis"
+    },
+    {
+      "id": "geospatial_analysis__N12",
+      "label": "Urban Design",
+      "type": "application",
+      "depth": 2,
+      "description": "The process of designing and creating urban environments",
+      "importance": 8,
+      "fun_fact": "Urban design uses geospatial analysis to create sustainable and livable cities",
+      "topic_slug": "geospatial_analysis",
+      "topic": "Geospatial Analysis"
+    },
+    {
+      "id": "geospatial_analysis__N13",
+      "label": "Astronomy",
+      "type": "application",
+      "depth": 2,
+      "description": "The study of the universe and its celestial objects",
+      "importance": 8,
+      "fun_fact": "Geospatial analysis is used in astronomy to study the placement of galaxies in the cosmos",
+      "topic_slug": "geospatial_analysis",
+      "topic": "Geospatial Analysis"
+    },
+    {
+      "id": "geospatial_analysis__N14",
+      "label": "Genomics",
+      "type": "application",
+      "depth": 2,
+      "description": "The study of the structure, function, and evolution of genomes",
+      "importance": 8,
+      "fun_fact": "Geospatial analysis is used in genomics to study the spatial distribution of genes and their expression",
+      "topic_slug": "geospatial_analysis",
+      "topic": "Geospatial Analysis"
+    },
+    {
+      "id": "geospatial_analysis__N15",
+      "label": "Spatial Statistics",
+      "type": "concept",
+      "depth": 1,
+      "description": "The branch of statistics that deals with the analysis of spatial data",
+      "importance": 9,
+      "fun_fact": "Spatial statistics is used to identify patterns and relationships in spatial data",
+      "topic_slug": "geospatial_analysis",
+      "topic": "Geospatial Analysis"
     }
   ],
   "global_edges": [
@@ -21053,6 +21227,125 @@
       "relation": "related_to",
       "strength": 5,
       "topic": "Synthetic Biology"
+    },
+    {
+      "source": "geospatial_analysis__N1",
+      "target": "geospatial_analysis__N2",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Geospatial Analysis"
+    },
+    {
+      "source": "geospatial_analysis__N1",
+      "target": "geospatial_analysis__N3",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Geospatial Analysis"
+    },
+    {
+      "source": "geospatial_analysis__N1",
+      "target": "geospatial_analysis__N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Geospatial Analysis"
+    },
+    {
+      "source": "geospatial_analysis__N2",
+      "target": "geospatial_analysis__N5",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Geospatial Analysis"
+    },
+    {
+      "source": "geospatial_analysis__N3",
+      "target": "geospatial_analysis__N5",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Geospatial Analysis"
+    },
+    {
+      "source": "geospatial_analysis__N4",
+      "target": "geospatial_analysis__N5",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Geospatial Analysis"
+    },
+    {
+      "source": "geospatial_analysis__N5",
+      "target": "geospatial_analysis__N6",
+      "relation": "enables",
+      "strength": 8,
+      "topic": "Geospatial Analysis"
+    },
+    {
+      "source": "geospatial_analysis__N5",
+      "target": "geospatial_analysis__N7",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Geospatial Analysis"
+    },
+    {
+      "source": "geospatial_analysis__N7",
+      "target": "geospatial_analysis__N8",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Geospatial Analysis"
+    },
+    {
+      "source": "geospatial_analysis__N8",
+      "target": "geospatial_analysis__N11",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Geospatial Analysis"
+    },
+    {
+      "source": "geospatial_analysis__N9",
+      "target": "geospatial_analysis__N10",
+      "relation": "related_to",
+      "strength": 8,
+      "topic": "Geospatial Analysis"
+    },
+    {
+      "source": "geospatial_analysis__N10",
+      "target": "geospatial_analysis__N11",
+      "relation": "used_in",
+      "strength": 8,
+      "topic": "Geospatial Analysis"
+    },
+    {
+      "source": "geospatial_analysis__N12",
+      "target": "geospatial_analysis__N1",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Geospatial Analysis"
+    },
+    {
+      "source": "geospatial_analysis__N13",
+      "target": "geospatial_analysis__N1",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Geospatial Analysis"
+    },
+    {
+      "source": "geospatial_analysis__N14",
+      "target": "geospatial_analysis__N1",
+      "relation": "is_part_of",
+      "strength": 8,
+      "topic": "Geospatial Analysis"
+    },
+    {
+      "source": "geospatial_analysis__N15",
+      "target": "geospatial_analysis__N1",
+      "relation": "is_part_of",
+      "strength": 9,
+      "topic": "Geospatial Analysis"
+    },
+    {
+      "source": "geospatial_analysis__N1",
+      "target": "geospatial_analysis__N15",
+      "relation": "depends_on",
+      "strength": 9,
+      "topic": "Geospatial Analysis"
     }
   ],
   "cross_topic_edges": [
@@ -21302,6 +21595,13 @@
       "label": "genomics"
     },
     {
+      "source": "bioinformatics__N2",
+      "target": "geospatial_analysis__N14",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "genomics"
+    },
+    {
       "source": "genomics__N2",
       "target": "synthetic_biology__genetic_engineering",
       "relation": "cross_topic_connection",
@@ -21335,6 +21635,13 @@
       "relation": "cross_topic_connection",
       "strength": 6,
       "label": "risk assessment"
+    },
+    {
+      "source": "environmental_epidemiology__EE7",
+      "target": "geospatial_analysis__N5",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "geographic information systems (gis)"
     },
     {
       "source": "geomorphology__N2",
@@ -21442,6 +21749,13 @@
       "label": "contact tracing"
     },
     {
+      "source": "cartography__cartography",
+      "target": "geospatial_analysis__N2",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "cartography"
+    },
+    {
       "source": "cartography__gis",
       "target": "geographic_information_systems__GIS",
       "relation": "cross_topic_connection",
@@ -21458,6 +21772,13 @@
     {
       "source": "cartography__remote_sensing",
       "target": "geographic_information_systems__Remote_Sensing",
+      "relation": "cross_topic_connection",
+      "strength": 6,
+      "label": "remote sensing"
+    },
+    {
+      "source": "geographic_information_systems__Remote_Sensing",
+      "target": "geospatial_analysis__N3",
       "relation": "cross_topic_connection",
       "strength": 6,
       "label": "remote sensing"
@@ -21721,7 +22042,8 @@
       "archaeomagnetism",
       "soil_science",
       "hydrogeology",
-      "geological_hazards_and_natural_disasters"
+      "geological_hazards_and_natural_disasters",
+      "geospatial_analysis"
     ],
     "biology": [
       "evolutionary_biology",
@@ -21818,5 +22140,5 @@
       "science_education"
     ]
   },
-  "last_updated": "2026-08-15T22:12:04.520280"
+  "last_updated": "2026-08-17T06:35:42.725302"
 }

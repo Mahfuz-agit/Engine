@@ -1,0 +1,161 @@
+{
+  "topic": "Geospatial Analysis",
+  "total_questions": 10,
+  "pass_score": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the primary focus of geospatial analysis?",
+      "options": {
+        "A": "The study of entities using their topological, geometric, or geographic properties",
+        "B": "The study of the universe and its celestial objects",
+        "C": "The science and practice of making maps",
+        "D": "The acquisition of information about an object or area without direct physical contact"
+      },
+      "correct": "A",
+      "explanation": "Geospatial analysis is a multidisciplinary field that involves the use of spatial data and techniques to understand and analyze geographic phenomena.",
+      "node_id": "Geospatial Analysis",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which of the following is an application of geospatial analysis?",
+      "options": {
+        "A": "Disease pattern detection and climate monitoring",
+        "B": "Urban design and astronomy",
+        "C": "Genomics and emergency response",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanation": "Geospatial analysis has numerous applications, including mapping, disease pattern detection, climate monitoring, urban design, astronomy, genomics, and emergency response.",
+      "node_id": "Geospatial Analysis",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the tendency of nearby locations to have similar values?",
+      "options": {
+        "A": "Spatial autocorrelation",
+        "B": "Spatial heterogeneity",
+        "C": "Spatial dependence",
+        "D": "Spatial randomness"
+      },
+      "correct": "A",
+      "explanation": "Spatial autocorrelation is the tendency of nearby locations to have similar values, which is a key concept in geospatial analysis.",
+      "node_id": "Spatial Autocorrelation",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the name of the cloud-based platform for planetary-scale geospatial analysis?",
+      "options": {
+        "A": "Google Earth Engine",
+        "B": "Geographic Information Systems (GIS)",
+        "C": "Remote Sensing",
+        "D": "Cartography"
+      },
+      "correct": "A",
+      "explanation": "Google Earth Engine is a cloud-based platform for planetary-scale geospatial analysis, used to study deforestation, drought, disaster, disease, food security, water management, and climate monitoring.",
+      "node_id": "Google Earth Engine",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which of the following is a fun fact about cartography?",
+      "options": {
+        "A": "Cartography has been used for centuries to create maps for navigation and exploration",
+        "B": "Cartography is a relatively new field that emerged in the 20th century",
+        "C": "Cartography is only used for creating maps of urban areas",
+        "D": "Cartography is not related to geospatial analysis"
+      },
+      "correct": "A",
+      "explanation": "Cartography has been used for centuries to create maps for navigation and exploration, and is a key component of geospatial analysis.",
+      "node_id": "Cartography",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What is the term for the study of the relationships between living organisms and their environment?",
+      "options": {
+        "A": "Ecological models",
+        "B": "Geospatial analysis",
+        "C": "Remote sensing",
+        "D": "Spatial statistics"
+      },
+      "correct": "A",
+      "explanation": "Ecological models study the relationships between living organisms and their environment, and are used to understand the impact of human activities on the environment.",
+      "node_id": "Ecological Models",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "Which of the following is an example of a location-based service?",
+      "options": {
+        "A": "A mapping app that provides directions",
+        "B": "A social media platform that allows users to share their location",
+        "C": "A weather app that provides forecasts based on location",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanation": "Location-based services use location data to provide information or entertainment to users, and examples include mapping apps, social media platforms, and weather apps.",
+      "node_id": "Location-Based Services",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What is the role of geospatial analysis in urban design?",
+      "sample_answer": "Geospatial analysis is used in urban design to create sustainable and livable cities by analyzing and understanding the spatial relationships between different urban features, such as transportation systems, land use patterns, and population density.",
+      "keywords": [
+        "urban design",
+        "geospatial analysis",
+        "sustainable cities"
+      ],
+      "node_id": "Urban Design",
+      "points": 15
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "difficulty": "hard",
+      "question": "How is geospatial analysis used in the study of the COVID-19 pandemic?",
+      "sample_answer": "Geospatial analysis is used in the study of the COVID-19 pandemic to track the spread of the disease, identify areas of high risk, and understand the spatial relationships between different factors, such as population density, transportation systems, and healthcare infrastructure.",
+      "keywords": [
+        "COVID-19 pandemic",
+        "geospatial analysis",
+        "disease tracking"
+      ],
+      "node_id": "Geospatial Analysis of COVID-19",
+      "points": 15
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "question": "What is the difference between spatial statistics and geospatial analysis?",
+      "sample_answer": "Spatial statistics is a branch of statistics that deals with the analysis of spatial data, while geospatial analysis is a multidisciplinary field that involves the use of spatial data and techniques to understand and analyze geographic phenomena.",
+      "keywords": [
+        "spatial statistics",
+        "geospatial analysis",
+        "spatial data"
+      ],
+      "node_id": "Spatial Statistics",
+      "points": 15
+    }
+  ]
+}

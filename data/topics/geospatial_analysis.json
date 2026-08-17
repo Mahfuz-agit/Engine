@@ -1,0 +1,319 @@
+{
+  "topic": "Geospatial Analysis",
+  "category": "geography",
+  "description": "Geospatial analysis is the study of entities using their topological, geometric, or geographic properties, primarily used in urban design and applied in various fields such as astronomy, engineering, and genomics. It involves a range of techniques, including spatial statistics, and is used to analyze and understand spatial data. Geospatial analysis has numerous applications, including mapping, disease pattern detection, and climate monitoring.",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Geospatial Analysis",
+      "type": "core",
+      "depth": 0,
+      "description": "The study of entities using their topological, geometric, or geographic properties",
+      "importance": 10,
+      "fun_fact": "Geospatial analysis has been used to study the placement of galaxies in the cosmos"
+    },
+    {
+      "id": "N2",
+      "label": "Cartography",
+      "type": "concept",
+      "depth": 1,
+      "description": "The science and practice of making maps",
+      "importance": 8,
+      "fun_fact": "Cartography has been used for centuries to create maps for navigation and exploration"
+    },
+    {
+      "id": "N3",
+      "label": "Remote Sensing",
+      "type": "concept",
+      "depth": 1,
+      "description": "The acquisition of information about an object or area without direct physical contact",
+      "importance": 8,
+      "fun_fact": "Remote sensing is used in various fields, including agriculture, forestry, and urban planning"
+    },
+    {
+      "id": "N4",
+      "label": "Spatial Autocorrelation",
+      "type": "concept",
+      "depth": 1,
+      "description": "The tendency of nearby locations to have similar values",
+      "importance": 8,
+      "fun_fact": "Spatial autocorrelation is used to identify patterns and relationships in spatial data"
+    },
+    {
+      "id": "N5",
+      "label": "Geographic Information Systems (GIS)",
+      "type": "application",
+      "depth": 2,
+      "description": "A computer-based tool for analyzing and displaying geographically referenced data",
+      "importance": 9,
+      "fun_fact": "GIS is widely used in various fields, including urban planning, natural resource management, and emergency response"
+    },
+    {
+      "id": "N6",
+      "label": "Location-Based Services",
+      "type": "application",
+      "depth": 2,
+      "description": "Services that use location data to provide information or entertainment to users",
+      "importance": 8,
+      "fun_fact": "Location-based services are used in various industries, including transportation, retail, and tourism"
+    },
+    {
+      "id": "N7",
+      "label": "Google Earth Engine",
+      "type": "example",
+      "depth": 3,
+      "description": "A cloud-based platform for planetary-scale geospatial analysis",
+      "importance": 8,
+      "fun_fact": "Google Earth Engine is used to study deforestation, drought, disaster, disease, food security, water management, and climate monitoring"
+    },
+    {
+      "id": "N8",
+      "label": "COVID-19 Pandemic",
+      "type": "event",
+      "depth": 3,
+      "description": "A global pandemic caused by the SARS-CoV-2 virus",
+      "importance": 9,
+      "fun_fact": "Geospatial analysis was used to track the spread of COVID-19 and identify areas of high risk"
+    },
+    {
+      "id": "N9",
+      "label": "Ecological Models",
+      "type": "concept",
+      "depth": 2,
+      "description": "Models that study the relationships between living organisms and their environment",
+      "importance": 8,
+      "fun_fact": "Ecological models are used to understand the impact of human activities on the environment"
+    },
+    {
+      "id": "N10",
+      "label": "Crime Potentials Theory",
+      "type": "concept",
+      "depth": 2,
+      "description": "A theory that asserts certain subpopulations are disposed to participate in crime",
+      "importance": 8,
+      "fun_fact": "Crime potentials theory is used to study the relationship between alcohol outlets and violent assaults"
+    },
+    {
+      "id": "N11",
+      "label": "Geospatial Analysis of COVID-19",
+      "type": "example",
+      "depth": 3,
+      "description": "A scoping review of geospatial techniques used to study the COVID-19 pandemic",
+      "importance": 8,
+      "fun_fact": "Geospatial analysis was used to identify areas of high risk and track the spread of COVID-19"
+    },
+    {
+      "id": "N12",
+      "label": "Urban Design",
+      "type": "application",
+      "depth": 2,
+      "description": "The process of designing and creating urban environments",
+      "importance": 8,
+      "fun_fact": "Urban design uses geospatial analysis to create sustainable and livable cities"
+    },
+    {
+      "id": "N13",
+      "label": "Astronomy",
+      "type": "application",
+      "depth": 2,
+      "description": "The study of the universe and its celestial objects",
+      "importance": 8,
+      "fun_fact": "Geospatial analysis is used in astronomy to study the placement of galaxies in the cosmos"
+    },
+    {
+      "id": "N14",
+      "label": "Genomics",
+      "type": "application",
+      "depth": 2,
+      "description": "The study of the structure, function, and evolution of genomes",
+      "importance": 8,
+      "fun_fact": "Geospatial analysis is used in genomics to study the spatial distribution of genes and their expression"
+    },
+    {
+      "id": "N15",
+      "label": "Spatial Statistics",
+      "type": "concept",
+      "depth": 1,
+      "description": "The branch of statistics that deals with the analysis of spatial data",
+      "importance": 9,
+      "fun_fact": "Spatial statistics is used to identify patterns and relationships in spatial data"
+    }
+  ],
+  "edges": [
+    {
+      "source": "N1",
+      "target": "N2",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Cartography is a part of geospatial analysis"
+    },
+    {
+      "source": "N1",
+      "target": "N3",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Remote sensing is a part of geospatial analysis"
+    },
+    {
+      "source": "N1",
+      "target": "N4",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Spatial autocorrelation is a part of geospatial analysis"
+    },
+    {
+      "source": "N2",
+      "target": "N5",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Cartography is used in GIS"
+    },
+    {
+      "source": "N3",
+      "target": "N5",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Remote sensing is used in GIS"
+    },
+    {
+      "source": "N4",
+      "target": "N5",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Spatial autocorrelation is used in GIS"
+    },
+    {
+      "source": "N5",
+      "target": "N6",
+      "relation": "enables",
+      "strength": 8,
+      "description": "GIS enables location-based services"
+    },
+    {
+      "source": "N5",
+      "target": "N7",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "GIS is used in Google Earth Engine"
+    },
+    {
+      "source": "N7",
+      "target": "N8",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Google Earth Engine was used to study the COVID-19 pandemic"
+    },
+    {
+      "source": "N8",
+      "target": "N11",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "The COVID-19 pandemic is an example of geospatial analysis"
+    },
+    {
+      "source": "N9",
+      "target": "N10",
+      "relation": "related_to",
+      "strength": 8,
+      "description": "Ecological models are related to crime potentials theory"
+    },
+    {
+      "source": "N10",
+      "target": "N11",
+      "relation": "used_in",
+      "strength": 8,
+      "description": "Crime potentials theory is used in geospatial analysis of COVID-19"
+    },
+    {
+      "source": "N12",
+      "target": "N1",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Urban design is a part of geospatial analysis"
+    },
+    {
+      "source": "N13",
+      "target": "N1",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Astronomy is a field that uses geospatial analysis"
+    },
+    {
+      "source": "N14",
+      "target": "N1",
+      "relation": "is_part_of",
+      "strength": 8,
+      "description": "Genomics is a field that uses geospatial analysis"
+    },
+    {
+      "source": "N15",
+      "target": "N1",
+      "relation": "is_part_of",
+      "strength": 9,
+      "description": "Spatial statistics is a part of geospatial analysis"
+    },
+    {
+      "source": "N1",
+      "target": "N15",
+      "relation": "depends_on",
+      "strength": 9,
+      "description": "Geospatial analysis depends on spatial statistics"
+    }
+  ],
+  "key_takeaways": [
+    "Geospatial analysis is a multidisciplinary field that involves the use of spatial data and techniques to understand and analyze geographic phenomena",
+    "Geospatial analysis has numerous applications, including urban design, astronomy, genomics, and emergency response",
+    "Geospatial analysis is used to study the COVID-19 pandemic and identify areas of high risk"
+  ],
+  "real_world_impact": "Geospatial analysis has numerous real-world applications, including urban planning, natural resource management, and emergency response. It is used to study the spread of diseases, identify areas of high risk, and track the movement of people and goods. Geospatial analysis is also used in various industries, including transportation, retail, and tourism, to provide location-based services and improve customer experience. The use of geospatial analysis has the potential to improve the lives of millions of people around the world by providing critical information and insights that can inform decision-making and policy development.",
+  "images": [],
+  "sources": {
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Spatial_analysis",
+    "papers": [
+      {
+        "title": "Google Earth Engine: Planetary-scale geospatial analysis for everyone",
+        "url": "https://doi.org/10.1016/j.rse.2017.06.031"
+      },
+      {
+        "title": "Ecological models of alcohol outlets and violent assaults: crime potentials and geospatial analysis",
+        "url": "https://doi.org/10.1111/j.1360-0443.2006.01405.x"
+      },
+      {
+        "title": "Geospatial Analysis of COVID-19: A Scoping Review",
+        "url": "https://doi.org/10.3390/ijerph18052336"
+      }
+    ],
+    "news": []
+  },
+  "quality": {
+    "structural": {
+      "score": 90,
+      "issues": [
+        "Too few edges: 17"
+      ],
+      "node_count": 15,
+      "edge_count": 17
+    },
+    "ai_review": {
+      "completeness": 85,
+      "accuracy": 90,
+      "connectivity": 80,
+      "educational_value": 88,
+      "depth": 82,
+      "overall_score": 85,
+      "missing_concepts": [
+        "Spatial Interpolation",
+        "Geospatial Data Mining"
+      ],
+      "strengths": [
+        "Clear relationships between geospatial analysis and its applications",
+        "Inclusion of various fields that utilize geospatial analysis"
+      ],
+      "verdict": "PASS"
+    },
+    "combined_score": 87.5,
+    "passed": true,
+    "verdict": "PASS"
+  },
+  "exam_generated": true
+}
